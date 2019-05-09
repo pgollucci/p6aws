@@ -1,0 +1,6 @@
+p6_aws_stepfunctions_state_machine_update() {
+    local state_machine_arn="$1"
+    shift 1
+
+    p6_log_or_run aws stepfunctions update-state-machine --state-machine-arn $state_machine_arn "$@"
+}

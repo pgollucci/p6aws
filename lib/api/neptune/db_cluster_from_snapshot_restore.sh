@@ -1,0 +1,8 @@
+p6_aws_neptune_db_cluster_from_snapshot_restore() {
+    local db_cluster_identifier="$1"
+    local snapshot_identifier="$2"
+    local engine="$3"
+    shift 3
+
+    p6_log_or_run aws neptune restore-db-cluster-from-snapshot --db-cluster-identifier $db_cluster_identifier --snapshot-identifier $snapshot_identifier --engine $engine "$@"
+}
