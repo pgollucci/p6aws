@@ -1,4 +1,4 @@
-aws_dms_replication_instances_describe() {
+p6_aws_dms_replication_instances_describe() {
 
-    log_and_run aws dms describe-replication-instances "$@"
+    p6_run_read_cmd aws dms describe-replication-instances "$@"
 }

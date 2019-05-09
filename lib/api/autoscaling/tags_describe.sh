@@ -1,4 +1,4 @@
-aws_autoscaling_tags_describe() {
+p6_aws_autoscaling_tags_describe() {
 
-    log_and_run aws autoscaling describe-tags "$@"
+    p6_run_read_cmd aws autoscaling describe-tags "$@"
 }

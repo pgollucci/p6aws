@@ -4,5 +4,5 @@ p6_aws_sqs_message_visibility_change() {
     local visibility_timeout="$3"
     shift 3
 
-    p6_log_or_run aws sqs change-message-visibility --queue-url $queue_url --receipt-handle $receipt_handle --visibility-timeout $visibility_timeout "$@"
+    p6_run_write_cmd aws sqs change-message-visibility --queue-url $queue_url --receipt-handle $receipt_handle --visibility-timeout $visibility_timeout "$@"
 }

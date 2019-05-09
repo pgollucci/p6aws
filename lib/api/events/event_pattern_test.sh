@@ -3,5 +3,5 @@ p6_aws_events_event_pattern_test() {
     local event="$2"
     shift 2
 
-    p6_log_or_run aws events test-event-pattern --event-pattern $event_pattern --event $event "$@"
+    p6_run_write_cmd aws events test-event-pattern --event-pattern $event_pattern --event $event "$@"
 }

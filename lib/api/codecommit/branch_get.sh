@@ -1,4 +1,4 @@
-aws_codecommit_branch_get() {
+p6_aws_codecommit_branch_get() {
 
-    log_and_run aws codecommit get-branch "$@"
+    p6_run_read_cmd aws codecommit get-branch "$@"
 }

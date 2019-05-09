@@ -62,8 +62,9 @@ p6_aws_sts_svc_role_unassume() {
 
     p6_file_unlink       "$cred_file"
     p6_file_copy         "$src_file"  "$cred_file"
-    p6_file_time_ma_sync "$src_file"  "$cred_file"
-    p6_file_remove       "$src_file"  "$assumed_file"
+    p6_file_ma_sync      "$src_file"  "$cred_file"
+    p6_file_rmf          "$src_file"
+    p6_file_rmf          "$assumed_file"
 
     p6_aws_cfg_restore_source
 
@@ -106,4 +107,23 @@ p6_aws_sts_svc_jc_refresh() {
     local saml_provider_email="$2"
 
     sts.py --provider jc --nicks "$nicks" --login $saml_provider_email --region us-east-1 --outputformat json
+}
+
+p6_aws_sts_svc_regions_disable() {
+    local account_email="$1"
+
+    # XXX: AWS API planned
+    sts_regions_disable.py --login $account_email
+}
+
+p6_aws_sts_svc_root_keys_delete() {
+    local account_email="$1"
+
+    sts_root_keys_delete.py --login $account_email
+}
+
+p6_aws_sts_svc_root_mfa_enable() {
+    local account_email="$1"
+
+    sts_root_mfa_enable.py --login $account_email
 }

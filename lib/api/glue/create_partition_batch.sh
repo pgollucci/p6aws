@@ -4,5 +4,5 @@ p6_aws_glue_create_partition_batch() {
     local partition_input_list="$3"
     shift 3
 
-    p6_log_or_run aws glue batch-create-partition --database-name $database_name --table-name $table_name --partition-input-list $partition_input_list "$@"
+    p6_run_write_cmd aws glue batch-create-partition --database-name $database_name --table-name $table_name --partition-input-list $partition_input_list "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_pinpoint_gcm_channel_update() {
     local gcm_channel_request="$2"
     shift 2
 
-    p6_log_or_run aws pinpoint update-gcm-channel --application-id $application_id --gcm-channel-request $gcm_channel_request "$@"
+    p6_run_write_cmd aws pinpoint update-gcm-channel --application-id $application_id --gcm-channel-request $gcm_channel_request "$@"
 }

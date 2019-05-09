@@ -1,6 +1,6 @@
-aws_cloudtrail_trail_delete() {
+p6_aws_cloudtrail_trail_delete() {
     local name="$1"
     shift 1
 
-    cond_log_and_run aws cloudtrail delete-trail --name $name "$@"
+    p6_run_write_cmd aws cloudtrail delete-trail --name $name "$@"
 }

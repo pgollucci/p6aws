@@ -6,5 +6,5 @@ p6_aws_ecr_layer_part_upload() {
     local layer_part_blob="$5"
     shift 5
 
-    p6_log_or_run aws ecr upload-layer-part --repository-name $repository_name --upload-id $upload_id --part-first-byte $part_first_byte --part-last-byte $part_last_byte --layer-part-blob $layer_part_blob "$@"
+    p6_run_write_cmd aws ecr upload-layer-part --repository-name $repository_name --upload-id $upload_id --part-first-byte $part_first_byte --part-last-byte $part_last_byte --layer-part-blob $layer_part_blob "$@"
 }

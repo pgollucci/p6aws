@@ -4,5 +4,5 @@ p6_aws_elasticache_cache_security_group_ingress_revoke() {
     local ec2_security_group_owner_id="$3"
     shift 3
 
-    p6_log_or_run aws elasticache revoke-cache-security-group-ingress --cache-security-group-name $cache_security_group_name --ec2-security-group-name $ec2_security_group_name --ec2-security-group-owner-id $ec2_security_group_owner_id "$@"
+    p6_run_write_cmd aws elasticache revoke-cache-security-group-ingress --cache-security-group-name $cache_security_group_name --ec2-security-group-name $ec2_security_group_name --ec2-security-group-owner-id $ec2_security_group_owner_id "$@"
 }

@@ -4,5 +4,5 @@ p6_aws_gamelift_build_upload() {
     local build_root="$3"
     shift 3
 
-    p6_log_or_run aws gamelift upload-build --name $name --build-version $build_version --build-root $build_root "$@"
+    p6_run_write_cmd aws gamelift upload-build --name $name --build-version $build_version --build-root $build_root "$@"
 }

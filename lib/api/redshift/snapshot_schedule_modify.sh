@@ -3,5 +3,5 @@ p6_aws_redshift_snapshot_schedule_modify() {
     local schedule_definitions="$2"
     shift 2
 
-    p6_log_or_run aws redshift modify-snapshot-schedule --schedule-identifier $schedule_identifier --schedule-definitions $schedule_definitions "$@"
+    p6_run_write_cmd aws redshift modify-snapshot-schedule --schedule-identifier $schedule_identifier --schedule-definitions $schedule_definitions "$@"
 }

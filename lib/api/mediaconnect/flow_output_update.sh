@@ -3,5 +3,5 @@ p6_aws_mediaconnect_flow_output_update() {
     local output_arn="$2"
     shift 2
 
-    p6_log_or_run aws mediaconnect update-flow-output --flow-arn $flow_arn --output-arn $output_arn "$@"
+    p6_run_write_cmd aws mediaconnect update-flow-output --flow-arn $flow_arn --output-arn $output_arn "$@"
 }

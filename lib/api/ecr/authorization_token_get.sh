@@ -1,4 +1,4 @@
 p6_aws_ecr_authorization_token_get() {
 
-    p6_log_and_run aws ecr get-authorization-token "$@"
+    p6_run_read_cmd aws ecr get-authorization-token "$@"
 }

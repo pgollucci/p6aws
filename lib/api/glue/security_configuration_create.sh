@@ -3,5 +3,5 @@ p6_aws_glue_security_configuration_create() {
     local encryption_configuration="$2"
     shift 2
 
-    p6_log_or_run aws glue create-security-configuration --name $name --encryption-configuration $encryption_configuration "$@"
+    p6_run_write_cmd aws glue create-security-configuration --name $name --encryption-configuration $encryption_configuration "$@"
 }

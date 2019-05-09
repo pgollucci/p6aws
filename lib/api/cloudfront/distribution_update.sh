@@ -1,6 +1,6 @@
-aws_cloudfront_distribution_update() {
+p6_aws_cloudfront_distribution_update() {
     local id="$1"
     shift 1
 
-    cond_log_and_run aws cloudfront update-distribution --id $id "$@"
+    p6_run_write_cmd aws cloudfront update-distribution --id $id "$@"
 }

@@ -1,4 +1,4 @@
-aws_apigateway_client_certificates_get() {
+p6_aws_apigateway_client_certificates_get() {
 
-    log_and_run aws apigateway get-client-certificates "$@"
+    p6_run_read_cmd aws apigateway get-client-certificates "$@"
 }

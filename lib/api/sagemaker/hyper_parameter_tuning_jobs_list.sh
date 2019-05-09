@@ -1,4 +1,4 @@
 p6_aws_sagemaker_hyper_parameter_tuning_jobs_list() {
 
-    p6_log_and_run aws sagemaker list-hyper-parameter-tuning-jobs "$@"
+    p6_run_read_cmd aws sagemaker list-hyper-parameter-tuning-jobs "$@"
 }

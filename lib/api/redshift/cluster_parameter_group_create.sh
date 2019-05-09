@@ -4,5 +4,5 @@ p6_aws_redshift_cluster_parameter_group_create() {
     local description="$3"
     shift 3
 
-    p6_log_or_run aws redshift create-cluster-parameter-group --parameter-group-name $parameter_group_name --parameter-group-family $parameter_group_family --description $description "$@"
+    p6_run_write_cmd aws redshift create-cluster-parameter-group --parameter-group-name $parameter_group_name --parameter-group-family $parameter_group_family --description $description "$@"
 }

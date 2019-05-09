@@ -4,5 +4,5 @@ p6_aws_stepfunctions_state_machine_create() {
     local role_arn="$3"
     shift 3
 
-    p6_log_or_run aws stepfunctions create-state-machine --name $name --definition $definition --role-arn $role_arn "$@"
+    p6_run_write_cmd aws stepfunctions create-state-machine --name $name --definition $definition --role-arn $role_arn "$@"
 }

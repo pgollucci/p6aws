@@ -1,6 +1,4 @@
-aws_athena_named_query_delete() {
-    local named_query_id="$1"
-    shift 1
+p6_aws_athena_named_query_delete() {
 
-    cond_log_and_run aws athena delete-named-query --named-query-id $named_query_id "$@"
+    p6_run_write_cmd aws athena delete-named-query "$@"
 }

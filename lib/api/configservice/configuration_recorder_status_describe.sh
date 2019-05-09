@@ -1,4 +1,4 @@
-aws_configservice_configuration_recorder_status_describe() {
+p6_aws_configservice_configuration_recorder_status_describe() {
 
-    log_and_run aws configservice describe-configuration-recorder-status "$@"
+    p6_run_read_cmd aws configservice describe-configuration-recorder-status "$@"
 }

@@ -1,4 +1,4 @@
-aws_directconnect_locations_describe() {
+p6_aws_directconnect_locations_describe() {
 
-    log_and_run aws directconnect describe-locations "$@"
+    p6_run_read_cmd aws directconnect describe-locations "$@"
 }

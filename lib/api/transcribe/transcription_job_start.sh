@@ -5,5 +5,5 @@ p6_aws_transcribe_transcription_job_start() {
     local media="$4"
     shift 4
 
-    p6_log_or_run aws transcribe start-transcription-job --transcription-job-name $transcription_job_name --language-code $language_code --media-format $media_format --media $media "$@"
+    p6_run_write_cmd aws transcribe start-transcription-job --transcription-job-name $transcription_job_name --language-code $language_code --media-format $media_format --media $media "$@"
 }

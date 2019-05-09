@@ -1,4 +1,4 @@
-aws_directconnect_connections_describe() {
+p6_aws_directconnect_connections_describe() {
 
-    log_and_run aws directconnect describe-connections "$@"
+    p6_run_read_cmd aws directconnect describe-connections "$@"
 }

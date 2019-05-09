@@ -1,6 +1,6 @@
-aws_cloudfront_cloud_front_origin_access_identity_delete() {
+p6_aws_cloudfront_cloud_front_origin_access_identity_delete() {
     local id="$1"
     shift 1
 
-    cond_log_and_run aws cloudfront delete-cloud-front-origin-access-identity --id $id "$@"
+    p6_run_write_cmd aws cloudfront delete-cloud-front-origin-access-identity --id $id "$@"
 }

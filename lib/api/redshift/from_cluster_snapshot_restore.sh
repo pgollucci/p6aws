@@ -3,5 +3,5 @@ p6_aws_redshift_from_cluster_snapshot_restore() {
     local snapshot_identifier="$2"
     shift 2
 
-    p6_log_or_run aws redshift restore-from-cluster-snapshot --cluster-identifier $cluster_identifier --snapshot-identifier $snapshot_identifier "$@"
+    p6_run_write_cmd aws redshift restore-from-cluster-snapshot --cluster-identifier $cluster_identifier --snapshot-identifier $snapshot_identifier "$@"
 }

@@ -5,5 +5,5 @@ p6_aws_kafka_cluster_create() {
     local number_of_broker_nodes="$4"
     shift 4
 
-    p6_log_or_run aws kafka create-cluster --broker-node-group-info $broker_node_group_info --cluster-name $cluster_name --kafka-version $kafka_version --number-of-broker-nodes $number_of_broker_nodes "$@"
+    p6_run_write_cmd aws kafka create-cluster --broker-node-group-info $broker_node_group_info --cluster-name $cluster_name --kafka-version $kafka_version --number-of-broker-nodes $number_of_broker_nodes "$@"
 }

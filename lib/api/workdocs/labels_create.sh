@@ -3,5 +3,5 @@ p6_aws_workdocs_labels_create() {
     local labels="$2"
     shift 2
 
-    p6_log_or_run aws workdocs create-labels --resource-id $resource_id --labels $labels "$@"
+    p6_run_write_cmd aws workdocs create-labels --resource-id $resource_id --labels $labels "$@"
 }

@@ -5,5 +5,5 @@ p6_aws_ds_directory_connect() {
     local connect_settings="$4"
     shift 4
 
-    p6_log_or_run aws ds connect-directory --name $name --password $password --size $size --connect-settings $connect_settings "$@"
+    p6_run_write_cmd aws ds connect-directory --name $name --password $password --size $size --connect-settings $connect_settings "$@"
 }

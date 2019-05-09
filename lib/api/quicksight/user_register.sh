@@ -6,5 +6,5 @@ p6_aws_quicksight_user_register() {
     local namespace="$5"
     shift 5
 
-    p6_log_or_run aws quicksight register-user --identity-type $identity_type --email $email --user-role $user_role --aws-account-id $aws_account_id --namespace $namespace "$@"
+    p6_run_write_cmd aws quicksight register-user --identity-type $identity_type --email $email --user-role $user_role --aws-account-id $aws_account_id --namespace $namespace "$@"
 }

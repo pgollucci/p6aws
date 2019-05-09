@@ -1,4 +1,4 @@
-aws_dms_endpoints_describe() {
+p6_aws_dms_endpoints_describe() {
 
-    log_and_run aws dms describe-endpoints "$@"
+    p6_run_read_cmd aws dms describe-endpoints "$@"
 }

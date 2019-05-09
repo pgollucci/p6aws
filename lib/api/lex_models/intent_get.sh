@@ -3,5 +3,5 @@ p6_aws_lex_models_intent_get() {
     local intent_version="$2"
     shift 2
 
-    p6_log_and_run aws lex-models get-intent --name $name --intent-version $intent_version "$@"
+    p6_run_read_cmd aws lex-models get-intent --name $name --intent-version $intent_version "$@"
 }

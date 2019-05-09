@@ -3,5 +3,5 @@ p6_aws_s3api_bucket_tagging_put() {
     local tagging="$2"
     shift 2
 
-    p6_log_or_run aws s3api put-bucket-tagging --bucket $bucket --tagging $tagging "$@"
+    p6_run_write_cmd aws s3api put-bucket-tagging --bucket $bucket --tagging $tagging "$@"
 }

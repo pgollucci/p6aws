@@ -1,6 +1,6 @@
-aws_cloudhsm_luna_client_create() {
+p6_aws_cloudhsm_luna_client_create() {
     local certificate="$1"
     shift 1
 
-    cond_log_and_run aws cloudhsm create-luna-client --certificate $certificate "$@"
+    p6_run_write_cmd aws cloudhsm create-luna-client --certificate $certificate "$@"
 }

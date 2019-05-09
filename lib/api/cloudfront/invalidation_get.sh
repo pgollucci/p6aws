@@ -1,7 +1,7 @@
-aws_cloudfront_invalidation_get() {
+p6_aws_cloudfront_invalidation_get() {
     local distribution_id="$1"
     local id="$2"
     shift 2
 
-    log_and_run aws cloudfront get-invalidation --distribution-id $distribution_id --id $id "$@"
+    p6_run_read_cmd aws cloudfront get-invalidation --distribution-id $distribution_id --id $id "$@"
 }

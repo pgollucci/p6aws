@@ -5,5 +5,5 @@ p6_aws_opsworks_layer_create() {
     local shortname="$4"
     shift 4
 
-    p6_log_or_run aws opsworks create-layer --stack-id $stack_id --type $type --name $name --shortname $shortname "$@"
+    p6_run_write_cmd aws opsworks create-layer --stack-id $stack_id --type $type --name $name --shortname $shortname "$@"
 }

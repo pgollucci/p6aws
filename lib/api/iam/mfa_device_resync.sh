@@ -5,5 +5,5 @@ p6_aws_iam_mfa_device_resync() {
     local authentication_code2="$4"
     shift 4
 
-    p6_log_or_run aws iam resync-mfa-device --user-name $user_name --serial-number $serial_number --authentication-code1 $authentication_code1 --authentication-code2 $authentication_code2 "$@"
+    p6_run_write_cmd aws iam resync-mfa-device --user-name $user_name --serial-number $serial_number --authentication-code1 $authentication_code1 --authentication-code2 $authentication_code2 "$@"
 }

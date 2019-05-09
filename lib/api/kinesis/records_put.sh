@@ -3,5 +3,5 @@ p6_aws_kinesis_records_put() {
     local stream_name="$2"
     shift 2
 
-    p6_log_or_run aws kinesis put-records --records $records --stream-name $stream_name "$@"
+    p6_run_write_cmd aws kinesis put-records --records $records --stream-name $stream_name "$@"
 }

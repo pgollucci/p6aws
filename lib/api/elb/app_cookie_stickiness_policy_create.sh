@@ -4,5 +4,5 @@ p6_aws_elb_app_cookie_stickiness_policy_create() {
     local cookie_name="$3"
     shift 3
 
-    p6_log_or_run aws elb create-app-cookie-stickiness-policy --load-balancer-name $load_balancer_name --policy-name $policy_name --cookie-name $cookie_name "$@"
+    p6_run_write_cmd aws elb create-app-cookie-stickiness-policy --load-balancer-name $load_balancer_name --policy-name $policy_name --cookie-name $cookie_name "$@"
 }

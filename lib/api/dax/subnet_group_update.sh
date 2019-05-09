@@ -1,6 +1,6 @@
-aws_dax_subnet_group_update() {
+p6_aws_dax_subnet_group_update() {
     local subnet_group_name="$1"
     shift 1
 
-    cond_log_and_run aws dax update-subnet-group --subnet-group-name $subnet_group_name "$@"
+    p6_run_write_cmd aws dax update-subnet-group --subnet-group-name $subnet_group_name "$@"
 }

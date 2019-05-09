@@ -4,5 +4,5 @@ p6_aws_neptune_db_instance_create() {
     local engine="$3"
     shift 3
 
-    p6_log_or_run aws neptune create-db-instance --db-instance-identifier $db_instance_identifier --db-instance-class $db_instance_class --engine $engine "$@"
+    p6_run_write_cmd aws neptune create-db-instance --db-instance-identifier $db_instance_identifier --db-instance-class $db_instance_class --engine $engine "$@"
 }

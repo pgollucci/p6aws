@@ -4,5 +4,5 @@ p6_aws_mgh_discovered_resource_associate() {
     local discovered_resource="$3"
     shift 3
 
-    p6_log_or_run aws mgh associate-discovered-resource --progress-update-stream $progress_update_stream --migration-task-name $migration_task_name --discovered-resource $discovered_resource "$@"
+    p6_run_write_cmd aws mgh associate-discovered-resource --progress-update-stream $progress_update_stream --migration-task-name $migration_task_name --discovered-resource $discovered_resource "$@"
 }

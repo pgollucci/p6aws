@@ -1,7 +1,7 @@
-aws_clouddirectory_resource_untag() {
+p6_aws_clouddirectory_resource_untag() {
     local resource_arn="$1"
     local tag_keys="$2"
     shift 2
 
-    cond_log_and_run aws clouddirectory untag-resource --resource-arn $resource_arn --tag-keys $tag_keys "$@"
+    p6_run_write_cmd aws clouddirectory untag-resource --resource-arn $resource_arn --tag-keys $tag_keys "$@"
 }

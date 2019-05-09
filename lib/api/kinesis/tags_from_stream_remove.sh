@@ -3,5 +3,5 @@ p6_aws_kinesis_tags_from_stream_remove() {
     local tag_keys="$2"
     shift 2
 
-    p6_log_or_run aws kinesis remove-tags-from-stream --stream-name $stream_name --tag-keys $tag_keys "$@"
+    p6_run_write_cmd aws kinesis remove-tags-from-stream --stream-name $stream_name --tag-keys $tag_keys "$@"
 }

@@ -5,5 +5,5 @@ p6_aws_lambda_function_create() {
     local handler="$4"
     shift 4
 
-    p6_log_or_run aws lambda create-function --function-name $function_name --runtime $runtime --role $role --handler $handler "$@"
+    p6_run_write_cmd aws lambda create-function --function-name $function_name --runtime $runtime --role $role --handler $handler "$@"
 }

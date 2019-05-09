@@ -3,5 +3,5 @@ p6_aws_sdb_attributes_get() {
     local item_name="$2"
     shift 2
 
-    p6_log_and_run aws sdb get-attributes --domain-name $domain_name --item-name $item_name "$@"
+    p6_run_read_cmd aws sdb get-attributes --domain-name $domain_name --item-name $item_name "$@"
 }

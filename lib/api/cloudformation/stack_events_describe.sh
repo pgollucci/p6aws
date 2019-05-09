@@ -1,4 +1,4 @@
-aws_cloudformation_stack_events_describe() {
+p6_aws_cloudformation_stack_events_describe() {
 
-    log_and_run aws cloudformation describe-stack-events "$@"
+    p6_run_read_cmd aws cloudformation describe-stack-events "$@"
 }

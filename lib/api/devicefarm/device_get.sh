@@ -1,6 +1,6 @@
-aws_devicefarm_device_get() {
+p6_aws_devicefarm_device_get() {
     local arn="$1"
     shift 1
 
-    log_and_run aws devicefarm get-device --arn $arn "$@"
+    p6_run_read_cmd aws devicefarm get-device --arn $arn "$@"
 }

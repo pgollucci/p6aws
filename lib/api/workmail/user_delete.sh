@@ -3,5 +3,5 @@ p6_aws_workmail_user_delete() {
     local user_id="$2"
     shift 2
 
-    p6_log_or_run aws workmail delete-user --organization-id $organization_id --user-id $user_id "$@"
+    p6_run_write_cmd aws workmail delete-user --organization-id $organization_id --user-id $user_id "$@"
 }

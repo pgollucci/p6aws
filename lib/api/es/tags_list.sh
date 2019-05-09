@@ -2,5 +2,5 @@ p6_aws_es_tags_list() {
     local arn="$1"
     shift 1
 
-    p6_log_and_run aws es list-tags --arn $arn "$@"
+    p6_run_read_cmd aws es list-tags --arn $arn "$@"
 }

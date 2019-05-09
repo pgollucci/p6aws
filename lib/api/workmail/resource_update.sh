@@ -3,5 +3,5 @@ p6_aws_workmail_resource_update() {
     local resource_id="$2"
     shift 2
 
-    p6_log_or_run aws workmail update-resource --organization-id $organization_id --resource-id $resource_id "$@"
+    p6_run_write_cmd aws workmail update-resource --organization-id $organization_id --resource-id $resource_id "$@"
 }

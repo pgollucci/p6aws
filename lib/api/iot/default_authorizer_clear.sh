@@ -1,4 +1,4 @@
 p6_aws_iot_default_authorizer_clear() {
 
-    p6_log_or_run aws iot clear-default-authorizer "$@"
+    p6_run_write_cmd aws iot clear-default-authorizer "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_pinpoint_export_job_get() {
     local job_id="$2"
     shift 2
 
-    p6_log_and_run aws pinpoint get-export-job --application-id $application_id --job-id $job_id "$@"
+    p6_run_read_cmd aws pinpoint get-export-job --application-id $application_id --job-id $job_id "$@"
 }

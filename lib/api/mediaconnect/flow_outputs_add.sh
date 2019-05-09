@@ -3,5 +3,5 @@ p6_aws_mediaconnect_flow_outputs_add() {
     local outputs="$2"
     shift 2
 
-    p6_log_or_run aws mediaconnect add-flow-outputs --flow-arn $flow_arn --outputs $outputs "$@"
+    p6_run_write_cmd aws mediaconnect add-flow-outputs --flow-arn $flow_arn --outputs $outputs "$@"
 }

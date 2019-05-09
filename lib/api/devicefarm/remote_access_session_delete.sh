@@ -1,6 +1,6 @@
-aws_devicefarm_remote_access_session_delete() {
+p6_aws_devicefarm_remote_access_session_delete() {
     local arn="$1"
     shift 1
 
-    cond_log_and_run aws devicefarm delete-remote-access-session --arn $arn "$@"
+    p6_run_write_cmd aws devicefarm delete-remote-access-session --arn $arn "$@"
 }

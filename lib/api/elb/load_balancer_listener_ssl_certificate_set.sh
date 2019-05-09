@@ -4,5 +4,5 @@ p6_aws_elb_load_balancer_listener_ssl_certificate_set() {
     local ssl_certificate_id="$3"
     shift 3
 
-    p6_log_and_run aws elb set-load-balancer-listener-ssl-certificate --load-balancer-name $load_balancer_name --load-balancer-port $load_balancer_port --ssl-certificate-id $ssl_certificate_id "$@"
+    p6_run_read_cmd aws elb set-load-balancer-listener-ssl-certificate --load-balancer-name $load_balancer_name --load-balancer-port $load_balancer_port --ssl-certificate-id $ssl_certificate_id "$@"
 }

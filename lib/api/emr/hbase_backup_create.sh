@@ -3,5 +3,5 @@ p6_aws_emr_hbase_backup_create() {
     local dir="$2"
     shift 2
 
-    p6_log_or_run aws emr create-hbase-backup --cluster-id $cluster_id --dir $dir "$@"
+    p6_run_write_cmd aws emr create-hbase-backup --cluster-id $cluster_id --dir $dir "$@"
 }

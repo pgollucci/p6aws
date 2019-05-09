@@ -3,5 +3,5 @@ p6_aws_waf_regional_permission_policy_put() {
     local policy="$2"
     shift 2
 
-    p6_log_or_run aws waf-regional put-permission-policy --resource-arn $resource_arn --policy $policy "$@"
+    p6_run_write_cmd aws waf-regional put-permission-policy --resource-arn $resource_arn --policy $policy "$@"
 }

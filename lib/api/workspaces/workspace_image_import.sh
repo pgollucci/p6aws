@@ -5,5 +5,5 @@ p6_aws_workspaces_workspace_image_import() {
     local image_description="$4"
     shift 4
 
-    p6_log_or_run aws workspaces import-workspace-image --ec2-image-id $ec2_image_id --ingestion-process $ingestion_process --image-name $image_name --image-description $image_description "$@"
+    p6_run_write_cmd aws workspaces import-workspace-image --ec2-image-id $ec2_image_id --ingestion-process $ingestion_process --image-name $image_name --image-description $image_description "$@"
 }

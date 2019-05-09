@@ -1,4 +1,4 @@
 p6_aws_ds_directories_describe() {
 
-    p6_log_and_run aws ds describe-directories "$@"
+    p6_run_read_cmd aws ds describe-directories "$@"
 }

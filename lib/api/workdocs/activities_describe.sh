@@ -1,4 +1,4 @@
 p6_aws_workdocs_activities_describe() {
 
-    p6_log_and_run aws workdocs describe-activities "$@"
+    p6_run_read_cmd aws workdocs describe-activities "$@"
 }

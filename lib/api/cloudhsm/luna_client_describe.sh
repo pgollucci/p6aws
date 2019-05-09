@@ -1,4 +1,4 @@
-aws_cloudhsm_luna_client_describe() {
+p6_aws_cloudhsm_luna_client_describe() {
 
-    log_and_run aws cloudhsm describe-luna-client "$@"
+    p6_run_read_cmd aws cloudhsm describe-luna-client "$@"
 }

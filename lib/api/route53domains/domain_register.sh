@@ -6,5 +6,5 @@ p6_aws_route53domains_domain_register() {
     local tech_contact="$5"
     shift 5
 
-    p6_log_or_run aws route53domains register-domain --domain-name $domain_name --duration-in-years $duration_in_years --admin-contact $admin_contact --registrant-contact $registrant_contact --tech-contact $tech_contact "$@"
+    p6_run_write_cmd aws route53domains register-domain --domain-name $domain_name --duration-in-years $duration_in_years --admin-contact $admin_contact --registrant-contact $registrant_contact --tech-contact $tech_contact "$@"
 }

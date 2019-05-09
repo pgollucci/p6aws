@@ -3,5 +3,5 @@ p6_aws_ec2_fleet_history_describe() {
     local start_time="$2"
     shift 2
 
-    p6_log_and_run aws ec2 describe-fleet-history --fleet-id $fleet_id --start-time $start_time "$@"
+    p6_run_read_cmd aws ec2 describe-fleet-history --fleet-id $fleet_id --start-time $start_time "$@"
 }

@@ -1,4 +1,4 @@
 p6_aws_medialive_input_create() {
 
-    p6_log_or_run aws medialive create-input "$@"
+    p6_run_write_cmd aws medialive create-input "$@"
 }

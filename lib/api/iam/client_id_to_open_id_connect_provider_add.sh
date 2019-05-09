@@ -3,5 +3,5 @@ p6_aws_iam_client_id_to_open_id_connect_provider_add() {
     local client_id="$2"
     shift 2
 
-    p6_log_or_run aws iam add-client-id-to-open-id-connect-provider --open-id-connect-provider-arn $open_id_connect_provider_arn --client-id $client_id "$@"
+    p6_run_write_cmd aws iam add-client-id-to-open-id-connect-provider --open-id-connect-provider-arn $open_id_connect_provider_arn --client-id $client_id "$@"
 }

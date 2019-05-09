@@ -1,6 +1,7 @@
 p6_aws_greengrass_role_to_group_associate() {
     local group_id="$1"
-    shift 1
+    local role_arn="$2"
+    shift 2
 
-    p6_log_or_run aws greengrass associate-role-to-group --group-id $group_id "$@"
+    p6_run_write_cmd aws greengrass associate-role-to-group --group-id $group_id --role-arn $role_arn "$@"
 }

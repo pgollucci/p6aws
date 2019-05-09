@@ -3,5 +3,5 @@ p6_aws_glacier_tags_from_vault_remove() {
     local vault_name="$2"
     shift 2
 
-    p6_log_or_run aws glacier remove-tags-from-vault --account-id $account_id --vault-name $vault_name "$@"
+    p6_run_write_cmd aws glacier remove-tags-from-vault --account-id $account_id --vault-name $vault_name "$@"
 }

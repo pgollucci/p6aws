@@ -4,5 +4,5 @@ p6_aws_iot_job_execution_delete() {
     local execution_number="$3"
     shift 3
 
-    p6_log_or_run aws iot delete-job-execution --job-id $job_id --thing-name $thing_name --execution-number $execution_number "$@"
+    p6_run_write_cmd aws iot delete-job-execution --job-id $job_id --thing-name $thing_name --execution-number $execution_number "$@"
 }

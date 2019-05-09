@@ -3,5 +3,5 @@ p6_aws_fms_compliance_detail_get() {
     local member_account="$2"
     shift 2
 
-    p6_log_and_run aws fms get-compliance-detail --policy-id $policy_id --member-account $member_account "$@"
+    p6_run_read_cmd aws fms get-compliance-detail --policy-id $policy_id --member-account $member_account "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_swf_pending_decision_tasks_count() {
     local task_list="$2"
     shift 2
 
-    p6_log_or_run aws swf count-pending-decision-tasks --domain $domain --task-list $task_list "$@"
+    p6_run_write_cmd aws swf count-pending-decision-tasks --domain $domain --task-list $task_list "$@"
 }

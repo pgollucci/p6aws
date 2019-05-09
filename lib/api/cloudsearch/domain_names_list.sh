@@ -1,4 +1,4 @@
-aws_cloudsearch_domain_names_list() {
+p6_aws_cloudsearch_domain_names_list() {
 
-    log_and_run aws cloudsearch list-domain-names "$@"
+    p6_run_read_cmd aws cloudsearch list-domain-names "$@"
 }

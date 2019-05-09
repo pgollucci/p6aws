@@ -7,5 +7,5 @@ p6_aws_ssm_task_with_maintenance_window_register() {
     local max_errors="$6"
     shift 6
 
-    p6_log_or_run aws ssm register-task-with-maintenance-window --window-id $window_id --targets $targets --task-arn $task_arn --task-type $task_type --max-concurrency $max_concurrency --max-errors $max_errors "$@"
+    p6_run_write_cmd aws ssm register-task-with-maintenance-window --window-id $window_id --targets $targets --task-arn $task_arn --task-type $task_type --max-concurrency $max_concurrency --max-errors $max_errors "$@"
 }

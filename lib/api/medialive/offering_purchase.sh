@@ -3,5 +3,5 @@ p6_aws_medialive_offering_purchase() {
     local offering_id="$2"
     shift 2
 
-    p6_log_or_run aws medialive purchase-offering --count $count --offering-id $offering_id "$@"
+    p6_run_write_cmd aws medialive purchase-offering --count $count --offering-id $offering_id "$@"
 }

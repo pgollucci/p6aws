@@ -4,5 +4,5 @@ p6_aws_ses_identity_policy_put() {
     local policy="$3"
     shift 3
 
-    p6_log_or_run aws ses put-identity-policy --identity $identity --policy-name $policy_name --policy $policy "$@"
+    p6_run_write_cmd aws ses put-identity-policy --identity $identity --policy-name $policy_name --policy $policy "$@"
 }

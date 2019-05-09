@@ -4,5 +4,5 @@ p6_aws_lambda_layer_version_permission_remove() {
     local statement_id="$3"
     shift 3
 
-    p6_log_or_run aws lambda remove-layer-version-permission --layer-name $layer_name --version-number $version_number --statement-id $statement_id "$@"
+    p6_run_write_cmd aws lambda remove-layer-version-permission --layer-name $layer_name --version-number $version_number --statement-id $statement_id "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_rds_db_cluster_snapshot_attribute_modify() {
     local attribute_name="$2"
     shift 2
 
-    p6_log_or_run aws rds modify-db-cluster-snapshot-attribute --db-cluster-snapshot-identifier $db_cluster_snapshot_identifier --attribute-name $attribute_name "$@"
+    p6_run_write_cmd aws rds modify-db-cluster-snapshot-attribute --db-cluster-snapshot-identifier $db_cluster_snapshot_identifier --attribute-name $attribute_name "$@"
 }

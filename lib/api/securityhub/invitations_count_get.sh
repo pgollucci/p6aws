@@ -1,4 +1,4 @@
 p6_aws_securityhub_invitations_count_get() {
 
-    p6_log_and_run aws securityhub get-invitations-count "$@"
+    p6_run_read_cmd aws securityhub get-invitations-count "$@"
 }

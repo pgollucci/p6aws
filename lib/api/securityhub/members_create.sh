@@ -1,4 +1,4 @@
 p6_aws_securityhub_members_create() {
 
-    p6_log_or_run aws securityhub create-members "$@"
+    p6_run_write_cmd aws securityhub create-members "$@"
 }

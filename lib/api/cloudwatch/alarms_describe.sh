@@ -1,4 +1,4 @@
-aws_cloudwatch_alarms_describe() {
+p6_aws_cloudwatch_alarms_describe() {
 
-    log_and_run aws cloudwatch describe-alarms "$@"
+    p6_run_read_cmd aws cloudwatch describe-alarms "$@"
 }

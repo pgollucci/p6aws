@@ -3,5 +3,5 @@ p6_aws_sagemaker_code_repository_create() {
     local git_config="$2"
     shift 2
 
-    p6_log_or_run aws sagemaker create-code-repository --code-repository-name $code_repository_name --git-config $git_config "$@"
+    p6_run_write_cmd aws sagemaker create-code-repository --code-repository-name $code_repository_name --git-config $git_config "$@"
 }

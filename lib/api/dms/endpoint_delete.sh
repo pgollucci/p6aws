@@ -1,6 +1,6 @@
-aws_dms_endpoint_delete() {
+p6_aws_dms_endpoint_delete() {
     local endpoint_arn="$1"
     shift 1
 
-    cond_log_and_run aws dms delete-endpoint --endpoint-arn $endpoint_arn "$@"
+    p6_run_write_cmd aws dms delete-endpoint --endpoint-arn $endpoint_arn "$@"
 }

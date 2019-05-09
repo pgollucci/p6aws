@@ -1,4 +1,4 @@
-aws_cloudtrail_subscription_update() {
+p6_aws_cloudtrail_subscription_update() {
 
-    cond_log_and_run aws cloudtrail update-subscription "$@"
+    p6_run_write_cmd aws cloudtrail update-subscription "$@"
 }

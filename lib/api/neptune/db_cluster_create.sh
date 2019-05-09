@@ -3,5 +3,5 @@ p6_aws_neptune_db_cluster_create() {
     local engine="$2"
     shift 2
 
-    p6_log_or_run aws neptune create-db-cluster --db-cluster-identifier $db_cluster_identifier --engine $engine "$@"
+    p6_run_write_cmd aws neptune create-db-cluster --db-cluster-identifier $db_cluster_identifier --engine $engine "$@"
 }

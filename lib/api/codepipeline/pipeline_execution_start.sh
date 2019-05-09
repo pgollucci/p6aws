@@ -1,6 +1,6 @@
-aws_codepipeline_pipeline_execution_start() {
+p6_aws_codepipeline_pipeline_execution_start() {
     local name="$1"
     shift 1
 
-    cond_log_and_run aws codepipeline start-pipeline-execution --name $name "$@"
+    p6_run_write_cmd aws codepipeline start-pipeline-execution --name $name "$@"
 }

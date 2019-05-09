@@ -4,5 +4,5 @@ p6_aws_quicksight_user_delete() {
     local namespace="$3"
     shift 3
 
-    p6_log_or_run aws quicksight delete-user --user-name $user_name --aws-account-id $aws_account_id --namespace $namespace "$@"
+    p6_run_write_cmd aws quicksight delete-user --user-name $user_name --aws-account-id $aws_account_id --namespace $namespace "$@"
 }

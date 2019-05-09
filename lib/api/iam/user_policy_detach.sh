@@ -3,5 +3,5 @@ p6_aws_iam_user_policy_detach() {
     local policy_arn="$2"
     shift 2
 
-    p6_log_or_run aws iam detach-user-policy --user-name $user_name --policy-arn $policy_arn "$@"
+    p6_run_write_cmd aws iam detach-user-policy --user-name $user_name --policy-arn $policy_arn "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_sns_endpoint_attributes_set() {
     local attributes="$2"
     shift 2
 
-    p6_log_or_run aws sns set-endpoint-attributes --endpoint-arn $endpoint_arn --attributes $attributes "$@"
+    p6_run_write_cmd aws sns set-endpoint-attributes --endpoint-arn $endpoint_arn --attributes $attributes "$@"
 }

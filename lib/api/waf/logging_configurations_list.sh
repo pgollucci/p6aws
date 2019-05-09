@@ -1,4 +1,4 @@
 p6_aws_waf_logging_configurations_list() {
 
-    p6_log_and_run aws waf list-logging-configurations "$@"
+    p6_run_read_cmd aws waf list-logging-configurations "$@"
 }

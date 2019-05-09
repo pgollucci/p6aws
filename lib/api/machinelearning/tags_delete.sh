@@ -4,5 +4,5 @@ p6_aws_machinelearning_tags_delete() {
     local resource_type="$3"
     shift 3
 
-    p6_log_or_run aws machinelearning delete-tags --tag-keys $tag_keys --resource-id $resource_id --resource-type $resource_type "$@"
+    p6_run_write_cmd aws machinelearning delete-tags --tag-keys $tag_keys --resource-id $resource_id --resource-type $resource_type "$@"
 }

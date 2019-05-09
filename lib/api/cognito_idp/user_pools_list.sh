@@ -1,6 +1,4 @@
-aws_cognito_idp_user_pools_list() {
-    local max_results="$1"
-    shift 1
+p6_aws_cognito_idp_user_pools_list() {
 
-    log_and_run aws cognito-idp list-user-pools --max-results $max_results "$@"
+    p6_run_read_cmd aws cognito-idp list-user-pools "$@"
 }

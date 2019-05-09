@@ -1,4 +1,4 @@
-aws_athena_named_queries_list() {
+p6_aws_athena_named_queries_list() {
 
-    log_and_run aws athena list-named-queries "$@"
+    p6_run_read_cmd aws athena list-named-queries "$@"
 }

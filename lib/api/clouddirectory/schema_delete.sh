@@ -1,6 +1,6 @@
-aws_clouddirectory_schema_delete() {
+p6_aws_clouddirectory_schema_delete() {
     local schema_arn="$1"
     shift 1
 
-    cond_log_and_run aws clouddirectory delete-schema --schema-arn $schema_arn "$@"
+    p6_run_write_cmd aws clouddirectory delete-schema --schema-arn $schema_arn "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_ecs_task_definition_register() {
     local container_definitions="$2"
     shift 2
 
-    p6_log_or_run aws ecs register-task-definition --family $family --container-definitions $container_definitions "$@"
+    p6_run_write_cmd aws ecs register-task-definition --family $family --container-definitions $container_definitions "$@"
 }

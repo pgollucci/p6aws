@@ -4,5 +4,5 @@ p6_aws_ec2_volume_attach() {
     local volume_id="$3"
     shift 3
 
-    p6_log_or_run aws ec2 attach-volume --device $device --instance-id $instance_id --volume-id $volume_id "$@"
+    p6_run_write_cmd aws ec2 attach-volume --device $device --instance-id $instance_id --volume-id $volume_id "$@"
 }

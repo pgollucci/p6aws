@@ -7,5 +7,5 @@ p6_aws_s3api_object_content_select() {
     local output_serialization="$6"
     shift 6
 
-    p6_log_or_run aws s3api select-object-content --bucket $bucket --key $key --expression $expression --expression-type $expression_type --input-serialization $input_serialization --output-serialization $output_serialization "$@"
+    p6_run_write_cmd aws s3api select-object-content --bucket $bucket --key $key --expression $expression --expression-type $expression_type --input-serialization $input_serialization --output-serialization $output_serialization "$@"
 }

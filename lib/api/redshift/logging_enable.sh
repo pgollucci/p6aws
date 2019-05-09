@@ -3,5 +3,5 @@ p6_aws_redshift_logging_enable() {
     local bucket_name="$2"
     shift 2
 
-    p6_log_or_run aws redshift enable-logging --cluster-identifier $cluster_identifier --bucket-name $bucket_name "$@"
+    p6_run_write_cmd aws redshift enable-logging --cluster-identifier $cluster_identifier --bucket-name $bucket_name "$@"
 }

@@ -4,5 +4,5 @@ p6_aws_route53domains_domain_suggestions_get() {
     local only_available="$3"
     shift 3
 
-    p6_log_and_run aws route53domains get-domain-suggestions --domain-name $domain_name --suggestion-count $suggestion_count --only-available $only_available "$@"
+    p6_run_read_cmd aws route53domains get-domain-suggestions --domain-name $domain_name --suggestion-count $suggestion_count --only-available $only_available "$@"
 }

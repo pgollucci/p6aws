@@ -1,4 +1,4 @@
-aws_devicefarm_offering_purchase() {
+p6_aws_devicefarm_offering_purchase() {
 
-    cond_log_and_run aws devicefarm purchase-offering "$@"
+    p6_run_write_cmd aws devicefarm purchase-offering "$@"
 }

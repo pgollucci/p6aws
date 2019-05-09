@@ -1,4 +1,4 @@
-aws_cloudformation_template_validate() {
+p6_aws_cloudformation_template_validate() {
 
-    cond_log_and_run aws cloudformation validate-template "$@"
+    p6_run_write_cmd aws cloudformation validate-template "$@"
 }

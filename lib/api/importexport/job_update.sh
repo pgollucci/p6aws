@@ -5,5 +5,5 @@ p6_aws_importexport_job_update() {
     local validate_only="$4"
     shift 4
 
-    p6_log_or_run aws importexport update-job --job-id $job_id --manifest $manifest --job-type $job_type --validate-only $validate_only "$@"
+    p6_run_write_cmd aws importexport update-job --job-id $job_id --manifest $manifest --job-type $job_type --validate-only $validate_only "$@"
 }

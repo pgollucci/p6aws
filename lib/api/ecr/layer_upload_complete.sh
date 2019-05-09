@@ -4,5 +4,5 @@ p6_aws_ecr_layer_upload_complete() {
     local layer_digests="$3"
     shift 3
 
-    p6_log_or_run aws ecr complete-layer-upload --repository-name $repository_name --upload-id $upload_id --layer-digests $layer_digests "$@"
+    p6_run_write_cmd aws ecr complete-layer-upload --repository-name $repository_name --upload-id $upload_id --layer-digests $layer_digests "$@"
 }

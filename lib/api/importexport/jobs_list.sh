@@ -1,4 +1,4 @@
 p6_aws_importexport_jobs_list() {
 
-    p6_log_and_run aws importexport list-jobs "$@"
+    p6_run_read_cmd aws importexport list-jobs "$@"
 }

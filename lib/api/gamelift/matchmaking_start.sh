@@ -3,5 +3,5 @@ p6_aws_gamelift_matchmaking_start() {
     local players="$2"
     shift 2
 
-    p6_log_or_run aws gamelift start-matchmaking --configuration-name $configuration_name --players $players "$@"
+    p6_run_write_cmd aws gamelift start-matchmaking --configuration-name $configuration_name --players $players "$@"
 }

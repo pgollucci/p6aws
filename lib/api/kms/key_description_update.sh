@@ -3,5 +3,5 @@ p6_aws_kms_key_description_update() {
     local description="$2"
     shift 2
 
-    p6_log_or_run aws kms update-key-description --key-id $key_id --description $description "$@"
+    p6_run_write_cmd aws kms update-key-description --key-id $key_id --description $description "$@"
 }

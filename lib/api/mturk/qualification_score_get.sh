@@ -3,5 +3,5 @@ p6_aws_mturk_qualification_score_get() {
     local worker_id="$2"
     shift 2
 
-    p6_log_and_run aws mturk get-qualification-score --qualification-type-id $qualification_type_id --worker-id $worker_id "$@"
+    p6_run_read_cmd aws mturk get-qualification-score --qualification-type-id $qualification_type_id --worker-id $worker_id "$@"
 }

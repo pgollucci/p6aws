@@ -3,5 +3,5 @@ p6_aws_elasticbeanstalk_application_resource_lifecycle_update() {
     local resource_lifecycle_config="$2"
     shift 2
 
-    p6_log_or_run aws elasticbeanstalk update-application-resource-lifecycle --application-name $application_name --resource-lifecycle-config $resource_lifecycle_config "$@"
+    p6_run_write_cmd aws elasticbeanstalk update-application-resource-lifecycle --application-name $application_name --resource-lifecycle-config $resource_lifecycle_config "$@"
 }

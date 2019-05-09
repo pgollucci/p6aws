@@ -3,5 +3,5 @@ p6_aws_workmail_user_describe() {
     local user_id="$2"
     shift 2
 
-    p6_log_and_run aws workmail describe-user --organization-id $organization_id --user-id $user_id "$@"
+    p6_run_read_cmd aws workmail describe-user --organization-id $organization_id --user-id $user_id "$@"
 }

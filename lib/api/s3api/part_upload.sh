@@ -5,5 +5,5 @@ p6_aws_s3api_part_upload() {
     local upload_id="$4"
     shift 4
 
-    p6_log_or_run aws s3api upload-part --bucket $bucket --key $key --part-number $part_number --upload-id $upload_id "$@"
+    p6_run_write_cmd aws s3api upload-part --bucket $bucket --key $key --part-number $part_number --upload-id $upload_id "$@"
 }

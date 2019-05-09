@@ -1,4 +1,4 @@
 p6_aws_iam_access_key_create() {
 
-    p6_log_or_run aws iam create-access-key "$@"
+    p6_run_write_cmd aws iam create-access-key "$@"
 }

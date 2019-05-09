@@ -1,4 +1,6 @@
-aws_cloudwatch_dashboards_delete() {
+p6_aws_cloudwatch_dashboards_delete() {
+    local dashboard_names="$1"
+    shift 1
 
-    cond_log_and_run aws cloudwatch delete-dashboards "$@"
+    p6_run_write_cmd aws cloudwatch delete-dashboards --dashboard-names $dashboard_names "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_rds_db_cluster_snapshot_create() {
     local db_cluster_identifier="$2"
     shift 2
 
-    p6_log_or_run aws rds create-db-cluster-snapshot --db-cluster-snapshot-identifier $db_cluster_snapshot_identifier --db-cluster-identifier $db_cluster_identifier "$@"
+    p6_run_write_cmd aws rds create-db-cluster-snapshot --db-cluster-snapshot-identifier $db_cluster_snapshot_identifier --db-cluster-identifier $db_cluster_identifier "$@"
 }

@@ -1,4 +1,4 @@
 p6_aws_workspaces_account_modify() {
 
-    p6_log_or_run aws workspaces modify-account "$@"
+    p6_run_write_cmd aws workspaces modify-account "$@"
 }

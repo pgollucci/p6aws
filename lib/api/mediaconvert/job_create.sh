@@ -3,5 +3,5 @@ p6_aws_mediaconvert_job_create() {
     local settings="$2"
     shift 2
 
-    p6_log_or_run aws mediaconvert create-job --role $role --settings $settings "$@"
+    p6_run_write_cmd aws mediaconvert create-job --role $role --settings $settings "$@"
 }

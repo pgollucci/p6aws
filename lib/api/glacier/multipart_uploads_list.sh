@@ -3,5 +3,5 @@ p6_aws_glacier_multipart_uploads_list() {
     local vault_name="$2"
     shift 2
 
-    p6_log_and_run aws glacier list-multipart-uploads --account-id $account_id --vault-name $vault_name "$@"
+    p6_run_read_cmd aws glacier list-multipart-uploads --account-id $account_id --vault-name $vault_name "$@"
 }

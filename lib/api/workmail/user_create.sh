@@ -5,5 +5,5 @@ p6_aws_workmail_user_create() {
     local password="$4"
     shift 4
 
-    p6_log_or_run aws workmail create-user --organization-id $organization_id --name $name --display-name $display_name --password $password "$@"
+    p6_run_write_cmd aws workmail create-user --organization-id $organization_id --name $name --display-name $display_name --password $password "$@"
 }

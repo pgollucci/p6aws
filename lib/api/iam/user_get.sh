@@ -1,4 +1,4 @@
 p6_aws_iam_user_get() {
 
-    p6_log_and_run aws iam get-user "$@"
+    p6_run_read_cmd aws iam get-user "$@"
 }

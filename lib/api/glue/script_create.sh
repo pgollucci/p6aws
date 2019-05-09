@@ -1,4 +1,4 @@
 p6_aws_glue_script_create() {
 
-    p6_log_or_run aws glue create-script "$@"
+    p6_run_write_cmd aws glue create-script "$@"
 }

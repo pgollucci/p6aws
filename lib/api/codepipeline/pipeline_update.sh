@@ -1,6 +1,6 @@
-aws_codepipeline_pipeline_update() {
+p6_aws_codepipeline_pipeline_update() {
     local pipeline="$1"
     shift 1
 
-    cond_log_and_run aws codepipeline update-pipeline --pipeline $pipeline "$@"
+    p6_run_write_cmd aws codepipeline update-pipeline --pipeline $pipeline "$@"
 }

@@ -4,5 +4,5 @@ p6_aws_robomaker_robot_application_update() {
     local robot_software_suite="$3"
     shift 3
 
-    p6_log_or_run aws robomaker update-robot-application --application $application --sources $sources --robot-software-suite $robot_software_suite "$@"
+    p6_run_write_cmd aws robomaker update-robot-application --application $application --sources $sources --robot-software-suite $robot_software_suite "$@"
 }

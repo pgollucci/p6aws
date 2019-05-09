@@ -3,5 +3,5 @@ p6_aws_iotanalytics_put_message_batch() {
     local messages="$2"
     shift 2
 
-    p6_log_or_run aws iotanalytics batch-put-message --channel-name $channel_name --messages $messages "$@"
+    p6_run_write_cmd aws iotanalytics batch-put-message --channel-name $channel_name --messages $messages "$@"
 }

@@ -5,5 +5,5 @@ p6_aws_redshift_cluster_create() {
     local master_user_password="$4"
     shift 4
 
-    p6_log_or_run aws redshift create-cluster --cluster-identifier $cluster_identifier --node-type $node_type --master-username $master_username --master-user-password $master_user_password "$@"
+    p6_run_write_cmd aws redshift create-cluster --cluster-identifier $cluster_identifier --node-type $node_type --master-username $master_username --master-user-password $master_user_password "$@"
 }

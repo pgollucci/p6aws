@@ -4,5 +4,5 @@ p6_aws_workmail_password_reset() {
     local password="$3"
     shift 3
 
-    p6_log_or_run aws workmail reset-password --organization-id $organization_id --user-id $user_id --password $password "$@"
+    p6_run_write_cmd aws workmail reset-password --organization-id $organization_id --user-id $user_id --password $password "$@"
 }

@@ -1,4 +1,4 @@
-aws_discovery_export_tasks_describe() {
+p6_aws_discovery_export_tasks_describe() {
 
-    log_and_run aws discovery describe-export-tasks "$@"
+    p6_run_read_cmd aws discovery describe-export-tasks "$@"
 }

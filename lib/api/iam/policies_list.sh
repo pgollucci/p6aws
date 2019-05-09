@@ -1,4 +1,4 @@
 p6_aws_iam_policies_list() {
 
-    p6_log_and_run aws iam list-policies "$@"
+    p6_run_read_cmd aws iam list-policies "$@"
 }

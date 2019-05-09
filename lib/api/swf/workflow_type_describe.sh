@@ -3,5 +3,5 @@ p6_aws_swf_workflow_type_describe() {
     local workflow_type="$2"
     shift 2
 
-    p6_log_and_run aws swf describe-workflow-type --domain $domain --workflow-type $workflow_type "$@"
+    p6_run_read_cmd aws swf describe-workflow-type --domain $domain --workflow-type $workflow_type "$@"
 }

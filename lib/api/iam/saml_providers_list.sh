@@ -1,4 +1,4 @@
 p6_aws_iam_saml_providers_list() {
 
-    p6_log_and_run aws iam list-saml-providers "$@"
+    p6_run_read_cmd aws iam list-saml-providers "$@"
 }

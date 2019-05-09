@@ -5,5 +5,5 @@ p6_aws_organizations_policy_create() {
     local type="$4"
     shift 4
 
-    p6_log_or_run aws organizations create-policy --content $content --description $description --name $name --type $type "$@"
+    p6_run_write_cmd aws organizations create-policy --content $content --description $description --name $name --type $type "$@"
 }

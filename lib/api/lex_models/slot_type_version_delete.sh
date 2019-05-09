@@ -3,5 +3,5 @@ p6_aws_lex_models_slot_type_version_delete() {
     local slot_type_version="$2"
     shift 2
 
-    p6_log_or_run aws lex-models delete-slot-type-version --name $name --slot-type-version $slot_type_version "$@"
+    p6_run_write_cmd aws lex-models delete-slot-type-version --name $name --slot-type-version $slot_type_version "$@"
 }

@@ -5,5 +5,5 @@ p6_aws_opsworks_rds_db_instance_register() {
     local db_password="$4"
     shift 4
 
-    p6_log_or_run aws opsworks register-rds-db-instance --stack-id $stack_id --rds-db-instance-arn $rds_db_instance_arn --db-user $db_user --db-password $db_password "$@"
+    p6_run_write_cmd aws opsworks register-rds-db-instance --stack-id $stack_id --rds-db-instance-arn $rds_db_instance_arn --db-user $db_user --db-password $db_password "$@"
 }

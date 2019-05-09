@@ -3,5 +3,5 @@ p6_aws_lex_models_intent_version_delete() {
     local intent_version="$2"
     shift 2
 
-    p6_log_or_run aws lex-models delete-intent-version --name $name --intent-version $intent_version "$@"
+    p6_run_write_cmd aws lex-models delete-intent-version --name $name --intent-version $intent_version "$@"
 }

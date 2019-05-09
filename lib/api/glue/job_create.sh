@@ -4,5 +4,5 @@ p6_aws_glue_job_create() {
     local command="$3"
     shift 3
 
-    p6_log_or_run aws glue create-job --name $name --role $role --command $command "$@"
+    p6_run_write_cmd aws glue create-job --name $name --role $role --command $command "$@"
 }

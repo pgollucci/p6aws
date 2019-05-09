@@ -3,5 +3,5 @@ p6_aws_lambda_resource_tag() {
     local tags="$2"
     shift 2
 
-    p6_log_or_run aws lambda tag-resource --resource $resource --tags $tags "$@"
+    p6_run_write_cmd aws lambda tag-resource --resource $resource --tags $tags "$@"
 }

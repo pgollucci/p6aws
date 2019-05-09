@@ -3,5 +3,5 @@ p6_aws_waf_regional_xss_match_set_delete() {
     local change_token="$2"
     shift 2
 
-    p6_log_or_run aws waf-regional delete-xss-match-set --xss-match-set-id $xss_match_set_id --change-token $change_token "$@"
+    p6_run_write_cmd aws waf-regional delete-xss-match-set --xss-match-set-id $xss_match_set_id --change-token $change_token "$@"
 }

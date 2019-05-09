@@ -5,5 +5,5 @@ p6_aws_glue_partition_update() {
     local partition_input="$4"
     shift 4
 
-    p6_log_or_run aws glue update-partition --database-name $database_name --table-name $table_name --partition-value-list $partition_value_list --partition-input $partition_input "$@"
+    p6_run_write_cmd aws glue update-partition --database-name $database_name --table-name $table_name --partition-value-list $partition_value_list --partition-input $partition_input "$@"
 }

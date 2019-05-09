@@ -1,4 +1,4 @@
-aws_cloudtrail_trails_describe() {
+p6_aws_cloudtrail_trails_describe() {
 
-    log_and_run aws cloudtrail describe-trails "$@"
+    p6_run_read_cmd aws cloudtrail describe-trails "$@"
 }

@@ -1,6 +1,6 @@
-aws_cloudformation_change_set_delete() {
+p6_aws_cloudformation_change_set_delete() {
     local change_set_name="$1"
     shift 1
 
-    cond_log_and_run aws cloudformation delete-change-set --change-set-name $change_set_name "$@"
+    p6_run_write_cmd aws cloudformation delete-change-set --change-set-name $change_set_name "$@"
 }

@@ -1,6 +1,4 @@
-aws_appstream_fleet_update() {
-    local name="$1"
-    shift 1
+p6_aws_appstream_fleet_update() {
 
-    cond_log_and_run aws appstream update-fleet --name $name "$@"
+    p6_run_write_cmd aws appstream update-fleet "$@"
 }

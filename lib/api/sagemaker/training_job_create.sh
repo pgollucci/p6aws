@@ -7,5 +7,5 @@ p6_aws_sagemaker_training_job_create() {
     local stopping_condition="$6"
     shift 6
 
-    p6_log_or_run aws sagemaker create-training-job --training-job-name $training_job_name --algorithm-specification $algorithm_specification --role-arn $role_arn --output-data-config $output_data_config --resource-config $resource_config --stopping-condition $stopping_condition "$@"
+    p6_run_write_cmd aws sagemaker create-training-job --training-job-name $training_job_name --algorithm-specification $algorithm_specification --role-arn $role_arn --output-data-config $output_data_config --resource-config $resource_config --stopping-condition $stopping_condition "$@"
 }

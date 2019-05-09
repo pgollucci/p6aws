@@ -3,5 +3,5 @@ p6_aws_kms_resource_tag() {
     local tags="$2"
     shift 2
 
-    p6_log_or_run aws kms tag-resource --key-id $key_id --tags $tags "$@"
+    p6_run_write_cmd aws kms tag-resource --key-id $key_id --tags $tags "$@"
 }

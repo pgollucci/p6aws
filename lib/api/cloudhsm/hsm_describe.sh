@@ -1,4 +1,4 @@
-aws_cloudhsm_hsm_describe() {
+p6_aws_cloudhsm_hsm_describe() {
 
-    log_and_run aws cloudhsm describe-hsm "$@"
+    p6_run_read_cmd aws cloudhsm describe-hsm "$@"
 }

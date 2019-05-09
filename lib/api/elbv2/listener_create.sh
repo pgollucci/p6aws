@@ -5,5 +5,5 @@ p6_aws_elbv2_listener_create() {
     local default_actions="$4"
     shift 4
 
-    p6_log_and_run aws elbv2 create-listener --load-balancer-arn $load_balancer_arn --protocol $protocol --port $port --default-actions $default_actions "$@"
+    p6_run_read_cmd aws elbv2 create-listener --load-balancer-arn $load_balancer_arn --protocol $protocol --port $port --default-actions $default_actions "$@"
 }

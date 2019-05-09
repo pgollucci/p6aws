@@ -3,5 +3,5 @@ p6_aws_ec2_tags_create() {
     local tags="$2"
     shift 2
 
-    p6_log_or_run aws ec2 create-tags --resources $resources --tags $tags "$@"
+    p6_run_write_cmd aws ec2 create-tags --resources $resources --tags $tags "$@"
 }

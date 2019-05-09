@@ -3,5 +3,5 @@ p6_aws_iam_role_create() {
     local assume_role_policy_document="$2"
     shift 2
 
-    p6_log_or_run aws iam create-role --role-name $role_name --assume-role-policy-document $assume_role_policy_document "$@"
+    p6_run_write_cmd aws iam create-role --role-name $role_name --assume-role-policy-document $assume_role_policy_document "$@"
 }

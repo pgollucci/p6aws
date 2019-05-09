@@ -1,4 +1,4 @@
 p6_aws_elasticbeanstalk_environment_cnames_swap() {
 
-    p6_log_or_run aws elasticbeanstalk swap-environment-cnames "$@"
+    p6_run_write_cmd aws elasticbeanstalk swap-environment-cnames "$@"
 }

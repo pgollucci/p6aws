@@ -1,6 +1,4 @@
-aws_cognito_identity_identity_pools_list() {
-    local max_results="$1"
-    shift 1
+p6_aws_cognito_identity_identity_pools_list() {
 
-    log_and_run aws cognito-identity list-identity-pools --max-results $max_results "$@"
+    p6_run_read_cmd aws cognito-identity list-identity-pools "$@"
 }

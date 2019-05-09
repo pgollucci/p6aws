@@ -1,4 +1,4 @@
 p6_aws_transfer_server_create() {
 
-    p6_log_or_run aws transfer create-server "$@"
+    p6_run_write_cmd aws transfer create-server "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_mgh_application_state_notify() {
     local status="$2"
     shift 2
 
-    p6_log_or_run aws mgh notify-application-state --application-id $application_id --status $status "$@"
+    p6_run_write_cmd aws mgh notify-application-state --application-id $application_id --status $status "$@"
 }

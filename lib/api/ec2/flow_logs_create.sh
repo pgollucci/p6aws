@@ -1,10 +1,8 @@
 p6_aws_ec2_flow_logs_create() {
-    local deliver_logs_permission_arn="$1"
-    local log_group_name="$2"
-    local resource_ids="$3"
-    local resource_type="$4"
-    local traffic_type="$5"
-    shift 5
+    local resource_ids="$1"
+    local resource_type="$2"
+    local traffic_type="$3"
+    shift 3
 
-    p6_log_or_run aws ec2 create-flow-logs --deliver-logs-permission-arn $deliver_logs_permission_arn --log-group-name $log_group_name --resource-ids $resource_ids --resource-type $resource_type --traffic-type $traffic_type "$@"
+    p6_run_write_cmd aws ec2 create-flow-logs --resource-ids $resource_ids --resource-type $resource_type --traffic-type $traffic_type "$@"
 }

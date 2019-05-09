@@ -4,5 +4,5 @@ p6_aws_elasticache_replication_group_shard_configuration_modify() {
     local apply_immediately="$3"
     shift 3
 
-    p6_log_or_run aws elasticache modify-replication-group-shard-configuration --replication-group-id $replication_group_id --node-group-count $node_group_count --apply-immediately $apply_immediately "$@"
+    p6_run_write_cmd aws elasticache modify-replication-group-shard-configuration --replication-group-id $replication_group_id --node-group-count $node_group_count --apply-immediately $apply_immediately "$@"
 }

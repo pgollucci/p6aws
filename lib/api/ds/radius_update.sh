@@ -3,5 +3,5 @@ p6_aws_ds_radius_update() {
     local radius_settings="$2"
     shift 2
 
-    p6_log_or_run aws ds update-radius --directory-id $directory_id --radius-settings $radius_settings "$@"
+    p6_run_write_cmd aws ds update-radius --directory-id $directory_id --radius-settings $radius_settings "$@"
 }

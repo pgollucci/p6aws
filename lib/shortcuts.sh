@@ -2,7 +2,7 @@ p6_aws_shortcuts_unset() {
     local org="$1"
 
     local func
-    for func in $(typeset -f | awk '/^[a-z_0-9]+ \(\)/ { print $1 }' | grep ${org}_awsa_); do
+    for func in $(typeset -f | awk '/^[a-z_0-9]+ \(\)/ { print $1 }' | grep p6_${org}_awsa_); do
 	unset $func
     done
 }
@@ -14,7 +14,7 @@ p6_aws_shortcuts_set() {
     local profile
     for profile in $(awk '/^\[/ { print }' < $cred_file | grep -v default | sed -e 's,[][],,g'); do
 	local region=$(p6_aws_util_region_for_profile_from_cred_file "$profile" "$cred_file")
-	eval "${org}_awsa_${profile}() { p6_aws_shortcut_set \"$profile\" \"$region\" \"env\" \"type\" }"
+	eval "p6_${org}_awsa_${profile}() { p6_aws_shortcut_set \"$profile\" \"$region\" \"env\" \"type\" }"
     done
 }
 

@@ -1,4 +1,7 @@
-aws_cloudwatch_dashboard_put() {
+p6_aws_cloudwatch_dashboard_put() {
+    local dashboard_name="$1"
+    local dashboard_body="$2"
+    shift 2
 
-    cond_log_and_run aws cloudwatch put-dashboard "$@"
+    p6_run_write_cmd aws cloudwatch put-dashboard --dashboard-name $dashboard_name --dashboard-body $dashboard_body "$@"
 }

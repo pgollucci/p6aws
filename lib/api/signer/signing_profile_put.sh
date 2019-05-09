@@ -4,5 +4,5 @@ p6_aws_signer_signing_profile_put() {
     local platform_id="$3"
     shift 3
 
-    p6_log_or_run aws signer put-signing-profile --profile-name $profile_name --signing-material $signing_material --platform-id $platform_id "$@"
+    p6_run_write_cmd aws signer put-signing-profile --profile-name $profile_name --signing-material $signing_material --platform-id $platform_id "$@"
 }

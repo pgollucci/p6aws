@@ -4,5 +4,5 @@ p6_aws_polly_speech_synthesize() {
     local voice_id="$3"
     shift 3
 
-    p6_log_or_run aws polly synthesize-speech --output-format $output_format --text $text --voice-id $voice_id "$@"
+    p6_run_write_cmd aws polly synthesize-speech --output-format $output_format --text $text --voice-id $voice_id "$@"
 }

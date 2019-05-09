@@ -3,5 +3,5 @@ p6_aws_servicediscovery_instances_discover() {
     local service_name="$2"
     shift 2
 
-    p6_log_or_run aws servicediscovery discover-instances --namespace-name $namespace_name --service-name $service_name "$@"
+    p6_run_write_cmd aws servicediscovery discover-instances --namespace-name $namespace_name --service-name $service_name "$@"
 }

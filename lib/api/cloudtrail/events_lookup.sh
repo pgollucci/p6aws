@@ -1,4 +1,4 @@
-aws_cloudtrail_events_lookup() {
+p6_aws_cloudtrail_events_lookup() {
 
-    cond_log_and_run aws cloudtrail lookup-events "$@"
+    p6_run_write_cmd aws cloudtrail lookup-events "$@"
 }

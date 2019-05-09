@@ -1,4 +1,4 @@
-aws_codecommit_helper_credential() {
+p6_aws_codecommit_helper_credential() {
 
-    cond_log_and_run aws codecommit credential-helper "$@"
+    p6_run_write_cmd aws codecommit credential-helper "$@"
 }

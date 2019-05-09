@@ -4,5 +4,5 @@ p6_aws_quicksight_user_describe() {
     local namespace="$3"
     shift 3
 
-    p6_log_and_run aws quicksight describe-user --user-name $user_name --aws-account-id $aws_account_id --namespace $namespace "$@"
+    p6_run_read_cmd aws quicksight describe-user --user-name $user_name --aws-account-id $aws_account_id --namespace $namespace "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_servicecatalog_service_actions_for_provisioning_artifact_list() {
     local provisioning_artifact_id="$2"
     shift 2
 
-    p6_log_and_run aws servicecatalog list-service-actions-for-provisioning-artifact --product-id $product_id --provisioning-artifact-id $provisioning_artifact_id "$@"
+    p6_run_read_cmd aws servicecatalog list-service-actions-for-provisioning-artifact --product-id $product_id --provisioning-artifact-id $provisioning_artifact_id "$@"
 }

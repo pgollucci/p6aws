@@ -1,4 +1,4 @@
-aws_dms_certificates_describe() {
+p6_aws_dms_certificates_describe() {
 
-    log_and_run aws dms describe-certificates "$@"
+    p6_run_read_cmd aws dms describe-certificates "$@"
 }

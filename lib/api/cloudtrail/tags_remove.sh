@@ -1,6 +1,6 @@
-aws_cloudtrail_tags_remove() {
+p6_aws_cloudtrail_tags_remove() {
     local resource_id="$1"
     shift 1
 
-    cond_log_and_run aws cloudtrail remove-tags --resource-id $resource_id "$@"
+    p6_run_write_cmd aws cloudtrail remove-tags --resource-id $resource_id "$@"
 }

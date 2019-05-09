@@ -1,4 +1,4 @@
-aws_autoscaling_lifecycle_hook_types_describe() {
+p6_aws_autoscaling_lifecycle_hook_types_describe() {
 
-    log_and_run aws autoscaling describe-lifecycle-hook-types "$@"
+    p6_run_read_cmd aws autoscaling describe-lifecycle-hook-types "$@"
 }

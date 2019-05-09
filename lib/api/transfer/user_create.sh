@@ -4,5 +4,5 @@ p6_aws_transfer_user_create() {
     local user_name="$3"
     shift 3
 
-    p6_log_or_run aws transfer create-user --role $role --server-id $server_id --user-name $user_name "$@"
+    p6_run_write_cmd aws transfer create-user --role $role --server-id $server_id --user-name $user_name "$@"
 }

@@ -1,4 +1,4 @@
 p6_aws_workmail_organizations_list() {
 
-    p6_log_and_run aws workmail list-organizations "$@"
+    p6_run_read_cmd aws workmail list-organizations "$@"
 }

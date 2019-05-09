@@ -3,5 +3,5 @@ p6_aws_servicecatalog_provisioning_artifact_create() {
     local parameters="$2"
     shift 2
 
-    p6_log_or_run aws servicecatalog create-provisioning-artifact --product-id $product_id --parameters $parameters "$@"
+    p6_run_write_cmd aws servicecatalog create-provisioning-artifact --product-id $product_id --parameters $parameters "$@"
 }

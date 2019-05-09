@@ -3,5 +3,5 @@ p6_aws_storagegateway_upload_buffer_add() {
     local disk_ids="$2"
     shift 2
 
-    p6_log_or_run aws storagegateway add-upload-buffer --gateway-arn $gateway_arn --disk-ids $disk_ids "$@"
+    p6_run_write_cmd aws storagegateway add-upload-buffer --gateway-arn $gateway_arn --disk-ids $disk_ids "$@"
 }

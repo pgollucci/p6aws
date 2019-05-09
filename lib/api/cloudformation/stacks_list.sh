@@ -1,4 +1,4 @@
-aws_cloudformation_stacks_list() {
+p6_aws_cloudformation_stacks_list() {
 
-    log_and_run aws cloudformation list-stacks "$@"
+    p6_run_read_cmd aws cloudformation list-stacks "$@"
 }

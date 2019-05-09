@@ -3,5 +3,5 @@ p6_aws_gamelift_scaling_policy_delete() {
     local fleet_id="$2"
     shift 2
 
-    p6_log_or_run aws gamelift delete-scaling-policy --name $name --fleet-id $fleet_id "$@"
+    p6_run_write_cmd aws gamelift delete-scaling-policy --name $name --fleet-id $fleet_id "$@"
 }

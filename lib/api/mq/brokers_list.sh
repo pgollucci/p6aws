@@ -1,4 +1,4 @@
 p6_aws_mq_brokers_list() {
 
-    p6_log_and_run aws mq list-brokers "$@"
+    p6_run_read_cmd aws mq list-brokers "$@"
 }

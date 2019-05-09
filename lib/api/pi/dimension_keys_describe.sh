@@ -7,5 +7,5 @@ p6_aws_pi_dimension_keys_describe() {
     local group_by="$6"
     shift 6
 
-    p6_log_and_run aws pi describe-dimension-keys --service-type $service_type --identifier $identifier --start-time $start_time --end-time $end_time --metric $metric --group-by $group_by "$@"
+    p6_run_read_cmd aws pi describe-dimension-keys --service-type $service_type --identifier $identifier --start-time $start_time --end-time $end_time --metric $metric --group-by $group_by "$@"
 }

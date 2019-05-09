@@ -5,5 +5,5 @@ p6_aws_waf_rate_based_rule_update() {
     local rate_limit="$4"
     shift 4
 
-    p6_log_or_run aws waf update-rate-based-rule --rule-id $rule_id --change-token $change_token --updates $updates --rate-limit $rate_limit "$@"
+    p6_run_write_cmd aws waf update-rate-based-rule --rule-id $rule_id --change-token $change_token --updates $updates --rate-limit $rate_limit "$@"
 }

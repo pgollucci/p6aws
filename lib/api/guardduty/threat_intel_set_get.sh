@@ -3,5 +3,5 @@ p6_aws_guardduty_threat_intel_set_get() {
     local threat_intel_set_id="$2"
     shift 2
 
-    p6_log_and_run aws guardduty get-threat-intel-set --detector-id $detector_id --threat-intel-set-id $threat_intel_set_id "$@"
+    p6_run_read_cmd aws guardduty get-threat-intel-set --detector-id $detector_id --threat-intel-set-id $threat_intel_set_id "$@"
 }

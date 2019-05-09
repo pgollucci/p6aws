@@ -5,5 +5,5 @@ p6_aws_rds_option_group_create() {
     local option_group_description="$4"
     shift 4
 
-    p6_log_or_run aws rds create-option-group --option-group-name $option_group_name --engine-name $engine_name --major-engine-version $major_engine_version --option-group-description $option_group_description "$@"
+    p6_run_write_cmd aws rds create-option-group --option-group-name $option_group_name --engine-name $engine_name --major-engine-version $major_engine_version --option-group-description $option_group_description "$@"
 }

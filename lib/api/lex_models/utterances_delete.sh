@@ -3,5 +3,5 @@ p6_aws_lex_models_utterances_delete() {
     local user_id="$2"
     shift 2
 
-    p6_log_or_run aws lex-models delete-utterances --bot-name $bot_name --user-id $user_id "$@"
+    p6_run_write_cmd aws lex-models delete-utterances --bot-name $bot_name --user-id $user_id "$@"
 }

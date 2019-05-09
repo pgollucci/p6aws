@@ -4,5 +4,5 @@ p6_aws_ssm_target_with_maintenance_window_register() {
     local targets="$3"
     shift 3
 
-    p6_log_and_run aws ssm register-target-with-maintenance-window --window-id $window_id --resource-type $resource_type --targets $targets "$@"
+    p6_run_read_cmd aws ssm register-target-with-maintenance-window --window-id $window_id --resource-type $resource_type --targets $targets "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_sqs_queue_untag() {
     local tag_keys="$2"
     shift 2
 
-    p6_log_or_run aws sqs untag-queue --queue-url $queue_url --tag-keys $tag_keys "$@"
+    p6_run_write_cmd aws sqs untag-queue --queue-url $queue_url --tag-keys $tag_keys "$@"
 }

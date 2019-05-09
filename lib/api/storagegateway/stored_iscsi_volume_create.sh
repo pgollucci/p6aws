@@ -6,5 +6,5 @@ p6_aws_storagegateway_stored_iscsi_volume_create() {
     local network_interface_id="$5"
     shift 5
 
-    p6_log_or_run aws storagegateway create-stored-iscsi-volume --gateway-arn $gateway_arn --disk-id $disk_id --preserve-existing-data $preserve_existing_data --target-name $target_name --network-interface-id $network_interface_id "$@"
+    p6_run_write_cmd aws storagegateway create-stored-iscsi-volume --gateway-arn $gateway_arn --disk-id $disk_id --preserve-existing-data $preserve_existing_data --target-name $target_name --network-interface-id $network_interface_id "$@"
 }

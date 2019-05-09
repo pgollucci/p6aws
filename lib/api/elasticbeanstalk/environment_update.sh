@@ -1,4 +1,4 @@
 p6_aws_elasticbeanstalk_environment_update() {
 
-    p6_log_or_run aws elasticbeanstalk update-environment "$@"
+    p6_run_write_cmd aws elasticbeanstalk update-environment "$@"
 }

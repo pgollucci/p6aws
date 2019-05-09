@@ -3,5 +3,5 @@ p6_aws_redshift_snapshot_access_authorize() {
     local account_with_restore_access="$2"
     shift 2
 
-    p6_log_or_run aws redshift authorize-snapshot-access --snapshot-identifier $snapshot_identifier --account-with-restore-access $account_with_restore_access "$@"
+    p6_run_write_cmd aws redshift authorize-snapshot-access --snapshot-identifier $snapshot_identifier --account-with-restore-access $account_with_restore_access "$@"
 }

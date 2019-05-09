@@ -5,5 +5,5 @@ p6_aws_polly_speech_synthesis_task_start() {
     local voice_id="$4"
     shift 4
 
-    p6_log_or_run aws polly start-speech-synthesis-task --output-format $output_format --output-s3-bucket-name $output_s3_bucket_name --text $text --voice-id $voice_id "$@"
+    p6_run_write_cmd aws polly start-speech-synthesis-task --output-format $output_format --output-s3-bucket-name $output_s3_bucket_name --text $text --voice-id $voice_id "$@"
 }

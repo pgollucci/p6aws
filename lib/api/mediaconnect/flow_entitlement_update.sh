@@ -3,5 +3,5 @@ p6_aws_mediaconnect_flow_entitlement_update() {
     local flow_arn="$2"
     shift 2
 
-    p6_log_or_run aws mediaconnect update-flow-entitlement --entitlement-arn $entitlement_arn --flow-arn $flow_arn "$@"
+    p6_run_write_cmd aws mediaconnect update-flow-entitlement --entitlement-arn $entitlement_arn --flow-arn $flow_arn "$@"
 }

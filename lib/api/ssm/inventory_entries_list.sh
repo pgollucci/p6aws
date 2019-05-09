@@ -3,5 +3,5 @@ p6_aws_ssm_inventory_entries_list() {
     local type_name="$2"
     shift 2
 
-    p6_log_and_run aws ssm list-inventory-entries --instance-id $instance_id --type-name $type_name "$@"
+    p6_run_read_cmd aws ssm list-inventory-entries --instance-id $instance_id --type-name $type_name "$@"
 }

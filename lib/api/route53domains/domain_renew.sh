@@ -3,5 +3,5 @@ p6_aws_route53domains_domain_renew() {
     local current_expiry_year="$2"
     shift 2
 
-    p6_log_or_run aws route53domains renew-domain --domain-name $domain_name --current-expiry-year $current_expiry_year "$@"
+    p6_run_write_cmd aws route53domains renew-domain --domain-name $domain_name --current-expiry-year $current_expiry_year "$@"
 }

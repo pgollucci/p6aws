@@ -1,4 +1,4 @@
-aws_dms_connections_describe() {
+p6_aws_dms_connections_describe() {
 
-    log_and_run aws dms describe-connections "$@"
+    p6_run_read_cmd aws dms describe-connections "$@"
 }

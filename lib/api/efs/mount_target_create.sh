@@ -3,5 +3,5 @@ p6_aws_efs_mount_target_create() {
     local subnet_id="$2"
     shift 2
 
-    p6_log_and_run aws efs create-mount-target --file-system-id $file_system_id --subnet-id $subnet_id "$@"
+    p6_run_read_cmd aws efs create-mount-target --file-system-id $file_system_id --subnet-id $subnet_id "$@"
 }

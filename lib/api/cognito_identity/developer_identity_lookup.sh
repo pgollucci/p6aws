@@ -1,6 +1,6 @@
-aws_cognito_identity_developer_identity_lookup() {
+p6_aws_cognito_identity_developer_identity_lookup() {
     local identity_pool_id="$1"
     shift 1
 
-    cond_log_and_run aws cognito-identity lookup-developer-identity --identity-pool-id $identity_pool_id "$@"
+    p6_run_write_cmd aws cognito-identity lookup-developer-identity --identity-pool-id $identity_pool_id "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_emr_cluster_create() {
     local instance_fleets="$2"
     shift 2
 
-    p6_log_or_run aws emr create-cluster --release-label $release_label --instance-fleets $instance_fleets "$@"
+    p6_run_write_cmd aws emr create-cluster --release-label $release_label --instance-fleets $instance_fleets "$@"
 }

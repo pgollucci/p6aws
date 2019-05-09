@@ -1,4 +1,4 @@
-aws_dax_default_parameters_describe() {
+p6_aws_dax_default_parameters_describe() {
 
-    log_and_run aws dax describe-default-parameters "$@"
+    p6_run_read_cmd aws dax describe-default-parameters "$@"
 }

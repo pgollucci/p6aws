@@ -1,6 +1,6 @@
-aws_appstream_associated_fleets_list() {
+p6_aws_appstream_associated_fleets_list() {
     local stack_name="$1"
     shift 1
 
-    log_and_run aws appstream list-associated-fleets --stack-name $stack_name "$@"
+    p6_run_read_cmd aws appstream list-associated-fleets --stack-name $stack_name "$@"
 }

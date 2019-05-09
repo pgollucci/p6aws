@@ -6,5 +6,5 @@ p6_aws_mgh_migration_task_state_notify() {
     local next_update_seconds="$5"
     shift 5
 
-    p6_log_or_run aws mgh notify-migration-task-state --progress-update-stream $progress_update_stream --migration-task-name $migration_task_name --task $task --update-date-time $update_date_time --next-update-seconds $next_update_seconds "$@"
+    p6_run_write_cmd aws mgh notify-migration-task-state --progress-update-stream $progress_update_stream --migration-task-name $migration_task_name --task $task --update-date-time $update_date_time --next-update-seconds $next_update_seconds "$@"
 }

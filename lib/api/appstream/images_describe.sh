@@ -1,4 +1,4 @@
-aws_appstream_images_describe() {
+p6_aws_appstream_images_describe() {
 
-    log_and_run aws appstream describe-images "$@"
+    p6_run_read_cmd aws appstream describe-images "$@"
 }

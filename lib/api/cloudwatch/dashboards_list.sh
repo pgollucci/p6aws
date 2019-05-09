@@ -1,4 +1,4 @@
-aws_cloudwatch_dashboards_list() {
+p6_aws_cloudwatch_dashboards_list() {
 
-    log_and_run aws cloudwatch list-dashboards "$@"
+    p6_run_read_cmd aws cloudwatch list-dashboards "$@"
 }

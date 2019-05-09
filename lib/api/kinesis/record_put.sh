@@ -4,5 +4,5 @@ p6_aws_kinesis_record_put() {
     local partition_key="$3"
     shift 3
 
-    p6_log_or_run aws kinesis put-record --stream-name $stream_name --data $data --partition-key $partition_key "$@"
+    p6_run_write_cmd aws kinesis put-record --stream-name $stream_name --data $data --partition-key $partition_key "$@"
 }

@@ -1,4 +1,4 @@
-aws_cloudformation_exports_list() {
+p6_aws_cloudformation_exports_list() {
 
-    log_and_run aws cloudformation list-exports "$@"
+    p6_run_read_cmd aws cloudformation list-exports "$@"
 }

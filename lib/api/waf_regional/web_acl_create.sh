@@ -5,5 +5,5 @@ p6_aws_waf_regional_web_acl_create() {
     local change_token="$4"
     shift 4
 
-    p6_log_or_run aws waf-regional create-web-acl --name $name --metric-name $metric_name --default-action $default_action --change-token $change_token "$@"
+    p6_run_write_cmd aws waf-regional create-web-acl --name $name --metric-name $metric_name --default-action $default_action --change-token $change_token "$@"
 }

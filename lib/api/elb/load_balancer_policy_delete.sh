@@ -3,5 +3,5 @@ p6_aws_elb_load_balancer_policy_delete() {
     local policy_name="$2"
     shift 2
 
-    p6_log_or_run aws elb delete-load-balancer-policy --load-balancer-name $load_balancer_name --policy-name $policy_name "$@"
+    p6_run_write_cmd aws elb delete-load-balancer-policy --load-balancer-name $load_balancer_name --policy-name $policy_name "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_emr_tags_remove() {
     local tag_keys="$2"
     shift 2
 
-    p6_log_or_run aws emr remove-tags --resource-id $resource_id --tag-keys $tag_keys "$@"
+    p6_run_write_cmd aws emr remove-tags --resource-id $resource_id --tag-keys $tag_keys "$@"
 }

@@ -1,4 +1,4 @@
-aws_directconnect_lags_describe() {
+p6_aws_directconnect_lags_describe() {
 
-    log_and_run aws directconnect describe-lags "$@"
+    p6_run_read_cmd aws directconnect describe-lags "$@"
 }

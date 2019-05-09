@@ -1,4 +1,4 @@
 p6_aws_lex_models_bots_get() {
 
-    p6_log_and_run aws lex-models get-bots "$@"
+    p6_run_read_cmd aws lex-models get-bots "$@"
 }

@@ -1,6 +1,6 @@
-aws_devicefarm_project_create() {
+p6_aws_devicefarm_project_create() {
     local name="$1"
     shift 1
 
-    cond_log_and_run aws devicefarm create-project --name $name "$@"
+    p6_run_write_cmd aws devicefarm create-project --name $name "$@"
 }

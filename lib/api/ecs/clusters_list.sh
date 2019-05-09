@@ -1,4 +1,4 @@
 p6_aws_ecs_clusters_list() {
 
-    p6_log_and_run aws ecs list-clusters "$@"
+    p6_run_read_cmd aws ecs list-clusters "$@"
 }

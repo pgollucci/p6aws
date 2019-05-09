@@ -1,6 +1,6 @@
-aws_appstream_stack_create() {
+p6_aws_appstream_stack_create() {
     local name="$1"
     shift 1
 
-    cond_log_and_run aws appstream create-stack --name $name "$@"
+    p6_run_write_cmd aws appstream create-stack --name $name "$@"
 }

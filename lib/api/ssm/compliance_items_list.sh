@@ -1,4 +1,4 @@
 p6_aws_ssm_compliance_items_list() {
 
-    p6_log_and_run aws ssm list-compliance-items "$@"
+    p6_run_read_cmd aws ssm list-compliance-items "$@"
 }

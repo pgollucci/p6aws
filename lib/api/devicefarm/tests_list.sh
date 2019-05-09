@@ -1,6 +1,6 @@
-aws_devicefarm_tests_list() {
+p6_aws_devicefarm_tests_list() {
     local arn="$1"
     shift 1
 
-    log_and_run aws devicefarm list-tests --arn $arn "$@"
+    p6_run_read_cmd aws devicefarm list-tests --arn $arn "$@"
 }

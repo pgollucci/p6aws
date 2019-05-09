@@ -1,4 +1,4 @@
-aws_datapipeline_default_roles_create() {
+p6_aws_datapipeline_default_roles_create() {
 
-    cond_log_and_run aws datapipeline create-default-roles "$@"
+    p6_run_write_cmd aws datapipeline create-default-roles "$@"
 }

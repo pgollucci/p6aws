@@ -6,5 +6,5 @@ p6_aws_redshift_table_from_cluster_snapshot_restore() {
     local new_table_name="$5"
     shift 5
 
-    p6_log_or_run aws redshift restore-table-from-cluster-snapshot --cluster-identifier $cluster_identifier --snapshot-identifier $snapshot_identifier --source-database-name $source_database_name --source-table-name $source_table_name --new-table-name $new_table_name "$@"
+    p6_run_write_cmd aws redshift restore-table-from-cluster-snapshot --cluster-identifier $cluster_identifier --snapshot-identifier $snapshot_identifier --source-database-name $source_database_name --source-table-name $source_table_name --new-table-name $new_table_name "$@"
 }

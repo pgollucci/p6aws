@@ -1,6 +1,6 @@
-aws_appstream_stack_delete() {
+p6_aws_appstream_stack_delete() {
     local name="$1"
     shift 1
 
-    cond_log_and_run aws appstream delete-stack --name $name "$@"
+    p6_run_write_cmd aws appstream delete-stack --name $name "$@"
 }

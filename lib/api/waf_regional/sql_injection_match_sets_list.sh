@@ -1,4 +1,4 @@
 p6_aws_waf_regional_sql_injection_match_sets_list() {
 
-    p6_log_and_run aws waf-regional list-sql-injection-match-sets "$@"
+    p6_run_read_cmd aws waf-regional list-sql-injection-match-sets "$@"
 }

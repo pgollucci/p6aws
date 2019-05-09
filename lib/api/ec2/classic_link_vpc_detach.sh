@@ -3,5 +3,5 @@ p6_aws_ec2_classic_link_vpc_detach() {
     local vpc_id="$2"
     shift 2
 
-    p6_log_or_run aws ec2 detach-classic-link-vpc --instance-id $instance_id --vpc-id $vpc_id "$@"
+    p6_run_write_cmd aws ec2 detach-classic-link-vpc --instance-id $instance_id --vpc-id $vpc_id "$@"
 }

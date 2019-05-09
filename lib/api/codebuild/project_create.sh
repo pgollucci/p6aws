@@ -1,9 +1,10 @@
-aws_codebuild_project_create() {
+p6_aws_codebuild_project_create() {
     local name="$1"
     local source="$2"
     local artifacts="$3"
     local environment="$4"
-    shift 4
+    local service_role="$5"
+    shift 5
 
-    cond_log_and_run aws codebuild create-project --name $name --source $source --artifacts $artifacts --environment $environment "$@"
+    p6_run_write_cmd aws codebuild create-project --name $name --source $source --artifacts $artifacts --environment $environment --service-role $service_role "$@"
 }

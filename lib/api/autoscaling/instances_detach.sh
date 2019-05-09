@@ -1,7 +1,7 @@
-aws_autoscaling_instances_detach() {
+p6_aws_autoscaling_instances_detach() {
     local auto_scaling_group_name="$1"
     local should_decrement_desired_capacity="$2"
     shift 2
 
-    cond_log_and_run aws autoscaling detach-instances --auto-scaling-group-name $auto_scaling_group_name --should-decrement-desired-capacity $should_decrement_desired_capacity "$@"
+    p6_run_write_cmd aws autoscaling detach-instances --auto-scaling-group-name $auto_scaling_group_name --should-decrement-desired-capacity $should_decrement_desired_capacity "$@"
 }

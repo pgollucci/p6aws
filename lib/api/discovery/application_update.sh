@@ -1,6 +1,6 @@
-aws_discovery_application_update() {
+p6_aws_discovery_application_update() {
     local configuration_id="$1"
     shift 1
 
-    cond_log_and_run aws discovery update-application --configuration-id $configuration_id "$@"
+    p6_run_write_cmd aws discovery update-application --configuration-id $configuration_id "$@"
 }

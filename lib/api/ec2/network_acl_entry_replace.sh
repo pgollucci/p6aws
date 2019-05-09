@@ -6,5 +6,5 @@ p6_aws_ec2_network_acl_entry_replace() {
     local rule_number="$5"
     shift 5
 
-    p6_log_or_run aws ec2 replace-network-acl-entry --egress $egress --network-acl-id $network_acl_id --protocol $protocol --rule-action $rule_action --rule-number $rule_number "$@"
+    p6_run_write_cmd aws ec2 replace-network-acl-entry --egress $egress --network-acl-id $network_acl_id --protocol $protocol --rule-action $rule_action --rule-number $rule_number "$@"
 }

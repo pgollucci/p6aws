@@ -1,8 +1,8 @@
-aws_application_autoscaling_scalable_target_deregister() {
+p6_aws_application_autoscaling_scalable_target_deregister() {
     local service_namespace="$1"
     local resource_id="$2"
     local scalable_dimension="$3"
     shift 3
 
-    log_and_run aws application-autoscaling deregister-scalable-target --service-namespace $service_namespace --resource-id $resource_id --scalable-dimension $scalable_dimension "$@"
+    p6_run_read_cmd aws application-autoscaling deregister-scalable-target --service-namespace $service_namespace --resource-id $resource_id --scalable-dimension $scalable_dimension "$@"
 }

@@ -4,5 +4,5 @@ p6_aws_ssm_parameter_put() {
     local type="$3"
     shift 3
 
-    p6_log_or_run aws ssm put-parameter --name $name --value $value --type $type "$@"
+    p6_run_write_cmd aws ssm put-parameter --name $name --value $value --type $type "$@"
 }

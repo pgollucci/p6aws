@@ -1,4 +1,4 @@
 p6_aws_ecs_tasks_list() {
 
-    p6_log_and_run aws ecs list-tasks "$@"
+    p6_run_read_cmd aws ecs list-tasks "$@"
 }

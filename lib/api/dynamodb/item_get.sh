@@ -3,5 +3,5 @@ p6_aws_dynamodb_item_get() {
     local key="$2"
     shift 2
 
-    p6_log_and_run aws dynamodb get-item --table-name $table_name --key $key "$@"
+    p6_run_read_cmd aws dynamodb get-item --table-name $table_name --key $key "$@"
 }

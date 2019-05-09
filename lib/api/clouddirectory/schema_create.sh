@@ -1,6 +1,6 @@
-aws_clouddirectory_schema_create() {
+p6_aws_clouddirectory_schema_create() {
     local name="$1"
     shift 1
 
-    cond_log_and_run aws clouddirectory create-schema --name $name "$@"
+    p6_run_write_cmd aws clouddirectory create-schema --name $name "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_glacier_jobs_list() {
     local vault_name="$2"
     shift 2
 
-    p6_log_and_run aws glacier list-jobs --account-id $account_id --vault-name $vault_name "$@"
+    p6_run_read_cmd aws glacier list-jobs --account-id $account_id --vault-name $vault_name "$@"
 }

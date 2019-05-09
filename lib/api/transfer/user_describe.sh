@@ -3,5 +3,5 @@ p6_aws_transfer_user_describe() {
     local user_name="$2"
     shift 2
 
-    p6_log_and_run aws transfer describe-user --server-id $server_id --user-name $user_name "$@"
+    p6_run_read_cmd aws transfer describe-user --server-id $server_id --user-name $user_name "$@"
 }

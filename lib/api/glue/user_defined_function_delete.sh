@@ -3,5 +3,5 @@ p6_aws_glue_user_defined_function_delete() {
     local function_name="$2"
     shift 2
 
-    p6_log_or_run aws glue delete-user-defined-function --database-name $database_name --function-name $function_name "$@"
+    p6_run_write_cmd aws glue delete-user-defined-function --database-name $database_name --function-name $function_name "$@"
 }

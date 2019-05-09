@@ -1,6 +1,6 @@
-aws_codebuild_get_projects_batch() {
+p6_aws_codebuild_get_projects_batch() {
     local names="$1"
     shift 1
 
-    log_and_run aws codebuild batch-get-projects --names $names "$@"
+    p6_run_read_cmd aws codebuild batch-get-projects --names $names "$@"
 }

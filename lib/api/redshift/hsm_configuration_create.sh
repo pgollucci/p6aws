@@ -7,5 +7,5 @@ p6_aws_redshift_hsm_configuration_create() {
     local hsm_server_public_certificate="$6"
     shift 6
 
-    p6_log_or_run aws redshift create-hsm-configuration --hsm-configuration-identifier $hsm_configuration_identifier --description $description --hsm-ip-address $hsm_ip_address --hsm-partition-name $hsm_partition_name --hsm-partition-password $hsm_partition_password --hsm-server-public-certificate $hsm_server_public_certificate "$@"
+    p6_run_write_cmd aws redshift create-hsm-configuration --hsm-configuration-identifier $hsm_configuration_identifier --description $description --hsm-ip-address $hsm_ip_address --hsm-partition-name $hsm_partition_name --hsm-partition-password $hsm_partition_password --hsm-server-public-certificate $hsm_server_public_certificate "$@"
 }

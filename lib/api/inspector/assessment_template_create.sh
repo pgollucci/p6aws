@@ -5,5 +5,5 @@ p6_aws_inspector_assessment_template_create() {
     local rules_package_arns="$4"
     shift 4
 
-    p6_log_or_run aws inspector create-assessment-template --assessment-target-arn $assessment_target_arn --assessment-template-name $assessment_template_name --duration-in-seconds $duration_in_seconds --rules-package-arns $rules_package_arns "$@"
+    p6_run_write_cmd aws inspector create-assessment-template --assessment-target-arn $assessment_target_arn --assessment-template-name $assessment_template_name --duration-in-seconds $duration_in_seconds --rules-package-arns $rules_package_arns "$@"
 }

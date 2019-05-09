@@ -1,4 +1,4 @@
-aws_cloudfront_distributions_list() {
+p6_aws_cloudfront_distributions_list() {
 
-    log_and_run aws cloudfront list-distributions "$@"
+    p6_run_read_cmd aws cloudfront list-distributions "$@"
 }

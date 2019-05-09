@@ -2,9 +2,7 @@ p6_aws_meteringmarketplace_usage_meter() {
     local product_code="$1"
     local timestamp="$2"
     local usage_dimension="$3"
-    local usage_quantity="$4"
-    local dry_run="$5"
-    shift 5
+    shift 3
 
-    p6_log_or_run aws meteringmarketplace meter-usage --product-code $product_code --timestamp $timestamp --usage-dimension $usage_dimension --usage-quantity $usage_quantity --dry-run $dry_run "$@"
+    p6_run_write_cmd aws meteringmarketplace meter-usage --product-code $product_code --timestamp $timestamp --usage-dimension $usage_dimension "$@"
 }

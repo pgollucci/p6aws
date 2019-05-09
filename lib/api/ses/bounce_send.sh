@@ -4,5 +4,5 @@ p6_aws_ses_bounce_send() {
     local bounced_recipient_info_list="$3"
     shift 3
 
-    p6_log_or_run aws ses send-bounce --original-message-id $original_message_id --bounce-sender $bounce_sender --bounced-recipient-info-list $bounced_recipient_info_list "$@"
+    p6_run_write_cmd aws ses send-bounce --original-message-id $original_message_id --bounce-sender $bounce_sender --bounced-recipient-info-list $bounced_recipient_info_list "$@"
 }

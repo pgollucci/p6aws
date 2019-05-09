@@ -1,4 +1,4 @@
 p6_aws_sms_app_launch() {
 
-    p6_log_or_run aws sms launch-app "$@"
+    p6_run_write_cmd aws sms launch-app "$@"
 }

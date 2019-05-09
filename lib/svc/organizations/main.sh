@@ -21,7 +21,7 @@ p6_aws_organizations_svc_account_make() {
 
     local account_id=471418688340
     local saml_file=/tmp/p6he-AWS-JumpCloud.xml
-set -x
+
     p6_aws_organizations_svc_run_as \
 	"$account_alias" "$account_map" "$region" "$output" "OrganizationAccountAccessRole" "$saml_provider_email" "$cred_file" "$src_cred_file" "$assumed_cred_file" \
 	p6_aws_organizations_svc_account_init \
@@ -118,7 +118,7 @@ p6_aws_organizations_svc_su() {
 
 p6_aws_organizations_svc_su_un() {
 
-    p6_aws_sts_svc_role_unassume
+    p6_aws_sts_svc_role_unassume "$@"
 }
 
 p6_aws_organizations_svc_run_as() {
@@ -140,10 +140,10 @@ p6_aws_organizations_svc_run_as() {
 	"$cred_file" "$src_cred_file" "$assumed_cred_file"
 
     # Do it
-    pg_log_and_run "$cmd" "$@"
+    p6_run_read_cmd "$cmd" "$@"
 
     # Drop Prvis
-    p6_aws_organizations_svc_su_un
+    p6_aws_organizations_svc_su_un "$cred_file" "$src_cred_file" "$assumed_cred_file"
 }
 
 p6_aws_organizations_svc_account_id_from_alias() {
@@ -161,4 +161,9 @@ p6_aws_organizations_svc_account_status_create() {
     p6_aws_organizations_create_account_status_describe "$car_id" \
 	--output text \
 	--query "'CreateAccountStatus.State'"
+}
+
+p6_aws_organizations_svc_accounts_list() {
+
+    p6_aws_organizations_accounts_list --output text --query "'Accounts[].[Id, Status, JoinedMethod, Arn, Name, Email]'"
 }

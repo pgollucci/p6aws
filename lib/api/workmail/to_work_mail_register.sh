@@ -4,5 +4,5 @@ p6_aws_workmail_to_work_mail_register() {
     local email="$3"
     shift 3
 
-    p6_log_or_run aws workmail register-to-work-mail --organization-id $organization_id --entity-id $entity_id --email $email "$@"
+    p6_run_write_cmd aws workmail register-to-work-mail --organization-id $organization_id --entity-id $entity_id --email $email "$@"
 }

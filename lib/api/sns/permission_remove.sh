@@ -3,5 +3,5 @@ p6_aws_sns_permission_remove() {
     local label="$2"
     shift 2
 
-    p6_log_or_run aws sns remove-permission --topic-arn $topic_arn --label $label "$@"
+    p6_run_write_cmd aws sns remove-permission --topic-arn $topic_arn --label $label "$@"
 }

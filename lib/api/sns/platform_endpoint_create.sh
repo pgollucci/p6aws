@@ -3,5 +3,5 @@ p6_aws_sns_platform_endpoint_create() {
     local token="$2"
     shift 2
 
-    p6_log_or_run aws sns create-platform-endpoint --platform-application-arn $platform_application_arn --token $token "$@"
+    p6_run_write_cmd aws sns create-platform-endpoint --platform-application-arn $platform_application_arn --token $token "$@"
 }

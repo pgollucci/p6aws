@@ -3,5 +3,5 @@ p6_aws_guardduty_findings_archive() {
     local finding_ids="$2"
     shift 2
 
-    p6_log_or_run aws guardduty archive-findings --detector-id $detector_id --finding-ids $finding_ids "$@"
+    p6_run_write_cmd aws guardduty archive-findings --detector-id $detector_id --finding-ids $finding_ids "$@"
 }

@@ -4,5 +4,5 @@ p6_aws_pinpoint_email_configuration_set_event_destination_create() {
     local event_destination="$3"
     shift 3
 
-    p6_log_or_run aws pinpoint-email create-configuration-set-event-destination --configuration-set-name $configuration_set_name --event-destination-name $event_destination_name --event-destination $event_destination "$@"
+    p6_run_write_cmd aws pinpoint-email create-configuration-set-event-destination --configuration-set-name $configuration_set_name --event-destination-name $event_destination_name --event-destination $event_destination "$@"
 }

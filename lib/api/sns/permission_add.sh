@@ -5,5 +5,5 @@ p6_aws_sns_permission_add() {
     local action_name="$4"
     shift 4
 
-    p6_log_or_run aws sns add-permission --topic-arn $topic_arn --label $label --aws-account-id $aws_account_id --action-name $action_name "$@"
+    p6_run_write_cmd aws sns add-permission --topic-arn $topic_arn --label $label --aws-account-id $aws_account_id --action-name $action_name "$@"
 }

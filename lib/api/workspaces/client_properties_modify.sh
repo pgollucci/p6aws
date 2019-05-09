@@ -1,6 +1,7 @@
 p6_aws_workspaces_client_properties_modify() {
     local resource_id="$1"
-    shift 1
+    local client_properties="$2"
+    shift 2
 
-    p6_log_or_run aws workspaces modify-client-properties --resource-id $resource_id "$@"
+    p6_run_write_cmd aws workspaces modify-client-properties --resource-id $resource_id --client-properties $client_properties "$@"
 }

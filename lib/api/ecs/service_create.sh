@@ -1,7 +1,6 @@
 p6_aws_ecs_service_create() {
     local service_name="$1"
-    local task_definition="$2"
-    shift 2
+    shift 1
 
-    p6_log_or_run aws ecs create-service --service-name $service_name --task-definition $task_definition "$@"
+    p6_run_write_cmd aws ecs create-service --service-name $service_name "$@"
 }

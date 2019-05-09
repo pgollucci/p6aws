@@ -1,4 +1,4 @@
 p6_aws_iotanalytics_channels_list() {
 
-    p6_log_and_run aws iotanalytics list-channels "$@"
+    p6_run_read_cmd aws iotanalytics list-channels "$@"
 }

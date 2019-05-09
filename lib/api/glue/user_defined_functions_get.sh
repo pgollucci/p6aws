@@ -3,5 +3,5 @@ p6_aws_glue_user_defined_functions_get() {
     local pattern="$2"
     shift 2
 
-    p6_log_and_run aws glue get-user-defined-functions --database-name $database_name --pattern $pattern "$@"
+    p6_run_read_cmd aws glue get-user-defined-functions --database-name $database_name --pattern $pattern "$@"
 }

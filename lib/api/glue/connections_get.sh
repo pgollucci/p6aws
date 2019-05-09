@@ -1,4 +1,4 @@
 p6_aws_glue_connections_get() {
 
-    p6_log_and_run aws glue get-connections "$@"
+    p6_run_read_cmd aws glue get-connections "$@"
 }

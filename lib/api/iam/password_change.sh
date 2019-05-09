@@ -3,5 +3,5 @@ p6_aws_iam_password_change() {
     local new_password="$2"
     shift 2
 
-    p6_log_or_run aws iam change-password --old-password $old_password --new-password $new_password "$@"
+    p6_run_write_cmd aws iam change-password --old-password $old_password --new-password $new_password "$@"
 }

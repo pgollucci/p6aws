@@ -4,5 +4,5 @@ p6_aws_glacier_parts_list() {
     local upload_id="$3"
     shift 3
 
-    p6_log_and_run aws glacier list-parts --account-id $account_id --vault-name $vault_name --upload-id $upload_id "$@"
+    p6_run_read_cmd aws glacier list-parts --account-id $account_id --vault-name $vault_name --upload-id $upload_id "$@"
 }

@@ -5,5 +5,5 @@ p6_aws_logs_export_task_create() {
     local destination="$4"
     shift 4
 
-    p6_log_or_run aws logs create-export-task --log-group-name $log_group_name --from $from --to $to --destination $destination "$@"
+    p6_run_write_cmd aws logs create-export-task --log-group-name $log_group_name --from $from --to $to --destination $destination "$@"
 }

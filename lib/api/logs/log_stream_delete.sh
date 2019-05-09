@@ -3,5 +3,5 @@ p6_aws_logs_log_stream_delete() {
     local log_stream_name="$2"
     shift 2
 
-    p6_log_or_run aws logs delete-log-stream --log-group-name $log_group_name --log-stream-name $log_stream_name "$@"
+    p6_run_write_cmd aws logs delete-log-stream --log-group-name $log_group_name --log-stream-name $log_stream_name "$@"
 }

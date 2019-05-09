@@ -3,5 +3,5 @@ p6_aws_ecs_container_instances_state_update() {
     local status="$2"
     shift 2
 
-    p6_log_or_run aws ecs update-container-instances-state --container-instances $container_instances --status $status "$@"
+    p6_run_write_cmd aws ecs update-container-instances-state --container-instances $container_instances --status $status "$@"
 }

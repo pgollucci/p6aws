@@ -4,5 +4,5 @@ p6_aws_machinelearning_ml_model_create() {
     local training_data_source_id="$3"
     shift 3
 
-    p6_log_or_run aws machinelearning create-ml-model --ml-model-id $ml_model_id --ml-model-type $ml_model_type --training-data-source-id $training_data_source_id "$@"
+    p6_run_write_cmd aws machinelearning create-ml-model --ml-model-id $ml_model_id --ml-model-type $ml_model_type --training-data-source-id $training_data_source_id "$@"
 }

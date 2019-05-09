@@ -4,5 +4,5 @@ p6_aws_opsworks_app_create() {
     local type="$3"
     shift 3
 
-    p6_log_or_run aws opsworks create-app --stack-id $stack_id --name $name --type $type "$@"
+    p6_run_write_cmd aws opsworks create-app --stack-id $stack_id --name $name --type $type "$@"
 }

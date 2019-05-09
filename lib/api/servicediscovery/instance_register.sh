@@ -4,5 +4,5 @@ p6_aws_servicediscovery_instance_register() {
     local attributes="$3"
     shift 3
 
-    p6_log_or_run aws servicediscovery register-instance --service-id $service_id --instance-id $instance_id --attributes $attributes "$@"
+    p6_run_write_cmd aws servicediscovery register-instance --service-id $service_id --instance-id $instance_id --attributes $attributes "$@"
 }

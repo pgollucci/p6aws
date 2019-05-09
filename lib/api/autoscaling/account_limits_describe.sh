@@ -1,4 +1,4 @@
-aws_autoscaling_account_limits_describe() {
+p6_aws_autoscaling_account_limits_describe() {
 
-    log_and_run aws autoscaling describe-account-limits "$@"
+    p6_run_read_cmd aws autoscaling describe-account-limits "$@"
 }

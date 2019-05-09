@@ -1,4 +1,4 @@
-aws_devicefarm_account_settings_get() {
+p6_aws_devicefarm_account_settings_get() {
 
-    log_and_run aws devicefarm get-account-settings "$@"
+    p6_run_read_cmd aws devicefarm get-account-settings "$@"
 }

@@ -1,4 +1,4 @@
 p6_aws_logs_resource_policy_delete() {
 
-    p6_log_or_run aws logs delete-resource-policy "$@"
+    p6_run_write_cmd aws logs delete-resource-policy "$@"
 }

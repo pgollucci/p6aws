@@ -1,4 +1,4 @@
-aws_codepipeline_approval_result_put() {
+p6_aws_codepipeline_approval_result_put() {
     local pipeline_name="$1"
     local stage_name="$2"
     local action_name="$3"
@@ -6,5 +6,5 @@ aws_codepipeline_approval_result_put() {
     local token="$5"
     shift 5
 
-    cond_log_and_run aws codepipeline put-approval-result --pipeline-name $pipeline_name --stage-name $stage_name --action-name $action_name --result $result --token $token "$@"
+    p6_run_write_cmd aws codepipeline put-approval-result --pipeline-name $pipeline_name --stage-name $stage_name --action-name $action_name --result $result --token $token "$@"
 }

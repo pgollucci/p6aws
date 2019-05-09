@@ -1,6 +1,6 @@
-aws_cognito_idp_device_get() {
+p6_aws_cognito_idp_device_get() {
     local device_key="$1"
     shift 1
 
-    log_and_run aws cognito-idp get-device --device-key $device_key "$@"
+    p6_run_read_cmd aws cognito-idp get-device --device-key $device_key "$@"
 }

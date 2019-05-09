@@ -4,5 +4,5 @@ p6_aws_elastictranscoder_pipeline_create() {
     local role="$3"
     shift 3
 
-    p6_log_or_run aws elastictranscoder create-pipeline --name $name --input-bucket $input_bucket --role $role "$@"
+    p6_run_write_cmd aws elastictranscoder create-pipeline --name $name --input-bucket $input_bucket --role $role "$@"
 }

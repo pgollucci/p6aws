@@ -4,5 +4,5 @@ p6_aws_glue_trigger_create() {
     local actions="$3"
     shift 3
 
-    p6_log_or_run aws glue create-trigger --name $name --type $type --actions $actions "$@"
+    p6_run_write_cmd aws glue create-trigger --name $name --type $type --actions $actions "$@"
 }

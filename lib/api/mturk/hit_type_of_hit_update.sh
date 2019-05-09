@@ -3,5 +3,5 @@ p6_aws_mturk_hit_type_of_hit_update() {
     local hit_type_id="$2"
     shift 2
 
-    p6_log_or_run aws mturk update-hit-type-of-hit --hit-id $hit_id --hit-type-id $hit_type_id "$@"
+    p6_run_write_cmd aws mturk update-hit-type-of-hit --hit-id $hit_id --hit-type-id $hit_type_id "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_workspaces_tags_create() {
     local tags="$2"
     shift 2
 
-    p6_log_or_run aws workspaces create-tags --resource-id $resource_id --tags $tags "$@"
+    p6_run_write_cmd aws workspaces create-tags --resource-id $resource_id --tags $tags "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_iam_signing_certificate_update() {
     local status="$2"
     shift 2
 
-    p6_log_or_run aws iam update-signing-certificate --certificate-id $certificate_id --status $status "$@"
+    p6_run_write_cmd aws iam update-signing-certificate --certificate-id $certificate_id --status $status "$@"
 }

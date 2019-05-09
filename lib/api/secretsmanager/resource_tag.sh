@@ -3,5 +3,5 @@ p6_aws_secretsmanager_resource_tag() {
     local tags="$2"
     shift 2
 
-    p6_log_or_run aws secretsmanager tag-resource --secret-id $secret_id --tags $tags "$@"
+    p6_run_write_cmd aws secretsmanager tag-resource --secret-id $secret_id --tags $tags "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_globalaccelerator_accelerator_create() {
     local idempotency_token="$2"
     shift 2
 
-    p6_log_or_run aws globalaccelerator create-accelerator --name $name --idempotency-token $idempotency_token "$@"
+    p6_run_write_cmd aws globalaccelerator create-accelerator --name $name --idempotency-token $idempotency_token "$@"
 }

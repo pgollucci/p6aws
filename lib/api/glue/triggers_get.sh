@@ -1,4 +1,4 @@
 p6_aws_glue_triggers_get() {
 
-    p6_log_and_run aws glue get-triggers "$@"
+    p6_run_read_cmd aws glue get-triggers "$@"
 }

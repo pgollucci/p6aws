@@ -1,4 +1,4 @@
 p6_aws_mediastore_container_describe() {
 
-    p6_log_and_run aws mediastore describe-container "$@"
+    p6_run_read_cmd aws mediastore describe-container "$@"
 }

@@ -1,6 +1,7 @@
 p6_aws_greengrass_deployment_create() {
-    local group_id="$1"
-    shift 1
+    local deployment_type="$1"
+    local group_id="$2"
+    shift 2
 
-    p6_log_or_run aws greengrass create-deployment --group-id $group_id "$@"
+    p6_run_write_cmd aws greengrass create-deployment --deployment-type $deployment_type --group-id $group_id "$@"
 }

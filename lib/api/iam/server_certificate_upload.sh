@@ -4,5 +4,5 @@ p6_aws_iam_server_certificate_upload() {
     local private_key="$3"
     shift 3
 
-    p6_log_or_run aws iam upload-server-certificate --server-certificate-name $server_certificate_name --certificate-body $certificate_body --private-key $private_key "$@"
+    p6_run_write_cmd aws iam upload-server-certificate --server-certificate-name $server_certificate_name --certificate-body $certificate_body --private-key $private_key "$@"
 }

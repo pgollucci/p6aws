@@ -1,4 +1,4 @@
-aws_appstream_fleets_describe() {
+p6_aws_appstream_fleets_describe() {
 
-    log_and_run aws appstream describe-fleets "$@"
+    p6_run_read_cmd aws appstream describe-fleets "$@"
 }

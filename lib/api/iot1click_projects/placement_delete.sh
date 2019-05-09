@@ -3,5 +3,5 @@ p6_aws_iot1click_projects_placement_delete() {
     local project_name="$2"
     shift 2
 
-    p6_log_or_run aws iot1click-projects delete-placement --placement-name $placement_name --project-name $project_name "$@"
+    p6_run_write_cmd aws iot1click-projects delete-placement --placement-name $placement_name --project-name $project_name "$@"
 }

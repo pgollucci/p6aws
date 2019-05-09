@@ -3,5 +3,5 @@ p6_aws_emr_steps_add() {
     local steps="$2"
     shift 2
 
-    p6_log_or_run aws emr add-steps --cluster-id $cluster_id --steps $steps "$@"
+    p6_run_write_cmd aws emr add-steps --cluster-id $cluster_id --steps $steps "$@"
 }

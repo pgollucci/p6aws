@@ -1,4 +1,6 @@
-aws_deploy_get_deployments_batch() {
+p6_aws_deploy_get_deployments_batch() {
+    local deployment_ids="$1"
+    shift 1
 
-    log_and_run aws deploy batch-get-deployments "$@"
+    p6_run_read_cmd aws deploy batch-get-deployments --deployment-ids $deployment_ids "$@"
 }

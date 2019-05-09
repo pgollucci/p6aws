@@ -4,5 +4,5 @@ p6_aws_servicecatalog_service_action_create() {
     local definition="$3"
     shift 3
 
-    p6_log_or_run aws servicecatalog create-service-action --name $name --definition-type $definition_type --definition $definition "$@"
+    p6_run_write_cmd aws servicecatalog create-service-action --name $name --definition-type $definition_type --definition $definition "$@"
 }

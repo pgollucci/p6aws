@@ -1,4 +1,4 @@
 p6_aws_iotanalytics_logging_options_describe() {
 
-    p6_log_and_run aws iotanalytics describe-logging-options "$@"
+    p6_run_read_cmd aws iotanalytics describe-logging-options "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_s3api_objects_delete() {
     local delete="$2"
     shift 2
 
-    p6_log_or_run aws s3api delete-objects --bucket $bucket --delete $delete "$@"
+    p6_run_write_cmd aws s3api delete-objects --bucket $bucket --delete $delete "$@"
 }

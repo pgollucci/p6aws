@@ -1,6 +1,6 @@
-aws_cognito_identity_identity_pool_delete() {
+p6_aws_cognito_identity_identity_pool_delete() {
     local identity_pool_id="$1"
     shift 1
 
-    cond_log_and_run aws cognito-identity delete-identity-pool --identity-pool-id $identity_pool_id "$@"
+    p6_run_write_cmd aws cognito-identity delete-identity-pool --identity-pool-id $identity_pool_id "$@"
 }

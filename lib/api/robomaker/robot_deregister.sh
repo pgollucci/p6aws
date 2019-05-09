@@ -3,5 +3,5 @@ p6_aws_robomaker_robot_deregister() {
     local robot="$2"
     shift 2
 
-    p6_log_or_run aws robomaker deregister-robot --fleet $fleet --robot $robot "$@"
+    p6_run_write_cmd aws robomaker deregister-robot --fleet $fleet --robot $robot "$@"
 }

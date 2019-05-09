@@ -3,5 +3,5 @@ p6_aws_iam_custom_policy_simulate() {
     local action_names="$2"
     shift 2
 
-    p6_log_or_run aws iam simulate-custom-policy --policy-input-list $policy_input_list --action-names $action_names "$@"
+    p6_run_write_cmd aws iam simulate-custom-policy --policy-input-list $policy_input_list --action-names $action_names "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_logs_retention_policy_put() {
     local retention_in_days="$2"
     shift 2
 
-    p6_log_or_run aws logs put-retention-policy --log-group-name $log_group_name --retention-in-days $retention_in_days "$@"
+    p6_run_write_cmd aws logs put-retention-policy --log-group-name $log_group_name --retention-in-days $retention_in_days "$@"
 }

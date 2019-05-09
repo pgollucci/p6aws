@@ -3,5 +3,5 @@ p6_aws_iam_role_from_instance_profile_remove() {
     local role_name="$2"
     shift 2
 
-    p6_log_or_run aws iam remove-role-from-instance-profile --instance-profile-name $instance_profile_name --role-name $role_name "$@"
+    p6_run_write_cmd aws iam remove-role-from-instance-profile --instance-profile-name $instance_profile_name --role-name $role_name "$@"
 }

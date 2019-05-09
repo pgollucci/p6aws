@@ -6,5 +6,5 @@ p6_aws_pi_resource_metrics_get() {
     local end_time="$5"
     shift 5
 
-    p6_log_and_run aws pi get-resource-metrics --service-type $service_type --identifier $identifier --metric-queries $metric_queries --start-time $start_time --end-time $end_time "$@"
+    p6_run_read_cmd aws pi get-resource-metrics --service-type $service_type --identifier $identifier --metric-queries $metric_queries --start-time $start_time --end-time $end_time "$@"
 }

@@ -19,3 +19,10 @@ aws_cloudtrail_log_file_validation() {
     cond_log_and_run aws cloudtrail update-trail --name $name --enable-log-file-validation "$@"
 }
 
+aws_cloudtrail_organization_trail() {
+        local name="$1"
+        shift 1
+
+    cond_log_and_run aws cloudtrail update-trail --name $name --is-organization-trail "$@"
+}
+

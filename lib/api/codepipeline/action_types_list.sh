@@ -1,4 +1,4 @@
-aws_codepipeline_action_types_list() {
+p6_aws_codepipeline_action_types_list() {
 
-    log_and_run aws codepipeline list-action-types "$@"
+    p6_run_read_cmd aws codepipeline list-action-types "$@"
 }

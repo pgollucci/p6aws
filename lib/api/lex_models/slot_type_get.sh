@@ -3,5 +3,5 @@ p6_aws_lex_models_slot_type_get() {
     local slot_type_version="$2"
     shift 2
 
-    p6_log_and_run aws lex-models get-slot-type --name $name --slot-type-version $slot_type_version "$@"
+    p6_run_read_cmd aws lex-models get-slot-type --name $name --slot-type-version $slot_type_version "$@"
 }

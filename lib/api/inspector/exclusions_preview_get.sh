@@ -3,5 +3,5 @@ p6_aws_inspector_exclusions_preview_get() {
     local preview_token="$2"
     shift 2
 
-    p6_log_and_run aws inspector get-exclusions-preview --assessment-template-arn $assessment_template_arn --preview-token $preview_token "$@"
+    p6_run_read_cmd aws inspector get-exclusions-preview --assessment-template-arn $assessment_template_arn --preview-token $preview_token "$@"
 }

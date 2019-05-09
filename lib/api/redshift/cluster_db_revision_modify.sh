@@ -3,5 +3,5 @@ p6_aws_redshift_cluster_db_revision_modify() {
     local revision_target="$2"
     shift 2
 
-    p6_log_or_run aws redshift modify-cluster-db-revision --cluster-identifier $cluster_identifier --revision-target $revision_target "$@"
+    p6_run_write_cmd aws redshift modify-cluster-db-revision --cluster-identifier $cluster_identifier --revision-target $revision_target "$@"
 }

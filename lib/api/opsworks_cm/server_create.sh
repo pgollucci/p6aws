@@ -5,5 +5,5 @@ p6_aws_opsworks_cm_server_create() {
     local service_role_arn="$4"
     shift 4
 
-    p6_log_or_run aws opsworks-cm create-server --server-name $server_name --instance-profile-arn $instance_profile_arn --instance-type $instance_type --service-role-arn $service_role_arn "$@"
+    p6_run_write_cmd aws opsworks-cm create-server --server-name $server_name --instance-profile-arn $instance_profile_arn --instance-type $instance_type --service-role-arn $service_role_arn "$@"
 }

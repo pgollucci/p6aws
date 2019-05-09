@@ -4,5 +4,5 @@ p6_aws_ec2_instance_status_report() {
     local status="$3"
     shift 3
 
-    p6_log_or_run aws ec2 report-instance-status --instances $instances --reason-codes $reason_codes --status $status "$@"
+    p6_run_write_cmd aws ec2 report-instance-status --instances $instances --reason-codes $reason_codes --status $status "$@"
 }

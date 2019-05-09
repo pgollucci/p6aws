@@ -1,4 +1,4 @@
-aws_configservice_compliance_by_config_rule_describe() {
+p6_aws_configservice_compliance_by_config_rule_describe() {
 
-    log_and_run aws configservice describe-compliance-by-config-rule "$@"
+    p6_run_read_cmd aws configservice describe-compliance-by-config-rule "$@"
 }

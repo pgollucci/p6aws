@@ -3,5 +3,5 @@ p6_aws_ssm_document_permission_describe() {
     local permission_type="$2"
     shift 2
 
-    p6_log_and_run aws ssm describe-document-permission --name $name --permission-type $permission_type "$@"
+    p6_run_read_cmd aws ssm describe-document-permission --name $name --permission-type $permission_type "$@"
 }

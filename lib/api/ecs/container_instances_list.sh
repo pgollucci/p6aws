@@ -1,4 +1,4 @@
 p6_aws_ecs_container_instances_list() {
 
-    p6_log_and_run aws ecs list-container-instances "$@"
+    p6_run_read_cmd aws ecs list-container-instances "$@"
 }

@@ -1,4 +1,4 @@
-aws_deploy_deployment_continue() {
+p6_aws_deploy_deployment_continue() {
 
-    cond_log_and_run aws deploy continue-deployment "$@"
+    p6_run_write_cmd aws deploy continue-deployment "$@"
 }

@@ -1,4 +1,4 @@
-aws_autoscaling_auto_scaling_instances_describe() {
+p6_aws_autoscaling_auto_scaling_instances_describe() {
 
-    log_and_run aws autoscaling describe-auto-scaling-instances "$@"
+    p6_run_read_cmd aws autoscaling describe-auto-scaling-instances "$@"
 }

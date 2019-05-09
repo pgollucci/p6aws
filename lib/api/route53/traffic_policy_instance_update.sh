@@ -5,5 +5,5 @@ p6_aws_route53_traffic_policy_instance_update() {
     local traffic_policy_version="$4"
     shift 4
 
-    p6_log_or_run aws route53 update-traffic-policy-instance --id $id --ttl $ttl --traffic-policy-id $traffic_policy_id --traffic-policy-version $traffic_policy_version "$@"
+    p6_run_write_cmd aws route53 update-traffic-policy-instance --id $id --ttl $ttl --traffic-policy-id $traffic_policy_id --traffic-policy-version $traffic_policy_version "$@"
 }

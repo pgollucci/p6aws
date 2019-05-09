@@ -1,6 +1,6 @@
-aws_codepipeline_pipeline_get() {
+p6_aws_codepipeline_pipeline_get() {
     local name="$1"
     shift 1
 
-    log_and_run aws codepipeline get-pipeline --name $name "$@"
+    p6_run_read_cmd aws codepipeline get-pipeline --name $name "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_iam_group_policy_get() {
     local policy_name="$2"
     shift 2
 
-    p6_log_and_run aws iam get-group-policy --group-name $group_name --policy-name $policy_name "$@"
+    p6_run_read_cmd aws iam get-group-policy --group-name $group_name --policy-name $policy_name "$@"
 }

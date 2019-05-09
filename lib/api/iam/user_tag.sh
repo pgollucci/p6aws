@@ -3,5 +3,5 @@ p6_aws_iam_user_tag() {
     local tags="$2"
     shift 2
 
-    p6_log_or_run aws iam tag-user --user-name $user_name --tags $tags "$@"
+    p6_run_write_cmd aws iam tag-user --user-name $user_name --tags $tags "$@"
 }

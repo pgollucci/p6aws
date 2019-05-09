@@ -1,4 +1,4 @@
-aws_dms_event_subscriptions_describe() {
+p6_aws_dms_event_subscriptions_describe() {
 
-    log_and_run aws dms describe-event-subscriptions "$@"
+    p6_run_read_cmd aws dms describe-event-subscriptions "$@"
 }

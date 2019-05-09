@@ -1,4 +1,4 @@
-aws_dax_events_describe() {
+p6_aws_dax_events_describe() {
 
-    log_and_run aws dax describe-events "$@"
+    p6_run_read_cmd aws dax describe-events "$@"
 }

@@ -4,5 +4,5 @@ p6_aws_route53_dns_answer_test() {
     local record_type="$3"
     shift 3
 
-    p6_log_or_run aws route53 test-dns-answer --hosted-zone-id $hosted_zone_id --record-name $record_name --record-type $record_type "$@"
+    p6_run_write_cmd aws route53 test-dns-answer --hosted-zone-id $hosted_zone_id --record-name $record_name --record-type $record_type "$@"
 }

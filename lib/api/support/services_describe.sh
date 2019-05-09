@@ -1,4 +1,4 @@
 p6_aws_support_services_describe() {
 
-    p6_log_and_run aws support describe-services "$@"
+    p6_run_read_cmd aws support describe-services "$@"
 }

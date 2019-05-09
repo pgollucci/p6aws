@@ -4,5 +4,5 @@ p6_aws_iam_ssh_public_key_get() {
     local encoding="$3"
     shift 3
 
-    p6_log_and_run aws iam get-ssh-public-key --user-name $user_name --ssh-public-key-id $ssh_public_key_id --encoding $encoding "$@"
+    p6_run_read_cmd aws iam get-ssh-public-key --user-name $user_name --ssh-public-key-id $ssh_public_key_id --encoding $encoding "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_glacier_vault_notifications_set() {
     local vault_name="$2"
     shift 2
 
-    p6_log_or_run aws glacier set-vault-notifications --account-id $account_id --vault-name $vault_name "$@"
+    p6_run_write_cmd aws glacier set-vault-notifications --account-id $account_id --vault-name $vault_name "$@"
 }

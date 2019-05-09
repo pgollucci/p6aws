@@ -4,5 +4,5 @@ p6_aws_pinpoint_segment_update() {
     local write_segment_request="$3"
     shift 3
 
-    p6_log_or_run aws pinpoint update-segment --application-id $application_id --segment-id $segment_id --write-segment-request $write_segment_request "$@"
+    p6_run_write_cmd aws pinpoint update-segment --application-id $application_id --segment-id $segment_id --write-segment-request $write_segment_request "$@"
 }

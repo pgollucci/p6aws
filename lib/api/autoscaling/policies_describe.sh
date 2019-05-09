@@ -1,4 +1,4 @@
-aws_autoscaling_policies_describe() {
+p6_aws_autoscaling_policies_describe() {
 
-    log_and_run aws autoscaling describe-policies "$@"
+    p6_run_read_cmd aws autoscaling describe-policies "$@"
 }

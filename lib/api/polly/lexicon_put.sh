@@ -3,5 +3,5 @@ p6_aws_polly_lexicon_put() {
     local content="$2"
     shift 2
 
-    p6_log_or_run aws polly put-lexicon --name $name --content $content "$@"
+    p6_run_write_cmd aws polly put-lexicon --name $name --content $content "$@"
 }

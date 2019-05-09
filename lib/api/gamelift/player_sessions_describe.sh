@@ -1,4 +1,4 @@
 p6_aws_gamelift_player_sessions_describe() {
 
-    p6_log_and_run aws gamelift describe-player-sessions "$@"
+    p6_run_read_cmd aws gamelift describe-player-sessions "$@"
 }

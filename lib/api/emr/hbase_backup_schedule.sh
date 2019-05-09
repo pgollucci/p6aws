@@ -6,5 +6,5 @@ p6_aws_emr_hbase_backup_schedule() {
     local unit="$5"
     shift 5
 
-    p6_log_or_run aws emr schedule-hbase-backup --cluster-id $cluster_id --type $type --dir $dir --interval $interval --unit $unit "$@"
+    p6_run_write_cmd aws emr schedule-hbase-backup --cluster-id $cluster_id --type $type --dir $dir --interval $interval --unit $unit "$@"
 }

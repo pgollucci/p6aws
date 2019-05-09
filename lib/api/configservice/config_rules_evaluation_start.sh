@@ -1,4 +1,4 @@
-aws_configservice_config_rules_evaluation_start() {
+p6_aws_configservice_config_rules_evaluation_start() {
 
-    cond_log_and_run aws configservice start-config-rules-evaluation "$@"
+    p6_run_write_cmd aws configservice start-config-rules-evaluation "$@"
 }

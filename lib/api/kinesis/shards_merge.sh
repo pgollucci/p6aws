@@ -4,5 +4,5 @@ p6_aws_kinesis_shards_merge() {
     local adjacent_shard_to_merge="$3"
     shift 3
 
-    p6_log_or_run aws kinesis merge-shards --stream-name $stream_name --shard-to-merge $shard_to_merge --adjacent-shard-to-merge $adjacent_shard_to_merge "$@"
+    p6_run_write_cmd aws kinesis merge-shards --stream-name $stream_name --shard-to-merge $shard_to_merge --adjacent-shard-to-merge $adjacent_shard_to_merge "$@"
 }

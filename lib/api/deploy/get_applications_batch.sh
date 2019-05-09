@@ -1,4 +1,6 @@
-aws_deploy_get_applications_batch() {
+p6_aws_deploy_get_applications_batch() {
+    local application_names="$1"
+    shift 1
 
-    log_and_run aws deploy batch-get-applications "$@"
+    p6_run_read_cmd aws deploy batch-get-applications --application-names $application_names "$@"
 }

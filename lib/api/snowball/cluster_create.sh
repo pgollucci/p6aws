@@ -6,5 +6,5 @@ p6_aws_snowball_cluster_create() {
     local shipping_option="$5"
     shift 5
 
-    p6_log_or_run aws snowball create-cluster --job-type $job_type --resources $resources --address-id $address_id --role-arn $role_arn --shipping-option $shipping_option "$@"
+    p6_run_write_cmd aws snowball create-cluster --job-type $job_type --resources $resources --address-id $address_id --role-arn $role_arn --shipping-option $shipping_option "$@"
 }

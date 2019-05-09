@@ -3,5 +3,5 @@ p6_aws_pinpoint_email_email_send() {
     local content="$2"
     shift 2
 
-    p6_log_or_run aws pinpoint-email send-email --destination $destination --content $content "$@"
+    p6_run_write_cmd aws pinpoint-email send-email --destination $destination --content $content "$@"
 }

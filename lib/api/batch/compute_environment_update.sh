@@ -1,6 +1,6 @@
-aws_batch_compute_environment_update() {
+p6_aws_batch_compute_environment_update() {
     local compute_environment="$1"
     shift 1
 
-    cond_log_and_run aws batch update-compute-environment --compute-environment $compute_environment "$@"
+    p6_run_write_cmd aws batch update-compute-environment --compute-environment $compute_environment "$@"
 }

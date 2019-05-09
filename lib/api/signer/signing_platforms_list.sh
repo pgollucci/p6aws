@@ -1,4 +1,4 @@
 p6_aws_signer_signing_platforms_list() {
 
-    p6_log_and_run aws signer list-signing-platforms "$@"
+    p6_run_read_cmd aws signer list-signing-platforms "$@"
 }

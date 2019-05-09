@@ -3,5 +3,5 @@ p6_aws_sagemaker_runtime_endpoint_invoke() {
     local body="$2"
     shift 2
 
-    p6_log_or_run aws sagemaker-runtime invoke-endpoint --endpoint-name $endpoint_name --body $body "$@"
+    p6_run_write_cmd aws sagemaker-runtime invoke-endpoint --endpoint-name $endpoint_name --body $body "$@"
 }

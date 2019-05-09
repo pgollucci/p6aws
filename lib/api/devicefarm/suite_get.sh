@@ -1,6 +1,6 @@
-aws_devicefarm_suite_get() {
+p6_aws_devicefarm_suite_get() {
     local arn="$1"
     shift 1
 
-    log_and_run aws devicefarm get-suite --arn $arn "$@"
+    p6_run_read_cmd aws devicefarm get-suite --arn $arn "$@"
 }

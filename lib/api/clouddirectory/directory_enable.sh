@@ -1,6 +1,6 @@
-aws_clouddirectory_directory_enable() {
+p6_aws_clouddirectory_directory_enable() {
     local directory_arn="$1"
     shift 1
 
-    cond_log_and_run aws clouddirectory enable-directory --directory-arn $directory_arn "$@"
+    p6_run_write_cmd aws clouddirectory enable-directory --directory-arn $directory_arn "$@"
 }

@@ -1,4 +1,4 @@
-aws_discovery_export_task_start() {
+p6_aws_discovery_export_task_start() {
 
-    cond_log_and_run aws discovery start-export-task "$@"
+    p6_run_write_cmd aws discovery start-export-task "$@"
 }

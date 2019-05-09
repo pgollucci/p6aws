@@ -1,6 +1,6 @@
-aws_appstream_stack_update() {
+p6_aws_appstream_stack_update() {
     local name="$1"
     shift 1
 
-    cond_log_and_run aws appstream update-stack --name $name "$@"
+    p6_run_write_cmd aws appstream update-stack --name $name "$@"
 }

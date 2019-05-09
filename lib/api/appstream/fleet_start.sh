@@ -1,6 +1,6 @@
-aws_appstream_fleet_start() {
+p6_aws_appstream_fleet_start() {
     local name="$1"
     shift 1
 
-    cond_log_and_run aws appstream start-fleet --name $name "$@"
+    p6_run_write_cmd aws appstream start-fleet --name $name "$@"
 }

@@ -1,6 +1,6 @@
-aws_batch_jobs_describe() {
+p6_aws_batch_jobs_describe() {
     local jobs="$1"
     shift 1
 
-    log_and_run aws batch describe-jobs --jobs $jobs "$@"
+    p6_run_read_cmd aws batch describe-jobs --jobs $jobs "$@"
 }

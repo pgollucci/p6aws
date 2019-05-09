@@ -3,5 +3,5 @@ p6_aws_lightsail_static_ip_attach() {
     local instance_name="$2"
     shift 2
 
-    p6_log_or_run aws lightsail attach-static-ip --static-ip-name $static_ip_name --instance-name $instance_name "$@"
+    p6_run_write_cmd aws lightsail attach-static-ip --static-ip-name $static_ip_name --instance-name $instance_name "$@"
 }

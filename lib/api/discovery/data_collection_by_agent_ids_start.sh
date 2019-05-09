@@ -1,6 +1,6 @@
-aws_discovery_data_collection_by_agent_ids_start() {
+p6_aws_discovery_data_collection_by_agent_ids_start() {
     local agent_ids="$1"
     shift 1
 
-    cond_log_and_run aws discovery start-data-collection-by-agent-ids --agent-ids $agent_ids "$@"
+    p6_run_write_cmd aws discovery start-data-collection-by-agent-ids --agent-ids $agent_ids "$@"
 }

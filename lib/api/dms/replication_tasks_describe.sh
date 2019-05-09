@@ -1,4 +1,4 @@
-aws_dms_replication_tasks_describe() {
+p6_aws_dms_replication_tasks_describe() {
 
-    log_and_run aws dms describe-replication-tasks "$@"
+    p6_run_read_cmd aws dms describe-replication-tasks "$@"
 }

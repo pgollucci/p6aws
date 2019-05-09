@@ -3,5 +3,5 @@ p6_aws_lambda_layer_version_delete() {
     local version_number="$2"
     shift 2
 
-    p6_log_or_run aws lambda delete-layer-version --layer-name $layer_name --version-number $version_number "$@"
+    p6_run_write_cmd aws lambda delete-layer-version --layer-name $layer_name --version-number $version_number "$@"
 }

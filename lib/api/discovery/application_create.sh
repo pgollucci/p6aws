@@ -1,6 +1,6 @@
-aws_discovery_application_create() {
+p6_aws_discovery_application_create() {
     local name="$1"
     shift 1
 
-    cond_log_and_run aws discovery create-application --name $name "$@"
+    p6_run_write_cmd aws discovery create-application --name $name "$@"
 }

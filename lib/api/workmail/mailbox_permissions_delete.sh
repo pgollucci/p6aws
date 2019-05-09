@@ -4,5 +4,5 @@ p6_aws_workmail_mailbox_permissions_delete() {
     local grantee_id="$3"
     shift 3
 
-    p6_log_or_run aws workmail delete-mailbox-permissions --organization-id $organization_id --entity-id $entity_id --grantee-id $grantee_id "$@"
+    p6_run_write_cmd aws workmail delete-mailbox-permissions --organization-id $organization_id --entity-id $entity_id --grantee-id $grantee_id "$@"
 }

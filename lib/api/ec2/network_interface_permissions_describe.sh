@@ -1,4 +1,4 @@
 p6_aws_ec2_network_interface_permissions_describe() {
 
-    p6_log_and_run aws ec2 describe-network-interface-permissions "$@"
+    p6_run_read_cmd aws ec2 describe-network-interface-permissions "$@"
 }

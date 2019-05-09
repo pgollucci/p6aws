@@ -1,4 +1,4 @@
 p6_aws_elasticbeanstalk_configuration_options_describe() {
 
-    p6_log_and_run aws elasticbeanstalk describe-configuration-options "$@"
+    p6_run_read_cmd aws elasticbeanstalk describe-configuration-options "$@"
 }

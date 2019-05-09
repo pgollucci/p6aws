@@ -1,4 +1,4 @@
 p6_aws_elasticbeanstalk_environments_compose() {
 
-    p6_log_or_run aws elasticbeanstalk compose-environments "$@"
+    p6_run_write_cmd aws elasticbeanstalk compose-environments "$@"
 }

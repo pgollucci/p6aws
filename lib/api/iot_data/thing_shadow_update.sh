@@ -3,5 +3,5 @@ p6_aws_iot_data_thing_shadow_update() {
     local payload="$2"
     shift 2
 
-    p6_log_or_run aws iot-data update-thing-shadow --thing-name $thing_name --payload $payload "$@"
+    p6_run_write_cmd aws iot-data update-thing-shadow --thing-name $thing_name --payload $payload "$@"
 }

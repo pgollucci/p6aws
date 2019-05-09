@@ -3,5 +3,5 @@ p6_aws_ds_alias_create() {
     local alias="$2"
     shift 2
 
-    p6_log_or_run aws ds create-alias --directory-id $directory_id --alias $alias "$@"
+    p6_run_write_cmd aws ds create-alias --directory-id $directory_id --alias $alias "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_translate_terminology_get() {
     local terminology_data_format="$2"
     shift 2
 
-    p6_log_and_run aws translate get-terminology --name $name --terminology-data-format $terminology_data_format "$@"
+    p6_run_read_cmd aws translate get-terminology --name $name --terminology-data-format $terminology_data_format "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_iam_saml_provider_create() {
     local name="$2"
     shift 2
 
-    p6_log_or_run aws iam create-saml-provider --saml-metadata-document $saml_metadata_document --name $name "$@"
+    p6_run_write_cmd aws iam create-saml-provider --saml-metadata-document $saml_metadata_document --name $name "$@"
 }

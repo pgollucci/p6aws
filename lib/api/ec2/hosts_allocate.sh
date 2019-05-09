@@ -4,5 +4,5 @@ p6_aws_ec2_hosts_allocate() {
     local quantity="$3"
     shift 3
 
-    p6_log_or_run aws ec2 allocate-hosts --availability-zone $availability_zone --instance-type $instance_type --quantity $quantity "$@"
+    p6_run_write_cmd aws ec2 allocate-hosts --availability-zone $availability_zone --instance-type $instance_type --quantity $quantity "$@"
 }

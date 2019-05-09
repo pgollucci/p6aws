@@ -1,6 +1,6 @@
-aws_autoscaling_tags_delete() {
+p6_aws_autoscaling_tags_delete() {
     local tags="$1"
     shift 1
 
-    cond_log_and_run aws autoscaling delete-tags --tags $tags "$@"
+    p6_run_write_cmd aws autoscaling delete-tags --tags $tags "$@"
 }

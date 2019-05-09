@@ -1,9 +1,8 @@
-aws_appstream_fleet_create() {
+p6_aws_appstream_fleet_create() {
     local name="$1"
-    local image_name="$2"
-    local instance_type="$3"
-    local compute_capacity="$4"
-    shift 4
+    local instance_type="$2"
+    local compute_capacity="$3"
+    shift 3
 
-    cond_log_and_run aws appstream create-fleet --name $name --image-name $image_name --instance-type $instance_type --compute-capacity $compute_capacity "$@"
+    p6_run_write_cmd aws appstream create-fleet --name $name --instance-type $instance_type --compute-capacity $compute_capacity "$@"
 }

@@ -1,4 +1,4 @@
-aws_cloudwatch_metrics_list() {
+p6_aws_cloudwatch_metrics_list() {
 
-    log_and_run aws cloudwatch list-metrics "$@"
+    p6_run_read_cmd aws cloudwatch list-metrics "$@"
 }

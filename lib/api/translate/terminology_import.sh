@@ -4,5 +4,5 @@ p6_aws_translate_terminology_import() {
     local data_file="$3"
     shift 3
 
-    p6_log_or_run aws translate import-terminology --name $name --merge-strategy $merge_strategy --data-file $data_file "$@"
+    p6_run_write_cmd aws translate import-terminology --name $name --merge-strategy $merge_strategy --data-file $data_file "$@"
 }

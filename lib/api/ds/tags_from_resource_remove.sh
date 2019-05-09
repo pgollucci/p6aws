@@ -3,5 +3,5 @@ p6_aws_ds_tags_from_resource_remove() {
     local tag_keys="$2"
     shift 2
 
-    p6_log_or_run aws ds remove-tags-from-resource --resource-id $resource_id --tag-keys $tag_keys "$@"
+    p6_run_write_cmd aws ds remove-tags-from-resource --resource-id $resource_id --tag-keys $tag_keys "$@"
 }

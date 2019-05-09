@@ -3,5 +3,5 @@ p6_aws_redshift_cluster_subnet_group_modify() {
     local subnet_ids="$2"
     shift 2
 
-    p6_log_or_run aws redshift modify-cluster-subnet-group --cluster-subnet-group-name $cluster_subnet_group_name --subnet-ids $subnet_ids "$@"
+    p6_run_write_cmd aws redshift modify-cluster-subnet-group --cluster-subnet-group-name $cluster_subnet_group_name --subnet-ids $subnet_ids "$@"
 }

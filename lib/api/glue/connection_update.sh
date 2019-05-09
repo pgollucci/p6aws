@@ -3,5 +3,5 @@ p6_aws_glue_connection_update() {
     local connection_input="$2"
     shift 2
 
-    p6_log_or_run aws glue update-connection --name $name --connection-input $connection_input "$@"
+    p6_run_write_cmd aws glue update-connection --name $name --connection-input $connection_input "$@"
 }

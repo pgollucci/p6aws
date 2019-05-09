@@ -4,5 +4,5 @@ p6_aws_workdocs_comment_create() {
     local text="$3"
     shift 3
 
-    p6_log_or_run aws workdocs create-comment --document-id $document_id --version-id $version_id --text $text "$@"
+    p6_run_write_cmd aws workdocs create-comment --document-id $document_id --version-id $version_id --text $text "$@"
 }

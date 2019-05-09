@@ -3,5 +3,5 @@ p6_aws_ec2_iam_instance_profile_associate() {
     local instance_id="$2"
     shift 2
 
-    p6_log_or_run aws ec2 associate-iam-instance-profile --iam-instance-profile $iam_instance_profile --instance-id $instance_id "$@"
+    p6_run_write_cmd aws ec2 associate-iam-instance-profile --iam-instance-profile $iam_instance_profile --instance-id $instance_id "$@"
 }

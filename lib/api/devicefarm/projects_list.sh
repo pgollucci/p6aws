@@ -1,4 +1,4 @@
-aws_devicefarm_projects_list() {
+p6_aws_devicefarm_projects_list() {
 
-    log_and_run aws devicefarm list-projects "$@"
+    p6_run_read_cmd aws devicefarm list-projects "$@"
 }

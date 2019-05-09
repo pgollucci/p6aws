@@ -3,5 +3,5 @@ p6_aws_gamelift_game_session_log_get() {
     local save_as="$2"
     shift 2
 
-    p6_log_and_run aws gamelift get-game-session-log --game-session-id $game_session_id --save-as $save_as "$@"
+    p6_run_read_cmd aws gamelift get-game-session-log --game-session-id $game_session_id --save-as $save_as "$@"
 }

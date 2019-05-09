@@ -3,5 +3,5 @@ p6_aws_kinesis_stream_consumer_register() {
     local consumer_name="$2"
     shift 2
 
-    p6_log_or_run aws kinesis register-stream-consumer --stream-arn $stream_arn --consumer-name $consumer_name "$@"
+    p6_run_write_cmd aws kinesis register-stream-consumer --stream-arn $stream_arn --consumer-name $consumer_name "$@"
 }

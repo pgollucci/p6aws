@@ -1,4 +1,4 @@
-aws_deploy_application_update() {
+p6_aws_deploy_application_update() {
 
-    cond_log_and_run aws deploy update-application "$@"
+    p6_run_write_cmd aws deploy update-application "$@"
 }

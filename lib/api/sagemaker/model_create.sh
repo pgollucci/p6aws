@@ -3,5 +3,5 @@ p6_aws_sagemaker_model_create() {
     local execution_role_arn="$2"
     shift 2
 
-    p6_log_or_run aws sagemaker create-model --model-name $model_name --execution-role-arn $execution_role_arn "$@"
+    p6_run_write_cmd aws sagemaker create-model --model-name $model_name --execution-role-arn $execution_role_arn "$@"
 }

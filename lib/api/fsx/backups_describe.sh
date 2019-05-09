@@ -1,4 +1,4 @@
 p6_aws_fsx_backups_describe() {
 
-    p6_log_and_run aws fsx describe-backups "$@"
+    p6_run_read_cmd aws fsx describe-backups "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_waf_size_constraint_set_delete() {
     local change_token="$2"
     shift 2
 
-    p6_log_or_run aws waf delete-size-constraint-set --size-constraint-set-id $size_constraint_set_id --change-token $change_token "$@"
+    p6_run_write_cmd aws waf delete-size-constraint-set --size-constraint-set-id $size_constraint_set_id --change-token $change_token "$@"
 }

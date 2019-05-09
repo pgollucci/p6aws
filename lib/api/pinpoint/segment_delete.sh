@@ -3,5 +3,5 @@ p6_aws_pinpoint_segment_delete() {
     local segment_id="$2"
     shift 2
 
-    p6_log_or_run aws pinpoint delete-segment --application-id $application_id --segment-id $segment_id "$@"
+    p6_run_write_cmd aws pinpoint delete-segment --application-id $application_id --segment-id $segment_id "$@"
 }

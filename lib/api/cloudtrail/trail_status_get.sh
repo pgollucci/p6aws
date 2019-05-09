@@ -1,6 +1,6 @@
-aws_cloudtrail_trail_status_get() {
+p6_aws_cloudtrail_trail_status_get() {
     local name="$1"
     shift 1
 
-    log_and_run aws cloudtrail get-trail-status --name $name "$@"
+    p6_run_read_cmd aws cloudtrail get-trail-status --name $name "$@"
 }

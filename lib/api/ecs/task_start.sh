@@ -3,5 +3,5 @@ p6_aws_ecs_task_start() {
     local container_instances="$2"
     shift 2
 
-    p6_log_or_run aws ecs start-task --task-definition $task_definition --container-instances $container_instances "$@"
+    p6_run_write_cmd aws ecs start-task --task-definition $task_definition --container-instances $container_instances "$@"
 }

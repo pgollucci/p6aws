@@ -4,5 +4,5 @@ p6_aws_opsworks_cm_node_associate() {
     local engine_attributes="$3"
     shift 3
 
-    p6_log_or_run aws opsworks-cm associate-node --server-name $server_name --node-name $node_name --engine-attributes $engine_attributes "$@"
+    p6_run_write_cmd aws opsworks-cm associate-node --server-name $server_name --node-name $node_name --engine-attributes $engine_attributes "$@"
 }

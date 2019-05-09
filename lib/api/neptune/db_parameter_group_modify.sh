@@ -3,5 +3,5 @@ p6_aws_neptune_db_parameter_group_modify() {
     local parameters="$2"
     shift 2
 
-    p6_log_or_run aws neptune modify-db-parameter-group --db-parameter-group-name $db_parameter_group_name --parameters $parameters "$@"
+    p6_run_write_cmd aws neptune modify-db-parameter-group --db-parameter-group-name $db_parameter_group_name --parameters $parameters "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_opsworks_cm_server_engine_attribute_export() {
     local server_name="$2"
     shift 2
 
-    p6_log_or_run aws opsworks-cm export-server-engine-attribute --export-attribute-name $export_attribute_name --server-name $server_name "$@"
+    p6_run_write_cmd aws opsworks-cm export-server-engine-attribute --export-attribute-name $export_attribute_name --server-name $server_name "$@"
 }

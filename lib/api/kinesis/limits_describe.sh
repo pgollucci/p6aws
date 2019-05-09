@@ -1,4 +1,4 @@
 p6_aws_kinesis_limits_describe() {
 
-    p6_log_and_run aws kinesis describe-limits "$@"
+    p6_run_read_cmd aws kinesis describe-limits "$@"
 }

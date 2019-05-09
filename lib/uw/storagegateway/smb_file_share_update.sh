@@ -26,3 +26,10 @@ aws_storagegateway_pays() {
     cond_log_and_run aws storagegateway update-smb-file-share --file-share-arn $file_share_arn --requester-pays "$@"
 }
 
+aws_storagegateway_enabled() {
+        local file_share_arn="$1"
+        shift 1
+
+    cond_log_and_run aws storagegateway update-smb-file-share --file-share-arn $file_share_arn --smbacl-enabled "$@"
+}
+

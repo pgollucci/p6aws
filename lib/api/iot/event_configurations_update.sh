@@ -1,4 +1,4 @@
 p6_aws_iot_event_configurations_update() {
 
-    p6_log_or_run aws iot update-event-configurations "$@"
+    p6_run_write_cmd aws iot update-event-configurations "$@"
 }

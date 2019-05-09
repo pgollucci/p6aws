@@ -6,5 +6,5 @@ p6_aws_rekognition_stream_processor_create() {
     local stream_processor_output="$5"
     shift 5
 
-    p6_log_or_run aws rekognition create-stream-processor --input $input --name $name --settings $settings --role-arn $role_arn --stream-processor-output $stream_processor_output "$@"
+    p6_run_write_cmd aws rekognition create-stream-processor --input $input --name $name --settings $settings --role-arn $role_arn --stream-processor-output $stream_processor_output "$@"
 }

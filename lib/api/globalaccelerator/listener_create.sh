@@ -5,5 +5,5 @@ p6_aws_globalaccelerator_listener_create() {
     local idempotency_token="$4"
     shift 4
 
-    p6_log_and_run aws globalaccelerator create-listener --accelerator-arn $accelerator_arn --port-ranges $port_ranges --protocol $protocol --idempotency-token $idempotency_token "$@"
+    p6_run_read_cmd aws globalaccelerator create-listener --accelerator-arn $accelerator_arn --port-ranges $port_ranges --protocol $protocol --idempotency-token $idempotency_token "$@"
 }

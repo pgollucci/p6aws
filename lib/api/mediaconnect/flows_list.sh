@@ -1,4 +1,4 @@
 p6_aws_mediaconnect_flows_list() {
 
-    p6_log_and_run aws mediaconnect list-flows "$@"
+    p6_run_read_cmd aws mediaconnect list-flows "$@"
 }

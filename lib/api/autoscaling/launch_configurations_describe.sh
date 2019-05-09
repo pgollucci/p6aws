@@ -1,4 +1,4 @@
-aws_autoscaling_launch_configurations_describe() {
+p6_aws_autoscaling_launch_configurations_describe() {
 
-    log_and_run aws autoscaling describe-launch-configurations "$@"
+    p6_run_read_cmd aws autoscaling describe-launch-configurations "$@"
 }

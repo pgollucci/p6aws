@@ -6,5 +6,5 @@ p6_aws_ssm_maintenance_window_create() {
     local allow_unassociated_targets="$5"
     shift 5
 
-    p6_log_or_run aws ssm create-maintenance-window --name $name --schedule $schedule --duration $duration --cutoff $cutoff --allow-unassociated-targets $allow_unassociated_targets "$@"
+    p6_run_write_cmd aws ssm create-maintenance-window --name $name --schedule $schedule --duration $duration --cutoff $cutoff --allow-unassociated-targets $allow_unassociated_targets "$@"
 }

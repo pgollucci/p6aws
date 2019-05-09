@@ -6,5 +6,5 @@ p6_aws_ssm_compliance_items_put() {
     local items="$5"
     shift 5
 
-    p6_log_or_run aws ssm put-compliance-items --resource-id $resource_id --resource-type $resource_type --compliance-type $compliance_type --execution-summary $execution_summary --items $items "$@"
+    p6_run_write_cmd aws ssm put-compliance-items --resource-id $resource_id --resource-type $resource_type --compliance-type $compliance_type --execution-summary $execution_summary --items $items "$@"
 }

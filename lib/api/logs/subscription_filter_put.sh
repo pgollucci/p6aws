@@ -5,5 +5,5 @@ p6_aws_logs_subscription_filter_put() {
     local destination_arn="$4"
     shift 4
 
-    p6_log_or_run aws logs put-subscription-filter --log-group-name $log_group_name --filter-name $filter_name --filter-pattern $filter_pattern --destination-arn $destination_arn "$@"
+    p6_run_write_cmd aws logs put-subscription-filter --log-group-name $log_group_name --filter-name $filter_name --filter-pattern $filter_pattern --destination-arn $destination_arn "$@"
 }

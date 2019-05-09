@@ -3,5 +3,5 @@ p6_aws_gamelift_instance_access_get() {
     local instance_id="$2"
     shift 2
 
-    p6_log_and_run aws gamelift get-instance-access --fleet-id $fleet_id --instance-id $instance_id "$@"
+    p6_run_read_cmd aws gamelift get-instance-access --fleet-id $fleet_id --instance-id $instance_id "$@"
 }

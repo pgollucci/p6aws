@@ -3,5 +3,5 @@ p6_aws_pinpoint_email_channel_update() {
     local email_channel_request="$2"
     shift 2
 
-    p6_log_or_run aws pinpoint update-email-channel --application-id $application_id --email-channel-request $email_channel_request "$@"
+    p6_run_write_cmd aws pinpoint update-email-channel --application-id $application_id --email-channel-request $email_channel_request "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_elastictranscoder_pipeline_notifications_update() {
     local notifications="$2"
     shift 2
 
-    p6_log_or_run aws elastictranscoder update-pipeline-notifications --id $id --notifications $notifications "$@"
+    p6_run_write_cmd aws elastictranscoder update-pipeline-notifications --id $id --notifications $notifications "$@"
 }

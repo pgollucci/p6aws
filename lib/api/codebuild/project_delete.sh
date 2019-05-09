@@ -1,6 +1,6 @@
-aws_codebuild_project_delete() {
+p6_aws_codebuild_project_delete() {
     local name="$1"
     shift 1
 
-    cond_log_and_run aws codebuild delete-project --name $name "$@"
+    p6_run_write_cmd aws codebuild delete-project --name $name "$@"
 }

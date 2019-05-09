@@ -1,4 +1,4 @@
-aws_apigateway_usage_plans_get() {
+p6_aws_apigateway_usage_plans_get() {
 
-    log_and_run aws apigateway get-usage-plans "$@"
+    p6_run_read_cmd aws apigateway get-usage-plans "$@"
 }

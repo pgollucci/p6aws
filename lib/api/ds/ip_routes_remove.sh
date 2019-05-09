@@ -3,5 +3,5 @@ p6_aws_ds_ip_routes_remove() {
     local cidr_ips="$2"
     shift 2
 
-    p6_log_or_run aws ds remove-ip-routes --directory-id $directory_id --cidr-ips $cidr_ips "$@"
+    p6_run_write_cmd aws ds remove-ip-routes --directory-id $directory_id --cidr-ips $cidr_ips "$@"
 }

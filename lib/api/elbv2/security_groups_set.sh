@@ -3,5 +3,5 @@ p6_aws_elbv2_security_groups_set() {
     local security_groups="$2"
     shift 2
 
-    p6_log_or_run aws elbv2 set-security-groups --load-balancer-arn $load_balancer_arn --security-groups $security_groups "$@"
+    p6_run_write_cmd aws elbv2 set-security-groups --load-balancer-arn $load_balancer_arn --security-groups $security_groups "$@"
 }

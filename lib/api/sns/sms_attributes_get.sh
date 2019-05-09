@@ -1,4 +1,4 @@
 p6_aws_sns_sms_attributes_get() {
 
-    p6_log_and_run aws sns get-sms-attributes "$@"
+    p6_run_read_cmd aws sns get-sms-attributes "$@"
 }

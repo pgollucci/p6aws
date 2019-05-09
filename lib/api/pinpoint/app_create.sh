@@ -1,4 +1,4 @@
 p6_aws_pinpoint_app_create() {
 
-    p6_log_or_run aws pinpoint create-app "$@"
+    p6_run_write_cmd aws pinpoint create-app "$@"
 }

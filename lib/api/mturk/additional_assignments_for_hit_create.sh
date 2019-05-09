@@ -3,5 +3,5 @@ p6_aws_mturk_additional_assignments_for_hit_create() {
     local number_of_additional_assignments="$2"
     shift 2
 
-    p6_log_or_run aws mturk create-additional-assignments-for-hit --hit-id $hit_id --number-of-additional-assignments $number_of_additional_assignments "$@"
+    p6_run_write_cmd aws mturk create-additional-assignments-for-hit --hit-id $hit_id --number-of-additional-assignments $number_of_additional_assignments "$@"
 }

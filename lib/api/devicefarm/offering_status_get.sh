@@ -1,4 +1,4 @@
-aws_devicefarm_offering_status_get() {
+p6_aws_devicefarm_offering_status_get() {
 
-    log_and_run aws devicefarm get-offering-status "$@"
+    p6_run_read_cmd aws devicefarm get-offering-status "$@"
 }

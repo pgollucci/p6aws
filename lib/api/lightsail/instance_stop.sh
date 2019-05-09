@@ -2,5 +2,5 @@ p6_aws_lightsail_instance_stop() {
     local instance_name="$1"
     shift 1
 
-    p6_log_or_run aws lightsail stop-instance --instance-name $instance_name "$@"
+    p6_run_write_cmd aws lightsail stop-instance --instance-name $instance_name "$@"
 }

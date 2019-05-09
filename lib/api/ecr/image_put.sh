@@ -3,5 +3,5 @@ p6_aws_ecr_image_put() {
     local image_manifest="$2"
     shift 2
 
-    p6_log_or_run aws ecr put-image --repository-name $repository_name --image-manifest $image_manifest "$@"
+    p6_run_write_cmd aws ecr put-image --repository-name $repository_name --image-manifest $image_manifest "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_gamelift_alias_create() {
     local routing_strategy="$2"
     shift 2
 
-    p6_log_or_run aws gamelift create-alias --name $name --routing-strategy $routing_strategy "$@"
+    p6_run_write_cmd aws gamelift create-alias --name $name --routing-strategy $routing_strategy "$@"
 }

@@ -1,4 +1,4 @@
-aws_cloudfront_distribution_create() {
+p6_aws_cloudfront_distribution_create() {
 
-    cond_log_and_run aws cloudfront create-distribution "$@"
+    p6_run_write_cmd aws cloudfront create-distribution "$@"
 }

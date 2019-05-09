@@ -1,6 +1,4 @@
-aws_batch_jobs_list() {
-    local job_queue="$1"
-    shift 1
+p6_aws_batch_jobs_list() {
 
-    log_and_run aws batch list-jobs --job-queue $job_queue "$@"
+    p6_run_read_cmd aws batch list-jobs "$@"
 }

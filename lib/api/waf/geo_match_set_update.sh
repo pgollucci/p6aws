@@ -4,5 +4,5 @@ p6_aws_waf_geo_match_set_update() {
     local updates="$3"
     shift 3
 
-    p6_log_or_run aws waf update-geo-match-set --geo-match-set-id $geo_match_set_id --change-token $change_token --updates $updates "$@"
+    p6_run_write_cmd aws waf update-geo-match-set --geo-match-set-id $geo_match_set_id --change-token $change_token --updates $updates "$@"
 }

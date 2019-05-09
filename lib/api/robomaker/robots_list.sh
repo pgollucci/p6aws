@@ -1,4 +1,4 @@
 p6_aws_robomaker_robots_list() {
 
-    p6_log_and_run aws robomaker list-robots "$@"
+    p6_run_read_cmd aws robomaker list-robots "$@"
 }

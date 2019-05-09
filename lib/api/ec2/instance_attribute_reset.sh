@@ -3,5 +3,5 @@ p6_aws_ec2_instance_attribute_reset() {
     local instance_id="$2"
     shift 2
 
-    p6_log_or_run aws ec2 reset-instance-attribute --attribute $attribute --instance-id $instance_id "$@"
+    p6_run_write_cmd aws ec2 reset-instance-attribute --attribute $attribute --instance-id $instance_id "$@"
 }

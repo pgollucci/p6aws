@@ -3,5 +3,5 @@ p6_aws_redshift_cluster_credentials_get() {
     local cluster_identifier="$2"
     shift 2
 
-    p6_log_and_run aws redshift get-cluster-credentials --db-user $db_user --cluster-identifier $cluster_identifier "$@"
+    p6_run_read_cmd aws redshift get-cluster-credentials --db-user $db_user --cluster-identifier $cluster_identifier "$@"
 }

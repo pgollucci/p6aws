@@ -3,5 +3,5 @@ p6_aws_iot_job_execution_describe() {
     local thing_name="$2"
     shift 2
 
-    p6_log_and_run aws iot describe-job-execution --job-id $job_id --thing-name $thing_name "$@"
+    p6_run_read_cmd aws iot describe-job-execution --job-id $job_id --thing-name $thing_name "$@"
 }

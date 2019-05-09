@@ -4,5 +4,5 @@ p6_aws_lex_models_bot_alias_put() {
     local bot_name="$3"
     shift 3
 
-    p6_log_or_run aws lex-models put-bot-alias --name $name --bot-version $bot_version --bot-name $bot_name "$@"
+    p6_run_write_cmd aws lex-models put-bot-alias --name $name --bot-version $bot_version --bot-name $bot_name "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_pinpoint_campaign_versions_get() {
     local campaign_id="$2"
     shift 2
 
-    p6_log_and_run aws pinpoint get-campaign-versions --application-id $application_id --campaign-id $campaign_id "$@"
+    p6_run_read_cmd aws pinpoint get-campaign-versions --application-id $application_id --campaign-id $campaign_id "$@"
 }

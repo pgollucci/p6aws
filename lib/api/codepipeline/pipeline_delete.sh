@@ -1,6 +1,6 @@
-aws_codepipeline_pipeline_delete() {
+p6_aws_codepipeline_pipeline_delete() {
     local name="$1"
     shift 1
 
-    cond_log_and_run aws codepipeline delete-pipeline --name $name "$@"
+    p6_run_write_cmd aws codepipeline delete-pipeline --name $name "$@"
 }

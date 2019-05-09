@@ -1,4 +1,4 @@
 p6_aws_gamelift_fleet_utilization_describe() {
 
-    p6_log_and_run aws gamelift describe-fleet-utilization "$@"
+    p6_run_read_cmd aws gamelift describe-fleet-utilization "$@"
 }

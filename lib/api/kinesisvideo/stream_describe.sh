@@ -1,4 +1,4 @@
 p6_aws_kinesisvideo_stream_describe() {
 
-    p6_log_and_run aws kinesisvideo describe-stream "$@"
+    p6_run_read_cmd aws kinesisvideo describe-stream "$@"
 }

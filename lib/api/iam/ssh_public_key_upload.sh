@@ -3,5 +3,5 @@ p6_aws_iam_ssh_public_key_upload() {
     local ssh_public_key_body="$2"
     shift 2
 
-    p6_log_or_run aws iam upload-ssh-public-key --user-name $user_name --ssh-public-key-body $ssh_public_key_body "$@"
+    p6_run_write_cmd aws iam upload-ssh-public-key --user-name $user_name --ssh-public-key-body $ssh_public_key_body "$@"
 }

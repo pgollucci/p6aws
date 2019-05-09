@@ -3,5 +3,5 @@ p6_aws_ec2_snapshot_attribute_describe() {
     local snapshot_id="$2"
     shift 2
 
-    p6_log_and_run aws ec2 describe-snapshot-attribute --attribute $attribute --snapshot-id $snapshot_id "$@"
+    p6_run_read_cmd aws ec2 describe-snapshot-attribute --attribute $attribute --snapshot-id $snapshot_id "$@"
 }

@@ -1,6 +1,6 @@
-aws_cloudwatch_metric_data_put() {
+p6_aws_cloudwatch_metric_data_put() {
     local namespace="$1"
     shift 1
 
-    cond_log_and_run aws cloudwatch put-metric-data --namespace $namespace "$@"
+    p6_run_write_cmd aws cloudwatch put-metric-data --namespace $namespace "$@"
 }

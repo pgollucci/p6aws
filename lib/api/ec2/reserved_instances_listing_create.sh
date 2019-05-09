@@ -5,5 +5,5 @@ p6_aws_ec2_reserved_instances_listing_create() {
     local reserved_instances_id="$4"
     shift 4
 
-    p6_log_and_run aws ec2 create-reserved-instances-listing --client-token $client_token --instance-count $instance_count --price-schedules $price_schedules --reserved-instances-id $reserved_instances_id "$@"
+    p6_run_read_cmd aws ec2 create-reserved-instances-listing --client-token $client_token --instance-count $instance_count --price-schedules $price_schedules --reserved-instances-id $reserved_instances_id "$@"
 }

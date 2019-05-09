@@ -1,6 +1,6 @@
-aws_cloudfront_streaming_distribution_get() {
+p6_aws_cloudfront_streaming_distribution_get() {
     local id="$1"
     shift 1
 
-    log_and_run aws cloudfront get-streaming-distribution --id $id "$@"
+    p6_run_read_cmd aws cloudfront get-streaming-distribution --id $id "$@"
 }

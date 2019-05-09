@@ -6,5 +6,5 @@ p6_aws_lex_runtime_content_post() {
     local input_stream="$5"
     shift 5
 
-    p6_log_or_run aws lex-runtime post-content --bot-name $bot_name --bot-alias $bot_alias --user-id $user_id --content-type $content_type --input-stream $input_stream "$@"
+    p6_run_write_cmd aws lex-runtime post-content --bot-name $bot_name --bot-alias $bot_alias --user-id $user_id --content-type $content_type --input-stream $input_stream "$@"
 }

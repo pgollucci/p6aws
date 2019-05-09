@@ -3,5 +3,5 @@ p6_aws_ses_receipt_rule_describe() {
     local rule_name="$2"
     shift 2
 
-    p6_log_and_run aws ses describe-receipt-rule --rule-set-name $rule_set_name --rule-name $rule_name "$@"
+    p6_run_read_cmd aws ses describe-receipt-rule --rule-set-name $rule_set_name --rule-name $rule_name "$@"
 }

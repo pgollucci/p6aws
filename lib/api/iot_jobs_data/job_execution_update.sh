@@ -4,5 +4,5 @@ p6_aws_iot_jobs_data_job_execution_update() {
     local status="$3"
     shift 3
 
-    p6_log_or_run aws iot-jobs-data update-job-execution --job-id $job_id --thing-name $thing_name --status $status "$@"
+    p6_run_write_cmd aws iot-jobs-data update-job-execution --job-id $job_id --thing-name $thing_name --status $status "$@"
 }

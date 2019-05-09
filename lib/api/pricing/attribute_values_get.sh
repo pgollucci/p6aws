@@ -3,5 +3,5 @@ p6_aws_pricing_attribute_values_get() {
     local attribute_name="$2"
     shift 2
 
-    p6_log_and_run aws pricing get-attribute-values --service-code $service_code --attribute-name $attribute_name "$@"
+    p6_run_read_cmd aws pricing get-attribute-values --service-code $service_code --attribute-name $attribute_name "$@"
 }

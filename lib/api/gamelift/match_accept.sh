@@ -4,5 +4,5 @@ p6_aws_gamelift_match_accept() {
     local acceptance_type="$3"
     shift 3
 
-    p6_log_or_run aws gamelift accept-match --ticket-id $ticket_id --player-ids $player_ids --acceptance-type $acceptance_type "$@"
+    p6_run_write_cmd aws gamelift accept-match --ticket-id $ticket_id --player-ids $player_ids --acceptance-type $acceptance_type "$@"
 }

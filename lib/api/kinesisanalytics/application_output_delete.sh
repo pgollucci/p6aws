@@ -4,5 +4,5 @@ p6_aws_kinesisanalytics_application_output_delete() {
     local output_id="$3"
     shift 3
 
-    p6_log_or_run aws kinesisanalytics delete-application-output --application-name $application_name --current-application-version-id $current_application_version_id --output-id $output_id "$@"
+    p6_run_write_cmd aws kinesisanalytics delete-application-output --application-name $application_name --current-application-version-id $current_application_version_id --output-id $output_id "$@"
 }

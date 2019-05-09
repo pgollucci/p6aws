@@ -1,3 +1,5 @@
+P6_AWS_JQ_TAG_NAME="Tags[?Key==\`Name\`].Value | [0]"
+
 p6_aws_util_cli_qload() {
     local svc="$1"
 
@@ -6,7 +8,7 @@ p6_aws_util_cli_qload() {
     . $P6_DFZ_SRC_DIR/p6m7g8/p6common/lib/file.sh
     . $P6_DFZ_SRC_DIR/p6m7g8/p6common/lib/dir.sh
 
-    p6_aws_util_include_service $svc
+    p6_aws_util_include_service "$svc"
 }
 
 p6_aws_util_include_service() {
@@ -16,7 +18,7 @@ p6_aws_util_include_service() {
     local base=$P6_DFZ_SRC_DIR/p6m7g8/p6aws/lib
     for dir in  api uw svc; do
 	local pdir="$base/$dir/$service"
-        p6_dir_load "$pdir"
+	p6_dir_load "$pdir"
     done
 }
 
@@ -52,4 +54,11 @@ p6_aws_util_region_for_profile_from_cred_file() {
     local cred_file="$2"
 
     grep -A 5 $profile $cred_file | awk '/region/ { print $3 }'
+}
+
+p6_aws_util_template_process() {
+    local infile="$1"
+    shift 1
+
+    p6_template_process "$P6_DFZ_SRC_DIR/p6m7g8/p6aws/tmpl/$infile" "$@"
 }

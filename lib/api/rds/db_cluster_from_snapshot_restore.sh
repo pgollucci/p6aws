@@ -4,5 +4,5 @@ p6_aws_rds_db_cluster_from_snapshot_restore() {
     local engine="$3"
     shift 3
 
-    p6_log_or_run aws rds restore-db-cluster-from-snapshot --db-cluster-identifier $db_cluster_identifier --snapshot-identifier $snapshot_identifier --engine $engine "$@"
+    p6_run_write_cmd aws rds restore-db-cluster-from-snapshot --db-cluster-identifier $db_cluster_identifier --snapshot-identifier $snapshot_identifier --engine $engine "$@"
 }

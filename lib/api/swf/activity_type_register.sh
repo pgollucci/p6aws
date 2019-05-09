@@ -4,5 +4,5 @@ p6_aws_swf_activity_type_register() {
     local activity_version="$3"
     shift 3
 
-    p6_log_or_run aws swf register-activity-type --domain $domain --name $name --activity-version $activity_version "$@"
+    p6_run_write_cmd aws swf register-activity-type --domain $domain --name $name --activity-version $activity_version "$@"
 }

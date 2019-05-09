@@ -1,4 +1,4 @@
 p6_aws_sms_template_generate() {
 
-    p6_log_or_run aws sms generate-template "$@"
+    p6_run_write_cmd aws sms generate-template "$@"
 }

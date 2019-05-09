@@ -1,4 +1,4 @@
-aws_directconnect_virtual_gateways_describe() {
+p6_aws_directconnect_virtual_gateways_describe() {
 
-    log_and_run aws directconnect describe-virtual-gateways "$@"
+    p6_run_read_cmd aws directconnect describe-virtual-gateways "$@"
 }

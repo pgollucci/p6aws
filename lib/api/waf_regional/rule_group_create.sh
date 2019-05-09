@@ -4,5 +4,5 @@ p6_aws_waf_regional_rule_group_create() {
     local change_token="$3"
     shift 3
 
-    p6_log_or_run aws waf-regional create-rule-group --name $name --metric-name $metric_name --change-token $change_token "$@"
+    p6_run_write_cmd aws waf-regional create-rule-group --name $name --metric-name $metric_name --change-token $change_token "$@"
 }

@@ -6,5 +6,5 @@ p6_aws_storagegateway_cached_iscsi_volume_create() {
     local client_token="$5"
     shift 5
 
-    p6_log_or_run aws storagegateway create-cached-iscsi-volume --gateway-arn $gateway_arn --volume-size-in-bytes $volume_size_in_bytes --target-name $target_name --network-interface-id $network_interface_id --client-token $client_token "$@"
+    p6_run_write_cmd aws storagegateway create-cached-iscsi-volume --gateway-arn $gateway_arn --volume-size-in-bytes $volume_size_in_bytes --target-name $target_name --network-interface-id $network_interface_id --client-token $client_token "$@"
 }

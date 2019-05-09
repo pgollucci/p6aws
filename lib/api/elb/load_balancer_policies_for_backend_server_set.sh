@@ -4,5 +4,5 @@ p6_aws_elb_load_balancer_policies_for_backend_server_set() {
     local policy_names="$3"
     shift 3
 
-    p6_log_or_run aws elb set-load-balancer-policies-for-backend-server --load-balancer-name $load_balancer_name --instance-port $instance_port --policy-names $policy_names "$@"
+    p6_run_write_cmd aws elb set-load-balancer-policies-for-backend-server --load-balancer-name $load_balancer_name --instance-port $instance_port --policy-names $policy_names "$@"
 }

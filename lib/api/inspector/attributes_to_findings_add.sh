@@ -3,5 +3,5 @@ p6_aws_inspector_attributes_to_findings_add() {
     local attributes="$2"
     shift 2
 
-    p6_log_or_run aws inspector add-attributes-to-findings --finding-arns $finding_arns --attributes $attributes "$@"
+    p6_run_write_cmd aws inspector add-attributes-to-findings --finding-arns $finding_arns --attributes $attributes "$@"
 }

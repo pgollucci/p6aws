@@ -3,5 +3,5 @@ p6_aws_redshift_cluster_parameter_group_modify() {
     local parameters="$2"
     shift 2
 
-    p6_log_or_run aws redshift modify-cluster-parameter-group --parameter-group-name $parameter_group_name --parameters $parameters "$@"
+    p6_run_write_cmd aws redshift modify-cluster-parameter-group --parameter-group-name $parameter_group_name --parameters $parameters "$@"
 }

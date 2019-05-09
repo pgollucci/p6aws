@@ -3,5 +3,5 @@ p6_aws_kinesis_stream_create() {
     local shard_count="$2"
     shift 2
 
-    p6_log_or_run aws kinesis create-stream --stream-name $stream_name --shard-count $shard_count "$@"
+    p6_run_write_cmd aws kinesis create-stream --stream-name $stream_name --shard-count $shard_count "$@"
 }

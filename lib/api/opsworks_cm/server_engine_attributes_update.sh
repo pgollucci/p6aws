@@ -3,5 +3,5 @@ p6_aws_opsworks_cm_server_engine_attributes_update() {
     local attribute_name="$2"
     shift 2
 
-    p6_log_or_run aws opsworks-cm update-server-engine-attributes --server-name $server_name --attribute-name $attribute_name "$@"
+    p6_run_write_cmd aws opsworks-cm update-server-engine-attributes --server-name $server_name --attribute-name $attribute_name "$@"
 }

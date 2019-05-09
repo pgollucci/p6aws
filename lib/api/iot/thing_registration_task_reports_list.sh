@@ -3,5 +3,5 @@ p6_aws_iot_thing_registration_task_reports_list() {
     local report_type="$2"
     shift 2
 
-    p6_log_and_run aws iot list-thing-registration-task-reports --task-id $task_id --report-type $report_type "$@"
+    p6_run_read_cmd aws iot list-thing-registration-task-reports --task-id $task_id --report-type $report_type "$@"
 }

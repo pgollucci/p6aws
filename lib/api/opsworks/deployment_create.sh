@@ -3,5 +3,5 @@ p6_aws_opsworks_deployment_create() {
     local command="$2"
     shift 2
 
-    p6_log_or_run aws opsworks create-deployment --stack-id $stack_id --command $command "$@"
+    p6_run_write_cmd aws opsworks create-deployment --stack-id $stack_id --command $command "$@"
 }

@@ -7,5 +7,5 @@ p6_aws_sagemaker_labeling_job_create() {
     local human_task_config="$6"
     shift 6
 
-    p6_log_or_run aws sagemaker create-labeling-job --labeling-job-name $labeling_job_name --label-attribute-name $label_attribute_name --input-config $input_config --output-config $output_config --role-arn $role_arn --human-task-config $human_task_config "$@"
+    p6_run_write_cmd aws sagemaker create-labeling-job --labeling-job-name $labeling_job_name --label-attribute-name $label_attribute_name --input-config $input_config --output-config $output_config --role-arn $role_arn --human-task-config $human_task_config "$@"
 }

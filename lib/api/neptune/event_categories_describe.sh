@@ -1,4 +1,4 @@
 p6_aws_neptune_event_categories_describe() {
 
-    p6_log_and_run aws neptune describe-event-categories "$@"
+    p6_run_read_cmd aws neptune describe-event-categories "$@"
 }

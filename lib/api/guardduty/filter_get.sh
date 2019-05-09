@@ -3,5 +3,5 @@ p6_aws_guardduty_filter_get() {
     local filter_name="$2"
     shift 2
 
-    p6_log_and_run aws guardduty get-filter --detector-id $detector_id --filter-name $filter_name "$@"
+    p6_run_read_cmd aws guardduty get-filter --detector-id $detector_id --filter-name $filter_name "$@"
 }

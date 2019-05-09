@@ -5,5 +5,5 @@ p6_aws_storagegateway_gateway_activate() {
     local gateway_region="$4"
     shift 4
 
-    p6_log_or_run aws storagegateway activate-gateway --activation-key $activation_key --gateway-name $gateway_name --gateway-timezone $gateway_timezone --gateway-region $gateway_region "$@"
+    p6_run_write_cmd aws storagegateway activate-gateway --activation-key $activation_key --gateway-name $gateway_name --gateway-timezone $gateway_timezone --gateway-region $gateway_region "$@"
 }

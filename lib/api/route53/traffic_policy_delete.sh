@@ -3,5 +3,5 @@ p6_aws_route53_traffic_policy_delete() {
     local traffic_policy_version="$2"
     shift 2
 
-    p6_log_or_run aws route53 delete-traffic-policy --id $id --traffic-policy-version $traffic_policy_version "$@"
+    p6_run_write_cmd aws route53 delete-traffic-policy --id $id --traffic-policy-version $traffic_policy_version "$@"
 }

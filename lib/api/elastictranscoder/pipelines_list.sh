@@ -1,4 +1,4 @@
 p6_aws_elastictranscoder_pipelines_list() {
 
-    p6_log_and_run aws elastictranscoder list-pipelines "$@"
+    p6_run_read_cmd aws elastictranscoder list-pipelines "$@"
 }

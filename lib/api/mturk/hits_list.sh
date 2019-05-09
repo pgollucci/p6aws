@@ -1,4 +1,4 @@
 p6_aws_mturk_hits_list() {
 
-    p6_log_and_run aws mturk list-hits "$@"
+    p6_run_read_cmd aws mturk list-hits "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_ssm_document_permission_modify() {
     local permission_type="$2"
     shift 2
 
-    p6_log_or_run aws ssm modify-document-permission --name $name --permission-type $permission_type "$@"
+    p6_run_write_cmd aws ssm modify-document-permission --name $name --permission-type $permission_type "$@"
 }

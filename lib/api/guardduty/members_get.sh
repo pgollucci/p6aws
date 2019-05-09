@@ -1,7 +1,7 @@
 p6_aws_guardduty_members_get() {
-    local account_ids="$1"
-    local detector_id="$2"
+    local detector_id="$1"
+    local account_ids="$2"
     shift 2
 
-    p6_log_and_run aws guardduty get-members --account-ids $account_ids --detector-id $detector_id "$@"
+    p6_run_read_cmd aws guardduty get-members --detector-id $detector_id --account-ids $account_ids "$@"
 }

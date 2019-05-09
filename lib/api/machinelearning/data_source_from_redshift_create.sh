@@ -4,5 +4,5 @@ p6_aws_machinelearning_data_source_from_redshift_create() {
     local role_arn="$3"
     shift 3
 
-    p6_log_or_run aws machinelearning create-data-source-from-redshift --data-source-id $data_source_id --data-spec $data_spec --role-arn $role_arn "$@"
+    p6_run_write_cmd aws machinelearning create-data-source-from-redshift --data-source-id $data_source_id --data-spec $data_spec --role-arn $role_arn "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_opsworks_cm_node_disassociate() {
     local node_name="$2"
     shift 2
 
-    p6_log_or_run aws opsworks-cm disassociate-node --server-name $server_name --node-name $node_name "$@"
+    p6_run_write_cmd aws opsworks-cm disassociate-node --server-name $server_name --node-name $node_name "$@"
 }

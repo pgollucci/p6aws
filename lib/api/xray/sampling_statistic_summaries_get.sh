@@ -1,4 +1,4 @@
 p6_aws_xray_sampling_statistic_summaries_get() {
 
-    p6_log_and_run aws xray get-sampling-statistic-summaries "$@"
+    p6_run_read_cmd aws xray get-sampling-statistic-summaries "$@"
 }

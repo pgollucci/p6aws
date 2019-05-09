@@ -1,6 +1,6 @@
-aws_datapipeline_runs_list() {
+p6_aws_datapipeline_runs_list() {
     local pipeline_id="$1"
     shift 1
 
-    log_and_run aws datapipeline list-runs --pipeline-id $pipeline_id "$@"
+    p6_run_read_cmd aws datapipeline list-runs --pipeline-id $pipeline_id "$@"
 }

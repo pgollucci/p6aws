@@ -1,4 +1,4 @@
-aws_codestar_user_profiles_list() {
+p6_aws_codestar_user_profiles_list() {
 
-    log_and_run aws codestar list-user-profiles "$@"
+    p6_run_read_cmd aws codestar list-user-profiles "$@"
 }

@@ -1,6 +1,6 @@
-aws_devicefarm_run_delete() {
+p6_aws_devicefarm_run_delete() {
     local arn="$1"
     shift 1
 
-    cond_log_and_run aws devicefarm delete-run --arn $arn "$@"
+    p6_run_write_cmd aws devicefarm delete-run --arn $arn "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_ecr_lifecycle_policy_put() {
     local lifecycle_policy_text="$2"
     shift 2
 
-    p6_log_or_run aws ecr put-lifecycle-policy --repository-name $repository_name --lifecycle-policy-text $lifecycle_policy_text "$@"
+    p6_run_write_cmd aws ecr put-lifecycle-policy --repository-name $repository_name --lifecycle-policy-text $lifecycle_policy_text "$@"
 }

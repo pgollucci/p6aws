@@ -6,5 +6,5 @@ p6_aws_sagemaker_transform_job_create() {
     local transform_resources="$5"
     shift 5
 
-    p6_log_or_run aws sagemaker create-transform-job --transform-job-name $transform_job_name --model-name $model_name --transform-input $transform_input --transform-output $transform_output --transform-resources $transform_resources "$@"
+    p6_run_write_cmd aws sagemaker create-transform-job --transform-job-name $transform_job_name --model-name $model_name --transform-input $transform_input --transform-output $transform_output --transform-resources $transform_resources "$@"
 }

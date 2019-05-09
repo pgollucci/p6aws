@@ -4,5 +4,5 @@ p6_aws_inspector_assessment_report_get() {
     local report_type="$3"
     shift 3
 
-    p6_log_and_run aws inspector get-assessment-report --assessment-run-arn $assessment_run_arn --report-file-format $report_file_format --report-type $report_type "$@"
+    p6_run_read_cmd aws inspector get-assessment-report --assessment-run-arn $assessment_run_arn --report-file-format $report_file_format --report-type $report_type "$@"
 }

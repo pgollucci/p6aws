@@ -1,4 +1,4 @@
-aws_codebuild_builds_list() {
+p6_aws_codebuild_builds_list() {
 
-    log_and_run aws codebuild list-builds "$@"
+    p6_run_read_cmd aws codebuild list-builds "$@"
 }

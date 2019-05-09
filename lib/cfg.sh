@@ -1,3 +1,9 @@
+p6_aws_cfg_vpc_id() {
+    local vpc_id="$1"
+
+    export AWS_VPC=$vpc_id
+}
+
 p6_aws_cfg_env_level() {
     local env_level="$1"
 
@@ -21,6 +27,12 @@ p6_aws_cfg_region() {
     local region="$1"
 
     export AWS_DEFAULT_REGION=$region
+}
+
+p6_aws_cfg_source_vpc_id() {
+    local vpc_id="$1"
+
+    export AWS_SOURCE_VPC=$vpc_id
 }
 
 p6_aws_cfg_source_env_level() {
@@ -49,12 +61,41 @@ p6_aws_cfg_source_region() {
 
 p6_aws_cfg_restore_source() {
 
-    export AWS_DEFAULT_PROFILE=$AWS_SOURCE_DEFAULT_PROFILE
-    export AWS_PROFILE=$AWS_SOURCE_PROFILE
-    export AWS_DEFAULT_REGION=$AWS_SOURCE_DEFAULT_REGION
-    export AWS_ENV=$AWS_SOURCE_ENV
-    export AWS_VPC=$AWS_SOURCE_VPC
-    export ENV_LEVEL=$SOURCE_ENV_LEVEL
+    if [ -n "$AWS_SOURCE_DEFAULT_PROFILE" ]; then
+      export AWS_DEFAULT_PROFILE=$AWS_SOURCE_DEFAULT_PROFILE
+    else
+      unset AWS_DEFAULT_PROFILE
+    fi
+
+    if [ -n "$AWS_SOURCE_PROFILE" ]; then
+      export AWS_PROFILE=$AWS_SOURCE_PROFILE
+    else
+      unset AWS_PROFILE
+    fi
+
+    if [ -n "$AWS_SOURCE_DEFAULT_REGION" ]; then
+      export AWS_DEFAULT_REGION=$AWS_SOURCE_DEFAULT_REGION
+    else
+      unset AWS_DEFAULT_REGION
+    fi
+ 
+    if [ -n "$AWS_SOURCE_ENV" ]; then
+      export AWS_ENV=$AWS_SOURCE_ENV
+    else
+      unset AWS_ENV
+    fi
+
+    if [ -n "$AWS_SOURCE_VPC" ]; then
+      export AWS_VPC=$AWS_SOURCE_VPC
+    else
+      unset AWS_VPC
+    fi
+
+    if [ -n "$SOURCE_ENV_LEVEL" ]; then
+      export ENV_LEVEL=$SOURCE_ENV_LEVEL
+    else
+      unset ENV_LEVEL
+    fi
 }
 
 p6_aws_cfg_restore_saved() {

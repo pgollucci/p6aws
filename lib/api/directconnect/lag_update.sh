@@ -1,6 +1,6 @@
-aws_directconnect_lag_update() {
+p6_aws_directconnect_lag_update() {
     local lag_id="$1"
     shift 1
 
-    cond_log_and_run aws directconnect update-lag --lag-id $lag_id "$@"
+    p6_run_write_cmd aws directconnect update-lag --lag-id $lag_id "$@"
 }

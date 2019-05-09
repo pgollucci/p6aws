@@ -1,4 +1,4 @@
-aws_dms_endpoint_types_describe() {
+p6_aws_dms_endpoint_types_describe() {
 
-    log_and_run aws dms describe-endpoint-types "$@"
+    p6_run_read_cmd aws dms describe-endpoint-types "$@"
 }

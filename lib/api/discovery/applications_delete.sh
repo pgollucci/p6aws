@@ -1,6 +1,6 @@
-aws_discovery_applications_delete() {
+p6_aws_discovery_applications_delete() {
     local configuration_ids="$1"
     shift 1
 
-    cond_log_and_run aws discovery delete-applications --configuration-ids $configuration_ids "$@"
+    p6_run_write_cmd aws discovery delete-applications --configuration-ids $configuration_ids "$@"
 }

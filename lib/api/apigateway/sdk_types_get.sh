@@ -1,4 +1,4 @@
-aws_apigateway_sdk_types_get() {
+p6_aws_apigateway_sdk_types_get() {
 
-    log_and_run aws apigateway get-sdk-types "$@"
+    p6_run_read_cmd aws apigateway get-sdk-types "$@"
 }

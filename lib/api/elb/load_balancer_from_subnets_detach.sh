@@ -3,5 +3,5 @@ p6_aws_elb_load_balancer_from_subnets_detach() {
     local subnets="$2"
     shift 2
 
-    p6_log_or_run aws elb detach-load-balancer-from-subnets --load-balancer-name $load_balancer_name --subnets $subnets "$@"
+    p6_run_write_cmd aws elb detach-load-balancer-from-subnets --load-balancer-name $load_balancer_name --subnets $subnets "$@"
 }

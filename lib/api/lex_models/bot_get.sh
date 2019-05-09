@@ -3,5 +3,5 @@ p6_aws_lex_models_bot_get() {
     local version_or_alias="$2"
     shift 2
 
-    p6_log_and_run aws lex-models get-bot --name $name --version-or-alias $version_or_alias "$@"
+    p6_run_read_cmd aws lex-models get-bot --name $name --version-or-alias $version_or_alias "$@"
 }

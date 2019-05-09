@@ -6,5 +6,5 @@ p6_aws_sagemaker_compilation_job_create() {
     local stopping_condition="$5"
     shift 5
 
-    p6_log_or_run aws sagemaker create-compilation-job --compilation-job-name $compilation_job_name --role-arn $role_arn --input-config $input_config --output-config $output_config --stopping-condition $stopping_condition "$@"
+    p6_run_write_cmd aws sagemaker create-compilation-job --compilation-job-name $compilation_job_name --role-arn $role_arn --input-config $input_config --output-config $output_config --stopping-condition $stopping_condition "$@"
 }

@@ -5,5 +5,5 @@ p6_aws_iot_ota_update_create() {
     local role_arn="$4"
     shift 4
 
-    p6_log_or_run aws iot create-ota-update --ota-update-id $ota_update_id --targets $targets --files $files --role-arn $role_arn "$@"
+    p6_run_write_cmd aws iot create-ota-update --ota-update-id $ota_update_id --targets $targets --files $files --role-arn $role_arn "$@"
 }

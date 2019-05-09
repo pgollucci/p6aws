@@ -3,5 +3,5 @@ p6_aws_elasticbeanstalk_environment_configuration_delete() {
     local environment_name="$2"
     shift 2
 
-    p6_log_or_run aws elasticbeanstalk delete-environment-configuration --application-name $application_name --environment-name $environment_name "$@"
+    p6_run_write_cmd aws elasticbeanstalk delete-environment-configuration --application-name $application_name --environment-name $environment_name "$@"
 }

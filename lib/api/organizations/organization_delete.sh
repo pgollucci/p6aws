@@ -1,4 +1,4 @@
 p6_aws_organizations_organization_delete() {
 
-    p6_log_or_run aws organizations delete-organization "$@"
+    p6_run_write_cmd aws organizations delete-organization "$@"
 }

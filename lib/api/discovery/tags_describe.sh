@@ -1,4 +1,4 @@
-aws_discovery_tags_describe() {
+p6_aws_discovery_tags_describe() {
 
-    log_and_run aws discovery describe-tags "$@"
+    p6_run_read_cmd aws discovery describe-tags "$@"
 }

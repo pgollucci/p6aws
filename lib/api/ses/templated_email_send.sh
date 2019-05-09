@@ -5,5 +5,5 @@ p6_aws_ses_templated_email_send() {
     local template_data="$4"
     shift 4
 
-    p6_log_or_run aws ses send-templated-email --source $source --destination $destination --template $template --template-data $template_data "$@"
+    p6_run_write_cmd aws ses send-templated-email --source $source --destination $destination --template $template --template-data $template_data "$@"
 }

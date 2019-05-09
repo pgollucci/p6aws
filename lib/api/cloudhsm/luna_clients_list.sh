@@ -1,4 +1,4 @@
-aws_cloudhsm_luna_clients_list() {
+p6_aws_cloudhsm_luna_clients_list() {
 
-    log_and_run aws cloudhsm list-luna-clients "$@"
+    p6_run_read_cmd aws cloudhsm list-luna-clients "$@"
 }

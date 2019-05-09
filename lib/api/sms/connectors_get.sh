@@ -1,4 +1,4 @@
 p6_aws_sms_connectors_get() {
 
-    p6_log_and_run aws sms get-connectors "$@"
+    p6_run_read_cmd aws sms get-connectors "$@"
 }

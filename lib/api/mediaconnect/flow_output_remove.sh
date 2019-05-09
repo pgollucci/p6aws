@@ -3,5 +3,5 @@ p6_aws_mediaconnect_flow_output_remove() {
     local output_arn="$2"
     shift 2
 
-    p6_log_or_run aws mediaconnect remove-flow-output --flow-arn $flow_arn --output-arn $output_arn "$@"
+    p6_run_write_cmd aws mediaconnect remove-flow-output --flow-arn $flow_arn --output-arn $output_arn "$@"
 }

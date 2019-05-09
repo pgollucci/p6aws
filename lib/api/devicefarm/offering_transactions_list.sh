@@ -1,4 +1,4 @@
-aws_devicefarm_offering_transactions_list() {
+p6_aws_devicefarm_offering_transactions_list() {
 
-    log_and_run aws devicefarm list-offering-transactions "$@"
+    p6_run_read_cmd aws devicefarm list-offering-transactions "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_elastictranscoder_pipeline_status_update() {
     local status="$2"
     shift 2
 
-    p6_log_or_run aws elastictranscoder update-pipeline-status --id $id --status $status "$@"
+    p6_run_write_cmd aws elastictranscoder update-pipeline-status --id $id --status $status "$@"
 }

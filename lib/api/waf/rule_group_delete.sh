@@ -3,5 +3,5 @@ p6_aws_waf_rule_group_delete() {
     local change_token="$2"
     shift 2
 
-    p6_log_or_run aws waf delete-rule-group --rule-group-id $rule_group_id --change-token $change_token "$@"
+    p6_run_write_cmd aws waf delete-rule-group --rule-group-id $rule_group_id --change-token $change_token "$@"
 }

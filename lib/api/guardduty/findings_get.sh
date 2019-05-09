@@ -3,5 +3,5 @@ p6_aws_guardduty_findings_get() {
     local finding_ids="$2"
     shift 2
 
-    p6_log_and_run aws guardduty get-findings --detector-id $detector_id --finding-ids $finding_ids "$@"
+    p6_run_read_cmd aws guardduty get-findings --detector-id $detector_id --finding-ids $finding_ids "$@"
 }

@@ -1,4 +1,4 @@
-aws_devicefarm_offering_renew() {
+p6_aws_devicefarm_offering_renew() {
 
-    cond_log_and_run aws devicefarm renew-offering "$@"
+    p6_run_write_cmd aws devicefarm renew-offering "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_redshift_cluster_snapshot_create() {
     local cluster_identifier="$2"
     shift 2
 
-    p6_log_or_run aws redshift create-cluster-snapshot --snapshot-identifier $snapshot_identifier --cluster-identifier $cluster_identifier "$@"
+    p6_run_write_cmd aws redshift create-cluster-snapshot --snapshot-identifier $snapshot_identifier --cluster-identifier $cluster_identifier "$@"
 }

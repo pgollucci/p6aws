@@ -4,5 +4,5 @@ p6_aws_kinesis_shard_split() {
     local new_starting_hash_key="$3"
     shift 3
 
-    p6_log_or_run aws kinesis split-shard --stream-name $stream_name --shard-to-split $shard_to_split --new-starting-hash-key $new_starting_hash_key "$@"
+    p6_run_write_cmd aws kinesis split-shard --stream-name $stream_name --shard-to-split $shard_to_split --new-starting-hash-key $new_starting_hash_key "$@"
 }

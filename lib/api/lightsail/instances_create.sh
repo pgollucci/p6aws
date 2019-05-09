@@ -5,5 +5,5 @@ p6_aws_lightsail_instances_create() {
     local bundle_id="$4"
     shift 4
 
-    p6_log_or_run aws lightsail create-instances --instance-names $instance_names --availability-zone $availability_zone --blueprint-id $blueprint_id --bundle-id $bundle_id "$@"
+    p6_run_write_cmd aws lightsail create-instances --instance-names $instance_names --availability-zone $availability_zone --blueprint-id $blueprint_id --bundle-id $bundle_id "$@"
 }

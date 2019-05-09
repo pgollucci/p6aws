@@ -3,5 +3,5 @@ p6_aws_meteringmarketplace_meter_usage_batch() {
     local product_code="$2"
     shift 2
 
-    p6_log_or_run aws meteringmarketplace batch-meter-usage --usage-records $usage_records --product-code $product_code "$@"
+    p6_run_write_cmd aws meteringmarketplace batch-meter-usage --usage-records $usage_records --product-code $product_code "$@"
 }

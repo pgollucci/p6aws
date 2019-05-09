@@ -3,5 +3,5 @@ p6_aws_waf_regional_ip_set_create() {
     local change_token="$2"
     shift 2
 
-    p6_log_or_run aws waf-regional create-ip-set --name $name --change-token $change_token "$@"
+    p6_run_write_cmd aws waf-regional create-ip-set --name $name --change-token $change_token "$@"
 }

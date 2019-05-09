@@ -3,5 +3,5 @@ p6_aws_servicecatalog_tag_option_create() {
     local value="$2"
     shift 2
 
-    p6_log_or_run aws servicecatalog create-tag-option --key $key --value $value "$@"
+    p6_run_write_cmd aws servicecatalog create-tag-option --key $key --value $value "$@"
 }

@@ -3,5 +3,5 @@ p6_aws_elasticbeanstalk_configuration_template_delete() {
     local template_name="$2"
     shift 2
 
-    p6_log_or_run aws elasticbeanstalk delete-configuration-template --application-name $application_name --template-name $template_name "$@"
+    p6_run_write_cmd aws elasticbeanstalk delete-configuration-template --application-name $application_name --template-name $template_name "$@"
 }

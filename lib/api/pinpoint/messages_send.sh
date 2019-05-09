@@ -3,5 +3,5 @@ p6_aws_pinpoint_messages_send() {
     local message_request="$2"
     shift 2
 
-    p6_log_or_run aws pinpoint send-messages --application-id $application_id --message-request $message_request "$@"
+    p6_run_write_cmd aws pinpoint send-messages --application-id $application_id --message-request $message_request "$@"
 }

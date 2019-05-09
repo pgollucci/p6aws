@@ -3,5 +3,5 @@ p6_aws_ecr_delete_image_batch() {
     local image_ids="$2"
     shift 2
 
-    p6_log_or_run aws ecr batch-delete-image --repository-name $repository_name --image-ids $image_ids "$@"
+    p6_run_write_cmd aws ecr batch-delete-image --repository-name $repository_name --image-ids $image_ids "$@"
 }

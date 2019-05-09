@@ -1,4 +1,4 @@
-aws_configservice_delivery_channels_describe() {
+p6_aws_configservice_delivery_channels_describe() {
 
-    log_and_run aws configservice describe-delivery-channels "$@"
+    p6_run_read_cmd aws configservice describe-delivery-channels "$@"
 }

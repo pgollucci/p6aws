@@ -1,4 +1,4 @@
-aws_acm_certificates_list() {
+p6_aws_acm_certificates_list() {
 
-    log_and_run aws acm list-certificates "$@"
+    p6_run_read_cmd aws acm list-certificates "$@"
 }

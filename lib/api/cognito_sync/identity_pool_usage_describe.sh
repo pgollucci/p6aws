@@ -1,6 +1,6 @@
-aws_cognito_sync_identity_pool_usage_describe() {
+p6_aws_cognito_sync_identity_pool_usage_describe() {
     local identity_pool_id="$1"
     shift 1
 
-    log_and_run aws cognito-sync describe-identity-pool-usage --identity-pool-id $identity_pool_id "$@"
+    p6_run_read_cmd aws cognito-sync describe-identity-pool-usage --identity-pool-id $identity_pool_id "$@"
 }

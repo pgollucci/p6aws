@@ -1,6 +1,6 @@
-aws_datapipeline_pipeline_delete() {
+p6_aws_datapipeline_pipeline_delete() {
     local pipeline_id="$1"
     shift 1
 
-    cond_log_and_run aws datapipeline delete-pipeline --pipeline-id $pipeline_id "$@"
+    p6_run_write_cmd aws datapipeline delete-pipeline --pipeline-id $pipeline_id "$@"
 }

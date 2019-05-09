@@ -3,5 +3,5 @@ p6_aws_emr_security_configuration_create() {
     local security_configuration="$2"
     shift 2
 
-    p6_log_or_run aws emr create-security-configuration --name $name --security-configuration $security_configuration "$@"
+    p6_run_write_cmd aws emr create-security-configuration --name $name --security-configuration $security_configuration "$@"
 }

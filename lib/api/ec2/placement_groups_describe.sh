@@ -1,4 +1,4 @@
 p6_aws_ec2_placement_groups_describe() {
 
-    p6_log_and_run aws ec2 describe-placement-groups "$@"
+    p6_run_read_cmd aws ec2 describe-placement-groups "$@"
 }

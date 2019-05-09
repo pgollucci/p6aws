@@ -3,5 +3,5 @@ p6_aws_lambda_alias_get() {
     local name="$2"
     shift 2
 
-    p6_log_and_run aws lambda get-alias --function-name $function_name --name $name "$@"
+    p6_run_read_cmd aws lambda get-alias --function-name $function_name --name $name "$@"
 }

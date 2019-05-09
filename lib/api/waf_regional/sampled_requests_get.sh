@@ -5,5 +5,5 @@ p6_aws_waf_regional_sampled_requests_get() {
     local max_items="$4"
     shift 4
 
-    p6_log_and_run aws waf-regional get-sampled-requests --web-acl-id $web_acl_id --rule-id $rule_id --time-window $time_window --max-items $max_items "$@"
+    p6_run_read_cmd aws waf-regional get-sampled-requests --web-acl-id $web_acl_id --rule-id $rule_id --time-window $time_window --max-items $max_items "$@"
 }

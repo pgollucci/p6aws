@@ -1,7 +1,7 @@
-aws_datapipeline_objects_query() {
+p6_aws_datapipeline_objects_query() {
     local pipeline_id="$1"
     local sphere="$2"
     shift 2
 
-    cond_log_and_run aws datapipeline query-objects --pipeline-id $pipeline_id --sphere $sphere "$@"
+    p6_run_write_cmd aws datapipeline query-objects --pipeline-id $pipeline_id --sphere $sphere "$@"
 }

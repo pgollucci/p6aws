@@ -3,5 +3,5 @@ p6_aws_es_elasticsearch_instance_type_limits_describe() {
     local elasticsearch_version="$2"
     shift 2
 
-    p6_log_and_run aws es describe-elasticsearch-instance-type-limits --instance-type $instance_type --elasticsearch-version $elasticsearch_version "$@"
+    p6_run_read_cmd aws es describe-elasticsearch-instance-type-limits --instance-type $instance_type --elasticsearch-version $elasticsearch_version "$@"
 }

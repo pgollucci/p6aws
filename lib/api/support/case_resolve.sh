@@ -1,4 +1,4 @@
 p6_aws_support_case_resolve() {
 
-    p6_log_or_run aws support resolve-case "$@"
+    p6_run_write_cmd aws support resolve-case "$@"
 }

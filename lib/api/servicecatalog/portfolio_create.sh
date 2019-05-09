@@ -3,5 +3,5 @@ p6_aws_servicecatalog_portfolio_create() {
     local provider_name="$2"
     shift 2
 
-    p6_log_or_run aws servicecatalog create-portfolio --display-name $display_name --provider-name $provider_name "$@"
+    p6_run_write_cmd aws servicecatalog create-portfolio --display-name $display_name --provider-name $provider_name "$@"
 }

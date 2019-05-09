@@ -5,5 +5,5 @@ p6_aws_logs_metric_filter_put() {
     local metric_transformations="$4"
     shift 4
 
-    p6_log_or_run aws logs put-metric-filter --log-group-name $log_group_name --filter-name $filter_name --filter-pattern $filter_pattern --metric-transformations $metric_transformations "$@"
+    p6_run_write_cmd aws logs put-metric-filter --log-group-name $log_group_name --filter-name $filter_name --filter-pattern $filter_pattern --metric-transformations $metric_transformations "$@"
 }

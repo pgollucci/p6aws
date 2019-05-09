@@ -4,5 +4,5 @@ p6_aws_glacier_job_describe() {
     local job_id="$3"
     shift 3
 
-    p6_log_and_run aws glacier describe-job --account-id $account_id --vault-name $vault_name --job-id $job_id "$@"
+    p6_run_read_cmd aws glacier describe-job --account-id $account_id --vault-name $vault_name --job-id $job_id "$@"
 }

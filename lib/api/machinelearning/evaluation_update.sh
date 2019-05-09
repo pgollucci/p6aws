@@ -3,5 +3,5 @@ p6_aws_machinelearning_evaluation_update() {
     local evaluation_name="$2"
     shift 2
 
-    p6_log_or_run aws machinelearning update-evaluation --evaluation-id $evaluation_id --evaluation-name $evaluation_name "$@"
+    p6_run_write_cmd aws machinelearning update-evaluation --evaluation-id $evaluation_id --evaluation-name $evaluation_name "$@"
 }

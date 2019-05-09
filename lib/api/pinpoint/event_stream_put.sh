@@ -3,5 +3,5 @@ p6_aws_pinpoint_event_stream_put() {
     local write_event_stream="$2"
     shift 2
 
-    p6_log_or_run aws pinpoint put-event-stream --application-id $application_id --write-event-stream $write_event_stream "$@"
+    p6_run_write_cmd aws pinpoint put-event-stream --application-id $application_id --write-event-stream $write_event_stream "$@"
 }

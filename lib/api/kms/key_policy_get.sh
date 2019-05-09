@@ -3,5 +3,5 @@ p6_aws_kms_key_policy_get() {
     local policy_name="$2"
     shift 2
 
-    p6_log_and_run aws kms get-key-policy --key-id $key_id --policy-name $policy_name "$@"
+    p6_run_read_cmd aws kms get-key-policy --key-id $key_id --policy-name $policy_name "$@"
 }
