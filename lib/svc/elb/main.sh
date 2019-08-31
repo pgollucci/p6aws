@@ -2,19 +2,46 @@ p6_aws_elb_svc_list() {
 
     p6_aws_elb_load_balancers_describe \
 	--output text \
-	--query "'LoadBalancerDescriptions[].[Scheme, LoadBalancerName, join(\`,\`, Subnets[]), join(\`,\`, AvailabilityZones[]), join(\`,\`, SecurityGroups[]), join(\`,\`,Instances[].InstanceId)]'"
+	--query "'LoadBalancerDescriptions[].[Scheme, LoadBalancerName, join(\`,\`, Subnets[]), join(\`,\`, AvailabilityZones[]), join(\`,\`, SecurityGroups[]), join(\`,\`,Instances[].InstanceId), $P6_AWS_JQ_TAG_NAME]'"
 }
 
 p6_aws_elb_svc_create() {
     local elb_name="$1"
-    local sg_ids="$2"
-    local subnet_ids="$3"
+    local listeners="${2:-http}"
+    local subnet_type="${3:-Public}"
+    local vpc_id="${4:-$AWS_VPC}"
 
-    p6_aws_elb_load_balancer_create \
-	--load-balancer-name "$elb_name" \
-	--security-groups "$sg_ids" \
-	--subnets "$subnet_ids" \
-	--listeners "'Protocol=http,LoadBalancerPort=80,InstanceProtocol=http,InstancePort=80'"
+    local subnet_ids=$(p6_aws_ec2_svc_subnet_ids_get "$subnet_type" "$vpc_id" | xargs)
+
+    local my_listeners
+    # for my $listener in $listeners; do
+    case listener in
+	http)
+	    my_listeners="Protocol=http,LoadBalancerPort=80,InstanceProtocol=http,InstancePort=80"
+	    ;;
+	http80to8080)
+	    my_listeners="Protocol=http,LoadBalancerPort=80,InstanceProtocol=http,InstancePort=8080"
+	    ;;
+	http80to8000)
+	    my_listeners="Protocol=http,LoadBalancerPort=80,InstanceProtocol=http,InstancePort=8000"
+	    ;;
+	https)
+	    local certificate_id=$(echo $listener | cut -f 2 -d ':')
+	    my_listeners="Protocol=https,LoadBalancerPort=443,InstanceProtocol=http,InstancePort=80,CertificateId=$certificate_id"
+	    ;;
+	httpstohttps)
+	    my_listeners="Protocol=https,LoadBalancerPort=443,InstanceProtocol=https,InstancePort=443"
+	    ;;
+	ssh)
+	    my_listeners="Protocol=tcp,LoadBalancerPort=22,InstanceProtocol=tcp,InstancePort=22"
+	    ;;
+	*)
+	    my_listeners="$listener"
+	    ;;
+    esac
+    # done
+
+    p6_aws_elb_load_balancer_create "$elb_name" "'$listener'" --subnets $subnet_ids
 
     # tags
 }

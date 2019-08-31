@@ -26,7 +26,7 @@ p6_aws_init() {
   # apigw alb sns sqs
   # kms cloudwatch cloudtrails
   # acm rds
-  for svc in s3 s3api ec2 elb autoscaling route53 lambda stepfunctions route53 cloudformation; do
+  for svc in s3 s3api ec2 elb elbv2 autoscaling route53 lambda stepfunctions route53 cloudformation; do
     p6_aws_util_include_service "$svc"
   done
 }

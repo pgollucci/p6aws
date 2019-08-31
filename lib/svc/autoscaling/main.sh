@@ -7,8 +7,9 @@ p6_aws_autoscaling_svc_asg_create() {
     local lt_name="$6"
     local lt_version="$7"
     local subnet_type="$8"
+    local vpc_id="${9:-$AWS_VPC}"
 
-    local subnet_ids=$(p6_aws_ec2_svc_subnet_ids_get "$subnet_type" | xargs | sed -e 's/ /,/g')
+    local subnet_ids=$(p6_aws_ec2_svc_subnet_ids_get "$subnet_type" "$vpc_id" | xargs | sed -e 's/ /,/g')
 
     p6_aws_autoscaling_auto_scaling_group_create \
 	"$asg_name" "$min_size" "$max_size" \
@@ -19,6 +20,7 @@ p6_aws_autoscaling_svc_asg_create() {
     # ResourceId=string,ResourceType=string,Key=string,Value=string,PropagateAtLaunch=boolean ...}
 }
 
+# XXX: See elbv2 target-groups and rules
 p6_aws_autoscaling_svc_asg_target_group_arn() {
     local asg_name="$1"
     local target_group_arn="$2"

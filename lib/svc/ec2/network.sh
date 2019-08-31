@@ -8,8 +8,9 @@ p6_aws_ec2_svc_vpcs_list() {
 
 p6_aws_ec2_svc_subnet_get() {
     local subnet_type="$1"
+    local vpc_id="${2:-$AWS_VPC}"
 
-    p6_aws_ec2_svc_subnet_ids_get "$subnet_type" | head -1
+    p6_aws_ec2_svc_subnet_ids_get "$subnet_type" "$vpc_id" | head -1
 }
 
 p6_aws_ec2_svc_subnet_ids_get() {

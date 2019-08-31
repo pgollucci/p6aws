@@ -16,29 +16,37 @@ p6_aws_ec2_svc_instances_list() {
 p6_aws_ec2_svc_instance_id_from_name_tag() {
     local name="$1"
 
-    p6_aws_ec2_instances_describe \
-	--output text \
-	--filters "\"Name=tag:Name,Values=*$name*\"" \
-	--query "'Reservations[].Instances[].[LaunchTime,InstanceId]'" | \
-	sort -n | awk '{ print $2 }' | tail -1
+    local instance_id=$(p6_aws_ec2_instances_describe \
+			    --output text \
+			    --filters "\"Name=tag:Name,Values=*$name*\"" \
+			    --query "'Reservations[].Instances[].[LaunchTime,InstanceId]'" | \
+			    sort -n | \
+			    awk '{ print $2 }' | \
+			    tail -1)
+
+    p6_return "$instance_id"
 }
 
 p6_aws_ec2_svc_instance_private_ip() {
     local instance_id="$1"
 
-    p6_aws_ec2_instances_describe \
-	--output text \
-	--instance-ids $instance_id \
-	--query "'Reservations[0].Instances[0].PrivateIpAddress'"
+    local private_ip=$(p6_aws_ec2_instances_describe \
+			   --output text \
+			   --instance-ids $instance_id \
+			   --query "'Reservations[0].Instances[0].PrivateIpAddress'")
+
+    p6_return "$private_ip"
 }
 
 p6_aws_ec2_svc_instance_public_ip() {
     local instance_id="$1"
 
-    p6_aws_ec2_instances_describe \
-	--output text \
-	--instance-ids $instance_id \
-	--query "'Reservations[0].Instances[0].PublicIpAddress'"
+    local public_ip=$(p6_aws_ec2_instances_describe \
+			  --output text \
+			  --instance-ids $instance_id \
+			  --query "'Reservations[0].Instances[0].PublicIpAddress'")
+
+    p6_return "$public_ip"
 }
 
 p6_aws_ec2_svc_instance_create() {
@@ -108,15 +116,45 @@ p6_aws_ec2_svc_volumes_list() {
 p6_aws_ec2_svc_key_pair_make() {
     local key_name="$1"
 
+    local dir=$HOME/.ssh
+    local key_file_pub=$dir/$key_name.pub
+    local key_file_priv=$dir/$key_name
+
     if ! p6_aws_ec2_svc_key_pair_exists "$key_name"; then
-	if p6_file_exists "$HOME/.ssh/$USER.pub"; then
-	    p6_aws_ec2_key_pair_import $key_name file://$HOME/.ssh/$USER.pub
+	if p6_file_exists "$key_file_pub"; then
+	    p6_aws_ec2_key_pair_import "$key_name" "file:/$key_file_pub"
 	else
-	    p6_aws_ec2_key_pair_create $key_name | tee > $HOME/.ssh/$USER
+	    p6_aws_ec2_key_pair_create "$key_name" | tee > $key_file_priv
 	fi
     fi
 
+    # Validate!
+    p6_ssh_key_check "$key_file_pub" "$key_file_pub"
+
+    local os=$(p6_os_name)
+    case $os in
+	Darwin) ssh-add -K $key_file_priv ;; # XXX p6 me
+    esac
+
     p6_return "$key_name"
+}
+
+p6_aws_ec2_svc_key_pair_delete() {
+    local key_name="$1"
+
+    local dir=$HOME/.ssh
+    local key_file_pub=$dir/$key_name.pub
+    local key_file_priv=$dir/$key_name
+
+    p6_aws_ec2_key_pair_delete "$key_name"
+
+    local os=$(p6_os_name)
+    case $os in
+	Darwin) ssh-add -D $key_file_priv ;;
+    esac
+
+    p6_file_rmf $key_file_pub
+    p6_file_rmf $key_file_priv
 }
 
 p6_aws_ec2_svc_key_pair_exists() {
