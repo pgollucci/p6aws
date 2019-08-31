@@ -1,0 +1,20 @@
+{
+    "NetworkInterfaces": [
+	{
+	    "DeviceIndex":0,
+	    "AssociatePublicIpAddress":ASSOCIATE_PUBLIC_IP_ADDRESS,
+	    "Groups":["SECURITY_GROUPS"],
+	    "DeleteOnTermination":DELETE_ON_TERMINATE
+	}
+    ],
+    "ImageId": "IMAGE_ID",
+    "InstanceType":"INSTANCE_TYPE",
+    "TagSpecifications": [
+	{
+	    "ResourceType":"instance",
+	    "Tags":[
+		{"Key":"Name","Value":"TAG_NAME"}
+	    ]
+	}
+    ]
+}
