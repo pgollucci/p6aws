@@ -39,13 +39,13 @@ p6_aws_autoscaling_svc_asgs_list() {
 
 # [LoadBalancerNames[0]
 
-p6_aws_autoscaling_svc_asgs_act_list() {
+p6_aws_autoscaling_svc_asg_act_list() {
     local asg_name="$1"
 
     p6_aws_autoscaling_scaling_activities_describe \
 	--output text \
 	--auto-scaling-group-name "$asg_name" \
-	--query "Activities[].[StatusCode, Description, Details]"
+	--query "'Activities[].[StatusCode, Description, Details]'"
 }
 
 ## DEPRECATED -- see Launch Templates
