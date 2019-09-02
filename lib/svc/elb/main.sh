@@ -5,6 +5,12 @@ p6_aws_elb_svc_list() {
 	--query "'LoadBalancerDescriptions[].[Scheme, LoadBalancerName, join(\`,\`, Subnets[]), join(\`,\`, AvailabilityZones[]), join(\`,\`, SecurityGroups[]), join(\`,\`,Instances[].InstanceId), $P6_AWS_JQ_TAG_NAME]'"
 }
 
+p6_aws_ec2_svc_elb_listeners_list() {
+    local load_balancer_name="$1"
+
+    elb_listener_show.pl --load-balancer-name $load_balancer_name
+}
+
 p6_aws_elb_svc_create() {
     local elb_name="$1"
     local listeners="${2:-http}"
