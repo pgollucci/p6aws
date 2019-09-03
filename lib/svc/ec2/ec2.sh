@@ -81,7 +81,7 @@ p6_aws_ec2_svc_launch_template_create() {
     local ami_id="$2"
     local instance_type="${3:-t3a.nano}"
     local sg_ids="$4"
-#    local key_name="$6"
+    local key_name="$5"
 #    local user_data="${7:-}"
 
     [ -n "$user_data" ] && user_data="--user-data=$user_data"
@@ -92,7 +92,8 @@ p6_aws_ec2_svc_launch_template_create() {
 								     "DELETE_ON_TERMINATE=true" \
 								     "IMAGE_ID=$ami_id" \
 								     "INSTANCE_TYPE=$instance_type" \
-								     "TAG_NAME=$lt_name"
+								     "TAG_NAME=$lt_name" \
+								     "KEY_NAME=$key_name"
 	  )
 
     p6_aws_ec2_launch_template_create "$lt_name" "'$launch_template_data'" --version-description "initial"
@@ -174,7 +175,7 @@ p6_aws_ec2_svc_key_pair_exists() {
     fi
 }
 
-p6_aws_ec2_svc_key_pair_list() {
+p6_aws_ec2_svc_key_pairs_list() {
     local key_name="$1"
 
     p6_aws_ec2_key_pairs_describe \

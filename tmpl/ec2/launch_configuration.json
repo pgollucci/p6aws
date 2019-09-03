@@ -2,19 +2,16 @@
     "NetworkInterfaces": [
 	{
 	    "DeviceIndex":0,
-	    "AssociatePublicIpAddress":ASSOCIATE_PUBLIC_IP_ADDRESS,
+	    "AssociatePublicIpAddress":"ASSOCIATE_PUBLIC_IP_ADDRESS",
 	    "Groups":["SECURITY_GROUPS"],
-	    "DeleteOnTermination":DELETE_ON_TERMINATE
+	    "DeleteOnTermination":"DELETE_ON_TERMINATE"
 	}
     ],
+    "KeyName": "KEY_NAME",
     "ImageId": "IMAGE_ID",
     "InstanceType":"INSTANCE_TYPE",
     "TagSpecifications": [
-	{
-	    "ResourceType":"instance",
-	    "Tags":[
-		{"Key":"Name","Value":"TAG_NAME"}
-	    ]
-	}
+	{ "ResourceType":"instance", "Tags":[ {"Key":"Name","Value":"TAG_NAME"} ] },
+	{ "ResourceType":"volume",   "Tags":[ {"Key":"Name","Value":"TAG_NAME"} ] }
     ]
 }
