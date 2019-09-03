@@ -7,6 +7,12 @@ p6_aws_alb_svc_list() {
 	--query "'LoadBalancers[].[State.Code, Scheme, Type, join(\`,\`, AvailabilityZones[].SubnetId), join(\`,\`, SecurityGroups[]), DNSName]'"
 }
 
+p6_aws_alb_svc_listeners_list() {
+    local load_balancer_name="$1"
+
+    alb_listener_show.pl --load-balancer-name $load_balancer_name
+}
+
 p6_aws_alb_svc_create() {
     local alb_name="$1"
     local subnet_type="${2:-Public}"
