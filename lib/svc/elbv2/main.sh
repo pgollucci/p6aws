@@ -4,7 +4,7 @@ p6_aws_alb_svc_list() {
 
     p6_aws_elbv2_load_balancers_describe \
 	--output text \
-	--query "'LoadBalancers[].[State.Code, Scheme, Type, join(\`,\`, AvailabilityZones[].SubnetId), join(\`,\`, SecurityGroups[]), DNSName]'"
+	--query "'LoadBalancers[].[State.Code, Scheme, Type, join(\`,\`, AvailabilityZones[].SubnetId), join(\`,\`, SecurityGroups[]), DNSName, LoadBalancerArn]'"
 }
 
 p6_aws_alb_svc_listeners_list() {

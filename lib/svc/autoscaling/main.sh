@@ -45,7 +45,16 @@ p6_aws_autoscaling_svc_asg_act_list() {
     p6_aws_autoscaling_scaling_activities_describe \
 	--output text \
 	--auto-scaling-group-name "$asg_name" \
-	--query "'Activities[].[StatusCode, Description, Details]'"
+	--query "'Activities[].[StartTime, EndTime, StatusCode, Description, Details]'"
+}
+
+p6_aws_autoscaling_svc_asg_act_deltailed_list() {
+    local asg_name="$1"
+
+    p6_aws_autoscaling_scaling_activities_describe \
+	--output text \
+	--auto-scaling-group-name "$asg_name" \
+	--query "'Activities[].[StartTime, EndTime, StatusCode, Description, Details, Cause]'"
 }
 
 ## DEPRECATED -- see Launch Templates

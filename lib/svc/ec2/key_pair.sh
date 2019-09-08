@@ -4,63 +4,71 @@
 # Creates or re-uses an AWS EC2 key pair.
 #
 # AWS MUST be considered authoritative b/c if a key pair exists it may be in use
+# If AWS has no key pair then we should make a new one even if we have matches locally
 #
 # XXX: KeyPairs are regional, so this should be too
 # XXX: Should gen key name if none given
 #
 # IF AWS
-#  IF priv and pub and valid and match THEN good
-#  :IF !priv THEN punt
-#  :IF priv and !pub THEN gen pub THEN match THEN good
-#  :IF priv and pub and !valid THEN gen pub THEN match THEN good
-#  :IF priv and pub and valid and !match PUNT
+#   IF no priv THEN punt
+#   IF no pub THEN priv->pub
+#   IF no check THEN overwrite priv->pub
+#   IF no match THEN punt
 # ELSE !AWS
-#  IF priv and pub and valid THEN import
-#  :IF !priv THEN CREATE
-#  :IF priv and !pub THEN gen pub THEN import
-#  :IF priv and pub and !valid THEN gen pub THEN import
-#
-# Always chmod
-# Always add to identities
-# MacOSX: Add to Key Chain
+#   Nuke local
+#   Make local
+#   Import to AWS
 #
 #<
 ##############################################################################
 p6_aws_ec2_svc_key_pair_make() {
     local key_name="$1"
-    local dir="$2"
+    local dir="${2:-$HOME/.ssh/dynamic}"
 
     local key_file_priv=$dir/$key_name
     local key_file_pub=${key_file_priv}.pub
 
     if p6_aws_ec2_svc_key_pair_exists "$key_name"; then
-	if p & p & v & m; then
-	    true
-	else
-	    if !p; then
-		true
-	    elif !p; then
-		true
-	    elif !valid; then
-		true
-	    fi
+	# IF AWS but no priv key then PUNT
+	if ! p6_file_exists "$key_file_priv"; then
+	    p6_die "251" "NO PRIVATE KEY [AWS($key_name)->$key_file_priv]"
 	fi
+
+	# IF the public key doesn't exist generate it from private
+	if ! p6_file_exists "$key_file_pub"; then
+	    p6_ssh_pub_key_from_priv "$key_file_priv" "$key_file_pub"
+	fi
+
+	# If the check fails, overwrite they pub key by generating from private
+	if ! p6_ssh_key_check "$key_file_priv" "$key_file_pub"; then
+	    p6_ssh_pub_key_from_priv "$key_file_priv" "$key_file_pub"
+	fi
+
+	# At this point, local FS is consistent
+
+	# If the fingerprints don't match then PUNT
+	if ! p6_aws_ec2_key_pair_match "$key_name" "$dir"; then
+	    p6_die "252" "MISMATCH [AWS($key_name) is not $key_file_priv]"
+	fi
+
+	# Its already imported here do nothing
     else
-	if p & p; then
-	    true
-	elif !p; then
-	    true
-	elif !p; then
-	    true
-	elif !valid; then
-	    true
-	fi
+	# Nuke them
+	p6_ssh_key_delete "$key_file_priv"
+	p6_ssh_key_remove "$key_file_priv" "$key_file_pub"
+
+	# Make them
+	p6_ssh_key_make "$key_file_priv"
+	p6_ssh_keys_chmod "$key_file_priv"
+	p6_ssh_key_add "$key_file_priv"
+
+	p6_aws_ec2_key_pair_import "$key_name" "file://$key_file_pub"
     fi
 }
 
 p6_aws_ec2_svc_key_pair_delete() {
     local key_name="$1"
-    local dir="$2"
+    local dir="${2:-$HOME/.ssh/dynamic}"
 
     local key_file_priv=$dir/$key_name
     local key_file_pub=${key_file_priv}.pub
@@ -89,7 +97,7 @@ p6_aws_ec2_svc_key_pair_exists() {
 
 p6_aws_ec2_svc_key_pair_match() {
     local key_name="$1"
-    local dir="$2"
+    local dir="${2:-$HOME/.ssh/dynamic}"
 
     local key_file_pub=$dir/$key_name.pub
 
@@ -115,36 +123,3 @@ p6_aws_ec2_svc_key_pairs_list() {
 	--output text \
 	--query "'KeyPairs[]'"
 }
-
-
-    # if p6_aws_ec2_svc_key_pair_exists "$key_name"; then
-    #	if ! p6_ssh_key_check "$key_file_priv" "$key_file_pub"; then
-    #	    p6_ssh_key_make "$key_file_priv"
-    #	else
-    #	    true
-    #	fi
-    # else
-    #	if ! p6_ssh_key_check "$key_file_priv" "$key_file_pub"; then
-    #	    if p6_file_exists "$key_file_priv"; then
-    #		# priv->pub
-    #	    else
-    #		p6_ssh_key_make "$key_file_priv"
-    #	    fi
-    #	else
-    #	    true
-    #	fi
-
-    # fi
-
-
-    #	if p6_file_exists "$key_file_pub"; thne
-    #	    p6_aws_ec2_key_pair_import "$key_name" "file:/$key_file_pub"
-    #	else
-    #	    p6_aws_ec2_key_pair_create "$key_name" --query KeyMaterial | perl -p -e 's,",,g ; s,\\n,\n,g' > $key_file_priv
-    #	fi
-    # fi
-
-    # # Validate!
-    # p6_ssh_chmod "$key_file_priv"
-    # [ ! -r "$key_file_pub" ] && p6_ssh_pub_key_from_priv "$key_file_priv" "$key_file_pub"
-    # p6_ssh_key_check "$key_file_pub" "$key_file_pub"
