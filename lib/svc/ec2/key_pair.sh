@@ -89,9 +89,9 @@ p6_aws_ec2_svc_key_pair_exists() {
 	  )
 
     if p6_string_blank "$aws_key_name"; then
-	p6_return_false
-    else
 	p6_return_true
+    else
+	p6_return_false
     fi
 }
 
@@ -114,6 +114,8 @@ p6_aws_ec2_svc_key_pair_fingerprint() {
 	    --filters Name=key-name,Values=$key_name \
 	    --query "'KeyPairs[].[KeyFingerprint]'"
 	  )
+
+    p6_return "$aws_fingerprint"
 }
 
 p6_aws_ec2_svc_key_pairs_list() {
@@ -122,4 +124,17 @@ p6_aws_ec2_svc_key_pairs_list() {
     p6_aws_ec2_key_pairs_describe \
 	--output text \
 	--query "'KeyPairs[]'"
+}
+
+p6_aws_ec2_svc_ec2_key_name() {
+  local instance_id="$1"
+
+  local key_name=$(
+      p6_aws_ec2_instances_describe \
+	  --output text \
+	  --instance-id $instance_id \
+	  --query "Reservations[0].Instances[0].KeyName"
+	)
+
+  p6_return "$key_name"
 }

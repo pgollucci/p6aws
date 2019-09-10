@@ -93,8 +93,42 @@ p6_aws_iam_svc_role_create() {
     local role_name="$2"
     local assume_role_policy_document="$3"
 
-    p6_aws_iam_role_create "$role_name" "$assume_role_policy_document" \
-			   --output text \
-			   --path \'$role_path\' \
-			   --query "'Role.Arn'"
+    local role_arn=$(
+	p6_aws_iam_role_create "$role_name" "$assume_role_policy_document" \
+			       --output text \
+			       --path \'$role_path\' \
+			       --query "'Role.Arn'"
+	  )
+
+    p6_return "$role_arn"
+}
+
+p6_aws_iam_svc_policy_to_role() {
+    local role_full_path="$1"
+    local policy_arn="$2"
+
+    local role_name=$(p6_uri_name "$role_full_path")
+
+    p6_aws_iam_policy_role_attach --role-name $role_name --policy-arn $policy_arn
+}
+
+p6_aws_iam_svc_policy_create() {
+    local policy_full_path="$1"
+    local policy_description="$2"
+    local policy_document="$3"
+
+    local policy_path=$(p6_uri_path "$policy_full_path")
+    local policy_name=$(p6_uri_name "$policy_full_path")
+
+    local policy_arn=$(
+	p6_aws_iam_policy_create \
+	    --output text \
+	    --path $policy_path/ \
+	    --policy-name $policy_name \
+	    --description $policy_description \
+	    --policy-document $policy_document \
+	    --query "Policy.Arn"
+	  )
+
+    p6_return "$policy_arn"
 }
