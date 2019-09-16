@@ -1,0 +1,11 @@
+p6_aws_cfg_FNAME() {
+  local val="$1"
+
+  local old=$VAR
+
+  if ! p6_string_blank "$val"; then
+    p6_env_export "$var" "$val"
+  fi
+
+  p6_return "$old"
+}

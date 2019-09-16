@@ -1,180 +1,76 @@
-p6_aws_cfg_vpc_id() {
-    local vpc_id="$1"
-
-    export AWS_VPC=$vpc_id
-}
-
-p6_aws_cfg_env_level() {
-    local env_level="$1"
-
-    export ENV_LEVEL=$env_level
-}
-
-p6_aws_cfg_env() {
-    local env="$1"
-
-    export AWS_ENV=$env
-}
-
-p6_aws_cfg_profile() {
-    local profile="$1"
-
-    export AWS_DEFAULT_PROFILE=$profile
-    export AWS_PROFILE=$profile  # terraform
-}
-
-p6_aws_cfg_region() {
-    local region="$1"
-
-    export AWS_DEFAULT_REGION=$region
-}
-
-p6_aws_cfg_source_vpc_id() {
-    local vpc_id="$1"
-
-    export AWS_SOURCE_VPC=$vpc_id
-}
-
-p6_aws_cfg_source_env_level() {
-
-    export SOURCE_ENV_LEVEL=$1
-}
-
-p6_aws_cfg_source_env() {
-    local env="$1"
-
-    export AWS_SOURCE_ENV=$env
-}
-
-p6_aws_cfg_source_profile() {
-    local profile="$1"
-
-    export AWS_SOURCE_DEFAULT_PROFILE=$profile
-    export AWS_SOURCE_PROFILE=$profile  # terraform
-}
-
-p6_aws_cfg_source_region() {
-    local region="$1"
-
-    export AWS_SOURCE_DEFAULT_REGION=$region
-}
-
-p6_aws_cfg_restore_source() {
-
-    if [ -n "$AWS_SOURCE_DEFAULT_PROFILE" ]; then
-      export AWS_DEFAULT_PROFILE=$AWS_SOURCE_DEFAULT_PROFILE
-    else
-      unset AWS_DEFAULT_PROFILE
-    fi
-
-    if [ -n "$AWS_SOURCE_PROFILE" ]; then
-      export AWS_PROFILE=$AWS_SOURCE_PROFILE
-    else
-      unset AWS_PROFILE
-    fi
-
-    if [ -n "$AWS_SOURCE_DEFAULT_REGION" ]; then
-      export AWS_DEFAULT_REGION=$AWS_SOURCE_DEFAULT_REGION
-    else
-      unset AWS_DEFAULT_REGION
-    fi
- 
-    if [ -n "$AWS_SOURCE_ENV" ]; then
-      export AWS_ENV=$AWS_SOURCE_ENV
-    else
-      unset AWS_ENV
-    fi
-
-    if [ -n "$AWS_SOURCE_VPC" ]; then
-      export AWS_VPC=$AWS_SOURCE_VPC
-    else
-      unset AWS_VPC
-    fi
-
-    if [ -n "$SOURCE_ENV_LEVEL" ]; then
-      export ENV_LEVEL=$SOURCE_ENV_LEVEL
-    else
-      unset ENV_LEVEL
-    fi
-}
-
-p6_aws_cfg_restore_saved() {
-
-    export AWS_DEFAULT_PROFILE=$AWS_SAVED_DEFAULT_PROFILE
-    export AWS_PROFILE=$AWS_SAVED_PROFILE
-    export AWS_DEFAULT_REGION=$AWS_SAVED_DEFAULT_REGION
-    export AWS_ENV=$AWS_SAVED_ENV
-    export AWS_VPC=$AWS_SAVED_VPC
-    export ENV_LEVEL=$SAVED_ENV_LEVEL
-
-    unset AWS_SAVED_DEFAULT_PROFILE
-    unset AWS_SAVED_PROFILE
-    unset AWS_SAVED_DEFAULT_REGION
-    unset AWS_SAVED_ENV
-    unset AWS_SAVED_VPC
-    unset SAVED_ENV_LEVEL
-}
-
-p6_aws_cfg_save() {
-
-    export AWS_SAVED_DEFAULT_PROFILE=$AWS_DEFAULT_PROFILE
-    export AWS_SAVED_PROFILE=$AWS_PROFILE
-    export AWS_SAVED_DEFAULT_REGION=$AWS_DEFAULT_REGION
-    export AWS_SAVED_ENV=$AWS_ENV
-    export AWS_SAVED_VPC=$AWS_VPC
-    export SAVED_ENV_LEVEL=$ENV_LEVEL
-}
-
-p6_aws_cfg_clear() {
-
-    alias aws && unalias aws
-    unset AWS_DEFAULT_PROFILE
-    unset AWS_PROFILE
-    unset AWS_DEFAULT_REGION
-    unset AWS_ENV
-    unset AWS_VPC
-    unset ENV_LEVEL
-}
-
-p6_aws_cfg_source_clear() {
-
-    unset AWS_SOURCE_DEFAULT_PROFILE
-    unset AWS_SOURCE_PROFILE
-    unset AWS_SOURCE_DEFAULT_REGION
-    unset AWS_SOURCE_ENV
-    unset AWS_SOURCE_VPC
-    unset SOURCE_ENV_LEVEL
-}
-
-p6_aws_cfg_set() {
+###################################################################################
+#<
+# cfg - C style object with accessor API
+#
+# Represents the *current* "role", sts profile, iam user, credentials
+# N.B: You may be arbitrarly levels of assuming deep
+#
+# Attributes:
+#  - region
+#  - output
+#  - account_id
+#  - account_name
+#  - role_full_path
+#  - role_session_name
+#  - [org]
+#  - [vpc_id]
+#  - [env]
+#  - [env_level]
+#
+#  Credential State
+#   - config file
+#   - credential file
+#   - profile
+#
+#   Non Accessible: access_key, secret_access_key, session_token
+#
+# ENVs: AWS_ORG, AWS_VPC,
+# ENVs: AWS_ENV_TAG, AWS_ENV,
+# ENVs: AWS_PROFILE,
+# ENVs: AWS_DEFAULT_PROFILE, AWS_DEFAULT_REGION
+#>
+####################################################################################
+p6_aws_cfg_active() {
     local profile="$1"
     local region="$2"
     local env="$3"
-    local vpc="$4"
-    local env_level="$5"
+    local vpc_id="$4"
+    local type="$5"
 
-    p6_aws_cfg_profile "$profile"
-    p6_aws_cfg_region "$region"
-    p6_aws_cfg_env "$env"
-    p6_aws_cfg_env_level "$env_level"
+    for var in $(p6_aws_cfg_vars | egrep -v '_source|_saved'); do
+	local var_lc=$(p6_string_lc "$var")
+	local fname=$(p6_string_replace "$var_lc" "aws_" "")
+
+	local val=$(p6_obj_hash_get "$cfg" "$fname")
+
+	p6_aws_cfg_${fname} "$val"
+    done
 }
 
-p6_aws_cfg_source_set() {
-    local profile="$1"
-    local region="$2"
-    local env="$3"
-    local vpc="$4"
-    local env_level="$5"
+p6_aws_cfg_kinds() {
 
-    p6_aws_cfg_source_profile "$profile"
-    p6_aws_cfg_source_region "$region"
-    p6_aws_cfg_source_env "$env"
-    p6_aws_cfg_source_env_level "$env_level"
+    local kinds="'' _source _saved"
+
+    p6_return "$kinds"
+}
+
+p6_aws_cfg_vars() {
+
+    local env_vars=" \
+	  AWS_ORG \
+	  AWS_VPC_ID \
+	  AWS_ENV_TAG \
+	  AWS_ENV \
+	  AWS_PROFILE \
+	  AWS_DEFAULT_PROFILE \
+	  AWS_DEFAULT_REGION"
+
+    p6_return "$env_vars"
 }
 
 p6_aws_cfg_show() {
 
-    env | grep ^AWS_
+    p6_env_list "^AWS_"
 }
 
 p6_aws_cfg_reset() {
@@ -182,6 +78,67 @@ p6_aws_cfg_reset() {
     local kv
     for kv in $(p6_aws_cfg_show); do
 	local k=$(echo $kv | cut -f 1 -d '=')
-	eval "unset $k"
+	eval "p6_env_export_un $k"
+    done
+}
+
+p6_aws_cfg_clear() {
+
+    local kv
+    for kv in $(p6_aws_cfg_show | grep -v _saved); do
+	local k=$(echo $kv | cut -f 1 -d '=')
+	eval "p6_env_export_un $k"
+    done
+}
+
+p6_aws_cfg_save() {
+
+    local var
+    for var in $(p6_aws_cfg_vars | egrep -v '_source|_saved'); do
+	local var_lc=$(p6_string_lc "$var")
+	local fname=$(p6_string_replace "$var_lc" "aws_" "")
+
+	p6_aws_cfg_${fname}_saved "${$var}"
+    done
+}
+
+p6_aws_cfg_restore_saved() {
+
+    local var
+    for var in $(p6_aws_cfg_vars | grep _saved); do
+	local var_lc=$(p6_string_lc "$var")
+	local fname=$(p6_string_replace "$var_lc" "aws_" "")
+
+	p6_aws_cfg_${fname} "${$var}"
+    done
+}
+
+p6_aws_cfg_restore_source() {
+
+    local var
+    for var in $(p6_aws_cfg_vars | grep _source); do
+	local var_lc=$(p6_string_lc "$var")
+	local fname=$(p6_string_replace "$var_lc" "aws_" "")
+
+	p6_aws_cfg_${fname} "${$var}"
+    done
+}
+
+p6_aws_cfg__generate() {
+
+    local var
+    for var in $(p6_aws_cfg_vars); do
+	local var_lc=$(p6_string_lc "$var")
+	local fname=$(p6_string_replace "$var_lc" "aws_" "")
+
+	local kind
+	for kind in $(p6_aws_cfg_kinds); do
+	    local func=$(
+		p6_template_process "$P6_DFZ_SRC_P6M7G8_DIR/p6aws/tmpl/cfg/accessor.tmpl" \
+				    "FNAME=${fname}${kind}" \
+				    "VAR=${var}${kind}"
+		  )
+	    eval "$func"
+	done
     done
 }
