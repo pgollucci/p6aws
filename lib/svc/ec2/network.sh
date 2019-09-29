@@ -40,21 +40,22 @@ p6_aws_ec2_svc_rtbs_list() {
     local rtb
     for rtb in $(p6_aws_ec2_route_tables_describe --output text --filters "Name=vpc-id,Values=$vpc_id" --query "'RouteTables[].[RouteTableId]'"); do
 	p6_msg "=====> $rtb:"
-	p6_aws_ec2_svc_rtb_show $rtb
+	p6_aws_ec2_svc_rtb_show "$rtb"
     done
 }
 
 p6_aws_ec2_svc_rtb_show() {
-    local vpc_id="${1:-$AWS_VPC}"
+    local rtb_id="$1"
+    local vpc_id="${2:-$AWS_VPC}"
 
     p6_aws_ec2_route_tables_describe \
 	--output text \
-	--filters "Name=vpc-id,Values=$vpc_id,Name=route-table-id,Values=$1" \
+	--filters "Name=vpc-id,Values=$vpc_id,Name=route-table-id,Values=$rtb_id" \
 	--query "'RouteTables[].[RouteTableId, Associations[0].SubnetId,Associations[0].RouteTableAssociationId, $P6_AWS_JQ_TAG_NAME]'"
 
     p6_aws_ec2_route_tables_describe \
 	--output text \
-	--filters "Name=route-table-id,Values=$1" \
+	--filters "Name=route-table-id,Values=$rtb_id" \
 	--query "'RouteTables[].[Routes[]]'"
 }
 
