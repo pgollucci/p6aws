@@ -1,4 +1,4 @@
-aws_mq_minor_version_upgrade() {
+p6_aws_mq_minor_version_upgrade() {
         local broker_id="$1"
         shift 1
 

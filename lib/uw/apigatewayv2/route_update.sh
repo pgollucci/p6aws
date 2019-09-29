@@ -1,4 +1,4 @@
-aws_apigatewayv2_key_required() {
+p6_aws_apigatewayv2_key_required() {
         local api_id="$1"
         local route_id="$2"
         shift 2

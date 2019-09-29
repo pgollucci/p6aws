@@ -1,4 +1,4 @@
-aws_devicefarm_max_devices() {
+p6_aws_devicefarm_max_devices() {
         local arn="$1"
         shift 1
 

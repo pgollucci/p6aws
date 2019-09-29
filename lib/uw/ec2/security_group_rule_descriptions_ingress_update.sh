@@ -1,4 +1,4 @@
-aws_ec2_run() {
+p6_aws_ec2_run() {
         local ip_permissions="$1"
         shift 1
 

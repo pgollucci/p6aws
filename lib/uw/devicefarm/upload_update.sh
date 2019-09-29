@@ -1,4 +1,4 @@
-aws_devicefarm_content() {
+p6_aws_devicefarm_content() {
         local arn="$1"
         shift 1
 

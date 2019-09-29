@@ -1,4 +1,4 @@
-aws_opsworks_ssl() {
+p6_aws_opsworks_ssl() {
         local app_id="$1"
         shift 1
 

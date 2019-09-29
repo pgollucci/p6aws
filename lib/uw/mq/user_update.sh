@@ -1,4 +1,4 @@
-aws_mq_access() {
+p6_aws_mq_access() {
         local broker_id="$1"
         local username="$2"
         shift 2

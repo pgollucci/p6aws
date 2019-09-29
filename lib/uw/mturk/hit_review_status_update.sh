@@ -1,4 +1,4 @@
-aws_mturk_revert() {
+p6_aws_mturk_revert() {
         local hit_id="$1"
         shift 1
 

@@ -1,4 +1,4 @@
-aws_lambda_enabled() {
+p6_aws_lambda_enabled() {
         local uuid="$1"
         shift 1
 

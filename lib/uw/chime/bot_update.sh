@@ -1,4 +1,4 @@
-aws_chime_disabled() {
+p6_aws_chime_disabled() {
         local account_id="$1"
         local bot_id="$2"
         shift 2

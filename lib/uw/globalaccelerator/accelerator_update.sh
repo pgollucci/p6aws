@@ -1,4 +1,4 @@
-aws_globalaccelerator_enabled() {
+p6_aws_globalaccelerator_enabled() {
         local accelerator_arn="$1"
         shift 1
 

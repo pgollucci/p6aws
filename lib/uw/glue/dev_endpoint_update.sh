@@ -1,4 +1,4 @@
-aws_glue_etl_libraries() {
+p6_aws_glue_etl_libraries() {
         local endpoint_name="$1"
         shift 1
 

@@ -1,4 +1,4 @@
-aws_servicecatalog_active() {
+p6_aws_servicecatalog_active() {
         local id="$1"
         shift 1
 

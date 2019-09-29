@@ -1,4 +1,4 @@
-aws_gamelift_required() {
+p6_aws_gamelift_required() {
         local name="$1"
         shift 1
 

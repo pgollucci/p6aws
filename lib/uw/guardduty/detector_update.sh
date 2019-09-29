@@ -1,4 +1,4 @@
-aws_guardduty_enable() {
+p6_aws_guardduty_enable() {
         local detector_id="$1"
         shift 1
 

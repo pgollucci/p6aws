@@ -1,4 +1,4 @@
-aws_sms_encrypted() {
+p6_aws_sms_encrypted() {
         local replication_job_id="$1"
         shift 1
 

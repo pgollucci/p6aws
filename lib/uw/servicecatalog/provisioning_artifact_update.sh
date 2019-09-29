@@ -1,4 +1,4 @@
-aws_servicecatalog_active() {
+p6_aws_servicecatalog_active() {
         local product_id="$1"
         local provisioning_artifact_id="$2"
         shift 2

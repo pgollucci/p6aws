@@ -1,4 +1,4 @@
-aws_amplify_auto_sub_domain() {
+p6_aws_amplify_auto_sub_domain() {
         local app_id="$1"
         local domain_name="$2"
         local sub_domain_settings="$3"

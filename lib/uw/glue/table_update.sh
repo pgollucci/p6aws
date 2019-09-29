@@ -1,4 +1,4 @@
-aws_glue_archive() {
+p6_aws_glue_archive() {
         local database_name="$1"
         local table_input="$2"
         shift 2

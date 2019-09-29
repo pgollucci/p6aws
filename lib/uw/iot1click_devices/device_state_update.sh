@@ -1,4 +1,4 @@
-aws_iot1click_devices_enabled() {
+p6_aws_iot1click_devices_enabled() {
         local device_id="$1"
         shift 1
 

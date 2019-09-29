@@ -1,4 +1,4 @@
-aws_iam_reset_required() {
+p6_aws_iam_reset_required() {
         local user_name="$1"
         shift 1
 

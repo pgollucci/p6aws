@@ -1,4 +1,4 @@
-aws_codestar_access_allowed() {
+p6_aws_codestar_access_allowed() {
         local project_id="$1"
         local user_arn="$2"
         shift 2

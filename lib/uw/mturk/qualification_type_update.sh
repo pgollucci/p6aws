@@ -1,4 +1,4 @@
-aws_mturk_granted() {
+p6_aws_mturk_granted() {
         local qualification_type_id="$1"
         shift 1
 

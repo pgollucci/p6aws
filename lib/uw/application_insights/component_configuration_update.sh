@@ -1,4 +1,4 @@
-aws_application_insights_monitor() {
+p6_aws_application_insights_monitor() {
         local resource_group_name="$1"
         local component_name="$2"
         shift 2

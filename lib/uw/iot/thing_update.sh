@@ -1,4 +1,4 @@
-aws_iot_thing_type() {
+p6_aws_iot_thing_type() {
         local thing_name="$1"
         shift 1
 

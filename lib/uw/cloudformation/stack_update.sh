@@ -1,4 +1,4 @@
-aws_cloudformation_previous_template() {
+p6_aws_cloudformation_previous_template() {
         local stack_name="$1"
         shift 1
 

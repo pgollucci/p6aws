@@ -1,4 +1,4 @@
-aws_worklink_for_end_user_location() {
+p6_aws_worklink_for_end_user_location() {
         local fleet_arn="$1"
         shift 1
 

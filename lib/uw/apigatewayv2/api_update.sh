@@ -1,4 +1,4 @@
-aws_apigatewayv2_schema_validation() {
+p6_aws_apigatewayv2_schema_validation() {
         local api_id="$1"
         shift 1
 

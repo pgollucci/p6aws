@@ -1,4 +1,4 @@
-aws_cognito_idp_o_auth_flows_user_pool_client() {
+p6_aws_cognito_idp_o_auth_flows_user_pool_client() {
         local user_pool_id="$1"
         local client_id="$2"
         shift 2

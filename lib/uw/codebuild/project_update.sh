@@ -1,4 +1,4 @@
-aws_codebuild_enabled() {
+p6_aws_codebuild_enabled() {
         local name="$1"
         shift 1
 

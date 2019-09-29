@@ -1,4 +1,4 @@
-aws_license_manager_count_hard_limit() {
+p6_aws_license_manager_count_hard_limit() {
         local license_configuration_arn="$1"
         shift 1
 

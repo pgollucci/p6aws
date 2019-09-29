@@ -1,4 +1,4 @@
-aws_iot_auto_registration() {
+p6_aws_iot_auto_registration() {
         local certificate_id="$1"
         shift 1
 

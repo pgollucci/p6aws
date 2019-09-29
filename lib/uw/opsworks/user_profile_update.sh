@@ -1,4 +1,4 @@
-aws_opsworks_self_management() {
+p6_aws_opsworks_self_management() {
         local iam_user_arn="$1"
         shift 1
 

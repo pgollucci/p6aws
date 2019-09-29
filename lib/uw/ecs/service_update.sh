@@ -1,4 +1,4 @@
-aws_ecs_new_deployment() {
+p6_aws_ecs_new_deployment() {
         local service="$1"
         shift 1
 

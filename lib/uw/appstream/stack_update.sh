@@ -1,4 +1,4 @@
-aws_appstream_storage_connectors() {
+p6_aws_appstream_storage_connectors() {
         local name="$1"
         shift 1
 

@@ -1,4 +1,4 @@
-aws_guardduty_activate() {
+p6_aws_guardduty_activate() {
         local detector_id="$1"
         local ip_set_id="$2"
         shift 2

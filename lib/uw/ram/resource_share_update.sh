@@ -1,4 +1,4 @@
-aws_ram_external_principals() {
+p6_aws_ram_external_principals() {
         local resource_share_arn="$1"
         shift 1
 

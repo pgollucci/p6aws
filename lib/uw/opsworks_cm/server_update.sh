@@ -1,4 +1,4 @@
-aws_opsworks_cm_automated_backup() {
+p6_aws_opsworks_cm_automated_backup() {
         local server_name="$1"
         shift 1
 

@@ -1,4 +1,4 @@
-aws_mgh_run() {
+p6_aws_mgh_run() {
         local progress_update_stream_name="$1"
         shift 1
 

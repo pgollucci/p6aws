@@ -1,4 +1,4 @@
-aws_ssm_replace() {
+p6_aws_ssm_replace() {
         local window_id="$1"
         local window_target_id="$2"
         shift 2

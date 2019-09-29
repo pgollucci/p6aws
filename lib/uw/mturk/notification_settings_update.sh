@@ -1,4 +1,4 @@
-aws_mturk_active() {
+p6_aws_mturk_active() {
         local hit_type_id="$1"
         shift 1
 

@@ -1,4 +1,4 @@
-aws_codebuild_secret() {
+p6_aws_codebuild_secret() {
         local project_name="$1"
         shift 1
 
