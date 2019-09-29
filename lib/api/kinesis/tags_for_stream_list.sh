@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kinesis_tags_for_stream_list(stream_name)
+#
+# Arg(s):
+#    stream_name - 
+#
+#
+#>
+######################################################################
 p6_aws_kinesis_tags_for_stream_list() {
     local stream_name="$1"
     shift 1

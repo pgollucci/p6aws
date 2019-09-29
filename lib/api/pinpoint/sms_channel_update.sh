@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pinpoint_sms_channel_update(application_id, sms_channel_request)
+#
+# Arg(s):
+#    application_id - 
+#    sms_channel_request - 
+#
+#
+#>
+######################################################################
 p6_aws_pinpoint_sms_channel_update() {
     local application_id="$1"
     local sms_channel_request="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_client_vpn_client_certificate_revocation_list_import(client_vpn_endpoint_id, certificate_revocation_list)
+#
+# Arg(s):
+#    client_vpn_endpoint_id - 
+#    certificate_revocation_list - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_client_vpn_client_certificate_revocation_list_import() {
     local client_vpn_endpoint_id="$1"
     local certificate_revocation_list="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_database_create(database_input)
+#
+# Arg(s):
+#    database_input - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_database_create() {
     local database_input="$1"
     shift 1

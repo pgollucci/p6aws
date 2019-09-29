@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workdocs_user_create(username, given_name, surname, password)
+#
+# Arg(s):
+#    username - 
+#    given_name - 
+#    surname - 
+#    password - 
+#
+#
+#>
+######################################################################
 p6_aws_workdocs_user_create() {
     local username="$1"
     local given_name="$2"

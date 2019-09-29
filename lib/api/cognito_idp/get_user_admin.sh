@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_idp_get_user_admin(user_pool_id, username)
+#
+# Arg(s):
+#    user_pool_id - 
+#    username - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_idp_get_user_admin() {
     local user_pool_id="$1"
     local username="$2"

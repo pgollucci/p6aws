@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_servicecatalog_portfolio_create(display_name, provider_name)
+#
+# Arg(s):
+#    display_name - 
+#    provider_name - 
+#
+#
+#>
+######################################################################
 p6_aws_servicecatalog_portfolio_create() {
     local display_name="$1"
     local provider_name="$2"

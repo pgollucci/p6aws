@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lightsail_snapshot_export(source_snapshot_name)
+#
+# Arg(s):
+#    source_snapshot_name - 
+#
+#
+#>
+######################################################################
 p6_aws_lightsail_snapshot_export() {
     local source_snapshot_name="$1"
     shift 1

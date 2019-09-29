@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloud9_environment_delete(environment_id)
+#
+# Arg(s):
+#    environment_id - 
+#
+#
+#>
+######################################################################
 p6_aws_cloud9_environment_delete() {
     local environment_id="$1"
     shift 1

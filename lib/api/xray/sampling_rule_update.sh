@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_xray_sampling_rule_update(sampling_rule_update)
+#
+# Arg(s):
+#    sampling_rule_update - 
+#
+#
+#>
+######################################################################
 p6_aws_xray_sampling_rule_update() {
     local sampling_rule_update="$1"
     shift 1

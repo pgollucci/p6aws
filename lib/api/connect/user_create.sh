@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_connect_user_create(username, phone_config, security_profile_ids, routing_profile_id, instance_id)
+#
+# Arg(s):
+#    username - 
+#    phone_config - 
+#    security_profile_ids - 
+#    routing_profile_id - 
+#    instance_id - 
+#
+#
+#>
+######################################################################
 p6_aws_connect_user_create() {
     local username="$1"
     local phone_config="$2"

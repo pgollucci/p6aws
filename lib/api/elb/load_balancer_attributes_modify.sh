@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elb_load_balancer_attributes_modify(load_balancer_name, load_balancer_attributes)
+#
+# Arg(s):
+#    load_balancer_name - 
+#    load_balancer_attributes - 
+#
+#
+#>
+######################################################################
 p6_aws_elb_load_balancer_attributes_modify() {
     local load_balancer_name="$1"
     local load_balancer_attributes="$2"

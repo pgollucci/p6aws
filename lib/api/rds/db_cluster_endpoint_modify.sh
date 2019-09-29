@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_db_cluster_endpoint_modify(db_cluster_endpoint_identifier)
+#
+# Arg(s):
+#    db_cluster_endpoint_identifier - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_db_cluster_endpoint_modify() {
     local db_cluster_endpoint_identifier="$1"
     shift 1

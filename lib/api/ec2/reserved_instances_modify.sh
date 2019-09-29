@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_reserved_instances_modify(reserved_instances_ids, target_configurations)
+#
+# Arg(s):
+#    reserved_instances_ids - 
+#    target_configurations - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_reserved_instances_modify() {
     local reserved_instances_ids="$1"
     local target_configurations="$2"

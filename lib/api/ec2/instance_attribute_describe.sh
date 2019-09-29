@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_instance_attribute_describe(attribute, instance_id)
+#
+# Arg(s):
+#    attribute - 
+#    instance_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_instance_attribute_describe() {
     local attribute="$1"
     local instance_id="$2"

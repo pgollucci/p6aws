@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_session_terminate(session_id)
+#
+# Arg(s):
+#    session_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_session_terminate() {
     local session_id="$1"
     shift 1

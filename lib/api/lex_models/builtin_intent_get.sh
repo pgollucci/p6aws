@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lex_models_builtin_intent_get(signature)
+#
+# Arg(s):
+#    signature - 
+#
+#
+#>
+######################################################################
 p6_aws_lex_models_builtin_intent_get() {
     local signature="$1"
     shift 1

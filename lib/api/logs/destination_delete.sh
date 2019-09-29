@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_logs_destination_delete(destination_name)
+#
+# Arg(s):
+#    destination_name - 
+#
+#
+#>
+######################################################################
 p6_aws_logs_destination_delete() {
     local destination_name="$1"
     shift 1

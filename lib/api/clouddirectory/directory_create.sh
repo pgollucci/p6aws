@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_clouddirectory_directory_create(name, schema_arn)
+#
+# Arg(s):
+#    name - 
+#    schema_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_clouddirectory_directory_create() {
     local name="$1"
     local schema_arn="$2"

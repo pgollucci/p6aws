@@ -1,3 +1,22 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_autoscaling_plans_scaling_plan_resource_forecast_data_get(scaling_plan_name, scaling_plan_version, service_namespace, resource_id, scalable_dimension, forecast_data_type, start_time, end_time)
+#
+# Arg(s):
+#    scaling_plan_name - 
+#    scaling_plan_version - 
+#    service_namespace - 
+#    resource_id - 
+#    scalable_dimension - 
+#    forecast_data_type - 
+#    start_time - 
+#    end_time - 
+#
+#
+#>
+######################################################################
 p6_aws_autoscaling_plans_scaling_plan_resource_forecast_data_get() {
     local scaling_plan_name="$1"
     local scaling_plan_version="$2"

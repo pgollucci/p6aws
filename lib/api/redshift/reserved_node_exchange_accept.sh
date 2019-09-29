@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_reserved_node_exchange_accept(reserved_node_id, target_reserved_node_offering_id)
+#
+# Arg(s):
+#    reserved_node_id - 
+#    target_reserved_node_offering_id - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_reserved_node_exchange_accept() {
     local reserved_node_id="$1"
     local target_reserved_node_offering_id="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sts_role_assume(role_arn, role_session_name)
+#
+# Arg(s):
+#    role_arn - 
+#    role_session_name - 
+#
+#
+#>
+######################################################################
 p6_aws_sts_role_assume() {
     local role_arn="$1"
     local role_session_name="$2"

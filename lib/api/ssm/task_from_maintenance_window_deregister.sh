@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_task_from_maintenance_window_deregister(window_id, window_task_id)
+#
+# Arg(s):
+#    window_id - 
+#    window_task_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_task_from_maintenance_window_deregister() {
     local window_id="$1"
     local window_task_id="$2"

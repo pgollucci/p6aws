@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_neptune_db_instance_delete(db_instance_identifier)
+#
+# Arg(s):
+#    db_instance_identifier - 
+#
+#
+#>
+######################################################################
 p6_aws_neptune_db_instance_delete() {
     local db_instance_identifier="$1"
     shift 1

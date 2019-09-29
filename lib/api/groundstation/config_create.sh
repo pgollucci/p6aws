@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_groundstation_config_create(config_data, name)
+#
+# Arg(s):
+#    config_data - 
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_groundstation_config_create() {
     local config_data="$1"
     local name="$2"

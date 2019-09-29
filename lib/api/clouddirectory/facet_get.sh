@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_clouddirectory_facet_get(schema_arn, name)
+#
+# Arg(s):
+#    schema_arn - 
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_clouddirectory_facet_get() {
     local schema_arn="$1"
     local name="$2"

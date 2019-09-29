@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_worklink_domain_access_restore(fleet_arn, domain_name)
+#
+# Arg(s):
+#    fleet_arn - 
+#    domain_name - 
+#
+#
+#>
+######################################################################
 p6_aws_worklink_domain_access_restore() {
     local fleet_arn="$1"
     local domain_name="$2"

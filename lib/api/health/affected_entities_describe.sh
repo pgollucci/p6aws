@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_health_affected_entities_describe(filter)
+#
+# Arg(s):
+#    filter - 
+#
+#
+#>
+######################################################################
 p6_aws_health_affected_entities_describe() {
     local filter="$1"
     shift 1

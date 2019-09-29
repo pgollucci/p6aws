@@ -1,3 +1,13 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kms_svc_list_aliases()
+#
+#
+#
+#>
+######################################################################
 p6_aws_kms_svc_list_aliases() {
 
     p6_aws_kms_aliases_list \
@@ -7,6 +17,22 @@ p6_aws_kms_svc_list_aliases() {
 }
 
 # XXX: move to app
+######################################################################
+#<
+#
+# Function:
+#     $key_id = p6_aws_kms_svc_key_make(account_id, key_description, key_alias)
+#
+# Arg(s):
+#    account_id - 
+#    key_description - 
+#    key_alias - 
+#
+# Return(s):
+#    $key_id - 
+#
+#>
+######################################################################
 p6_aws_kms_svc_key_make() {
     local account_id="$1"
     local key_description="$2"
@@ -23,6 +49,19 @@ p6_aws_kms_svc_key_make() {
     p6_return "$key_id"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kms_key_create(key_description, key_policy)
+#
+# Arg(s):
+#    key_description - 
+#    key_policy - 
+#
+#
+#>
+######################################################################
 p6_aws_kms_key_create() {
     local key_description="$1"
     local key_policy="$2"

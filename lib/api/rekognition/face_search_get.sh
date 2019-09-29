@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rekognition_face_search_get(job_id)
+#
+# Arg(s):
+#    job_id - 
+#
+#
+#>
+######################################################################
 p6_aws_rekognition_face_search_get() {
     local job_id="$1"
     shift 1

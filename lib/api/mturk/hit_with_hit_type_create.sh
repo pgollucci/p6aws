@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mturk_hit_with_hit_type_create(hit_type_id, lifetime_in_seconds)
+#
+# Arg(s):
+#    hit_type_id - 
+#    lifetime_in_seconds - 
+#
+#
+#>
+######################################################################
 p6_aws_mturk_hit_with_hit_type_create() {
     local hit_type_id="$1"
     local lifetime_in_seconds="$2"

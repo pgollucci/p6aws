@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codecommit_comment_reply_post(in_reply_to, content)
+#
+# Arg(s):
+#    in_reply_to - 
+#    content - 
+#
+#
+#>
+######################################################################
 p6_aws_codecommit_comment_reply_post() {
     local in_reply_to="$1"
     local content="$2"

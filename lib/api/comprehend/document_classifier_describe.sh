@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_comprehend_document_classifier_describe(document_classifier_arn)
+#
+# Arg(s):
+#    document_classifier_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_comprehend_document_classifier_describe() {
     local document_classifier_arn="$1"
     shift 1

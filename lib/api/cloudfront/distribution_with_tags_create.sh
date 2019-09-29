@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudfront_distribution_with_tags_create(distribution_config_with_tags)
+#
+# Arg(s):
+#    distribution_config_with_tags - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudfront_distribution_with_tags_create() {
     local distribution_config_with_tags="$1"
     shift 1

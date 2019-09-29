@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_datasync_agent_describe(agent_arn)
+#
+# Arg(s):
+#    agent_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_datasync_agent_describe() {
     local agent_arn="$1"
     shift 1

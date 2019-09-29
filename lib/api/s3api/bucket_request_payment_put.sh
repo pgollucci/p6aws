@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3api_bucket_request_payment_put(bucket, request_payment_configuration)
+#
+# Arg(s):
+#    bucket - 
+#    request_payment_configuration - 
+#
+#
+#>
+######################################################################
 p6_aws_s3api_bucket_request_payment_put() {
     local bucket="$1"
     local request_payment_configuration="$2"

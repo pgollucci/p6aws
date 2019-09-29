@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mq_configuration_update(configuration_id)
+#
+# Arg(s):
+#    configuration_id - 
+#
+#
+#>
+######################################################################
 p6_aws_mq_configuration_update() {
     local configuration_id="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elastictranscoder_preset_delete(id)
+#
+# Arg(s):
+#    id - 
+#
+#
+#>
+######################################################################
 p6_aws_elastictranscoder_preset_delete() {
     local id="$1"
     shift 1

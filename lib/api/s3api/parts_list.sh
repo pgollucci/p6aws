@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3api_parts_list(bucket, key, upload_id)
+#
+# Arg(s):
+#    bucket - 
+#    key - 
+#    upload_id - 
+#
+#
+#>
+######################################################################
 p6_aws_s3api_parts_list() {
     local bucket="$1"
     local key="$2"

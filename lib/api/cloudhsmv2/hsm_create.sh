@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudhsmv2_hsm_create(cluster_id, availability_zone)
+#
+# Arg(s):
+#    cluster_id - 
+#    availability_zone - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudhsmv2_hsm_create() {
     local cluster_id="$1"
     local availability_zone="$2"

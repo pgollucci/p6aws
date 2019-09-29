@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_autoscaling_launch_configuration_delete(launch_configuration_name)
+#
+# Arg(s):
+#    launch_configuration_name - 
+#
+#
+#>
+######################################################################
 p6_aws_autoscaling_launch_configuration_delete() {
     local launch_configuration_name="$1"
     shift 1

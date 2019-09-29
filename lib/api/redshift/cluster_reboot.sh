@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_cluster_reboot(cluster_identifier)
+#
+# Arg(s):
+#    cluster_identifier - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_cluster_reboot() {
     local cluster_identifier="$1"
     shift 1

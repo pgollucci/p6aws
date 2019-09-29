@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_delete_table_version_batch(database_name, table_name, version_ids)
+#
+# Arg(s):
+#    database_name - 
+#    table_name - 
+#    version_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_delete_table_version_batch() {
     local database_name="$1"
     local table_name="$2"

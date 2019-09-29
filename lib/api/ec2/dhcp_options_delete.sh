@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_dhcp_options_delete(dhcp_options_id)
+#
+# Arg(s):
+#    dhcp_options_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_dhcp_options_delete() {
     local dhcp_options_id="$1"
     shift 1

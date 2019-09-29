@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lightsail_disk_attach(disk_name, instance_name, disk_path)
+#
+# Arg(s):
+#    disk_name - 
+#    instance_name - 
+#    disk_path - 
+#
+#
+#>
+######################################################################
 p6_aws_lightsail_disk_attach() {
     local disk_name="$1"
     local instance_name="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_secretsmanager_resource_untag(secret_id, tag_keys)
+#
+# Arg(s):
+#    secret_id - 
+#    tag_keys - 
+#
+#
+#>
+######################################################################
 p6_aws_secretsmanager_resource_untag() {
     local secret_id="$1"
     local tag_keys="$2"

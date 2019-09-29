@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ses_identity_notification_topic_set(identity, notification_type)
+#
+# Arg(s):
+#    identity - 
+#    notification_type - 
+#
+#
+#>
+######################################################################
 p6_aws_ses_identity_notification_topic_set() {
     local identity="$1"
     local notification_type="$2"

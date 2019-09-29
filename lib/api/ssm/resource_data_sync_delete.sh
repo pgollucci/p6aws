@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_resource_data_sync_delete(sync_name)
+#
+# Arg(s):
+#    sync_name - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_resource_data_sync_delete() {
     local sync_name="$1"
     shift 1

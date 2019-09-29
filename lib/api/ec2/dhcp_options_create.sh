@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_dhcp_options_create(dhcp_configurations)
+#
+# Arg(s):
+#    dhcp_configurations - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_dhcp_options_create() {
     local dhcp_configurations="$1"
     shift 1

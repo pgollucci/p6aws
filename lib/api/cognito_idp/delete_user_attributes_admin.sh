@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_idp_delete_user_attributes_admin(user_pool_id, username, user_attribute_names)
+#
+# Arg(s):
+#    user_pool_id - 
+#    username - 
+#    user_attribute_names - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_idp_delete_user_attributes_admin() {
     local user_pool_id="$1"
     local username="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_acm_tags_for_certificate_list(certificate_arn)
+#
+# Arg(s):
+#    certificate_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_acm_tags_for_certificate_list() {
     local certificate_arn="$1"
     shift 1

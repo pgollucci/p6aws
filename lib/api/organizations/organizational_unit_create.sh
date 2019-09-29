@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_organizational_unit_create(parent_id, name)
+#
+# Arg(s):
+#    parent_id - 
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_organizations_organizational_unit_create() {
     local parent_id="$1"
     local name="$2"

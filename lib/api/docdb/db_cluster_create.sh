@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_docdb_db_cluster_create(db_cluster_identifier, engine, master_username, master_user_password)
+#
+# Arg(s):
+#    db_cluster_identifier - 
+#    engine - 
+#    master_username - 
+#    master_user_password - 
+#
+#
+#>
+######################################################################
 p6_aws_docdb_db_cluster_create() {
     local db_cluster_identifier="$1"
     local engine="$2"

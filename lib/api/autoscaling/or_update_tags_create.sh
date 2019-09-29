@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_autoscaling_or_update_tags_create(tags)
+#
+# Arg(s):
+#    tags - 
+#
+#
+#>
+######################################################################
 p6_aws_autoscaling_or_update_tags_create() {
     local tags="$1"
     shift 1

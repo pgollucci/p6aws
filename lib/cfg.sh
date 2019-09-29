@@ -1,35 +1,19 @@
-###################################################################################
+######################################################################
 #<
-# cfg - C style object with accessor API
 #
-# Represents the *current* "role", sts profile, iam user, credentials
-# N.B: You may be arbitrarly levels of assuming deep
+# Function:
+#      = p6_aws_cfg_active(profile, region, env, vpc_id, type)
 #
-# Attributes:
-#  - region
-#  - output
-#  - account_id
-#  - account_name
-#  - role_full_path
-#  - role_session_name
-#  - [org]
-#  - [vpc_id]
-#  - [env]
-#  - [env_level]
+# Arg(s):
+#    profile - 
+#    region - 
+#    env - 
+#    vpc_id - 
+#    type - 
 #
-#  Credential State
-#   - config file
-#   - credential file
-#   - profile
 #
-#   Non Accessible: access_key, secret_access_key, session_token
-#
-# ENVs: AWS_ORG, AWS_VPC,
-# ENVs: AWS_ENV_TAG, AWS_ENV,
-# ENVs: AWS_PROFILE,
-# ENVs: AWS_DEFAULT_PROFILE, AWS_DEFAULT_REGION
 #>
-####################################################################################
+######################################################################
 p6_aws_cfg_active() {
     local profile="$1"
     local region="$2"
@@ -47,6 +31,18 @@ p6_aws_cfg_active() {
     done
 }
 
+######################################################################
+#<
+#
+# Function:
+#     $kinds = p6_aws_cfg_kinds()
+#
+#
+# Return(s):
+#    $kinds - 
+#
+#>
+######################################################################
 p6_aws_cfg_kinds() {
 
     local kinds="'' _source _saved"
@@ -54,6 +50,18 @@ p6_aws_cfg_kinds() {
     p6_return "$kinds"
 }
 
+######################################################################
+#<
+#
+# Function:
+#     $env_vars = p6_aws_cfg_vars()
+#
+#
+# Return(s):
+#    $env_vars - 
+#
+#>
+######################################################################
 p6_aws_cfg_vars() {
 
     local env_vars=" \
@@ -68,11 +76,31 @@ p6_aws_cfg_vars() {
     p6_return "$env_vars"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cfg_show()
+#
+#
+#
+#>
+######################################################################
 p6_aws_cfg_show() {
 
     p6_env_list "^AWS_"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cfg_reset()
+#
+#
+#
+#>
+######################################################################
 p6_aws_cfg_reset() {
 
     local kv
@@ -82,6 +110,16 @@ p6_aws_cfg_reset() {
     done
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cfg_clear()
+#
+#
+#
+#>
+######################################################################
 p6_aws_cfg_clear() {
 
     local kv
@@ -91,6 +129,16 @@ p6_aws_cfg_clear() {
     done
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cfg_save()
+#
+#
+#
+#>
+######################################################################
 p6_aws_cfg_save() {
 
     local var
@@ -102,6 +150,16 @@ p6_aws_cfg_save() {
     done
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cfg_restore_saved()
+#
+#
+#
+#>
+######################################################################
 p6_aws_cfg_restore_saved() {
 
     local var
@@ -113,6 +171,16 @@ p6_aws_cfg_restore_saved() {
     done
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cfg_restore_source()
+#
+#
+#
+#>
+######################################################################
 p6_aws_cfg_restore_source() {
 
     local var
@@ -124,6 +192,16 @@ p6_aws_cfg_restore_source() {
     done
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cfg__generate()
+#
+#
+#
+#>
+######################################################################
 p6_aws_cfg__generate() {
 
     local var

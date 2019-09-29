@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_globalaccelerator_accelerator_update(accelerator_arn)
+#
+# Arg(s):
+#    accelerator_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_globalaccelerator_accelerator_update() {
     local accelerator_arn="$1"
     shift 1

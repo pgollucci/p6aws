@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iotanalytics_pipeline_create(pipeline_name, pipeline_activities)
+#
+# Arg(s):
+#    pipeline_name - 
+#    pipeline_activities - 
+#
+#
+#>
+######################################################################
 p6_aws_iotanalytics_pipeline_create() {
     local pipeline_name="$1"
     local pipeline_activities="$2"

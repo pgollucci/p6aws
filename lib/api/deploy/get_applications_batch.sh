@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_deploy_get_applications_batch(application_names)
+#
+# Arg(s):
+#    application_names - 
+#
+#
+#>
+######################################################################
 p6_aws_deploy_get_applications_batch() {
     local application_names="$1"
     shift 1

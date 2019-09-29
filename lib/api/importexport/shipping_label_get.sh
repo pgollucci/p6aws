@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_importexport_shipping_label_get(job_ids)
+#
+# Arg(s):
+#    job_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_importexport_shipping_label_get() {
     local job_ids="$1"
     shift 1

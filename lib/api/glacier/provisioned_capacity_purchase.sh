@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glacier_provisioned_capacity_purchase(account_id)
+#
+# Arg(s):
+#    account_id - 
+#
+#
+#>
+######################################################################
 p6_aws_glacier_provisioned_capacity_purchase() {
     local account_id="$1"
     shift 1

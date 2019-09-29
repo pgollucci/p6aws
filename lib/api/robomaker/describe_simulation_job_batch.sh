@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_robomaker_describe_simulation_job_batch(jobs)
+#
+# Arg(s):
+#    jobs - 
+#
+#
+#>
+######################################################################
 p6_aws_robomaker_describe_simulation_job_batch() {
     local jobs="$1"
     shift 1

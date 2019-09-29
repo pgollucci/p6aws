@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mturk_assignment_reject(assignment_id, requester_feedback)
+#
+# Arg(s):
+#    assignment_id - 
+#    requester_feedback - 
+#
+#
+#>
+######################################################################
 p6_aws_mturk_assignment_reject() {
     local assignment_id="$1"
     local requester_feedback="$2"

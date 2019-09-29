@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ses_template_create(template)
+#
+# Arg(s):
+#    template - 
+#
+#
+#>
+######################################################################
 p6_aws_ses_template_create() {
     local template="$1"
     shift 1

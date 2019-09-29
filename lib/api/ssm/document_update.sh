@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_document_update(content, name)
+#
+# Arg(s):
+#    content - 
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_document_update() {
     local content="$1"
     local name="$2"

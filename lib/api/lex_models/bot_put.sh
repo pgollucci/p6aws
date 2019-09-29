@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lex_models_bot_put(name, locale, child_directed)
+#
+# Arg(s):
+#    name - 
+#    locale - 
+#    child_directed - 
+#
+#
+#>
+######################################################################
 p6_aws_lex_models_bot_put() {
     local name="$1"
     local locale="$2"

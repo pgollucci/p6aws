@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_identity_identity_describe(identity_id)
+#
+# Arg(s):
+#    identity_id - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_identity_identity_describe() {
     local identity_id="$1"
     shift 1

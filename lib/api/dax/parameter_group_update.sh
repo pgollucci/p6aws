@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dax_parameter_group_update(parameter_group_name, parameter_name_values)
+#
+# Arg(s):
+#    parameter_group_name - 
+#    parameter_name_values - 
+#
+#
+#>
+######################################################################
 p6_aws_dax_parameter_group_update() {
     local parameter_group_name="$1"
     local parameter_name_values="$2"

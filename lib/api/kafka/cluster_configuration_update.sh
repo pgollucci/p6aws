@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kafka_cluster_configuration_update(cluster_arn, configuration_info, current_version)
+#
+# Arg(s):
+#    cluster_arn - 
+#    configuration_info - 
+#    current_version - 
+#
+#
+#>
+######################################################################
 p6_aws_kafka_cluster_configuration_update() {
     local cluster_arn="$1"
     local configuration_info="$2"

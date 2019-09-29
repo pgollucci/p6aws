@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudwatch_alarms_delete(alarm_names)
+#
+# Arg(s):
+#    alarm_names - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudwatch_alarms_delete() {
     local alarm_names="$1"
     shift 1

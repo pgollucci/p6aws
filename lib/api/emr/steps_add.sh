@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_emr_steps_add(cluster_id, steps)
+#
+# Arg(s):
+#    cluster_id - 
+#    steps - 
+#
+#
+#>
+######################################################################
 p6_aws_emr_steps_add() {
     local cluster_id="$1"
     local steps="$2"

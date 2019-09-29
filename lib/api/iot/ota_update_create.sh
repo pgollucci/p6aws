@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_ota_update_create(ota_update_id, targets, files, role_arn)
+#
+# Arg(s):
+#    ota_update_id - 
+#    targets - 
+#    files - 
+#    role_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_ota_update_create() {
     local ota_update_id="$1"
     local targets="$2"

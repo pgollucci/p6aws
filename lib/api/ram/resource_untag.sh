@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ram_resource_untag(resource_share_arn, tag_keys)
+#
+# Arg(s):
+#    resource_share_arn - 
+#    tag_keys - 
+#
+#
+#>
+######################################################################
 p6_aws_ram_resource_untag() {
     local resource_share_arn="$1"
     local tag_keys="$2"

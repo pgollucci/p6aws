@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_groundstation_config_update(config_data, config_id, config_type, name)
+#
+# Arg(s):
+#    config_data - 
+#    config_id - 
+#    config_type - 
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_groundstation_config_update() {
     local config_data="$1"
     local config_id="$2"

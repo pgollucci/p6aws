@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dms_event_subscription_create(subscription_name, sns_topic_arn)
+#
+# Arg(s):
+#    subscription_name - 
+#    sns_topic_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_dms_event_subscription_create() {
     local subscription_name="$1"
     local sns_topic_arn="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_spot_datafeed_subscription_create(bucket)
+#
+# Arg(s):
+#    bucket - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_spot_datafeed_subscription_create() {
     local bucket="$1"
     shift 1

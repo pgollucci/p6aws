@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kms_imported_key_material_delete(key_id)
+#
+# Arg(s):
+#    key_id - 
+#
+#
+#>
+######################################################################
 p6_aws_kms_imported_key_material_delete() {
     local key_id="$1"
     shift 1

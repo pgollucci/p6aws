@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_data_transaction_begin(resource_arn, secret_arn)
+#
+# Arg(s):
+#    resource_arn - 
+#    secret_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_data_transaction_begin() {
     local resource_arn="$1"
     local secret_arn="$2"

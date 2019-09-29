@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kinesisanalytics_application_cloud_watch_logging_option_delete(application_name, current_application_version_id, cloud_watch_logging_option_id)
+#
+# Arg(s):
+#    application_name - 
+#    current_application_version_id - 
+#    cloud_watch_logging_option_id - 
+#
+#
+#>
+######################################################################
 p6_aws_kinesisanalytics_application_cloud_watch_logging_option_delete() {
     local application_name="$1"
     local current_application_version_id="$2"

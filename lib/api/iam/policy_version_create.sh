@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_policy_version_create(policy_arn, policy_document)
+#
+# Arg(s):
+#    policy_arn - 
+#    policy_document - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_policy_version_create() {
     local policy_arn="$1"
     local policy_document="$2"

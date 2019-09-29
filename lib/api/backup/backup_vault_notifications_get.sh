@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_backup_backup_vault_notifications_get(backup_vault_name)
+#
+# Arg(s):
+#    backup_vault_name - 
+#
+#
+#>
+######################################################################
 p6_aws_backup_backup_vault_notifications_get() {
     local backup_vault_name="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigateway_model_template_get(rest_api_id, model_name)
+#
+# Arg(s):
+#    rest_api_id - 
+#    model_name - 
+#
+#
+#>
+######################################################################
 p6_aws_apigateway_model_template_get() {
     local rest_api_id="$1"
     local model_name="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_snapshot_copy(source_region, source_snapshot_id)
+#
+# Arg(s):
+#    source_region - 
+#    source_snapshot_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_snapshot_copy() {
     local source_region="$1"
     local source_snapshot_id="$2"

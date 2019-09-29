@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_billing_group_update(billing_group_name, billing_group_properties)
+#
+# Arg(s):
+#    billing_group_name - 
+#    billing_group_properties - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_billing_group_update() {
     local billing_group_name="$1"
     local billing_group_properties="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alexaforbusiness_device_with_network_profile_associate(device_arn, network_profile_arn)
+#
+# Arg(s):
+#    device_arn - 
+#    network_profile_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_alexaforbusiness_device_with_network_profile_associate() {
     local device_arn="$1"
     local network_profile_arn="$2"

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_stepfunctions_state_machine_create(name, definition, role_arn)
+#
+# Arg(s):
+#    name - 
+#    definition - 
+#    role_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_stepfunctions_state_machine_create() {
     local name="$1"
     local definition="$2"

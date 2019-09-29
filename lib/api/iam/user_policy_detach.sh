@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_user_policy_detach(user_name, policy_arn)
+#
+# Arg(s):
+#    user_name - 
+#    policy_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_user_policy_detach() {
     local user_name="$1"
     local policy_arn="$2"

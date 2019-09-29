@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lex_models_bot_channel_associations_get(bot_name, bot_alias)
+#
+# Arg(s):
+#    bot_name - 
+#    bot_alias - 
+#
+#
+#>
+######################################################################
 p6_aws_lex_models_bot_channel_associations_get() {
     local bot_name="$1"
     local bot_alias="$2"

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_guardduty_findings_feedback_update(detector_id, finding_ids, feedback)
+#
+# Arg(s):
+#    detector_id - 
+#    finding_ids - 
+#    feedback - 
+#
+#
+#>
+######################################################################
 p6_aws_guardduty_findings_feedback_update() {
     local detector_id="$1"
     local finding_ids="$2"

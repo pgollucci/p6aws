@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_emr_cluster_create(release_label, instance_fleets)
+#
+# Arg(s):
+#    release_label - 
+#    instance_fleets - 
+#
+#
+#>
+######################################################################
 p6_aws_emr_cluster_create() {
     local release_label="$1"
     local instance_fleets="$2"

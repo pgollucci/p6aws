@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_gamelift_game_session_log_url_get(game_session_id)
+#
+# Arg(s):
+#    game_session_id - 
+#
+#
+#>
+######################################################################
 p6_aws_gamelift_game_session_log_url_get() {
     local game_session_id="$1"
     shift 1

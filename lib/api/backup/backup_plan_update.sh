@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_backup_backup_plan_update(backup_plan_id, backup_plan)
+#
+# Arg(s):
+#    backup_plan_id - 
+#    backup_plan - 
+#
+#
+#>
+######################################################################
 p6_aws_backup_backup_plan_update() {
     local backup_plan_id="$1"
     local backup_plan="$2"

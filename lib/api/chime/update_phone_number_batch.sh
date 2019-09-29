@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_chime_update_phone_number_batch(update_phone_number_request_items)
+#
+# Arg(s):
+#    update_phone_number_request_items - 
+#
+#
+#>
+######################################################################
 p6_aws_chime_update_phone_number_batch() {
     local update_phone_number_request_items="$1"
     shift 1

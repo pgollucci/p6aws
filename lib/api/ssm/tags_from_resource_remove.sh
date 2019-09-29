@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_tags_from_resource_remove(resource_type, resource_id, tag_keys)
+#
+# Arg(s):
+#    resource_type - 
+#    resource_id - 
+#    tag_keys - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_tags_from_resource_remove() {
     local resource_type="$1"
     local resource_id="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_role_policy_delete(role_name, policy_name)
+#
+# Arg(s):
+#    role_name - 
+#    policy_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_role_policy_delete() {
     local role_name="$1"
     local policy_name="$2"

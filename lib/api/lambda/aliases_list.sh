@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lambda_aliases_list(function_name)
+#
+# Arg(s):
+#    function_name - 
+#
+#
+#>
+######################################################################
 p6_aws_lambda_aliases_list() {
     local function_name="$1"
     shift 1

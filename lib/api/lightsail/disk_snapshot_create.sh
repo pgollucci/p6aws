@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lightsail_disk_snapshot_create(disk_snapshot_name)
+#
+# Arg(s):
+#    disk_snapshot_name - 
+#
+#
+#>
+######################################################################
 p6_aws_lightsail_disk_snapshot_create() {
     local disk_snapshot_name="$1"
     shift 1

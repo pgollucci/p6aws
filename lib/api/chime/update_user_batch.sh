@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_chime_update_user_batch(account_id, update_user_request_items)
+#
+# Arg(s):
+#    account_id - 
+#    update_user_request_items - 
+#
+#
+#>
+######################################################################
 p6_aws_chime_update_user_batch() {
     local account_id="$1"
     local update_user_request_items="$2"

@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigateway_integration_response_delete(rest_api_id, resource_id, http_method, status_code)
+#
+# Arg(s):
+#    rest_api_id - 
+#    resource_id - 
+#    http_method - 
+#    status_code - 
+#
+#
+#>
+######################################################################
 p6_aws_apigateway_integration_response_delete() {
     local rest_api_id="$1"
     local resource_id="$2"

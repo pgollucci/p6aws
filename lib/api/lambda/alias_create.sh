@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lambda_alias_create(function_name, name, function_version)
+#
+# Arg(s):
+#    function_name - 
+#    name - 
+#    function_version - 
+#
+#
+#>
+######################################################################
 p6_aws_lambda_alias_create() {
     local function_name="$1"
     local name="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sdb_put_attributes_batch(domain_name, items)
+#
+# Arg(s):
+#    domain_name - 
+#    items - 
+#
+#
+#>
+######################################################################
 p6_aws_sdb_put_attributes_batch() {
     local domain_name="$1"
     local items="$2"

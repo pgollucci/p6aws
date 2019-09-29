@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dax_subnet_group_delete(subnet_group_name)
+#
+# Arg(s):
+#    subnet_group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_dax_subnet_group_delete() {
     local subnet_group_name="$1"
     shift 1

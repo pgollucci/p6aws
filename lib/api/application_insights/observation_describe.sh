@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_application_insights_observation_describe(observation_id)
+#
+# Arg(s):
+#    observation_id - 
+#
+#
+#>
+######################################################################
 p6_aws_application_insights_observation_describe() {
     local observation_id="$1"
     shift 1

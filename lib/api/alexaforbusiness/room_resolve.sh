@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alexaforbusiness_room_resolve(user_id, skill_id)
+#
+# Arg(s):
+#    user_id - 
+#    skill_id - 
+#
+#
+#>
+######################################################################
 p6_aws_alexaforbusiness_room_resolve() {
     local user_id="$1"
     local skill_id="$2"

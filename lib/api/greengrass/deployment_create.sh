@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_greengrass_deployment_create(deployment_type, group_id)
+#
+# Arg(s):
+#    deployment_type - 
+#    group_id - 
+#
+#
+#>
+######################################################################
 p6_aws_greengrass_deployment_create() {
     local deployment_type="$1"
     local group_id="$2"

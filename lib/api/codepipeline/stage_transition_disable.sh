@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codepipeline_stage_transition_disable(pipeline_name, stage_name, transition_type, reason)
+#
+# Arg(s):
+#    pipeline_name - 
+#    stage_name - 
+#    transition_type - 
+#    reason - 
+#
+#
+#>
+######################################################################
 p6_aws_codepipeline_stage_transition_disable() {
     local pipeline_name="$1"
     local stage_name="$2"

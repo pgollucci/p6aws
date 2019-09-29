@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_snowball_cluster_cancel(cluster_id)
+#
+# Arg(s):
+#    cluster_id - 
+#
+#
+#>
+######################################################################
 p6_aws_snowball_cluster_cancel() {
     local cluster_id="$1"
     shift 1

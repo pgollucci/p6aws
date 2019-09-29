@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ses_receipt_rule_create(rule_set_name, rule)
+#
+# Arg(s):
+#    rule_set_name - 
+#    rule - 
+#
+#
+#>
+######################################################################
 p6_aws_ses_receipt_rule_create() {
     local rule_set_name="$1"
     local rule="$2"

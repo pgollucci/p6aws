@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_appsync_function_delete(api_id, function_id)
+#
+# Arg(s):
+#    api_id - 
+#    function_id - 
+#
+#
+#>
+######################################################################
 p6_aws_appsync_function_delete() {
     local api_id="$1"
     local function_id="$2"

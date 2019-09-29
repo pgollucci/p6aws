@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_sync_dataset_describe(identity_pool_id, identity_id, dataset_name)
+#
+# Arg(s):
+#    identity_pool_id - 
+#    identity_id - 
+#    dataset_name - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_sync_dataset_describe() {
     local identity_pool_id="$1"
     local identity_id="$2"

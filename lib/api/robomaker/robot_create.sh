@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_robomaker_robot_create(name, architecture, greengrass_group_id)
+#
+# Arg(s):
+#    name - 
+#    architecture - 
+#    greengrass_group_id - 
+#
+#
+#>
+######################################################################
 p6_aws_robomaker_robot_create() {
     local name="$1"
     local architecture="$2"

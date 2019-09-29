@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_servicecatalog_constraint_create(portfolio_id, product_id, parameters, type)
+#
+# Arg(s):
+#    portfolio_id - 
+#    product_id - 
+#    parameters - 
+#    type - 
+#
+#
+#>
+######################################################################
 p6_aws_servicecatalog_constraint_create() {
     local portfolio_id="$1"
     local product_id="$2"

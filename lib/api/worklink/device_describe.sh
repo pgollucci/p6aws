@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_worklink_device_describe(fleet_arn, device_id)
+#
+# Arg(s):
+#    fleet_arn - 
+#    device_id - 
+#
+#
+#>
+######################################################################
 p6_aws_worklink_device_describe() {
     local fleet_arn="$1"
     local device_id="$2"

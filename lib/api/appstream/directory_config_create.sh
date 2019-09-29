@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_appstream_directory_config_create(directory_name, organizational_unit_distinguished_names, service_account_credentials)
+#
+# Arg(s):
+#    directory_name - 
+#    organizational_unit_distinguished_names - 
+#    service_account_credentials - 
+#
+#
+#>
+######################################################################
 p6_aws_appstream_directory_config_create() {
     local directory_name="$1"
     local organizational_unit_distinguished_names="$2"

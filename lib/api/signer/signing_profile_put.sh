@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_signer_signing_profile_put(profile_name, signing_material, platform_id)
+#
+# Arg(s):
+#    profile_name - 
+#    signing_material - 
+#    platform_id - 
+#
+#
+#>
+######################################################################
 p6_aws_signer_signing_profile_put() {
     local profile_name="$1"
     local signing_material="$2"

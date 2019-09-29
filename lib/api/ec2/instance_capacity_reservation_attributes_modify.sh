@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_instance_capacity_reservation_attributes_modify(instance_id, capacity_reservation_specification)
+#
+# Arg(s):
+#    instance_id - 
+#    capacity_reservation_specification - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_instance_capacity_reservation_attributes_modify() {
     local instance_id="$1"
     local capacity_reservation_specification="$2"

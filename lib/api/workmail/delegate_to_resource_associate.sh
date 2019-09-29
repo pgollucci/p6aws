@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workmail_delegate_to_resource_associate(organization_id, resource_id, entity_id)
+#
+# Arg(s):
+#    organization_id - 
+#    resource_id - 
+#    entity_id - 
+#
+#
+#>
+######################################################################
 p6_aws_workmail_delegate_to_resource_associate() {
     local organization_id="$1"
     local resource_id="$2"

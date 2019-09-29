@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_signer_signing_profile_cancel(profile_name)
+#
+# Arg(s):
+#    profile_name - 
+#
+#
+#>
+######################################################################
 p6_aws_signer_signing_profile_cancel() {
     local profile_name="$1"
     shift 1

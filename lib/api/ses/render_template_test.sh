@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ses_render_template_test(template_name, template_data)
+#
+# Arg(s):
+#    template_name - 
+#    template_data - 
+#
+#
+#>
+######################################################################
 p6_aws_ses_render_template_test() {
     local template_name="$1"
     local template_data="$2"

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sts_role_with_saml_assume(role_arn, principal_arn, saml_assertion)
+#
+# Arg(s):
+#    role_arn - 
+#    principal_arn - 
+#    saml_assertion - 
+#
+#
+#>
+######################################################################
 p6_aws_sts_role_with_saml_assume() {
     local role_arn="$1"
     local principal_arn="$2"

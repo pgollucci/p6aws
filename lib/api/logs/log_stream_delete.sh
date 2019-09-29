@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_logs_log_stream_delete(log_group_name, log_stream_name)
+#
+# Arg(s):
+#    log_group_name - 
+#    log_stream_name - 
+#
+#
+#>
+######################################################################
 p6_aws_logs_log_stream_delete() {
     local log_group_name="$1"
     local log_stream_name="$2"

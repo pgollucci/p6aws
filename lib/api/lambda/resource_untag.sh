@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lambda_resource_untag(resource, tag_keys)
+#
+# Arg(s):
+#    resource - 
+#    tag_keys - 
+#
+#
+#>
+######################################################################
 p6_aws_lambda_resource_untag() {
     local resource="$1"
     local tag_keys="$2"

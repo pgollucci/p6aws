@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_acm_certificate_renew(certificate_arn)
+#
+# Arg(s):
+#    certificate_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_acm_certificate_renew() {
     local certificate_arn="$1"
     shift 1

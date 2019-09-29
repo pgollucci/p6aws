@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_assume_role_policy_update(role_name, policy_document)
+#
+# Arg(s):
+#    role_name - 
+#    policy_document - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_assume_role_policy_update() {
     local role_name="$1"
     local policy_document="$2"

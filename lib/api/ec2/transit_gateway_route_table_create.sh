@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_transit_gateway_route_table_create(transit_gateway_id)
+#
+# Arg(s):
+#    transit_gateway_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_transit_gateway_route_table_create() {
     local transit_gateway_id="$1"
     shift 1

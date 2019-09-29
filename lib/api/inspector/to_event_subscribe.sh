@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_inspector_to_event_subscribe(resource_arn, event, topic_arn)
+#
+# Arg(s):
+#    resource_arn - 
+#    event - 
+#    topic_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_inspector_to_event_subscribe() {
     local resource_arn="$1"
     local event="$2"

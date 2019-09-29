@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dms_replication_instance_create(replication_instance_identifier, replication_instance_class)
+#
+# Arg(s):
+#    replication_instance_identifier - 
+#    replication_instance_class - 
+#
+#
+#>
+######################################################################
 p6_aws_dms_replication_instance_create() {
     local replication_instance_identifier="$1"
     local replication_instance_class="$2"

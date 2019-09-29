@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_fleet_create(launch_template_configs, target_capacity_specification)
+#
+# Arg(s):
+#    launch_template_configs - 
+#    target_capacity_specification - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_fleet_create() {
     local launch_template_configs="$1"
     local target_capacity_specification="$2"

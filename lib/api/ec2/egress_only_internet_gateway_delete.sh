@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_egress_only_internet_gateway_delete(egress_only_internet_gateway_id)
+#
+# Arg(s):
+#    egress_only_internet_gateway_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_egress_only_internet_gateway_delete() {
     local egress_only_internet_gateway_id="$1"
     shift 1

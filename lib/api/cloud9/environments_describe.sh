@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloud9_environments_describe(environment_ids)
+#
+# Arg(s):
+#    environment_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_cloud9_environments_describe() {
     local environment_ids="$1"
     shift 1

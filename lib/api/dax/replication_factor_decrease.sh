@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dax_replication_factor_decrease(cluster_name, new_replication_factor)
+#
+# Arg(s):
+#    cluster_name - 
+#    new_replication_factor - 
+#
+#
+#>
+######################################################################
 p6_aws_dax_replication_factor_decrease() {
     local cluster_name="$1"
     local new_replication_factor="$2"

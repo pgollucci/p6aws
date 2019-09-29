@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_comprehendmedical_phi_detect(text)
+#
+# Arg(s):
+#    text - 
+#
+#
+#>
+######################################################################
 p6_aws_comprehendmedical_phi_detect() {
     local text="$1"
     shift 1

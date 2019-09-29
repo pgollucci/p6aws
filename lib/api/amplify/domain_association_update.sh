@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_amplify_domain_association_update(app_id, domain_name, sub_domain_settings)
+#
+# Arg(s):
+#    app_id - 
+#    domain_name - 
+#    sub_domain_settings - 
+#
+#
+#>
+######################################################################
 p6_aws_amplify_domain_association_update() {
     local app_id="$1"
     local domain_name="$2"

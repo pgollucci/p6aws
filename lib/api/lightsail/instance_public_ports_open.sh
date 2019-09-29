@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lightsail_instance_public_ports_open(port_info, instance_name)
+#
+# Arg(s):
+#    port_info - 
+#    instance_name - 
+#
+#
+#>
+######################################################################
 p6_aws_lightsail_instance_public_ports_open() {
     local port_info="$1"
     local instance_name="$2"

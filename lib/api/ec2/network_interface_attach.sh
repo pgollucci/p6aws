@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_network_interface_attach(device_index, instance_id, network_interface_id)
+#
+# Arg(s):
+#    device_index - 
+#    instance_id - 
+#    network_interface_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_network_interface_attach() {
     local device_index="$1"
     local instance_id="$2"

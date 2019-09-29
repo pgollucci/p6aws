@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_ebs_default_kms_key_id_modify(kms_key_id)
+#
+# Arg(s):
+#    kms_key_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_ebs_default_kms_key_id_modify() {
     local kms_key_id="$1"
     shift 1

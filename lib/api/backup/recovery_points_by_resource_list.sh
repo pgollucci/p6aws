@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_backup_recovery_points_by_resource_list(resource_arn)
+#
+# Arg(s):
+#    resource_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_backup_recovery_points_by_resource_list() {
     local resource_arn="$1"
     shift 1

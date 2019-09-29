@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3api_multipart_upload_complete(bucket, key, upload_id)
+#
+# Arg(s):
+#    bucket - 
+#    key - 
+#    upload_id - 
+#
+#
+#>
+######################################################################
 p6_aws_s3api_multipart_upload_complete() {
     local bucket="$1"
     local key="$2"

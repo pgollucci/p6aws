@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_activation_delete(activation_id)
+#
+# Arg(s):
+#    activation_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_activation_delete() {
     local activation_id="$1"
     shift 1

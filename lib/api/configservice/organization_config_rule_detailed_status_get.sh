@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_configservice_organization_config_rule_detailed_status_get(organization_config_rule_name)
+#
+# Arg(s):
+#    organization_config_rule_name - 
+#
+#
+#>
+######################################################################
 p6_aws_configservice_organization_config_rule_detailed_status_get() {
     local organization_config_rule_name="$1"
     shift 1

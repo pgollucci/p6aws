@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_chime_voice_connector_termination_credentials_put(voice_connector_id)
+#
+# Arg(s):
+#    voice_connector_id - 
+#
+#
+#>
+######################################################################
 p6_aws_chime_voice_connector_termination_credentials_put() {
     local voice_connector_id="$1"
     shift 1

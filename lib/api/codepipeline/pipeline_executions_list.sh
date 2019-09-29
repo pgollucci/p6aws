@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codepipeline_pipeline_executions_list(pipeline_name)
+#
+# Arg(s):
+#    pipeline_name - 
+#
+#
+#>
+######################################################################
 p6_aws_codepipeline_pipeline_executions_list() {
     local pipeline_name="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_placement_group_delete(group_name)
+#
+# Arg(s):
+#    group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_placement_group_delete() {
     local group_name="$1"
     shift 1

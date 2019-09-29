@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_acm_pca_certificate_authority_tag(certificate_authority_arn, tags)
+#
+# Arg(s):
+#    certificate_authority_arn - 
+#    tags - 
+#
+#
+#>
+######################################################################
 p6_aws_acm_pca_certificate_authority_tag() {
     local certificate_authority_arn="$1"
     local tags="$2"

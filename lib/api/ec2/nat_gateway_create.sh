@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_nat_gateway_create(allocation_id, subnet_id)
+#
+# Arg(s):
+#    allocation_id - 
+#    subnet_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_nat_gateway_create() {
     local allocation_id="$1"
     local subnet_id="$2"

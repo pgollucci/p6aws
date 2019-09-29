@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_managedblockchain_node_create(network_id, member_id, node_configuration)
+#
+# Arg(s):
+#    network_id - 
+#    member_id - 
+#    node_configuration - 
+#
+#
+#>
+######################################################################
 p6_aws_managedblockchain_node_create() {
     local network_id="$1"
     local member_id="$2"

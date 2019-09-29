@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigatewayv2_api_mapping_update(api_id, api_mapping_id, domain_name)
+#
+# Arg(s):
+#    api_id - 
+#    api_mapping_id - 
+#    domain_name - 
+#
+#
+#>
+######################################################################
 p6_aws_apigatewayv2_api_mapping_update() {
     local api_id="$1"
     local api_mapping_id="$2"

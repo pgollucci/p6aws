@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pinpoint_segments_get(application_id)
+#
+# Arg(s):
+#    application_id - 
+#
+#
+#>
+######################################################################
 p6_aws_pinpoint_segments_get() {
     local application_id="$1"
     shift 1

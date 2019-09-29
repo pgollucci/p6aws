@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_swf_domain_register(name, workflow_execution_retention_period_in_days)
+#
+# Arg(s):
+#    name - 
+#    workflow_execution_retention_period_in_days - 
+#
+#
+#>
+######################################################################
 p6_aws_swf_domain_register() {
     local name="$1"
     local workflow_execution_retention_period_in_days="$2"

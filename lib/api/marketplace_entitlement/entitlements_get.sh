@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_marketplace_entitlement_entitlements_get(product_code)
+#
+# Arg(s):
+#    product_code - 
+#
+#
+#>
+######################################################################
 p6_aws_marketplace_entitlement_entitlements_get() {
     local product_code="$1"
     shift 1

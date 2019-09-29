@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_servicecatalog_product_update(id)
+#
+# Arg(s):
+#    id - 
+#
+#
+#>
+######################################################################
 p6_aws_servicecatalog_product_update() {
     local id="$1"
     shift 1

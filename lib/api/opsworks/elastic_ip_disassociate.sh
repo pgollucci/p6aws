@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_opsworks_elastic_ip_disassociate(elastic_ip)
+#
+# Arg(s):
+#    elastic_ip - 
+#
+#
+#>
+######################################################################
 p6_aws_opsworks_elastic_ip_disassociate() {
     local elastic_ip="$1"
     shift 1

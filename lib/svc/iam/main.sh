@@ -1,3 +1,13 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_svc_instance_profiles_list()
+#
+#
+#
+#>
+######################################################################
 p6_aws_iam_svc_instance_profiles_list() {
 
     p6_aws_iam_instance_profiles_list \
@@ -5,6 +15,18 @@ p6_aws_iam_svc_instance_profiles_list() {
 	--query "'InstanceProfiles[].[InstanceProfileId, InstanceProfileName]'"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_svc_role_policies(role_name)
+#
+# Arg(s):
+#    role_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_svc_role_policies() {
    local role_name="$1"
 
@@ -14,6 +36,16 @@ p6_aws_iam_svc_role_policies() {
 	--query "'AttachedPolicies[].[PolicyName]'"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_svc_roles_list()
+#
+#
+#
+#>
+######################################################################
 p6_aws_iam_svc_roles_list() {
 
     p6_aws_iam_roles_list \
@@ -21,6 +53,16 @@ p6_aws_iam_svc_roles_list() {
 	--query "'Roles[].[RoleId,RoleName,Arn]'"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_svc_users_list()
+#
+#
+#
+#>
+######################################################################
 p6_aws_iam_svc_users_list() {
 
     p6_aws_iam_users_list \
@@ -28,6 +70,16 @@ p6_aws_iam_svc_users_list() {
 	--query "'Users[].[UserId,UserName,Arn]'"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_svc_password_policy_default()
+#
+#
+#
+#>
+######################################################################
 p6_aws_iam_svc_password_policy_default() {
 
     p6_aws_iam_account_password_policy_update \
@@ -42,6 +94,21 @@ p6_aws_iam_svc_password_policy_default() {
 	--hard-expiry
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_svc_role_saml_create(role_full_path, policy_arn, account_id, provider)
+#
+# Arg(s):
+#    role_full_path - 
+#    policy_arn - 
+#    account_id - 
+#    provider - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_svc_role_saml_create() {
     local role_full_path="$1"
     local policy_arn="$2"
@@ -56,6 +123,19 @@ p6_aws_iam_svc_role_saml_create() {
     p6_aws_iam_role_policy_attach "$role_name" "$policy_arn"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_svc_policy_saml(account_id, provider)
+#
+# Arg(s):
+#    account_id - 
+#    provider - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_svc_policy_saml() {
     local account_id="$1"
     local provider="$2"
@@ -65,6 +145,19 @@ p6_aws_iam_svc_policy_saml() {
 				 "PROVIDER=$provider"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_svc_policy_s3_cloudtrail_write(trail_bucket, account_id)
+#
+# Arg(s):
+#    trail_bucket - 
+#    account_id - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_svc_policy_s3_cloudtrail_write() {
     local trail_bucket="$1"
     local account_id="$2"
@@ -74,6 +167,18 @@ p6_aws_iam_svc_policy_s3_cloudtrail_write() {
 				 "ACCOUNT_ID=$account_id"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_svc_policy_cloudtrail_write(resource)
+#
+# Arg(s):
+#    resource - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_svc_policy_cloudtrail_write() {
     local resource="$1"
 
@@ -81,6 +186,18 @@ p6_aws_iam_svc_policy_cloudtrail_write() {
 				 "RESOURCE=$resource"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_svc_policy_service_write(service)
+#
+# Arg(s):
+#    service - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_svc_policy_service_write() {
     local service="$1"
 
@@ -88,6 +205,22 @@ p6_aws_iam_svc_policy_service_write() {
 				 "SERVICE=$service"
 }
 
+######################################################################
+#<
+#
+# Function:
+#     $role_arn = p6_aws_iam_svc_role_create(role_path, role_name, assume_role_policy_document)
+#
+# Arg(s):
+#    role_path - 
+#    role_name - 
+#    assume_role_policy_document - 
+#
+# Return(s):
+#    $role_arn - 
+#
+#>
+######################################################################
 p6_aws_iam_svc_role_create() {
     local role_path="$1"
     local role_name="$2"
@@ -103,6 +236,19 @@ p6_aws_iam_svc_role_create() {
     p6_return "$role_arn"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_svc_policy_to_role(role_full_path, policy_arn)
+#
+# Arg(s):
+#    role_full_path - 
+#    policy_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_svc_policy_to_role() {
     local role_full_path="$1"
     local policy_arn="$2"
@@ -112,6 +258,22 @@ p6_aws_iam_svc_policy_to_role() {
     p6_aws_iam_policy_role_attach --role-name $role_name --policy-arn $policy_arn
 }
 
+######################################################################
+#<
+#
+# Function:
+#     $policy_arn = p6_aws_iam_svc_policy_create(policy_full_path, policy_description, policy_document)
+#
+# Arg(s):
+#    policy_full_path - 
+#    policy_description - 
+#    policy_document - 
+#
+# Return(s):
+#    $policy_arn - 
+#
+#>
+######################################################################
 p6_aws_iam_svc_policy_create() {
     local policy_full_path="$1"
     local policy_description="$2"

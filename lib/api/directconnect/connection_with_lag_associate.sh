@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_directconnect_connection_with_lag_associate(connection_id, lag_id)
+#
+# Arg(s):
+#    connection_id - 
+#    lag_id - 
+#
+#
+#>
+######################################################################
 p6_aws_directconnect_connection_with_lag_associate() {
     local connection_id="$1"
     local lag_id="$2"

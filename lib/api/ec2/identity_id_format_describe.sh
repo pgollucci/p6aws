@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_identity_id_format_describe(principal_arn)
+#
+# Arg(s):
+#    principal_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_identity_id_format_describe() {
     local principal_arn="$1"
     shift 1

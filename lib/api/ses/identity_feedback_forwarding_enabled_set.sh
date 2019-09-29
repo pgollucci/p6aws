@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ses_identity_feedback_forwarding_enabled_set(identity, forwarding_enabled)
+#
+# Arg(s):
+#    identity - 
+#    forwarding_enabled - 
+#
+#
+#>
+######################################################################
 p6_aws_ses_identity_feedback_forwarding_enabled_set() {
     local identity="$1"
     local forwarding_enabled="$2"

@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_rate_based_rule_create(name, metric_name, rate_key, rate_limit, change_token)
+#
+# Arg(s):
+#    name - 
+#    metric_name - 
+#    rate_key - 
+#    rate_limit - 
+#    change_token - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_rate_based_rule_create() {
     local name="$1"
     local metric_name="$2"

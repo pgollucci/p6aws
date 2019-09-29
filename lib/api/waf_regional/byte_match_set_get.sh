@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_regional_byte_match_set_get(byte_match_set_id)
+#
+# Arg(s):
+#    byte_match_set_id - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_regional_byte_match_set_get() {
     local byte_match_set_id="$1"
     shift 1

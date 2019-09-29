@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3control_public_access_block_delete(account_id)
+#
+# Arg(s):
+#    account_id - 
+#
+#
+#>
+######################################################################
 p6_aws_s3control_public_access_block_delete() {
     local account_id="$1"
     shift 1

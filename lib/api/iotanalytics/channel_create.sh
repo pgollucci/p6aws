@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iotanalytics_channel_create(channel_name)
+#
+# Arg(s):
+#    channel_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iotanalytics_channel_create() {
     local channel_name="$1"
     shift 1

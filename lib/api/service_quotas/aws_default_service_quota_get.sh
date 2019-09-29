@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_service_quotas_aws_default_service_quota_get(service_code, quota_code)
+#
+# Arg(s):
+#    service_code - 
+#    quota_code - 
+#
+#
+#>
+######################################################################
 p6_aws_service_quotas_aws_default_service_quota_get() {
     local service_code="$1"
     local quota_code="$2"

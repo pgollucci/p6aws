@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dynamodb_table_to_point_in_time_restore(source_table_name, target_table_name)
+#
+# Arg(s):
+#    source_table_name - 
+#    target_table_name - 
+#
+#
+#>
+######################################################################
 p6_aws_dynamodb_table_to_point_in_time_restore() {
     local source_table_name="$1"
     local target_table_name="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_snapshot_schedule_modify(schedule_identifier, schedule_definitions)
+#
+# Arg(s):
+#    schedule_identifier - 
+#    schedule_definitions - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_snapshot_schedule_modify() {
     local schedule_identifier="$1"
     local schedule_definitions="$2"

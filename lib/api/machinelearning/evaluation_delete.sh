@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_machinelearning_evaluation_delete(evaluation_id)
+#
+# Arg(s):
+#    evaluation_id - 
+#
+#
+#>
+######################################################################
 p6_aws_machinelearning_evaluation_delete() {
     local evaluation_id="$1"
     shift 1

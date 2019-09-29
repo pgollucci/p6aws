@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_configservice_evaluations_put(result_token)
+#
+# Arg(s):
+#    result_token - 
+#
+#
+#>
+######################################################################
 p6_aws_configservice_evaluations_put() {
     local result_token="$1"
     shift 1

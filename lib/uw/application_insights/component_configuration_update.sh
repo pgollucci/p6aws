@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_application_insights_monitor(resource_group_name, component_name)
+#
+# Arg(s):
+#    resource_group_name - 
+#    component_name - 
+#
+#
+#>
+######################################################################
 p6_aws_application_insights_monitor() {
         local resource_group_name="$1"
         local component_name="$2"
@@ -5,4 +18,3 @@ p6_aws_application_insights_monitor() {
 
     cond_log_and_run aws application-insights update-component-configuration --resource-group-name $resource_group_name --component-name $component_name --monitor "$@"
 }
-

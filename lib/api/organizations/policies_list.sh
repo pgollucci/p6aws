@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_policies_list(filter)
+#
+# Arg(s):
+#    filter - 
+#
+#
+#>
+######################################################################
 p6_aws_organizations_policies_list() {
     local filter="$1"
     shift 1

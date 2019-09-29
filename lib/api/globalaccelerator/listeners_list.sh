@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_globalaccelerator_listeners_list(accelerator_arn)
+#
+# Arg(s):
+#    accelerator_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_globalaccelerator_listeners_list() {
     local accelerator_arn="$1"
     shift 1

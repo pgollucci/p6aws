@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_swf_open_workflow_executions_list(domain, start_time_filter)
+#
+# Arg(s):
+#    domain - 
+#    start_time_filter - 
+#
+#
+#>
+######################################################################
 p6_aws_swf_open_workflow_executions_list() {
     local domain="$1"
     local start_time_filter="$2"

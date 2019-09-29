@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mturk_assignment_approve(assignment_id)
+#
+# Arg(s):
+#    assignment_id - 
+#
+#
+#>
+######################################################################
 p6_aws_mturk_assignment_approve() {
     local assignment_id="$1"
     shift 1

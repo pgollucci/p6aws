@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_comprehend_syntax_detect(text, language_code)
+#
+# Arg(s):
+#    text - 
+#    language_code - 
+#
+#
+#>
+######################################################################
 p6_aws_comprehend_syntax_detect() {
     local text="$1"
     local language_code="$2"

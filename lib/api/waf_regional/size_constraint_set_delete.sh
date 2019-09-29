@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_regional_size_constraint_set_delete(size_constraint_set_id, change_token)
+#
+# Arg(s):
+#    size_constraint_set_id - 
+#    change_token - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_regional_size_constraint_set_delete() {
     local size_constraint_set_id="$1"
     local change_token="$2"

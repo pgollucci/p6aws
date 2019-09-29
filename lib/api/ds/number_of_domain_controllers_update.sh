@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ds_number_of_domain_controllers_update(directory_id, desired_number)
+#
+# Arg(s):
+#    directory_id - 
+#    desired_number - 
+#
+#
+#>
+######################################################################
 p6_aws_ds_number_of_domain_controllers_update() {
     local directory_id="$1"
     local desired_number="$2"

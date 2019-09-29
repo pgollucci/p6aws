@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_handshake_accept(handshake_id)
+#
+# Arg(s):
+#    handshake_id - 
+#
+#
+#>
+######################################################################
 p6_aws_organizations_handshake_accept() {
     local handshake_id="$1"
     shift 1

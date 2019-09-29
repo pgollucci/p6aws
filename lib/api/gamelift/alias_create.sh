@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_gamelift_alias_create(name, routing_strategy)
+#
+# Arg(s):
+#    name - 
+#    routing_strategy - 
+#
+#
+#>
+######################################################################
 p6_aws_gamelift_alias_create() {
     local name="$1"
     local routing_strategy="$2"

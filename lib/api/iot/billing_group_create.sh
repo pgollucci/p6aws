@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_billing_group_create(billing_group_name)
+#
+# Arg(s):
+#    billing_group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_billing_group_create() {
     local billing_group_name="$1"
     shift 1

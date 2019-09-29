@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dms_endpoint_create(endpoint_identifier, endpoint_type, engine_name)
+#
+# Arg(s):
+#    endpoint_identifier - 
+#    endpoint_type - 
+#    engine_name - 
+#
+#
+#>
+######################################################################
 p6_aws_dms_endpoint_create() {
     local endpoint_identifier="$1"
     local endpoint_type="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lightsail_resource_untag(resource_name, tag_keys)
+#
+# Arg(s):
+#    resource_name - 
+#    tag_keys - 
+#
+#
+#>
+######################################################################
 p6_aws_lightsail_resource_untag() {
     local resource_name="$1"
     local tag_keys="$2"

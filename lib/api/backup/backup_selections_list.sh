@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_backup_backup_selections_list(backup_plan_id)
+#
+# Arg(s):
+#    backup_plan_id - 
+#
+#
+#>
+######################################################################
 p6_aws_backup_backup_selections_list() {
     local backup_plan_id="$1"
     shift 1

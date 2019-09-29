@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudhsm_luna_client_delete(client_arn)
+#
+# Arg(s):
+#    client_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudhsm_luna_client_delete() {
     local client_arn="$1"
     shift 1

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_opsworks_instance_create(stack_id, layer_ids, instance_type)
+#
+# Arg(s):
+#    stack_id - 
+#    layer_ids - 
+#    instance_type - 
+#
+#
+#>
+######################################################################
 p6_aws_opsworks_instance_create() {
     local stack_id="$1"
     local layer_ids="$2"

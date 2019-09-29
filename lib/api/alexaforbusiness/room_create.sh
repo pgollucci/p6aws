@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alexaforbusiness_room_create(room_name)
+#
+# Arg(s):
+#    room_name - 
+#
+#
+#>
+######################################################################
 p6_aws_alexaforbusiness_room_create() {
     local room_name="$1"
     shift 1

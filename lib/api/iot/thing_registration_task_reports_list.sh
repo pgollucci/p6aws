@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_thing_registration_task_reports_list(task_id, report_type)
+#
+# Arg(s):
+#    task_id - 
+#    report_type - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_thing_registration_task_reports_list() {
     local task_id="$1"
     local report_type="$2"

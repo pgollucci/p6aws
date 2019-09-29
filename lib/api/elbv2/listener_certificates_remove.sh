@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elbv2_listener_certificates_remove(listener_arn, certificates)
+#
+# Arg(s):
+#    listener_arn - 
+#    certificates - 
+#
+#
+#>
+######################################################################
 p6_aws_elbv2_listener_certificates_remove() {
     local listener_arn="$1"
     local certificates="$2"

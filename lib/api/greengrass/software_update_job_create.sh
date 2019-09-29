@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_greengrass_software_update_job_create(s3_url_signer_role, software_to_update, update_targets, update_targets_architecture, update_targets_operating_system)
+#
+# Arg(s):
+#    s3_url_signer_role - 
+#    software_to_update - 
+#    update_targets - 
+#    update_targets_architecture - 
+#    update_targets_operating_system - 
+#
+#
+#>
+######################################################################
 p6_aws_greengrass_software_update_job_create() {
     local s3_url_signer_role="$1"
     local software_to_update="$2"

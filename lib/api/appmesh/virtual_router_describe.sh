@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_appmesh_virtual_router_describe(mesh_name, virtual_router_name)
+#
+# Arg(s):
+#    mesh_name - 
+#    virtual_router_name - 
+#
+#
+#>
+######################################################################
 p6_aws_appmesh_virtual_router_describe() {
     local mesh_name="$1"
     local virtual_router_name="$2"

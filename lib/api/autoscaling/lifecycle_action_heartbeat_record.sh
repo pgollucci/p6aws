@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_autoscaling_lifecycle_action_heartbeat_record(lifecycle_hook_name, auto_scaling_group_name)
+#
+# Arg(s):
+#    lifecycle_hook_name - 
+#    auto_scaling_group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_autoscaling_lifecycle_action_heartbeat_record() {
     local lifecycle_hook_name="$1"
     local auto_scaling_group_name="$2"

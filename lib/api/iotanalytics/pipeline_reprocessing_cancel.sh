@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iotanalytics_pipeline_reprocessing_cancel(pipeline_name, reprocessing_id)
+#
+# Arg(s):
+#    pipeline_name - 
+#    reprocessing_id - 
+#
+#
+#>
+######################################################################
 p6_aws_iotanalytics_pipeline_reprocessing_cancel() {
     local pipeline_name="$1"
     local reprocessing_id="$2"

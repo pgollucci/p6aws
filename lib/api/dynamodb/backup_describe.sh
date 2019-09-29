@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dynamodb_backup_describe(backup_arn)
+#
+# Arg(s):
+#    backup_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_dynamodb_backup_describe() {
     local backup_arn="$1"
     shift 1

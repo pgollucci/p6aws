@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kinesis_shard_count_update(stream_name, target_shard_count, scaling_type)
+#
+# Arg(s):
+#    stream_name - 
+#    target_shard_count - 
+#    scaling_type - 
+#
+#
+#>
+######################################################################
 p6_aws_kinesis_shard_count_update() {
     local stream_name="$1"
     local target_shard_count="$2"

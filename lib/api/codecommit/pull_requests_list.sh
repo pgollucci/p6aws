@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codecommit_pull_requests_list(repository_name)
+#
+# Arg(s):
+#    repository_name - 
+#
+#
+#>
+######################################################################
 p6_aws_codecommit_pull_requests_list() {
     local repository_name="$1"
     shift 1

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_batch_job_queue_create(job_queue_name, priority, compute_environment_order)
+#
+# Arg(s):
+#    job_queue_name - 
+#    priority - 
+#    compute_environment_order - 
+#
+#
+#>
+######################################################################
 p6_aws_batch_job_queue_create() {
     local job_queue_name="$1"
     local priority="$2"

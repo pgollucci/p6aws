@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_identity_identity_pool_update(identity_pool_id, identity_pool_name, allow_unauthenticated_identities)
+#
+# Arg(s):
+#    identity_pool_id - 
+#    identity_pool_name - 
+#    allow_unauthenticated_identities - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_identity_identity_pool_update() {
     local identity_pool_id="$1"
     local identity_pool_name="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigatewayv2_domain_name_get(domain_name)
+#
+# Arg(s):
+#    domain_name - 
+#
+#
+#>
+######################################################################
 p6_aws_apigatewayv2_domain_name_get() {
     local domain_name="$1"
     shift 1

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pinpoint_campaign_update(application_id, campaign_id, write_campaign_request)
+#
+# Arg(s):
+#    application_id - 
+#    campaign_id - 
+#    write_campaign_request - 
+#
+#
+#>
+######################################################################
 p6_aws_pinpoint_campaign_update() {
     local application_id="$1"
     local campaign_id="$2"

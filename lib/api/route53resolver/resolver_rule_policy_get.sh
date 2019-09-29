@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53resolver_resolver_rule_policy_get(arn)
+#
+# Arg(s):
+#    arn - 
+#
+#
+#>
+######################################################################
 p6_aws_route53resolver_resolver_rule_policy_get() {
     local arn="$1"
     shift 1

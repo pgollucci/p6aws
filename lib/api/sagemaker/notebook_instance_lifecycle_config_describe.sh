@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sagemaker_notebook_instance_lifecycle_config_describe(notebook_instance_lifecycle_config_name)
+#
+# Arg(s):
+#    notebook_instance_lifecycle_config_name - 
+#
+#
+#>
+######################################################################
 p6_aws_sagemaker_notebook_instance_lifecycle_config_describe() {
     local notebook_instance_lifecycle_config_name="$1"
     shift 1

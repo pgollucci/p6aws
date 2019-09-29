@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigatewayv2_stage_update(api_id, stage_name)
+#
+# Arg(s):
+#    api_id - 
+#    stage_name - 
+#
+#
+#>
+######################################################################
 p6_aws_apigatewayv2_stage_update() {
     local api_id="$1"
     local stage_name="$2"

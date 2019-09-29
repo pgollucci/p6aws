@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_application_autoscaling_scaling_policies_describe(service_namespace)
+#
+# Arg(s):
+#    service_namespace - 
+#
+#
+#>
+######################################################################
 p6_aws_application_autoscaling_scaling_policies_describe() {
     local service_namespace="$1"
     shift 1

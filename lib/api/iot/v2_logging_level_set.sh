@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_v2_logging_level_set(log_target, log_level)
+#
+# Arg(s):
+#    log_target - 
+#    log_level - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_v2_logging_level_set() {
     local log_target="$1"
     local log_level="$2"

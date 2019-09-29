@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sagemaker_model_describe(model_name)
+#
+# Arg(s):
+#    model_name - 
+#
+#
+#>
+######################################################################
 p6_aws_sagemaker_model_describe() {
     local model_name="$1"
     shift 1

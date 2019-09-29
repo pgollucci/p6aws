@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_acm_pca_certificate_authority_audit_report_describe(certificate_authority_arn, audit_report_id)
+#
+# Arg(s):
+#    certificate_authority_arn - 
+#    audit_report_id - 
+#
+#
+#>
+######################################################################
 p6_aws_acm_pca_certificate_authority_audit_report_describe() {
     local certificate_authority_arn="$1"
     local audit_report_id="$2"

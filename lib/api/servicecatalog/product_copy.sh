@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_servicecatalog_product_copy(source_product_arn)
+#
+# Arg(s):
+#    source_product_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_servicecatalog_product_copy() {
     local source_product_arn="$1"
     shift 1

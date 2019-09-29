@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_datapipeline_pipeline_definition_put(pipeline_id, pipeline_definition)
+#
+# Arg(s):
+#    pipeline_id - 
+#    pipeline_definition - 
+#
+#
+#>
+######################################################################
 p6_aws_datapipeline_pipeline_definition_put() {
     local pipeline_id="$1"
     local pipeline_definition="$2"

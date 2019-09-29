@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_swf_workflow_type_describe(domain, workflow_type)
+#
+# Arg(s):
+#    domain - 
+#    workflow_type - 
+#
+#
+#>
+######################################################################
 p6_aws_swf_workflow_type_describe() {
     local domain="$1"
     local workflow_type="$2"

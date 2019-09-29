@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_securityhub_import_findings_for_product_disable(product_subscription_arn)
+#
+# Arg(s):
+#    product_subscription_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_securityhub_import_findings_for_product_disable() {
     local product_subscription_arn="$1"
     shift 1

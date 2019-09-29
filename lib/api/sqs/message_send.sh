@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sqs_message_send(queue_url, message_body)
+#
+# Arg(s):
+#    queue_url - 
+#    message_body - 
+#
+#
+#>
+######################################################################
 p6_aws_sqs_message_send() {
     local queue_url="$1"
     local message_body="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_directconnect_direct_connect_gateway_association_proposal_delete(proposal_id)
+#
+# Arg(s):
+#    proposal_id - 
+#
+#
+#>
+######################################################################
 p6_aws_directconnect_direct_connect_gateway_association_proposal_delete() {
     local proposal_id="$1"
     shift 1

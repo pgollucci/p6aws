@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudwatch_dashboards_delete(dashboard_names)
+#
+# Arg(s):
+#    dashboard_names - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudwatch_dashboards_delete() {
     local dashboard_names="$1"
     shift 1

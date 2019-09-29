@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_resourcegroupstaggingapi_tag_values_get(key)
+#
+# Arg(s):
+#    key - 
+#
+#
+#>
+######################################################################
 p6_aws_resourcegroupstaggingapi_tag_values_get() {
     local key="$1"
     shift 1

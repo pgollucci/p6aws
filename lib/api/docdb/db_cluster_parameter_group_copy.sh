@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_docdb_db_cluster_parameter_group_copy(source_db_cluster_parameter_group_identifier, target_db_cluster_parameter_group_identifier, target_db_cluster_parameter_group_description)
+#
+# Arg(s):
+#    source_db_cluster_parameter_group_identifier - 
+#    target_db_cluster_parameter_group_identifier - 
+#    target_db_cluster_parameter_group_description - 
+#
+#
+#>
+######################################################################
 p6_aws_docdb_db_cluster_parameter_group_copy() {
     local source_db_cluster_parameter_group_identifier="$1"
     local target_db_cluster_parameter_group_identifier="$2"

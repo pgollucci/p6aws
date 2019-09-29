@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_read_replica_promote(db_instance_identifier)
+#
+# Arg(s):
+#    db_instance_identifier - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_read_replica_promote() {
     local db_instance_identifier="$1"
     shift 1

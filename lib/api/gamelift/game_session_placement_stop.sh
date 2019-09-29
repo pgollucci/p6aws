@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_gamelift_game_session_placement_stop(placement_id)
+#
+# Arg(s):
+#    placement_id - 
+#
+#
+#>
+######################################################################
 p6_aws_gamelift_game_session_placement_stop() {
     local placement_id="$1"
     shift 1

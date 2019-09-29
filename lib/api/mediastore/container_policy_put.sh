@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mediastore_container_policy_put(container_name, policy)
+#
+# Arg(s):
+#    container_name - 
+#    policy - 
+#
+#
+#>
+######################################################################
 p6_aws_mediastore_container_policy_put() {
     local container_name="$1"
     local policy="$2"

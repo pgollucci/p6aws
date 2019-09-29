@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_robomaker_robot_application_update(application, sources, robot_software_suite)
+#
+# Arg(s):
+#    application - 
+#    sources - 
+#    robot_software_suite - 
+#
+#
+#>
+######################################################################
 p6_aws_robomaker_robot_application_update() {
     local application="$1"
     local sources="$2"

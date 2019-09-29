@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_gamelift_script_delete(script_id)
+#
+# Arg(s):
+#    script_id - 
+#
+#
+#>
+######################################################################
 p6_aws_gamelift_script_delete() {
     local script_id="$1"
     shift 1

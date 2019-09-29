@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_network_acl_delete(network_acl_id)
+#
+# Arg(s):
+#    network_acl_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_network_acl_delete() {
     local network_acl_id="$1"
     shift 1

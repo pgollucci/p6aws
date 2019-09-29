@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_appstream_fleet_create(name, instance_type, compute_capacity)
+#
+# Arg(s):
+#    name - 
+#    instance_type - 
+#    compute_capacity - 
+#
+#
+#>
+######################################################################
 p6_aws_appstream_fleet_create() {
     local name="$1"
     local instance_type="$2"

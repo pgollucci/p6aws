@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_idp_confirmation_code_resend(client_id, username)
+#
+# Arg(s):
+#    client_id - 
+#    username - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_idp_confirmation_code_resend() {
     local client_id="$1"
     local username="$2"

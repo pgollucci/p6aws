@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_amplify_job_get(app_id, branch_name, job_id)
+#
+# Arg(s):
+#    app_id - 
+#    branch_name - 
+#    job_id - 
+#
+#
+#>
+######################################################################
 p6_aws_amplify_job_get() {
     local app_id="$1"
     local branch_name="$2"

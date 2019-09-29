@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_servicecatalog_copy_product_status_describe(copy_product_token)
+#
+# Arg(s):
+#    copy_product_token - 
+#
+#
+#>
+######################################################################
 p6_aws_servicecatalog_copy_product_status_describe() {
     local copy_product_token="$1"
     shift 1

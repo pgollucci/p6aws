@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_resource_groups_group_query_update(group_name, resource_query)
+#
+# Arg(s):
+#    group_name - 
+#    resource_query - 
+#
+#
+#>
+######################################################################
 p6_aws_resource_groups_group_query_update() {
     local group_name="$1"
     local resource_query="$2"

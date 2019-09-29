@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elastictranscoder_pipeline_create(name, input_bucket, role)
+#
+# Arg(s):
+#    name - 
+#    input_bucket - 
+#    role - 
+#
+#
+#>
+######################################################################
 p6_aws_elastictranscoder_pipeline_create() {
     local name="$1"
     local input_bucket="$2"

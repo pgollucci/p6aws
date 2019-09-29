@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_configure_model_add(service_model)
+#
+# Arg(s):
+#    service_model - 
+#
+#
+#>
+######################################################################
 p6_aws_configure_model_add() {
     local service_model="$1"
     shift 1

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_storagegateway_maintenance_start_time_update(gateway_arn, hour_of_day, minute_of_hour)
+#
+# Arg(s):
+#    gateway_arn - 
+#    hour_of_day - 
+#    minute_of_hour - 
+#
+#
+#>
+######################################################################
 p6_aws_storagegateway_maintenance_start_time_update() {
     local gateway_arn="$1"
     local hour_of_day="$2"

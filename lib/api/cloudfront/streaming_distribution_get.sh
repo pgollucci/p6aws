@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudfront_streaming_distribution_get(id)
+#
+# Arg(s):
+#    id - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudfront_streaming_distribution_get() {
     local id="$1"
     shift 1

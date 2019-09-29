@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elbv2_targets_deregister(target_group_arn, targets)
+#
+# Arg(s):
+#    target_group_arn - 
+#    targets - 
+#
+#
+#>
+######################################################################
 p6_aws_elbv2_targets_deregister() {
     local target_group_arn="$1"
     local targets="$2"

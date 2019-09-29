@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kinesis_tags_to_stream_add(stream_name, tags)
+#
+# Arg(s):
+#    stream_name - 
+#    tags - 
+#
+#
+#>
+######################################################################
 p6_aws_kinesis_tags_to_stream_add() {
     local stream_name="$1"
     local tags="$2"

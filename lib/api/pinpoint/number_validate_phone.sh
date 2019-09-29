@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pinpoint_number_validate_phone(number_validate_request)
+#
+# Arg(s):
+#    number_validate_request - 
+#
+#
+#>
+######################################################################
 p6_aws_pinpoint_number_validate_phone() {
     local number_validate_request="$1"
     shift 1

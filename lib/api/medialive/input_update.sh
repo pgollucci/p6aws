@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_medialive_input_update(input_id)
+#
+# Arg(s):
+#    input_id - 
+#
+#
+#>
+######################################################################
 p6_aws_medialive_input_update() {
     local input_id="$1"
     shift 1

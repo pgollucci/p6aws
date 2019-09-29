@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lex_models_bot_alias_put(name, bot_version, bot_name)
+#
+# Arg(s):
+#    name - 
+#    bot_version - 
+#    bot_name - 
+#
+#
+#>
+######################################################################
 p6_aws_lex_models_bot_alias_put() {
     local name="$1"
     local bot_version="$2"

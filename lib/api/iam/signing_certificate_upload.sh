@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_signing_certificate_upload(certificate_body)
+#
+# Arg(s):
+#    certificate_body - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_signing_certificate_upload() {
     local certificate_body="$1"
     shift 1

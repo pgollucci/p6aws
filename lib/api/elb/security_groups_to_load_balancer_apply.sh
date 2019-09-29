@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elb_security_groups_to_load_balancer_apply(load_balancer_name, security_groups)
+#
+# Arg(s):
+#    load_balancer_name - 
+#    security_groups - 
+#
+#
+#>
+######################################################################
 p6_aws_elb_security_groups_to_load_balancer_apply() {
     local load_balancer_name="$1"
     local security_groups="$2"

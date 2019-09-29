@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sqs_dead_letter_source_queues_list(queue_url)
+#
+# Arg(s):
+#    queue_url - 
+#
+#
+#>
+######################################################################
 p6_aws_sqs_dead_letter_source_queues_list() {
     local queue_url="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_textract_document_text_detect(document)
+#
+# Arg(s):
+#    document - 
+#
+#
+#>
+######################################################################
 p6_aws_textract_document_text_detect() {
     local document="$1"
     shift 1

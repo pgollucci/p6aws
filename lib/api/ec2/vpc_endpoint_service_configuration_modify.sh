@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_vpc_endpoint_service_configuration_modify(service_id)
+#
+# Arg(s):
+#    service_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_vpc_endpoint_service_configuration_modify() {
     local service_id="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigateway_base_path_mappings_get(domain_name)
+#
+# Arg(s):
+#    domain_name - 
+#
+#
+#>
+######################################################################
 p6_aws_apigateway_base_path_mappings_get() {
     local domain_name="$1"
     shift 1

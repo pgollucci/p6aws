@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_directconnect_connection_confirm(connection_id)
+#
+# Arg(s):
+#    connection_id - 
+#
+#
+#>
+######################################################################
 p6_aws_directconnect_connection_confirm() {
     local connection_id="$1"
     shift 1

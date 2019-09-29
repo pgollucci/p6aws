@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ds_microsoft_ad_create(name, password, vpc_settings)
+#
+# Arg(s):
+#    name - 
+#    password - 
+#    vpc_settings - 
+#
+#
+#>
+######################################################################
 p6_aws_ds_microsoft_ad_create() {
     local name="$1"
     local password="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_idp_identity_provider_update(user_pool_id, provider_name)
+#
+# Arg(s):
+#    user_pool_id - 
+#    provider_name - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_idp_identity_provider_update() {
     local user_pool_id="$1"
     local provider_name="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_datapipeline_task_status_set(task_id, task_status)
+#
+# Arg(s):
+#    task_id - 
+#    task_status - 
+#
+#
+#>
+######################################################################
 p6_aws_datapipeline_task_status_set() {
     local task_id="$1"
     local task_status="$2"

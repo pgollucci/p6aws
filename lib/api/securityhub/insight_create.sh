@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_securityhub_insight_create(name, filters, group_by_attribute)
+#
+# Arg(s):
+#    name - 
+#    filters - 
+#    group_by_attribute - 
+#
+#
+#>
+######################################################################
 p6_aws_securityhub_insight_create() {
     local name="$1"
     local filters="$2"

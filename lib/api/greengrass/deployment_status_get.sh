@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_greengrass_deployment_status_get(deployment_id, group_id)
+#
+# Arg(s):
+#    deployment_id - 
+#    group_id - 
+#
+#
+#>
+######################################################################
 p6_aws_greengrass_deployment_status_get() {
     local deployment_id="$1"
     local group_id="$2"

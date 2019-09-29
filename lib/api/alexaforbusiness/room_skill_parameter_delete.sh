@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alexaforbusiness_room_skill_parameter_delete(skill_id, parameter_key)
+#
+# Arg(s):
+#    skill_id - 
+#    parameter_key - 
+#
+#
+#>
+######################################################################
 p6_aws_alexaforbusiness_room_skill_parameter_delete() {
     local skill_id="$1"
     local parameter_key="$2"

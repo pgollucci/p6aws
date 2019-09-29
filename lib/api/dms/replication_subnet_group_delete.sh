@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dms_replication_subnet_group_delete(replication_subnet_group_identifier)
+#
+# Arg(s):
+#    replication_subnet_group_identifier - 
+#
+#
+#>
+######################################################################
 p6_aws_dms_replication_subnet_group_delete() {
     local replication_subnet_group_identifier="$1"
     shift 1

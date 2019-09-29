@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_audit_mitigation_actions_task_describe(task_id)
+#
+# Arg(s):
+#    task_id - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_audit_mitigation_actions_task_describe() {
     local task_id="$1"
     shift 1

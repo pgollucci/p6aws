@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53resolver_resolver_endpoint_ip_address_associate(resolver_endpoint_id, ip_address)
+#
+# Arg(s):
+#    resolver_endpoint_id - 
+#    ip_address - 
+#
+#
+#>
+######################################################################
 p6_aws_route53resolver_resolver_endpoint_ip_address_associate() {
     local resolver_endpoint_id="$1"
     local ip_address="$2"

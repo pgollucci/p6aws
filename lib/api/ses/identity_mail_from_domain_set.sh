@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ses_identity_mail_from_domain_set(identity)
+#
+# Arg(s):
+#    identity - 
+#
+#
+#>
+######################################################################
 p6_aws_ses_identity_mail_from_domain_set() {
     local identity="$1"
     shift 1

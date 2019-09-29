@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codepipeline_for_jobs_poll(action_type_id)
+#
+# Arg(s):
+#    action_type_id - 
+#
+#
+#>
+######################################################################
 p6_aws_codepipeline_for_jobs_poll() {
     local action_type_id="$1"
     shift 1

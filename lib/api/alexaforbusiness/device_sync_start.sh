@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alexaforbusiness_device_sync_start(features)
+#
+# Arg(s):
+#    features - 
+#
+#
+#>
+######################################################################
 p6_aws_alexaforbusiness_device_sync_start() {
     local features="$1"
     shift 1

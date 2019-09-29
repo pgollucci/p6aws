@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codepipeline_pipeline_execution_start(name)
+#
+# Arg(s):
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_codepipeline_pipeline_execution_start() {
     local name="$1"
     shift 1

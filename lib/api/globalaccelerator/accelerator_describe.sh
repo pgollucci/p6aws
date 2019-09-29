@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_globalaccelerator_accelerator_describe(accelerator_arn)
+#
+# Arg(s):
+#    accelerator_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_globalaccelerator_accelerator_describe() {
     local accelerator_arn="$1"
     shift 1

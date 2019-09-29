@@ -1,3 +1,21 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lightsail_relational_database_metric_data_get(relational_database_name, metric_name, period, start_time, end_time, unit, statistics)
+#
+# Arg(s):
+#    relational_database_name - 
+#    metric_name - 
+#    period - 
+#    start_time - 
+#    end_time - 
+#    unit - 
+#    statistics - 
+#
+#
+#>
+######################################################################
 p6_aws_lightsail_relational_database_metric_data_get() {
     local relational_database_name="$1"
     local metric_name="$2"

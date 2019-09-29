@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_greengrass_group_version_get(group_id, group_version_id)
+#
+# Arg(s):
+#    group_id - 
+#    group_version_id - 
+#
+#
+#>
+######################################################################
 p6_aws_greengrass_group_version_get() {
     local group_id="$1"
     local group_version_id="$2"

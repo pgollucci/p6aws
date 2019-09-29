@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dms_replication_instance_task_logs_describe(replication_instance_arn)
+#
+# Arg(s):
+#    replication_instance_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_dms_replication_instance_task_logs_describe() {
     local replication_instance_arn="$1"
     shift 1

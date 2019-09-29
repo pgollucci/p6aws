@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_appsync_graphql_api_create(name, authentication_type)
+#
+# Arg(s):
+#    name - 
+#    authentication_type - 
+#
+#
+#>
+######################################################################
 p6_aws_appsync_graphql_api_create() {
     local name="$1"
     local authentication_type="$2"

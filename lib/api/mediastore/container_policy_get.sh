@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mediastore_container_policy_get(container_name)
+#
+# Arg(s):
+#    container_name - 
+#
+#
+#>
+######################################################################
 p6_aws_mediastore_container_policy_get() {
     local container_name="$1"
     shift 1

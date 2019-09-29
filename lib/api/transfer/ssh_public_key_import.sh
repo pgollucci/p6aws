@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_transfer_ssh_public_key_import(server_id, ssh_public_key_body, user_name)
+#
+# Arg(s):
+#    server_id - 
+#    ssh_public_key_body - 
+#    user_name - 
+#
+#
+#>
+######################################################################
 p6_aws_transfer_ssh_public_key_import() {
     local server_id="$1"
     local ssh_public_key_body="$2"

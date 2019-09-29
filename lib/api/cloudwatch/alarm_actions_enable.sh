@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudwatch_alarm_actions_enable(alarm_names)
+#
+# Arg(s):
+#    alarm_names - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudwatch_alarm_actions_enable() {
     local alarm_names="$1"
     shift 1

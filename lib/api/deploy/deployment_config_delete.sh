@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_deploy_deployment_config_delete(deployment_config_name)
+#
+# Arg(s):
+#    deployment_config_name - 
+#
+#
+#>
+######################################################################
 p6_aws_deploy_deployment_config_delete() {
     local deployment_config_name="$1"
     shift 1

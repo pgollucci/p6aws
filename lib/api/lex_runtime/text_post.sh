@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lex_runtime_text_post(bot_name, bot_alias, user_id, input_text)
+#
+# Arg(s):
+#    bot_name - 
+#    bot_alias - 
+#    user_id - 
+#    input_text - 
+#
+#
+#>
+######################################################################
 p6_aws_lex_runtime_text_post() {
     local bot_name="$1"
     local bot_alias="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_servicecatalog_disassociate_service_action_from_provisioning_artifact_batch(service_action_associations)
+#
+# Arg(s):
+#    service_action_associations - 
+#
+#
+#>
+######################################################################
 p6_aws_servicecatalog_disassociate_service_action_from_provisioning_artifact_batch() {
     local service_action_associations="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_appsync_data_source_get(api_id, name)
+#
+# Arg(s):
+#    api_id - 
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_appsync_data_source_get() {
     local api_id="$1"
     local name="$2"

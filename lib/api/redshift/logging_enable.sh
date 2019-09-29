@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_logging_enable(cluster_identifier, bucket_name)
+#
+# Arg(s):
+#    cluster_identifier - 
+#    bucket_name - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_logging_enable() {
     local cluster_identifier="$1"
     local bucket_name="$2"

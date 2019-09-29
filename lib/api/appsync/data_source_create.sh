@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_appsync_data_source_create(api_id, name, type)
+#
+# Arg(s):
+#    api_id - 
+#    name - 
+#    type - 
+#
+#
+#>
+######################################################################
 p6_aws_appsync_data_source_create() {
     local api_id="$1"
     local name="$2"

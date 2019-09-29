@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_certificate_register(certificate_pem)
+#
+# Arg(s):
+#    certificate_pem - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_certificate_register() {
     local certificate_pem="$1"
     shift 1

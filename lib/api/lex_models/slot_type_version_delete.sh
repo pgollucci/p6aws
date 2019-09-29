@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lex_models_slot_type_version_delete(name, slot_type_version)
+#
+# Arg(s):
+#    name - 
+#    slot_type_version - 
+#
+#
+#>
+######################################################################
 p6_aws_lex_models_slot_type_version_delete() {
     local name="$1"
     local slot_type_version="$2"

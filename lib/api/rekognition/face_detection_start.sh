@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rekognition_face_detection_start(video)
+#
+# Arg(s):
+#    video - 
+#
+#
+#>
+######################################################################
 p6_aws_rekognition_face_detection_start() {
     local video="$1"
     shift 1

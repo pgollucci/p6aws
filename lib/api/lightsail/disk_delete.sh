@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lightsail_disk_delete(disk_name)
+#
+# Arg(s):
+#    disk_name - 
+#
+#
+#>
+######################################################################
 p6_aws_lightsail_disk_delete() {
     local disk_name="$1"
     shift 1

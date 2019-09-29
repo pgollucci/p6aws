@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_datasync_resource_tag(resource_arn, tags)
+#
+# Arg(s):
+#    resource_arn - 
+#    tags - 
+#
+#
+#>
+######################################################################
 p6_aws_datasync_resource_tag() {
     local resource_arn="$1"
     local tags="$2"

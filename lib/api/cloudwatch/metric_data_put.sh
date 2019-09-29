@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudwatch_metric_data_put(namespace)
+#
+# Arg(s):
+#    namespace - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudwatch_metric_data_put() {
     local namespace="$1"
     shift 1

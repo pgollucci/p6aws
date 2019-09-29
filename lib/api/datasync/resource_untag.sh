@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_datasync_resource_untag(resource_arn, keys)
+#
+# Arg(s):
+#    resource_arn - 
+#    keys - 
+#
+#
+#>
+######################################################################
 p6_aws_datasync_resource_untag() {
     local resource_arn="$1"
     local keys="$2"

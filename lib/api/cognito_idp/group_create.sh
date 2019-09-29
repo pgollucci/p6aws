@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_idp_group_create(group_name, user_pool_id)
+#
+# Arg(s):
+#    group_name - 
+#    user_pool_id - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_idp_group_create() {
     local group_name="$1"
     local user_pool_id="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudtrail_tags_add(resource_id)
+#
+# Arg(s):
+#    resource_id - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudtrail_tags_add() {
     local resource_id="$1"
     shift 1

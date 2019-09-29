@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dax_subnet_group_create(subnet_group_name, subnet_ids)
+#
+# Arg(s):
+#    subnet_group_name - 
+#    subnet_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_dax_subnet_group_create() {
     local subnet_group_name="$1"
     local subnet_ids="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_saml_provider_get(saml_provider_arn)
+#
+# Arg(s):
+#    saml_provider_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_saml_provider_get() {
     local saml_provider_arn="$1"
     shift 1

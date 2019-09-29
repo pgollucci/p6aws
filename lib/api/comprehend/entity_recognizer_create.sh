@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_comprehend_entity_recognizer_create(recognizer_name, data_access_role_arn, input_data_config, language_code)
+#
+# Arg(s):
+#    recognizer_name - 
+#    data_access_role_arn - 
+#    input_data_config - 
+#    language_code - 
+#
+#
+#>
+######################################################################
 p6_aws_comprehend_entity_recognizer_create() {
     local recognizer_name="$1"
     local data_access_role_arn="$2"

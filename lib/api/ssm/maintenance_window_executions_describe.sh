@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_maintenance_window_executions_describe(window_id)
+#
+# Arg(s):
+#    window_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_maintenance_window_executions_describe() {
     local window_id="$1"
     shift 1

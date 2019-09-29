@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_gamelift_matchmaking_configuration_create(name, game_session_queue_arns, request_timeout_seconds, acceptance_required, rule_set_name)
+#
+# Arg(s):
+#    name - 
+#    game_session_queue_arns - 
+#    request_timeout_seconds - 
+#    acceptance_required - 
+#    rule_set_name - 
+#
+#
+#>
+######################################################################
 p6_aws_gamelift_matchmaking_configuration_create() {
     local name="$1"
     local game_session_queue_arns="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigatewayv2_deployment_delete(api_id, deployment_id)
+#
+# Arg(s):
+#    api_id - 
+#    deployment_id - 
+#
+#
+#>
+######################################################################
 p6_aws_apigatewayv2_deployment_delete() {
     local api_id="$1"
     local deployment_id="$2"

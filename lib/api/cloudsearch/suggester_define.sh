@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudsearch_suggester_define(domain_name, suggester)
+#
+# Arg(s):
+#    domain_name - 
+#    suggester - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudsearch_suggester_define() {
     local domain_name="$1"
     local suggester="$2"

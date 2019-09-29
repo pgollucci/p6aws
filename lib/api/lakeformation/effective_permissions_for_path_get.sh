@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lakeformation_effective_permissions_for_path_get(resource_arn)
+#
+# Arg(s):
+#    resource_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_lakeformation_effective_permissions_for_path_get() {
     local resource_arn="$1"
     shift 1

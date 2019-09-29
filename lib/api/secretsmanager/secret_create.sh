@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_secretsmanager_secret_create(name)
+#
+# Arg(s):
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_secretsmanager_secret_create() {
     local name="$1"
     shift 1

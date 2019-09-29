@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_polly_speech_synthesize(output_format, text, voice_id)
+#
+# Arg(s):
+#    output_format - 
+#    text - 
+#    voice_id - 
+#
+#
+#>
+######################################################################
 p6_aws_polly_speech_synthesize() {
     local output_format="$1"
     local text="$2"

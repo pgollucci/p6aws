@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lex_models_intent_get(name, intent_version)
+#
+# Arg(s):
+#    name - 
+#    intent_version - 
+#
+#
+#>
+######################################################################
 p6_aws_lex_models_intent_get() {
     local name="$1"
     local intent_version="$2"

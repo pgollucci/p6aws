@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudhsm_config_get(client_arn, client_version, hapg_list)
+#
+# Arg(s):
+#    client_arn - 
+#    client_version - 
+#    hapg_list - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudhsm_config_get() {
     local client_arn="$1"
     local client_version="$2"

@@ -1,3 +1,20 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_hsm_configuration_create(hsm_configuration_identifier, description, hsm_ip_address, hsm_partition_name, hsm_partition_password, hsm_server_public_certificate)
+#
+# Arg(s):
+#    hsm_configuration_identifier - 
+#    description - 
+#    hsm_ip_address - 
+#    hsm_partition_name - 
+#    hsm_partition_password - 
+#    hsm_server_public_certificate - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_hsm_configuration_create() {
     local hsm_configuration_identifier="$1"
     local description="$2"

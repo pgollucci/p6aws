@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lightsail_operations_for_resource_get(resource_name)
+#
+# Arg(s):
+#    resource_name - 
+#
+#
+#>
+######################################################################
 p6_aws_lightsail_operations_for_resource_get() {
     local resource_name="$1"
     shift 1

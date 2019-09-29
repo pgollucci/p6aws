@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_discovery_application_create(name)
+#
+# Arg(s):
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_discovery_application_create() {
     local name="$1"
     shift 1

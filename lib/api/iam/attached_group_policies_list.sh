@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_attached_group_policies_list(group_name)
+#
+# Arg(s):
+#    group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_attached_group_policies_list() {
     local group_name="$1"
     shift 1

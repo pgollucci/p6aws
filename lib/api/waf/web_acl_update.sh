@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_web_acl_update(web_acl_id, change_token)
+#
+# Arg(s):
+#    web_acl_id - 
+#    change_token - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_web_acl_update() {
     local web_acl_id="$1"
     local change_token="$2"

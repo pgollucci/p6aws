@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_gamelift_player_sessions_create(game_session_id, player_ids)
+#
+# Arg(s):
+#    game_session_id - 
+#    player_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_gamelift_player_sessions_create() {
     local game_session_id="$1"
     local player_ids="$2"

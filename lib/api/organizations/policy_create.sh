@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_policy_create(content, description, name, type)
+#
+# Arg(s):
+#    content - 
+#    description - 
+#    name - 
+#    type - 
+#
+#
+#>
+######################################################################
 p6_aws_organizations_policy_create() {
     local content="$1"
     local description="$2"

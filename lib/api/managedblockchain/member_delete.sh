@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_managedblockchain_member_delete(network_id, member_id)
+#
+# Arg(s):
+#    network_id - 
+#    member_id - 
+#
+#
+#>
+######################################################################
 p6_aws_managedblockchain_member_delete() {
     local network_id="$1"
     local member_id="$2"

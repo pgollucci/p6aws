@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_meteringmarketplace_meter_usage_batch(usage_records, product_code)
+#
+# Arg(s):
+#    usage_records - 
+#    product_code - 
+#
+#
+#>
+######################################################################
 p6_aws_meteringmarketplace_meter_usage_batch() {
     local usage_records="$1"
     local product_code="$2"

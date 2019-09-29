@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_instance_status_report(instances, reason_codes, status)
+#
+# Arg(s):
+#    instances - 
+#    reason_codes - 
+#    status - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_instance_status_report() {
     local instances="$1"
     local reason_codes="$2"

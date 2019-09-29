@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sagemaker_workteam_create(workteam_name, member_definitions, description)
+#
+# Arg(s):
+#    workteam_name - 
+#    member_definitions - 
+#    description - 
+#
+#
+#>
+######################################################################
 p6_aws_sagemaker_workteam_create() {
     local workteam_name="$1"
     local member_definitions="$2"

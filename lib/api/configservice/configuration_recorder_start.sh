@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_configservice_configuration_recorder_start(configuration_recorder_name)
+#
+# Arg(s):
+#    configuration_recorder_name - 
+#
+#
+#>
+######################################################################
 p6_aws_configservice_configuration_recorder_start() {
     local configuration_recorder_name="$1"
     shift 1

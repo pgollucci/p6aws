@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_datapipeline_tags_add(pipeline_id, tags)
+#
+# Arg(s):
+#    pipeline_id - 
+#    tags - 
+#
+#
+#>
+######################################################################
 p6_aws_datapipeline_tags_add() {
     local pipeline_id="$1"
     local tags="$2"

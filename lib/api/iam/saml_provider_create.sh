@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_saml_provider_create(saml_metadata_document, name)
+#
+# Arg(s):
+#    saml_metadata_document - 
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_saml_provider_create() {
     local saml_metadata_document="$1"
     local name="$2"

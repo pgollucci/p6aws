@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_appstream_associate_user_stack_batch(user_stack_associations)
+#
+# Arg(s):
+#    user_stack_associations - 
+#
+#
+#>
+######################################################################
 p6_aws_appstream_associate_user_stack_batch() {
     local user_stack_associations="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_serverlessrepo_cloud_formation_template_get(application_id, template_id)
+#
+# Arg(s):
+#    application_id - 
+#    template_id - 
+#
+#
+#>
+######################################################################
 p6_aws_serverlessrepo_cloud_formation_template_get() {
     local application_id="$1"
     local template_id="$2"

@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ds_trust_create(directory_id, remote_domain_name, trust_password, trust_direction)
+#
+# Arg(s):
+#    directory_id - 
+#    remote_domain_name - 
+#    trust_password - 
+#    trust_direction - 
+#
+#
+#>
+######################################################################
 p6_aws_ds_trust_create() {
     local directory_id="$1"
     local remote_domain_name="$2"

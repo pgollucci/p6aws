@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_export_labels_task_run_start(transform_id, output_s3_path)
+#
+# Arg(s):
+#    transform_id - 
+#    output_s3_path - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_export_labels_task_run_start() {
     local transform_id="$1"
     local output_s3_path="$2"

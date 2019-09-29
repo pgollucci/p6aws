@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sns_platform_application_delete(platform_application_arn)
+#
+# Arg(s):
+#    platform_application_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_sns_platform_application_delete() {
     local platform_application_arn="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rekognition_collection_delete(collection_id)
+#
+# Arg(s):
+#    collection_id - 
+#
+#
+#>
+######################################################################
 p6_aws_rekognition_collection_delete() {
     local collection_id="$1"
     shift 1

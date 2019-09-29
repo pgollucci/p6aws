@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_globalaccelerator_endpoint_group_create(listener_arn, endpoint_group_region, idempotency_token)
+#
+# Arg(s):
+#    listener_arn - 
+#    endpoint_group_region - 
+#    idempotency_token - 
+#
+#
+#>
+######################################################################
 p6_aws_globalaccelerator_endpoint_group_create() {
     local listener_arn="$1"
     local endpoint_group_region="$2"

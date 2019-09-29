@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elasticache_reserved_cache_nodes_offering_purchase(reserved_cache_nodes_offering_id)
+#
+# Arg(s):
+#    reserved_cache_nodes_offering_id - 
+#
+#
+#>
+######################################################################
 p6_aws_elasticache_reserved_cache_nodes_offering_purchase() {
     local reserved_cache_nodes_offering_id="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_service_specific_credential_create(user_name, service_name)
+#
+# Arg(s):
+#    user_name - 
+#    service_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_service_specific_credential_create() {
     local user_name="$1"
     local service_name="$2"

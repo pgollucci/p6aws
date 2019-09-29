@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_ca_certificate_delete(certificate_id)
+#
+# Arg(s):
+#    certificate_id - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_ca_certificate_delete() {
     local certificate_id="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mediaconvert_job_template_delete(name)
+#
+# Arg(s):
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_mediaconvert_job_template_delete() {
     local name="$1"
     shift 1

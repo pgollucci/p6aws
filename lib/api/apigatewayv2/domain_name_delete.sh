@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigatewayv2_domain_name_delete(domain_name)
+#
+# Arg(s):
+#    domain_name - 
+#
+#
+#>
+######################################################################
 p6_aws_apigatewayv2_domain_name_delete() {
     local domain_name="$1"
     shift 1

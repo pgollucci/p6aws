@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_connection_create(connection_input)
+#
+# Arg(s):
+#    connection_input - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_connection_create() {
     local connection_input="$1"
     shift 1

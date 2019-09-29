@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_option_to_option_group_add(option_group_name)
+#
+# Arg(s):
+#    option_group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_option_to_option_group_add() {
     local option_group_name="$1"
     shift 1

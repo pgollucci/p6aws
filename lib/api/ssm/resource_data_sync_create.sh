@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_resource_data_sync_create(sync_name, s3_destination)
+#
+# Arg(s):
+#    sync_name - 
+#    s3_destination - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_resource_data_sync_create() {
     local sync_name="$1"
     local s3_destination="$2"

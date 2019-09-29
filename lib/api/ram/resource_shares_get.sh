@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ram_resource_shares_get(resource_owner)
+#
+# Arg(s):
+#    resource_owner - 
+#
+#
+#>
+######################################################################
 p6_aws_ram_resource_shares_get() {
     local resource_owner="$1"
     shift 1

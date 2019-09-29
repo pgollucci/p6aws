@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53domains_domain_suggestions_get(domain_name, suggestion_count, only_available)
+#
+# Arg(s):
+#    domain_name - 
+#    suggestion_count - 
+#    only_available - 
+#
+#
+#>
+######################################################################
 p6_aws_route53domains_domain_suggestions_get() {
     local domain_name="$1"
     local suggestion_count="$2"

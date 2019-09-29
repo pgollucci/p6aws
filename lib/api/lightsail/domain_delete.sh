@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lightsail_domain_delete(domain_name)
+#
+# Arg(s):
+#    domain_name - 
+#
+#
+#>
+######################################################################
 p6_aws_lightsail_domain_delete() {
     local domain_name="$1"
     shift 1

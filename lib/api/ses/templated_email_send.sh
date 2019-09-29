@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ses_templated_email_send(source, destination, template, template_data)
+#
+# Arg(s):
+#    source - 
+#    destination - 
+#    template - 
+#    template_data - 
+#
+#
+#>
+######################################################################
 p6_aws_ses_templated_email_send() {
     local source="$1"
     local destination="$2"

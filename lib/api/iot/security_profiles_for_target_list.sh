@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_security_profiles_for_target_list(security_profile_target_arn)
+#
+# Arg(s):
+#    security_profile_target_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_security_profiles_for_target_list() {
     local security_profile_target_arn="$1"
     shift 1

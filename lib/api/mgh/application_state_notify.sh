@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mgh_application_state_notify(application_id, status)
+#
+# Arg(s):
+#    application_id - 
+#    status - 
+#
+#
+#>
+######################################################################
 p6_aws_mgh_application_state_notify() {
     local application_id="$1"
     local status="$2"

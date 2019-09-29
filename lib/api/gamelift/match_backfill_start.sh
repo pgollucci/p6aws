@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_gamelift_match_backfill_start(configuration_name, game_session_arn, players)
+#
+# Arg(s):
+#    configuration_name - 
+#    game_session_arn - 
+#    players - 
+#
+#
+#>
+######################################################################
 p6_aws_gamelift_match_backfill_start() {
     local configuration_name="$1"
     local game_session_arn="$2"

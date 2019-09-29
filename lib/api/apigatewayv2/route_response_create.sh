@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigatewayv2_route_response_create(api_id, route_id, route_response_key)
+#
+# Arg(s):
+#    api_id - 
+#    route_id - 
+#    route_response_key - 
+#
+#
+#>
+######################################################################
 p6_aws_apigatewayv2_route_response_create() {
     local api_id="$1"
     local route_id="$2"

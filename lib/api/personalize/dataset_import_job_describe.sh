@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_personalize_dataset_import_job_describe(dataset_import_job_arn)
+#
+# Arg(s):
+#    dataset_import_job_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_personalize_dataset_import_job_describe() {
     local dataset_import_job_arn="$1"
     shift 1

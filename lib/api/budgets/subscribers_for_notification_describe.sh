@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_budgets_subscribers_for_notification_describe(account_id, budget_name, notification)
+#
+# Arg(s):
+#    account_id - 
+#    budget_name - 
+#    notification - 
+#
+#
+#>
+######################################################################
 p6_aws_budgets_subscribers_for_notification_describe() {
     local account_id="$1"
     local budget_name="$2"

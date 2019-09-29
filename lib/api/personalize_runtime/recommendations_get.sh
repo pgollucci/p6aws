@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_personalize_runtime_recommendations_get(campaign_arn)
+#
+# Arg(s):
+#    campaign_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_personalize_runtime_recommendations_get() {
     local campaign_arn="$1"
     shift 1

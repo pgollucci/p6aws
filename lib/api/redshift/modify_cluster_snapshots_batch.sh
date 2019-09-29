@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_modify_cluster_snapshots_batch(snapshot_identifier_list)
+#
+# Arg(s):
+#    snapshot_identifier_list - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_modify_cluster_snapshots_batch() {
     local snapshot_identifier_list="$1"
     shift 1

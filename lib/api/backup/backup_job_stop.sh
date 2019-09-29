@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_backup_backup_job_stop(backup_job_id)
+#
+# Arg(s):
+#    backup_job_id - 
+#
+#
+#>
+######################################################################
 p6_aws_backup_backup_job_stop() {
     local backup_job_id="$1"
     shift 1

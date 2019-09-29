@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_neptune_db_instance_create(db_instance_identifier, db_instance_class, engine)
+#
+# Arg(s):
+#    db_instance_identifier - 
+#    db_instance_class - 
+#    engine - 
+#
+#
+#>
+######################################################################
 p6_aws_neptune_db_instance_create() {
     local db_instance_identifier="$1"
     local db_instance_class="$2"

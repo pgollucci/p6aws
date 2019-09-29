@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53_hosted_zone_comment_update(id)
+#
+# Arg(s):
+#    id - 
+#
+#
+#>
+######################################################################
 p6_aws_route53_hosted_zone_comment_update() {
     local id="$1"
     shift 1

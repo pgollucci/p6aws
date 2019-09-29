@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dax_subnet_group_update(subnet_group_name)
+#
+# Arg(s):
+#    subnet_group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_dax_subnet_group_update() {
     local subnet_group_name="$1"
     shift 1

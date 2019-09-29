@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_address_to_classic_restore(public_ip)
+#
+# Arg(s):
+#    public_ip - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_address_to_classic_restore() {
     local public_ip="$1"
     shift 1

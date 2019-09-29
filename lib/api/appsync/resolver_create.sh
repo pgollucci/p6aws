@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_appsync_resolver_create(api_id, type_name, field_name, request_mapping_template)
+#
+# Arg(s):
+#    api_id - 
+#    type_name - 
+#    field_name - 
+#    request_mapping_template - 
+#
+#
+#>
+######################################################################
 p6_aws_appsync_resolver_create() {
     local api_id="$1"
     local type_name="$2"

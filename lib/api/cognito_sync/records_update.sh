@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_sync_records_update(identity_pool_id, identity_id, dataset_name, sync_session_token)
+#
+# Arg(s):
+#    identity_pool_id - 
+#    identity_id - 
+#    dataset_name - 
+#    sync_session_token - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_sync_records_update() {
     local identity_pool_id="$1"
     local identity_id="$2"

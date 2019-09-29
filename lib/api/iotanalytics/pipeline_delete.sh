@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iotanalytics_pipeline_delete(pipeline_name)
+#
+# Arg(s):
+#    pipeline_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iotanalytics_pipeline_delete() {
     local pipeline_name="$1"
     shift 1

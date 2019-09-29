@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dms_pending_maintenance_action_apply(replication_instance_arn, apply_action, opt_in_type)
+#
+# Arg(s):
+#    replication_instance_arn - 
+#    apply_action - 
+#    opt_in_type - 
+#
+#
+#>
+######################################################################
 p6_aws_dms_pending_maintenance_action_apply() {
     local replication_instance_arn="$1"
     local apply_action="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_role_alias_delete(role_alias)
+#
+# Arg(s):
+#    role_alias - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_role_alias_delete() {
     local role_alias="$1"
     shift 1

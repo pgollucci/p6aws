@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_option_group_create(option_group_name, engine_name, major_engine_version, option_group_description)
+#
+# Arg(s):
+#    option_group_name - 
+#    engine_name - 
+#    major_engine_version - 
+#    option_group_description - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_option_group_create() {
     local option_group_name="$1"
     local engine_name="$2"

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_appmesh_virtual_service_create(mesh_name, spec, virtual_service_name)
+#
+# Arg(s):
+#    mesh_name - 
+#    spec - 
+#    virtual_service_name - 
+#
+#
+#>
+######################################################################
 p6_aws_appmesh_virtual_service_create() {
     local mesh_name="$1"
     local spec="$2"

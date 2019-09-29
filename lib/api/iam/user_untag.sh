@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_user_untag(user_name, tag_keys)
+#
+# Arg(s):
+#    user_name - 
+#    tag_keys - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_user_untag() {
     local user_name="$1"
     local tag_keys="$2"

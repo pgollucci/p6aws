@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_key_pair_import(key_name, public_key_material)
+#
+# Arg(s):
+#    key_name - 
+#    public_key_material - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_key_pair_import() {
     local key_name="$1"
     local public_key_material="$2"

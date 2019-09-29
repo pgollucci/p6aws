@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudfront_public_key_update(public_key_config, id)
+#
+# Arg(s):
+#    public_key_config - 
+#    id - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudfront_public_key_update() {
     local public_key_config="$1"
     local id="$2"

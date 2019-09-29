@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codecommit_describe_merge_conflicts_batch(repository_name, destination_commit_specifier, source_commit_specifier, merge_option)
+#
+# Arg(s):
+#    repository_name - 
+#    destination_commit_specifier - 
+#    source_commit_specifier - 
+#    merge_option - 
+#
+#
+#>
+######################################################################
 p6_aws_codecommit_describe_merge_conflicts_batch() {
     local repository_name="$1"
     local destination_commit_specifier="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lightsail_domain_entry_update(domain_name, domain_entry)
+#
+# Arg(s):
+#    domain_name - 
+#    domain_entry - 
+#
+#
+#>
+######################################################################
 p6_aws_lightsail_domain_entry_update() {
     local domain_name="$1"
     local domain_entry="$2"

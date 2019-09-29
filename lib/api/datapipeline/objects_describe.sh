@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_datapipeline_objects_describe(pipeline_id, object_ids)
+#
+# Arg(s):
+#    pipeline_id - 
+#    object_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_datapipeline_objects_describe() {
     local pipeline_id="$1"
     local object_ids="$2"

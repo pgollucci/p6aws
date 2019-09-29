@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_regional_web_acl_disassociate(resource_arn)
+#
+# Arg(s):
+#    resource_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_regional_web_acl_disassociate() {
     local resource_arn="$1"
     shift 1

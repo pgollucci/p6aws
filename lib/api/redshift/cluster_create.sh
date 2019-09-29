@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_cluster_create(cluster_identifier, node_type, master_username, master_user_password)
+#
+# Arg(s):
+#    cluster_identifier - 
+#    node_type - 
+#    master_username - 
+#    master_user_password - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_cluster_create() {
     local cluster_identifier="$1"
     local node_type="$2"

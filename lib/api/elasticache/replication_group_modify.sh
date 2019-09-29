@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elasticache_replication_group_modify(replication_group_id)
+#
+# Arg(s):
+#    replication_group_id - 
+#
+#
+#>
+######################################################################
 p6_aws_elasticache_replication_group_modify() {
     local replication_group_id="$1"
     shift 1

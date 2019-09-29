@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_client_vpn_endpoint_create(client_cidr_block, server_certificate_arn, authentication_options, connection_log_options)
+#
+# Arg(s):
+#    client_cidr_block - 
+#    server_certificate_arn - 
+#    authentication_options - 
+#    connection_log_options - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_client_vpn_endpoint_create() {
     local client_cidr_block="$1"
     local server_certificate_arn="$2"

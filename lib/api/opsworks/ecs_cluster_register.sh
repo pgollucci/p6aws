@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_opsworks_ecs_cluster_register(ecs_cluster_arn, stack_id)
+#
+# Arg(s):
+#    ecs_cluster_arn - 
+#    stack_id - 
+#
+#
+#>
+######################################################################
 p6_aws_opsworks_ecs_cluster_register() {
     local ecs_cluster_arn="$1"
     local stack_id="$2"

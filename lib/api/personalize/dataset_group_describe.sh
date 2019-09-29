@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_personalize_dataset_group_describe(dataset_group_arn)
+#
+# Arg(s):
+#    dataset_group_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_personalize_dataset_group_describe() {
     local dataset_group_arn="$1"
     shift 1

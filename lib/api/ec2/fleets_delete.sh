@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_fleets_delete(fleet_ids, terminate_instances)
+#
+# Arg(s):
+#    fleet_ids - 
+#    terminate_instances - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_fleets_delete() {
     local fleet_ids="$1"
     local terminate_instances="$2"

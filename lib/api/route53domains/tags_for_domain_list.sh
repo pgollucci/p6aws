@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53domains_tags_for_domain_list(domain_name)
+#
+# Arg(s):
+#    domain_name - 
+#
+#
+#>
+######################################################################
 p6_aws_route53domains_tags_for_domain_list() {
     local domain_name="$1"
     shift 1

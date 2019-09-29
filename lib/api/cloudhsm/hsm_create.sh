@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudhsm_hsm_create(subnet_id, ssh_key, iam_role_arn, subscription_type)
+#
+# Arg(s):
+#    subnet_id - 
+#    ssh_key - 
+#    iam_role_arn - 
+#    subscription_type - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudhsm_hsm_create() {
     local subnet_id="$1"
     local ssh_key="$2"

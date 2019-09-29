@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_clouddirectory_link_attributes_get(directory_arn, typed_link_specifier, attribute_names)
+#
+# Arg(s):
+#    directory_arn - 
+#    typed_link_specifier - 
+#    attribute_names - 
+#
+#
+#>
+######################################################################
 p6_aws_clouddirectory_link_attributes_get() {
     local directory_arn="$1"
     local typed_link_specifier="$2"

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_logs_log_events_put(log_group_name, log_stream_name, log_events)
+#
+# Arg(s):
+#    log_group_name - 
+#    log_stream_name - 
+#    log_events - 
+#
+#
+#>
+######################################################################
 p6_aws_logs_log_events_put() {
     local log_group_name="$1"
     local log_stream_name="$2"

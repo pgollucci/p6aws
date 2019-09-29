@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kinesis_records_put(records, stream_name)
+#
+# Arg(s):
+#    records - 
+#    stream_name - 
+#
+#
+#>
+######################################################################
 p6_aws_kinesis_records_put() {
     local records="$1"
     local stream_name="$2"

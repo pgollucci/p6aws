@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_table_from_cluster_snapshot_restore(cluster_identifier, snapshot_identifier, source_database_name, source_table_name, new_table_name)
+#
+# Arg(s):
+#    cluster_identifier - 
+#    snapshot_identifier - 
+#    source_database_name - 
+#    source_table_name - 
+#    new_table_name - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_table_from_cluster_snapshot_restore() {
     local cluster_identifier="$1"
     local snapshot_identifier="$2"

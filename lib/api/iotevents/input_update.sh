@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iotevents_input_update(input_name, input_definition)
+#
+# Arg(s):
+#    input_name - 
+#    input_definition - 
+#
+#
+#>
+######################################################################
 p6_aws_iotevents_input_update() {
     local input_name="$1"
     local input_definition="$2"

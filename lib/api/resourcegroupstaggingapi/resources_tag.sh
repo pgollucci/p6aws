@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_resourcegroupstaggingapi_resources_tag(resource_arn_list, tags)
+#
+# Arg(s):
+#    resource_arn_list - 
+#    tags - 
+#
+#
+#>
+######################################################################
 p6_aws_resourcegroupstaggingapi_resources_tag() {
     local resource_arn_list="$1"
     local tags="$2"

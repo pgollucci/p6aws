@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_firehose_record_batch_put(delivery_stream_name, records)
+#
+# Arg(s):
+#    delivery_stream_name - 
+#    records - 
+#
+#
+#>
+######################################################################
 p6_aws_firehose_record_batch_put() {
     local delivery_stream_name="$1"
     local records="$2"

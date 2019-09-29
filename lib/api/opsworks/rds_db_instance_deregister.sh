@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_opsworks_rds_db_instance_deregister(rds_db_instance_arn)
+#
+# Arg(s):
+#    rds_db_instance_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_opsworks_rds_db_instance_deregister() {
     local rds_db_instance_arn="$1"
     shift 1

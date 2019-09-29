@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dynamodb_time_to_live_describe(table_name)
+#
+# Arg(s):
+#    table_name - 
+#
+#
+#>
+######################################################################
 p6_aws_dynamodb_time_to_live_describe() {
     local table_name="$1"
     shift 1

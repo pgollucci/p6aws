@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_mitigation_action_update(action_name)
+#
+# Arg(s):
+#    action_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_mitigation_action_update() {
     local action_name="$1"
     shift 1

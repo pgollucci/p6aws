@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_deploy_deployment_group_delete(application_name, deployment_group_name)
+#
+# Arg(s):
+#    application_name - 
+#    deployment_group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_deploy_deployment_group_delete() {
     local application_name="$1"
     local deployment_group_name="$2"

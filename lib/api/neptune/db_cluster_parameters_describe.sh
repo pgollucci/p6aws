@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_neptune_db_cluster_parameters_describe(db_cluster_parameter_group_name)
+#
+# Arg(s):
+#    db_cluster_parameter_group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_neptune_db_cluster_parameters_describe() {
     local db_cluster_parameter_group_name="$1"
     shift 1

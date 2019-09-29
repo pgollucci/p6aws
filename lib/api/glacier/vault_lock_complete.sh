@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glacier_vault_lock_complete(account_id, vault_name, lock_id)
+#
+# Arg(s):
+#    account_id - 
+#    vault_name - 
+#    lock_id - 
+#
+#
+#>
+######################################################################
 p6_aws_glacier_vault_lock_complete() {
     local account_id="$1"
     local vault_name="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ses_receipt_filter_delete(filter_name)
+#
+# Arg(s):
+#    filter_name - 
+#
+#
+#>
+######################################################################
 p6_aws_ses_receipt_filter_delete() {
     local filter_name="$1"
     shift 1

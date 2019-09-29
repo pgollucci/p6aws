@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_group_policy_detach(group_name, policy_arn)
+#
+# Arg(s):
+#    group_name - 
+#    policy_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_group_policy_detach() {
     local group_name="$1"
     local policy_arn="$2"

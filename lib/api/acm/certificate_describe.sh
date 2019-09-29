@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_acm_certificate_describe(certificate_arn)
+#
+# Arg(s):
+#    certificate_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_acm_certificate_describe() {
     local certificate_arn="$1"
     shift 1

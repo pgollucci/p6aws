@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alexaforbusiness_contact_from_address_book_disassociate(contact_arn, address_book_arn)
+#
+# Arg(s):
+#    contact_arn - 
+#    address_book_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_alexaforbusiness_contact_from_address_book_disassociate() {
     local contact_arn="$1"
     local address_book_arn="$2"

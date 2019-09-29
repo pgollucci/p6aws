@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glacier_multipart_upload_abort(account_id, vault_name, upload_id)
+#
+# Arg(s):
+#    account_id - 
+#    vault_name - 
+#    upload_id - 
+#
+#
+#>
+######################################################################
 p6_aws_glacier_multipart_upload_abort() {
     local account_id="$1"
     local vault_name="$2"

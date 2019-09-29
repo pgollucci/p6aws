@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_configservice_retention_configuration_delete(retention_configuration_name)
+#
+# Arg(s):
+#    retention_configuration_name - 
+#
+#
+#>
+######################################################################
 p6_aws_configservice_retention_configuration_delete() {
     local retention_configuration_name="$1"
     shift 1

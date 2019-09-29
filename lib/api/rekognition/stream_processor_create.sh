@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rekognition_stream_processor_create(input, name, settings, role_arn, stream_processor_output)
+#
+# Arg(s):
+#    input - 
+#    name - 
+#    settings - 
+#    role_arn - 
+#    stream_processor_output - 
+#
+#
+#>
+######################################################################
 p6_aws_rekognition_stream_processor_create() {
     local input="$1"
     local name="$2"

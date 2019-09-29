@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_configservice_evaluation_results_delete(config_rule_name)
+#
+# Arg(s):
+#    config_rule_name - 
+#
+#
+#>
+######################################################################
 p6_aws_configservice_evaluation_results_delete() {
     local config_rule_name="$1"
     shift 1

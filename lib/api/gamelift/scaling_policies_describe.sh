@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_gamelift_scaling_policies_describe(fleet_id)
+#
+# Arg(s):
+#    fleet_id - 
+#
+#
+#>
+######################################################################
 p6_aws_gamelift_scaling_policies_describe() {
     local fleet_id="$1"
     shift 1

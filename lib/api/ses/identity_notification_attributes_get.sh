@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ses_identity_notification_attributes_get(identities)
+#
+# Arg(s):
+#    identities - 
+#
+#
+#>
+######################################################################
 p6_aws_ses_identity_notification_attributes_get() {
     local identities="$1"
     shift 1

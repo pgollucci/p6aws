@@ -1,10 +1,23 @@
-###################################################################################
+######################################################################
 #<
 #
+# Function:
+#     $account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
 #
+# Arg(s):
+#    account_name - 
+#    account_email - 
+#    account_name - 
+#    account_email - 
+#    account_email - 
+#    account_alias - 
+#
+# Return(s):
+#    $account_id - 
+#    $car_id - 
 #
 #>
-####################################################################################
+######################################################################
 p6_aws_organizations_svc_account_create() {
     local account_name="$1"
     local account_email="$2"
@@ -17,13 +30,19 @@ p6_aws_organizations_svc_account_create() {
     p6_return "$account_id"
 }
 
-###################################################################################
+######################################################################
 #<
 #
+# Function:
+#      = p6_aws_organizations_svc_account_wait_for(cas_id, car)
+#
+# Arg(s):
+#    cas_id - 
+#    car - 
 #
 #
 #>
-####################################################################################
+######################################################################
 p6_aws_organizations_svc_account_wait_for() {
     local cas_id="$1"
 
@@ -32,13 +51,21 @@ p6_aws_organizations_svc_account_wait_for() {
 	p6_aws_organizations_svc_account_create_status "$cas_id"
 }
 
-###################################################################################
+######################################################################
 #<
 #
+# Function:
+#      = p6_aws_organizations_svc_account_create_stop(status, cas_id, status, car)
+#
+# Arg(s):
+#    status - 
+#    cas_id - 
+#    status - 
+#    car - 
 #
 #
 #>
-####################################################################################
+######################################################################
 p6_aws_organizations_svc_account_create_stop() {
     local status="$1"
     local cas_id="$2"
@@ -49,14 +76,20 @@ p6_aws_organizations_svc_account_create_stop() {
     # continue
 }
 
-###################################################################################
+######################################################################
 #<
 #
-# No Filter support
+# Function:
+#     $account_id = p6_aws_organizations_svc_account_id_from_name(account_name)
 #
+# Arg(s):
+#    account_name - 
+#
+# Return(s):
+#    $account_id - 
 #
 #>
-####################################################################################
+######################################################################
 p6_aws_organizations_svc_account_id_from_name() {
     local account_name="$1"
 
@@ -70,14 +103,26 @@ p6_aws_organizations_svc_account_id_from_name() {
     p6_return "$account_id"
 }
 
-###################################################################################
+######################################################################
 #<
 #
-# No Filter support
+# Function:
+#     $account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
 #
+# Arg(s):
+#    account_name - 
+#    account_email - 
+#    account_name - 
+#    account_email - 
+#    account_email - 
+#    account_alias - 
+#
+# Return(s):
+#    $account_id - 
+#    $car_id - 
 #
 #>
-####################################################################################
+######################################################################
 p6_aws_organizations_svc_account_create() {
     local account_name="$1"
     local account_email="$2"
@@ -92,14 +137,20 @@ p6_aws_organizations_svc_account_create() {
     p6_return "$car_id"
 }
 
-###################################################################################
+######################################################################
 #<
 #
-# No Filter support
+# Function:
+#     $status = p6_aws_organizations_svc_account_create_status(car_id)
 #
+# Arg(s):
+#    car_id - 
+#
+# Return(s):
+#    $status - 
 #
 #>
-####################################################################################
+######################################################################
 p6_aws_organizations_svc_account_create_status() {
     local car_id="$1"
 
@@ -113,13 +164,16 @@ p6_aws_organizations_svc_account_create_status() {
     p6_return "$status"
 }
 
-###################################################################################
+######################################################################
 #<
+#
+# Function:
+#      = p6_aws_organizations_svc_accounts_list()
 #
 #
 #
 #>
-####################################################################################
+######################################################################
 p6_aws_organizations_svc_accounts_list() {
 
     p6_aws_organizations_accounts_list \

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_resource_groups_group_resources_list(group_name)
+#
+# Arg(s):
+#    group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_resource_groups_group_resources_list() {
     local group_name="$1"
     shift 1

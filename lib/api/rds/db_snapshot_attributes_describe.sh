@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_db_snapshot_attributes_describe(db_snapshot_identifier)
+#
+# Arg(s):
+#    db_snapshot_identifier - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_db_snapshot_attributes_describe() {
     local db_snapshot_identifier="$1"
     shift 1

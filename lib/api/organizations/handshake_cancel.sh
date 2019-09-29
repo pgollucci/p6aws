@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_handshake_cancel(handshake_id)
+#
+# Arg(s):
+#    handshake_id - 
+#
+#
+#>
+######################################################################
 p6_aws_organizations_handshake_cancel() {
     local handshake_id="$1"
     shift 1

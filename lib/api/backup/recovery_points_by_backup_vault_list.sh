@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_backup_recovery_points_by_backup_vault_list(backup_vault_name)
+#
+# Arg(s):
+#    backup_vault_name - 
+#
+#
+#>
+######################################################################
 p6_aws_backup_recovery_points_by_backup_vault_list() {
     local backup_vault_name="$1"
     shift 1

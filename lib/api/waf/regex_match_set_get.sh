@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_regex_match_set_get(regex_match_set_id)
+#
+# Arg(s):
+#    regex_match_set_id - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_regex_match_set_get() {
     local regex_match_set_id="$1"
     shift 1

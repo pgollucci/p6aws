@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_docdb_db_cluster_to_point_in_time_restore(db_cluster_identifier, source_db_cluster_identifier)
+#
+# Arg(s):
+#    db_cluster_identifier - 
+#    source_db_cluster_identifier - 
+#
+#
+#>
+######################################################################
 p6_aws_docdb_db_cluster_to_point_in_time_restore() {
     local db_cluster_identifier="$1"
     local source_db_cluster_identifier="$2"

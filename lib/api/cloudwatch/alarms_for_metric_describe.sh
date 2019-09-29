@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudwatch_alarms_for_metric_describe(metric_name, namespace)
+#
+# Arg(s):
+#    metric_name - 
+#    namespace - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudwatch_alarms_for_metric_describe() {
     local metric_name="$1"
     local namespace="$2"

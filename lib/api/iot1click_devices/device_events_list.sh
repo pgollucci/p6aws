@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot1click_devices_device_events_list(device_id, from_time_stamp, to_time_stamp)
+#
+# Arg(s):
+#    device_id - 
+#    from_time_stamp - 
+#    to_time_stamp - 
+#
+#
+#>
+######################################################################
 p6_aws_iot1click_devices_device_events_list() {
     local device_id="$1"
     local from_time_stamp="$2"

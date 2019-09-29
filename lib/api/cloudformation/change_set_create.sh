@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudformation_change_set_create(stack_name, change_set_name)
+#
+# Arg(s):
+#    stack_name - 
+#    change_set_name - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudformation_change_set_create() {
     local stack_name="$1"
     local change_set_name="$2"

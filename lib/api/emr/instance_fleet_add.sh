@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_emr_instance_fleet_add(cluster_id, instance_fleet)
+#
+# Arg(s):
+#    cluster_id - 
+#    instance_fleet - 
+#
+#
+#>
+######################################################################
 p6_aws_emr_instance_fleet_add() {
     local cluster_id="$1"
     local instance_fleet="$2"

@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_instance_connect_ssh_public_key_send(instance_id, instance_os_user, ssh_public_key, availability_zone)
+#
+# Arg(s):
+#    instance_id - 
+#    instance_os_user - 
+#    ssh_public_key - 
+#    availability_zone - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_instance_connect_ssh_public_key_send() {
     local instance_id="$1"
     local instance_os_user="$2"

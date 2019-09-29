@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elasticbeanstalk_dns_availability_check(cname_prefix)
+#
+# Arg(s):
+#    cname_prefix - 
+#
+#
+#>
+######################################################################
 p6_aws_elasticbeanstalk_dns_availability_check() {
     local cname_prefix="$1"
     shift 1

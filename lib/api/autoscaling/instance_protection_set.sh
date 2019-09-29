@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_autoscaling_instance_protection_set(instance_ids, auto_scaling_group_name, protected_from_scale_in)
+#
+# Arg(s):
+#    instance_ids - 
+#    auto_scaling_group_name - 
+#    protected_from_scale_in - 
+#
+#
+#>
+######################################################################
 p6_aws_autoscaling_instance_protection_set() {
     local instance_ids="$1"
     local auto_scaling_group_name="$2"

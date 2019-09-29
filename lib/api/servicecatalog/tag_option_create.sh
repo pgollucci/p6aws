@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_servicecatalog_tag_option_create(key, value)
+#
+# Arg(s):
+#    key - 
+#    value - 
+#
+#
+#>
+######################################################################
 p6_aws_servicecatalog_tag_option_create() {
     local key="$1"
     local value="$2"

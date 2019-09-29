@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_logs_metric_filter_delete(log_group_name, filter_name)
+#
+# Arg(s):
+#    log_group_name - 
+#    filter_name - 
+#
+#
+#>
+######################################################################
 p6_aws_logs_metric_filter_delete() {
     local log_group_name="$1"
     local filter_name="$2"

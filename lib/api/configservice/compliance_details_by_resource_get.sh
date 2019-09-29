@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_configservice_compliance_details_by_resource_get(resource_type, resource_id)
+#
+# Arg(s):
+#    resource_type - 
+#    resource_id - 
+#
+#
+#>
+######################################################################
 p6_aws_configservice_compliance_details_by_resource_get() {
     local resource_type="$1"
     local resource_id="$2"

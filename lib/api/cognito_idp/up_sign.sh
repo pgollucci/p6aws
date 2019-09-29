@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_idp_up_sign(client_id, username, password)
+#
+# Arg(s):
+#    client_id - 
+#    username - 
+#    password - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_idp_up_sign() {
     local client_id="$1"
     local username="$2"

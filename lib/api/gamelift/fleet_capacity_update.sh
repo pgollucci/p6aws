@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_gamelift_fleet_capacity_update(fleet_id)
+#
+# Arg(s):
+#    fleet_id - 
+#
+#
+#>
+######################################################################
 p6_aws_gamelift_fleet_capacity_update() {
     local fleet_id="$1"
     shift 1

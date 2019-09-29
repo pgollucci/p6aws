@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elasticbeanstalk_configuration_template_update(application_name, template_name)
+#
+# Arg(s):
+#    application_name - 
+#    template_name - 
+#
+#
+#>
+######################################################################
 p6_aws_elasticbeanstalk_configuration_template_update() {
     local application_name="$1"
     local template_name="$2"

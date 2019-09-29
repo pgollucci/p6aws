@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lightsail_instances_from_snapshot_create(instance_names, availability_zone, instance_snapshot_name, bundle_id)
+#
+# Arg(s):
+#    instance_names - 
+#    availability_zone - 
+#    instance_snapshot_name - 
+#    bundle_id - 
+#
+#
+#>
+######################################################################
 p6_aws_lightsail_instances_from_snapshot_create() {
     local instance_names="$1"
     local availability_zone="$2"

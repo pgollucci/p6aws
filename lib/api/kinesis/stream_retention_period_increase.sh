@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kinesis_stream_retention_period_increase(stream_name, retention_period_hours)
+#
+# Arg(s):
+#    stream_name - 
+#    retention_period_hours - 
+#
+#
+#>
+######################################################################
 p6_aws_kinesis_stream_retention_period_increase() {
     local stream_name="$1"
     local retention_period_hours="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_clouddirectory_object_information_get(directory_arn, object_reference)
+#
+# Arg(s):
+#    directory_arn - 
+#    object_reference - 
+#
+#
+#>
+######################################################################
 p6_aws_clouddirectory_object_information_get() {
     local directory_arn="$1"
     local object_reference="$2"

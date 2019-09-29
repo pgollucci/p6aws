@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_guardduty_ip_set_create(detector_id, name, format, location, activate)
+#
+# Arg(s):
+#    detector_id - 
+#    name - 
+#    format - 
+#    location - 
+#    activate - 
+#
+#
+#>
+######################################################################
 p6_aws_guardduty_ip_set_create() {
     local detector_id="$1"
     local name="$2"

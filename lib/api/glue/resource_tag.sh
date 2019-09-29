@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_resource_tag(resource_arn, tags_to_add)
+#
+# Arg(s):
+#    resource_arn - 
+#    tags_to_add - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_resource_tag() {
     local resource_arn="$1"
     local tags_to_add="$2"

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_neptune_db_subnet_group_create(db_subnet_group_name, db_subnet_group_description, subnet_ids)
+#
+# Arg(s):
+#    db_subnet_group_name - 
+#    db_subnet_group_description - 
+#    subnet_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_neptune_db_subnet_group_create() {
     local db_subnet_group_name="$1"
     local db_subnet_group_description="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_es_elasticsearch_instance_type_limits_describe(instance_type, elasticsearch_version)
+#
+# Arg(s):
+#    instance_type - 
+#    elasticsearch_version - 
+#
+#
+#>
+######################################################################
 p6_aws_es_elasticsearch_instance_type_limits_describe() {
     local instance_type="$1"
     local elasticsearch_version="$2"

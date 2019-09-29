@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_clouddirectory_schema_publish(development_schema_arn, schema_version)
+#
+# Arg(s):
+#    development_schema_arn - 
+#    schema_version - 
+#
+#
+#>
+######################################################################
 p6_aws_clouddirectory_schema_publish() {
     local development_schema_arn="$1"
     local schema_version="$2"

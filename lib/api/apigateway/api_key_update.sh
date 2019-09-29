@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigateway_api_key_update(api_key)
+#
+# Arg(s):
+#    api_key - 
+#
+#
+#>
+######################################################################
 p6_aws_apigateway_api_key_update() {
     local api_key="$1"
     shift 1

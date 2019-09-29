@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigateway_export_get(rest_api_id, stage_name, export_type)
+#
+# Arg(s):
+#    rest_api_id - 
+#    stage_name - 
+#    export_type - 
+#
+#
+#>
+######################################################################
 p6_aws_apigateway_export_get() {
     local rest_api_id="$1"
     local stage_name="$2"

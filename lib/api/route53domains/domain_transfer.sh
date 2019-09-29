@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53domains_domain_transfer(domain_name, duration_in_years, admin_contact, registrant_contact, tech_contact)
+#
+# Arg(s):
+#    domain_name - 
+#    duration_in_years - 
+#    admin_contact - 
+#    registrant_contact - 
+#    tech_contact - 
+#
+#
+#>
+######################################################################
 p6_aws_route53domains_domain_transfer() {
     local domain_name="$1"
     local duration_in_years="$2"

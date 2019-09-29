@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pinpoint_email_dedicated_ip_get(ip)
+#
+# Arg(s):
+#    ip - 
+#
+#
+#>
+######################################################################
 p6_aws_pinpoint_email_dedicated_ip_get() {
     local ip="$1"
     shift 1

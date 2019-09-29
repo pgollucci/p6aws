@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pinpoint_apns_voip_channel_update(apns_voip_channel_request, application_id)
+#
+# Arg(s):
+#    apns_voip_channel_request - 
+#    application_id - 
+#
+#
+#>
+######################################################################
 p6_aws_pinpoint_apns_voip_channel_update() {
     local apns_voip_channel_request="$1"
     local application_id="$2"

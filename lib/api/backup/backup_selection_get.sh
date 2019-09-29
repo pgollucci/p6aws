@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_backup_backup_selection_get(backup_plan_id, selection_id)
+#
+# Arg(s):
+#    backup_plan_id - 
+#    selection_id - 
+#
+#
+#>
+######################################################################
 p6_aws_backup_backup_selection_get() {
     local backup_plan_id="$1"
     local selection_id="$2"

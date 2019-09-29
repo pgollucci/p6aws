@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_audit_finding_describe(finding_id)
+#
+# Arg(s):
+#    finding_id - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_audit_finding_describe() {
     local finding_id="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_data_thing_shadow_get(thing_name)
+#
+# Arg(s):
+#    thing_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_data_thing_shadow_get() {
     local thing_name="$1"
     shift 1

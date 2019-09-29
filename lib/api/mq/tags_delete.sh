@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mq_tags_delete(resource_arn, tag_keys)
+#
+# Arg(s):
+#    resource_arn - 
+#    tag_keys - 
+#
+#
+#>
+######################################################################
 p6_aws_mq_tags_delete() {
     local resource_arn="$1"
     local tag_keys="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_policy_delete(policy_id)
+#
+# Arg(s):
+#    policy_id - 
+#
+#
+#>
+######################################################################
 p6_aws_organizations_policy_delete() {
     local policy_id="$1"
     shift 1

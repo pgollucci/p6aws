@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iotevents_data_update_detector_batch(detectors)
+#
+# Arg(s):
+#    detectors - 
+#
+#
+#>
+######################################################################
 p6_aws_iotevents_data_update_detector_batch() {
     local detectors="$1"
     shift 1

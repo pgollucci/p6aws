@@ -1,3 +1,13 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lambda_svc_list()
+#
+#
+#
+#>
+######################################################################
 p6_aws_lambda_svc_list() {
 
     p6_aws_lambda_functions_list \
@@ -5,6 +15,18 @@ p6_aws_lambda_svc_list() {
 	--query "'Functions[*].[LastModified, Timeout, MemorySize, Runtime, FunctionName, Role, Description]'"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lambda_svc_invoke(function_name)
+#
+# Arg(s):
+#    function_name - 
+#
+#
+#>
+######################################################################
 p6_aws_lambda_svc_invoke() {
     local function_name="$1"
     shift 1

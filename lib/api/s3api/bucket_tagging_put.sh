@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3api_bucket_tagging_put(bucket, tagging)
+#
+# Arg(s):
+#    bucket - 
+#    tagging - 
+#
+#
+#>
+######################################################################
 p6_aws_s3api_bucket_tagging_put() {
     local bucket="$1"
     local tagging="$2"

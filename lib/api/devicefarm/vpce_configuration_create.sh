@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_devicefarm_vpce_configuration_create(vpce_configuration_name, vpce_service_name, service_dns_name)
+#
+# Arg(s):
+#    vpce_configuration_name - 
+#    vpce_service_name - 
+#    service_dns_name - 
+#
+#
+#>
+######################################################################
 p6_aws_devicefarm_vpce_configuration_create() {
     local vpce_configuration_name="$1"
     local vpce_service_name="$2"

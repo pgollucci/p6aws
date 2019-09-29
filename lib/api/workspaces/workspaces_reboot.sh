@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workspaces_workspaces_reboot(reboot_workspace_requests)
+#
+# Arg(s):
+#    reboot_workspace_requests - 
+#
+#
+#>
+######################################################################
 p6_aws_workspaces_workspaces_reboot() {
     local reboot_workspace_requests="$1"
     shift 1

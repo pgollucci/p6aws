@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_servicecatalog_product_create(name, owner, product_type, provisioning_artifact_parameters)
+#
+# Arg(s):
+#    name - 
+#    owner - 
+#    product_type - 
+#    provisioning_artifact_parameters - 
+#
+#
+#>
+######################################################################
 p6_aws_servicecatalog_product_create() {
     local name="$1"
     local owner="$2"

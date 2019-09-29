@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_appstream_sessions_describe(stack_name, fleet_name)
+#
+# Arg(s):
+#    stack_name - 
+#    fleet_name - 
+#
+#
+#>
+######################################################################
 p6_aws_appstream_sessions_describe() {
     local stack_name="$1"
     local fleet_name="$2"

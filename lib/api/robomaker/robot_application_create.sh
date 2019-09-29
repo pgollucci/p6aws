@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_robomaker_robot_application_create(name, sources, robot_software_suite)
+#
+# Arg(s):
+#    name - 
+#    sources - 
+#    robot_software_suite - 
+#
+#
+#>
+######################################################################
 p6_aws_robomaker_robot_application_create() {
     local name="$1"
     local sources="$2"

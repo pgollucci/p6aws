@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lambda_layer_version_permission_add(layer_name, version_number, statement_id, action, principal)
+#
+# Arg(s):
+#    layer_name - 
+#    version_number - 
+#    statement_id - 
+#    action - 
+#    principal - 
+#
+#
+#>
+######################################################################
 p6_aws_lambda_layer_version_permission_add() {
     local layer_name="$1"
     local version_number="$2"

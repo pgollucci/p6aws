@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_storagegateway_tape_delete(gateway_arn, tape_arn)
+#
+# Arg(s):
+#    gateway_arn - 
+#    tape_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_storagegateway_tape_delete() {
     local gateway_arn="$1"
     local tape_arn="$2"

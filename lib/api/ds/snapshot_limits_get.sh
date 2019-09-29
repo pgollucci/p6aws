@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ds_snapshot_limits_get(directory_id)
+#
+# Arg(s):
+#    directory_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ds_snapshot_limits_get() {
     local directory_id="$1"
     shift 1

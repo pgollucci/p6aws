@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sns_endpoint_attributes_set(endpoint_arn, attributes)
+#
+# Arg(s):
+#    endpoint_arn - 
+#    attributes - 
+#
+#
+#>
+######################################################################
 p6_aws_sns_endpoint_attributes_set() {
     local endpoint_arn="$1"
     local attributes="$2"

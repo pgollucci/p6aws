@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_quicksight_group_membership_create(member_name, group_name, aws_account_id, namespace)
+#
+# Arg(s):
+#    member_name - 
+#    group_name - 
+#    aws_account_id - 
+#    namespace - 
+#
+#
+#>
+######################################################################
 p6_aws_quicksight_group_membership_create() {
     local member_name="$1"
     local group_name="$2"

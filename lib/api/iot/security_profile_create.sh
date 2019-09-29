@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_security_profile_create(security_profile_name)
+#
+# Arg(s):
+#    security_profile_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_security_profile_create() {
     local security_profile_name="$1"
     shift 1

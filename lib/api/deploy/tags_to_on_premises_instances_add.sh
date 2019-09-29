@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_deploy_tags_to_on_premises_instances_add(tags, instance_names)
+#
+# Arg(s):
+#    tags - 
+#    instance_names - 
+#
+#
+#>
+######################################################################
 p6_aws_deploy_tags_to_on_premises_instances_add() {
     local tags="$1"
     local instance_names="$2"

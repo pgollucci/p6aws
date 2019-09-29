@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_support_trusted_advisor_check_refresh(check_id)
+#
+# Arg(s):
+#    check_id - 
+#
+#
+#>
+######################################################################
 p6_aws_support_trusted_advisor_check_refresh() {
     local check_id="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_v2_logging_level_delete(target_type, target_name)
+#
+# Arg(s):
+#    target_type - 
+#    target_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_v2_logging_level_delete() {
     local target_type="$1"
     local target_name="$2"

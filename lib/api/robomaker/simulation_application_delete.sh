@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_robomaker_simulation_application_delete(application)
+#
+# Arg(s):
+#    application - 
+#
+#
+#>
+######################################################################
 p6_aws_robomaker_simulation_application_delete() {
     local application="$1"
     shift 1

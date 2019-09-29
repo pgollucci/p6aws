@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lex_runtime_session_put(bot_name, bot_alias, user_id)
+#
+# Arg(s):
+#    bot_name - 
+#    bot_alias - 
+#    user_id - 
+#
+#
+#>
+######################################################################
 p6_aws_lex_runtime_session_put() {
     local bot_name="$1"
     local bot_alias="$2"

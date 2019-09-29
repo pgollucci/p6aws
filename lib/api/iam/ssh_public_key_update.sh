@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_ssh_public_key_update(user_name, ssh_public_key_id, status)
+#
+# Arg(s):
+#    user_name - 
+#    ssh_public_key_id - 
+#    status - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_ssh_public_key_update() {
     local user_name="$1"
     local ssh_public_key_id="$2"

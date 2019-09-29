@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codecommit_pull_request_description_update(pull_request_id, description)
+#
+# Arg(s):
+#    pull_request_id - 
+#    description - 
+#
+#
+#>
+######################################################################
 p6_aws_codecommit_pull_request_description_update() {
     local pull_request_id="$1"
     local description="$2"

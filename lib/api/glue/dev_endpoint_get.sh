@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_dev_endpoint_get(endpoint_name)
+#
+# Arg(s):
+#    endpoint_name - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_dev_endpoint_get() {
     local endpoint_name="$1"
     shift 1

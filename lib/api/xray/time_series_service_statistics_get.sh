@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_xray_time_series_service_statistics_get(start_time, end_time)
+#
+# Arg(s):
+#    start_time - 
+#    end_time - 
+#
+#
+#>
+######################################################################
 p6_aws_xray_time_series_service_statistics_get() {
     local start_time="$1"
     local end_time="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sns_sms_attributes_set(attributes)
+#
+# Arg(s):
+#    attributes - 
+#
+#
+#>
+######################################################################
 p6_aws_sns_sms_attributes_set() {
     local attributes="$1"
     shift 1

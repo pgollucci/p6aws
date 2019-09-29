@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_data_catalog_encryption_settings_put(data_catalog_encryption_settings)
+#
+# Arg(s):
+#    data_catalog_encryption_settings - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_data_catalog_encryption_settings_put() {
     local data_catalog_encryption_settings="$1"
     shift 1

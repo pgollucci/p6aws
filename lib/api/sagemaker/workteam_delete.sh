@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sagemaker_workteam_delete(workteam_name)
+#
+# Arg(s):
+#    workteam_name - 
+#
+#
+#>
+######################################################################
 p6_aws_sagemaker_workteam_delete() {
     local workteam_name="$1"
     shift 1

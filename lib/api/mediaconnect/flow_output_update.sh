@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mediaconnect_flow_output_update(flow_arn, output_arn)
+#
+# Arg(s):
+#    flow_arn - 
+#    output_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_mediaconnect_flow_output_update() {
     local flow_arn="$1"
     local output_arn="$2"

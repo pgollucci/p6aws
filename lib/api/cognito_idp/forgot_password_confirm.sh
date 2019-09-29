@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_idp_forgot_password_confirm(client_id, username, confirmation_code, password)
+#
+# Arg(s):
+#    client_id - 
+#    username - 
+#    confirmation_code - 
+#    password - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_idp_forgot_password_confirm() {
     local client_id="$1"
     local username="$2"

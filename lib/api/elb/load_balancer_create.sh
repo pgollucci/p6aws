@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elb_load_balancer_create(load_balancer_name, listeners)
+#
+# Arg(s):
+#    load_balancer_name - 
+#    listeners - 
+#
+#
+#>
+######################################################################
 p6_aws_elb_load_balancer_create() {
     local load_balancer_name="$1"
     local listeners="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pricing_attribute_values_get(service_code, attribute_name)
+#
+# Arg(s):
+#    service_code - 
+#    attribute_name - 
+#
+#
+#>
+######################################################################
 p6_aws_pricing_attribute_values_get() {
     local service_code="$1"
     local attribute_name="$2"

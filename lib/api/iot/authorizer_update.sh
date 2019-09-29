@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_authorizer_update(authorizer_name)
+#
+# Arg(s):
+#    authorizer_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_authorizer_update() {
     local authorizer_name="$1"
     shift 1

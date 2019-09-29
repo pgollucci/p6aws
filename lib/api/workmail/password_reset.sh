@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workmail_password_reset(organization_id, user_id, password)
+#
+# Arg(s):
+#    organization_id - 
+#    user_id - 
+#    password - 
+#
+#
+#>
+######################################################################
 p6_aws_workmail_password_reset() {
     local organization_id="$1"
     local user_id="$2"

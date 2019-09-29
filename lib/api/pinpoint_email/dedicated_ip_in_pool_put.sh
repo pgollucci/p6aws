@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pinpoint_email_dedicated_ip_in_pool_put(ip, destination_pool_name)
+#
+# Arg(s):
+#    ip - 
+#    destination_pool_name - 
+#
+#
+#>
+######################################################################
 p6_aws_pinpoint_email_dedicated_ip_in_pool_put() {
     local ip="$1"
     local destination_pool_name="$2"

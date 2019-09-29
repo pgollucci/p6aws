@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_eks_cluster_version_update(name, kubernetes_version)
+#
+# Arg(s):
+#    name - 
+#    kubernetes_version - 
+#
+#
+#>
+######################################################################
 p6_aws_eks_cluster_version_update() {
     local name="$1"
     local kubernetes_version="$2"

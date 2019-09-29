@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_devicefarm_network_profile_create(project_arn, name)
+#
+# Arg(s):
+#    project_arn - 
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_devicefarm_network_profile_create() {
     local project_arn="$1"
     local name="$2"

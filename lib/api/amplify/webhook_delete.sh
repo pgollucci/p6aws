@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_amplify_webhook_delete(webhook_id)
+#
+# Arg(s):
+#    webhook_id - 
+#
+#
+#>
+######################################################################
 p6_aws_amplify_webhook_delete() {
     local webhook_id="$1"
     shift 1

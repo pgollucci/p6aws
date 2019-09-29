@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ses_configuration_set_event_destination_update(configuration_set_name, event_destination)
+#
+# Arg(s):
+#    configuration_set_name - 
+#    event_destination - 
+#
+#
+#>
+######################################################################
 p6_aws_ses_configuration_set_event_destination_update() {
     local configuration_set_name="$1"
     local event_destination="$2"

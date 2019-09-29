@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iotthingsgraph_entities_get(ids)
+#
+# Arg(s):
+#    ids - 
+#
+#
+#>
+######################################################################
 p6_aws_iotthingsgraph_entities_get() {
     local ids="$1"
     shift 1

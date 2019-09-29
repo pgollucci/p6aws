@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sdb_attributes_get(domain_name, item_name)
+#
+# Arg(s):
+#    domain_name - 
+#    item_name - 
+#
+#
+#>
+######################################################################
 p6_aws_sdb_attributes_get() {
     local domain_name="$1"
     local item_name="$2"

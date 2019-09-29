@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lambda_function_code_update(function_name)
+#
+# Arg(s):
+#    function_name - 
+#
+#
+#>
+######################################################################
 p6_aws_lambda_function_code_update() {
     local function_name="$1"
     shift 1

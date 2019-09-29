@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mediastore_container_create(container_name)
+#
+# Arg(s):
+#    container_name - 
+#
+#
+#>
+######################################################################
 p6_aws_mediastore_container_create() {
     local container_name="$1"
     shift 1

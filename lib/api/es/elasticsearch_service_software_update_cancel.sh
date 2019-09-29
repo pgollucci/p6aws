@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_es_elasticsearch_service_software_update_cancel(domain_name)
+#
+# Arg(s):
+#    domain_name - 
+#
+#
+#>
+######################################################################
 p6_aws_es_elasticsearch_service_software_update_cancel() {
     local domain_name="$1"
     shift 1

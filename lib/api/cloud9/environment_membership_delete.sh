@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloud9_environment_membership_delete(environment_id, user_arn)
+#
+# Arg(s):
+#    environment_id - 
+#    user_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_cloud9_environment_membership_delete() {
     local environment_id="$1"
     local user_arn="$2"

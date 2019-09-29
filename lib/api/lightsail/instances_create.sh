@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lightsail_instances_create(instance_names, availability_zone, blueprint_id, bundle_id)
+#
+# Arg(s):
+#    instance_names - 
+#    availability_zone - 
+#    blueprint_id - 
+#    bundle_id - 
+#
+#
+#>
+######################################################################
 p6_aws_lightsail_instances_create() {
     local instance_names="$1"
     local availability_zone="$2"

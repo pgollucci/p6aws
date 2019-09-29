@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudformation_stack_set_operations_list(stack_set_name)
+#
+# Arg(s):
+#    stack_set_name - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudformation_stack_set_operations_list() {
     local stack_set_name="$1"
     shift 1

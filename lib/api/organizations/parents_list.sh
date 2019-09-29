@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_parents_list(child_id)
+#
+# Arg(s):
+#    child_id - 
+#
+#
+#>
+######################################################################
 p6_aws_organizations_parents_list() {
     local child_id="$1"
     shift 1

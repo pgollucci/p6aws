@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_translate_terminology_get(name, terminology_data_format)
+#
+# Arg(s):
+#    name - 
+#    terminology_data_format - 
+#
+#
+#>
+######################################################################
 p6_aws_translate_terminology_get() {
     local name="$1"
     local terminology_data_format="$2"

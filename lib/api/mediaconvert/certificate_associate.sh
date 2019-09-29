@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mediaconvert_certificate_associate(arn)
+#
+# Arg(s):
+#    arn - 
+#
+#
+#>
+######################################################################
 p6_aws_mediaconvert_certificate_associate() {
     local arn="$1"
     shift 1

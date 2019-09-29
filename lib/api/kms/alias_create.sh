@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kms_alias_create(alias_name, target_key_id)
+#
+# Arg(s):
+#    alias_name - 
+#    target_key_id - 
+#
+#
+#>
+######################################################################
 p6_aws_kms_alias_create() {
     local alias_name="$1"
     local target_key_id="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_docdb_db_cluster_stop(db_cluster_identifier)
+#
+# Arg(s):
+#    db_cluster_identifier - 
+#
+#
+#>
+######################################################################
 p6_aws_docdb_db_cluster_stop() {
     local db_cluster_identifier="$1"
     shift 1

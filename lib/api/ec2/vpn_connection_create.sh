@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_vpn_connection_create(customer_gateway_id, type)
+#
+# Arg(s):
+#    customer_gateway_id - 
+#    type - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_vpn_connection_create() {
     local customer_gateway_id="$1"
     local type="$2"

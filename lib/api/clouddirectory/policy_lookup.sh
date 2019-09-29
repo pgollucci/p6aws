@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_clouddirectory_policy_lookup(directory_arn, object_reference)
+#
+# Arg(s):
+#    directory_arn - 
+#    object_reference - 
+#
+#
+#>
+######################################################################
 p6_aws_clouddirectory_policy_lookup() {
     local directory_arn="$1"
     local object_reference="$2"

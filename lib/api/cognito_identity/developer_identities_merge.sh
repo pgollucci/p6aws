@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_identity_developer_identities_merge(source_user_identifier, destination_user_identifier, developer_provider_name, identity_pool_id)
+#
+# Arg(s):
+#    source_user_identifier - 
+#    destination_user_identifier - 
+#    developer_provider_name - 
+#    identity_pool_id - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_identity_developer_identities_merge() {
     local source_user_identifier="$1"
     local destination_user_identifier="$2"

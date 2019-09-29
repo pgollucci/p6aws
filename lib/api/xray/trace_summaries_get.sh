@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_xray_trace_summaries_get(start_time, end_time)
+#
+# Arg(s):
+#    start_time - 
+#    end_time - 
+#
+#
+#>
+######################################################################
 p6_aws_xray_trace_summaries_get() {
     local start_time="$1"
     local end_time="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sagemaker_training_job_stop(training_job_name)
+#
+# Arg(s):
+#    training_job_name - 
+#
+#
+#>
+######################################################################
 p6_aws_sagemaker_training_job_stop() {
     local training_job_name="$1"
     shift 1

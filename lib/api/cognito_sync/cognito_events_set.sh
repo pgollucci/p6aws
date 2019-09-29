@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_sync_cognito_events_set(identity_pool_id, events)
+#
+# Arg(s):
+#    identity_pool_id - 
+#    events - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_sync_cognito_events_set() {
     local identity_pool_id="$1"
     local events="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_chime_account_settings_update(account_id, account_settings)
+#
+# Arg(s):
+#    account_id - 
+#    account_settings - 
+#
+#
+#>
+######################################################################
 p6_aws_chime_account_settings_update() {
     local account_id="$1"
     local account_settings="$2"

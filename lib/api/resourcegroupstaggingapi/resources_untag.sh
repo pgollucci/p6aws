@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_resourcegroupstaggingapi_resources_untag(resource_arn_list, tag_keys)
+#
+# Arg(s):
+#    resource_arn_list - 
+#    tag_keys - 
+#
+#
+#>
+######################################################################
 p6_aws_resourcegroupstaggingapi_resources_untag() {
     local resource_arn_list="$1"
     local tag_keys="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_snapshots_create(instance_specification)
+#
+# Arg(s):
+#    instance_specification - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_snapshots_create() {
     local instance_specification="$1"
     shift 1

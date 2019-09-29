@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workspaces_client_properties_describe(resource_ids)
+#
+# Arg(s):
+#    resource_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_workspaces_client_properties_describe() {
     local resource_ids="$1"
     shift 1

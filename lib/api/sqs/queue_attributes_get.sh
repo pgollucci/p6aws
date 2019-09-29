@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sqs_queue_attributes_get(queue_url)
+#
+# Arg(s):
+#    queue_url - 
+#
+#
+#>
+######################################################################
 p6_aws_sqs_queue_attributes_get() {
     local queue_url="$1"
     shift 1

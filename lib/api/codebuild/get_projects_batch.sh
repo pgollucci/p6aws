@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codebuild_get_projects_batch(names)
+#
+# Arg(s):
+#    names - 
+#
+#
+#>
+######################################################################
 p6_aws_codebuild_get_projects_batch() {
     local names="$1"
     shift 1

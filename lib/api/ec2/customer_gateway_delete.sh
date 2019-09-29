@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_customer_gateway_delete(customer_gateway_id)
+#
+# Arg(s):
+#    customer_gateway_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_customer_gateway_delete() {
     local customer_gateway_id="$1"
     shift 1

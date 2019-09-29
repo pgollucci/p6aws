@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kms_retirable_grants_list(retiring_principal)
+#
+# Arg(s):
+#    retiring_principal - 
+#
+#
+#>
+######################################################################
 p6_aws_kms_retirable_grants_list() {
     local retiring_principal="$1"
     shift 1

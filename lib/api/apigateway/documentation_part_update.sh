@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigateway_documentation_part_update(rest_api_id, documentation_part_id)
+#
+# Arg(s):
+#    rest_api_id - 
+#    documentation_part_id - 
+#
+#
+#>
+######################################################################
 p6_aws_apigateway_documentation_part_update() {
     local rest_api_id="$1"
     local documentation_part_id="$2"

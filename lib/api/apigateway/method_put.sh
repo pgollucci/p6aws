@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigateway_method_put(rest_api_id, resource_id, http_method, authorization_type)
+#
+# Arg(s):
+#    rest_api_id - 
+#    resource_id - 
+#    http_method - 
+#    authorization_type - 
+#
+#
+#>
+######################################################################
 p6_aws_apigateway_method_put() {
     local rest_api_id="$1"
     local resource_id="$2"

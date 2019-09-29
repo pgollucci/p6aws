@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_thing_principal_attach(thing_name, principal)
+#
+# Arg(s):
+#    thing_name - 
+#    principal - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_thing_principal_attach() {
     local thing_name="$1"
     local principal="$2"

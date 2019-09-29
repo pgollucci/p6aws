@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_gamelift_game_session_log_get(game_session_id, save_as)
+#
+# Arg(s):
+#    game_session_id - 
+#    save_as - 
+#
+#
+#>
+######################################################################
 p6_aws_gamelift_game_session_log_get() {
     local game_session_id="$1"
     local save_as="$2"

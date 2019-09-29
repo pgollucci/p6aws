@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_connect_current_metric_data_get(instance_id, filters, current_metrics)
+#
+# Arg(s):
+#    instance_id - 
+#    filters - 
+#    current_metrics - 
+#
+#
+#>
+######################################################################
 p6_aws_connect_current_metric_data_get() {
     local instance_id="$1"
     local filters="$2"

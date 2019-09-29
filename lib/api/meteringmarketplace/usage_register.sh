@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_meteringmarketplace_usage_register(product_code, public_key_version)
+#
+# Arg(s):
+#    product_code - 
+#    public_key_version - 
+#
+#
+#>
+######################################################################
 p6_aws_meteringmarketplace_usage_register() {
     local product_code="$1"
     local public_key_version="$2"

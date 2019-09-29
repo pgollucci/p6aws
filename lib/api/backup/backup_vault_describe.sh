@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_backup_backup_vault_describe(backup_vault_name)
+#
+# Arg(s):
+#    backup_vault_name - 
+#
+#
+#>
+######################################################################
 p6_aws_backup_backup_vault_describe() {
     local backup_vault_name="$1"
     shift 1

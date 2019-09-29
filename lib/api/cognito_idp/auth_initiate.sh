@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_idp_auth_initiate(auth_flow, client_id)
+#
+# Arg(s):
+#    auth_flow - 
+#    client_id - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_idp_auth_initiate() {
     local auth_flow="$1"
     local client_id="$2"

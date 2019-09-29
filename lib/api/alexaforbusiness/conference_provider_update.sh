@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alexaforbusiness_conference_provider_update(conference_provider_arn, conference_provider_type, meeting_setting)
+#
+# Arg(s):
+#    conference_provider_arn - 
+#    conference_provider_type - 
+#    meeting_setting - 
+#
+#
+#>
+######################################################################
 p6_aws_alexaforbusiness_conference_provider_update() {
     local conference_provider_arn="$1"
     local conference_provider_type="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ds_log_subscription_create(directory_id, log_group_name)
+#
+# Arg(s):
+#    directory_id - 
+#    log_group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_ds_log_subscription_create() {
     local directory_id="$1"
     local log_group_name="$2"

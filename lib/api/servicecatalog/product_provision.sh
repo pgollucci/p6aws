@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_servicecatalog_product_provision(product_id, provisioning_artifact_id, provisioned_product_name)
+#
+# Arg(s):
+#    product_id - 
+#    provisioning_artifact_id - 
+#    provisioned_product_name - 
+#
+#
+#>
+######################################################################
 p6_aws_servicecatalog_product_provision() {
     local product_id="$1"
     local provisioning_artifact_id="$2"

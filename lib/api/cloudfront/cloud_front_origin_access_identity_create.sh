@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudfront_cloud_front_origin_access_identity_create(cloud_front_origin_access_identity_config)
+#
+# Arg(s):
+#    cloud_front_origin_access_identity_config - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudfront_cloud_front_origin_access_identity_create() {
     local cloud_front_origin_access_identity_config="$1"
     shift 1

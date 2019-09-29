@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3api_bucket_replication_get(bucket)
+#
+# Arg(s):
+#    bucket - 
+#
+#
+#>
+######################################################################
 p6_aws_s3api_bucket_replication_get() {
     local bucket="$1"
     shift 1

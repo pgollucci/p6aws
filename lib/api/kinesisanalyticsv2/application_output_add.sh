@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kinesisanalyticsv2_application_output_add(application_name, current_application_version_id, application_output)
+#
+# Arg(s):
+#    application_name - 
+#    current_application_version_id - 
+#    application_output - 
+#
+#
+#>
+######################################################################
 p6_aws_kinesisanalyticsv2_application_output_add() {
     local application_name="$1"
     local current_application_version_id="$2"

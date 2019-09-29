@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ecs_task_definition_deregister(task_definition)
+#
+# Arg(s):
+#    task_definition - 
+#
+#
+#>
+######################################################################
 p6_aws_ecs_task_definition_deregister() {
     local task_definition="$1"
     shift 1

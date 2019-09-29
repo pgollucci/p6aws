@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_connect_user_describe(user_id, instance_id)
+#
+# Arg(s):
+#    user_id - 
+#    instance_id - 
+#
+#
+#>
+######################################################################
 p6_aws_connect_user_describe() {
     local user_id="$1"
     local instance_id="$2"

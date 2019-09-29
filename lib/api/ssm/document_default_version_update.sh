@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_document_default_version_update(name, document_version)
+#
+# Arg(s):
+#    name - 
+#    document_version - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_document_default_version_update() {
     local name="$1"
     local document_version="$2"

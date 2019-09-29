@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ce_reservation_purchase_recommendation_get(service)
+#
+# Arg(s):
+#    service - 
+#
+#
+#>
+######################################################################
 p6_aws_ce_reservation_purchase_recommendation_get() {
     local service="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3api_object_versions_list(bucket)
+#
+# Arg(s):
+#    bucket - 
+#
+#
+#>
+######################################################################
 p6_aws_s3api_object_versions_list() {
     local bucket="$1"
     shift 1

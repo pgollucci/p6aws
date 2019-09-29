@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_servicediscovery_instance_custom_health_status_update(service_id, instance_id, status)
+#
+# Arg(s):
+#    service_id - 
+#    instance_id - 
+#    status - 
+#
+#
+#>
+######################################################################
 p6_aws_servicediscovery_instance_custom_health_status_update() {
     local service_id="$1"
     local instance_id="$2"

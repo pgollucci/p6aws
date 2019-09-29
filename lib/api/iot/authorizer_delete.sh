@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_authorizer_delete(authorizer_name)
+#
+# Arg(s):
+#    authorizer_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_authorizer_delete() {
     local authorizer_name="$1"
     shift 1

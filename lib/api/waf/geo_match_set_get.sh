@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_geo_match_set_get(geo_match_set_id)
+#
+# Arg(s):
+#    geo_match_set_id - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_geo_match_set_get() {
     local geo_match_set_id="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codecommit_folder_get(repository_name, folder_path)
+#
+# Arg(s):
+#    repository_name - 
+#    folder_path - 
+#
+#
+#>
+######################################################################
 p6_aws_codecommit_folder_get() {
     local repository_name="$1"
     local folder_path="$2"

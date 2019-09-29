@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_vpc_endpoint_service_configuration_create(network_load_balancer_arns)
+#
+# Arg(s):
+#    network_load_balancer_arns - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_vpc_endpoint_service_configuration_create() {
     local network_load_balancer_arns="$1"
     shift 1

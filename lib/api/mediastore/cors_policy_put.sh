@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mediastore_cors_policy_put(container_name, cors_policy)
+#
+# Arg(s):
+#    container_name - 
+#    cors_policy - 
+#
+#
+#>
+######################################################################
 p6_aws_mediastore_cors_policy_put() {
     local container_name="$1"
     local cors_policy="$2"

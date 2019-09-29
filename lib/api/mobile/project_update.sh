@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mobile_project_update(project_id)
+#
+# Arg(s):
+#    project_id - 
+#
+#
+#>
+######################################################################
 p6_aws_mobile_project_update() {
     local project_id="$1"
     shift 1

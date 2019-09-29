@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iotanalytics_channel_delete(channel_name)
+#
+# Arg(s):
+#    channel_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iotanalytics_channel_delete() {
     local channel_name="$1"
     shift 1

@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudformation_stack_instances_delete(stack_set_name, accounts, regions, retain_stacks)
+#
+# Arg(s):
+#    stack_set_name - 
+#    accounts - 
+#    regions - 
+#    retain_stacks - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudformation_stack_instances_delete() {
     local stack_set_name="$1"
     local accounts="$2"

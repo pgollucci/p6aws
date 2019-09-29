@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cur_report_definition_put(report_definition)
+#
+# Arg(s):
+#    report_definition - 
+#
+#
+#>
+######################################################################
 p6_aws_cur_report_definition_put() {
     local report_definition="$1"
     shift 1

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elb_load_balancer_policies_for_backend_server_set(load_balancer_name, instance_port, policy_names)
+#
+# Arg(s):
+#    load_balancer_name - 
+#    instance_port - 
+#    policy_names - 
+#
+#
+#>
+######################################################################
 p6_aws_elb_load_balancer_policies_for_backend_server_set() {
     local load_balancer_name="$1"
     local instance_port="$2"

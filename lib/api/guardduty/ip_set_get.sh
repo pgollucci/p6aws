@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_guardduty_ip_set_get(detector_id, ip_set_id)
+#
+# Arg(s):
+#    detector_id - 
+#    ip_set_id - 
+#
+#
+#>
+######################################################################
 p6_aws_guardduty_ip_set_get() {
     local detector_id="$1"
     local ip_set_id="$2"

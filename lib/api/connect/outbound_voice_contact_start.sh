@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_connect_outbound_voice_contact_start(destination_phone_number, contact_flow_id, instance_id)
+#
+# Arg(s):
+#    destination_phone_number - 
+#    contact_flow_id - 
+#    instance_id - 
+#
+#
+#>
+######################################################################
 p6_aws_connect_outbound_voice_contact_start() {
     local destination_phone_number="$1"
     local contact_flow_id="$2"

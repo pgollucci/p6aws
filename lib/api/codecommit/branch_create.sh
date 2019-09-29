@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codecommit_branch_create(repository_name, branch_name, commit_id)
+#
+# Arg(s):
+#    repository_name - 
+#    branch_name - 
+#    commit_id - 
+#
+#
+#>
+######################################################################
 p6_aws_codecommit_branch_create() {
     local repository_name="$1"
     local branch_name="$2"

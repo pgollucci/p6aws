@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_mfa_device_enable(user_name, serial_number, authentication_code1, authentication_code2)
+#
+# Arg(s):
+#    user_name - 
+#    serial_number - 
+#    authentication_code1 - 
+#    authentication_code2 - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_mfa_device_enable() {
     local user_name="$1"
     local serial_number="$2"

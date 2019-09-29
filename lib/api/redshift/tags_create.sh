@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_tags_create(resource_name, tags)
+#
+# Arg(s):
+#    resource_name - 
+#    tags - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_tags_create() {
     local resource_name="$1"
     local tags="$2"

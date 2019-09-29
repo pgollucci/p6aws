@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_private_ip_addresses_unassign(network_interface_id, private_ip_addresses)
+#
+# Arg(s):
+#    network_interface_id - 
+#    private_ip_addresses - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_private_ip_addresses_unassign() {
     local network_interface_id="$1"
     local private_ip_addresses="$2"

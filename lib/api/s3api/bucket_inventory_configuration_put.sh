@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3api_bucket_inventory_configuration_put(bucket, id, inventory_configuration)
+#
+# Arg(s):
+#    bucket - 
+#    id - 
+#    inventory_configuration - 
+#
+#
+#>
+######################################################################
 p6_aws_s3api_bucket_inventory_configuration_put() {
     local bucket="$1"
     local id="$2"

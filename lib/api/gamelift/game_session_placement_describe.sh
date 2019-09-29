@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_gamelift_game_session_placement_describe(placement_id)
+#
+# Arg(s):
+#    placement_id - 
+#
+#
+#>
+######################################################################
 p6_aws_gamelift_game_session_placement_describe() {
     local placement_id="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53resolver_resolver_endpoint_update(resolver_endpoint_id)
+#
+# Arg(s):
+#    resolver_endpoint_id - 
+#
+#
+#>
+######################################################################
 p6_aws_route53resolver_resolver_endpoint_update() {
     local resolver_endpoint_id="$1"
     shift 1

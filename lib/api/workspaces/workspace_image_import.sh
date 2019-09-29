@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workspaces_workspace_image_import(ec2_image_id, ingestion_process, image_name, image_description)
+#
+# Arg(s):
+#    ec2_image_id - 
+#    ingestion_process - 
+#    image_name - 
+#    image_description - 
+#
+#
+#>
+######################################################################
 p6_aws_workspaces_workspace_image_import() {
     local ec2_image_id="$1"
     local ingestion_process="$2"

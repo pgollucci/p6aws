@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigateway_method_delete(rest_api_id, resource_id, http_method)
+#
+# Arg(s):
+#    rest_api_id - 
+#    resource_id - 
+#    http_method - 
+#
+#
+#>
+######################################################################
 p6_aws_apigateway_method_delete() {
     local rest_api_id="$1"
     local resource_id="$2"

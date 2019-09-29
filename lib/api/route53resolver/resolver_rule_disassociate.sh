@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53resolver_resolver_rule_disassociate(vpc_id, resolver_rule_id)
+#
+# Arg(s):
+#    vpc_id - 
+#    resolver_rule_id - 
+#
+#
+#>
+######################################################################
 p6_aws_route53resolver_resolver_rule_disassociate() {
     local vpc_id="$1"
     local resolver_rule_id="$2"

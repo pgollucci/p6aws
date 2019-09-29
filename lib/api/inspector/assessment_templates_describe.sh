@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_inspector_assessment_templates_describe(assessment_template_arns)
+#
+# Arg(s):
+#    assessment_template_arns - 
+#
+#
+#>
+######################################################################
 p6_aws_inspector_assessment_templates_describe() {
     local assessment_template_arns="$1"
     shift 1

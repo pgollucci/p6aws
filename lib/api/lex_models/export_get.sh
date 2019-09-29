@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lex_models_export_get(name, resource_type, export_type, resource_version)
+#
+# Arg(s):
+#    name - 
+#    resource_type - 
+#    export_type - 
+#    resource_version - 
+#
+#
+#>
+######################################################################
 p6_aws_lex_models_export_get() {
     local name="$1"
     local resource_type="$2"

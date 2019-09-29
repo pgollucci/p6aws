@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_securityhub_action_target_create(name, description, id)
+#
+# Arg(s):
+#    name - 
+#    description - 
+#    id - 
+#
+#
+#>
+######################################################################
 p6_aws_securityhub_action_target_create() {
     local name="$1"
     local description="$2"

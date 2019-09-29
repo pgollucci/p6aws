@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_machinelearning_tags_describe(resource_id, resource_type)
+#
+# Arg(s):
+#    resource_id - 
+#    resource_type - 
+#
+#
+#>
+######################################################################
 p6_aws_machinelearning_tags_describe() {
     local resource_id="$1"
     local resource_type="$2"

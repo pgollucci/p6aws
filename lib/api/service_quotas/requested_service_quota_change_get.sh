@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_service_quotas_requested_service_quota_change_get(request_id)
+#
+# Arg(s):
+#    request_id - 
+#
+#
+#>
+######################################################################
 p6_aws_service_quotas_requested_service_quota_change_get() {
     local request_id="$1"
     shift 1

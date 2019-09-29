@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workdocs_document_version_upload_initiate(parent_folder_id)
+#
+# Arg(s):
+#    parent_folder_id - 
+#
+#
+#>
+######################################################################
 p6_aws_workdocs_document_version_upload_initiate() {
     local parent_folder_id="$1"
     shift 1

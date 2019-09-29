@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53resolver_resolver_rule_get(resolver_rule_id)
+#
+# Arg(s):
+#    resolver_rule_id - 
+#
+#
+#>
+######################################################################
 p6_aws_route53resolver_resolver_rule_get() {
     local resolver_rule_id="$1"
     shift 1

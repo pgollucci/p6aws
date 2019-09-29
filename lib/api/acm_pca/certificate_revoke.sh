@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_acm_pca_certificate_revoke(certificate_authority_arn, certificate_serial, revocation_reason)
+#
+# Arg(s):
+#    certificate_authority_arn - 
+#    certificate_serial - 
+#    revocation_reason - 
+#
+#
+#>
+######################################################################
 p6_aws_acm_pca_certificate_revoke() {
     local certificate_authority_arn="$1"
     local certificate_serial="$2"

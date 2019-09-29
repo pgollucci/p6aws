@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codecommit_differences_get(repository_name, after_commit_specifier)
+#
+# Arg(s):
+#    repository_name - 
+#    after_commit_specifier - 
+#
+#
+#>
+######################################################################
 p6_aws_codecommit_differences_get() {
     local repository_name="$1"
     local after_commit_specifier="$2"

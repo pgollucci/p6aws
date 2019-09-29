@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ds_computer_create(directory_id, computer_name, password)
+#
+# Arg(s):
+#    directory_id - 
+#    computer_name - 
+#    password - 
+#
+#
+#>
+######################################################################
 p6_aws_ds_computer_create() {
     local directory_id="$1"
     local computer_name="$2"

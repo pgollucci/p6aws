@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kms_key_material_import(key_id, import_token, encrypted_key_material)
+#
+# Arg(s):
+#    key_id - 
+#    import_token - 
+#    encrypted_key_material - 
+#
+#
+#>
+######################################################################
 p6_aws_kms_key_material_import() {
     local key_id="$1"
     local import_token="$2"

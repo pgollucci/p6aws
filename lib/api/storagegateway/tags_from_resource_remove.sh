@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_storagegateway_tags_from_resource_remove(resource_arn, tag_keys)
+#
+# Arg(s):
+#    resource_arn - 
+#    tag_keys - 
+#
+#
+#>
+######################################################################
 p6_aws_storagegateway_tags_from_resource_remove() {
     local resource_arn="$1"
     local tag_keys="$2"

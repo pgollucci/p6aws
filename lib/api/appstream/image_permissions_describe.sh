@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_appstream_image_permissions_describe(name)
+#
+# Arg(s):
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_appstream_image_permissions_describe() {
     local name="$1"
     shift 1

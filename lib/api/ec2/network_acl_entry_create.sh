@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_network_acl_entry_create(egress, network_acl_id, protocol, rule_action, rule_number)
+#
+# Arg(s):
+#    egress - 
+#    network_acl_id - 
+#    protocol - 
+#    rule_action - 
+#    rule_number - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_network_acl_entry_create() {
     local egress="$1"
     local network_acl_id="$2"

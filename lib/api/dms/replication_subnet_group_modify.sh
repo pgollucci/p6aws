@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dms_replication_subnet_group_modify(replication_subnet_group_identifier, subnet_ids)
+#
+# Arg(s):
+#    replication_subnet_group_identifier - 
+#    subnet_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_dms_replication_subnet_group_modify() {
     local replication_subnet_group_identifier="$1"
     local subnet_ids="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_role_policy_detach(role_name, policy_arn)
+#
+# Arg(s):
+#    role_name - 
+#    policy_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_role_policy_detach() {
     local role_name="$1"
     local policy_arn="$2"

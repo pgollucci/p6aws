@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_image_create(instance_id, name)
+#
+# Arg(s):
+#    instance_id - 
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_image_create() {
     local instance_id="$1"
     local name="$2"

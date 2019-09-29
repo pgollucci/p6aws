@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_configservice_compliance_details_by_config_rule_get(config_rule_name)
+#
+# Arg(s):
+#    config_rule_name - 
+#
+#
+#>
+######################################################################
 p6_aws_configservice_compliance_details_by_config_rule_get() {
     local config_rule_name="$1"
     shift 1

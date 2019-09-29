@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_automation_step_executions_describe(automation_execution_id)
+#
+# Arg(s):
+#    automation_execution_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_automation_step_executions_describe() {
     local automation_execution_id="$1"
     shift 1

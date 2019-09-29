@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_network_interface_create(subnet_id)
+#
+# Arg(s):
+#    subnet_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_network_interface_create() {
     local subnet_id="$1"
     shift 1

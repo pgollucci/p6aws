@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_logs_kms_key_associate(log_group_name, kms_key_id)
+#
+# Arg(s):
+#    log_group_name - 
+#    kms_key_id - 
+#
+#
+#>
+######################################################################
 p6_aws_logs_kms_key_associate() {
     local log_group_name="$1"
     local kms_key_id="$2"

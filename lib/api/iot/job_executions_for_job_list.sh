@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_job_executions_for_job_list(job_id)
+#
+# Arg(s):
+#    job_id - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_job_executions_for_job_list() {
     local job_id="$1"
     shift 1

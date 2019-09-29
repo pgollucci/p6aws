@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iotanalytics_datastore_describe(datastore_name)
+#
+# Arg(s):
+#    datastore_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iotanalytics_datastore_describe() {
     local datastore_name="$1"
     shift 1

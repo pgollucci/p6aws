@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_from_cluster_snapshot_restore(cluster_identifier, snapshot_identifier)
+#
+# Arg(s):
+#    cluster_identifier - 
+#    snapshot_identifier - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_from_cluster_snapshot_restore() {
     local cluster_identifier="$1"
     local snapshot_identifier="$2"

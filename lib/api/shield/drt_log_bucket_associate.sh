@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_shield_drt_log_bucket_associate(log_bucket)
+#
+# Arg(s):
+#    log_bucket - 
+#
+#
+#>
+######################################################################
 p6_aws_shield_drt_log_bucket_associate() {
     local log_bucket="$1"
     shift 1

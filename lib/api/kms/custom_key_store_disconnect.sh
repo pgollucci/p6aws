@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kms_custom_key_store_disconnect(custom_key_store_id)
+#
+# Arg(s):
+#    custom_key_store_id - 
+#
+#
+#>
+######################################################################
 p6_aws_kms_custom_key_store_disconnect() {
     local custom_key_store_id="$1"
     shift 1

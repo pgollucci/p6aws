@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mturk_qualification_type_create(name, description, qualification_type_status)
+#
+# Arg(s):
+#    name - 
+#    description - 
+#    qualification_type_status - 
+#
+#
+#>
+######################################################################
 p6_aws_mturk_qualification_type_create() {
     local name="$1"
     local description="$2"

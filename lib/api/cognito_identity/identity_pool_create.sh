@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_identity_identity_pool_create(identity_pool_name, allow_unauthenticated_identities)
+#
+# Arg(s):
+#    identity_pool_name - 
+#    allow_unauthenticated_identities - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_identity_identity_pool_create() {
     local identity_pool_name="$1"
     local allow_unauthenticated_identities="$2"

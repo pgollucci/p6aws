@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ds_directory_unshare(directory_id, unshare_target)
+#
+# Arg(s):
+#    directory_id - 
+#    unshare_target - 
+#
+#
+#>
+######################################################################
 p6_aws_ds_directory_unshare() {
     local directory_id="$1"
     local unshare_target="$2"

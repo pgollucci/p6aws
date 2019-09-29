@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_servicecatalog_portfolio_access_list(portfolio_id)
+#
+# Arg(s):
+#    portfolio_id - 
+#
+#
+#>
+######################################################################
 p6_aws_servicecatalog_portfolio_access_list() {
     local portfolio_id="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sns_platform_endpoint_create(platform_application_arn, token)
+#
+# Arg(s):
+#    platform_application_arn - 
+#    token - 
+#
+#
+#>
+######################################################################
 p6_aws_sns_platform_endpoint_create() {
     local platform_application_arn="$1"
     local token="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigateway_rest_api_update(rest_api_id)
+#
+# Arg(s):
+#    rest_api_id - 
+#
+#
+#>
+######################################################################
 p6_aws_apigateway_rest_api_update() {
     local rest_api_id="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mediaconvert_resource_untag(arn)
+#
+# Arg(s):
+#    arn - 
+#
+#
+#>
+######################################################################
 p6_aws_mediaconvert_resource_untag() {
     local arn="$1"
     shift 1

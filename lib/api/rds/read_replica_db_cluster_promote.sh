@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_read_replica_db_cluster_promote(db_cluster_identifier)
+#
+# Arg(s):
+#    db_cluster_identifier - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_read_replica_db_cluster_promote() {
     local db_cluster_identifier="$1"
     shift 1

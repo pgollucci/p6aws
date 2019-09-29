@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iotevents_detector_model_update(detector_model_name, detector_model_definition, role_arn)
+#
+# Arg(s):
+#    detector_model_name - 
+#    detector_model_definition - 
+#    role_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_iotevents_detector_model_update() {
     local detector_model_name="$1"
     local detector_model_definition="$2"

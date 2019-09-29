@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_scheduled_audit_create(frequency, target_check_names, scheduled_audit_name)
+#
+# Arg(s):
+#    frequency - 
+#    target_check_names - 
+#    scheduled_audit_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_scheduled_audit_create() {
     local frequency="$1"
     local target_check_names="$2"

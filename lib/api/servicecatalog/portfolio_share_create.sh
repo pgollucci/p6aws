@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_servicecatalog_portfolio_share_create(portfolio_id)
+#
+# Arg(s):
+#    portfolio_id - 
+#
+#
+#>
+######################################################################
 p6_aws_servicecatalog_portfolio_share_create() {
     local portfolio_id="$1"
     shift 1

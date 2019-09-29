@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudfront_streaming_distribution_create(streaming_distribution_config)
+#
+# Arg(s):
+#    streaming_distribution_config - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudfront_streaming_distribution_create() {
     local streaming_distribution_config="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_servicediscovery_instance_deregister(service_id, instance_id)
+#
+# Arg(s):
+#    service_id - 
+#    instance_id - 
+#
+#
+#>
+######################################################################
 p6_aws_servicediscovery_instance_deregister() {
     local service_id="$1"
     local instance_id="$2"

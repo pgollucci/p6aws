@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elastictranscoder_preset_read(id)
+#
+# Arg(s):
+#    id - 
+#
+#
+#>
+######################################################################
 p6_aws_elastictranscoder_preset_read() {
     local id="$1"
     shift 1

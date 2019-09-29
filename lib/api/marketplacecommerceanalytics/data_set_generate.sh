@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_marketplacecommerceanalytics_data_set_generate(data_set_type, data_set_publication_date, role_name_arn, destination_s3_bucket_name, sns_topic_arn)
+#
+# Arg(s):
+#    data_set_type - 
+#    data_set_publication_date - 
+#    role_name_arn - 
+#    destination_s3_bucket_name - 
+#    sns_topic_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_marketplacecommerceanalytics_data_set_generate() {
     local data_set_type="$1"
     local data_set_publication_date="$2"

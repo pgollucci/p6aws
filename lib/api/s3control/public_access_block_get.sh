@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3control_public_access_block_get(account_id)
+#
+# Arg(s):
+#    account_id - 
+#
+#
+#>
+######################################################################
 p6_aws_s3control_public_access_block_get() {
     local account_id="$1"
     shift 1

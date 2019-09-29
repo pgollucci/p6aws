@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elb_health_check_configure(load_balancer_name, health_check)
+#
+# Arg(s):
+#    load_balancer_name - 
+#    health_check - 
+#
+#
+#>
+######################################################################
 p6_aws_elb_health_check_configure() {
     local load_balancer_name="$1"
     local health_check="$2"

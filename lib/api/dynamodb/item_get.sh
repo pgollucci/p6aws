@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dynamodb_item_get(table_name, key)
+#
+# Arg(s):
+#    table_name - 
+#    key - 
+#
+#
+#>
+######################################################################
 p6_aws_dynamodb_item_get() {
     local table_name="$1"
     local key="$2"

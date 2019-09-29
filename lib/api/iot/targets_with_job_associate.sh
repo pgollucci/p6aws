@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_targets_with_job_associate(targets, job_id)
+#
+# Arg(s):
+#    targets - 
+#    job_id - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_targets_with_job_associate() {
     local targets="$1"
     local job_id="$2"

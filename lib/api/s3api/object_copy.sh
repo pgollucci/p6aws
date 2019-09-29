@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3api_object_copy(bucket, copy_source, key)
+#
+# Arg(s):
+#    bucket - 
+#    copy_source - 
+#    key - 
+#
+#
+#>
+######################################################################
 p6_aws_s3api_object_copy() {
     local bucket="$1"
     local copy_source="$2"

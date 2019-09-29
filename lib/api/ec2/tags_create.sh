@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_tags_create(resources, tags)
+#
+# Arg(s):
+#    resources - 
+#    tags - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_tags_create() {
     local resources="$1"
     local tags="$2"

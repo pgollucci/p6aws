@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3api_bucket_website_delete(bucket)
+#
+# Arg(s):
+#    bucket - 
+#
+#
+#>
+######################################################################
 p6_aws_s3api_bucket_website_delete() {
     local bucket="$1"
     shift 1

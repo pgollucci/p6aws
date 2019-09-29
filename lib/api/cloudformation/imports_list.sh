@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudformation_imports_list(export_name)
+#
+# Arg(s):
+#    export_name - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudformation_imports_list() {
     local export_name="$1"
     shift 1

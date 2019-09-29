@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_role_permissions_boundary_put(role_name, permissions_boundary)
+#
+# Arg(s):
+#    role_name - 
+#    permissions_boundary - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_role_permissions_boundary_put() {
     local role_name="$1"
     local permissions_boundary="$2"

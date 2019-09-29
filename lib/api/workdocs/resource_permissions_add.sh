@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workdocs_resource_permissions_add(resource_id, principals)
+#
+# Arg(s):
+#    resource_id - 
+#    principals - 
+#
+#
+#>
+######################################################################
 p6_aws_workdocs_resource_permissions_add() {
     local resource_id="$1"
     local principals="$2"

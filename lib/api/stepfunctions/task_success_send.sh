@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_stepfunctions_task_success_send(task_token, task_output)
+#
+# Arg(s):
+#    task_token - 
+#    task_output - 
+#
+#
+#>
+######################################################################
 p6_aws_stepfunctions_task_success_send() {
     local task_token="$1"
     local task_output="$2"

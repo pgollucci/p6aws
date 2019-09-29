@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_macie_member_account_disassociate(member_account_id)
+#
+# Arg(s):
+#    member_account_id - 
+#
+#
+#>
+######################################################################
 p6_aws_macie_member_account_disassociate() {
     local member_account_id="$1"
     shift 1

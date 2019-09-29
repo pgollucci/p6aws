@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_textract_document_analysis_start(document_location, feature_types)
+#
+# Arg(s):
+#    document_location - 
+#    feature_types - 
+#
+#
+#>
+######################################################################
 p6_aws_textract_document_analysis_start() {
     local document_location="$1"
     local feature_types="$2"

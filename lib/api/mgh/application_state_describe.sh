@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mgh_application_state_describe(application_id)
+#
+# Arg(s):
+#    application_id - 
+#
+#
+#>
+######################################################################
 p6_aws_mgh_application_state_describe() {
     local application_id="$1"
     shift 1

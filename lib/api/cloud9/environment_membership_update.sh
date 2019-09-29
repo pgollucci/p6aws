@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloud9_environment_membership_update(environment_id, user_arn, permissions)
+#
+# Arg(s):
+#    environment_id - 
+#    user_arn - 
+#    permissions - 
+#
+#
+#>
+######################################################################
 p6_aws_cloud9_environment_membership_update() {
     local environment_id="$1"
     local user_arn="$2"

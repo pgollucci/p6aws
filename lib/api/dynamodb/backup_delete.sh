@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dynamodb_backup_delete(backup_arn)
+#
+# Arg(s):
+#    backup_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_dynamodb_backup_delete() {
     local backup_arn="$1"
     shift 1

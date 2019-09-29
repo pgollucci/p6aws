@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_support_attachments_to_set_add(attachments)
+#
+# Arg(s):
+#    attachments - 
+#
+#
+#>
+######################################################################
 p6_aws_support_attachments_to_set_add() {
     local attachments="$1"
     shift 1

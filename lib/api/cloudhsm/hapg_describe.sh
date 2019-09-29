@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudhsm_hapg_describe(hapg_arn)
+#
+# Arg(s):
+#    hapg_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudhsm_hapg_describe() {
     local hapg_arn="$1"
     shift 1

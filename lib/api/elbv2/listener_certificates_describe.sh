@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elbv2_listener_certificates_describe(listener_arn)
+#
+# Arg(s):
+#    listener_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_elbv2_listener_certificates_describe() {
     local listener_arn="$1"
     shift 1

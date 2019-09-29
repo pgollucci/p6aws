@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_storagegateway_snapshot_create(volume_arn, snapshot_description)
+#
+# Arg(s):
+#    volume_arn - 
+#    snapshot_description - 
+#
+#
+#>
+######################################################################
 p6_aws_storagegateway_snapshot_create() {
     local volume_arn="$1"
     local snapshot_description="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kinesisvideo_data_endpoint_get(api_name)
+#
+# Arg(s):
+#    api_name - 
+#
+#
+#>
+######################################################################
 p6_aws_kinesisvideo_data_endpoint_get() {
     local api_name="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_user_from_group_remove(group_name, user_name)
+#
+# Arg(s):
+#    group_name - 
+#    user_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_user_from_group_remove() {
     local group_name="$1"
     local user_name="$2"

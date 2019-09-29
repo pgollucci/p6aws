@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alexaforbusiness_skill_from_users_disassociate(skill_id)
+#
+# Arg(s):
+#    skill_id - 
+#
+#
+#>
+######################################################################
 p6_aws_alexaforbusiness_skill_from_users_disassociate() {
     local skill_id="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_snapshot_schedule_delete(schedule_identifier)
+#
+# Arg(s):
+#    schedule_identifier - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_snapshot_schedule_delete() {
     local schedule_identifier="$1"
     shift 1

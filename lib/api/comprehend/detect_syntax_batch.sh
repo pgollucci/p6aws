@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_comprehend_detect_syntax_batch(text_list, language_code)
+#
+# Arg(s):
+#    text_list - 
+#    language_code - 
+#
+#
+#>
+######################################################################
 p6_aws_comprehend_detect_syntax_batch() {
     local text_list="$1"
     local language_code="$2"

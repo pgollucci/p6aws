@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workdocs_labels_delete(resource_id)
+#
+# Arg(s):
+#    resource_id - 
+#
+#
+#>
+######################################################################
 p6_aws_workdocs_labels_delete() {
     local resource_id="$1"
     shift 1

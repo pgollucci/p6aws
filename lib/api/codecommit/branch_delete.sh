@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codecommit_branch_delete(repository_name, branch_name)
+#
+# Arg(s):
+#    repository_name - 
+#    branch_name - 
+#
+#
+#>
+######################################################################
 p6_aws_codecommit_branch_delete() {
     local repository_name="$1"
     local branch_name="$2"

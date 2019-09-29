@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elasticbeanstalk_configuration_settings_describe(application_name)
+#
+# Arg(s):
+#    application_name - 
+#
+#
+#>
+######################################################################
 p6_aws_elasticbeanstalk_configuration_settings_describe() {
     local application_name="$1"
     shift 1

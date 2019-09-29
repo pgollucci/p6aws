@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workspaces_tags_delete(resource_id, tag_keys)
+#
+# Arg(s):
+#    resource_id - 
+#    tag_keys - 
+#
+#
+#>
+######################################################################
 p6_aws_workspaces_tags_delete() {
     local resource_id="$1"
     local tag_keys="$2"

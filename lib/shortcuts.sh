@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_shortcuts_unset(org)
+#
+# Arg(s):
+#    org - 
+#
+#
+#>
+######################################################################
 p6_aws_shortcuts_unset() {
     local org="$1"
 
@@ -7,6 +19,19 @@ p6_aws_shortcuts_unset() {
     done
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_shortcuts_set(org, cred_file)
+#
+# Arg(s):
+#    org - 
+#    cred_file - 
+#
+#
+#>
+######################################################################
 p6_aws_shortcuts_set() {
     local org="$1"
     local cred_file="$2"
@@ -18,6 +43,21 @@ p6_aws_shortcuts_set() {
     done
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_shortcut_set(profile, region, env, type)
+#
+# Arg(s):
+#    profile - 
+#    region - 
+#    env - 
+#    type - 
+#
+#
+#>
+######################################################################
 p6_aws_shortcut_set() {
     local profile="$1"
     local region="$2"
@@ -27,6 +67,19 @@ p6_aws_shortcut_set() {
     p6_aws_cfg_set "$profile" "$region" "$env" "vpc" "env_level" "$type"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_shortcuts(org, cred_file)
+#
+# Arg(s):
+#    org - 
+#    cred_file - 
+#
+#
+#>
+######################################################################
 p6_aws_shortcuts() {
     local org="$1"
     local cred_file="$2"

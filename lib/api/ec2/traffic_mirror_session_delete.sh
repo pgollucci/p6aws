@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_traffic_mirror_session_delete(traffic_mirror_session_id)
+#
+# Arg(s):
+#    traffic_mirror_session_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_traffic_mirror_session_delete() {
     local traffic_mirror_session_id="$1"
     shift 1

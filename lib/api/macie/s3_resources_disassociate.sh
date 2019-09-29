@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_macie_s3_resources_disassociate(associated_s3_resources)
+#
+# Arg(s):
+#    associated_s3_resources - 
+#
+#
+#>
+######################################################################
 p6_aws_macie_s3_resources_disassociate() {
     local associated_s3_resources="$1"
     shift 1

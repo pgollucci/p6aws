@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_inspector_tags_for_resource_set(resource_arn)
+#
+# Arg(s):
+#    resource_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_inspector_tags_for_resource_set() {
     local resource_arn="$1"
     shift 1

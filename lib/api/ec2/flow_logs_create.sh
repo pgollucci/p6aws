@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_flow_logs_create(resource_ids, resource_type, traffic_type)
+#
+# Arg(s):
+#    resource_ids - 
+#    resource_type - 
+#    traffic_type - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_flow_logs_create() {
     local resource_ids="$1"
     local resource_type="$2"

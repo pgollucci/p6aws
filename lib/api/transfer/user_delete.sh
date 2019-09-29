@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_transfer_user_delete(server_id, user_name)
+#
+# Arg(s):
+#    server_id - 
+#    user_name - 
+#
+#
+#>
+######################################################################
 p6_aws_transfer_user_delete() {
     local server_id="$1"
     local user_name="$2"

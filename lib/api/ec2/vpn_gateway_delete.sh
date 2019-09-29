@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_vpn_gateway_delete(vpn_gateway_id)
+#
+# Arg(s):
+#    vpn_gateway_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_vpn_gateway_delete() {
     local vpn_gateway_id="$1"
     shift 1

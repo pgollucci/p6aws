@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lex_models_bot_get(name, version_or_alias)
+#
+# Arg(s):
+#    name - 
+#    version_or_alias - 
+#
+#
+#>
+######################################################################
 p6_aws_lex_models_bot_get() {
     local name="$1"
     local version_or_alias="$2"

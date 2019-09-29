@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_regional_permission_policy_put(resource_arn, policy)
+#
+# Arg(s):
+#    resource_arn - 
+#    policy - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_regional_permission_policy_put() {
     local resource_arn="$1"
     local policy="$2"

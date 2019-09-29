@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rekognition_content_moderation_start(video)
+#
+# Arg(s):
+#    video - 
+#
+#
+#>
+######################################################################
 p6_aws_rekognition_content_moderation_start() {
     local video="$1"
     shift 1

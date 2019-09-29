@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sagemaker_subscribed_workteam_describe(workteam_arn)
+#
+# Arg(s):
+#    workteam_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_sagemaker_subscribed_workteam_describe() {
     local workteam_arn="$1"
     shift 1

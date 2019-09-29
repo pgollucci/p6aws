@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mediatailor_playback_configuration_delete(name)
+#
+# Arg(s):
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_mediatailor_playback_configuration_delete() {
     local name="$1"
     shift 1

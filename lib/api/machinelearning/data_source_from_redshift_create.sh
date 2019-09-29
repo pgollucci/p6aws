@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_machinelearning_data_source_from_redshift_create(data_source_id, data_spec, role_arn)
+#
+# Arg(s):
+#    data_source_id - 
+#    data_spec - 
+#    role_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_machinelearning_data_source_from_redshift_create() {
     local data_source_id="$1"
     local data_spec="$2"

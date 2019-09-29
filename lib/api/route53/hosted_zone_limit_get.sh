@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53_hosted_zone_limit_get(type, hosted_zone_id)
+#
+# Arg(s):
+#    type - 
+#    hosted_zone_id - 
+#
+#
+#>
+######################################################################
 p6_aws_route53_hosted_zone_limit_get() {
     local type="$1"
     local hosted_zone_id="$2"

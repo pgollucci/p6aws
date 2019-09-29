@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_serverlessrepo_application_create(author, description, name)
+#
+# Arg(s):
+#    author - 
+#    description - 
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_serverlessrepo_application_create() {
     local author="$1"
     local description="$2"

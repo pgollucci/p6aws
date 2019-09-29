@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elb_instance_health_describe(load_balancer_name)
+#
+# Arg(s):
+#    load_balancer_name - 
+#
+#
+#>
+######################################################################
 p6_aws_elb_instance_health_describe() {
     local load_balancer_name="$1"
     shift 1

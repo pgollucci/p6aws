@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_guardduty_members_get(detector_id, account_ids)
+#
+# Arg(s):
+#    detector_id - 
+#    account_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_guardduty_members_get() {
     local detector_id="$1"
     local account_ids="$2"

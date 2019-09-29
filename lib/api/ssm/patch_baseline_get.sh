@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_patch_baseline_get(baseline_id)
+#
+# Arg(s):
+#    baseline_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_patch_baseline_get() {
     local baseline_id="$1"
     shift 1

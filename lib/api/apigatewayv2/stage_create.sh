@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigatewayv2_stage_create(api_id, stage_name)
+#
+# Arg(s):
+#    api_id - 
+#    stage_name - 
+#
+#
+#>
+######################################################################
 p6_aws_apigatewayv2_stage_create() {
     local api_id="$1"
     local stage_name="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_datasync_agent_create(activation_key)
+#
+# Arg(s):
+#    activation_key - 
+#
+#
+#>
+######################################################################
 p6_aws_datasync_agent_create() {
     local activation_key="$1"
     shift 1

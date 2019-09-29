@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_db_cluster_create(db_cluster_identifier, engine)
+#
+# Arg(s):
+#    db_cluster_identifier - 
+#    engine - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_db_cluster_create() {
     local db_cluster_identifier="$1"
     local engine="$2"

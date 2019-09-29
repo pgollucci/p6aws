@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dms_table_statistics_describe(replication_task_arn)
+#
+# Arg(s):
+#    replication_task_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_dms_table_statistics_describe() {
     local replication_task_arn="$1"
     shift 1

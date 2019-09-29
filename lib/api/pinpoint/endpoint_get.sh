@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pinpoint_endpoint_get(application_id, endpoint_id)
+#
+# Arg(s):
+#    application_id - 
+#    endpoint_id - 
+#
+#
+#>
+######################################################################
 p6_aws_pinpoint_endpoint_get() {
     local application_id="$1"
     local endpoint_id="$2"

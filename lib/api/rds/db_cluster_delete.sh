@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_db_cluster_delete(db_cluster_identifier)
+#
+# Arg(s):
+#    db_cluster_identifier - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_db_cluster_delete() {
     local db_cluster_identifier="$1"
     shift 1

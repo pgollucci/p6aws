@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_guardduty_findings_unarchive(detector_id, finding_ids)
+#
+# Arg(s):
+#    detector_id - 
+#    finding_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_guardduty_findings_unarchive() {
     local detector_id="$1"
     local finding_ids="$2"

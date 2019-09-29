@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_storagegateway_smb_security_strategy_update(gateway_arn, smb_security_strategy)
+#
+# Arg(s):
+#    gateway_arn - 
+#    smb_security_strategy - 
+#
+#
+#>
+######################################################################
 p6_aws_storagegateway_smb_security_strategy_update() {
     local gateway_arn="$1"
     local smb_security_strategy="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudsearch_suggester_delete(domain_name, suggester_name)
+#
+# Arg(s):
+#    domain_name - 
+#    suggester_name - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudsearch_suggester_delete() {
     local domain_name="$1"
     local suggester_name="$2"

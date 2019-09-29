@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_quicksight_user_by_principal_id_delete(principal_id, aws_account_id, namespace)
+#
+# Arg(s):
+#    principal_id - 
+#    aws_account_id - 
+#    namespace - 
+#
+#
+#>
+######################################################################
 p6_aws_quicksight_user_by_principal_id_delete() {
     local principal_id="$1"
     local aws_account_id="$2"

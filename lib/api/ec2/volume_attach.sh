@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_volume_attach(device, instance_id, volume_id)
+#
+# Arg(s):
+#    device - 
+#    instance_id - 
+#    volume_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_volume_attach() {
     local device="$1"
     local instance_id="$2"

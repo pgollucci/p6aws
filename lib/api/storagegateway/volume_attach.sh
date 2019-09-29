@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_storagegateway_volume_attach(gateway_arn, volume_arn, network_interface_id)
+#
+# Arg(s):
+#    gateway_arn - 
+#    volume_arn - 
+#    network_interface_id - 
+#
+#
+#>
+######################################################################
 p6_aws_storagegateway_volume_attach() {
     local gateway_arn="$1"
     local volume_arn="$2"

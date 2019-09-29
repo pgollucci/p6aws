@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ses_receipt_rule_set_reorder(rule_set_name, rule_names)
+#
+# Arg(s):
+#    rule_set_name - 
+#    rule_names - 
+#
+#
+#>
+######################################################################
 p6_aws_ses_receipt_rule_set_reorder() {
     local rule_set_name="$1"
     local rule_names="$2"

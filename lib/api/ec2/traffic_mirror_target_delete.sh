@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_traffic_mirror_target_delete(traffic_mirror_target_id)
+#
+# Arg(s):
+#    traffic_mirror_target_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_traffic_mirror_target_delete() {
     local traffic_mirror_target_id="$1"
     shift 1

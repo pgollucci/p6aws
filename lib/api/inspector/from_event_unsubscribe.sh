@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_inspector_from_event_unsubscribe(resource_arn, event, topic_arn)
+#
+# Arg(s):
+#    resource_arn - 
+#    event - 
+#    topic_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_inspector_from_event_unsubscribe() {
     local resource_arn="$1"
     local event="$2"

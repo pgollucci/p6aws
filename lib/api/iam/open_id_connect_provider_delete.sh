@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_open_id_connect_provider_delete(open_id_connect_provider_arn)
+#
+# Arg(s):
+#    open_id_connect_provider_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_open_id_connect_provider_delete() {
     local open_id_connect_provider_arn="$1"
     shift 1

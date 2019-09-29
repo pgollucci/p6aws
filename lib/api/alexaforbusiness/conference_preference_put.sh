@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alexaforbusiness_conference_preference_put(conference_preference)
+#
+# Arg(s):
+#    conference_preference - 
+#
+#
+#>
+######################################################################
 p6_aws_alexaforbusiness_conference_preference_put() {
     local conference_preference="$1"
     shift 1

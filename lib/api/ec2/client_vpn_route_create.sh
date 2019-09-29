@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_client_vpn_route_create(client_vpn_endpoint_id, destination_cidr_block, target_vpc_subnet_id)
+#
+# Arg(s):
+#    client_vpn_endpoint_id - 
+#    destination_cidr_block - 
+#    target_vpc_subnet_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_client_vpn_route_create() {
     local client_vpn_endpoint_id="$1"
     local destination_cidr_block="$2"

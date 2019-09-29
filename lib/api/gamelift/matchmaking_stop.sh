@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_gamelift_matchmaking_stop(ticket_id)
+#
+# Arg(s):
+#    ticket_id - 
+#
+#
+#>
+######################################################################
 p6_aws_gamelift_matchmaking_stop() {
     local ticket_id="$1"
     shift 1

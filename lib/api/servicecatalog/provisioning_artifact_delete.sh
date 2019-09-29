@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_servicecatalog_provisioning_artifact_delete(product_id, provisioning_artifact_id)
+#
+# Arg(s):
+#    product_id - 
+#    provisioning_artifact_id - 
+#
+#
+#>
+######################################################################
 p6_aws_servicecatalog_provisioning_artifact_delete() {
     local product_id="$1"
     local provisioning_artifact_id="$2"

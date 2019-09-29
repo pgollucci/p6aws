@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_application_autoscaling_scaling_policy_put(policy_name, service_namespace, resource_id, scalable_dimension)
+#
+# Arg(s):
+#    policy_name - 
+#    service_namespace - 
+#    resource_id - 
+#    scalable_dimension - 
+#
+#
+#>
+######################################################################
 p6_aws_application_autoscaling_scaling_policy_put() {
     local policy_name="$1"
     local service_namespace="$2"

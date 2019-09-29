@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_greengrass_core_definition_versions_list(core_definition_id)
+#
+# Arg(s):
+#    core_definition_id - 
+#
+#
+#>
+######################################################################
 p6_aws_greengrass_core_definition_versions_list() {
     local core_definition_id="$1"
     shift 1

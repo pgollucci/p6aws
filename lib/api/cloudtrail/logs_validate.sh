@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudtrail_logs_validate(trail_arn, start_time)
+#
+# Arg(s):
+#    trail_arn - 
+#    start_time - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudtrail_logs_validate() {
     local trail_arn="$1"
     local start_time="$2"

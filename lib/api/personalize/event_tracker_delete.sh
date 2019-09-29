@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_personalize_event_tracker_delete(event_tracker_arn)
+#
+# Arg(s):
+#    event_tracker_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_personalize_event_tracker_delete() {
     local event_tracker_arn="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_index_search(query_string)
+#
+# Arg(s):
+#    query_string - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_index_search() {
     local query_string="$1"
     shift 1

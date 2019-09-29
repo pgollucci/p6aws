@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_transcribe_vocabulary_update(vocabulary_name, language_code)
+#
+# Arg(s):
+#    vocabulary_name - 
+#    language_code - 
+#
+#
+#>
+######################################################################
 p6_aws_transcribe_vocabulary_update() {
     local vocabulary_name="$1"
     local language_code="$2"

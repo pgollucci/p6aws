@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_personalize_solution_metrics_get(solution_version_arn)
+#
+# Arg(s):
+#    solution_version_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_personalize_solution_metrics_get() {
     local solution_version_arn="$1"
     shift 1

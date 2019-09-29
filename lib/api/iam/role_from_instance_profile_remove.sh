@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_role_from_instance_profile_remove(instance_profile_name, role_name)
+#
+# Arg(s):
+#    instance_profile_name - 
+#    role_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_role_from_instance_profile_remove() {
     local instance_profile_name="$1"
     local role_name="$2"

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elb_load_balancer_listener_ssl_certificate_set(load_balancer_name, load_balancer_port, ssl_certificate_id)
+#
+# Arg(s):
+#    load_balancer_name - 
+#    load_balancer_port - 
+#    ssl_certificate_id - 
+#
+#
+#>
+######################################################################
 p6_aws_elb_load_balancer_listener_ssl_certificate_set() {
     local load_balancer_name="$1"
     local load_balancer_port="$2"

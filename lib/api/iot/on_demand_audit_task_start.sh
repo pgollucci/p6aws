@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_on_demand_audit_task_start(target_check_names)
+#
+# Arg(s):
+#    target_check_names - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_on_demand_audit_task_start() {
     local target_check_names="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workdocs_folder_path_get(folder_id)
+#
+# Arg(s):
+#    folder_id - 
+#
+#
+#>
+######################################################################
 p6_aws_workdocs_folder_path_get() {
     local folder_id="$1"
     shift 1

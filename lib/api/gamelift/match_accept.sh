@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_gamelift_match_accept(ticket_id, player_ids, acceptance_type)
+#
+# Arg(s):
+#    ticket_id - 
+#    player_ids - 
+#    acceptance_type - 
+#
+#
+#>
+######################################################################
 p6_aws_gamelift_match_accept() {
     local ticket_id="$1"
     local player_ids="$2"

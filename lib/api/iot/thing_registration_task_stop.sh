@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_thing_registration_task_stop(task_id)
+#
+# Arg(s):
+#    task_id - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_thing_registration_task_stop() {
     local task_id="$1"
     shift 1

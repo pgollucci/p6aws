@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mediastore_data_object_delete(path)
+#
+# Arg(s):
+#    path - 
+#
+#
+#>
+######################################################################
 p6_aws_mediastore_data_object_delete() {
     local path="$1"
     shift 1

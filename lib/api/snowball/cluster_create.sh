@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_snowball_cluster_create(job_type, resources, address_id, role_arn, shipping_option)
+#
+# Arg(s):
+#    job_type - 
+#    resources - 
+#    address_id - 
+#    role_arn - 
+#    shipping_option - 
+#
+#
+#>
+######################################################################
 p6_aws_snowball_cluster_create() {
     local job_type="$1"
     local resources="$2"

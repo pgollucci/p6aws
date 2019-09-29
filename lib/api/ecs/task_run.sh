@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ecs_task_run(task_definition)
+#
+# Arg(s):
+#    task_definition - 
+#
+#
+#>
+######################################################################
 p6_aws_ecs_task_run() {
     local task_definition="$1"
     shift 1

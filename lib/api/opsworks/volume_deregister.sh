@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_opsworks_volume_deregister(volume_id)
+#
+# Arg(s):
+#    volume_id - 
+#
+#
+#>
+######################################################################
 p6_aws_opsworks_volume_deregister() {
     local volume_id="$1"
     shift 1

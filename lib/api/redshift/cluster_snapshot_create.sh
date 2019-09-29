@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_cluster_snapshot_create(snapshot_identifier, cluster_identifier)
+#
+# Arg(s):
+#    snapshot_identifier - 
+#    cluster_identifier - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_cluster_snapshot_create() {
     local snapshot_identifier="$1"
     local cluster_identifier="$2"

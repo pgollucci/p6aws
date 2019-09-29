@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dax_parameter_group_create(parameter_group_name)
+#
+# Arg(s):
+#    parameter_group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_dax_parameter_group_create() {
     local parameter_group_name="$1"
     shift 1

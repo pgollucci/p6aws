@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_robomaker_simulation_application_describe(application)
+#
+# Arg(s):
+#    application - 
+#
+#
+#>
+######################################################################
 p6_aws_robomaker_simulation_application_describe() {
     local application="$1"
     shift 1

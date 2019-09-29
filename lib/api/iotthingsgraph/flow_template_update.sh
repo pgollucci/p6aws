@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iotthingsgraph_flow_template_update(id, definition)
+#
+# Arg(s):
+#    id - 
+#    definition - 
+#
+#
+#>
+######################################################################
 p6_aws_iotthingsgraph_flow_template_update() {
     local id="$1"
     local definition="$2"

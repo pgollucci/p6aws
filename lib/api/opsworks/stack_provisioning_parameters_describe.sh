@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_opsworks_stack_provisioning_parameters_describe(stack_id)
+#
+# Arg(s):
+#    stack_id - 
+#
+#
+#>
+######################################################################
 p6_aws_opsworks_stack_provisioning_parameters_describe() {
     local stack_id="$1"
     shift 1

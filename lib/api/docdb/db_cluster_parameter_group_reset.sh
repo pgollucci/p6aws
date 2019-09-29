@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_docdb_db_cluster_parameter_group_reset(db_cluster_parameter_group_name)
+#
+# Arg(s):
+#    db_cluster_parameter_group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_docdb_db_cluster_parameter_group_reset() {
     local db_cluster_parameter_group_name="$1"
     shift 1

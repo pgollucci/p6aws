@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sagemaker_endpoint_config_create(endpoint_config_name, production_variants)
+#
+# Arg(s):
+#    endpoint_config_name - 
+#    production_variants - 
+#
+#
+#>
+######################################################################
 p6_aws_sagemaker_endpoint_config_create() {
     local endpoint_config_name="$1"
     local production_variants="$2"

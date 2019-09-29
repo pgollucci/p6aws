@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ses_configuration_set_event_destination_delete(configuration_set_name, event_destination_name)
+#
+# Arg(s):
+#    configuration_set_name - 
+#    event_destination_name - 
+#
+#
+#>
+######################################################################
 p6_aws_ses_configuration_set_event_destination_delete() {
     local configuration_set_name="$1"
     local event_destination_name="$2"

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_translate_terminology_import(name, merge_strategy, data_file)
+#
+# Arg(s):
+#    name - 
+#    merge_strategy - 
+#    data_file - 
+#
+#
+#>
+######################################################################
 p6_aws_translate_terminology_import() {
     local name="$1"
     local merge_strategy="$2"

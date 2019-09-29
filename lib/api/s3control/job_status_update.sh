@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3control_job_status_update(account_id, job_id, requested_job_status)
+#
+# Arg(s):
+#    account_id - 
+#    job_id - 
+#    requested_job_status - 
+#
+#
+#>
+######################################################################
 p6_aws_s3control_job_status_update() {
     local account_id="$1"
     local job_id="$2"

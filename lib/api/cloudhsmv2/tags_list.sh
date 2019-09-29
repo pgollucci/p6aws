@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudhsmv2_tags_list(resource_id)
+#
+# Arg(s):
+#    resource_id - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudhsmv2_tags_list() {
     local resource_id="$1"
     shift 1

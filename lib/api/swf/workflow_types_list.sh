@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_swf_workflow_types_list(domain, registration_status)
+#
+# Arg(s):
+#    domain - 
+#    registration_status - 
+#
+#
+#>
+######################################################################
 p6_aws_swf_workflow_types_list() {
     local domain="$1"
     local registration_status="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_deploy_tags_from_on_premises_instances_remove(tags, instance_names)
+#
+# Arg(s):
+#    tags - 
+#    instance_names - 
+#
+#
+#>
+######################################################################
 p6_aws_deploy_tags_from_on_premises_instances_remove() {
     local tags="$1"
     local instance_names="$2"

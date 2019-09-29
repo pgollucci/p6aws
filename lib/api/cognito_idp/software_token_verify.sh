@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_idp_software_token_verify(user_code)
+#
+# Arg(s):
+#    user_code - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_idp_software_token_verify() {
     local user_code="$1"
     shift 1

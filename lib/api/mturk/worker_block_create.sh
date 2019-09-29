@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mturk_worker_block_create(worker_id, reason)
+#
+# Arg(s):
+#    worker_id - 
+#    reason - 
+#
+#
+#>
+######################################################################
 p6_aws_mturk_worker_block_create() {
     local worker_id="$1"
     local reason="$2"

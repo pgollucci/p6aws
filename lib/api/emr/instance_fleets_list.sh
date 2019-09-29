@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_emr_instance_fleets_list(cluster_id)
+#
+# Arg(s):
+#    cluster_id - 
+#
+#
+#>
+######################################################################
 p6_aws_emr_instance_fleets_list() {
     local cluster_id="$1"
     shift 1

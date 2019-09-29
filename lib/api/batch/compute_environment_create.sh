@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_batch_compute_environment_create(compute_environment_name, type, service_role)
+#
+# Arg(s):
+#    compute_environment_name - 
+#    type - 
+#    service_role - 
+#
+#
+#>
+######################################################################
 p6_aws_batch_compute_environment_create() {
     local compute_environment_name="$1"
     local type="$2"

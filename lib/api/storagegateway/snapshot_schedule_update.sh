@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_storagegateway_snapshot_schedule_update(volume_arn, start_at, recurrence_in_hours)
+#
+# Arg(s):
+#    volume_arn - 
+#    start_at - 
+#    recurrence_in_hours - 
+#
+#
+#>
+######################################################################
 p6_aws_storagegateway_snapshot_schedule_update() {
     local volume_arn="$1"
     local start_at="$2"

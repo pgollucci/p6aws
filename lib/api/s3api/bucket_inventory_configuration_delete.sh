@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3api_bucket_inventory_configuration_delete(bucket, id)
+#
+# Arg(s):
+#    bucket - 
+#    id - 
+#
+#
+#>
+######################################################################
 p6_aws_s3api_bucket_inventory_configuration_delete() {
     local bucket="$1"
     local id="$2"

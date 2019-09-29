@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pinpoint_endpoints_batch_update(application_id, endpoint_batch_request)
+#
+# Arg(s):
+#    application_id - 
+#    endpoint_batch_request - 
+#
+#
+#>
+######################################################################
 p6_aws_pinpoint_endpoints_batch_update() {
     local application_id="$1"
     local endpoint_batch_request="$2"

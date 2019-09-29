@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mediaconvert_preset_create(name, settings)
+#
+# Arg(s):
+#    name - 
+#    settings - 
+#
+#
+#>
+######################################################################
 p6_aws_mediaconvert_preset_create() {
     local name="$1"
     local settings="$2"

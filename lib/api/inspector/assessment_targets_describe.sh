@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_inspector_assessment_targets_describe(assessment_target_arns)
+#
+# Arg(s):
+#    assessment_target_arns - 
+#
+#
+#>
+######################################################################
 p6_aws_inspector_assessment_targets_describe() {
     local assessment_target_arns="$1"
     shift 1

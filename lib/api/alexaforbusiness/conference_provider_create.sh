@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alexaforbusiness_conference_provider_create(conference_provider_name, conference_provider_type, meeting_setting)
+#
+# Arg(s):
+#    conference_provider_name - 
+#    conference_provider_type - 
+#    meeting_setting - 
+#
+#
+#>
+######################################################################
 p6_aws_alexaforbusiness_conference_provider_create() {
     local conference_provider_name="$1"
     local conference_provider_type="$2"

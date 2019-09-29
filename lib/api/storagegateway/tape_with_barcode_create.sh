@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_storagegateway_tape_with_barcode_create(gateway_arn, tape_size_in_bytes, tape_barcode)
+#
+# Arg(s):
+#    gateway_arn - 
+#    tape_size_in_bytes - 
+#    tape_barcode - 
+#
+#
+#>
+######################################################################
 p6_aws_storagegateway_tape_with_barcode_create() {
     local gateway_arn="$1"
     local tape_size_in_bytes="$2"

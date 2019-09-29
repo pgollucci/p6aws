@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sagemaker_workteam_update(workteam_name)
+#
+# Arg(s):
+#    workteam_name - 
+#
+#
+#>
+######################################################################
 p6_aws_sagemaker_workteam_update() {
     local workteam_name="$1"
     shift 1

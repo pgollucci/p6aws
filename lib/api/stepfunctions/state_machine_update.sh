@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_stepfunctions_state_machine_update(state_machine_arn)
+#
+# Arg(s):
+#    state_machine_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_stepfunctions_state_machine_update() {
     local state_machine_arn="$1"
     shift 1

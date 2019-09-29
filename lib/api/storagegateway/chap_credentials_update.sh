@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_storagegateway_chap_credentials_update(target_arn, secret_to_authenticate_initiator, initiator_name)
+#
+# Arg(s):
+#    target_arn - 
+#    secret_to_authenticate_initiator - 
+#    initiator_name - 
+#
+#
+#>
+######################################################################
 p6_aws_storagegateway_chap_credentials_update() {
     local target_arn="$1"
     local secret_to_authenticate_initiator="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rekognition_stream_processor_describe(name)
+#
+# Arg(s):
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_rekognition_stream_processor_describe() {
     local name="$1"
     shift 1

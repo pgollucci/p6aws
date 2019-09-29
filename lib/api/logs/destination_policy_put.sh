@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_logs_destination_policy_put(destination_name, access_policy)
+#
+# Arg(s):
+#    destination_name - 
+#    access_policy - 
+#
+#
+#>
+######################################################################
 p6_aws_logs_destination_policy_put() {
     local destination_name="$1"
     local access_policy="$2"

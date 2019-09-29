@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sagemaker_endpoint_create(endpoint_name, endpoint_config_name)
+#
+# Arg(s):
+#    endpoint_name - 
+#    endpoint_config_name - 
+#
+#
+#>
+######################################################################
 p6_aws_sagemaker_endpoint_create() {
     local endpoint_name="$1"
     local endpoint_config_name="$2"

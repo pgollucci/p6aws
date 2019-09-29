@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53_resource_record_sets_change(hosted_zone_id, change_batch)
+#
+# Arg(s):
+#    hosted_zone_id - 
+#    change_batch - 
+#
+#
+#>
+######################################################################
 p6_aws_route53_resource_record_sets_change() {
     local hosted_zone_id="$1"
     local change_batch="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_logs_retention_policy_put(log_group_name, retention_in_days)
+#
+# Arg(s):
+#    log_group_name - 
+#    retention_in_days - 
+#
+#
+#>
+######################################################################
 p6_aws_logs_retention_policy_put() {
     local log_group_name="$1"
     local retention_in_days="$2"

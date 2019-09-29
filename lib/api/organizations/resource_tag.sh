@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_resource_tag(resource_id, tags)
+#
+# Arg(s):
+#    resource_id - 
+#    tags - 
+#
+#
+#>
+######################################################################
 p6_aws_organizations_resource_tag() {
     local resource_id="$1"
     local tags="$2"

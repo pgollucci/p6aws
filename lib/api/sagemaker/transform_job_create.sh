@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sagemaker_transform_job_create(transform_job_name, model_name, transform_input, transform_output, transform_resources)
+#
+# Arg(s):
+#    transform_job_name - 
+#    model_name - 
+#    transform_input - 
+#    transform_output - 
+#    transform_resources - 
+#
+#
+#>
+######################################################################
 p6_aws_sagemaker_transform_job_create() {
     local transform_job_name="$1"
     local model_name="$2"

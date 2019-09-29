@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mediaconnect_flow_entitlement_revoke(entitlement_arn, flow_arn)
+#
+# Arg(s):
+#    entitlement_arn - 
+#    flow_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_mediaconnect_flow_entitlement_revoke() {
     local entitlement_arn="$1"
     local flow_arn="$2"

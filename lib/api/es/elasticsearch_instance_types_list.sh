@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_es_elasticsearch_instance_types_list(elasticsearch_version)
+#
+# Arg(s):
+#    elasticsearch_version - 
+#
+#
+#>
+######################################################################
 p6_aws_es_elasticsearch_instance_types_list() {
     local elasticsearch_version="$1"
     shift 1

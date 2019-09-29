@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ds_directory_share(directory_id, share_target, share_method)
+#
+# Arg(s):
+#    directory_id - 
+#    share_target - 
+#    share_method - 
+#
+#
+#>
+######################################################################
 p6_aws_ds_directory_share() {
     local directory_id="$1"
     local share_target="$2"

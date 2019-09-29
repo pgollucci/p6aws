@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_regional_web_acl_create(name, metric_name, default_action, change_token)
+#
+# Arg(s):
+#    name - 
+#    metric_name - 
+#    default_action - 
+#    change_token - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_regional_web_acl_create() {
     local name="$1"
     local metric_name="$2"

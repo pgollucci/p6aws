@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_clouddirectory_applied_schema_arns_list(directory_arn)
+#
+# Arg(s):
+#    directory_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_clouddirectory_applied_schema_arns_list() {
     local directory_arn="$1"
     shift 1

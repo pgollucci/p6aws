@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_logs_subscription_filters_describe(log_group_name)
+#
+# Arg(s):
+#    log_group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_logs_subscription_filters_describe() {
     local log_group_name="$1"
     shift 1

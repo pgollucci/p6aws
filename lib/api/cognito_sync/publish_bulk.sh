@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_sync_publish_bulk(identity_pool_id)
+#
+# Arg(s):
+#    identity_pool_id - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_sync_publish_bulk() {
     local identity_pool_id="$1"
     shift 1

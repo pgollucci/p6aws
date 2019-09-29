@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lambda_layer_versions_list(layer_name)
+#
+# Arg(s):
+#    layer_name - 
+#
+#
+#>
+######################################################################
 p6_aws_lambda_layer_versions_list() {
     local layer_name="$1"
     shift 1

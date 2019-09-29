@@ -1,3 +1,22 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_db_cluster_from_s3_restore(db_cluster_identifier, engine, master_username, master_user_password, source_engine, source_engine_version, s3_bucket_name, s3_ingestion_role_arn)
+#
+# Arg(s):
+#    db_cluster_identifier - 
+#    engine - 
+#    master_username - 
+#    master_user_password - 
+#    source_engine - 
+#    source_engine_version - 
+#    s3_bucket_name - 
+#    s3_ingestion_role_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_db_cluster_from_s3_restore() {
     local db_cluster_identifier="$1"
     local engine="$2"

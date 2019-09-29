@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ce_dimension_values_get(time_period, dimension)
+#
+# Arg(s):
+#    time_period - 
+#    dimension - 
+#
+#
+#>
+######################################################################
 p6_aws_ce_dimension_values_get() {
     local time_period="$1"
     local dimension="$2"

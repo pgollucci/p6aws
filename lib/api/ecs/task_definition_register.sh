@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ecs_task_definition_register(family, container_definitions)
+#
+# Arg(s):
+#    family - 
+#    container_definitions - 
+#
+#
+#>
+######################################################################
 p6_aws_ecs_task_definition_register() {
     local family="$1"
     local container_definitions="$2"

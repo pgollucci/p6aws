@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigateway_vpc_link_get(vpc_link_id)
+#
+# Arg(s):
+#    vpc_link_id - 
+#
+#
+#>
+######################################################################
 p6_aws_apigateway_vpc_link_get() {
     local vpc_link_id="$1"
     shift 1

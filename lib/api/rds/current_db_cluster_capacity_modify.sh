@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_current_db_cluster_capacity_modify(db_cluster_identifier)
+#
+# Arg(s):
+#    db_cluster_identifier - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_current_db_cluster_capacity_modify() {
     local db_cluster_identifier="$1"
     shift 1

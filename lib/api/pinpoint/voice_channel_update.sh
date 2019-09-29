@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pinpoint_voice_channel_update(application_id, voice_channel_request)
+#
+# Arg(s):
+#    application_id - 
+#    voice_channel_request - 
+#
+#
+#>
+######################################################################
 p6_aws_pinpoint_voice_channel_update() {
     local application_id="$1"
     local voice_channel_request="$2"

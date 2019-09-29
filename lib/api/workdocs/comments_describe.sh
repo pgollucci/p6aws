@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workdocs_comments_describe(document_id, version_id)
+#
+# Arg(s):
+#    document_id - 
+#    version_id - 
+#
+#
+#>
+######################################################################
 p6_aws_workdocs_comments_describe() {
     local document_id="$1"
     local version_id="$2"

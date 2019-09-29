@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_attached_policies_list(target)
+#
+# Arg(s):
+#    target - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_attached_policies_list() {
     local target="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_gamelift_vpc_peering_connection_delete(fleet_id, vpc_peering_connection_id)
+#
+# Arg(s):
+#    fleet_id - 
+#    vpc_peering_connection_id - 
+#
+#
+#>
+######################################################################
 p6_aws_gamelift_vpc_peering_connection_delete() {
     local fleet_id="$1"
     local vpc_peering_connection_id="$2"

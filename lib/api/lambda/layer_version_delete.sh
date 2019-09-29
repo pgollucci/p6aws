@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lambda_layer_version_delete(layer_name, version_number)
+#
+# Arg(s):
+#    layer_name - 
+#    version_number - 
+#
+#
+#>
+######################################################################
 p6_aws_lambda_layer_version_delete() {
     local layer_name="$1"
     local version_number="$2"

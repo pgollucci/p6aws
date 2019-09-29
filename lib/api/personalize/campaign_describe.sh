@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_personalize_campaign_describe(campaign_arn)
+#
+# Arg(s):
+#    campaign_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_personalize_campaign_describe() {
     local campaign_arn="$1"
     shift 1

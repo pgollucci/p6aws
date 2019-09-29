@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codecommit_file_put(repository_name, branch_name, file_content, file_path)
+#
+# Arg(s):
+#    repository_name - 
+#    branch_name - 
+#    file_content - 
+#    file_path - 
+#
+#
+#>
+######################################################################
 p6_aws_codecommit_file_put() {
     local repository_name="$1"
     local branch_name="$2"

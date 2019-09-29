@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elbv2_target_group_attributes_modify(target_group_arn, attributes)
+#
+# Arg(s):
+#    target_group_arn - 
+#    attributes - 
+#
+#
+#>
+######################################################################
 p6_aws_elbv2_target_group_attributes_modify() {
     local target_group_arn="$1"
     local attributes="$2"

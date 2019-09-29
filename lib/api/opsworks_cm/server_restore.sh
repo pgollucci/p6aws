@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_opsworks_cm_server_restore(backup_id, server_name)
+#
+# Arg(s):
+#    backup_id - 
+#    server_name - 
+#
+#
+#>
+######################################################################
 p6_aws_opsworks_cm_server_restore() {
     local backup_id="$1"
     local server_name="$2"

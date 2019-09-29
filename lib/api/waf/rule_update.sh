@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_rule_update(rule_id, change_token, updates)
+#
+# Arg(s):
+#    rule_id - 
+#    change_token - 
+#    updates - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_rule_update() {
     local rule_id="$1"
     local change_token="$2"

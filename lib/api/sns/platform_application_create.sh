@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sns_platform_application_create(name, platform, attributes)
+#
+# Arg(s):
+#    name - 
+#    platform - 
+#    attributes - 
+#
+#
+#>
+######################################################################
 p6_aws_sns_platform_application_create() {
     local name="$1"
     local platform="$2"

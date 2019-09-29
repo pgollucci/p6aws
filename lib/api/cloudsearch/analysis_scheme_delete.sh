@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudsearch_analysis_scheme_delete(domain_name, analysis_scheme_name)
+#
+# Arg(s):
+#    domain_name - 
+#    analysis_scheme_name - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudsearch_analysis_scheme_delete() {
     local domain_name="$1"
     local analysis_scheme_name="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_clouddirectory_object_create(directory_arn, schema_facets)
+#
+# Arg(s):
+#    directory_arn - 
+#    schema_facets - 
+#
+#
+#>
+######################################################################
 p6_aws_clouddirectory_object_create() {
     local directory_arn="$1"
     local schema_facets="$2"

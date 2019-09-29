@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_shield_drt_role_associate(role_arn)
+#
+# Arg(s):
+#    role_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_shield_drt_role_associate() {
     local role_arn="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_securityhub_insight_results_get(insight_arn)
+#
+# Arg(s):
+#    insight_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_securityhub_insight_results_get() {
     local insight_arn="$1"
     shift 1

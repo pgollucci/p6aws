@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_opsworks_ecs_cluster_deregister(ecs_cluster_arn)
+#
+# Arg(s):
+#    ecs_cluster_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_opsworks_ecs_cluster_deregister() {
     local ecs_cluster_arn="$1"
     shift 1

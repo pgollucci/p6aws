@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ds_event_topic_register(directory_id, topic_name)
+#
+# Arg(s):
+#    directory_id - 
+#    topic_name - 
+#
+#
+#>
+######################################################################
 p6_aws_ds_event_topic_register() {
     local directory_id="$1"
     local topic_name="$2"

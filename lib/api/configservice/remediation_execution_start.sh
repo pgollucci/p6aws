@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_configservice_remediation_execution_start(config_rule_name, resource_keys)
+#
+# Arg(s):
+#    config_rule_name - 
+#    resource_keys - 
+#
+#
+#>
+######################################################################
 p6_aws_configservice_remediation_execution_start() {
     local config_rule_name="$1"
     local resource_keys="$2"

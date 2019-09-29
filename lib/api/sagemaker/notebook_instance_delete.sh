@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sagemaker_notebook_instance_delete(notebook_instance_name)
+#
+# Arg(s):
+#    notebook_instance_name - 
+#
+#
+#>
+######################################################################
 p6_aws_sagemaker_notebook_instance_delete() {
     local notebook_instance_name="$1"
     shift 1

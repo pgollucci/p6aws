@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codebuild_project_create(name, source, artifacts, environment, service_role)
+#
+# Arg(s):
+#    name - 
+#    source - 
+#    artifacts - 
+#    environment - 
+#    service_role - 
+#
+#
+#>
+######################################################################
 p6_aws_codebuild_project_create() {
     local name="$1"
     local source="$2"

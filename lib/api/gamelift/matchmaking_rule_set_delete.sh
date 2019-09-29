@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_gamelift_matchmaking_rule_set_delete(name)
+#
+# Arg(s):
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_gamelift_matchmaking_rule_set_delete() {
     local name="$1"
     shift 1

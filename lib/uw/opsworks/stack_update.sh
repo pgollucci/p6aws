@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_opsworks_custom_cookbooks(stack_id)
+#
+# Arg(s):
+#    stack_id - 
+#
+#
+#>
+######################################################################
 p6_aws_opsworks_custom_cookbooks() {
         local stack_id="$1"
         shift 1
@@ -5,10 +17,21 @@ p6_aws_opsworks_custom_cookbooks() {
     cond_log_and_run aws opsworks update-stack --stack-id $stack_id --use-custom-cookbooks "$@"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_opsworks_opsworks_security_groups(stack_id)
+#
+# Arg(s):
+#    stack_id - 
+#
+#
+#>
+######################################################################
 p6_aws_opsworks_opsworks_security_groups() {
         local stack_id="$1"
         shift 1
 
     cond_log_and_run aws opsworks update-stack --stack-id $stack_id --use-opsworks-security-groups "$@"
 }
-

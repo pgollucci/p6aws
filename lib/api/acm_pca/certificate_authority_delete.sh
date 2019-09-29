@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_acm_pca_certificate_authority_delete(certificate_authority_arn)
+#
+# Arg(s):
+#    certificate_authority_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_acm_pca_certificate_authority_delete() {
     local certificate_authority_arn="$1"
     shift 1

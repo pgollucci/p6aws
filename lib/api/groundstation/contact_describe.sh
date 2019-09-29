@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_groundstation_contact_describe(contact_id)
+#
+# Arg(s):
+#    contact_id - 
+#
+#
+#>
+######################################################################
 p6_aws_groundstation_contact_describe() {
     local contact_id="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_vpc_endpoint_create(vpc_id, service_name)
+#
+# Arg(s):
+#    vpc_id - 
+#    service_name - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_vpc_endpoint_create() {
     local vpc_id="$1"
     local service_name="$2"

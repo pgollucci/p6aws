@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudhsmv2_cluster_initialize(cluster_id, signed_cert, trust_anchor)
+#
+# Arg(s):
+#    cluster_id - 
+#    signed_cert - 
+#    trust_anchor - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudhsmv2_cluster_initialize() {
     local cluster_id="$1"
     local signed_cert="$2"

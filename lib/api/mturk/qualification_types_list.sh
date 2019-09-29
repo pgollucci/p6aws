@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mturk_qualification_types_list(must_be_requestable)
+#
+# Arg(s):
+#    must_be_requestable - 
+#
+#
+#>
+######################################################################
 p6_aws_mturk_qualification_types_list() {
     local must_be_requestable="$1"
     shift 1

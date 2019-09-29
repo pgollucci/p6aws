@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_stepfunctions_activity_delete(activity_arn)
+#
+# Arg(s):
+#    activity_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_stepfunctions_activity_delete() {
     local activity_arn="$1"
     shift 1

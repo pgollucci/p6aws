@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_connect_contact_attributes_get(instance_id, initial_contact_id)
+#
+# Arg(s):
+#    instance_id - 
+#    initial_contact_id - 
+#
+#
+#>
+######################################################################
 p6_aws_connect_contact_attributes_get() {
     local instance_id="$1"
     local initial_contact_id="$2"

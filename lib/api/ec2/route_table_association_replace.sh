@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_route_table_association_replace(association_id, route_table_id)
+#
+# Arg(s):
+#    association_id - 
+#    route_table_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_route_table_association_replace() {
     local association_id="$1"
     local route_table_id="$2"

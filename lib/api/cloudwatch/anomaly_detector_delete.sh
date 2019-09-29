@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudwatch_anomaly_detector_delete(namespace, metric_name, stat)
+#
+# Arg(s):
+#    namespace - 
+#    metric_name - 
+#    stat - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudwatch_anomaly_detector_delete() {
     local namespace="$1"
     local metric_name="$2"

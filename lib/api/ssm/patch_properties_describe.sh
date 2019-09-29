@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_patch_properties_describe(operating_system, property)
+#
+# Arg(s):
+#    operating_system - 
+#    property - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_patch_properties_describe() {
     local operating_system="$1"
     local property="$2"

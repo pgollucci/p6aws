@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ses_configuration_set_tracking_options_create(configuration_set_name, tracking_options)
+#
+# Arg(s):
+#    configuration_set_name - 
+#    tracking_options - 
+#
+#
+#>
+######################################################################
 p6_aws_ses_configuration_set_tracking_options_create() {
     local configuration_set_name="$1"
     local tracking_options="$2"

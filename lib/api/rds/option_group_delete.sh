@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_option_group_delete(option_group_name)
+#
+# Arg(s):
+#    option_group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_option_group_delete() {
     local option_group_name="$1"
     shift 1

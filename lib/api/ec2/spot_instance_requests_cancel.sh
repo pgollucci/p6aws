@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_spot_instance_requests_cancel(spot_instance_request_ids)
+#
+# Arg(s):
+#    spot_instance_request_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_spot_instance_requests_cancel() {
     local spot_instance_request_ids="$1"
     shift 1

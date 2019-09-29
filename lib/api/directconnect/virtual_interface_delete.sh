@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_directconnect_virtual_interface_delete(virtual_interface_id)
+#
+# Arg(s):
+#    virtual_interface_id - 
+#
+#
+#>
+######################################################################
 p6_aws_directconnect_virtual_interface_delete() {
     local virtual_interface_id="$1"
     shift 1

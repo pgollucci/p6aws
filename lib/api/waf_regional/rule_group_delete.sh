@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_regional_rule_group_delete(rule_group_id, change_token)
+#
+# Arg(s):
+#    rule_group_id - 
+#    change_token - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_regional_rule_group_delete() {
     local rule_group_id="$1"
     local change_token="$2"

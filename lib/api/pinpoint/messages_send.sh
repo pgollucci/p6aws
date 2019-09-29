@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pinpoint_messages_send(application_id, message_request)
+#
+# Arg(s):
+#    application_id - 
+#    message_request - 
+#
+#
+#>
+######################################################################
 p6_aws_pinpoint_messages_send() {
     local application_id="$1"
     local message_request="$2"

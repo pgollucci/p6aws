@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudwatch_metric_data_get(metric_data_queries, start_time, end_time)
+#
+# Arg(s):
+#    metric_data_queries - 
+#    start_time - 
+#    end_time - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudwatch_metric_data_get() {
     local metric_data_queries="$1"
     local start_time="$2"

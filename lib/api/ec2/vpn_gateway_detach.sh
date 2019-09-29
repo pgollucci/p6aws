@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_vpn_gateway_detach(vpc_id, vpn_gateway_id)
+#
+# Arg(s):
+#    vpc_id - 
+#    vpn_gateway_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_vpn_gateway_detach() {
     local vpc_id="$1"
     local vpn_gateway_id="$2"

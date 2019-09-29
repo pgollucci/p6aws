@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_personalize_recipe_describe(recipe_arn)
+#
+# Arg(s):
+#    recipe_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_personalize_recipe_describe() {
     local recipe_arn="$1"
     shift 1

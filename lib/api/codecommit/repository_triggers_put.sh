@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codecommit_repository_triggers_put(repository_name, triggers)
+#
+# Arg(s):
+#    repository_name - 
+#    triggers - 
+#
+#
+#>
+######################################################################
 p6_aws_codecommit_repository_triggers_put() {
     local repository_name="$1"
     local triggers="$2"

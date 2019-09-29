@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ses_identity_headers_in_notifications_enabled_set(identity, notification_type, enabled)
+#
+# Arg(s):
+#    identity - 
+#    notification_type - 
+#    enabled - 
+#
+#
+#>
+######################################################################
 p6_aws_ses_identity_headers_in_notifications_enabled_set() {
     local identity="$1"
     local notification_type="$2"

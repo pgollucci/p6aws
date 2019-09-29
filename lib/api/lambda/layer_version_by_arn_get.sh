@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lambda_layer_version_by_arn_get(arn)
+#
+# Arg(s):
+#    arn - 
+#
+#
+#>
+######################################################################
 p6_aws_lambda_layer_version_by_arn_get() {
     local arn="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_stepfunctions_state_machine_for_execution_describe(execution_arn)
+#
+# Arg(s):
+#    execution_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_stepfunctions_state_machine_for_execution_describe() {
     local execution_arn="$1"
     shift 1

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_db_parameter_group_create(db_parameter_group_name, db_parameter_group_family, description)
+#
+# Arg(s):
+#    db_parameter_group_name - 
+#    db_parameter_group_family - 
+#    description - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_db_parameter_group_create() {
     local db_parameter_group_name="$1"
     local db_parameter_group_family="$2"

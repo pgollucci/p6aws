@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codecommit_repository_name_update(old_name, new_name)
+#
+# Arg(s):
+#    old_name - 
+#    new_name - 
+#
+#
+#>
+######################################################################
 p6_aws_codecommit_repository_name_update() {
     local old_name="$1"
     local new_name="$2"

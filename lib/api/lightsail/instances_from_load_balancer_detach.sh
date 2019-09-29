@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lightsail_instances_from_load_balancer_detach(load_balancer_name, instance_names)
+#
+# Arg(s):
+#    load_balancer_name - 
+#    instance_names - 
+#
+#
+#>
+######################################################################
 p6_aws_lightsail_instances_from_load_balancer_detach() {
     local load_balancer_name="$1"
     local instance_names="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_chime_users_invite(account_id, user_email_list)
+#
+# Arg(s):
+#    account_id - 
+#    user_email_list - 
+#
+#
+#>
+######################################################################
 p6_aws_chime_users_invite() {
     local account_id="$1"
     local user_email_list="$2"

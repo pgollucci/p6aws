@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_ml_transform_create(name, input_record_tables, parameters, role)
+#
+# Arg(s):
+#    name - 
+#    input_record_tables - 
+#    parameters - 
+#    role - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_ml_transform_create() {
     local name="$1"
     local input_record_tables="$2"

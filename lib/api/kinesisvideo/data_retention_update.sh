@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kinesisvideo_data_retention_update(current_version, operation, data_retention_change_in_hours)
+#
+# Arg(s):
+#    current_version - 
+#    operation - 
+#    data_retention_change_in_hours - 
+#
+#
+#>
+######################################################################
 p6_aws_kinesisvideo_data_retention_update() {
     local current_version="$1"
     local operation="$2"

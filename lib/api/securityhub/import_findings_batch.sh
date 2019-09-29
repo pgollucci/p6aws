@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_securityhub_import_findings_batch(findings)
+#
+# Arg(s):
+#    findings - 
+#
+#
+#>
+######################################################################
 p6_aws_securityhub_import_findings_batch() {
     local findings="$1"
     shift 1

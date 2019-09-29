@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kinesisanalytics_application_input_add(application_name, current_application_version_id, input)
+#
+# Arg(s):
+#    application_name - 
+#    current_application_version_id - 
+#    input - 
+#
+#
+#>
+######################################################################
 p6_aws_kinesisanalytics_application_input_add() {
     local application_name="$1"
     local current_application_version_id="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_data_thing_shadow_update(thing_name, payload)
+#
+# Arg(s):
+#    thing_name - 
+#    payload - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_data_thing_shadow_update() {
     local thing_name="$1"
     local payload="$2"

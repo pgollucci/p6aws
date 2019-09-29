@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pinpoint_attributes_remove(application_id, attribute_type, update_attributes_request)
+#
+# Arg(s):
+#    application_id - 
+#    attribute_type - 
+#    update_attributes_request - 
+#
+#
+#>
+######################################################################
 p6_aws_pinpoint_attributes_remove() {
     local application_id="$1"
     local attribute_type="$2"

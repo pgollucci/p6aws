@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigateway_client_certificate_delete(client_certificate_id)
+#
+# Arg(s):
+#    client_certificate_id - 
+#
+#
+#>
+######################################################################
 p6_aws_apigateway_client_certificate_delete() {
     local client_certificate_id="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_inventory_put(instance_id, items)
+#
+# Arg(s):
+#    instance_id - 
+#    items - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_inventory_put() {
     local instance_id="$1"
     local items="$2"

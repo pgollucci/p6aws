@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_budgets_budgets_describe(account_id)
+#
+# Arg(s):
+#    account_id - 
+#
+#
+#>
+######################################################################
 p6_aws_budgets_budgets_describe() {
     local account_id="$1"
     shift 1

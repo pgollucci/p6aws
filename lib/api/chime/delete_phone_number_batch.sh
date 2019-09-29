@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_chime_delete_phone_number_batch(phone_number_ids)
+#
+# Arg(s):
+#    phone_number_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_chime_delete_phone_number_batch() {
     local phone_number_ids="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_directconnect_public_virtual_interface_create(connection_id, new_public_virtual_interface)
+#
+# Arg(s):
+#    connection_id - 
+#    new_public_virtual_interface - 
+#
+#
+#>
+######################################################################
 p6_aws_directconnect_public_virtual_interface_create() {
     local connection_id="$1"
     local new_public_virtual_interface="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_firehose_delivery_stream_untag(delivery_stream_name, tag_keys)
+#
+# Arg(s):
+#    delivery_stream_name - 
+#    tag_keys - 
+#
+#
+#>
+######################################################################
 p6_aws_firehose_delivery_stream_untag() {
     local delivery_stream_name="$1"
     local tag_keys="$2"

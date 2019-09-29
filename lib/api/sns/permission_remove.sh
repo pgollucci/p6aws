@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sns_permission_remove(topic_arn, label)
+#
+# Arg(s):
+#    topic_arn - 
+#    label - 
+#
+#
+#>
+######################################################################
 p6_aws_sns_permission_remove() {
     local topic_arn="$1"
     local label="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_certificate_transfer(certificate_id, target_aws_account)
+#
+# Arg(s):
+#    certificate_id - 
+#    target_aws_account - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_certificate_transfer() {
     local certificate_id="$1"
     local target_aws_account="$2"

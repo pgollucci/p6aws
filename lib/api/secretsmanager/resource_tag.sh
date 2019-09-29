@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_secretsmanager_resource_tag(secret_id, tags)
+#
+# Arg(s):
+#    secret_id - 
+#    tags - 
+#
+#
+#>
+######################################################################
 p6_aws_secretsmanager_resource_tag() {
     local secret_id="$1"
     local tags="$2"

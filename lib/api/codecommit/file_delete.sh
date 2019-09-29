@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codecommit_file_delete(repository_name, branch_name, file_path, parent_commit_id)
+#
+# Arg(s):
+#    repository_name - 
+#    branch_name - 
+#    file_path - 
+#    parent_commit_id - 
+#
+#
+#>
+######################################################################
 p6_aws_codecommit_file_delete() {
     local repository_name="$1"
     local branch_name="$2"

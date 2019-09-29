@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_gamelift_build_describe(build_id)
+#
+# Arg(s):
+#    build_id - 
+#
+#
+#>
+######################################################################
 p6_aws_gamelift_build_describe() {
     local build_id="$1"
     shift 1

@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_personalize_dataset_import_job_create(job_name, dataset_arn, data_source, role_arn)
+#
+# Arg(s):
+#    job_name - 
+#    dataset_arn - 
+#    data_source - 
+#    role_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_personalize_dataset_import_job_create() {
     local job_name="$1"
     local dataset_arn="$2"

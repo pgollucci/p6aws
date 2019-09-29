@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codecommit_pull_request_create(title, targets)
+#
+# Arg(s):
+#    title - 
+#    targets - 
+#
+#
+#>
+######################################################################
 p6_aws_codecommit_pull_request_create() {
     local title="$1"
     local targets="$2"

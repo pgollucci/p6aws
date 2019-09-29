@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_db_log_file_portion_download(db_instance_identifier, log_file_name)
+#
+# Arg(s):
+#    db_instance_identifier - 
+#    log_file_name - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_db_log_file_portion_download() {
     local db_instance_identifier="$1"
     local log_file_name="$2"

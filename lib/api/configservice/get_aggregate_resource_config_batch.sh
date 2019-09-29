@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_configservice_get_aggregate_resource_config_batch(configuration_aggregator_name, resource_identifiers)
+#
+# Arg(s):
+#    configuration_aggregator_name - 
+#    resource_identifiers - 
+#
+#
+#>
+######################################################################
 p6_aws_configservice_get_aggregate_resource_config_batch() {
     local configuration_aggregator_name="$1"
     local resource_identifiers="$2"

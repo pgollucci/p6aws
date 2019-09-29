@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_guardduty_members_create(detector_id, account_details)
+#
+# Arg(s):
+#    detector_id - 
+#    account_details - 
+#
+#
+#>
+######################################################################
 p6_aws_guardduty_members_create() {
     local detector_id="$1"
     local account_details="$2"

@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mturk_hit_type_create(assignment_duration_in_seconds, reward, title, description)
+#
+# Arg(s):
+#    assignment_duration_in_seconds - 
+#    reward - 
+#    title - 
+#    description - 
+#
+#
+#>
+######################################################################
 p6_aws_mturk_hit_type_create() {
     local assignment_duration_in_seconds="$1"
     local reward="$2"

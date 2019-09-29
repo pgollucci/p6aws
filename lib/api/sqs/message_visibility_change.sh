@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sqs_message_visibility_change(queue_url, receipt_handle, visibility_timeout)
+#
+# Arg(s):
+#    queue_url - 
+#    receipt_handle - 
+#    visibility_timeout - 
+#
+#
+#>
+######################################################################
 p6_aws_sqs_message_visibility_change() {
     local queue_url="$1"
     local receipt_handle="$2"

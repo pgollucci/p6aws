@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_worklink_domain_metadata_update(fleet_arn, domain_name)
+#
+# Arg(s):
+#    fleet_arn - 
+#    domain_name - 
+#
+#
+#>
+######################################################################
 p6_aws_worklink_domain_metadata_update() {
     local fleet_arn="$1"
     local domain_name="$2"

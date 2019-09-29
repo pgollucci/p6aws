@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_iam_instance_profile_associate(iam_instance_profile, instance_id)
+#
+# Arg(s):
+#    iam_instance_profile - 
+#    instance_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_iam_instance_profile_associate() {
     local iam_instance_profile="$1"
     local instance_id="$2"

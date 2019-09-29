@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_firehose_delivery_stream_create(delivery_stream_name)
+#
+# Arg(s):
+#    delivery_stream_name - 
+#
+#
+#>
+######################################################################
 p6_aws_firehose_delivery_stream_create() {
     local delivery_stream_name="$1"
     shift 1

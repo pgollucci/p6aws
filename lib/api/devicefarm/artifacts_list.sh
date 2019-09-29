@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_devicefarm_artifacts_list(arn, type)
+#
+# Arg(s):
+#    arn - 
+#    type - 
+#
+#
+#>
+######################################################################
 p6_aws_devicefarm_artifacts_list() {
     local arn="$1"
     local type="$2"

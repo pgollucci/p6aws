@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_athena_work_group_get(work_group)
+#
+# Arg(s):
+#    work_group - 
+#
+#
+#>
+######################################################################
 p6_aws_athena_work_group_get() {
     local work_group="$1"
     shift 1

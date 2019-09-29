@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dax_parameters_describe(parameter_group_name)
+#
+# Arg(s):
+#    parameter_group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_dax_parameters_describe() {
     local parameter_group_name="$1"
     shift 1

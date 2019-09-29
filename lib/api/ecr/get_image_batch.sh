@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ecr_get_image_batch(repository_name, image_ids)
+#
+# Arg(s):
+#    repository_name - 
+#    image_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_ecr_get_image_batch() {
     local repository_name="$1"
     local image_ids="$2"

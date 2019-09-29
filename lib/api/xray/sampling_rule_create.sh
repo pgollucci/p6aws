@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_xray_sampling_rule_create(sampling_rule)
+#
+# Arg(s):
+#    sampling_rule - 
+#
+#
+#>
+######################################################################
 p6_aws_xray_sampling_rule_create() {
     local sampling_rule="$1"
     shift 1

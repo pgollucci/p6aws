@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_swf_workflow_execution_history_get(domain, execution)
+#
+# Arg(s):
+#    domain - 
+#    execution - 
+#
+#
+#>
+######################################################################
 p6_aws_swf_workflow_execution_history_get() {
     local domain="$1"
     local execution="$2"

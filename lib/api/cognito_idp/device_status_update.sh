@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_idp_device_status_update(access_token, device_key)
+#
+# Arg(s):
+#    access_token - 
+#    device_key - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_idp_device_status_update() {
     local access_token="$1"
     local device_key="$2"

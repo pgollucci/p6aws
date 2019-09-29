@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_autoscaling_notification_configuration_put(auto_scaling_group_name, topic_arn, notification_types)
+#
+# Arg(s):
+#    auto_scaling_group_name - 
+#    topic_arn - 
+#    notification_types - 
+#
+#
+#>
+######################################################################
 p6_aws_autoscaling_notification_configuration_put() {
     local auto_scaling_group_name="$1"
     local topic_arn="$2"

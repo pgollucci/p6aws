@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workspaces_workspaces_create(workspaces)
+#
+# Arg(s):
+#    workspaces - 
+#
+#
+#>
+######################################################################
 p6_aws_workspaces_workspaces_create() {
     local workspaces="$1"
     shift 1

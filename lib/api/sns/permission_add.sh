@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sns_permission_add(topic_arn, label, aws_account_id, action_name)
+#
+# Arg(s):
+#    topic_arn - 
+#    label - 
+#    aws_account_id - 
+#    action_name - 
+#
+#
+#>
+######################################################################
 p6_aws_sns_permission_add() {
     local topic_arn="$1"
     local label="$2"

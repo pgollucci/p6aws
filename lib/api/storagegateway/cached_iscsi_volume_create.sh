@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_storagegateway_cached_iscsi_volume_create(gateway_arn, volume_size_in_bytes, target_name, network_interface_id, client_token)
+#
+# Arg(s):
+#    gateway_arn - 
+#    volume_size_in_bytes - 
+#    target_name - 
+#    network_interface_id - 
+#    client_token - 
+#
+#
+#>
+######################################################################
 p6_aws_storagegateway_cached_iscsi_volume_create() {
     local gateway_arn="$1"
     local volume_size_in_bytes="$2"

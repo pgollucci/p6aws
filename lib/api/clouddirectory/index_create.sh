@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_clouddirectory_index_create(directory_arn, ordered_indexed_attribute_list, is_unique)
+#
+# Arg(s):
+#    directory_arn - 
+#    ordered_indexed_attribute_list - 
+#    is_unique - 
+#
+#
+#>
+######################################################################
 p6_aws_clouddirectory_index_create() {
     local directory_arn="$1"
     local ordered_indexed_attribute_list="$2"

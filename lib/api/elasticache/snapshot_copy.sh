@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elasticache_snapshot_copy(source_snapshot_name, target_snapshot_name)
+#
+# Arg(s):
+#    source_snapshot_name - 
+#    target_snapshot_name - 
+#
+#
+#>
+######################################################################
 p6_aws_elasticache_snapshot_copy() {
     local source_snapshot_name="$1"
     local target_snapshot_name="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_appstream_associated_fleets_list(stack_name)
+#
+# Arg(s):
+#    stack_name - 
+#
+#
+#>
+######################################################################
 p6_aws_appstream_associated_fleets_list() {
     local stack_name="$1"
     shift 1

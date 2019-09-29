@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_client_vpn_route_delete(client_vpn_endpoint_id, destination_cidr_block)
+#
+# Arg(s):
+#    client_vpn_endpoint_id - 
+#    destination_cidr_block - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_client_vpn_route_delete() {
     local client_vpn_endpoint_id="$1"
     local destination_cidr_block="$2"

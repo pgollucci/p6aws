@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_managedblockchain_proposal_create(network_id, member_id, actions)
+#
+# Arg(s):
+#    network_id - 
+#    member_id - 
+#    actions - 
+#
+#
+#>
+######################################################################
 p6_aws_managedblockchain_proposal_create() {
     local network_id="$1"
     local member_id="$2"

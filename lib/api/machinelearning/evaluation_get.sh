@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_machinelearning_evaluation_get(evaluation_id)
+#
+# Arg(s):
+#    evaluation_id - 
+#
+#
+#>
+######################################################################
 p6_aws_machinelearning_evaluation_get() {
     local evaluation_id="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mediapackage_vod_packaging_group_create(id)
+#
+# Arg(s):
+#    id - 
+#
+#
+#>
+######################################################################
 p6_aws_mediapackage_vod_packaging_group_create() {
     local id="$1"
     shift 1

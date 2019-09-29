@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_command_invocation_get(command_id, instance_id)
+#
+# Arg(s):
+#    command_id - 
+#    instance_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_command_invocation_get() {
     local command_id="$1"
     local instance_id="$2"

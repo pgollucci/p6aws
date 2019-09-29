@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ecs_account_setting_put(name, value)
+#
+# Arg(s):
+#    name - 
+#    value - 
+#
+#
+#>
+######################################################################
 p6_aws_ecs_account_setting_put() {
     local name="$1"
     local value="$2"

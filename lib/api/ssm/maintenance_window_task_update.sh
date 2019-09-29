@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_maintenance_window_task_update(window_id, window_task_id)
+#
+# Arg(s):
+#    window_id - 
+#    window_task_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_maintenance_window_task_update() {
     local window_id="$1"
     local window_task_id="$2"

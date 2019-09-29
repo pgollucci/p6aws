@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_resource_policy_put(policy_in_json)
+#
+# Arg(s):
+#    policy_in_json - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_resource_policy_put() {
     local policy_in_json="$1"
     shift 1

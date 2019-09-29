@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_activity_stream_start(resource_arn, mode, kms_key_id)
+#
+# Arg(s):
+#    resource_arn - 
+#    mode - 
+#    kms_key_id - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_activity_stream_start() {
     local resource_arn="$1"
     local mode="$2"

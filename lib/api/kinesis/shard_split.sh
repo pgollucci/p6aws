@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kinesis_shard_split(stream_name, shard_to_split, new_starting_hash_key)
+#
+# Arg(s):
+#    stream_name - 
+#    shard_to_split - 
+#    new_starting_hash_key - 
+#
+#
+#>
+######################################################################
 p6_aws_kinesis_shard_split() {
     local stream_name="$1"
     local shard_to_split="$2"

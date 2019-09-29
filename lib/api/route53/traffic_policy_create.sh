@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53_traffic_policy_create(name, document)
+#
+# Arg(s):
+#    name - 
+#    document - 
+#
+#
+#>
+######################################################################
 p6_aws_route53_traffic_policy_create() {
     local name="$1"
     local document="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dynamodb_global_table_update(global_table_name, replica_updates)
+#
+# Arg(s):
+#    global_table_name - 
+#    replica_updates - 
+#
+#
+#>
+######################################################################
 p6_aws_dynamodb_global_table_update() {
     local global_table_name="$1"
     local replica_updates="$2"

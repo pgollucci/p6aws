@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_discovery_configuration_items_from_application_disassociate(application_configuration_id, configuration_ids)
+#
+# Arg(s):
+#    application_configuration_id - 
+#    configuration_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_discovery_configuration_items_from_application_disassociate() {
     local application_configuration_id="$1"
     local configuration_ids="$2"

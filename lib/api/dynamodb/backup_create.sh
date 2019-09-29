@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dynamodb_backup_create(table_name, backup_name)
+#
+# Arg(s):
+#    table_name - 
+#    backup_name - 
+#
+#
+#>
+######################################################################
 p6_aws_dynamodb_backup_create() {
     local table_name="$1"
     local backup_name="$2"

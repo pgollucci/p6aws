@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudhsmv2_backup_to_region_copy(destination_region, backup_id)
+#
+# Arg(s):
+#    destination_region - 
+#    backup_id - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudhsmv2_backup_to_region_copy() {
     local destination_region="$1"
     local backup_id="$2"

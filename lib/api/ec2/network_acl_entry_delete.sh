@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_network_acl_entry_delete(egress, network_acl_id, rule_number)
+#
+# Arg(s):
+#    egress - 
+#    network_acl_id - 
+#    rule_number - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_network_acl_entry_delete() {
     local egress="$1"
     local network_acl_id="$2"

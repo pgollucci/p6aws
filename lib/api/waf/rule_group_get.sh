@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_rule_group_get(rule_group_id)
+#
+# Arg(s):
+#    rule_group_id - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_rule_group_get() {
     local rule_group_id="$1"
     shift 1

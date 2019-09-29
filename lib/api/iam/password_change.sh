@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_password_change(old_password, new_password)
+#
+# Arg(s):
+#    old_password - 
+#    new_password - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_password_change() {
     local old_password="$1"
     local new_password="$2"

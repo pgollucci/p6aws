@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glacier_multipart_uploads_list(account_id, vault_name)
+#
+# Arg(s):
+#    account_id - 
+#    vault_name - 
+#
+#
+#>
+######################################################################
 p6_aws_glacier_multipart_uploads_list() {
     local account_id="$1"
     local vault_name="$2"

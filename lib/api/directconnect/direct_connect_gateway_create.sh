@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_directconnect_direct_connect_gateway_create(direct_connect_gateway_name)
+#
+# Arg(s):
+#    direct_connect_gateway_name - 
+#
+#
+#>
+######################################################################
 p6_aws_directconnect_direct_connect_gateway_create() {
     local direct_connect_gateway_name="$1"
     shift 1

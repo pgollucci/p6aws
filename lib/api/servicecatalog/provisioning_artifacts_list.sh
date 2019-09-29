@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_servicecatalog_provisioning_artifacts_list(product_id)
+#
+# Arg(s):
+#    product_id - 
+#
+#
+#>
+######################################################################
 p6_aws_servicecatalog_provisioning_artifacts_list() {
     local product_id="$1"
     shift 1

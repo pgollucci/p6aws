@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_inspector_assessment_template_create(assessment_target_arn, assessment_template_name, duration_in_seconds, rules_package_arns)
+#
+# Arg(s):
+#    assessment_target_arn - 
+#    assessment_template_name - 
+#    duration_in_seconds - 
+#    rules_package_arns - 
+#
+#
+#>
+######################################################################
 p6_aws_inspector_assessment_template_create() {
     local assessment_target_arn="$1"
     local assessment_template_name="$2"

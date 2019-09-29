@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kinesis_records_get(shard_iterator)
+#
+# Arg(s):
+#    shard_iterator - 
+#
+#
+#>
+######################################################################
 p6_aws_kinesis_records_get() {
     local shard_iterator="$1"
     shift 1

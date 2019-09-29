@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_encryption_key_rotate(cluster_identifier)
+#
+# Arg(s):
+#    cluster_identifier - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_encryption_key_rotate() {
     local cluster_identifier="$1"
     shift 1

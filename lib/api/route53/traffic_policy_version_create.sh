@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53_traffic_policy_version_create(id, document)
+#
+# Arg(s):
+#    id - 
+#    document - 
+#
+#
+#>
+######################################################################
 p6_aws_route53_traffic_policy_version_create() {
     local id="$1"
     local document="$2"

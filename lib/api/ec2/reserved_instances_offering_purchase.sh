@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_reserved_instances_offering_purchase(instance_count, reserved_instances_offering_id)
+#
+# Arg(s):
+#    instance_count - 
+#    reserved_instances_offering_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_reserved_instances_offering_purchase() {
     local instance_count="$1"
     local reserved_instances_offering_id="$2"

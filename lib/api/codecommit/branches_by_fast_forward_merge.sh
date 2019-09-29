@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codecommit_branches_by_fast_forward_merge(repository_name, source_commit_specifier, destination_commit_specifier)
+#
+# Arg(s):
+#    repository_name - 
+#    source_commit_specifier - 
+#    destination_commit_specifier - 
+#
+#
+#>
+######################################################################
 p6_aws_codecommit_branches_by_fast_forward_merge() {
     local repository_name="$1"
     local source_commit_specifier="$2"

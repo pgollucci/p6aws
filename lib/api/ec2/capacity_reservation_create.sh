@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_capacity_reservation_create(instance_type, instance_platform, instance_count)
+#
+# Arg(s):
+#    instance_type - 
+#    instance_platform - 
+#    instance_count - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_capacity_reservation_create() {
     local instance_type="$1"
     local instance_platform="$2"

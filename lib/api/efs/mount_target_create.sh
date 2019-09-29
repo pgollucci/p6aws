@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_efs_mount_target_create(file_system_id, subnet_id)
+#
+# Arg(s):
+#    file_system_id - 
+#    subnet_id - 
+#
+#
+#>
+######################################################################
 p6_aws_efs_mount_target_create() {
     local file_system_id="$1"
     local subnet_id="$2"

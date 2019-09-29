@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elbv2_targets_register(target_group_arn, targets)
+#
+# Arg(s):
+#    target_group_arn - 
+#    targets - 
+#
+#
+#>
+######################################################################
 p6_aws_elbv2_targets_register() {
     local target_group_arn="$1"
     local targets="$2"

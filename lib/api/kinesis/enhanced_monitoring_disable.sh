@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kinesis_enhanced_monitoring_disable(stream_name, shard_level_metrics)
+#
+# Arg(s):
+#    stream_name - 
+#    shard_level_metrics - 
+#
+#
+#>
+######################################################################
 p6_aws_kinesis_enhanced_monitoring_disable() {
     local stream_name="$1"
     local shard_level_metrics="$2"

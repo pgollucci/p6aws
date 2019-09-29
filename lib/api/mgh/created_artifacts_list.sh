@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mgh_created_artifacts_list(progress_update_stream, migration_task_name)
+#
+# Arg(s):
+#    progress_update_stream - 
+#    migration_task_name - 
+#
+#
+#>
+######################################################################
 p6_aws_mgh_created_artifacts_list() {
     local progress_update_stream="$1"
     local migration_task_name="$2"

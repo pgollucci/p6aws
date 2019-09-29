@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_machinelearning_data_source_from_rds_create(data_source_id, rds_data, role_arn)
+#
+# Arg(s):
+#    data_source_id - 
+#    rds_data - 
+#    role_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_machinelearning_data_source_from_rds_create() {
     local data_source_id="$1"
     local rds_data="$2"

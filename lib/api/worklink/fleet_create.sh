@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_worklink_fleet_create(fleet_name)
+#
+# Arg(s):
+#    fleet_name - 
+#
+#
+#>
+######################################################################
 p6_aws_worklink_fleet_create() {
     local fleet_name="$1"
     shift 1

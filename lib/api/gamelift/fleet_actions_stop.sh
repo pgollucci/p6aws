@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_gamelift_fleet_actions_stop(fleet_id, actions)
+#
+# Arg(s):
+#    fleet_id - 
+#    actions - 
+#
+#
+#>
+######################################################################
 p6_aws_gamelift_fleet_actions_stop() {
     local fleet_id="$1"
     local actions="$2"

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_regional_geo_match_set_update(geo_match_set_id, change_token, updates)
+#
+# Arg(s):
+#    geo_match_set_id - 
+#    change_token - 
+#    updates - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_regional_geo_match_set_update() {
     local geo_match_set_id="$1"
     local change_token="$2"

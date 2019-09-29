@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pinpoint_export_job_create(application_id, export_job_request)
+#
+# Arg(s):
+#    application_id - 
+#    export_job_request - 
+#
+#
+#>
+######################################################################
 p6_aws_pinpoint_export_job_create() {
     local application_id="$1"
     local export_job_request="$2"

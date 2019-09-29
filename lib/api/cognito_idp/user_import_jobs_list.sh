@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_idp_user_import_jobs_list(user_pool_id, max_results)
+#
+# Arg(s):
+#    user_pool_id - 
+#    max_results - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_idp_user_import_jobs_list() {
     local user_pool_id="$1"
     local max_results="$2"

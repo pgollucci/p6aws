@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_budgets_notification_update(account_id, budget_name, old_notification, new_notification)
+#
+# Arg(s):
+#    account_id - 
+#    budget_name - 
+#    old_notification - 
+#    new_notification - 
+#
+#
+#>
+######################################################################
 p6_aws_budgets_notification_update() {
     local account_id="$1"
     local budget_name="$2"

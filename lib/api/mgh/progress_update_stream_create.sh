@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mgh_progress_update_stream_create(progress_update_stream_name)
+#
+# Arg(s):
+#    progress_update_stream_name - 
+#
+#
+#>
+######################################################################
 p6_aws_mgh_progress_update_stream_create() {
     local progress_update_stream_name="$1"
     shift 1

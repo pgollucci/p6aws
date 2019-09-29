@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_client_id_from_open_id_connect_provider_remove(open_id_connect_provider_arn, client_id)
+#
+# Arg(s):
+#    open_id_connect_provider_arn - 
+#    client_id - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_client_id_from_open_id_connect_provider_remove() {
     local open_id_connect_provider_arn="$1"
     local client_id="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_vpc_peering_connection_reject(vpc_peering_connection_id)
+#
+# Arg(s):
+#    vpc_peering_connection_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_vpc_peering_connection_reject() {
     local vpc_peering_connection_id="$1"
     shift 1

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lambda_layer_version_permission_remove(layer_name, version_number, statement_id)
+#
+# Arg(s):
+#    layer_name - 
+#    version_number - 
+#    statement_id - 
+#
+#
+#>
+######################################################################
 p6_aws_lambda_layer_version_permission_remove() {
     local layer_name="$1"
     local version_number="$2"

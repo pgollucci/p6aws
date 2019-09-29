@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mturk_worker_block_delete(worker_id)
+#
+# Arg(s):
+#    worker_id - 
+#
+#
+#>
+######################################################################
 p6_aws_mturk_worker_block_delete() {
     local worker_id="$1"
     shift 1

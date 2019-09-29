@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mobile_bundle_describe(bundle_id)
+#
+# Arg(s):
+#    bundle_id - 
+#
+#
+#>
+######################################################################
 p6_aws_mobile_bundle_describe() {
     local bundle_id="$1"
     shift 1

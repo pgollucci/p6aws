@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_chime_suspend_user_batch(account_id, user_id_list)
+#
+# Arg(s):
+#    account_id - 
+#    user_id_list - 
+#
+#
+#>
+######################################################################
 p6_aws_chime_suspend_user_batch() {
     local account_id="$1"
     local user_id_list="$2"

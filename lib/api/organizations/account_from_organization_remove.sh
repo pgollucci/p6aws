@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_account_from_organization_remove(account_id)
+#
+# Arg(s):
+#    account_id - 
+#
+#
+#>
+######################################################################
 p6_aws_organizations_account_from_organization_remove() {
     local account_id="$1"
     shift 1

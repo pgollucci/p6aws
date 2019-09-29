@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_id_format_modify(resource, use_long_ids)
+#
+# Arg(s):
+#    resource - 
+#    use_long_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_id_format_modify() {
     local resource="$1"
     local use_long_ids="$2"

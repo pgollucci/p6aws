@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_servicecatalog_portfolio_share_delete(portfolio_id)
+#
+# Arg(s):
+#    portfolio_id - 
+#
+#
+#>
+######################################################################
 p6_aws_servicecatalog_portfolio_share_delete() {
     local portfolio_id="$1"
     shift 1

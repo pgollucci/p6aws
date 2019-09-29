@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ce_usage_forecast_get(time_period, metric, granularity)
+#
+# Arg(s):
+#    time_period - 
+#    metric - 
+#    granularity - 
+#
+#
+#>
+######################################################################
 p6_aws_ce_usage_forecast_get() {
     local time_period="$1"
     local metric="$2"

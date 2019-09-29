@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_cluster_db_revision_modify(cluster_identifier, revision_target)
+#
+# Arg(s):
+#    cluster_identifier - 
+#    revision_target - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_cluster_db_revision_modify() {
     local cluster_identifier="$1"
     local revision_target="$2"

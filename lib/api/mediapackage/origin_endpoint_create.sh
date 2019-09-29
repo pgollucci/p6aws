@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mediapackage_origin_endpoint_create(channel_id, id)
+#
+# Arg(s):
+#    channel_id - 
+#    id - 
+#
+#
+#>
+######################################################################
 p6_aws_mediapackage_origin_endpoint_create() {
     local channel_id="$1"
     local id="$2"

@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_quicksight_user_register(identity_type, email, user_role, aws_account_id, namespace)
+#
+# Arg(s):
+#    identity_type - 
+#    email - 
+#    user_role - 
+#    aws_account_id - 
+#    namespace - 
+#
+#
+#>
+######################################################################
 p6_aws_quicksight_user_register() {
     local identity_type="$1"
     local email="$2"

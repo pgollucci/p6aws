@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mturk_qualification_request_accept(qualification_request_id)
+#
+# Arg(s):
+#    qualification_request_id - 
+#
+#
+#>
+######################################################################
 p6_aws_mturk_qualification_request_accept() {
     local qualification_request_id="$1"
     shift 1

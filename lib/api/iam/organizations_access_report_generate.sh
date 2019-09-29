@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_organizations_access_report_generate(entity_path)
+#
+# Arg(s):
+#    entity_path - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_organizations_access_report_generate() {
     local entity_path="$1"
     shift 1

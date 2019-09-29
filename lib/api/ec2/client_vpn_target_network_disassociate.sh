@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_client_vpn_target_network_disassociate(client_vpn_endpoint_id, association_id)
+#
+# Arg(s):
+#    client_vpn_endpoint_id - 
+#    association_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_client_vpn_target_network_disassociate() {
     local client_vpn_endpoint_id="$1"
     local association_id="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sts_authorization_message_decode(encoded_message)
+#
+# Arg(s):
+#    encoded_message - 
+#
+#
+#>
+######################################################################
 p6_aws_sts_authorization_message_decode() {
     local encoded_message="$1"
     shift 1

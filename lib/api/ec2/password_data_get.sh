@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_password_data_get(instance_id)
+#
+# Arg(s):
+#    instance_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_password_data_get() {
     local instance_id="$1"
     shift 1

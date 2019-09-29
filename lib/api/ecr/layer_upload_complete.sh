@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ecr_layer_upload_complete(repository_name, upload_id, layer_digests)
+#
+# Arg(s):
+#    repository_name - 
+#    upload_id - 
+#    layer_digests - 
+#
+#
+#>
+######################################################################
 p6_aws_ecr_layer_upload_complete() {
     local repository_name="$1"
     local upload_id="$2"

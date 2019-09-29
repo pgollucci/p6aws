@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudformation_stack_set_operation_results_list(stack_set_name, operation_id)
+#
+# Arg(s):
+#    stack_set_name - 
+#    operation_id - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudformation_stack_set_operation_results_list() {
     local stack_set_name="$1"
     local operation_id="$2"

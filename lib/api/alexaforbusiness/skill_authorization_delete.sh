@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alexaforbusiness_skill_authorization_delete(skill_id)
+#
+# Arg(s):
+#    skill_id - 
+#
+#
+#>
+######################################################################
 p6_aws_alexaforbusiness_skill_authorization_delete() {
     local skill_id="$1"
     shift 1

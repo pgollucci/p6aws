@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mediapackage_vod_packaging_configuration_create(id, packaging_group_id)
+#
+# Arg(s):
+#    id - 
+#    packaging_group_id - 
+#
+#
+#>
+######################################################################
 p6_aws_mediapackage_vod_packaging_configuration_create() {
     local id="$1"
     local packaging_group_id="$2"

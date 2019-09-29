@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_policy_type_disable(root_id, policy_type)
+#
+# Arg(s):
+#    root_id - 
+#    policy_type - 
+#
+#
+#>
+######################################################################
 p6_aws_organizations_policy_type_disable() {
     local root_id="$1"
     local policy_type="$2"

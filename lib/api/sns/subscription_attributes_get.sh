@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sns_subscription_attributes_get(subscription_arn)
+#
+# Arg(s):
+#    subscription_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_sns_subscription_attributes_get() {
     local subscription_arn="$1"
     shift 1

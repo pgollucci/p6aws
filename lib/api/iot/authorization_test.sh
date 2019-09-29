@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_authorization_test(auth_infos)
+#
+# Arg(s):
+#    auth_infos - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_authorization_test() {
     local auth_infos="$1"
     shift 1

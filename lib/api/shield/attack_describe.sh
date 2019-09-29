@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_shield_attack_describe(attack_id)
+#
+# Arg(s):
+#    attack_id - 
+#
+#
+#>
+######################################################################
 p6_aws_shield_attack_describe() {
     local attack_id="$1"
     shift 1

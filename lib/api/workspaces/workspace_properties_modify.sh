@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workspaces_workspace_properties_modify(workspace_id, workspace_properties)
+#
+# Arg(s):
+#    workspace_id - 
+#    workspace_properties - 
+#
+#
+#>
+######################################################################
 p6_aws_workspaces_workspace_properties_modify() {
     local workspace_id="$1"
     local workspace_properties="$2"

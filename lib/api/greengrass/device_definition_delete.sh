@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_greengrass_device_definition_delete(device_definition_id)
+#
+# Arg(s):
+#    device_definition_id - 
+#
+#
+#>
+######################################################################
 p6_aws_greengrass_device_definition_delete() {
     local device_definition_id="$1"
     shift 1

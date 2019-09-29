@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_personalize_solution_create(name, dataset_group_arn)
+#
+# Arg(s):
+#    name - 
+#    dataset_group_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_personalize_solution_create() {
     local name="$1"
     local dataset_group_arn="$2"

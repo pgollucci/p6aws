@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alexaforbusiness_gateway_group_get(gateway_group_arn)
+#
+# Arg(s):
+#    gateway_group_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_alexaforbusiness_gateway_group_get() {
     local gateway_group_arn="$1"
     shift 1

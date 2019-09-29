@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_storagegateway_cache_add(gateway_arn, disk_ids)
+#
+# Arg(s):
+#    gateway_arn - 
+#    disk_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_storagegateway_cache_add() {
     local gateway_arn="$1"
     local disk_ids="$2"

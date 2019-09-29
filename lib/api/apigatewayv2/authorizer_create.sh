@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigatewayv2_authorizer_create(api_id, authorizer_type, authorizer_uri, identity_source, name)
+#
+# Arg(s):
+#    api_id - 
+#    authorizer_type - 
+#    authorizer_uri - 
+#    identity_source - 
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_apigatewayv2_authorizer_create() {
     local api_id="$1"
     local authorizer_type="$2"

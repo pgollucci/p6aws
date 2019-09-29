@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sagemaker_endpoint_weights_and_capacities_update(endpoint_name, desired_weights_and_capacities)
+#
+# Arg(s):
+#    endpoint_name - 
+#    desired_weights_and_capacities - 
+#
+#
+#>
+######################################################################
 p6_aws_sagemaker_endpoint_weights_and_capacities_update() {
     local endpoint_name="$1"
     local desired_weights_and_capacities="$2"

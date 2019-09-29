@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudfront_cloud_front_origin_access_identity_config_get(id)
+#
+# Arg(s):
+#    id - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudfront_cloud_front_origin_access_identity_config_get() {
     local id="$1"
     shift 1

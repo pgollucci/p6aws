@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_classic_link_vpc_detach(instance_id, vpc_id)
+#
+# Arg(s):
+#    instance_id - 
+#    vpc_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_classic_link_vpc_detach() {
     local instance_id="$1"
     local vpc_id="$2"

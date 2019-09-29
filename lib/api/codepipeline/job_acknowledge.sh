@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codepipeline_job_acknowledge(job_id, nonce)
+#
+# Arg(s):
+#    job_id - 
+#    nonce - 
+#
+#
+#>
+######################################################################
 p6_aws_codepipeline_job_acknowledge() {
     local job_id="$1"
     local nonce="$2"

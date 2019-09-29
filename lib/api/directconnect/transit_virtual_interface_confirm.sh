@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_directconnect_transit_virtual_interface_confirm(virtual_interface_id, direct_connect_gateway_id)
+#
+# Arg(s):
+#    virtual_interface_id - 
+#    direct_connect_gateway_id - 
+#
+#
+#>
+######################################################################
 p6_aws_directconnect_transit_virtual_interface_confirm() {
     local virtual_interface_id="$1"
     local direct_connect_gateway_id="$2"

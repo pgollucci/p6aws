@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_servicecatalog_budget_from_resource_disassociate(budget_name, resource_id)
+#
+# Arg(s):
+#    budget_name - 
+#    resource_id - 
+#
+#
+#>
+######################################################################
 p6_aws_servicecatalog_budget_from_resource_disassociate() {
     local budget_name="$1"
     local resource_id="$2"

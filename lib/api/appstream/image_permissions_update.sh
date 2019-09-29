@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_appstream_image_permissions_update(name, shared_account_id, image_permissions)
+#
+# Arg(s):
+#    name - 
+#    shared_account_id - 
+#    image_permissions - 
+#
+#
+#>
+######################################################################
 p6_aws_appstream_image_permissions_update() {
     local name="$1"
     local shared_account_id="$2"

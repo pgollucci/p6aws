@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_robomaker_robot_register(fleet, robot)
+#
+# Arg(s):
+#    fleet - 
+#    robot - 
+#
+#
+#>
+######################################################################
 p6_aws_robomaker_robot_register() {
     local fleet="$1"
     local robot="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elasticache_failover_test(replication_group_id, node_group_id)
+#
+# Arg(s):
+#    replication_group_id - 
+#    node_group_id - 
+#
+#
+#>
+######################################################################
 p6_aws_elasticache_failover_test() {
     local replication_group_id="$1"
     local node_group_id="$2"

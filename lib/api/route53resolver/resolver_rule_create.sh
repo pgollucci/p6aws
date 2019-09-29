@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53resolver_resolver_rule_create(creator_request_id, rule_type, domain_name)
+#
+# Arg(s):
+#    creator_request_id - 
+#    rule_type - 
+#    domain_name - 
+#
+#
+#>
+######################################################################
 p6_aws_route53resolver_resolver_rule_create() {
     local creator_request_id="$1"
     local rule_type="$2"

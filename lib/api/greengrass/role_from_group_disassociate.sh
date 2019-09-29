@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_greengrass_role_from_group_disassociate(group_id)
+#
+# Arg(s):
+#    group_id - 
+#
+#
+#>
+######################################################################
 p6_aws_greengrass_role_from_group_disassociate() {
     local group_id="$1"
     shift 1

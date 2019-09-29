@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_securityhub_findings_update(filters)
+#
+# Arg(s):
+#    filters - 
+#
+#
+#>
+######################################################################
 p6_aws_securityhub_findings_update() {
     local filters="$1"
     shift 1

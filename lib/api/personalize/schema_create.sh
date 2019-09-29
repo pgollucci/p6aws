@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_personalize_schema_create(name, schema)
+#
+# Arg(s):
+#    name - 
+#    schema - 
+#
+#
+#>
+######################################################################
 p6_aws_personalize_schema_create() {
     local name="$1"
     local schema="$2"

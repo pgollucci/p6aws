@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iotanalytics_dataset_describe(dataset_name)
+#
+# Arg(s):
+#    dataset_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iotanalytics_dataset_describe() {
     local dataset_name="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elastictranscoder_pipeline_delete(id)
+#
+# Arg(s):
+#    id - 
+#
+#
+#>
+######################################################################
 p6_aws_elastictranscoder_pipeline_delete() {
     local id="$1"
     shift 1

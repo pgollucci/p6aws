@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_budgets_notification_create(account_id, budget_name, notification, subscribers)
+#
+# Arg(s):
+#    account_id - 
+#    budget_name - 
+#    notification - 
+#    subscribers - 
+#
+#
+#>
+######################################################################
 p6_aws_budgets_notification_create() {
     local account_id="$1"
     local budget_name="$2"

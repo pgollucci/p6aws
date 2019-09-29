@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mturk_workers_notify(subject, message_text, worker_ids)
+#
+# Arg(s):
+#    subject - 
+#    message_text - 
+#    worker_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_mturk_workers_notify() {
     local subject="$1"
     local message_text="$2"

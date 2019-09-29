@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudsearchdomain_documents_upload(documents, content_type)
+#
+# Arg(s):
+#    documents - 
+#    content_type - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudsearchdomain_documents_upload() {
     local documents="$1"
     local content_type="$2"

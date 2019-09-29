@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dms_replication_instance_reboot(replication_instance_arn)
+#
+# Arg(s):
+#    replication_instance_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_dms_replication_instance_reboot() {
     local replication_instance_arn="$1"
     shift 1

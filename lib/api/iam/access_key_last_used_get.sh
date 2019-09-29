@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_access_key_last_used_get(access_key_id)
+#
+# Arg(s):
+#    access_key_id - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_access_key_last_used_get() {
     local access_key_id="$1"
     shift 1

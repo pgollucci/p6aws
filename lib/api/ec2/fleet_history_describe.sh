@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_fleet_history_describe(fleet_id, start_time)
+#
+# Arg(s):
+#    fleet_id - 
+#    start_time - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_fleet_history_describe() {
     local fleet_id="$1"
     local start_time="$2"

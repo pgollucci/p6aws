@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_snowball_address_create(address)
+#
+# Arg(s):
+#    address - 
+#
+#
+#>
+######################################################################
 p6_aws_snowball_address_create() {
     local address="$1"
     shift 1

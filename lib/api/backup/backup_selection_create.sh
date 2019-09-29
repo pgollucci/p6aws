@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_backup_backup_selection_create(backup_plan_id, backup_selection)
+#
+# Arg(s):
+#    backup_plan_id - 
+#    backup_selection - 
+#
+#
+#>
+######################################################################
 p6_aws_backup_backup_selection_create() {
     local backup_plan_id="$1"
     local backup_selection="$2"

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ecs_task_set_create(service, cluster, task_definition)
+#
+# Arg(s):
+#    service - 
+#    cluster - 
+#    task_definition - 
+#
+#
+#>
+######################################################################
 p6_aws_ecs_task_set_create() {
     local service="$1"
     local cluster="$2"

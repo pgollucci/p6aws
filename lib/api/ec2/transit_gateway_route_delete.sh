@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_transit_gateway_route_delete(transit_gateway_route_table_id, destination_cidr_block)
+#
+# Arg(s):
+#    transit_gateway_route_table_id - 
+#    destination_cidr_block - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_transit_gateway_route_delete() {
     local transit_gateway_route_table_id="$1"
     local destination_cidr_block="$2"

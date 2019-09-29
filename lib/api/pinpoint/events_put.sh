@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pinpoint_events_put(application_id, events_request)
+#
+# Arg(s):
+#    application_id - 
+#    events_request - 
+#
+#
+#>
+######################################################################
 p6_aws_pinpoint_events_put() {
     local application_id="$1"
     local events_request="$2"

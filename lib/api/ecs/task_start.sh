@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ecs_task_start(task_definition, container_instances)
+#
+# Arg(s):
+#    task_definition - 
+#    container_instances - 
+#
+#
+#>
+######################################################################
 p6_aws_ecs_task_start() {
     local task_definition="$1"
     local container_instances="$2"

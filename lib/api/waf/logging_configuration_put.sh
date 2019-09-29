@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_logging_configuration_put(logging_configuration)
+#
+# Arg(s):
+#    logging_configuration - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_logging_configuration_put() {
     local logging_configuration="$1"
     shift 1

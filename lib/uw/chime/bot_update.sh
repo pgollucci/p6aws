@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_chime_disabled(account_id, bot_id)
+#
+# Arg(s):
+#    account_id - 
+#    bot_id - 
+#
+#
+#>
+######################################################################
 p6_aws_chime_disabled() {
         local account_id="$1"
         local bot_id="$2"
@@ -5,4 +18,3 @@ p6_aws_chime_disabled() {
 
     cond_log_and_run aws chime update-bot --account-id $account_id --bot-id $bot_id --disabled "$@"
 }
-

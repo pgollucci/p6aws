@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lakeformation_resource_update(role_arn, resource_arn)
+#
+# Arg(s):
+#    role_arn - 
+#    resource_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_lakeformation_resource_update() {
     local role_arn="$1"
     local resource_arn="$2"

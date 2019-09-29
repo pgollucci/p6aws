@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_ops_item_create(description, source, title)
+#
+# Arg(s):
+#    description - 
+#    source - 
+#    title - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_ops_item_create() {
     local description="$1"
     local source="$2"

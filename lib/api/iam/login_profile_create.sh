@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_login_profile_create(user_name, password)
+#
+# Arg(s):
+#    user_name - 
+#    password - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_login_profile_create() {
     local user_name="$1"
     local password="$2"

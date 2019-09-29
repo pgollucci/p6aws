@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_regional_regex_match_set_update(regex_match_set_id, updates, change_token)
+#
+# Arg(s):
+#    regex_match_set_id - 
+#    updates - 
+#    change_token - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_regional_regex_match_set_update() {
     local regex_match_set_id="$1"
     local updates="$2"

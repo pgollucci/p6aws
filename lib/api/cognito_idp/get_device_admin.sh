@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_idp_get_device_admin(device_key, user_pool_id, username)
+#
+# Arg(s):
+#    device_key - 
+#    user_pool_id - 
+#    username - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_idp_get_device_admin() {
     local device_key="$1"
     local user_pool_id="$2"

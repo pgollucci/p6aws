@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_support_case_create(subject, communication_body)
+#
+# Arg(s):
+#    subject - 
+#    communication_body - 
+#
+#
+#>
+######################################################################
 p6_aws_support_case_create() {
     local subject="$1"
     local communication_body="$2"

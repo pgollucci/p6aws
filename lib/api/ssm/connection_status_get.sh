@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_connection_status_get(target)
+#
+# Arg(s):
+#    target - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_connection_status_get() {
     local target="$1"
     shift 1

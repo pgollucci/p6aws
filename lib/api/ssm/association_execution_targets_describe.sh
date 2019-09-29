@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_association_execution_targets_describe(association_id, execution_id)
+#
+# Arg(s):
+#    association_id - 
+#    execution_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_association_execution_targets_describe() {
     local association_id="$1"
     local execution_id="$2"

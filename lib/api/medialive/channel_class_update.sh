@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_medialive_channel_class_update(channel_class, channel_id)
+#
+# Arg(s):
+#    channel_class - 
+#    channel_id - 
+#
+#
+#>
+######################################################################
 p6_aws_medialive_channel_class_update() {
     local channel_class="$1"
     local channel_id="$2"

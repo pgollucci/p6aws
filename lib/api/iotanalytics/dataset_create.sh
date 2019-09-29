@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iotanalytics_dataset_create(dataset_name, actions)
+#
+# Arg(s):
+#    dataset_name - 
+#    actions - 
+#
+#
+#>
+######################################################################
 p6_aws_iotanalytics_dataset_create() {
     local dataset_name="$1"
     local actions="$2"

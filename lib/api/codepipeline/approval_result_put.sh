@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codepipeline_approval_result_put(pipeline_name, stage_name, action_name, result, token)
+#
+# Arg(s):
+#    pipeline_name - 
+#    stage_name - 
+#    action_name - 
+#    result - 
+#    token - 
+#
+#
+#>
+######################################################################
 p6_aws_codepipeline_approval_result_put() {
     local pipeline_name="$1"
     local stage_name="$2"

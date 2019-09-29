@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lex_models_utterances_view_get(bot_name, bot_versions, status_type)
+#
+# Arg(s):
+#    bot_name - 
+#    bot_versions - 
+#    status_type - 
+#
+#
+#>
+######################################################################
 p6_aws_lex_models_utterances_view_get() {
     local bot_name="$1"
     local bot_versions="$2"

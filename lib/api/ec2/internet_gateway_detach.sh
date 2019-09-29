@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_internet_gateway_detach(internet_gateway_id, vpc_id)
+#
+# Arg(s):
+#    internet_gateway_id - 
+#    vpc_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_internet_gateway_detach() {
     local internet_gateway_id="$1"
     local vpc_id="$2"

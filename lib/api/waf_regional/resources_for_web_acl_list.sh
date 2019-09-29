@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_regional_resources_for_web_acl_list(web_acl_id)
+#
+# Arg(s):
+#    web_acl_id - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_regional_resources_for_web_acl_list() {
     local web_acl_id="$1"
     shift 1

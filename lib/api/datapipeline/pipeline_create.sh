@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_datapipeline_pipeline_create(name, unique_id)
+#
+# Arg(s):
+#    name - 
+#    unique_id - 
+#
+#
+#>
+######################################################################
 p6_aws_datapipeline_pipeline_create() {
     local name="$1"
     local unique_id="$2"

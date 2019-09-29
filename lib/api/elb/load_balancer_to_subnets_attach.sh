@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elb_load_balancer_to_subnets_attach(load_balancer_name, subnets)
+#
+# Arg(s):
+#    load_balancer_name - 
+#    subnets - 
+#
+#
+#>
+######################################################################
 p6_aws_elb_load_balancer_to_subnets_attach() {
     local load_balancer_name="$1"
     local subnets="$2"

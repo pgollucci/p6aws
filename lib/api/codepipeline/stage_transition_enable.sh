@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codepipeline_stage_transition_enable(pipeline_name, stage_name, transition_type)
+#
+# Arg(s):
+#    pipeline_name - 
+#    stage_name - 
+#    transition_type - 
+#
+#
+#>
+######################################################################
 p6_aws_codepipeline_stage_transition_enable() {
     local pipeline_name="$1"
     local stage_name="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lightsail_instance_snapshot_create(instance_snapshot_name, instance_name)
+#
+# Arg(s):
+#    instance_snapshot_name - 
+#    instance_name - 
+#
+#
+#>
+######################################################################
 p6_aws_lightsail_instance_snapshot_create() {
     local instance_snapshot_name="$1"
     local instance_name="$2"

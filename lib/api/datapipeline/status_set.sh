@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_datapipeline_status_set(pipeline_id, object_ids, status)
+#
+# Arg(s):
+#    pipeline_id - 
+#    object_ids - 
+#    status - 
+#
+#
+#>
+######################################################################
 p6_aws_datapipeline_status_set() {
     local pipeline_id="$1"
     local object_ids="$2"

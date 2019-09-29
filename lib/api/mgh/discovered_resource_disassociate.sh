@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mgh_discovered_resource_disassociate(progress_update_stream, migration_task_name, configuration_id)
+#
+# Arg(s):
+#    progress_update_stream - 
+#    migration_task_name - 
+#    configuration_id - 
+#
+#
+#>
+######################################################################
 p6_aws_mgh_discovered_resource_disassociate() {
     local progress_update_stream="$1"
     local migration_task_name="$2"

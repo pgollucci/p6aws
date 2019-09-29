@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ecs_container_instances_state_update(container_instances, status)
+#
+# Arg(s):
+#    container_instances - 
+#    status - 
+#
+#
+#>
+######################################################################
 p6_aws_ecs_container_instances_state_update() {
     local container_instances="$1"
     local status="$2"

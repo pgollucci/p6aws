@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_personalize_schema_delete(schema_arn)
+#
+# Arg(s):
+#    schema_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_personalize_schema_delete() {
     local schema_arn="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workdocs_current_user_get(authentication_token)
+#
+# Arg(s):
+#    authentication_token - 
+#
+#
+#>
+######################################################################
 p6_aws_workdocs_current_user_get() {
     local authentication_token="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_maintenance_window_delete(window_id)
+#
+# Arg(s):
+#    window_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_maintenance_window_delete() {
     local window_id="$1"
     shift 1

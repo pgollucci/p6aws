@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_datasync_task_create(source_location_arn, destination_location_arn)
+#
+# Arg(s):
+#    source_location_arn - 
+#    destination_location_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_datasync_task_create() {
     local source_location_arn="$1"
     local destination_location_arn="$2"

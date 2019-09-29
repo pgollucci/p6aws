@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rekognition_faces_delete(collection_id, face_ids)
+#
+# Arg(s):
+#    collection_id - 
+#    face_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_rekognition_faces_delete() {
     local collection_id="$1"
     local face_ids="$2"

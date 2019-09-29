@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_access_key_update(access_key_id, status)
+#
+# Arg(s):
+#    access_key_id - 
+#    status - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_access_key_update() {
     local access_key_id="$1"
     local status="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_inspector_assessment_run_delete(assessment_run_arn)
+#
+# Arg(s):
+#    assessment_run_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_inspector_assessment_run_delete() {
     local assessment_run_arn="$1"
     shift 1

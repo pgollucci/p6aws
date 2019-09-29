@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sagemaker_model_package_create(model_package_name)
+#
+# Arg(s):
+#    model_package_name - 
+#
+#
+#>
+######################################################################
 p6_aws_sagemaker_model_package_create() {
     local model_package_name="$1"
     shift 1

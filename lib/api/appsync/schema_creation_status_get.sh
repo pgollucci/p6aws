@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_appsync_schema_creation_status_get(api_id)
+#
+# Arg(s):
+#    api_id - 
+#
+#
+#>
+######################################################################
 p6_aws_appsync_schema_creation_status_get() {
     local api_id="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codecommit_repository_triggers_get(repository_name)
+#
+# Arg(s):
+#    repository_name - 
+#
+#
+#>
+######################################################################
 p6_aws_codecommit_repository_triggers_get() {
     local repository_name="$1"
     shift 1

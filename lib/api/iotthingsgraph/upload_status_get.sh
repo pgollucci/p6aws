@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iotthingsgraph_upload_status_get(upload_id)
+#
+# Arg(s):
+#    upload_id - 
+#
+#
+#>
+######################################################################
 p6_aws_iotthingsgraph_upload_status_get() {
     local upload_id="$1"
     shift 1

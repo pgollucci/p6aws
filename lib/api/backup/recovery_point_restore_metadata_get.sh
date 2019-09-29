@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_backup_recovery_point_restore_metadata_get(backup_vault_name, recovery_point_arn)
+#
+# Arg(s):
+#    backup_vault_name - 
+#    recovery_point_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_backup_recovery_point_restore_metadata_get() {
     local backup_vault_name="$1"
     local recovery_point_arn="$2"

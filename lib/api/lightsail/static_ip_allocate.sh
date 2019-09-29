@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lightsail_static_ip_allocate(static_ip_name)
+#
+# Arg(s):
+#    static_ip_name - 
+#
+#
+#>
+######################################################################
 p6_aws_lightsail_static_ip_allocate() {
     local static_ip_name="$1"
     shift 1

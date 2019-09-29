@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lightsail_disk_create(disk_name, availability_zone, size_in_gb)
+#
+# Arg(s):
+#    disk_name - 
+#    availability_zone - 
+#    size_in_gb - 
+#
+#
+#>
+######################################################################
 p6_aws_lightsail_disk_create() {
     local disk_name="$1"
     local availability_zone="$2"

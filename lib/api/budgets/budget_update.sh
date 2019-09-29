@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_budgets_budget_update(account_id, new_budget)
+#
+# Arg(s):
+#    account_id - 
+#    new_budget - 
+#
+#
+#>
+######################################################################
 p6_aws_budgets_budget_update() {
     local account_id="$1"
     local new_budget="$2"

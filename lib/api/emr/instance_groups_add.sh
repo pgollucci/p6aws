@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_emr_instance_groups_add(cluster_id, instance_groups)
+#
+# Arg(s):
+#    cluster_id - 
+#    instance_groups - 
+#
+#
+#>
+######################################################################
 p6_aws_emr_instance_groups_add() {
     local cluster_id="$1"
     local instance_groups="$2"

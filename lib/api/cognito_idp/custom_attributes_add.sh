@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_idp_custom_attributes_add(user_pool_id, custom_attributes)
+#
+# Arg(s):
+#    user_pool_id - 
+#    custom_attributes - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_idp_custom_attributes_add() {
     local user_pool_id="$1"
     local custom_attributes="$2"

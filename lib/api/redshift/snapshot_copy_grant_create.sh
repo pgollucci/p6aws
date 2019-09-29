@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_snapshot_copy_grant_create(snapshot_copy_grant_name)
+#
+# Arg(s):
+#    snapshot_copy_grant_name - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_snapshot_copy_grant_create() {
     local snapshot_copy_grant_name="$1"
     shift 1

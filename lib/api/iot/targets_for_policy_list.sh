@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_targets_for_policy_list(policy_name)
+#
+# Arg(s):
+#    policy_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_targets_for_policy_list() {
     local policy_name="$1"
     shift 1

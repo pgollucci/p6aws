@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pi_resource_metrics_get(service_type, identifier, metric_queries, start_time, end_time)
+#
+# Arg(s):
+#    service_type - 
+#    identifier - 
+#    metric_queries - 
+#    start_time - 
+#    end_time - 
+#
+#
+#>
+######################################################################
 p6_aws_pi_resource_metrics_get() {
     local service_type="$1"
     local identifier="$2"

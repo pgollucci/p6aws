@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_directconnect_interconnect_delete(interconnect_id)
+#
+# Arg(s):
+#    interconnect_id - 
+#
+#
+#>
+######################################################################
 p6_aws_directconnect_interconnect_delete() {
     local interconnect_id="$1"
     shift 1

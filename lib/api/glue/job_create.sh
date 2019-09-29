@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_job_create(name, role, command)
+#
+# Arg(s):
+#    name - 
+#    role - 
+#    command - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_job_create() {
     local name="$1"
     local role="$2"

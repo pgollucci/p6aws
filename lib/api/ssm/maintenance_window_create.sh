@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_maintenance_window_create(name, schedule, duration, cutoff, allow_unassociated_targets)
+#
+# Arg(s):
+#    name - 
+#    schedule - 
+#    duration - 
+#    cutoff - 
+#    allow_unassociated_targets - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_maintenance_window_create() {
     local name="$1"
     local schedule="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_groundstation_dataflow_endpoint_group_delete(dataflow_endpoint_group_id)
+#
+# Arg(s):
+#    dataflow_endpoint_group_id - 
+#
+#
+#>
+######################################################################
 p6_aws_groundstation_dataflow_endpoint_group_delete() {
     local dataflow_endpoint_group_id="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_snapshot_delete(snapshot_id)
+#
+# Arg(s):
+#    snapshot_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_snapshot_delete() {
     local snapshot_id="$1"
     shift 1

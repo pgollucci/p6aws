@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigateway_usage_plan_key_create(usage_plan_id, key_id, key_type)
+#
+# Arg(s):
+#    usage_plan_id - 
+#    key_id - 
+#    key_type - 
+#
+#
+#>
+######################################################################
 p6_aws_apigateway_usage_plan_key_create() {
     local usage_plan_id="$1"
     local key_id="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_opsworks_user_profile_delete(iam_user_arn)
+#
+# Arg(s):
+#    iam_user_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_opsworks_user_profile_delete() {
     local iam_user_arn="$1"
     shift 1

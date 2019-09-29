@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_policy_create(policy_name, policy_document)
+#
+# Arg(s):
+#    policy_name - 
+#    policy_document - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_policy_create() {
     local policy_name="$1"
     local policy_document="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alexaforbusiness_user_create(user_id)
+#
+# Arg(s):
+#    user_id - 
+#
+#
+#>
+######################################################################
 p6_aws_alexaforbusiness_user_create() {
     local user_id="$1"
     shift 1

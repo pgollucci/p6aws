@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_xss_match_set_update(xss_match_set_id, change_token, updates)
+#
+# Arg(s):
+#    xss_match_set_id - 
+#    change_token - 
+#    updates - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_xss_match_set_update() {
     local xss_match_set_id="$1"
     local change_token="$2"

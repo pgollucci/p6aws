@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_instance_patch_states_describe(instance_ids)
+#
+# Arg(s):
+#    instance_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_instance_patch_states_describe() {
     local instance_ids="$1"
     shift 1

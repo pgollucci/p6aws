@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_opsworks_volume_register(stack_id)
+#
+# Arg(s):
+#    stack_id - 
+#
+#
+#>
+######################################################################
 p6_aws_opsworks_volume_register() {
     local stack_id="$1"
     shift 1

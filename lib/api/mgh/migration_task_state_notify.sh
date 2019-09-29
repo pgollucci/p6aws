@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mgh_migration_task_state_notify(progress_update_stream, migration_task_name, task, update_date_time, next_update_seconds)
+#
+# Arg(s):
+#    progress_update_stream - 
+#    migration_task_name - 
+#    task - 
+#    update_date_time - 
+#    next_update_seconds - 
+#
+#
+#>
+######################################################################
 p6_aws_mgh_migration_task_state_notify() {
     local progress_update_stream="$1"
     local migration_task_name="$2"

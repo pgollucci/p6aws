@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dms_replication_subnet_group_create(replication_subnet_group_identifier, replication_subnet_group_description, subnet_ids)
+#
+# Arg(s):
+#    replication_subnet_group_identifier - 
+#    replication_subnet_group_description - 
+#    subnet_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_dms_replication_subnet_group_create() {
     local replication_subnet_group_identifier="$1"
     local replication_subnet_group_description="$2"

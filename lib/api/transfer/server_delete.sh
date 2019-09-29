@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_transfer_server_delete(server_id)
+#
+# Arg(s):
+#    server_id - 
+#
+#
+#>
+######################################################################
 p6_aws_transfer_server_delete() {
     local server_id="$1"
     shift 1

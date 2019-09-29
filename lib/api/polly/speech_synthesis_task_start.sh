@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_polly_speech_synthesis_task_start(output_format, output_s3_bucket_name, text, voice_id)
+#
+# Arg(s):
+#    output_format - 
+#    output_s3_bucket_name - 
+#    text - 
+#    voice_id - 
+#
+#
+#>
+######################################################################
 p6_aws_polly_speech_synthesis_task_start() {
     local output_format="$1"
     local output_s3_bucket_name="$2"

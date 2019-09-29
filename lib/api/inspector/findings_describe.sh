@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_inspector_findings_describe(finding_arns)
+#
+# Arg(s):
+#    finding_arns - 
+#
+#
+#>
+######################################################################
 p6_aws_inspector_findings_describe() {
     local finding_arns="$1"
     shift 1

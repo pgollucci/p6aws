@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_autoscaling_instance_health_set(instance_id, health_status)
+#
+# Arg(s):
+#    instance_id - 
+#    health_status - 
+#
+#
+#>
+######################################################################
 p6_aws_autoscaling_instance_health_set() {
     local instance_id="$1"
     local health_status="$2"

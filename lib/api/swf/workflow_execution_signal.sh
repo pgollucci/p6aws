@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_swf_workflow_execution_signal(domain, workflow_id, signal_name)
+#
+# Arg(s):
+#    domain - 
+#    workflow_id - 
+#    signal_name - 
+#
+#
+#>
+######################################################################
 p6_aws_swf_workflow_execution_signal() {
     local domain="$1"
     local workflow_id="$2"

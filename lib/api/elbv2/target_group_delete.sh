@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elbv2_target_group_delete(target_group_arn)
+#
+# Arg(s):
+#    target_group_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_elbv2_target_group_delete() {
     local target_group_arn="$1"
     shift 1

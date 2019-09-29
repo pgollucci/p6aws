@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alexaforbusiness_conference_provider_get(conference_provider_arn)
+#
+# Arg(s):
+#    conference_provider_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_alexaforbusiness_conference_provider_get() {
     local conference_provider_arn="$1"
     shift 1

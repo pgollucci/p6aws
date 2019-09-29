@@ -1,3 +1,21 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lightsail_instance_metric_data_get(instance_name, metric_name, period, start_time, end_time, unit, statistics)
+#
+# Arg(s):
+#    instance_name - 
+#    metric_name - 
+#    period - 
+#    start_time - 
+#    end_time - 
+#    unit - 
+#    statistics - 
+#
+#
+#>
+######################################################################
 p6_aws_lightsail_instance_metric_data_get() {
     local instance_name="$1"
     local metric_name="$2"

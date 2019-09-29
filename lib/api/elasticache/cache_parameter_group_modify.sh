@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elasticache_cache_parameter_group_modify(cache_parameter_group_name, parameter_name_values)
+#
+# Arg(s):
+#    cache_parameter_group_name - 
+#    parameter_name_values - 
+#
+#
+#>
+######################################################################
 p6_aws_elasticache_cache_parameter_group_modify() {
     local cache_parameter_group_name="$1"
     local parameter_name_values="$2"

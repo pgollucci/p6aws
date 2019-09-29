@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_logs_log_group_tag(log_group_name, tags)
+#
+# Arg(s):
+#    log_group_name - 
+#    tags - 
+#
+#
+#>
+######################################################################
 p6_aws_logs_log_group_tag() {
     local log_group_name="$1"
     local tags="$2"

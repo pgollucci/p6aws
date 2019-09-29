@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mediastore_lifecycle_policy_put(container_name, lifecycle_policy)
+#
+# Arg(s):
+#    container_name - 
+#    lifecycle_policy - 
+#
+#
+#>
+######################################################################
 p6_aws_mediastore_lifecycle_policy_put() {
     local container_name="$1"
     local lifecycle_policy="$2"

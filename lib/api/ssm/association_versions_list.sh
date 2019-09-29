@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_association_versions_list(association_id)
+#
+# Arg(s):
+#    association_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_association_versions_list() {
     local association_id="$1"
     shift 1

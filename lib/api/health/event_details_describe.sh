@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_health_event_details_describe(event_arns)
+#
+# Arg(s):
+#    event_arns - 
+#
+#
+#>
+######################################################################
 p6_aws_health_event_details_describe() {
     local event_arns="$1"
     shift 1

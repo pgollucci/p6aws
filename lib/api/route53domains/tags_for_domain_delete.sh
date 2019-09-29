@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53domains_tags_for_domain_delete(domain_name, tags_to_delete)
+#
+# Arg(s):
+#    domain_name - 
+#    tags_to_delete - 
+#
+#
+#>
+######################################################################
 p6_aws_route53domains_tags_for_domain_delete() {
     local domain_name="$1"
     local tags_to_delete="$2"

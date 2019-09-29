@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iotanalytics_put_message_batch(channel_name, messages)
+#
+# Arg(s):
+#    channel_name - 
+#    messages - 
+#
+#
+#>
+######################################################################
 p6_aws_iotanalytics_put_message_batch() {
     local channel_name="$1"
     local messages="$2"

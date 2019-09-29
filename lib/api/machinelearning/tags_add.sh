@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_machinelearning_tags_add(tags, resource_id, resource_type)
+#
+# Arg(s):
+#    tags - 
+#    resource_id - 
+#    resource_type - 
+#
+#
+#>
+######################################################################
 p6_aws_machinelearning_tags_add() {
     local tags="$1"
     local resource_id="$2"

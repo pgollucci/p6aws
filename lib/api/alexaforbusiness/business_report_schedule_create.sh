@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alexaforbusiness_business_report_schedule_create(format, content_range)
+#
+# Arg(s):
+#    format - 
+#    content_range - 
+#
+#
+#>
+######################################################################
 p6_aws_alexaforbusiness_business_report_schedule_create() {
     local format="$1"
     local content_range="$2"

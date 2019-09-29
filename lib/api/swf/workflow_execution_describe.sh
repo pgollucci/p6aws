@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_swf_workflow_execution_describe(domain, execution)
+#
+# Arg(s):
+#    domain - 
+#    execution - 
+#
+#
+#>
+######################################################################
 p6_aws_swf_workflow_execution_describe() {
     local domain="$1"
     local execution="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_clouddirectory_typed_link_facet_names_list(schema_arn)
+#
+# Arg(s):
+#    schema_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_clouddirectory_typed_link_facet_names_list() {
     local schema_arn="$1"
     shift 1

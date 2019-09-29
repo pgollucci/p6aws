@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_cluster_security_group_delete(cluster_security_group_name)
+#
+# Arg(s):
+#    cluster_security_group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_cluster_security_group_delete() {
     local cluster_security_group_name="$1"
     shift 1

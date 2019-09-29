@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codepipeline_third_party_job_failure_result_put(job_id, client_token, failure_details)
+#
+# Arg(s):
+#    job_id - 
+#    client_token - 
+#    failure_details - 
+#
+#
+#>
+######################################################################
 p6_aws_codepipeline_third_party_job_failure_result_put() {
     local job_id="$1"
     local client_token="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_regional_xss_match_set_delete(xss_match_set_id, change_token)
+#
+# Arg(s):
+#    xss_match_set_id - 
+#    change_token - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_regional_xss_match_set_delete() {
     local xss_match_set_id="$1"
     local change_token="$2"

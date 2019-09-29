@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_emr_clusters_terminate(cluster_ids)
+#
+# Arg(s):
+#    cluster_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_emr_clusters_terminate() {
     local cluster_ids="$1"
     shift 1

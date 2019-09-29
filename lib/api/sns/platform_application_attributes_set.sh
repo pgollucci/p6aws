@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sns_platform_application_attributes_set(platform_application_arn, attributes)
+#
+# Arg(s):
+#    platform_application_arn - 
+#    attributes - 
+#
+#
+#>
+######################################################################
 p6_aws_sns_platform_application_attributes_set() {
     local platform_application_arn="$1"
     local attributes="$2"

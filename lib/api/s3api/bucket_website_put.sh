@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3api_bucket_website_put(bucket, website_configuration)
+#
+# Arg(s):
+#    bucket - 
+#    website_configuration - 
+#
+#
+#>
+######################################################################
 p6_aws_s3api_bucket_website_put() {
     local bucket="$1"
     local website_configuration="$2"

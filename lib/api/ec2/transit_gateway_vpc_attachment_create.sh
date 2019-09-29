@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_transit_gateway_vpc_attachment_create(transit_gateway_id, vpc_id, subnet_ids)
+#
+# Arg(s):
+#    transit_gateway_id - 
+#    vpc_id - 
+#    subnet_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_transit_gateway_vpc_attachment_create() {
     local transit_gateway_id="$1"
     local vpc_id="$2"

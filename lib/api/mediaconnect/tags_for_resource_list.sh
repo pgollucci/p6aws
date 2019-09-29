@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mediaconnect_tags_for_resource_list(resource_arn)
+#
+# Arg(s):
+#    resource_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_mediaconnect_tags_for_resource_list() {
     local resource_arn="$1"
     shift 1

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kafka_configuration_create(kafka_versions, name, server_properties)
+#
+# Arg(s):
+#    kafka_versions - 
+#    name - 
+#    server_properties - 
+#
+#
+#>
+######################################################################
 p6_aws_kafka_configuration_create() {
     local kafka_versions="$1"
     local name="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_user_defined_function_create(database_name, function_input)
+#
+# Arg(s):
+#    database_name - 
+#    function_input - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_user_defined_function_create() {
     local database_name="$1"
     local function_input="$2"

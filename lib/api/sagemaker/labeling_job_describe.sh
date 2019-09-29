@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sagemaker_labeling_job_describe(labeling_job_name)
+#
+# Arg(s):
+#    labeling_job_name - 
+#
+#
+#>
+######################################################################
 p6_aws_sagemaker_labeling_job_describe() {
     local labeling_job_name="$1"
     shift 1

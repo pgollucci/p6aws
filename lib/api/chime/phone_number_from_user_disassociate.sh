@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_chime_phone_number_from_user_disassociate(account_id, user_id)
+#
+# Arg(s):
+#    account_id - 
+#    user_id - 
+#
+#
+#>
+######################################################################
 p6_aws_chime_phone_number_from_user_disassociate() {
     local account_id="$1"
     local user_id="$2"

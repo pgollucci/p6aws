@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workdocs_folder_create(parent_folder_id)
+#
+# Arg(s):
+#    parent_folder_id - 
+#
+#
+#>
+######################################################################
 p6_aws_workdocs_folder_create() {
     local parent_folder_id="$1"
     shift 1

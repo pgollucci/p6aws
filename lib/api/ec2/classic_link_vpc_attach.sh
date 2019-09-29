@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_classic_link_vpc_attach(groups, instance_id, vpc_id)
+#
+# Arg(s):
+#    groups - 
+#    instance_id - 
+#    vpc_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_classic_link_vpc_attach() {
     local groups="$1"
     local instance_id="$2"

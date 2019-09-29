@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_robomaker_robot_describe(robot)
+#
+# Arg(s):
+#    robot - 
+#
+#
+#>
+######################################################################
 p6_aws_robomaker_robot_describe() {
     local robot="$1"
     shift 1

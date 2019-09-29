@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sagemaker_transform_job_describe(transform_job_name)
+#
+# Arg(s):
+#    transform_job_name - 
+#
+#
+#>
+######################################################################
 p6_aws_sagemaker_transform_job_describe() {
     local transform_job_name="$1"
     shift 1

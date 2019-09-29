@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_greengrass_subscription_definition_version_get(subscription_definition_id, subscription_definition_version_id)
+#
+# Arg(s):
+#    subscription_definition_id - 
+#    subscription_definition_version_id - 
+#
+#
+#>
+######################################################################
 p6_aws_greengrass_subscription_definition_version_get() {
     local subscription_definition_id="$1"
     local subscription_definition_version_id="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ecs_service_create(service_name)
+#
+# Arg(s):
+#    service_name - 
+#
+#
+#>
+######################################################################
 p6_aws_ecs_service_create() {
     local service_name="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_greengrass_core_definition_version_get(core_definition_id, core_definition_version_id)
+#
+# Arg(s):
+#    core_definition_id - 
+#    core_definition_version_id - 
+#
+#
+#>
+######################################################################
 p6_aws_greengrass_core_definition_version_get() {
     local core_definition_id="$1"
     local core_definition_version_id="$2"

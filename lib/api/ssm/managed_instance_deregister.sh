@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_managed_instance_deregister(instance_id)
+#
+# Arg(s):
+#    instance_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_managed_instance_deregister() {
     local instance_id="$1"
     shift 1

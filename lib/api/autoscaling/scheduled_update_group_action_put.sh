@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_autoscaling_scheduled_update_group_action_put(auto_scaling_group_name, scheduled_action_name)
+#
+# Arg(s):
+#    auto_scaling_group_name - 
+#    scheduled_action_name - 
+#
+#
+#>
+######################################################################
 p6_aws_autoscaling_scheduled_update_group_action_put() {
     local auto_scaling_group_name="$1"
     local scheduled_action_name="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_opsworks_cm_node_association_status_describe(node_association_status_token, server_name)
+#
+# Arg(s):
+#    node_association_status_token - 
+#    server_name - 
+#
+#
+#>
+######################################################################
 p6_aws_opsworks_cm_node_association_status_describe() {
     local node_association_status_token="$1"
     local server_name="$2"

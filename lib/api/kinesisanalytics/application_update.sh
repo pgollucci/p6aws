@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kinesisanalytics_application_update(application_name, current_application_version_id, application_update)
+#
+# Arg(s):
+#    application_name - 
+#    current_application_version_id - 
+#    application_update - 
+#
+#
+#>
+######################################################################
 p6_aws_kinesisanalytics_application_update() {
     local application_name="$1"
     local current_application_version_id="$2"

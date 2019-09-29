@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_trigger_update(name, trigger_update)
+#
+# Arg(s):
+#    name - 
+#    trigger_update - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_trigger_update() {
     local name="$1"
     local trigger_update="$2"

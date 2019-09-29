@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_scheduled_instances_purchase(purchase_requests)
+#
+# Arg(s):
+#    purchase_requests - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_scheduled_instances_purchase() {
     local purchase_requests="$1"
     shift 1

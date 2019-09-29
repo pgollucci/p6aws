@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_application_insights_components_list(resource_group_name)
+#
+# Arg(s):
+#    resource_group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_application_insights_components_list() {
     local resource_group_name="$1"
     shift 1

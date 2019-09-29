@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_comprehend_entity_recognizer_describe(entity_recognizer_arn)
+#
+# Arg(s):
+#    entity_recognizer_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_comprehend_entity_recognizer_describe() {
     local entity_recognizer_arn="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workmail_user_delete(organization_id, user_id)
+#
+# Arg(s):
+#    organization_id - 
+#    user_id - 
+#
+#
+#>
+######################################################################
 p6_aws_workmail_user_delete() {
     local organization_id="$1"
     local user_id="$2"

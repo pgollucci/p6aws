@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_discovery_tags_delete(configuration_ids)
+#
+# Arg(s):
+#    configuration_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_discovery_tags_delete() {
     local configuration_ids="$1"
     shift 1

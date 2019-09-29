@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lightsail_relational_database_snapshot_create(relational_database_name, relational_database_snapshot_name)
+#
+# Arg(s):
+#    relational_database_name - 
+#    relational_database_snapshot_name - 
+#
+#
+#>
+######################################################################
 p6_aws_lightsail_relational_database_snapshot_create() {
     local relational_database_name="$1"
     local relational_database_snapshot_name="$2"

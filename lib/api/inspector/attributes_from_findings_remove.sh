@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_inspector_attributes_from_findings_remove(finding_arns, attribute_keys)
+#
+# Arg(s):
+#    finding_arns - 
+#    attribute_keys - 
+#
+#
+#>
+######################################################################
 p6_aws_inspector_attributes_from_findings_remove() {
     local finding_arns="$1"
     local attribute_keys="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_storagegateway_cache_refresh(file_share_arn)
+#
+# Arg(s):
+#    file_share_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_storagegateway_cache_refresh() {
     local file_share_arn="$1"
     shift 1

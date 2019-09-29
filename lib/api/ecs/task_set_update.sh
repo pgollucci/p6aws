@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ecs_task_set_update(cluster, service, task_set, scale)
+#
+# Arg(s):
+#    cluster - 
+#    service - 
+#    task_set - 
+#    scale - 
+#
+#
+#>
+######################################################################
 p6_aws_ecs_task_set_update() {
     local cluster="$1"
     local service="$2"

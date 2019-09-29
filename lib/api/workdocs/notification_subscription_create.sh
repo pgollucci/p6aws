@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workdocs_notification_subscription_create(organization_id, protocol, subscription_type, notification_endpoint)
+#
+# Arg(s):
+#    organization_id - 
+#    protocol - 
+#    subscription_type - 
+#    notification_endpoint - 
+#
+#
+#>
+######################################################################
 p6_aws_workdocs_notification_subscription_create() {
     local organization_id="$1"
     local protocol="$2"

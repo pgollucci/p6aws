@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_option_group_options_describe(engine_name)
+#
+# Arg(s):
+#    engine_name - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_option_group_options_describe() {
     local engine_name="$1"
     shift 1

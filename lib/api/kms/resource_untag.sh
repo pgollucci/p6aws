@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kms_resource_untag(key_id, tag_keys)
+#
+# Arg(s):
+#    key_id - 
+#    tag_keys - 
+#
+#
+#>
+######################################################################
 p6_aws_kms_resource_untag() {
     local key_id="$1"
     local tag_keys="$2"

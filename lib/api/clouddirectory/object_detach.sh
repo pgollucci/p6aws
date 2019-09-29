@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_clouddirectory_object_detach(directory_arn, parent_reference, link_name)
+#
+# Arg(s):
+#    directory_arn - 
+#    parent_reference - 
+#    link_name - 
+#
+#
+#>
+######################################################################
 p6_aws_clouddirectory_object_detach() {
     local directory_arn="$1"
     local parent_reference="$2"

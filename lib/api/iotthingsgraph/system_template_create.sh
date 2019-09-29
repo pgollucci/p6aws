@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iotthingsgraph_system_template_create(definition)
+#
+# Arg(s):
+#    definition - 
+#
+#
+#>
+######################################################################
 p6_aws_iotthingsgraph_system_template_create() {
     local definition="$1"
     shift 1

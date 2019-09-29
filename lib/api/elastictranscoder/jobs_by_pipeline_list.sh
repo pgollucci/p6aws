@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elastictranscoder_jobs_by_pipeline_list(pipeline_id)
+#
+# Arg(s):
+#    pipeline_id - 
+#
+#
+#>
+######################################################################
 p6_aws_elastictranscoder_jobs_by_pipeline_list() {
     local pipeline_id="$1"
     shift 1

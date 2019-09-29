@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elastictranscoder_pipeline_status_update(id, status)
+#
+# Arg(s):
+#    id - 
+#    status - 
+#
+#
+#>
+######################################################################
 p6_aws_elastictranscoder_pipeline_status_update() {
     local id="$1"
     local status="$2"

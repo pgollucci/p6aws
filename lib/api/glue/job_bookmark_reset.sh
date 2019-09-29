@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_job_bookmark_reset(job_name)
+#
+# Arg(s):
+#    job_name - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_job_bookmark_reset() {
     local job_name="$1"
     shift 1

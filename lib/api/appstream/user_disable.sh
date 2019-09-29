@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_appstream_user_disable(user_name, authentication_type)
+#
+# Arg(s):
+#    user_name - 
+#    authentication_type - 
+#
+#
+#>
+######################################################################
 p6_aws_appstream_user_disable() {
     local user_name="$1"
     local authentication_type="$2"

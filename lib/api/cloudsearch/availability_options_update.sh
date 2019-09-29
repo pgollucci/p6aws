@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudsearch_availability_options_update(domain_name, multi_az)
+#
+# Arg(s):
+#    domain_name - 
+#    multi_az - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudsearch_availability_options_update() {
     local domain_name="$1"
     local multi_az="$2"

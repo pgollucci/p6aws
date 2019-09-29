@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53domains_domain_auto_renew_disable(domain_name)
+#
+# Arg(s):
+#    domain_name - 
+#
+#
+#>
+######################################################################
 p6_aws_route53domains_domain_auto_renew_disable() {
     local domain_name="$1"
     shift 1

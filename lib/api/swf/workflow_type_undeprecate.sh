@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_swf_workflow_type_undeprecate(domain, workflow_type)
+#
+# Arg(s):
+#    domain - 
+#    workflow_type - 
+#
+#
+#>
+######################################################################
 p6_aws_swf_workflow_type_undeprecate() {
     local domain="$1"
     local workflow_type="$2"

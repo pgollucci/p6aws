@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_service_quotas_requested_service_quota_change_history_by_quota_list(service_code, quota_code)
+#
+# Arg(s):
+#    service_code - 
+#    quota_code - 
+#
+#
+#>
+######################################################################
 p6_aws_service_quotas_requested_service_quota_change_history_by_quota_list() {
     local service_code="$1"
     local quota_code="$2"

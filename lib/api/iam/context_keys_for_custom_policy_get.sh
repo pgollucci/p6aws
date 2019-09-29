@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_context_keys_for_custom_policy_get(policy_input_list)
+#
+# Arg(s):
+#    policy_input_list - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_context_keys_for_custom_policy_get() {
     local policy_input_list="$1"
     shift 1

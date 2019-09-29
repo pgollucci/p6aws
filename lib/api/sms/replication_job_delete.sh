@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sms_replication_job_delete(replication_job_id)
+#
+# Arg(s):
+#    replication_job_id - 
+#
+#
+#>
+######################################################################
 p6_aws_sms_replication_job_delete() {
     local replication_job_id="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_vpc_endpoint_connections_reject(service_id, vpc_endpoint_ids)
+#
+# Arg(s):
+#    service_id - 
+#    vpc_endpoint_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_vpc_endpoint_connections_reject() {
     local service_id="$1"
     local vpc_endpoint_ids="$2"

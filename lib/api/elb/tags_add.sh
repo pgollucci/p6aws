@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elb_tags_add(load_balancer_names, tags)
+#
+# Arg(s):
+#    load_balancer_names - 
+#    tags - 
+#
+#
+#>
+######################################################################
 p6_aws_elb_tags_add() {
     local load_balancer_names="$1"
     local tags="$2"

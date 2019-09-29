@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigateway_deployment_create(rest_api_id)
+#
+# Arg(s):
+#    rest_api_id - 
+#
+#
+#>
+######################################################################
 p6_aws_apigateway_deployment_create() {
     local rest_api_id="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ds_ip_routes_add(directory_id, ip_routes)
+#
+# Arg(s):
+#    directory_id - 
+#    ip_routes - 
+#
+#
+#>
+######################################################################
 p6_aws_ds_ip_routes_add() {
     local directory_id="$1"
     local ip_routes="$2"

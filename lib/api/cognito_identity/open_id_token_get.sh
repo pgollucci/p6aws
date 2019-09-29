@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_identity_open_id_token_get(identity_id)
+#
+# Arg(s):
+#    identity_id - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_identity_open_id_token_get() {
     local identity_id="$1"
     shift 1

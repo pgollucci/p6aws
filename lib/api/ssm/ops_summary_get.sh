@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_ops_summary_get(aggregators)
+#
+# Arg(s):
+#    aggregators - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_ops_summary_get() {
     local aggregators="$1"
     shift 1

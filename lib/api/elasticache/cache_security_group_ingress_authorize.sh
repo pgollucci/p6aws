@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elasticache_cache_security_group_ingress_authorize(cache_security_group_name, ec2_security_group_name, ec2_security_group_owner_id)
+#
+# Arg(s):
+#    cache_security_group_name - 
+#    ec2_security_group_name - 
+#    ec2_security_group_owner_id - 
+#
+#
+#>
+######################################################################
 p6_aws_elasticache_cache_security_group_ingress_authorize() {
     local cache_security_group_name="$1"
     local ec2_security_group_name="$2"

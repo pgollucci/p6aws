@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_violation_events_list(start_time, end_time)
+#
+# Arg(s):
+#    start_time - 
+#    end_time - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_violation_events_list() {
     local start_time="$1"
     local end_time="$2"

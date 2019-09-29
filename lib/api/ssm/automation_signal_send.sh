@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_automation_signal_send(automation_execution_id, signal_type)
+#
+# Arg(s):
+#    automation_execution_id - 
+#    signal_type - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_automation_signal_send() {
     local automation_execution_id="$1"
     local signal_type="$2"

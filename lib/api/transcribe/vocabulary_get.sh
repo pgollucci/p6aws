@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_transcribe_vocabulary_get(vocabulary_name)
+#
+# Arg(s):
+#    vocabulary_name - 
+#
+#
+#>
+######################################################################
 p6_aws_transcribe_vocabulary_get() {
     local vocabulary_name="$1"
     shift 1

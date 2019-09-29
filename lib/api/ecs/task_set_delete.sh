@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ecs_task_set_delete(cluster, service, task_set)
+#
+# Arg(s):
+#    cluster - 
+#    service - 
+#    task_set - 
+#
+#
+#>
+######################################################################
 p6_aws_ecs_task_set_delete() {
     local cluster="$1"
     local service="$2"

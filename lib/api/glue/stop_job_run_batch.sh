@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_stop_job_run_batch(job_name, job_run_ids)
+#
+# Arg(s):
+#    job_name - 
+#    job_run_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_stop_job_run_batch() {
     local job_name="$1"
     local job_run_ids="$2"

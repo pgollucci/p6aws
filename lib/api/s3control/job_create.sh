@@ -1,3 +1,20 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3control_job_create(account_id, operation, report, manifest, priority, role_arn)
+#
+# Arg(s):
+#    account_id - 
+#    operation - 
+#    report - 
+#    manifest - 
+#    priority - 
+#    role_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_s3control_job_create() {
     local account_id="$1"
     local operation="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_get_dev_endpoints_batch(dev_endpoint_names)
+#
+# Arg(s):
+#    dev_endpoint_names - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_get_dev_endpoints_batch() {
     local dev_endpoint_names="$1"
     shift 1

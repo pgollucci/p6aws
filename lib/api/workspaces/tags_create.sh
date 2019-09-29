@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workspaces_tags_create(resource_id, tags)
+#
+# Arg(s):
+#    resource_id - 
+#    tags - 
+#
+#
+#>
+######################################################################
 p6_aws_workspaces_tags_create() {
     local resource_id="$1"
     local tags="$2"

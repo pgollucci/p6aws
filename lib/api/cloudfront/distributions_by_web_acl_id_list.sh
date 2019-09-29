@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudfront_distributions_by_web_acl_id_list(web_acl_id)
+#
+# Arg(s):
+#    web_acl_id - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudfront_distributions_by_web_acl_id_list() {
     local web_acl_id="$1"
     shift 1

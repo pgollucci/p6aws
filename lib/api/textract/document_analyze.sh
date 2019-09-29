@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_textract_document_analyze(document, feature_types)
+#
+# Arg(s):
+#    document - 
+#    feature_types - 
+#
+#
+#>
+######################################################################
 p6_aws_textract_document_analyze() {
     local document="$1"
     local feature_types="$2"

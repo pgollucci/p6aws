@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_worklink_fleet_metadata_describe(fleet_arn)
+#
+# Arg(s):
+#    fleet_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_worklink_fleet_metadata_describe() {
     local fleet_arn="$1"
     shift 1

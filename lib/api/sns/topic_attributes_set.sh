@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sns_topic_attributes_set(topic_arn, attribute_name)
+#
+# Arg(s):
+#    topic_arn - 
+#    attribute_name - 
+#
+#
+#>
+######################################################################
 p6_aws_sns_topic_attributes_set() {
     local topic_arn="$1"
     local attribute_name="$2"

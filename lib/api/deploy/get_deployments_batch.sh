@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_deploy_get_deployments_batch(deployment_ids)
+#
+# Arg(s):
+#    deployment_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_deploy_get_deployments_batch() {
     local deployment_ids="$1"
     shift 1

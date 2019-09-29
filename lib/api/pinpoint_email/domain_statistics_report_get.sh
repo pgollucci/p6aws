@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pinpoint_email_domain_statistics_report_get(domain, start_date, end_date)
+#
+# Arg(s):
+#    domain - 
+#    start_date - 
+#    end_date - 
+#
+#
+#>
+######################################################################
 p6_aws_pinpoint_email_domain_statistics_report_get() {
     local domain="$1"
     local start_date="$2"

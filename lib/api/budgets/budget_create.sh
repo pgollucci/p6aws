@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_budgets_budget_create(account_id, budget)
+#
+# Arg(s):
+#    account_id - 
+#    budget - 
+#
+#
+#>
+######################################################################
 p6_aws_budgets_budget_create() {
     local account_id="$1"
     local budget="$2"

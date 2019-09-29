@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_gamelift_vpc_peering_authorization_create(game_lift_aws_account_id, peer_vpc_id)
+#
+# Arg(s):
+#    game_lift_aws_account_id - 
+#    peer_vpc_id - 
+#
+#
+#>
+######################################################################
 p6_aws_gamelift_vpc_peering_authorization_create() {
     local game_lift_aws_account_id="$1"
     local peer_vpc_id="$2"

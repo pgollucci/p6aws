@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_target_with_maintenance_window_register(window_id, resource_type, targets)
+#
+# Arg(s):
+#    window_id - 
+#    resource_type - 
+#    targets - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_target_with_maintenance_window_register() {
     local window_id="$1"
     local resource_type="$2"

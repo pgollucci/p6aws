@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workmail_alias_create(organization_id, entity_id, alias)
+#
+# Arg(s):
+#    organization_id - 
+#    entity_id - 
+#    alias - 
+#
+#
+#>
+######################################################################
 p6_aws_workmail_alias_create() {
     local organization_id="$1"
     local entity_id="$2"

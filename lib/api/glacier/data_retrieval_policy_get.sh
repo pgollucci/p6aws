@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glacier_data_retrieval_policy_get(account_id)
+#
+# Arg(s):
+#    account_id - 
+#
+#
+#>
+######################################################################
 p6_aws_glacier_data_retrieval_policy_get() {
     local account_id="$1"
     shift 1

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudsearch_index_field_define(domain_name, name, type)
+#
+# Arg(s):
+#    domain_name - 
+#    name - 
+#    type - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudsearch_index_field_define() {
     local domain_name="$1"
     local name="$2"

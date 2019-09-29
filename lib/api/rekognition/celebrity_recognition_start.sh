@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rekognition_celebrity_recognition_start(video)
+#
+# Arg(s):
+#    video - 
+#
+#
+#>
+######################################################################
 p6_aws_rekognition_celebrity_recognition_start() {
     local video="$1"
     shift 1

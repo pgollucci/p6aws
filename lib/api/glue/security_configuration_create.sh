@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_security_configuration_create(name, encryption_configuration)
+#
+# Arg(s):
+#    name - 
+#    encryption_configuration - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_security_configuration_create() {
     local name="$1"
     local encryption_configuration="$2"

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_datasync_location_nfs_create(subdirectory, server_hostname, on_prem_config)
+#
+# Arg(s):
+#    subdirectory - 
+#    server_hostname - 
+#    on_prem_config - 
+#
+#
+#>
+######################################################################
 p6_aws_datasync_location_nfs_create() {
     local subdirectory="$1"
     local server_hostname="$2"

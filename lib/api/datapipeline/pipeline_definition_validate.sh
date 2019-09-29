@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_datapipeline_pipeline_definition_validate(pipeline_id, pipeline_objects)
+#
+# Arg(s):
+#    pipeline_id - 
+#    pipeline_objects - 
+#
+#
+#>
+######################################################################
 p6_aws_datapipeline_pipeline_definition_validate() {
     local pipeline_id="$1"
     local pipeline_objects="$2"

@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_directconnect_hosted_connection_allocate(connection_id, owner_account, bandwidth, connection_name, vlan)
+#
+# Arg(s):
+#    connection_id - 
+#    owner_account - 
+#    bandwidth - 
+#    connection_name - 
+#    vlan - 
+#
+#
+#>
+######################################################################
 p6_aws_directconnect_hosted_connection_allocate() {
     local connection_id="$1"
     local owner_account="$2"

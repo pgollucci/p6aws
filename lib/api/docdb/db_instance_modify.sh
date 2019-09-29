@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_docdb_db_instance_modify(db_instance_identifier)
+#
+# Arg(s):
+#    db_instance_identifier - 
+#
+#
+#>
+######################################################################
 p6_aws_docdb_db_instance_modify() {
     local db_instance_identifier="$1"
     shift 1

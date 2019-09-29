@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_shield_protection_create(name, resource_arn)
+#
+# Arg(s):
+#    name - 
+#    resource_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_shield_protection_create() {
     local name="$1"
     local resource_arn="$2"

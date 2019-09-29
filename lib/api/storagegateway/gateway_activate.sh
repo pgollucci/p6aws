@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_storagegateway_gateway_activate(activation_key, gateway_name, gateway_timezone, gateway_region)
+#
+# Arg(s):
+#    activation_key - 
+#    gateway_name - 
+#    gateway_timezone - 
+#    gateway_region - 
+#
+#
+#>
+######################################################################
 p6_aws_storagegateway_gateway_activate() {
     local activation_key="$1"
     local gateway_name="$2"

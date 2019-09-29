@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_deploy_deployment_group_create(application_name, deployment_group_name, service_role_arn)
+#
+# Arg(s):
+#    application_name - 
+#    deployment_group_name - 
+#    service_role_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_deploy_deployment_group_create() {
     local application_name="$1"
     local deployment_group_name="$2"

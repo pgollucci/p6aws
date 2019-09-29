@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elasticbeanstalk_configuration_settings_validate(application_name, option_settings)
+#
+# Arg(s):
+#    application_name - 
+#    option_settings - 
+#
+#
+#>
+######################################################################
 p6_aws_elasticbeanstalk_configuration_settings_validate() {
     local application_name="$1"
     local option_settings="$2"

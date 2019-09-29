@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_comprehend_sentiment_detection_job_stop(job_id)
+#
+# Arg(s):
+#    job_id - 
+#
+#
+#>
+######################################################################
 p6_aws_comprehend_sentiment_detection_job_stop() {
     local job_id="$1"
     shift 1

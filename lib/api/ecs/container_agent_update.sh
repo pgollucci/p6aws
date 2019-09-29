@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ecs_container_agent_update(container_instance)
+#
+# Arg(s):
+#    container_instance - 
+#
+#
+#>
+######################################################################
 p6_aws_ecs_container_agent_update() {
     local container_instance="$1"
     shift 1

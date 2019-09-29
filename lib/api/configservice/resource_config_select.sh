@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_configservice_resource_config_select(expression)
+#
+# Arg(s):
+#    expression - 
+#
+#
+#>
+######################################################################
 p6_aws_configservice_resource_config_select() {
     local expression="$1"
     shift 1

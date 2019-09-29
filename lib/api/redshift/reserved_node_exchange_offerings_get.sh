@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_reserved_node_exchange_offerings_get(reserved_node_id)
+#
+# Arg(s):
+#    reserved_node_id - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_reserved_node_exchange_offerings_get() {
     local reserved_node_id="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_storagegateway_tags_to_resource_add(resource_arn, tags)
+#
+# Arg(s):
+#    resource_arn - 
+#    tags - 
+#
+#
+#>
+######################################################################
 p6_aws_storagegateway_tags_to_resource_add() {
     local resource_arn="$1"
     local tags="$2"

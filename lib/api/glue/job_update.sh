@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_job_update(job_name, job_update)
+#
+# Arg(s):
+#    job_name - 
+#    job_update - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_job_update() {
     local job_name="$1"
     local job_update="$2"

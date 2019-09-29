@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_things_in_thing_group_list(thing_group_name)
+#
+# Arg(s):
+#    thing_group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_things_in_thing_group_list() {
     local thing_group_name="$1"
     shift 1

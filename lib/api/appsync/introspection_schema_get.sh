@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_appsync_introspection_schema_get(api_id, format)
+#
+# Arg(s):
+#    api_id - 
+#    format - 
+#
+#
+#>
+######################################################################
 p6_aws_appsync_introspection_schema_get() {
     local api_id="$1"
     local format="$2"

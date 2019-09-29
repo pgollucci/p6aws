@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_configservice_discovered_resources_list(resource_type)
+#
+# Arg(s):
+#    resource_type - 
+#
+#
+#>
+######################################################################
 p6_aws_configservice_discovered_resources_list() {
     local resource_type="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sqs_message_visibility_batch_change(queue_url, entries)
+#
+# Arg(s):
+#    queue_url - 
+#    entries - 
+#
+#
+#>
+######################################################################
 p6_aws_sqs_message_visibility_batch_change() {
     local queue_url="$1"
     local entries="$2"

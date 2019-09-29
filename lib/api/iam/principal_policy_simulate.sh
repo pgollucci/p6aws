@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_principal_policy_simulate(policy_source_arn, action_names)
+#
+# Arg(s):
+#    policy_source_arn - 
+#    action_names - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_principal_policy_simulate() {
     local policy_source_arn="$1"
     local action_names="$2"

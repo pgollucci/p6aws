@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_opsworks_app_create(stack_id, name, type)
+#
+# Arg(s):
+#    stack_id - 
+#    name - 
+#    type - 
+#
+#
+#>
+######################################################################
 p6_aws_opsworks_app_create() {
     local stack_id="$1"
     local name="$2"

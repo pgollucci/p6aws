@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_opsworks_instance_update(instance_id)
+#
+# Arg(s):
+#    instance_id - 
+#
+#
+#>
+######################################################################
 p6_aws_opsworks_instance_update() {
     local instance_id="$1"
     shift 1

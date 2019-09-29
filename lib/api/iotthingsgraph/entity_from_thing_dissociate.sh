@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iotthingsgraph_entity_from_thing_dissociate(thing_name, entity_type)
+#
+# Arg(s):
+#    thing_name - 
+#    entity_type - 
+#
+#
+#>
+######################################################################
 p6_aws_iotthingsgraph_entity_from_thing_dissociate() {
     local thing_name="$1"
     local entity_type="$2"

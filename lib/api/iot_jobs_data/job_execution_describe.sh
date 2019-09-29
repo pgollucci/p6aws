@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_jobs_data_job_execution_describe(job_id, thing_name)
+#
+# Arg(s):
+#    job_id - 
+#    thing_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_jobs_data_job_execution_describe() {
     local job_id="$1"
     local thing_name="$2"

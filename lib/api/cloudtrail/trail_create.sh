@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudtrail_trail_create(name, s3_bucket_name)
+#
+# Arg(s):
+#    name - 
+#    s3_bucket_name - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudtrail_trail_create() {
     local name="$1"
     local s3_bucket_name="$2"

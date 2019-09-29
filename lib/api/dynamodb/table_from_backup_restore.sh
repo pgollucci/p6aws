@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dynamodb_table_from_backup_restore(target_table_name, backup_arn)
+#
+# Arg(s):
+#    target_table_name - 
+#    backup_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_dynamodb_table_from_backup_restore() {
     local target_table_name="$1"
     local backup_arn="$2"

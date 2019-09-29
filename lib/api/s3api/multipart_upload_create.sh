@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3api_multipart_upload_create(bucket, key)
+#
+# Arg(s):
+#    bucket - 
+#    key - 
+#
+#
+#>
+######################################################################
 p6_aws_s3api_multipart_upload_create() {
     local bucket="$1"
     local key="$2"

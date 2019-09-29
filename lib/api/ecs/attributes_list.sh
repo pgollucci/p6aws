@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ecs_attributes_list(target_type)
+#
+# Arg(s):
+#    target_type - 
+#
+#
+#>
+######################################################################
 p6_aws_ecs_attributes_list() {
     local target_type="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_connect_contact_stop(contact_id, instance_id)
+#
+# Arg(s):
+#    contact_id - 
+#    instance_id - 
+#
+#
+#>
+######################################################################
 p6_aws_connect_contact_stop() {
     local contact_id="$1"
     local instance_id="$2"

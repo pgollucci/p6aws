@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_autoscaling_metrics_collection_enable(auto_scaling_group_name, granularity)
+#
+# Arg(s):
+#    auto_scaling_group_name - 
+#    granularity - 
+#
+#
+#>
+######################################################################
 p6_aws_autoscaling_metrics_collection_enable() {
     local auto_scaling_group_name="$1"
     local granularity="$2"

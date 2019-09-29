@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_login_profile_update(user_name)
+#
+# Arg(s):
+#    user_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_login_profile_update() {
     local user_name="$1"
     shift 1

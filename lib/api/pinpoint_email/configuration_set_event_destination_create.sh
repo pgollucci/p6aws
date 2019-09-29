@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pinpoint_email_configuration_set_event_destination_create(configuration_set_name, event_destination_name, event_destination)
+#
+# Arg(s):
+#    configuration_set_name - 
+#    event_destination_name - 
+#    event_destination - 
+#
+#
+#>
+######################################################################
 p6_aws_pinpoint_email_configuration_set_event_destination_create() {
     local configuration_set_name="$1"
     local event_destination_name="$2"

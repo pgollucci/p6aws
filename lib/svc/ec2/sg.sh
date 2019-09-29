@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_svc_sg_delete(group_name)
+#
+# Arg(s):
+#    group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_svc_sg_delete() {
     local group_name="$1"
 
@@ -6,6 +18,22 @@ p6_aws_ec2_svc_sg_delete() {
     p6_aws_ec2_security_group_delete --group-id $sg_id
 }
 
+######################################################################
+#<
+#
+# Function:
+#     $sg_id = p6_aws_ec2_svc_sg_create(desc, tag_name, [vpc_id])
+#
+# Arg(s):
+#    desc - 
+#    tag_name - 
+#    vpc_id - 
+#
+# Return(s):
+#    $sg_id - 
+#
+#>
+######################################################################
 p6_aws_ec2_svc_sg_create() {
     local desc="$1"
     local tag_name="$2"
@@ -19,6 +47,18 @@ p6_aws_ec2_svc_sg_create() {
     p6_return "$sg_id"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_svc_sgs_list([vpc_id])
+#
+# Arg(s):
+#    vpc_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_svc_sgs_list() {
     local vpc_id="${1:-$AWS_VPC}"
 
@@ -28,6 +68,19 @@ p6_aws_ec2_svc_sgs_list() {
 	--query "'SecurityGroups[].[GroupId, GroupName, $P6_AWS_JQ_TAG_NAME]'"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_svc_sg_show(security_group_id_or_name, [vpc_id])
+#
+# Arg(s):
+#    security_group_id_or_name - 
+#    vpc_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_svc_sg_show() {
     local security_group_id_or_name="$1"
     local vpc_id="${2:-$AWS_VPC}"
@@ -47,6 +100,19 @@ p6_aws_ec2_svc_sg_show() {
     sg_show.pl --security-group-id $security_group_id
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_svc_sg_id_from_tag_name(tag_name, [vpc_id])
+#
+# Arg(s):
+#    tag_name - 
+#    vpc_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_svc_sg_id_from_tag_name() {
     local tag_name="$1"
     local vpc_id="${2:-$AWS_VPC}"
@@ -59,6 +125,19 @@ p6_aws_ec2_svc_sg_id_from_tag_name() {
 }
 
 ## DEPRECATED -- use tags
+######################################################################
+#<
+#
+# Function:
+#      = p6_old_aws_ec2_svc_sg_id_from_group_name(group_name, [vpc_id])
+#
+# Arg(s):
+#    group_name - 
+#    vpc_id - 
+#
+#
+#>
+######################################################################
 p6_old_aws_ec2_svc_sg_id_from_group_name() {
     local group_name="$1"
     local vpc_id="${2:-$AWS_VPC}"

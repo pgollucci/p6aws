@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workmail_resource_create(organization_id, name, type)
+#
+# Arg(s):
+#    organization_id - 
+#    name - 
+#    type - 
+#
+#
+#>
+######################################################################
 p6_aws_workmail_resource_create() {
     local organization_id="$1"
     local name="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_storagegateway_tape_archive_retrieve(tape_arn, gateway_arn)
+#
+# Arg(s):
+#    tape_arn - 
+#    gateway_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_storagegateway_tape_archive_retrieve() {
     local tape_arn="$1"
     local gateway_arn="$2"

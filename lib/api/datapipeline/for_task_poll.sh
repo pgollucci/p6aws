@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_datapipeline_for_task_poll(worker_group)
+#
+# Arg(s):
+#    worker_group - 
+#
+#
+#>
+######################################################################
 p6_aws_datapipeline_for_task_poll() {
     local worker_group="$1"
     shift 1

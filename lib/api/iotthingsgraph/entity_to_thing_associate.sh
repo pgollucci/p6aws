@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iotthingsgraph_entity_to_thing_associate(thing_name, entity_id)
+#
+# Arg(s):
+#    thing_name - 
+#    entity_id - 
+#
+#
+#>
+######################################################################
 p6_aws_iotthingsgraph_entity_to_thing_associate() {
     local thing_name="$1"
     local entity_id="$2"

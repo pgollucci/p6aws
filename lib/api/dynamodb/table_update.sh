@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dynamodb_table_update(table_name)
+#
+# Arg(s):
+#    table_name - 
+#
+#
+#>
+######################################################################
 p6_aws_dynamodb_table_update() {
     local table_name="$1"
     shift 1

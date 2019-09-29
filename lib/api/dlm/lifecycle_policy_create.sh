@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dlm_lifecycle_policy_create(execution_role_arn, description, state, policy_details)
+#
+# Arg(s):
+#    execution_role_arn - 
+#    description - 
+#    state - 
+#    policy_details - 
+#
+#
+#>
+######################################################################
 p6_aws_dlm_lifecycle_policy_create() {
     local execution_role_arn="$1"
     local description="$2"

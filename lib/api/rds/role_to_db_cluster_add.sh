@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_role_to_db_cluster_add(db_cluster_identifier, role_arn)
+#
+# Arg(s):
+#    db_cluster_identifier - 
+#    role_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_role_to_db_cluster_add() {
     local db_cluster_identifier="$1"
     local role_arn="$2"

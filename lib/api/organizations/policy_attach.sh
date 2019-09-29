@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_policy_attach(policy_id, target_id)
+#
+# Arg(s):
+#    policy_id - 
+#    target_id - 
+#
+#
+#>
+######################################################################
 p6_aws_organizations_policy_attach() {
     local policy_id="$1"
     local target_id="$2"

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_comprehend_topics_detection_job_start(input_data_config, output_data_config, data_access_role_arn)
+#
+# Arg(s):
+#    input_data_config - 
+#    output_data_config - 
+#    data_access_role_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_comprehend_topics_detection_job_start() {
     local input_data_config="$1"
     local output_data_config="$2"

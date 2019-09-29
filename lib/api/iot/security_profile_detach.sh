@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_security_profile_detach(security_profile_name, security_profile_target_arn)
+#
+# Arg(s):
+#    security_profile_name - 
+#    security_profile_target_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_security_profile_detach() {
     local security_profile_name="$1"
     local security_profile_target_arn="$2"

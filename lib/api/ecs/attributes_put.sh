@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ecs_attributes_put(attributes)
+#
+# Arg(s):
+#    attributes - 
+#
+#
+#>
+######################################################################
 p6_aws_ecs_attributes_put() {
     local attributes="$1"
     shift 1

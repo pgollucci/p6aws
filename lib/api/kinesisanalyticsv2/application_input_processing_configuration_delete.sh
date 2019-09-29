@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kinesisanalyticsv2_application_input_processing_configuration_delete(application_name, current_application_version_id, input_id)
+#
+# Arg(s):
+#    application_name - 
+#    current_application_version_id - 
+#    input_id - 
+#
+#
+#>
+######################################################################
 p6_aws_kinesisanalyticsv2_application_input_processing_configuration_delete() {
     local application_name="$1"
     local current_application_version_id="$2"

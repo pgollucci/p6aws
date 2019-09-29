@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_worklink_out_user_sign(fleet_arn, username)
+#
+# Arg(s):
+#    fleet_arn - 
+#    username - 
+#
+#
+#>
+######################################################################
 p6_aws_worklink_out_user_sign() {
     local fleet_arn="$1"
     local username="$2"

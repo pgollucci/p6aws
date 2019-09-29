@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sagemaker_runtime_endpoint_invoke(endpoint_name, body)
+#
+# Arg(s):
+#    endpoint_name - 
+#    body - 
+#
+#
+#>
+######################################################################
 p6_aws_sagemaker_runtime_endpoint_invoke() {
     local endpoint_name="$1"
     local body="$2"

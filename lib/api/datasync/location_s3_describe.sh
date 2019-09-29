@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_datasync_location_s3_describe(location_arn)
+#
+# Arg(s):
+#    location_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_datasync_location_s3_describe() {
     local location_arn="$1"
     shift 1

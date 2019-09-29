@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_connect_federation_token_get(instance_id)
+#
+# Arg(s):
+#    instance_id - 
+#
+#
+#>
+######################################################################
 p6_aws_connect_federation_token_get() {
     local instance_id="$1"
     shift 1

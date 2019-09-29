@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudhsm_luna_client_create(certificate)
+#
+# Arg(s):
+#    certificate - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudhsm_luna_client_create() {
     local certificate="$1"
     shift 1

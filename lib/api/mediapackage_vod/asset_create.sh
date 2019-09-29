@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mediapackage_vod_asset_create(id, packaging_group_id, source_arn, source_role_arn)
+#
+# Arg(s):
+#    id - 
+#    packaging_group_id - 
+#    source_arn - 
+#    source_role_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_mediapackage_vod_asset_create() {
     local id="$1"
     local packaging_group_id="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kms_grant_revoke(key_id, grant_id)
+#
+# Arg(s):
+#    key_id - 
+#    grant_id - 
+#
+#
+#>
+######################################################################
 p6_aws_kms_grant_revoke() {
     local key_id="$1"
     local grant_id="$2"

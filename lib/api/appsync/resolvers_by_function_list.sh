@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_appsync_resolvers_by_function_list(api_id, function_id)
+#
+# Arg(s):
+#    api_id - 
+#    function_id - 
+#
+#
+#>
+######################################################################
 p6_aws_appsync_resolvers_by_function_list() {
     local api_id="$1"
     local function_id="$2"

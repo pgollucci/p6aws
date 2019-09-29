@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_cluster_resize(cluster_identifier, number_of_nodes)
+#
+# Arg(s):
+#    cluster_identifier - 
+#    number_of_nodes - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_cluster_resize() {
     local cluster_identifier="$1"
     local number_of_nodes="$2"

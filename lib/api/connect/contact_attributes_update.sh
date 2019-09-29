@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_connect_contact_attributes_update(initial_contact_id, instance_id, attributes)
+#
+# Arg(s):
+#    initial_contact_id - 
+#    instance_id - 
+#    attributes - 
+#
+#
+#>
+######################################################################
 p6_aws_connect_contact_attributes_update() {
     local initial_contact_id="$1"
     local instance_id="$2"

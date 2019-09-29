@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_clouddirectory_typed_link_detach(directory_arn, typed_link_specifier)
+#
+# Arg(s):
+#    directory_arn - 
+#    typed_link_specifier - 
+#
+#
+#>
+######################################################################
 p6_aws_clouddirectory_typed_link_detach() {
     local directory_arn="$1"
     local typed_link_specifier="$2"

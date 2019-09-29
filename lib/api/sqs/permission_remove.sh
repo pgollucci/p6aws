@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sqs_permission_remove(queue_url, label)
+#
+# Arg(s):
+#    queue_url - 
+#    label - 
+#
+#
+#>
+######################################################################
 p6_aws_sqs_permission_remove() {
     local queue_url="$1"
     local label="$2"

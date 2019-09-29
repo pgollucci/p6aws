@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_engine_default_parameters_describe(db_parameter_group_family)
+#
+# Arg(s):
+#    db_parameter_group_family - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_engine_default_parameters_describe() {
     local db_parameter_group_family="$1"
     shift 1

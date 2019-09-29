@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3api_bucket_analytics_configuration_put(bucket, id, analytics_configuration)
+#
+# Arg(s):
+#    bucket - 
+#    id - 
+#    analytics_configuration - 
+#
+#
+#>
+######################################################################
 p6_aws_s3api_bucket_analytics_configuration_put() {
     local bucket="$1"
     local id="$2"

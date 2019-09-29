@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_ota_update_get(ota_update_id)
+#
+# Arg(s):
+#    ota_update_id - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_ota_update_get() {
     local ota_update_id="$1"
     shift 1

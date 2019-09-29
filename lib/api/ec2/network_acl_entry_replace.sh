@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_network_acl_entry_replace(egress, network_acl_id, protocol, rule_action, rule_number)
+#
+# Arg(s):
+#    egress - 
+#    network_acl_id - 
+#    protocol - 
+#    rule_action - 
+#    rule_number - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_network_acl_entry_replace() {
     local egress="$1"
     local network_acl_id="$2"

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_service_quotas_service_quota_increase_request(service_code, quota_code, desired_value)
+#
+# Arg(s):
+#    service_code - 
+#    quota_code - 
+#    desired_value - 
+#
+#
+#>
+######################################################################
 p6_aws_service_quotas_service_quota_increase_request() {
     local service_code="$1"
     local quota_code="$2"

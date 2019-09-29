@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elbv2_load_balancer_attributes_describe(load_balancer_arn)
+#
+# Arg(s):
+#    load_balancer_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_elbv2_load_balancer_attributes_describe() {
     local load_balancer_arn="$1"
     shift 1

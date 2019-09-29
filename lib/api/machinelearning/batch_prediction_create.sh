@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_machinelearning_batch_prediction_create(batch_prediction_id, ml_model_id, batch_prediction_data_source_id, output_uri)
+#
+# Arg(s):
+#    batch_prediction_id - 
+#    ml_model_id - 
+#    batch_prediction_data_source_id - 
+#    output_uri - 
+#
+#
+#>
+######################################################################
 p6_aws_machinelearning_batch_prediction_create() {
     local batch_prediction_id="$1"
     local ml_model_id="$2"

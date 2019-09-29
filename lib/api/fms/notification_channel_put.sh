@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_fms_notification_channel_put(sns_topic_arn, sns_role_name)
+#
+# Arg(s):
+#    sns_topic_arn - 
+#    sns_role_name - 
+#
+#
+#>
+######################################################################
 p6_aws_fms_notification_channel_put() {
     local sns_topic_arn="$1"
     local sns_role_name="$2"

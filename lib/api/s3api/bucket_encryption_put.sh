@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3api_bucket_encryption_put(bucket, server_side_encryption_configuration)
+#
+# Arg(s):
+#    bucket - 
+#    server_side_encryption_configuration - 
+#
+#
+#>
+######################################################################
 p6_aws_s3api_bucket_encryption_put() {
     local bucket="$1"
     local server_side_encryption_configuration="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_scheduled_instances_run(launch_specification, scheduled_instance_id)
+#
+# Arg(s):
+#    launch_specification - 
+#    scheduled_instance_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_scheduled_instances_run() {
     local launch_specification="$1"
     local scheduled_instance_id="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pinpoint_email_dedicated_ip_pool_create(pool_name)
+#
+# Arg(s):
+#    pool_name - 
+#
+#
+#>
+######################################################################
 p6_aws_pinpoint_email_dedicated_ip_pool_create() {
     local pool_name="$1"
     shift 1

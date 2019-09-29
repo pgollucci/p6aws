@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_amplify_domain_associations_list(app_id)
+#
+# Arg(s):
+#    app_id - 
+#
+#
+#>
+######################################################################
 p6_aws_amplify_domain_associations_list() {
     local app_id="$1"
     shift 1

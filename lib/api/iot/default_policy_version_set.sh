@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_default_policy_version_set(policy_name, policy_version_id)
+#
+# Arg(s):
+#    policy_name - 
+#    policy_version_id - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_default_policy_version_set() {
     local policy_name="$1"
     local policy_version_id="$2"

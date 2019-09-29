@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mturk_expiration_for_hit_update(hit_id, expire_at)
+#
+# Arg(s):
+#    hit_id - 
+#    expire_at - 
+#
+#
+#>
+######################################################################
 p6_aws_mturk_expiration_for_hit_update() {
     local hit_id="$1"
     local expire_at="$2"

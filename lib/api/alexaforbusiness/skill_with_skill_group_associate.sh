@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alexaforbusiness_skill_with_skill_group_associate(skill_id)
+#
+# Arg(s):
+#    skill_id - 
+#
+#
+#>
+######################################################################
 p6_aws_alexaforbusiness_skill_with_skill_group_associate() {
     local skill_id="$1"
     shift 1

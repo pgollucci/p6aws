@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_parameter_version_label(name, labels)
+#
+# Arg(s):
+#    name - 
+#    labels - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_parameter_version_label() {
     local name="$1"
     local labels="$2"

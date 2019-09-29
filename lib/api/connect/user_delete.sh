@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_connect_user_delete(instance_id, user_id)
+#
+# Arg(s):
+#    instance_id - 
+#    user_id - 
+#
+#
+#>
+######################################################################
 p6_aws_connect_user_delete() {
     local instance_id="$1"
     local user_id="$2"

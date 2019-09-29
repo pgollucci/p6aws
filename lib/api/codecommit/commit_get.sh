@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codecommit_commit_get(repository_name, commit_id)
+#
+# Arg(s):
+#    repository_name - 
+#    commit_id - 
+#
+#
+#>
+######################################################################
 p6_aws_codecommit_commit_get() {
     local repository_name="$1"
     local commit_id="$2"

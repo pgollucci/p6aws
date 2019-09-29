@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_managedblockchain_network_create(name, framework, framework_version, voting_policy, member_configuration)
+#
+# Arg(s):
+#    name - 
+#    framework - 
+#    framework_version - 
+#    voting_policy - 
+#    member_configuration - 
+#
+#
+#>
+######################################################################
 p6_aws_managedblockchain_network_create() {
     local name="$1"
     local framework="$2"

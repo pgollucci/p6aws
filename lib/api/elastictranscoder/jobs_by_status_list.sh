@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elastictranscoder_jobs_by_status_list(status)
+#
+# Arg(s):
+#    status - 
+#
+#
+#>
+######################################################################
 p6_aws_elastictranscoder_jobs_by_status_list() {
     local status="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dms_certificate_import(certificate_identifier)
+#
+# Arg(s):
+#    certificate_identifier - 
+#
+#
+#>
+######################################################################
 p6_aws_dms_certificate_import() {
     local certificate_identifier="$1"
     shift 1

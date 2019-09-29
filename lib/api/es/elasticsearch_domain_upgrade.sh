@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_es_elasticsearch_domain_upgrade(domain_name, target_version)
+#
+# Arg(s):
+#    domain_name - 
+#    target_version - 
+#
+#
+#>
+######################################################################
 p6_aws_es_elasticsearch_domain_upgrade() {
     local domain_name="$1"
     local target_version="$2"

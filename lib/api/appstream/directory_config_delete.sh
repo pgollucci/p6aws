@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_appstream_directory_config_delete(directory_name)
+#
+# Arg(s):
+#    directory_name - 
+#
+#
+#>
+######################################################################
 p6_aws_appstream_directory_config_delete() {
     local directory_name="$1"
     shift 1

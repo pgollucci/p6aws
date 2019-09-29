@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_configservice_retention_configuration_put(retention_period_in_days)
+#
+# Arg(s):
+#    retention_period_in_days - 
+#
+#
+#>
+######################################################################
 p6_aws_configservice_retention_configuration_put() {
     local retention_period_in_days="$1"
     shift 1

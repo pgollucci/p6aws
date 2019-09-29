@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codecommit_blob_get(repository_name, blob_id)
+#
+# Arg(s):
+#    repository_name - 
+#    blob_id - 
+#
+#
+#>
+######################################################################
 p6_aws_codecommit_blob_get() {
     local repository_name="$1"
     local blob_id="$2"

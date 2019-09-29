@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_database_update(name, database_input)
+#
+# Arg(s):
+#    name - 
+#    database_input - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_database_update() {
     local name="$1"
     local database_input="$2"

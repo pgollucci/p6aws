@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_scheduled_audit_delete(scheduled_audit_name)
+#
+# Arg(s):
+#    scheduled_audit_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_scheduled_audit_delete() {
     local scheduled_audit_name="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codecommit_pull_request_by_three_way_merge(pull_request_id, repository_name)
+#
+# Arg(s):
+#    pull_request_id - 
+#    repository_name - 
+#
+#
+#>
+######################################################################
 p6_aws_codecommit_pull_request_by_three_way_merge() {
     local pull_request_id="$1"
     local repository_name="$2"

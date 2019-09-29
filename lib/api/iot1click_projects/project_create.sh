@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot1click_projects_project_create(project_name)
+#
+# Arg(s):
+#    project_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iot1click_projects_project_create() {
     local project_name="$1"
     shift 1

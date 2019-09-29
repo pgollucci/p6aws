@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_polly_lexicon_put(name, content)
+#
+# Arg(s):
+#    name - 
+#    content - 
+#
+#
+#>
+######################################################################
 p6_aws_polly_lexicon_put() {
     local name="$1"
     local content="$2"

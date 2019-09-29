@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pinpoint_adm_channel_update(adm_channel_request, application_id)
+#
+# Arg(s):
+#    adm_channel_request - 
+#    application_id - 
+#
+#
+#>
+######################################################################
 p6_aws_pinpoint_adm_channel_update() {
     local adm_channel_request="$1"
     local application_id="$2"

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_managedblockchain_node_get(network_id, member_id, node_id)
+#
+# Arg(s):
+#    network_id - 
+#    member_id - 
+#    node_id - 
+#
+#
+#>
+######################################################################
 p6_aws_managedblockchain_node_get() {
     local network_id="$1"
     local member_id="$2"

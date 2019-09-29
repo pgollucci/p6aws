@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_idp_o_auth_flows_user_pool_client(user_pool_id, client_id)
+#
+# Arg(s):
+#    user_pool_id - 
+#    client_id - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_idp_o_auth_flows_user_pool_client() {
         local user_pool_id="$1"
         local client_id="$2"
@@ -5,4 +18,3 @@ p6_aws_cognito_idp_o_auth_flows_user_pool_client() {
 
     cond_log_and_run aws cognito-idp update-user-pool-client --user-pool-id $user_pool_id --client-id $client_id --allowed-o-auth-flows-user-pool-client "$@"
 }
-

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_group_policy_delete(group_name, policy_name)
+#
+# Arg(s):
+#    group_name - 
+#    policy_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_group_policy_delete() {
     local group_name="$1"
     local policy_name="$2"

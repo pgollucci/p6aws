@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elbv2_tags_add(resource_arns, tags)
+#
+# Arg(s):
+#    resource_arns - 
+#    tags - 
+#
+#
+#>
+######################################################################
 p6_aws_elbv2_tags_add() {
     local resource_arns="$1"
     local tags="$2"

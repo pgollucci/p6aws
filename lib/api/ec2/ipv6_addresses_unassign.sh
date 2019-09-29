@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_ipv6_addresses_unassign(ipv6_addresses, network_interface_id)
+#
+# Arg(s):
+#    ipv6_addresses - 
+#    network_interface_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_ipv6_addresses_unassign() {
     local ipv6_addresses="$1"
     local network_interface_id="$2"

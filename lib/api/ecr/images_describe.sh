@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ecr_images_describe(repository_name)
+#
+# Arg(s):
+#    repository_name - 
+#
+#
+#>
+######################################################################
 p6_aws_ecr_images_describe() {
     local repository_name="$1"
     shift 1

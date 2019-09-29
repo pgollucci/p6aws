@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_service_specific_credential_update(service_specific_credential_id, status)
+#
+# Arg(s):
+#    service_specific_credential_id - 
+#    status - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_service_specific_credential_update() {
     local service_specific_credential_id="$1"
     local status="$2"

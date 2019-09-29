@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pinpoint_application_date_range_kpi_get(application_id, kpi_name)
+#
+# Arg(s):
+#    application_id - 
+#    kpi_name - 
+#
+#
+#>
+######################################################################
 p6_aws_pinpoint_application_date_range_kpi_get() {
     local application_id="$1"
     local kpi_name="$2"

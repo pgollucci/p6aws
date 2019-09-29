@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_db_instance_start(db_instance_identifier)
+#
+# Arg(s):
+#    db_instance_identifier - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_db_instance_start() {
     local db_instance_identifier="$1"
     shift 1

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_clouddirectory_object_attributes_update(directory_arn, object_reference, attribute_updates)
+#
+# Arg(s):
+#    directory_arn - 
+#    object_reference - 
+#    attribute_updates - 
+#
+#
+#>
+######################################################################
 p6_aws_clouddirectory_object_attributes_update() {
     local directory_arn="$1"
     local object_reference="$2"

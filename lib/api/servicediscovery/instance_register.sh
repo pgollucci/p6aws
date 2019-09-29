@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_servicediscovery_instance_register(service_id, instance_id, attributes)
+#
+# Arg(s):
+#    service_id - 
+#    instance_id - 
+#    attributes - 
+#
+#
+#>
+######################################################################
 p6_aws_servicediscovery_instance_register() {
     local service_id="$1"
     local instance_id="$2"

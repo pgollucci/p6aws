@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_autoscaling_standby_exit(auto_scaling_group_name)
+#
+# Arg(s):
+#    auto_scaling_group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_autoscaling_standby_exit() {
     local auto_scaling_group_name="$1"
     shift 1

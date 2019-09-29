@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudfront_invalidation_get(distribution_id, id)
+#
+# Arg(s):
+#    distribution_id - 
+#    id - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudfront_invalidation_get() {
     local distribution_id="$1"
     local id="$2"

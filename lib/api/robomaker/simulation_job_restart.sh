@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_robomaker_simulation_job_restart(job)
+#
+# Arg(s):
+#    job - 
+#
+#
+#>
+######################################################################
 p6_aws_robomaker_simulation_job_restart() {
     local job="$1"
     shift 1

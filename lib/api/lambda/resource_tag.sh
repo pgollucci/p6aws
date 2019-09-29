@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lambda_resource_tag(resource, tags)
+#
+# Arg(s):
+#    resource - 
+#    tags - 
+#
+#
+#>
+######################################################################
 p6_aws_lambda_resource_tag() {
     local resource="$1"
     local tags="$2"

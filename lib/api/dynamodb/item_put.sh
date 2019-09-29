@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dynamodb_item_put(table_name, item)
+#
+# Arg(s):
+#    table_name - 
+#    item - 
+#
+#
+#>
+######################################################################
 p6_aws_dynamodb_item_put() {
     local table_name="$1"
     local item="$2"

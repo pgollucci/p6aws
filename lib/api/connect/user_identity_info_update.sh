@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_connect_user_identity_info_update(identity_info, user_id, instance_id)
+#
+# Arg(s):
+#    identity_info - 
+#    user_id - 
+#    instance_id - 
+#
+#
+#>
+######################################################################
 p6_aws_connect_user_identity_info_update() {
     local identity_info="$1"
     local user_id="$2"

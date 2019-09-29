@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudfront_invalidation_create(distribution_id)
+#
+# Arg(s):
+#    distribution_id - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudfront_invalidation_create() {
     local distribution_id="$1"
     shift 1

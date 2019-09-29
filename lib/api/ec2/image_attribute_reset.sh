@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_image_attribute_reset(attribute, image_id)
+#
+# Arg(s):
+#    attribute - 
+#    image_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_image_attribute_reset() {
     local attribute="$1"
     local image_id="$2"

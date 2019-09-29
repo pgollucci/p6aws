@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_events_targets_put(rule, targets)
+#
+# Arg(s):
+#    rule - 
+#    targets - 
+#
+#
+#>
+######################################################################
 p6_aws_events_targets_put() {
     local rule="$1"
     local targets="$2"

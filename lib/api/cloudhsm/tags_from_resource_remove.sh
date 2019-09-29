@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudhsm_tags_from_resource_remove(resource_arn, tag_key_list)
+#
+# Arg(s):
+#    resource_arn - 
+#    tag_key_list - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudhsm_tags_from_resource_remove() {
     local resource_arn="$1"
     local tag_key_list="$2"

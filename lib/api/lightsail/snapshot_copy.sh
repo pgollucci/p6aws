@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lightsail_snapshot_copy(source_snapshot_name, target_snapshot_name, source_region)
+#
+# Arg(s):
+#    source_snapshot_name - 
+#    target_snapshot_name - 
+#    source_region - 
+#
+#
+#>
+######################################################################
 p6_aws_lightsail_snapshot_copy() {
     local source_snapshot_name="$1"
     local target_snapshot_name="$2"

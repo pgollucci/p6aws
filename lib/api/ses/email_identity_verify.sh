@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ses_email_identity_verify(email_address)
+#
+# Arg(s):
+#    email_address - 
+#
+#
+#>
+######################################################################
 p6_aws_ses_email_identity_verify() {
     local email_address="$1"
     shift 1

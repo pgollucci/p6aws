@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_clouddirectory_typed_link_facet_create(schema_arn, facet)
+#
+# Arg(s):
+#    schema_arn - 
+#    facet - 
+#
+#
+#>
+######################################################################
 p6_aws_clouddirectory_typed_link_facet_create() {
     local schema_arn="$1"
     local facet="$2"

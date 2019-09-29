@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigateway_method_response_put(rest_api_id, resource_id, http_method, status_code)
+#
+# Arg(s):
+#    rest_api_id - 
+#    resource_id - 
+#    http_method - 
+#    status_code - 
+#
+#
+#>
+######################################################################
 p6_aws_apigateway_method_response_put() {
     local rest_api_id="$1"
     local resource_id="$2"

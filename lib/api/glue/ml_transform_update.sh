@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_ml_transform_update(transform_id)
+#
+# Arg(s):
+#    transform_id - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_ml_transform_update() {
     local transform_id="$1"
     shift 1

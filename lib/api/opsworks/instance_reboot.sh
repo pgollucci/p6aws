@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_opsworks_instance_reboot(instance_id)
+#
+# Arg(s):
+#    instance_id - 
+#
+#
+#>
+######################################################################
 p6_aws_opsworks_instance_reboot() {
     local instance_id="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_swf_cancel_workflow_execution_request(domain, workflow_id)
+#
+# Arg(s):
+#    domain - 
+#    workflow_id - 
+#
+#
+#>
+######################################################################
 p6_aws_swf_cancel_workflow_execution_request() {
     local domain="$1"
     local workflow_id="$2"

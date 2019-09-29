@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_datapipeline_tags_remove(pipeline_id, tag_keys)
+#
+# Arg(s):
+#    pipeline_id - 
+#    tag_keys - 
+#
+#
+#>
+######################################################################
 p6_aws_datapipeline_tags_remove() {
     local pipeline_id="$1"
     local tag_keys="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53_traffic_policy_delete(id, traffic_policy_version)
+#
+# Arg(s):
+#    id - 
+#    traffic_policy_version - 
+#
+#
+#>
+######################################################################
 p6_aws_route53_traffic_policy_delete() {
     local id="$1"
     local traffic_policy_version="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3api_object_lock_configuration_get(bucket)
+#
+# Arg(s):
+#    bucket - 
+#
+#
+#>
+######################################################################
 p6_aws_s3api_object_lock_configuration_get() {
     local bucket="$1"
     shift 1

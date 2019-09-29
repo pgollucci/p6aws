@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codepipeline_job_success_result_put(job_id)
+#
+# Arg(s):
+#    job_id - 
+#
+#
+#>
+######################################################################
 p6_aws_codepipeline_job_success_result_put() {
     local job_id="$1"
     shift 1

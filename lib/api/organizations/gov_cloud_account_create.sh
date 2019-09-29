@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_gov_cloud_account_create(email, account_name)
+#
+# Arg(s):
+#    email - 
+#    account_name - 
+#
+#
+#>
+######################################################################
 p6_aws_organizations_gov_cloud_account_create() {
     local email="$1"
     local account_name="$2"

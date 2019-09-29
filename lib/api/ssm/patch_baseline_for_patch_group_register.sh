@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_patch_baseline_for_patch_group_register(baseline_id, patch_group)
+#
+# Arg(s):
+#    baseline_id - 
+#    patch_group - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_patch_baseline_for_patch_group_register() {
     local baseline_id="$1"
     local patch_group="$2"

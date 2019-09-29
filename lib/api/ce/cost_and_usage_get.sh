@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ce_cost_and_usage_get(time_period)
+#
+# Arg(s):
+#    time_period - 
+#
+#
+#>
+######################################################################
 p6_aws_ce_cost_and_usage_get() {
     local time_period="$1"
     shift 1

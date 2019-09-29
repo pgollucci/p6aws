@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53_traffic_policy_comment_update(id, comment, traffic_policy_version)
+#
+# Arg(s):
+#    id - 
+#    comment - 
+#    traffic_policy_version - 
+#
+#
+#>
+######################################################################
 p6_aws_route53_traffic_policy_comment_update() {
     local id="$1"
     local comment="$2"

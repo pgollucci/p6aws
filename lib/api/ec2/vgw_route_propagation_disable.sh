@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_vgw_route_propagation_disable(gateway_id, route_table_id)
+#
+# Arg(s):
+#    gateway_id - 
+#    route_table_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_vgw_route_propagation_disable() {
     local gateway_id="$1"
     local route_table_id="$2"

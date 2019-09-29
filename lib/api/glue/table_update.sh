@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_table_update(database_name, table_input)
+#
+# Arg(s):
+#    database_name - 
+#    table_input - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_table_update() {
     local database_name="$1"
     local table_input="$2"

@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_storagegateway_domain_join(gateway_arn, domain_name, user_name, password)
+#
+# Arg(s):
+#    gateway_arn - 
+#    domain_name - 
+#    user_name - 
+#    password - 
+#
+#
+#>
+######################################################################
 p6_aws_storagegateway_domain_join() {
     local gateway_arn="$1"
     local domain_name="$2"

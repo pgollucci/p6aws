@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_idp_set_user_settings_admin(user_pool_id, username, mfa_options)
+#
+# Arg(s):
+#    user_pool_id - 
+#    username - 
+#    mfa_options - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_idp_set_user_settings_admin() {
     local user_pool_id="$1"
     local username="$2"

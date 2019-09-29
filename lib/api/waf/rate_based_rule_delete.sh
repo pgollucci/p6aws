@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_rate_based_rule_delete(rule_id, change_token)
+#
+# Arg(s):
+#    rule_id - 
+#    change_token - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_rate_based_rule_delete() {
     local rule_id="$1"
     local change_token="$2"

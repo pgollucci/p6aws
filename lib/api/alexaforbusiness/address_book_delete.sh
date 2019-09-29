@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alexaforbusiness_address_book_delete(address_book_arn)
+#
+# Arg(s):
+#    address_book_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_alexaforbusiness_address_book_delete() {
     local address_book_arn="$1"
     shift 1

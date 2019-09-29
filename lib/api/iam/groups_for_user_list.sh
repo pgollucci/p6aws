@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_groups_for_user_list(user_name)
+#
+# Arg(s):
+#    user_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_groups_for_user_list() {
     local user_name="$1"
     shift 1

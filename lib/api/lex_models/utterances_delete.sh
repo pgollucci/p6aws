@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lex_models_utterances_delete(bot_name, user_id)
+#
+# Arg(s):
+#    bot_name - 
+#    user_id - 
+#
+#
+#>
+######################################################################
 p6_aws_lex_models_utterances_delete() {
     local bot_name="$1"
     local user_id="$2"

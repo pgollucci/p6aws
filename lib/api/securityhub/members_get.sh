@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_securityhub_members_get(account_ids)
+#
+# Arg(s):
+#    account_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_securityhub_members_get() {
     local account_ids="$1"
     shift 1

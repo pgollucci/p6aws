@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_discovery_tags_create(configuration_ids, tags)
+#
+# Arg(s):
+#    configuration_ids - 
+#    tags - 
+#
+#
+#>
+######################################################################
 p6_aws_discovery_tags_create() {
     local configuration_ids="$1"
     local tags="$2"

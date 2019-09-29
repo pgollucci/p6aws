@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_managedblockchain_member_create(invitation_id, network_id, member_configuration)
+#
+# Arg(s):
+#    invitation_id - 
+#    network_id - 
+#    member_configuration - 
+#
+#
+#>
+######################################################################
 p6_aws_managedblockchain_member_create() {
     local invitation_id="$1"
     local network_id="$2"

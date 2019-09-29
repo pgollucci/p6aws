@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ecs_container_instance_deregister(container_instance)
+#
+# Arg(s):
+#    container_instance - 
+#
+#
+#>
+######################################################################
 p6_aws_ecs_container_instance_deregister() {
     local container_instance="$1"
     shift 1

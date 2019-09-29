@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workdocs_comment_delete(document_id, version_id, comment_id)
+#
+# Arg(s):
+#    document_id - 
+#    version_id - 
+#    comment_id - 
+#
+#
+#>
+######################################################################
 p6_aws_workdocs_comment_delete() {
     local document_id="$1"
     local version_id="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pinpoint_segment_delete(application_id, segment_id)
+#
+# Arg(s):
+#    application_id - 
+#    segment_id - 
+#
+#
+#>
+######################################################################
 p6_aws_pinpoint_segment_delete() {
     local application_id="$1"
     local segment_id="$2"

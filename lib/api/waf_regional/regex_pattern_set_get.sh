@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_regional_regex_pattern_set_get(regex_pattern_set_id)
+#
+# Arg(s):
+#    regex_pattern_set_id - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_regional_regex_pattern_set_get() {
     local regex_pattern_set_id="$1"
     shift 1

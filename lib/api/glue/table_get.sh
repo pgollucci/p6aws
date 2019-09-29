@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_table_get(database_name, name)
+#
+# Arg(s):
+#    database_name - 
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_table_get() {
     local database_name="$1"
     local name="$2"

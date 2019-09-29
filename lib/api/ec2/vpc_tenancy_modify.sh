@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_vpc_tenancy_modify(vpc_id, instance_tenancy)
+#
+# Arg(s):
+#    vpc_id - 
+#    instance_tenancy - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_vpc_tenancy_modify() {
     local vpc_id="$1"
     local instance_tenancy="$2"

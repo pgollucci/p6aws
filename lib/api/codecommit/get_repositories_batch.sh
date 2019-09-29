@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codecommit_get_repositories_batch(repository_names)
+#
+# Arg(s):
+#    repository_names - 
+#
+#
+#>
+######################################################################
 p6_aws_codecommit_get_repositories_batch() {
     local repository_names="$1"
     shift 1

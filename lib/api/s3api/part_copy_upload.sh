@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3api_part_copy_upload(bucket, copy_source, key, part_number, upload_id)
+#
+# Arg(s):
+#    bucket - 
+#    copy_source - 
+#    key - 
+#    part_number - 
+#    upload_id - 
+#
+#
+#>
+######################################################################
 p6_aws_s3api_part_copy_upload() {
     local bucket="$1"
     local copy_source="$2"

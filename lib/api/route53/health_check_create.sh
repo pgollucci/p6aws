@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53_health_check_create(caller_reference, health_check_config)
+#
+# Arg(s):
+#    caller_reference - 
+#    health_check_config - 
+#
+#
+#>
+######################################################################
 p6_aws_route53_health_check_create() {
     local caller_reference="$1"
     local health_check_config="$2"

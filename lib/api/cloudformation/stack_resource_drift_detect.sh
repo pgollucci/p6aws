@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudformation_stack_resource_drift_detect(stack_name, logical_resource_id)
+#
+# Arg(s):
+#    stack_name - 
+#    logical_resource_id - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudformation_stack_resource_drift_detect() {
     local stack_name="$1"
     local logical_resource_id="$2"

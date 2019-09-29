@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_autoscaling_instance_in_auto_scaling_group_terminate(instance_id, should_decrement_desired_capacity)
+#
+# Arg(s):
+#    instance_id - 
+#    should_decrement_desired_capacity - 
+#
+#
+#>
+######################################################################
 p6_aws_autoscaling_instance_in_auto_scaling_group_terminate() {
     local instance_id="$1"
     local should_decrement_desired_capacity="$2"

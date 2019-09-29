@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elbv2_subnets_set(load_balancer_arn)
+#
+# Arg(s):
+#    load_balancer_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_elbv2_subnets_set() {
     local load_balancer_arn="$1"
     shift 1

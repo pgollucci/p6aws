@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_security_profile_behaviors_validate(behaviors)
+#
+# Arg(s):
+#    behaviors - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_security_profile_behaviors_validate() {
     local behaviors="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudfront_streaming_distribution_update(streaming_distribution_config, id)
+#
+# Arg(s):
+#    streaming_distribution_config - 
+#    id - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudfront_streaming_distribution_update() {
     local streaming_distribution_config="$1"
     local id="$2"

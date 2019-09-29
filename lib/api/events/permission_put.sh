@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_events_permission_put(action, principal, statement_id)
+#
+# Arg(s):
+#    action - 
+#    principal - 
+#    statement_id - 
+#
+#
+#>
+######################################################################
 p6_aws_events_permission_put() {
     local action="$1"
     local principal="$2"

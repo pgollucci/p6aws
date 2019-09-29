@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_traffic_mirror_session_modify(traffic_mirror_session_id)
+#
+# Arg(s):
+#    traffic_mirror_session_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_traffic_mirror_session_modify() {
     local traffic_mirror_session_id="$1"
     shift 1

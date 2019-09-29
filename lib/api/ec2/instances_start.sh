@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_instances_start(instance_ids)
+#
+# Arg(s):
+#    instance_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_instances_start() {
     local instance_ids="$1"
     shift 1

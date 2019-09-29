@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_swf_workflow_execution_start(domain, workflow_id, workflow_type)
+#
+# Arg(s):
+#    domain - 
+#    workflow_id - 
+#    workflow_type - 
+#
+#
+#>
+######################################################################
 p6_aws_swf_workflow_execution_start() {
     local domain="$1"
     local workflow_id="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_capacity_reservation_modify(capacity_reservation_id)
+#
+# Arg(s):
+#    capacity_reservation_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_capacity_reservation_modify() {
     local capacity_reservation_id="$1"
     shift 1

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigatewayv2_api_mapping_create(api_id, domain_name, stage)
+#
+# Arg(s):
+#    api_id - 
+#    domain_name - 
+#    stage - 
+#
+#
+#>
+######################################################################
 p6_aws_apigatewayv2_api_mapping_create() {
     local api_id="$1"
     local domain_name="$2"

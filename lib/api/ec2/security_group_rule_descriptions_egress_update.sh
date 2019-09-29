@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_security_group_rule_descriptions_egress_update(ip_permissions)
+#
+# Arg(s):
+#    ip_permissions - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_security_group_rule_descriptions_egress_update() {
     local ip_permissions="$1"
     shift 1

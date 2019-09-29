@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot1click_projects_project_describe(project_name)
+#
+# Arg(s):
+#    project_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iot1click_projects_project_describe() {
     local project_name="$1"
     shift 1

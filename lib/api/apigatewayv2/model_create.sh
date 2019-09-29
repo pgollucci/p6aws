@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigatewayv2_model_create(api_id, name, schema)
+#
+# Arg(s):
+#    api_id - 
+#    name - 
+#    schema - 
+#
+#
+#>
+######################################################################
 p6_aws_apigatewayv2_model_create() {
     local api_id="$1"
     local name="$2"

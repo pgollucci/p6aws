@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#     str = p6_aws_ec2_svc_user_from_ami_name(ami_name)
+#
+# Arg(s):
+#    ami_name - 
+#
+# Return(s):
+#     - 
+#
+#>
+######################################################################
 p6_aws_ec2_svc_user_from_ami_name() {
     local ami_name="$1"
 
@@ -13,6 +27,18 @@ p6_aws_ec2_svc_user_from_ami_name() {
     p6_return $user
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_svc_ami_id_from_instance_id(instance_id)
+#
+# Arg(s):
+#    instance_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_svc_ami_id_from_instance_id() {
     local instance_id="$1"
 
@@ -22,6 +48,18 @@ p6_aws_ec2_svc_ami_id_from_instance_id() {
 	--query "'Reservations[0].Instances[0].ImageId'"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_svc_ami_name_from_instance_id(instance_id)
+#
+# Arg(s):
+#    instance_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_svc_ami_name_from_instance_id() {
     local instance_id="$1"
 
@@ -33,6 +71,16 @@ p6_aws_ec2_svc_ami_name_from_instance_id() {
 	--query "'Images[0].Name'"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_svc_amis_mine_list()
+#
+#
+#
+#>
+######################################################################
 p6_aws_ec2_svc_amis_mine_list() {
 
     p6_aws_ec2_images_describe \
@@ -42,6 +90,16 @@ p6_aws_ec2_svc_amis_mine_list() {
 	sort -k 2
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_svc_amis_list()
+#
+#
+#
+#>
+######################################################################
 p6_aws_ec2_svc_amis_list() {
 
     p6_aws_ec2_images_describe \
@@ -50,6 +108,18 @@ p6_aws_ec2_svc_amis_list() {
 	sort -k 2
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_svc_ami_find_id(glob)
+#
+# Arg(s):
+#    glob - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_svc_ami_find_id() {
     local glob="$1"
 
@@ -62,6 +132,16 @@ p6_aws_ec2_svc_ami_find_id() {
 	awk '{ print $2 }'
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_svc_amis_freebsd12_latest()
+#
+#
+#
+#>
+######################################################################
 p6_aws_ec2_svc_amis_freebsd12_latest() {
 
     p6_aws_ec2_images_describe \
@@ -71,6 +151,16 @@ p6_aws_ec2_svc_amis_freebsd12_latest() {
 	| head -1
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_svc_amis_amazon2_latest()
+#
+#
+#
+#>
+######################################################################
 p6_aws_ec2_svc_amis_amazon2_latest() {
 
     p6_aws_ec2_images_describe \
@@ -82,6 +172,16 @@ p6_aws_ec2_svc_amis_amazon2_latest() {
 	awk '{print $2}'
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_svc_amis_rhel8_latest()
+#
+#
+#
+#>
+######################################################################
 p6_aws_ec2_svc_amis_rhel8_latest() {
 
     p6_aws_ec2_images_describe \
@@ -93,6 +193,16 @@ p6_aws_ec2_svc_amis_rhel8_latest() {
 	awk '{print $2}'
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_svc_amis_ubuntu18_latest()
+#
+#
+#
+#>
+######################################################################
 p6_aws_ec2_svc_amis_ubuntu18_latest() {
 
     p6_aws_ec2_images_describe \

@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mturk_bonus_send(worker_id, bonus_amount, assignment_id, reason)
+#
+# Arg(s):
+#    worker_id - 
+#    bonus_amount - 
+#    assignment_id - 
+#    reason - 
+#
+#
+#>
+######################################################################
 p6_aws_mturk_bonus_send() {
     local worker_id="$1"
     local bonus_amount="$2"

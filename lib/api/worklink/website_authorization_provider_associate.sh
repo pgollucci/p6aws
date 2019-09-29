@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_worklink_website_authorization_provider_associate(fleet_arn, authorization_provider_type)
+#
+# Arg(s):
+#    fleet_arn - 
+#    authorization_provider_type - 
+#
+#
+#>
+######################################################################
 p6_aws_worklink_website_authorization_provider_associate() {
     local fleet_arn="$1"
     local authorization_provider_type="$2"

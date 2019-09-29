@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudsearch_index_fields_describe(domain_name)
+#
+# Arg(s):
+#    domain_name - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudsearch_index_fields_describe() {
     local domain_name="$1"
     shift 1

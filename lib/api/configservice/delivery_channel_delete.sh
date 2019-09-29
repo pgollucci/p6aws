@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_configservice_delivery_channel_delete(delivery_channel_name)
+#
+# Arg(s):
+#    delivery_channel_name - 
+#
+#
+#>
+######################################################################
 p6_aws_configservice_delivery_channel_delete() {
     local delivery_channel_name="$1"
     shift 1

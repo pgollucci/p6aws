@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_idp_resource_server_create(user_pool_id, identifier, name)
+#
+# Arg(s):
+#    user_pool_id - 
+#    identifier - 
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_idp_resource_server_create() {
     local user_pool_id="$1"
     local identifier="$2"

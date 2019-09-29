@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codestar_user_profile_describe(user_arn)
+#
+# Arg(s):
+#    user_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_codestar_user_profile_describe() {
     local user_arn="$1"
     shift 1

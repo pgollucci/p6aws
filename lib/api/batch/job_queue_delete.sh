@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_batch_job_queue_delete(job_queue)
+#
+# Arg(s):
+#    job_queue - 
+#
+#
+#>
+######################################################################
 p6_aws_batch_job_queue_delete() {
     local job_queue="$1"
     shift 1

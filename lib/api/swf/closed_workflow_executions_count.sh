@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_swf_closed_workflow_executions_count(domain)
+#
+# Arg(s):
+#    domain - 
+#
+#
+#>
+######################################################################
 p6_aws_swf_closed_workflow_executions_count() {
     local domain="$1"
     shift 1

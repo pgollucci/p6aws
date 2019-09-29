@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_globalaccelerator_listener_delete(listener_arn)
+#
+# Arg(s):
+#    listener_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_globalaccelerator_listener_delete() {
     local listener_arn="$1"
     shift 1

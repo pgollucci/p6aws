@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sagemaker_hyper_parameter_tuning_job_stop(hyper_parameter_tuning_job_name)
+#
+# Arg(s):
+#    hyper_parameter_tuning_job_name - 
+#
+#
+#>
+######################################################################
 p6_aws_sagemaker_hyper_parameter_tuning_job_stop() {
     local hyper_parameter_tuning_job_name="$1"
     shift 1

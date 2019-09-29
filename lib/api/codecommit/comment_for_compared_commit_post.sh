@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codecommit_comment_for_compared_commit_post(repository_name, after_commit_id, content)
+#
+# Arg(s):
+#    repository_name - 
+#    after_commit_id - 
+#    content - 
+#
+#
+#>
+######################################################################
 p6_aws_codecommit_comment_for_compared_commit_post() {
     local repository_name="$1"
     local after_commit_id="$2"

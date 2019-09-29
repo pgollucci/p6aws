@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ses_configuration_set_describe(configuration_set_name)
+#
+# Arg(s):
+#    configuration_set_name - 
+#
+#
+#>
+######################################################################
 p6_aws_ses_configuration_set_describe() {
     local configuration_set_name="$1"
     shift 1

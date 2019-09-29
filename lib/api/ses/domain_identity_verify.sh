@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ses_domain_identity_verify(domain)
+#
+# Arg(s):
+#    domain - 
+#
+#
+#>
+######################################################################
 p6_aws_ses_domain_identity_verify() {
     local domain="$1"
     shift 1

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glacier_archive_delete(account_id, vault_name, archive_id)
+#
+# Arg(s):
+#    account_id - 
+#    vault_name - 
+#    archive_id - 
+#
+#
+#>
+######################################################################
 p6_aws_glacier_archive_delete() {
     local account_id="$1"
     local vault_name="$2"

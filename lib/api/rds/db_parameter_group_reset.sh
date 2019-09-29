@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_db_parameter_group_reset(db_parameter_group_name)
+#
+# Arg(s):
+#    db_parameter_group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_db_parameter_group_reset() {
     local db_parameter_group_name="$1"
     shift 1

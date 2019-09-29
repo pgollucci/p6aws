@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53_health_check_delete(health_check_id)
+#
+# Arg(s):
+#    health_check_id - 
+#
+#
+#>
+######################################################################
 p6_aws_route53_health_check_delete() {
     local health_check_id="$1"
     shift 1

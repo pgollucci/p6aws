@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_opsworks_instance_assign(instance_id, layer_ids)
+#
+# Arg(s):
+#    instance_id - 
+#    layer_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_opsworks_instance_assign() {
     local instance_id="$1"
     local layer_ids="$2"

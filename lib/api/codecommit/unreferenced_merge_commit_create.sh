@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codecommit_unreferenced_merge_commit_create(repository_name, source_commit_specifier, destination_commit_specifier, merge_option)
+#
+# Arg(s):
+#    repository_name - 
+#    source_commit_specifier - 
+#    destination_commit_specifier - 
+#    merge_option - 
+#
+#
+#>
+######################################################################
 p6_aws_codecommit_unreferenced_merge_commit_create() {
     local repository_name="$1"
     local source_commit_specifier="$2"

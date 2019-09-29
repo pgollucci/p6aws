@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigateway_documentation_version_update(rest_api_id, documentation_version)
+#
+# Arg(s):
+#    rest_api_id - 
+#    documentation_version - 
+#
+#
+#>
+######################################################################
 p6_aws_apigateway_documentation_version_update() {
     local rest_api_id="$1"
     local documentation_version="$2"

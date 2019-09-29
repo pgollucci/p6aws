@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_volume_attribute_describe(attribute, volume_id)
+#
+# Arg(s):
+#    attribute - 
+#    volume_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_volume_attribute_describe() {
     local attribute="$1"
     local volume_id="$2"

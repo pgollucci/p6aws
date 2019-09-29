@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_partitions_get(database_name, table_name)
+#
+# Arg(s):
+#    database_name - 
+#    table_name - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_partitions_get() {
     local database_name="$1"
     local table_name="$2"

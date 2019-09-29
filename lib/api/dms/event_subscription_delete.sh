@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dms_event_subscription_delete(subscription_name)
+#
+# Arg(s):
+#    subscription_name - 
+#
+#
+#>
+######################################################################
 p6_aws_dms_event_subscription_delete() {
     local subscription_name="$1"
     shift 1

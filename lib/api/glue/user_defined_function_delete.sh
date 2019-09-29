@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_user_defined_function_delete(database_name, function_name)
+#
+# Arg(s):
+#    database_name - 
+#    function_name - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_user_defined_function_delete() {
     local database_name="$1"
     local function_name="$2"

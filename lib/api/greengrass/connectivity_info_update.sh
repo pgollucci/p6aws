@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_greengrass_connectivity_info_update(thing_name)
+#
+# Arg(s):
+#    thing_name - 
+#
+#
+#>
+######################################################################
 p6_aws_greengrass_connectivity_info_update() {
     local thing_name="$1"
     shift 1

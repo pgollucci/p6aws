@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ds_ip_routes_remove(directory_id, cidr_ips)
+#
+# Arg(s):
+#    directory_id - 
+#    cidr_ips - 
+#
+#
+#>
+######################################################################
 p6_aws_ds_ip_routes_remove() {
     local directory_id="$1"
     local cidr_ips="$2"

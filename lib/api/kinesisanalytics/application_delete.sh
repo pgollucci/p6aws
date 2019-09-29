@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kinesisanalytics_application_delete(application_name, create_timestamp)
+#
+# Arg(s):
+#    application_name - 
+#    create_timestamp - 
+#
+#
+#>
+######################################################################
 p6_aws_kinesisanalytics_application_delete() {
     local application_name="$1"
     local create_timestamp="$2"

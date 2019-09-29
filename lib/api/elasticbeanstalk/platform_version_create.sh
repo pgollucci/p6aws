@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elasticbeanstalk_platform_version_create(platform_name, platform_version, platform_definition_bundle)
+#
+# Arg(s):
+#    platform_name - 
+#    platform_version - 
+#    platform_definition_bundle - 
+#
+#
+#>
+######################################################################
 p6_aws_elasticbeanstalk_platform_version_create() {
     local platform_name="$1"
     local platform_version="$2"

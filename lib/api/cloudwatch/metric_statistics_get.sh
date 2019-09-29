@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudwatch_metric_statistics_get(namespace, metric_name, start_time, end_time, period)
+#
+# Arg(s):
+#    namespace - 
+#    metric_name - 
+#    start_time - 
+#    end_time - 
+#    period - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudwatch_metric_statistics_get() {
     local namespace="$1"
     local metric_name="$2"

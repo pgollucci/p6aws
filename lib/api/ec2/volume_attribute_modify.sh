@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_volume_attribute_modify(volume_id)
+#
+# Arg(s):
+#    volume_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_volume_attribute_modify() {
     local volume_id="$1"
     shift 1

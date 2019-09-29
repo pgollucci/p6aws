@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_groundstation_dataflow_endpoint_group_create(endpoint_details)
+#
+# Arg(s):
+#    endpoint_details - 
+#
+#
+#>
+######################################################################
 p6_aws_groundstation_dataflow_endpoint_group_create() {
     local endpoint_details="$1"
     shift 1

@@ -1,3 +1,23 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_autoscaling_svc_asg_create(asg_name, min_size, max_size, desired_capacity, lt_id, lt_name, lt_version, subnet_type, [vpc_id])
+#
+# Arg(s):
+#    asg_name - 
+#    min_size - 
+#    max_size - 
+#    desired_capacity - 
+#    lt_id - 
+#    lt_name - 
+#    lt_version - 
+#    subnet_type - 
+#    vpc_id - 
+#
+#
+#>
+######################################################################
 p6_aws_autoscaling_svc_asg_create() {
     local asg_name="$1"
     local min_size="$2"
@@ -21,6 +41,19 @@ p6_aws_autoscaling_svc_asg_create() {
 }
 
 # XXX: See elbv2 target-groups and rules
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_autoscaling_svc_asg_target_group_arn(asg_name, target_group_arn)
+#
+# Arg(s):
+#    asg_name - 
+#    target_group_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_autoscaling_svc_asg_target_group_arn() {
     local asg_name="$1"
     local target_group_arn="$2"
@@ -30,6 +63,16 @@ p6_aws_autoscaling_svc_asg_target_group_arn() {
 	--target-group-arns $target_group_arn
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_autoscaling_svc_asgs_list()
+#
+#
+#
+#>
+######################################################################
 p6_aws_autoscaling_svc_asgs_list() {
 
     p6_aws_autoscaling_auto_scaling_groups_describe \
@@ -39,6 +82,18 @@ p6_aws_autoscaling_svc_asgs_list() {
 
 # [LoadBalancerNames[0]
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_autoscaling_svc_asg_act_list(asg_name)
+#
+# Arg(s):
+#    asg_name - 
+#
+#
+#>
+######################################################################
 p6_aws_autoscaling_svc_asg_act_list() {
     local asg_name="$1"
 
@@ -48,6 +103,18 @@ p6_aws_autoscaling_svc_asg_act_list() {
 	--query "'Activities[].[StartTime, EndTime, StatusCode, Description, Details]'"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_autoscaling_svc_asg_act_deltailed_list(asg_name)
+#
+# Arg(s):
+#    asg_name - 
+#
+#
+#>
+######################################################################
 p6_aws_autoscaling_svc_asg_act_deltailed_list() {
     local asg_name="$1"
 
@@ -58,6 +125,19 @@ p6_aws_autoscaling_svc_asg_act_deltailed_list() {
 }
 
 ## DEPRECATED -- see Launch Templates
+######################################################################
+#<
+#
+# Function:
+#      = p6_old_aws_autoscaling_svc_asg_load_balancer_names(asg_name, load_balancer_names)
+#
+# Arg(s):
+#    asg_name - 
+#    load_balancer_names - 
+#
+#
+#>
+######################################################################
 p6_old_aws_autoscaling_svc_asg_load_balancer_names() {
     local asg_name="$1"
     local load_balancer_names="$2"
@@ -67,6 +147,16 @@ p6_old_aws_autoscaling_svc_asg_load_balancer_names() {
 	--load-balancer-names $load_balancer_names
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_old_aws_autoscaling_svc_lcs_list()
+#
+#
+#
+#>
+######################################################################
 p6_old_aws_autoscaling_svc_lcs_list() {
 
     p6_aws_autoscaling_launch_configurations_describe \
@@ -74,6 +164,18 @@ p6_old_aws_autoscaling_svc_lcs_list() {
 	--query "'LaunchConfigurations[].[LaunchConfigurationName, ImageId, InstanceType, SecurityGroups[].GroupId | join(\`,\` @), KeyName]'"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_old_aws_autoscaling_svc_lc_user_data_show(lc_name)
+#
+# Arg(s):
+#    lc_name - 
+#
+#
+#>
+######################################################################
 p6_old_aws_autoscaling_svc_lc_user_data_show() {
     local lc_name="$1"
 

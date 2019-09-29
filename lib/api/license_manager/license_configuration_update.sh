@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_license_manager_license_configuration_update(license_configuration_arn)
+#
+# Arg(s):
+#    license_configuration_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_license_manager_license_configuration_update() {
     local license_configuration_arn="$1"
     shift 1

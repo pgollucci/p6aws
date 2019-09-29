@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_targets_for_policy_list(policy_id)
+#
+# Arg(s):
+#    policy_id - 
+#
+#
+#>
+######################################################################
 p6_aws_organizations_targets_for_policy_list() {
     local policy_id="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_mfa_device_deactivate(user_name, serial_number)
+#
+# Arg(s):
+#    user_name - 
+#    serial_number - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_mfa_device_deactivate() {
     local user_name="$1"
     local serial_number="$2"

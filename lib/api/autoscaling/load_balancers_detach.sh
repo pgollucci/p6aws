@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_autoscaling_load_balancers_detach(auto_scaling_group_name, load_balancer_names)
+#
+# Arg(s):
+#    auto_scaling_group_name - 
+#    load_balancer_names - 
+#
+#
+#>
+######################################################################
 p6_aws_autoscaling_load_balancers_detach() {
     local auto_scaling_group_name="$1"
     local load_balancer_names="$2"

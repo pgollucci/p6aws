@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_personalize_schema_describe(schema_arn)
+#
+# Arg(s):
+#    schema_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_personalize_schema_describe() {
     local schema_arn="$1"
     shift 1

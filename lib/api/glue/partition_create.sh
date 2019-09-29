@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glue_partition_create(database_name, table_name, partition_input)
+#
+# Arg(s):
+#    database_name - 
+#    table_name - 
+#    partition_input - 
+#
+#
+#>
+######################################################################
 p6_aws_glue_partition_create() {
     local database_name="$1"
     local table_name="$2"

@@ -1,3 +1,13 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alb_svc_list()
+#
+#
+#
+#>
+######################################################################
 p6_aws_alb_svc_list() {
     #   local vpc_id="${1:-$AWS_VPC}"
     #   --filters "Name=vpc-id,Values=$vpc_id"
@@ -7,12 +17,38 @@ p6_aws_alb_svc_list() {
 	--query "'LoadBalancers[].[State.Code, Scheme, Type, join(\`,\`, AvailabilityZones[].SubnetId), join(\`,\`, SecurityGroups[]), DNSName, LoadBalancerArn]'"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alb_svc_listeners_list(load_balancer_name)
+#
+# Arg(s):
+#    load_balancer_name - 
+#
+#
+#>
+######################################################################
 p6_aws_alb_svc_listeners_list() {
     local load_balancer_name="$1"
 
     alb_listener_show.pl --load-balancer-name $load_balancer_name
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alb_svc_create(alb_name, [subnet_type], [vpc_id])
+#
+# Arg(s):
+#    alb_name - 
+#    subnet_type - 
+#    vpc_id - 
+#
+#
+#>
+######################################################################
 p6_aws_alb_svc_create() {
     local alb_name="$1"
     local subnet_type="${2:-Public}"
@@ -23,6 +59,19 @@ p6_aws_alb_svc_create() {
     p6_aws_elbv2_load_balancer_create "$alb_name" "$subnet_ids"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alb_svc_listener_create(alb_arn, target_group_arn)
+#
+# Arg(s):
+#    alb_arn - 
+#    target_group_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_alb_svc_listener_create() {
     local alb_arn="$1"
     local target_group_arn="$2"
@@ -38,6 +87,19 @@ p6_aws_alb_svc_listener_create() {
 	--default-actions Type=$default_action_type,TargetGroupArn=$target_group_arn
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alb_svc_target_group_create(tg_name, [vpc_id])
+#
+# Arg(s):
+#    tg_name - 
+#    vpc_id - 
+#
+#
+#>
+######################################################################
 p6_aws_alb_svc_target_group_create() {
     local tg_name="$1"
     local vpc_id="${2:-AWS_VPC}"

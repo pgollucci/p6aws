@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iotanalytics_pipeline_reprocessing_start(pipeline_name)
+#
+# Arg(s):
+#    pipeline_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iotanalytics_pipeline_reprocessing_start() {
     local pipeline_name="$1"
     shift 1

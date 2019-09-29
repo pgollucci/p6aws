@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_medialive_offering_purchase(count, offering_id)
+#
+# Arg(s):
+#    count - 
+#    offering_id - 
+#
+#
+#>
+######################################################################
 p6_aws_medialive_offering_purchase() {
     local count="$1"
     local offering_id="$2"

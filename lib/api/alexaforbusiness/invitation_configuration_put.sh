@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alexaforbusiness_invitation_configuration_put(organization_name)
+#
+# Arg(s):
+#    organization_name - 
+#
+#
+#>
+######################################################################
 p6_aws_alexaforbusiness_invitation_configuration_put() {
     local organization_name="$1"
     shift 1

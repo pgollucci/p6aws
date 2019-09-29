@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iotanalytics_logging_options_put(logging_options)
+#
+# Arg(s):
+#    logging_options - 
+#
+#
+#>
+######################################################################
 p6_aws_iotanalytics_logging_options_put() {
     local logging_options="$1"
     shift 1

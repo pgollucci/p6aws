@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_db_instance_automated_backup_delete(dbi_resource_id)
+#
+# Arg(s):
+#    dbi_resource_id - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_db_instance_automated_backup_delete() {
     local dbi_resource_id="$1"
     shift 1

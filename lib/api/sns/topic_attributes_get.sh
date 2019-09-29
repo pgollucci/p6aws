@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sns_topic_attributes_get(topic_arn)
+#
+# Arg(s):
+#    topic_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_sns_topic_attributes_get() {
     local topic_arn="$1"
     shift 1

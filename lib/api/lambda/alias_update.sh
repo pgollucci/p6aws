@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lambda_alias_update(function_name, name)
+#
+# Arg(s):
+#    function_name - 
+#    name - 
+#
+#
+#>
+######################################################################
 p6_aws_lambda_alias_update() {
     local function_name="$1"
     local name="$2"

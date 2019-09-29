@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_discovery_configurations_list(configuration_type)
+#
+# Arg(s):
+#    configuration_type - 
+#
+#
+#>
+######################################################################
 p6_aws_discovery_configurations_list() {
     local configuration_type="$1"
     shift 1

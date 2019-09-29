@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elasticbeanstalk_application_resource_lifecycle_update(application_name, resource_lifecycle_config)
+#
+# Arg(s):
+#    application_name - 
+#    resource_lifecycle_config - 
+#
+#
+#>
+######################################################################
 p6_aws_elasticbeanstalk_application_resource_lifecycle_update() {
     local application_name="$1"
     local resource_lifecycle_config="$2"

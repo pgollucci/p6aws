@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_deploy_on_premises_instance_deregister(instance_name)
+#
+# Arg(s):
+#    instance_name - 
+#
+#
+#>
+######################################################################
 p6_aws_deploy_on_premises_instance_deregister() {
     local instance_name="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ses_configuration_set_create(configuration_set)
+#
+# Arg(s):
+#    configuration_set - 
+#
+#
+#>
+######################################################################
 p6_aws_ses_configuration_set_create() {
     local configuration_set="$1"
     shift 1

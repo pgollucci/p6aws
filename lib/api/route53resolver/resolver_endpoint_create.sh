@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53resolver_resolver_endpoint_create(creator_request_id, security_group_ids, direction, ip_addresses)
+#
+# Arg(s):
+#    creator_request_id - 
+#    security_group_ids - 
+#    direction - 
+#    ip_addresses - 
+#
+#
+#>
+######################################################################
 p6_aws_route53resolver_resolver_endpoint_create() {
     local creator_request_id="$1"
     local security_group_ids="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alexaforbusiness_skill_authorization_put(authorization_result, skill_id)
+#
+# Arg(s):
+#    authorization_result - 
+#    skill_id - 
+#
+#
+#>
+######################################################################
 p6_aws_alexaforbusiness_skill_authorization_put() {
     local authorization_result="$1"
     local skill_id="$2"

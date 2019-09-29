@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mturk_qualification_type_delete(qualification_type_id)
+#
+# Arg(s):
+#    qualification_type_id - 
+#
+#
+#>
+######################################################################
 p6_aws_mturk_qualification_type_delete() {
     local qualification_type_id="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3api_objects_delete(bucket, delete)
+#
+# Arg(s):
+#    bucket - 
+#    delete - 
+#
+#
+#>
+######################################################################
 p6_aws_s3api_objects_delete() {
     local bucket="$1"
     local delete="$2"

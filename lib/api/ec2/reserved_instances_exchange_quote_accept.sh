@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_reserved_instances_exchange_quote_accept(reserved_instance_ids)
+#
+# Arg(s):
+#    reserved_instance_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_reserved_instances_exchange_quote_accept() {
     local reserved_instance_ids="$1"
     shift 1

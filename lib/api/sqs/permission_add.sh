@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sqs_permission_add(queue_url, label, aws_account_ids, actions)
+#
+# Arg(s):
+#    queue_url - 
+#    label - 
+#    aws_account_ids - 
+#    actions - 
+#
+#
+#>
+######################################################################
 p6_aws_sqs_permission_add() {
     local queue_url="$1"
     local label="$2"

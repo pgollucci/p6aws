@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_snapshot_access_authorize(snapshot_identifier, account_with_restore_access)
+#
+# Arg(s):
+#    snapshot_identifier - 
+#    account_with_restore_access - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_snapshot_access_authorize() {
     local snapshot_identifier="$1"
     local account_with_restore_access="$2"

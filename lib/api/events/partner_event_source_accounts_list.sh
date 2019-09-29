@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_events_partner_event_source_accounts_list(event_source_name)
+#
+# Arg(s):
+#    event_source_name - 
+#
+#
+#>
+######################################################################
 p6_aws_events_partner_event_source_accounts_list() {
     local event_source_name="$1"
     shift 1

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lambda_function_concurrency_put(function_name, reserved_concurrent_executions)
+#
+# Arg(s):
+#    function_name - 
+#    reserved_concurrent_executions - 
+#
+#
+#>
+######################################################################
 p6_aws_lambda_function_concurrency_put() {
     local function_name="$1"
     local reserved_concurrent_executions="$2"

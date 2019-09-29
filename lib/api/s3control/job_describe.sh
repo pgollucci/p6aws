@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3control_job_describe(account_id, job_id)
+#
+# Arg(s):
+#    account_id - 
+#    job_id - 
+#
+#
+#>
+######################################################################
 p6_aws_s3control_job_describe() {
     local account_id="$1"
     local job_id="$2"

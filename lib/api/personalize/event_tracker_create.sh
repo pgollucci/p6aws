@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_personalize_event_tracker_create(name, dataset_group_arn)
+#
+# Arg(s):
+#    name - 
+#    dataset_group_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_personalize_event_tracker_create() {
     local name="$1"
     local dataset_group_arn="$2"

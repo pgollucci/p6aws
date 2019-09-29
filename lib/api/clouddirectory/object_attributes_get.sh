@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_clouddirectory_object_attributes_get(directory_arn, object_reference, schema_facet, attribute_names)
+#
+# Arg(s):
+#    directory_arn - 
+#    object_reference - 
+#    schema_facet - 
+#    attribute_names - 
+#
+#
+#>
+######################################################################
 p6_aws_clouddirectory_object_attributes_get() {
     local directory_arn="$1"
     local object_reference="$2"

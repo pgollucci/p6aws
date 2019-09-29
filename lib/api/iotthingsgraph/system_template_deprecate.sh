@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iotthingsgraph_system_template_deprecate(id)
+#
+# Arg(s):
+#    id - 
+#
+#
+#>
+######################################################################
 p6_aws_iotthingsgraph_system_template_deprecate() {
     local id="$1"
     shift 1

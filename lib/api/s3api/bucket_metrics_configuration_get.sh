@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3api_bucket_metrics_configuration_get(bucket, id)
+#
+# Arg(s):
+#    bucket - 
+#    id - 
+#
+#
+#>
+######################################################################
 p6_aws_s3api_bucket_metrics_configuration_get() {
     local bucket="$1"
     local id="$2"

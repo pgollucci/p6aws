@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kafka_configuration_revision_describe(arn, revision)
+#
+# Arg(s):
+#    arn - 
+#    revision - 
+#
+#
+#>
+######################################################################
 p6_aws_kafka_configuration_revision_describe() {
     local arn="$1"
     local revision="$2"

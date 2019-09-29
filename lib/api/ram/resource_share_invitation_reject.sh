@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ram_resource_share_invitation_reject(resource_share_invitation_arn)
+#
+# Arg(s):
+#    resource_share_invitation_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_ram_resource_share_invitation_reject() {
     local resource_share_invitation_arn="$1"
     shift 1

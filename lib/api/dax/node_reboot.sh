@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dax_node_reboot(cluster_name, node_id)
+#
+# Arg(s):
+#    cluster_name - 
+#    node_id - 
+#
+#
+#>
+######################################################################
 p6_aws_dax_node_reboot() {
     local cluster_name="$1"
     local node_id="$2"

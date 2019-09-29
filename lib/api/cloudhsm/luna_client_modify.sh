@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudhsm_luna_client_modify(client_arn, certificate)
+#
+# Arg(s):
+#    client_arn - 
+#    certificate - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudhsm_luna_client_modify() {
     local client_arn="$1"
     local certificate="$2"

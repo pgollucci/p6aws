@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_worklink_website_certificate_authority_associate(fleet_arn, certificate)
+#
+# Arg(s):
+#    fleet_arn - 
+#    certificate - 
+#
+#
+#>
+######################################################################
 p6_aws_worklink_website_certificate_authority_associate() {
     local fleet_arn="$1"
     local certificate="$2"

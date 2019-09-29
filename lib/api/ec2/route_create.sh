@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_route_create(route_table_id)
+#
+# Arg(s):
+#    route_table_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_route_create() {
     local route_table_id="$1"
     shift 1

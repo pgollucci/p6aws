@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elasticache_cache_cluster_delete(cache_cluster_id)
+#
+# Arg(s):
+#    cache_cluster_id - 
+#
+#
+#>
+######################################################################
 p6_aws_elasticache_cache_cluster_delete() {
     local cache_cluster_id="$1"
     shift 1

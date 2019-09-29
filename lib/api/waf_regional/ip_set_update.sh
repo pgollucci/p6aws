@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_regional_ip_set_update(ip_set_id, change_token, updates)
+#
+# Arg(s):
+#    ip_set_id - 
+#    change_token - 
+#    updates - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_regional_ip_set_update() {
     local ip_set_id="$1"
     local change_token="$2"

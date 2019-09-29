@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_neptune_db_cluster_from_snapshot_restore(db_cluster_identifier, snapshot_identifier, engine)
+#
+# Arg(s):
+#    db_cluster_identifier - 
+#    snapshot_identifier - 
+#    engine - 
+#
+#
+#>
+######################################################################
 p6_aws_neptune_db_cluster_from_snapshot_restore() {
     local db_cluster_identifier="$1"
     local snapshot_identifier="$2"

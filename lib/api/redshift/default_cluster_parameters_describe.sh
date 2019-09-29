@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_default_cluster_parameters_describe(parameter_group_family)
+#
+# Arg(s):
+#    parameter_group_family - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_default_cluster_parameters_describe() {
     local parameter_group_family="$1"
     shift 1

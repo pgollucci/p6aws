@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudhsmv2_resource_untag(resource_id, tag_key_list)
+#
+# Arg(s):
+#    resource_id - 
+#    tag_key_list - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudhsmv2_resource_untag() {
     local resource_id="$1"
     local tag_key_list="$2"

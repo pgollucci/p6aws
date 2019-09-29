@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_logging_disable(cluster_identifier)
+#
+# Arg(s):
+#    cluster_identifier - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_logging_disable() {
     local cluster_identifier="$1"
     shift 1

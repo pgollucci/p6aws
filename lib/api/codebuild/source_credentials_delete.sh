@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codebuild_source_credentials_delete(arn)
+#
+# Arg(s):
+#    arn - 
+#
+#
+#>
+######################################################################
 p6_aws_codebuild_source_credentials_delete() {
     local arn="$1"
     shift 1

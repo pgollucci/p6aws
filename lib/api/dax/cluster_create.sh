@@ -1,3 +1,18 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_dax_cluster_create(cluster_name, node_type, replication_factor, iam_role_arn)
+#
+# Arg(s):
+#    cluster_name - 
+#    node_type - 
+#    replication_factor - 
+#    iam_role_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_dax_cluster_create() {
     local cluster_name="$1"
     local node_type="$2"

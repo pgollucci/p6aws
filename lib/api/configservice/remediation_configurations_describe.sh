@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_configservice_remediation_configurations_describe(config_rule_names)
+#
+# Arg(s):
+#    config_rule_names - 
+#
+#
+#>
+######################################################################
 p6_aws_configservice_remediation_configurations_describe() {
     local config_rule_names="$1"
     shift 1

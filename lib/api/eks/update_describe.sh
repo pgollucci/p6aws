@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_eks_update_describe(name, update_id)
+#
+# Arg(s):
+#    name - 
+#    update_id - 
+#
+#
+#>
+######################################################################
 p6_aws_eks_update_describe() {
     local name="$1"
     local update_id="$2"

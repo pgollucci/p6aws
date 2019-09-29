@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_opsworks_elastic_ip_register(elastic_ip, stack_id)
+#
+# Arg(s):
+#    elastic_ip - 
+#    stack_id - 
+#
+#
+#>
+######################################################################
 p6_aws_opsworks_elastic_ip_register() {
     local elastic_ip="$1"
     local stack_id="$2"

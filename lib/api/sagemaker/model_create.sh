@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sagemaker_model_create(model_name, execution_role_arn)
+#
+# Arg(s):
+#    model_name - 
+#    execution_role_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_sagemaker_model_create() {
     local model_name="$1"
     local execution_role_arn="$2"

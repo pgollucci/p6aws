@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigateway_usage_update(usage_plan_id, key_id)
+#
+# Arg(s):
+#    usage_plan_id - 
+#    key_id - 
+#
+#
+#>
+######################################################################
 p6_aws_apigateway_usage_update() {
     local usage_plan_id="$1"
     local key_id="$2"

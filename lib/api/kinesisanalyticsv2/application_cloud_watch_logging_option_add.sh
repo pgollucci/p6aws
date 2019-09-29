@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kinesisanalyticsv2_application_cloud_watch_logging_option_add(application_name, current_application_version_id, cloud_watch_logging_option)
+#
+# Arg(s):
+#    application_name - 
+#    current_application_version_id - 
+#    cloud_watch_logging_option - 
+#
+#
+#>
+######################################################################
 p6_aws_kinesisanalyticsv2_application_cloud_watch_logging_option_add() {
     local application_name="$1"
     local current_application_version_id="$2"

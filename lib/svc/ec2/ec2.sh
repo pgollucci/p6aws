@@ -1,9 +1,33 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_svc_instance_show(instance_id)
+#
+# Arg(s):
+#    instance_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_svc_instance_show() {
     local instance_id="$1"
 
     p6_aws_ec2_instances_describe --instance-ids $instance_id
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_svc_instances_list([vpc_id])
+#
+# Arg(s):
+#    vpc_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_svc_instances_list() {
     local vpc_id="${1:-$AWS_VPC}"
 
@@ -13,6 +37,20 @@ p6_aws_ec2_svc_instances_list() {
 	--query "'Reservations[].Instances[].[InstanceId, ImageId, InstanceType, SecurityGroups[].GroupId | join(\`,\` @), SubnetId, Placement.AvailabilityZone, BlockDeviceMappings[0].Ebs.VolumeId, NetworkInterfaces[0].PrivateIpAddress, KeyName, $P6_AWS_JQ_TAG_NAME, KmsKeyId, NetworkInterfaces[0].Association.PublicIp, IamInstanceProfile.Arn]'"
 }
 
+######################################################################
+#<
+#
+# Function:
+#     $instance_id = p6_aws_ec2_svc_instance_id_from_name_tag(name)
+#
+# Arg(s):
+#    name - 
+#
+# Return(s):
+#    $instance_id - 
+#
+#>
+######################################################################
 p6_aws_ec2_svc_instance_id_from_name_tag() {
     local name="$1"
 
@@ -27,6 +65,20 @@ p6_aws_ec2_svc_instance_id_from_name_tag() {
     p6_return "$instance_id"
 }
 
+######################################################################
+#<
+#
+# Function:
+#     $private_ip = p6_aws_ec2_svc_instance_private_ip(instance_id)
+#
+# Arg(s):
+#    instance_id - 
+#
+# Return(s):
+#    $private_ip - 
+#
+#>
+######################################################################
 p6_aws_ec2_svc_instance_private_ip() {
     local instance_id="$1"
 
@@ -38,6 +90,20 @@ p6_aws_ec2_svc_instance_private_ip() {
     p6_return "$private_ip"
 }
 
+######################################################################
+#<
+#
+# Function:
+#     $public_ip = p6_aws_ec2_svc_instance_public_ip(instance_id)
+#
+# Arg(s):
+#    instance_id - 
+#
+# Return(s):
+#    $public_ip - 
+#
+#>
+######################################################################
 p6_aws_ec2_svc_instance_public_ip() {
     local instance_id="$1"
 
@@ -49,6 +115,26 @@ p6_aws_ec2_svc_instance_public_ip() {
     p6_return "$public_ip"
 }
 
+######################################################################
+#<
+#
+# Function:
+#     $instance_id = p6_aws_ec2_svc_instance_create(name, ami_id, [instance_type], sg_ids, subnet_id, key_name, user_data)
+#
+# Arg(s):
+#    name - 
+#    ami_id - 
+#    instance_type - 
+#    sg_ids - 
+#    subnet_id - 
+#    key_name - 
+#    user_data - 
+#
+# Return(s):
+#    $instance_id - 
+#
+#>
+######################################################################
 p6_aws_ec2_svc_instance_create() {
     local name="$1"
     local ami_id="$2"
@@ -76,6 +162,22 @@ p6_aws_ec2_svc_instance_create() {
     p6_return "$instance_id"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_svc_launch_template_create(lt_name, ami_id, [instance_type], sg_ids, key_name)
+#
+# Arg(s):
+#    lt_name - 
+#    ami_id - 
+#    instance_type - 
+#    sg_ids - 
+#    key_name - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_svc_launch_template_create() {
     local lt_name="$1"
     local ami_id="$2"
@@ -100,6 +202,16 @@ p6_aws_ec2_svc_launch_template_create() {
 #    p6_aws_ec2_tags_create  "$launch_template_id" "'Key=Name,Value=$name'"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_svc_launch_templates_list()
+#
+#
+#
+#>
+######################################################################
 p6_aws_ec2_svc_launch_templates_list() {
 
     p6_aws_ec2_launch_templates_describe \
@@ -107,6 +219,16 @@ p6_aws_ec2_svc_launch_templates_list() {
 	--query "'LaunchTemplates[].[LaunchTemplateId, LaunchTemplateName, DefaultVersionNumber, LatestVersionNumber]'"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_svc_volumes_list()
+#
+#
+#
+#>
+######################################################################
 p6_aws_ec2_svc_volumes_list() {
 
     p6_aws_ec2_volumes_describe \

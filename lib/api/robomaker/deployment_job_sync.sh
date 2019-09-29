@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_robomaker_deployment_job_sync(fleet)
+#
+# Arg(s):
+#    fleet - 
+#
+#
+#>
+######################################################################
 p6_aws_robomaker_deployment_job_sync() {
     local fleet="$1"
     shift 1

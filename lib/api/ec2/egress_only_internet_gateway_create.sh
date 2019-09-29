@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_egress_only_internet_gateway_create(vpc_id)
+#
+# Arg(s):
+#    vpc_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_egress_only_internet_gateway_create() {
     local vpc_id="$1"
     shift 1

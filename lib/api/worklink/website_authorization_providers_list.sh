@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_worklink_website_authorization_providers_list(fleet_arn)
+#
+# Arg(s):
+#    fleet_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_worklink_website_authorization_providers_list() {
     local fleet_arn="$1"
     shift 1

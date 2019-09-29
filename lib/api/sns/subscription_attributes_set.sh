@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sns_subscription_attributes_set(subscription_arn, attribute_name)
+#
+# Arg(s):
+#    subscription_arn - 
+#    attribute_name - 
+#
+#
+#>
+######################################################################
 p6_aws_sns_subscription_attributes_set() {
     local subscription_arn="$1"
     local attribute_name="$2"

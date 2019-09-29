@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_apigatewayv2_authorizer_update(api_id, authorizer_id)
+#
+# Arg(s):
+#    api_id - 
+#    authorizer_id - 
+#
+#
+#>
+######################################################################
 p6_aws_apigatewayv2_authorizer_update() {
     local api_id="$1"
     local authorizer_id="$2"

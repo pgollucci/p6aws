@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_pinpoint_segment_version_get(application_id, segment_id, segment_version)
+#
+# Arg(s):
+#    application_id - 
+#    segment_id - 
+#    segment_version - 
+#
+#
+#>
+######################################################################
 p6_aws_pinpoint_segment_version_get() {
     local application_id="$1"
     local segment_id="$2"

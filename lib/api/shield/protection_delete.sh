@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_shield_protection_delete(protection_id)
+#
+# Arg(s):
+#    protection_id - 
+#
+#
+#>
+######################################################################
 p6_aws_shield_protection_delete() {
     local protection_id="$1"
     shift 1

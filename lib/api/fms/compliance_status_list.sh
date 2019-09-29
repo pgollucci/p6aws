@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_fms_compliance_status_list(policy_id)
+#
+# Arg(s):
+#    policy_id - 
+#
+#
+#>
+######################################################################
 p6_aws_fms_compliance_status_list() {
     local policy_id="$1"
     shift 1

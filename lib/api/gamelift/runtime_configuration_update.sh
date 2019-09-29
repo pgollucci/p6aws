@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_gamelift_runtime_configuration_update(fleet_id, runtime_configuration)
+#
+# Arg(s):
+#    fleet_id - 
+#    runtime_configuration - 
+#
+#
+#>
+######################################################################
 p6_aws_gamelift_runtime_configuration_update() {
     local fleet_id="$1"
     local runtime_configuration="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_idp_list_groups_for_user_admin(username, user_pool_id)
+#
+# Arg(s):
+#    username - 
+#    user_pool_id - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_idp_list_groups_for_user_admin() {
     local username="$1"
     local user_pool_id="$2"

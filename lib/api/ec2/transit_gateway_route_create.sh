@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_transit_gateway_route_create(destination_cidr_block, transit_gateway_route_table_id)
+#
+# Arg(s):
+#    destination_cidr_block - 
+#    transit_gateway_route_table_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_transit_gateway_route_create() {
     local destination_cidr_block="$1"
     local transit_gateway_route_table_id="$2"

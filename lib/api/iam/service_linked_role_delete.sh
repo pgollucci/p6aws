@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_service_linked_role_delete(role_name)
+#
+# Arg(s):
+#    role_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_service_linked_role_delete() {
     local role_name="$1"
     shift 1

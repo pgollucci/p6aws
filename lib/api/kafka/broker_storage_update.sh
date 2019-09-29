@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_kafka_broker_storage_update(cluster_arn, current_version, target_broker_ebs_volume_info)
+#
+# Arg(s):
+#    cluster_arn - 
+#    current_version - 
+#    target_broker_ebs_volume_info - 
+#
+#
+#>
+######################################################################
 p6_aws_kafka_broker_storage_update() {
     local cluster_arn="$1"
     local current_version="$2"

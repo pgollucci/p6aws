@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_backup_backup_plan_delete(backup_plan_id)
+#
+# Arg(s):
+#    backup_plan_id - 
+#
+#
+#>
+######################################################################
 p6_aws_backup_backup_plan_delete() {
     local backup_plan_id="$1"
     shift 1

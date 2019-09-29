@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workmail_group_describe(organization_id, group_id)
+#
+# Arg(s):
+#    organization_id - 
+#    group_id - 
+#
+#
+#>
+######################################################################
 p6_aws_workmail_group_describe() {
     local organization_id="$1"
     local group_id="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workspaces_ip_rules_authorize(group_id, user_rules)
+#
+# Arg(s):
+#    group_id - 
+#    user_rules - 
+#
+#
+#>
+######################################################################
 p6_aws_workspaces_ip_rules_authorize() {
     local group_id="$1"
     local user_rules="$2"

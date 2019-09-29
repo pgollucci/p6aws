@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_groundstation_config_delete(config_id, config_type)
+#
+# Arg(s):
+#    config_id - 
+#    config_type - 
+#
+#
+#>
+######################################################################
 p6_aws_groundstation_config_delete() {
     local config_id="$1"
     local config_type="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_datasync_agent_delete(agent_arn)
+#
+# Arg(s):
+#    agent_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_datasync_agent_delete() {
     local agent_arn="$1"
     shift 1

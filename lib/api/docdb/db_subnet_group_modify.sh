@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_docdb_db_subnet_group_modify(db_subnet_group_name, subnet_ids)
+#
+# Arg(s):
+#    db_subnet_group_name - 
+#    subnet_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_docdb_db_subnet_group_modify() {
     local db_subnet_group_name="$1"
     local subnet_ids="$2"

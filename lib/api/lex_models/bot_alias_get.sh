@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lex_models_bot_alias_get(name, bot_name)
+#
+# Arg(s):
+#    name - 
+#    bot_name - 
+#
+#
+#>
+######################################################################
 p6_aws_lex_models_bot_alias_get() {
     local name="$1"
     local bot_name="$2"

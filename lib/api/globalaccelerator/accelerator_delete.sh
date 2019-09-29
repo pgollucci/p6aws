@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_globalaccelerator_accelerator_delete(accelerator_arn)
+#
+# Arg(s):
+#    accelerator_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_globalaccelerator_accelerator_delete() {
     local accelerator_arn="$1"
     shift 1

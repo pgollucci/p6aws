@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lightsail_relational_database_parameters_update(relational_database_name, parameters)
+#
+# Arg(s):
+#    relational_database_name - 
+#    parameters - 
+#
+#
+#>
+######################################################################
 p6_aws_lightsail_relational_database_parameters_update() {
     local relational_database_name="$1"
     local parameters="$2"

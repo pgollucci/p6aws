@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_route53_tags_for_resources_list(resource_type, resource_ids)
+#
+# Arg(s):
+#    resource_type - 
+#    resource_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_route53_tags_for_resources_list() {
     local resource_type="$1"
     local resource_ids="$2"

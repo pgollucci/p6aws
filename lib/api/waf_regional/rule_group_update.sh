@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_waf_regional_rule_group_update(rule_group_id, updates, change_token)
+#
+# Arg(s):
+#    rule_group_id - 
+#    updates - 
+#    change_token - 
+#
+#
+#>
+######################################################################
 p6_aws_waf_regional_rule_group_update() {
     local rule_group_id="$1"
     local updates="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cognito_idp_user_import_job_describe(user_pool_id, job_id)
+#
+# Arg(s):
+#    user_pool_id - 
+#    job_id - 
+#
+#
+#>
+######################################################################
 p6_aws_cognito_idp_user_import_job_describe() {
     local user_pool_id="$1"
     local job_id="$2"

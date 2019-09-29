@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_logs_query_start(start_time, end_time, query_string)
+#
+# Arg(s):
+#    start_time - 
+#    end_time - 
+#    query_string - 
+#
+#
+#>
+######################################################################
 p6_aws_logs_query_start() {
     local start_time="$1"
     local end_time="$2"

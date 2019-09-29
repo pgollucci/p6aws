@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workspaces_workspace_state_modify(workspace_id, workspace_state)
+#
+# Arg(s):
+#    workspace_id - 
+#    workspace_state - 
+#
+#
+#>
+######################################################################
 p6_aws_workspaces_workspace_state_modify() {
     local workspace_id="$1"
     local workspace_state="$2"

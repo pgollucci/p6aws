@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_tags_for_resource_list(resource_id)
+#
+# Arg(s):
+#    resource_id - 
+#
+#
+#>
+######################################################################
 p6_aws_organizations_tags_for_resource_list() {
     local resource_id="$1"
     shift 1

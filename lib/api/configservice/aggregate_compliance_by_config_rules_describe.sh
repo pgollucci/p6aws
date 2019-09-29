@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_configservice_aggregate_compliance_by_config_rules_describe(configuration_aggregator_name)
+#
+# Arg(s):
+#    configuration_aggregator_name - 
+#
+#
+#>
+######################################################################
 p6_aws_configservice_aggregate_compliance_by_config_rules_describe() {
     local configuration_aggregator_name="$1"
     shift 1

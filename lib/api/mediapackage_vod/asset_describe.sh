@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mediapackage_vod_asset_describe(id)
+#
+# Arg(s):
+#    id - 
+#
+#
+#>
+######################################################################
 p6_aws_mediapackage_vod_asset_describe() {
     local id="$1"
     shift 1

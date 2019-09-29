@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ecr_lifecycle_policy_put(repository_name, lifecycle_policy_text)
+#
+# Arg(s):
+#    repository_name - 
+#    lifecycle_policy_text - 
+#
+#
+#>
+######################################################################
 p6_aws_ecr_lifecycle_policy_put() {
     local repository_name="$1"
     local lifecycle_policy_text="$2"

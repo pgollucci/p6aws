@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_workdocs_labels_create(resource_id, labels)
+#
+# Arg(s):
+#    resource_id - 
+#    labels - 
+#
+#
+#>
+######################################################################
 p6_aws_workdocs_labels_create() {
     local resource_id="$1"
     local labels="$2"

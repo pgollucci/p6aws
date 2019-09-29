@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_amplify_domain_association_get(app_id, domain_name)
+#
+# Arg(s):
+#    app_id - 
+#    domain_name - 
+#
+#
+#>
+######################################################################
 p6_aws_amplify_domain_association_get() {
     local app_id="$1"
     local domain_name="$2"

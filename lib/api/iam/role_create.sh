@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_role_create(role_name, assume_role_policy_document)
+#
+# Arg(s):
+#    role_name - 
+#    assume_role_policy_document - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_role_create() {
     local role_name="$1"
     local assume_role_policy_document="$2"

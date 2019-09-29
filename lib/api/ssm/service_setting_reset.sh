@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_service_setting_reset(setting_id)
+#
+# Arg(s):
+#    setting_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_service_setting_reset() {
     local setting_id="$1"
     shift 1

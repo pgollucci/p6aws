@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lex_runtime_content_post(bot_name, bot_alias, user_id, content_type, input_stream)
+#
+# Arg(s):
+#    bot_name - 
+#    bot_alias - 
+#    user_id - 
+#    content_type - 
+#    input_stream - 
+#
+#
+#>
+######################################################################
 p6_aws_lex_runtime_content_post() {
     local bot_name="$1"
     local bot_alias="$2"

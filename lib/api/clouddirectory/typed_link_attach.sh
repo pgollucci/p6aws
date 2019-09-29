@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_clouddirectory_typed_link_attach(directory_arn, source_object_reference, target_object_reference, typed_link_facet, attributes)
+#
+# Arg(s):
+#    directory_arn - 
+#    source_object_reference - 
+#    target_object_reference - 
+#    typed_link_facet - 
+#    attributes - 
+#
+#
+#>
+######################################################################
 p6_aws_clouddirectory_typed_link_attach() {
     local directory_arn="$1"
     local source_object_reference="$2"

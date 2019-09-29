@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_health_event_aggregates_describe(aggregate_field)
+#
+# Arg(s):
+#    aggregate_field - 
+#
+#
+#>
+######################################################################
 p6_aws_health_event_aggregates_describe() {
     local aggregate_field="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_secretsmanager_secret_value_put(secret_id)
+#
+# Arg(s):
+#    secret_id - 
+#
+#
+#>
+######################################################################
 p6_aws_secretsmanager_secret_value_put() {
     local secret_id="$1"
     shift 1

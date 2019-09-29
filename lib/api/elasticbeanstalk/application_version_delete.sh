@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elasticbeanstalk_application_version_delete(application_name, version_label)
+#
+# Arg(s):
+#    application_name - 
+#    version_label - 
+#
+#
+#>
+######################################################################
 p6_aws_elasticbeanstalk_application_version_delete() {
     local application_name="$1"
     local version_label="$2"

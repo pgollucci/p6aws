@@ -1,3 +1,13 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_stepfunctions_svc_list()
+#
+#
+#
+#>
+######################################################################
 p6_aws_stepfunctions_svc_list() {
 
     p6_aws_stepfunctions_state_machines_list \
@@ -5,6 +15,18 @@ p6_aws_stepfunctions_svc_list() {
 	"$@"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_stepfunctions_svc_state_machine_show(state_machine)
+#
+# Arg(s):
+#    state_machine - 
+#
+#
+#>
+######################################################################
 p6_aws_stepfunctions_svc_state_machine_show() {
     local state_machine="$1"
     shift 1

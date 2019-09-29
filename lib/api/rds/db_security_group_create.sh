@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_db_security_group_create(db_security_group_name, db_security_group_description)
+#
+# Arg(s):
+#    db_security_group_name - 
+#    db_security_group_description - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_db_security_group_create() {
     local db_security_group_name="$1"
     local db_security_group_description="$2"

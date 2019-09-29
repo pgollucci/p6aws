@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elasticache_cache_parameter_group_create(cache_parameter_group_name, cache_parameter_group_family, description)
+#
+# Arg(s):
+#    cache_parameter_group_name - 
+#    cache_parameter_group_family - 
+#    description - 
+#
+#
+#>
+######################################################################
 p6_aws_elasticache_cache_parameter_group_create() {
     local cache_parameter_group_name="$1"
     local cache_parameter_group_family="$2"

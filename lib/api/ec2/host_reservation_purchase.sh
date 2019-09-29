@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_host_reservation_purchase(host_id_set, offering_id)
+#
+# Arg(s):
+#    host_id_set - 
+#    offering_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_host_reservation_purchase() {
     local host_id_set="$1"
     local offering_id="$2"

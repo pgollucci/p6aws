@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_product_instance_confirm(instance_id, product_code)
+#
+# Arg(s):
+#    instance_id - 
+#    product_code - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_product_instance_confirm() {
     local instance_id="$1"
     local product_code="$2"

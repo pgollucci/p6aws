@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ses_identity_policy_put(identity, policy_name, policy)
+#
+# Arg(s):
+#    identity - 
+#    policy_name - 
+#    policy - 
+#
+#
+#>
+######################################################################
 p6_aws_ses_identity_policy_put() {
     local identity="$1"
     local policy_name="$2"

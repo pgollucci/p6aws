@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_robomaker_fleet_describe(fleet)
+#
+# Arg(s):
+#    fleet - 
+#
+#
+#>
+######################################################################
 p6_aws_robomaker_fleet_describe() {
     local fleet="$1"
     shift 1

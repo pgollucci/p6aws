@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_firehose_destination_update(delivery_stream_name, current_delivery_stream_version_id, destination_id)
+#
+# Arg(s):
+#    delivery_stream_name - 
+#    current_delivery_stream_version_id - 
+#    destination_id - 
+#
+#
+#>
+######################################################################
 p6_aws_firehose_destination_update() {
     local delivery_stream_name="$1"
     local current_delivery_stream_version_id="$2"

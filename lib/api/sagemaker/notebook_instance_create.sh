@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_sagemaker_notebook_instance_create(notebook_instance_name, instance_type, role_arn)
+#
+# Arg(s):
+#    notebook_instance_name - 
+#    instance_type - 
+#    role_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_sagemaker_notebook_instance_create() {
     local notebook_instance_name="$1"
     local instance_type="$2"

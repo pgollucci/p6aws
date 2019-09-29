@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_discovery_import_task_start(name, import_url)
+#
+# Arg(s):
+#    name - 
+#    import_url - 
+#
+#
+#>
+######################################################################
 p6_aws_discovery_import_task_start() {
     local name="$1"
     local import_url="$2"

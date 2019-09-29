@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ses_identity_policies_get(identity, policy_names)
+#
+# Arg(s):
+#    identity - 
+#    policy_names - 
+#
+#
+#>
+######################################################################
 p6_aws_ses_identity_policies_get() {
     local identity="$1"
     local policy_names="$2"

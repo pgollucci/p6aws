@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_volume_create(availability_zone)
+#
+# Arg(s):
+#    availability_zone - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_volume_create() {
     local availability_zone="$1"
     shift 1

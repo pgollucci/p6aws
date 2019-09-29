@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_greengrass_connector_definition_version_get(connector_definition_id, connector_definition_version_id)
+#
+# Arg(s):
+#    connector_definition_id - 
+#    connector_definition_version_id - 
+#
+#
+#>
+######################################################################
 p6_aws_greengrass_connector_definition_version_get() {
     local connector_definition_id="$1"
     local connector_definition_version_id="$2"

@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_stream_create(stream_id, files, role_arn)
+#
+# Arg(s):
+#    stream_id - 
+#    files - 
+#    role_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_stream_create() {
     local stream_id="$1"
     local files="$2"

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_alexaforbusiness_business_report_schedule_update(schedule_arn)
+#
+# Arg(s):
+#    schedule_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_alexaforbusiness_business_report_schedule_update() {
     local schedule_arn="$1"
     shift 1

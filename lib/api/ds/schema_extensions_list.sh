@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ds_schema_extensions_list(directory_id)
+#
+# Arg(s):
+#    directory_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ds_schema_extensions_list() {
     local directory_id="$1"
     shift 1

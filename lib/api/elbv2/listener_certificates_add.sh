@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elbv2_listener_certificates_add(listener_arn, certificates)
+#
+# Arg(s):
+#    listener_arn - 
+#    certificates - 
+#
+#
+#>
+######################################################################
 p6_aws_elbv2_listener_certificates_add() {
     local listener_arn="$1"
     local certificates="$2"

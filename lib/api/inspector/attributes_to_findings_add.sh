@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_inspector_attributes_to_findings_add(finding_arns, attributes)
+#
+# Arg(s):
+#    finding_arns - 
+#    attributes - 
+#
+#
+#>
+######################################################################
 p6_aws_inspector_attributes_to_findings_add() {
     local finding_arns="$1"
     local attributes="$2"

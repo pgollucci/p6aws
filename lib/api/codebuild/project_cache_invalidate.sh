@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_codebuild_project_cache_invalidate(project_name)
+#
+# Arg(s):
+#    project_name - 
+#
+#
+#>
+######################################################################
 p6_aws_codebuild_project_cache_invalidate() {
     local project_name="$1"
     shift 1

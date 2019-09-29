@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_athena_get_query_execution_batch(query_execution_ids)
+#
+# Arg(s):
+#    query_execution_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_athena_get_query_execution_batch() {
     local query_execution_ids="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mturk_hit_review_status_update(hit_id)
+#
+# Arg(s):
+#    hit_id - 
+#
+#
+#>
+######################################################################
 p6_aws_mturk_hit_review_status_update() {
     local hit_id="$1"
     shift 1

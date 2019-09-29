@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_personalize_algorithm_describe(algorithm_arn)
+#
+# Arg(s):
+#    algorithm_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_personalize_algorithm_describe() {
     local algorithm_arn="$1"
     shift 1

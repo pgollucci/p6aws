@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_fleet_modify(fleet_id, target_capacity_specification)
+#
+# Arg(s):
+#    fleet_id - 
+#    target_capacity_specification - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_fleet_modify() {
     local fleet_id="$1"
     local target_capacity_specification="$2"

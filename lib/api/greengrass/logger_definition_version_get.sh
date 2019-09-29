@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_greengrass_logger_definition_version_get(logger_definition_id, logger_definition_version_id)
+#
+# Arg(s):
+#    logger_definition_id - 
+#    logger_definition_version_id - 
+#
+#
+#>
+######################################################################
 p6_aws_greengrass_logger_definition_version_get() {
     local logger_definition_id="$1"
     local logger_definition_version_id="$2"

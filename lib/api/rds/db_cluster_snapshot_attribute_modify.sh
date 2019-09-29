@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_db_cluster_snapshot_attribute_modify(db_cluster_snapshot_identifier, attribute_name)
+#
+# Arg(s):
+#    db_cluster_snapshot_identifier - 
+#    attribute_name - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_db_cluster_snapshot_attribute_modify() {
     local db_cluster_snapshot_identifier="$1"
     local attribute_name="$2"

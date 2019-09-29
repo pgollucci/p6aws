@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lakeformation_permissions_revoke(principal, resource, permissions)
+#
+# Arg(s):
+#    principal - 
+#    resource - 
+#    permissions - 
+#
+#
+#>
+######################################################################
 p6_aws_lakeformation_permissions_revoke() {
     local principal="$1"
     local resource="$2"

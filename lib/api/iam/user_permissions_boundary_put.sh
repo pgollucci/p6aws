@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iam_user_permissions_boundary_put(user_name, permissions_boundary)
+#
+# Arg(s):
+#    user_name - 
+#    permissions_boundary - 
+#
+#
+#>
+######################################################################
 p6_aws_iam_user_permissions_boundary_put() {
     local user_name="$1"
     local permissions_boundary="$2"

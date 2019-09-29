@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elb_app_cookie_stickiness_policy_create(load_balancer_name, policy_name, cookie_name)
+#
+# Arg(s):
+#    load_balancer_name - 
+#    policy_name - 
+#    cookie_name - 
+#
+#
+#>
+######################################################################
 p6_aws_elb_app_cookie_stickiness_policy_create() {
     local load_balancer_name="$1"
     local policy_name="$2"

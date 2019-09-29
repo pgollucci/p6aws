@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_security_profile_update(security_profile_name)
+#
+# Arg(s):
+#    security_profile_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_security_profile_update() {
     local security_profile_name="$1"
     shift 1

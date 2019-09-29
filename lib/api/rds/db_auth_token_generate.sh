@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_db_auth_token_generate(hostname, port, username)
+#
+# Arg(s):
+#    hostname - 
+#    port - 
+#    username - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_db_auth_token_generate() {
     local hostname="$1"
     local port="$2"

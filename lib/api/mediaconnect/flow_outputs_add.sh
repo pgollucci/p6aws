@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mediaconnect_flow_outputs_add(flow_arn, outputs)
+#
+# Arg(s):
+#    flow_arn - 
+#    outputs - 
+#
+#
+#>
+######################################################################
 p6_aws_mediaconnect_flow_outputs_add() {
     local flow_arn="$1"
     local outputs="$2"

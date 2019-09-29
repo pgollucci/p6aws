@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_fms_admin_account_associate(admin_account)
+#
+# Arg(s):
+#    admin_account - 
+#
+#
+#>
+######################################################################
 p6_aws_fms_admin_account_associate() {
     local admin_account="$1"
     shift 1

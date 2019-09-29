@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_secretsmanager_secret_version_stage_update(secret_id, version_stage)
+#
+# Arg(s):
+#    secret_id - 
+#    version_stage - 
+#
+#
+#>
+######################################################################
 p6_aws_secretsmanager_secret_version_stage_update() {
     local secret_id="$1"
     local version_stage="$2"

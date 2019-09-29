@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_glacier_job_describe(account_id, vault_name, job_id)
+#
+# Arg(s):
+#    account_id - 
+#    vault_name - 
+#    job_id - 
+#
+#
+#>
+######################################################################
 p6_aws_glacier_job_describe() {
     local account_id="$1"
     local vault_name="$2"

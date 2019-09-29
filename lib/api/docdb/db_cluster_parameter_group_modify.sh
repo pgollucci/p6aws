@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_docdb_db_cluster_parameter_group_modify(db_cluster_parameter_group_name, parameters)
+#
+# Arg(s):
+#    db_cluster_parameter_group_name - 
+#    parameters - 
+#
+#
+#>
+######################################################################
 p6_aws_docdb_db_cluster_parameter_group_modify() {
     local db_cluster_parameter_group_name="$1"
     local parameters="$2"

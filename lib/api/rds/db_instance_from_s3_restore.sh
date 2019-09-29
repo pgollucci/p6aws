@@ -1,3 +1,21 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_db_instance_from_s3_restore(db_instance_identifier, db_instance_class, engine, source_engine, source_engine_version, s3_bucket_name, s3_ingestion_role_arn)
+#
+# Arg(s):
+#    db_instance_identifier - 
+#    db_instance_class - 
+#    engine - 
+#    source_engine - 
+#    source_engine_version - 
+#    s3_bucket_name - 
+#    s3_ingestion_role_arn - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_db_instance_from_s3_restore() {
     local db_instance_identifier="$1"
     local db_instance_class="$2"

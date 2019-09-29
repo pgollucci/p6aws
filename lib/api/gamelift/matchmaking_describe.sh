@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_gamelift_matchmaking_describe(ticket_ids)
+#
+# Arg(s):
+#    ticket_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_gamelift_matchmaking_describe() {
     local ticket_ids="$1"
     shift 1

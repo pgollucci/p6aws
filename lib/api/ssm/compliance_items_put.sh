@@ -1,3 +1,19 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ssm_compliance_items_put(resource_id, resource_type, compliance_type, execution_summary, items)
+#
+# Arg(s):
+#    resource_id - 
+#    resource_type - 
+#    compliance_type - 
+#    execution_summary - 
+#    items - 
+#
+#
+#>
+######################################################################
 p6_aws_ssm_compliance_items_put() {
     local resource_id="$1"
     local resource_type="$2"

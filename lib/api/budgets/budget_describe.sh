@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_budgets_budget_describe(account_id, budget_name)
+#
+# Arg(s):
+#    account_id - 
+#    budget_name - 
+#
+#
+#>
+######################################################################
 p6_aws_budgets_budget_describe() {
     local account_id="$1"
     local budget_name="$2"

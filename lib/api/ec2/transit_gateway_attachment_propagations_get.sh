@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_transit_gateway_attachment_propagations_get(transit_gateway_attachment_id)
+#
+# Arg(s):
+#    transit_gateway_attachment_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_transit_gateway_attachment_propagations_get() {
     local transit_gateway_attachment_id="$1"
     shift 1

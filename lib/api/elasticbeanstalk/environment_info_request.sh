@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elasticbeanstalk_environment_info_request(info_type)
+#
+# Arg(s):
+#    info_type - 
+#
+#
+#>
+######################################################################
 p6_aws_elasticbeanstalk_environment_info_request() {
     local info_type="$1"
     shift 1

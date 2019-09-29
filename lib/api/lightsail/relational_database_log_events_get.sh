@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_lightsail_relational_database_log_events_get(relational_database_name, log_stream_name)
+#
+# Arg(s):
+#    relational_database_name - 
+#    log_stream_name - 
+#
+#
+#>
+######################################################################
 p6_aws_lightsail_relational_database_log_events_get() {
     local relational_database_name="$1"
     local log_stream_name="$2"

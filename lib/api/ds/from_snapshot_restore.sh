@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ds_from_snapshot_restore(snapshot_id)
+#
+# Arg(s):
+#    snapshot_id - 
+#
+#
+#>
+######################################################################
 p6_aws_ds_from_snapshot_restore() {
     local snapshot_id="$1"
     shift 1

@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_vpc_endpoints_delete(vpc_endpoint_ids)
+#
+# Arg(s):
+#    vpc_endpoint_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_vpc_endpoints_delete() {
     local vpc_endpoint_ids="$1"
     shift 1

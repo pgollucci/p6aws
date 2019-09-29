@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_s3api_bucket_analytics_configurations_list(bucket)
+#
+# Arg(s):
+#    bucket - 
+#
+#
+#>
+######################################################################
 p6_aws_s3api_bucket_analytics_configurations_list() {
     local bucket="$1"
     shift 1

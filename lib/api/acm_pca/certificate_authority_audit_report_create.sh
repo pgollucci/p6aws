@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_acm_pca_certificate_authority_audit_report_create(certificate_authority_arn, s3_bucket_name, audit_report_response_format)
+#
+# Arg(s):
+#    certificate_authority_arn - 
+#    s3_bucket_name - 
+#    audit_report_response_format - 
+#
+#
+#>
+######################################################################
 p6_aws_acm_pca_certificate_authority_audit_report_create() {
     local certificate_authority_arn="$1"
     local s3_bucket_name="$2"

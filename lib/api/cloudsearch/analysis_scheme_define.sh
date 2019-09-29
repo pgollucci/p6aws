@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudsearch_analysis_scheme_define(domain_name, analysis_scheme)
+#
+# Arg(s):
+#    domain_name - 
+#    analysis_scheme - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudsearch_analysis_scheme_define() {
     local domain_name="$1"
     local analysis_scheme="$2"

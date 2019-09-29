@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_autoscaling_instances_attach(auto_scaling_group_name)
+#
+# Arg(s):
+#    auto_scaling_group_name - 
+#
+#
+#>
+######################################################################
 p6_aws_autoscaling_instances_attach() {
     local auto_scaling_group_name="$1"
     shift 1

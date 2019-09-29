@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_mgh_created_artifact_disassociate(progress_update_stream, migration_task_name, created_artifact_name)
+#
+# Arg(s):
+#    progress_update_stream - 
+#    migration_task_name - 
+#    created_artifact_name - 
+#
+#
+#>
+######################################################################
 p6_aws_mgh_created_artifact_disassociate() {
     local progress_update_stream="$1"
     local migration_task_name="$2"

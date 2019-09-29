@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_cloudformation_stack_instance_describe(stack_set_name, stack_instance_account, stack_instance_region)
+#
+# Arg(s):
+#    stack_set_name - 
+#    stack_instance_account - 
+#    stack_instance_region - 
+#
+#
+#>
+######################################################################
 p6_aws_cloudformation_stack_instance_describe() {
     local stack_set_name="$1"
     local stack_instance_account="$2"

@@ -1,3 +1,32 @@
+######################################################################
+#<
+#
+# Function:
+#     $saml_file = p6_aws_organizations_svc_account_make(cred_file, src_cred_file, assumed_cred_file, org, account_alias, account_email, account_map, saml_provider, saml_provider_email, region, output, role_full_path, policy_arn, cert_subject, cert_bits, cert_exp)
+#
+# Arg(s):
+#    cred_file - 
+#    src_cred_file - 
+#    assumed_cred_file - 
+#    org - 
+#    account_alias - 
+#    account_email - 
+#    account_map - 
+#    saml_provider - 
+#    saml_provider_email - 
+#    region - 
+#    output - 
+#    role_full_path - 
+#    policy_arn - 
+#    cert_subject - 
+#    cert_bits - 
+#    cert_exp - 
+#
+# Return(s):
+#    $saml_file - 
+#
+#>
+######################################################################
 p6_aws_organizations_svc_account_make() {
     local cred_file="$1"
     local src_cred_file="$2"
@@ -32,6 +61,26 @@ p6_aws_organizations_svc_account_make() {
     p6_return "$saml_file"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_svc_account_init(org, account_alias, account_email, account_id, saml_file, saml_provider, role_full_path, policy_arn, provider)
+#
+# Arg(s):
+#    org - 
+#    account_alias - 
+#    account_email - 
+#    account_id - 
+#    saml_file - 
+#    saml_provider - 
+#    role_full_path - 
+#    policy_arn - 
+#    provider - 
+#
+#
+#>
+######################################################################
 p6_aws_organizations_svc_account_init() {
     local org="$1"
     local account_alias="$2"
@@ -52,6 +101,22 @@ p6_aws_organizations_svc_account_init() {
     p6_aws_iam_svc_role_saml_create "$role_full_path" "$policy_arn" "$account_id" "$saml_provider"
 }
 
+######################################################################
+#<
+#
+# Function:
+#     str = p6_aws_organizations_svc_account_create_or_fetch(account_alias, account_email, account_map)
+#
+# Arg(s):
+#    account_alias - 
+#    account_email - 
+#    account_map - 
+#
+# Return(s):
+#     - 
+#
+#>
+######################################################################
 p6_aws_organizations_svc_account_create_or_fetch() {
     local account_alias="$1"
     local account_email="$2"
@@ -66,6 +131,26 @@ p6_aws_organizations_svc_account_create_or_fetch() {
     p6_return $account_id
 }
 
+######################################################################
+#<
+#
+# Function:
+#     $account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
+#
+# Arg(s):
+#    account_name - 
+#    account_email - 
+#    account_name - 
+#    account_email - 
+#    account_email - 
+#    account_alias - 
+#
+# Return(s):
+#    $account_id - 
+#    $car_id - 
+#
+#>
+######################################################################
 p6_aws_organizations_svc_account_create() {
     local account_email="$1"
     local account_alias="$2"
@@ -76,6 +161,19 @@ p6_aws_organizations_svc_account_create() {
     p6_aws_organizations_svc_account_id_from_alias "$account_alias"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_svc_account_wait_for(cas_id, car)
+#
+# Arg(s):
+#    cas_id - 
+#    car - 
+#
+#
+#>
+######################################################################
 p6_aws_organizations_svc_account_wait_for() {
     local car="$1"
 
@@ -84,6 +182,21 @@ p6_aws_organizations_svc_account_wait_for() {
 	p6_aws_organizations_create_account_status_describe "$car"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_svc_account_create_stop(status, cas_id, status, car)
+#
+# Arg(s):
+#    status - 
+#    cas_id - 
+#    status - 
+#    car - 
+#
+#
+#>
+######################################################################
 p6_aws_organizations_svc_account_create_stop() {
     local status="$1"
     local car="$2"
@@ -94,6 +207,26 @@ p6_aws_organizations_svc_account_create_stop() {
     # continue
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_svc_su(account_alias, map_file, region, output, role_full_path, role_session_name, cred_file, src_cred_file, assumed_cred_file)
+#
+# Arg(s):
+#    account_alias - 
+#    map_file - 
+#    region - 
+#    output - 
+#    role_full_path - 
+#    role_session_name - 
+#    cred_file - 
+#    src_cred_file - 
+#    assumed_cred_file - 
+#
+#
+#>
+######################################################################
 p6_aws_organizations_svc_su() {
     local account_alias="$1"
     local map_file="$2"
@@ -116,11 +249,42 @@ p6_aws_organizations_svc_su() {
 	"$cred_file" "$src_cred_file" "$assumed_cred_file"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_svc_su_un()
+#
+#
+#
+#>
+######################################################################
 p6_aws_organizations_svc_su_un() {
 
     p6_aws_sts_svc_role_unassume "$@"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_svc_run_as(account_alias, account_map, region, output, role_name, role_session_name, cred_file, src_cred_file, assumed_cred_file, cmd)
+#
+# Arg(s):
+#    account_alias - 
+#    account_map - 
+#    region - 
+#    output - 
+#    role_name - 
+#    role_session_name - 
+#    cred_file - 
+#    src_cred_file - 
+#    assumed_cred_file - 
+#    cmd - 
+#
+#
+#>
+######################################################################
 p6_aws_organizations_svc_run_as() {
     local account_alias="$1"
     local account_map="$2"
@@ -146,6 +310,18 @@ p6_aws_organizations_svc_run_as() {
     p6_aws_organizations_svc_su_un "$cred_file" "$src_cred_file" "$assumed_cred_file"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_svc_account_id_from_alias(alias)
+#
+# Arg(s):
+#    alias - 
+#
+#
+#>
+######################################################################
 p6_aws_organizations_svc_account_id_from_alias() {
     local alias="$1"
 
@@ -155,6 +331,18 @@ p6_aws_organizations_svc_account_id_from_alias() {
 	awk -v k=$alias '$2 ~ k { print $1 }'
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_svc_account_status_create(car_id)
+#
+# Arg(s):
+#    car_id - 
+#
+#
+#>
+######################################################################
 p6_aws_organizations_svc_account_status_create() {
     local car_id="$1"
 
@@ -163,6 +351,16 @@ p6_aws_organizations_svc_account_status_create() {
 	--query "'CreateAccountStatus.State'"
 }
 
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_organizations_svc_accounts_list()
+#
+#
+#
+#>
+######################################################################
 p6_aws_organizations_svc_accounts_list() {
 
     p6_aws_organizations_accounts_list --output text --query "'Accounts[].[Id, Status, JoinedMethod, Arn, Name, Email]'"

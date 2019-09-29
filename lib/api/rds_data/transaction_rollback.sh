@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_rds_data_transaction_rollback(resource_arn, secret_arn, transaction_id)
+#
+# Arg(s):
+#    resource_arn - 
+#    secret_arn - 
+#    transaction_id - 
+#
+#
+#>
+######################################################################
 p6_aws_rds_data_transaction_rollback() {
     local resource_arn="$1"
     local secret_arn="$2"

@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_dynamic_thing_group_create(thing_group_name, query_string)
+#
+# Arg(s):
+#    thing_group_name - 
+#    query_string - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_dynamic_thing_group_create() {
     local thing_group_name="$1"
     local query_string="$2"

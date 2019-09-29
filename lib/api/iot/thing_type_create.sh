@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_iot_thing_type_create(thing_type_name)
+#
+# Arg(s):
+#    thing_type_name - 
+#
+#
+#>
+######################################################################
 p6_aws_iot_thing_type_create() {
     local thing_type_name="$1"
     shift 1

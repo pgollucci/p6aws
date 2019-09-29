@@ -1,3 +1,17 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_elasticache_cache_subnet_group_create(cache_subnet_group_name, cache_subnet_group_description, subnet_ids)
+#
+# Arg(s):
+#    cache_subnet_group_name - 
+#    cache_subnet_group_description - 
+#    subnet_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_elasticache_cache_subnet_group_create() {
     local cache_subnet_group_name="$1"
     local cache_subnet_group_description="$2"

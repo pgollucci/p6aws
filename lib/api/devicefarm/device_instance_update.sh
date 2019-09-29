@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_devicefarm_device_instance_update(arn)
+#
+# Arg(s):
+#    arn - 
+#
+#
+#>
+######################################################################
 p6_aws_devicefarm_device_instance_update() {
     local arn="$1"
     shift 1

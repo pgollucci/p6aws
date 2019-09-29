@@ -1,3 +1,16 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_worklink_identity_provider_configuration_update(fleet_arn, identity_provider_type)
+#
+# Arg(s):
+#    fleet_arn - 
+#    identity_provider_type - 
+#
+#
+#>
+######################################################################
 p6_aws_worklink_identity_provider_configuration_update() {
     local fleet_arn="$1"
     local identity_provider_type="$2"

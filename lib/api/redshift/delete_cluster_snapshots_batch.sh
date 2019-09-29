@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_redshift_delete_cluster_snapshots_batch(identifiers)
+#
+# Arg(s):
+#    identifiers - 
+#
+#
+#>
+######################################################################
 p6_aws_redshift_delete_cluster_snapshots_batch() {
     local identifiers="$1"
     shift 1

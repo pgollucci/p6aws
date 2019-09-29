@@ -1,3 +1,15 @@
+######################################################################
+#<
+#
+# Function:
+#      = p6_aws_ec2_instances_terminate(instance_ids)
+#
+# Arg(s):
+#    instance_ids - 
+#
+#
+#>
+######################################################################
 p6_aws_ec2_instances_terminate() {
     local instance_ids="$1"
     shift 1
