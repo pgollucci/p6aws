@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_db_cluster_snapshot_delete(db_cluster_snapshot_identifier)
+#	p6_aws_rds_db_cluster_snapshot_delete(db_cluster_snapshot_identifier)
 #
-# Arg(s):
-#    db_cluster_snapshot_identifier - 
-#
+#  Args:
+#	db_cluster_snapshot_identifier - 
 #
 #>
 ######################################################################

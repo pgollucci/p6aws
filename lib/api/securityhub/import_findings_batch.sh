@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_securityhub_import_findings_batch(findings)
+#	p6_aws_securityhub_import_findings_batch(findings)
 #
-# Arg(s):
-#    findings - 
-#
+#  Args:
+#	findings - 
 #
 #>
 ######################################################################

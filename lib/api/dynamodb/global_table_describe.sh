@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_dynamodb_global_table_describe(global_table_name)
+#	p6_aws_dynamodb_global_table_describe(global_table_name)
 #
-# Arg(s):
-#    global_table_name - 
-#
+#  Args:
+#	global_table_name - 
 #
 #>
 ######################################################################

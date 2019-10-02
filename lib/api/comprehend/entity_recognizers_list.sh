@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_comprehend_entity_recognizers_list()
-#
-#
+#	p6_aws_comprehend_entity_recognizers_list()
 #
 #>
 ######################################################################

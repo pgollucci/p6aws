@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_export_task_cancel(export_task_id)
+#	p6_aws_ec2_export_task_cancel(export_task_id)
 #
-# Arg(s):
-#    export_task_id - 
-#
+#  Args:
+#	export_task_id - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_hosts_modify(host_ids)
+#	p6_aws_ec2_hosts_modify(host_ids)
 #
-# Arg(s):
-#    host_ids - 
-#
+#  Args:
+#	host_ids - 
 #
 #>
 ######################################################################

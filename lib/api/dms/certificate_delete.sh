@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_dms_certificate_delete(certificate_arn)
+#	p6_aws_dms_certificate_delete(certificate_arn)
 #
-# Arg(s):
-#    certificate_arn - 
-#
+#  Args:
+#	certificate_arn - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_role_alias_delete(role_alias)
+#	p6_aws_iot_role_alias_delete(role_alias)
 #
-# Arg(s):
-#    role_alias - 
-#
+#  Args:
+#	role_alias - 
 #
 #>
 ######################################################################

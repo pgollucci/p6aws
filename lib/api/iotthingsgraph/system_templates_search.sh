@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iotthingsgraph_system_templates_search()
-#
-#
+#	p6_aws_iotthingsgraph_system_templates_search()
 #
 #>
 ######################################################################

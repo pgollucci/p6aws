@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_macie_member_account_disassociate(member_account_id)
+#	p6_aws_macie_member_account_disassociate(member_account_id)
 #
-# Arg(s):
-#    member_account_id - 
-#
+#  Args:
+#	member_account_id - 
 #
 #>
 ######################################################################

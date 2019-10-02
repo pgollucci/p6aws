@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_dms_schemas_refresh(endpoint_arn, replication_instance_arn)
+#	p6_aws_dms_schemas_refresh(endpoint_arn, replication_instance_arn)
 #
-# Arg(s):
-#    endpoint_arn - 
-#    replication_instance_arn - 
-#
+#  Args:
+#	endpoint_arn - 
+#	replication_instance_arn - 
 #
 #>
 ######################################################################

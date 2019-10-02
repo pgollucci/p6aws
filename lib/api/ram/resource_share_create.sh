@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ram_resource_share_create(name)
+#	p6_aws_ram_resource_share_create(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

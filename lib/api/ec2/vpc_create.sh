@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpc_create(cidr_block)
+#	p6_aws_ec2_vpc_create(cidr_block)
 #
-# Arg(s):
-#    cidr_block - 
-#
+#  Args:
+#	cidr_block - 
 #
 #>
 ######################################################################

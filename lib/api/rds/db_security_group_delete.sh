@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_db_security_group_delete(db_security_group_name)
+#	p6_aws_rds_db_security_group_delete(db_security_group_name)
 #
-# Arg(s):
-#    db_security_group_name - 
-#
+#  Args:
+#	db_security_group_name - 
 #
 #>
 ######################################################################

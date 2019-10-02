@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_ota_update_create(ota_update_id, targets, files, role_arn)
+#	p6_aws_iot_ota_update_create(ota_update_id, targets, files, role_arn)
 #
-# Arg(s):
-#    ota_update_id - 
-#    targets - 
-#    files - 
-#    role_arn - 
-#
+#  Args:
+#	ota_update_id - 
+#	targets - 
+#	files - 
+#	role_arn - 
 #
 #>
 ######################################################################

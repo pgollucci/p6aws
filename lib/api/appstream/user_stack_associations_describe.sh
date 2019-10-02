@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_appstream_user_stack_associations_describe()
-#
-#
+#	p6_aws_appstream_user_stack_associations_describe()
 #
 #>
 ######################################################################

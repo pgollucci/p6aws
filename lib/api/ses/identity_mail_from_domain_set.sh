@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_identity_mail_from_domain_set(identity)
+#	p6_aws_ses_identity_mail_from_domain_set(identity)
 #
-# Arg(s):
-#    identity - 
-#
+#  Args:
+#	identity - 
 #
 #>
 ######################################################################

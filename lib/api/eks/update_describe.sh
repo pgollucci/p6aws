@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_eks_update_describe(name, update_id)
+#	p6_aws_eks_update_describe(name, update_id)
 #
-# Arg(s):
-#    name - 
-#    update_id - 
-#
+#  Args:
+#	name - 
+#	update_id - 
 #
 #>
 ######################################################################

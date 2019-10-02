@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_dms_certificates_describe()
-#
-#
+#	p6_aws_dms_certificates_describe()
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_resource_server_delete(user_pool_id, identifier)
+#	p6_aws_cognito_idp_resource_server_delete(user_pool_id, identifier)
 #
-# Arg(s):
-#    user_pool_id - 
-#    identifier - 
-#
+#  Args:
+#	user_pool_id - 
+#	identifier - 
 #
 #>
 ######################################################################

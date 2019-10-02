@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_macie_s3_resources_update(s3_resources_update)
+#	p6_aws_macie_s3_resources_update(s3_resources_update)
 #
-# Arg(s):
-#    s3_resources_update - 
-#
+#  Args:
+#	s3_resources_update - 
 #
 #>
 ######################################################################

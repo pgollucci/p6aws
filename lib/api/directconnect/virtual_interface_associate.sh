@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_directconnect_virtual_interface_associate(virtual_interface_id, connection_id)
+#	p6_aws_directconnect_virtual_interface_associate(virtual_interface_id, connection_id)
 #
-# Arg(s):
-#    virtual_interface_id - 
-#    connection_id - 
-#
+#  Args:
+#	virtual_interface_id - 
+#	connection_id - 
 #
 #>
 ######################################################################

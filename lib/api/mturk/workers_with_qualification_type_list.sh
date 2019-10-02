@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mturk_workers_with_qualification_type_list(qualification_type_id)
+#	p6_aws_mturk_workers_with_qualification_type_list(qualification_type_id)
 #
-# Arg(s):
-#    qualification_type_id - 
-#
+#  Args:
+#	qualification_type_id - 
 #
 #>
 ######################################################################

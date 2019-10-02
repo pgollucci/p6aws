@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_robomaker_robot_application_version_create(application)
+#	p6_aws_robomaker_robot_application_version_create(application)
 #
-# Arg(s):
-#    application - 
-#
+#  Args:
+#	application - 
 #
 #>
 ######################################################################

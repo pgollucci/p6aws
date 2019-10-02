@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_rekognition_faces_search(collection_id, face_id)
+#	p6_aws_rekognition_faces_search(collection_id, face_id)
 #
-# Arg(s):
-#    collection_id - 
-#    face_id - 
-#
+#  Args:
+#	collection_id - 
+#	face_id - 
 #
 #>
 ######################################################################

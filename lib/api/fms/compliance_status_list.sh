@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_fms_compliance_status_list(policy_id)
+#	p6_aws_fms_compliance_status_list(policy_id)
 #
-# Arg(s):
-#    policy_id - 
-#
+#  Args:
+#	policy_id - 
 #
 #>
 ######################################################################

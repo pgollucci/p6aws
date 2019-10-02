@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_servicediscovery_private_dns_namespace_create(name, vpc)
+#	p6_aws_servicediscovery_private_dns_namespace_create(name, vpc)
 #
-# Arg(s):
-#    name - 
-#    vpc - 
-#
+#  Args:
+#	name - 
+#	vpc - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_aggregate_config_rule_compliance_summary_get(configuration_aggregator_name)
+#	p6_aws_configservice_aggregate_config_rule_compliance_summary_get(configuration_aggregator_name)
 #
-# Arg(s):
-#    configuration_aggregator_name - 
-#
+#  Args:
+#	configuration_aggregator_name - 
 #
 #>
 ######################################################################

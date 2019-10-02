@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesis_stream_describe(stream_name)
+#	p6_aws_kinesis_stream_describe(stream_name)
 #
-# Arg(s):
-#    stream_name - 
-#
+#  Args:
+#	stream_name - 
 #
 #>
 ######################################################################

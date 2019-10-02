@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_mgh_discovered_resource_associate(progress_update_stream, migration_task_name, discovered_resource)
+#	p6_aws_mgh_discovered_resource_associate(progress_update_stream, migration_task_name, discovered_resource)
 #
-# Arg(s):
-#    progress_update_stream - 
-#    migration_task_name - 
-#    discovered_resource - 
-#
+#  Args:
+#	progress_update_stream - 
+#	migration_task_name - 
+#	discovered_resource - 
 #
 #>
 ######################################################################

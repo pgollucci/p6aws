@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_sql_injection_match_set_get(sql_injection_match_set_id)
+#	p6_aws_waf_sql_injection_match_set_get(sql_injection_match_set_id)
 #
-# Arg(s):
-#    sql_injection_match_set_id - 
-#
+#  Args:
+#	sql_injection_match_set_id - 
 #
 #>
 ######################################################################

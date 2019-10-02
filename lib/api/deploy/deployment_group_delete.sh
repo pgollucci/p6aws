@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_deploy_deployment_group_delete(application_name, deployment_group_name)
+#	p6_aws_deploy_deployment_group_delete(application_name, deployment_group_name)
 #
-# Arg(s):
-#    application_name - 
-#    deployment_group_name - 
-#
+#  Args:
+#	application_name - 
+#	deployment_group_name - 
 #
 #>
 ######################################################################

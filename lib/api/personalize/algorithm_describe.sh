@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_personalize_algorithm_describe(algorithm_arn)
+#	p6_aws_personalize_algorithm_describe(algorithm_arn)
 #
-# Arg(s):
-#    algorithm_arn - 
-#
+#  Args:
+#	algorithm_arn - 
 #
 #>
 ######################################################################

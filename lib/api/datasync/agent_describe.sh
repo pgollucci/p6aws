@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_datasync_agent_describe(agent_arn)
+#	p6_aws_datasync_agent_describe(agent_arn)
 #
-# Arg(s):
-#    agent_arn - 
-#
+#  Args:
+#	agent_arn - 
 #
 #>
 ######################################################################

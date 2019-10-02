@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_eks_cluster_version_update(name, kubernetes_version)
+#	p6_aws_eks_cluster_version_update(name, kubernetes_version)
 #
-# Arg(s):
-#    name - 
-#    kubernetes_version - 
-#
+#  Args:
+#	name - 
+#	kubernetes_version - 
 #
 #>
 ######################################################################

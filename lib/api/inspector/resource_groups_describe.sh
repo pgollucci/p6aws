@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_inspector_resource_groups_describe(resource_group_arns)
+#	p6_aws_inspector_resource_groups_describe(resource_group_arns)
 #
-# Arg(s):
-#    resource_group_arns - 
-#
+#  Args:
+#	resource_group_arns - 
 #
 #>
 ######################################################################

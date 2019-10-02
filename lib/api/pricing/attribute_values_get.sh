@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_pricing_attribute_values_get(service_code, attribute_name)
+#	p6_aws_pricing_attribute_values_get(service_code, attribute_name)
 #
-# Arg(s):
-#    service_code - 
-#    attribute_name - 
-#
+#  Args:
+#	service_code - 
+#	attribute_name - 
 #
 #>
 ######################################################################

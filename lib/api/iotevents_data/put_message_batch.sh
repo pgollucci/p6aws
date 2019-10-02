@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iotevents_data_put_message_batch(messages)
+#	p6_aws_iotevents_data_put_message_batch(messages)
 #
-# Arg(s):
-#    messages - 
-#
+#  Args:
+#	messages - 
 #
 #>
 ######################################################################

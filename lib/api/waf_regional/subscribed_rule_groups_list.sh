@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_regional_subscribed_rule_groups_list()
-#
-#
+#	p6_aws_waf_regional_subscribed_rule_groups_list()
 #
 #>
 ######################################################################

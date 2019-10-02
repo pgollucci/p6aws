@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_file_share_delete(file_share_arn)
+#	p6_aws_storagegateway_file_share_delete(file_share_arn)
 #
-# Arg(s):
-#    file_share_arn - 
-#
+#  Args:
+#	file_share_arn - 
 #
 #>
 ######################################################################

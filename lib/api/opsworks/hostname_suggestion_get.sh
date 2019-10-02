@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_hostname_suggestion_get(layer_id)
+#	p6_aws_opsworks_hostname_suggestion_get(layer_id)
 #
-# Arg(s):
-#    layer_id - 
-#
+#  Args:
+#	layer_id - 
 #
 #>
 ######################################################################

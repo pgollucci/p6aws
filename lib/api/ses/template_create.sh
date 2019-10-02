@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_template_create(template)
+#	p6_aws_ses_template_create(template)
 #
-# Arg(s):
-#    template - 
-#
+#  Args:
+#	template - 
 #
 #>
 ######################################################################

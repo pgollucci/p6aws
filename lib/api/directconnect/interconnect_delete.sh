@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_directconnect_interconnect_delete(interconnect_id)
+#	p6_aws_directconnect_interconnect_delete(interconnect_id)
 #
-# Arg(s):
-#    interconnect_id - 
-#
+#  Args:
+#	interconnect_id - 
 #
 #>
 ######################################################################

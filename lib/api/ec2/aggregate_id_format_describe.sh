@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_aggregate_id_format_describe()
-#
-#
+#	p6_aws_ec2_aggregate_id_format_describe()
 #
 #>
 ######################################################################

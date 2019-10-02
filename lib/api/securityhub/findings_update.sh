@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_securityhub_findings_update(filters)
+#	p6_aws_securityhub_findings_update(filters)
 #
-# Arg(s):
-#    filters - 
-#
+#  Args:
+#	filters - 
 #
 #>
 ######################################################################

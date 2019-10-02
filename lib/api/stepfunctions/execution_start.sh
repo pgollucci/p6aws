@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_stepfunctions_execution_start(state_machine_arn)
+#	p6_aws_stepfunctions_execution_start(state_machine_arn)
 #
-# Arg(s):
-#    state_machine_arn - 
-#
+#  Args:
+#	state_machine_arn - 
 #
 #>
 ######################################################################

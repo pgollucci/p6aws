@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_effective_patches_for_patch_baseline_describe(baseline_id)
+#	p6_aws_ssm_effective_patches_for_patch_baseline_describe(baseline_id)
 #
-# Arg(s):
-#    baseline_id - 
-#
+#  Args:
+#	baseline_id - 
 #
 #>
 ######################################################################

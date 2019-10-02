@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_spot_datafeed_subscription_delete()
-#
-#
+#	p6_aws_ec2_spot_datafeed_subscription_delete()
 #
 #>
 ######################################################################

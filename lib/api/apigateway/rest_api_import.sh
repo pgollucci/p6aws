@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_rest_api_import(body)
+#	p6_aws_apigateway_rest_api_import(body)
 #
-# Arg(s):
-#    body - 
-#
+#  Args:
+#	body - 
 #
 #>
 ######################################################################

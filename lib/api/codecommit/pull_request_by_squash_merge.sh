@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_codecommit_pull_request_by_squash_merge(pull_request_id, repository_name)
+#	p6_aws_codecommit_pull_request_by_squash_merge(pull_request_id, repository_name)
 #
-# Arg(s):
-#    pull_request_id - 
-#    repository_name - 
-#
+#  Args:
+#	pull_request_id - 
+#	repository_name - 
 #
 #>
 ######################################################################

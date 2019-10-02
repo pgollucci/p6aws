@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_task_definitions_list()
-#
-#
+#	p6_aws_ecs_task_definitions_list()
 #
 #>
 ######################################################################

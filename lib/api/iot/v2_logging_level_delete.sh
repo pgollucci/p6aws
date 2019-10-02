@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_v2_logging_level_delete(target_type, target_name)
+#	p6_aws_iot_v2_logging_level_delete(target_type, target_name)
 #
-# Arg(s):
-#    target_type - 
-#    target_name - 
-#
+#  Args:
+#	target_type - 
+#	target_name - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_workmail_groups_list(organization_id)
+#	p6_aws_workmail_groups_list(organization_id)
 #
-# Arg(s):
-#    organization_id - 
-#
+#  Args:
+#	organization_id - 
 #
 #>
 ######################################################################

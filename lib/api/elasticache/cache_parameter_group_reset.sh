@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticache_cache_parameter_group_reset(cache_parameter_group_name)
+#	p6_aws_elasticache_cache_parameter_group_reset(cache_parameter_group_name)
 #
-# Arg(s):
-#    cache_parameter_group_name - 
-#
+#  Args:
+#	cache_parameter_group_name - 
 #
 #>
 ######################################################################

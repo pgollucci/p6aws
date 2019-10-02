@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_service_action_create(name, definition_type, definition)
+#	p6_aws_servicecatalog_service_action_create(name, definition_type, definition)
 #
-# Arg(s):
-#    name - 
-#    definition_type - 
-#    definition - 
-#
+#  Args:
+#	name - 
+#	definition_type - 
+#	definition - 
 #
 #>
 ######################################################################

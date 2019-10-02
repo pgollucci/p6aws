@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_acm_certificate_import(certificate, private_key)
+#	p6_aws_acm_certificate_import(certificate, private_key)
 #
-# Arg(s):
-#    certificate - 
-#    private_key - 
-#
+#  Args:
+#	certificate - 
+#	private_key - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_hsm_configuration_delete(hsm_configuration_identifier)
+#	p6_aws_redshift_hsm_configuration_delete(hsm_configuration_identifier)
 #
-# Arg(s):
-#    hsm_configuration_identifier - 
-#
+#  Args:
+#	hsm_configuration_identifier - 
 #
 #>
 ######################################################################

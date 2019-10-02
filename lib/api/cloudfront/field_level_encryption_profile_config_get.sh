@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudfront_field_level_encryption_profile_config_get(id)
+#	p6_aws_cloudfront_field_level_encryption_profile_config_get(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

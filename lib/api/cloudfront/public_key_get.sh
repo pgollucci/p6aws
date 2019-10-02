@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudfront_public_key_get(id)
+#	p6_aws_cloudfront_public_key_get(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

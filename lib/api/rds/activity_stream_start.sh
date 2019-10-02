@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_activity_stream_start(resource_arn, mode, kms_key_id)
+#	p6_aws_rds_activity_stream_start(resource_arn, mode, kms_key_id)
 #
-# Arg(s):
-#    resource_arn - 
-#    mode - 
-#    kms_key_id - 
-#
+#  Args:
+#	resource_arn - 
+#	mode - 
+#	kms_key_id - 
 #
 #>
 ######################################################################

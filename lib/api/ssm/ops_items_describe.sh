@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_ops_items_describe()
-#
-#
+#	p6_aws_ssm_ops_items_describe()
 #
 #>
 ######################################################################

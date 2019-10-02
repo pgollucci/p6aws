@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_athena_work_group_create(name)
+#	p6_aws_athena_work_group_create(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

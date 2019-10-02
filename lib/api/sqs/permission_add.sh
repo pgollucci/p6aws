@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_sqs_permission_add(queue_url, label, aws_account_ids, actions)
+#	p6_aws_sqs_permission_add(queue_url, label, aws_account_ids, actions)
 #
-# Arg(s):
-#    queue_url - 
-#    label - 
-#    aws_account_ids - 
-#    actions - 
-#
+#  Args:
+#	queue_url - 
+#	label - 
+#	aws_account_ids - 
+#	actions - 
 #
 #>
 ######################################################################

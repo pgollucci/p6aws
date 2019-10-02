@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_personalize_dataset_delete(dataset_arn)
+#	p6_aws_personalize_dataset_delete(dataset_arn)
 #
-# Arg(s):
-#    dataset_arn - 
-#
+#  Args:
+#	dataset_arn - 
 #
 #>
 ######################################################################

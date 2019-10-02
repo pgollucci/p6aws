@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_health_event_aggregates_describe(aggregate_field)
+#	p6_aws_health_event_aggregates_describe(aggregate_field)
 #
-# Arg(s):
-#    aggregate_field - 
-#
+#  Args:
+#	aggregate_field - 
 #
 #>
 ######################################################################

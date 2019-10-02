@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_layer_create(stack_id, type, name, shortname)
+#	p6_aws_opsworks_layer_create(stack_id, type, name, shortname)
 #
-# Arg(s):
-#    stack_id - 
-#    type - 
-#    name - 
-#    shortname - 
-#
+#  Args:
+#	stack_id - 
+#	type - 
+#	name - 
+#	shortname - 
 #
 #>
 ######################################################################

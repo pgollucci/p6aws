@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_services_describe(services)
+#	p6_aws_ecs_services_describe(services)
 #
-# Arg(s):
-#    services - 
-#
+#  Args:
+#	services - 
 #
 #>
 ######################################################################

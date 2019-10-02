@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_email_email_send(destination, content)
+#	p6_aws_pinpoint_email_email_send(destination, content)
 #
-# Arg(s):
-#    destination - 
-#    content - 
-#
+#  Args:
+#	destination - 
+#	content - 
 #
 #>
 ######################################################################

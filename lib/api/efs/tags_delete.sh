@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_efs_tags_delete(file_system_id, tag_keys)
+#	p6_aws_efs_tags_delete(file_system_id, tag_keys)
 #
-# Arg(s):
-#    file_system_id - 
-#    tag_keys - 
-#
+#  Args:
+#	file_system_id - 
+#	tag_keys - 
 #
 #>
 ######################################################################

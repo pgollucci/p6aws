@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_transcribe_vocabulary_get(vocabulary_name)
+#	p6_aws_transcribe_vocabulary_get(vocabulary_name)
 #
-# Arg(s):
-#    vocabulary_name - 
-#
+#  Args:
+#	vocabulary_name - 
 #
 #>
 ######################################################################

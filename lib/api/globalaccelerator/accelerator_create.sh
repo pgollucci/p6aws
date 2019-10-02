@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_globalaccelerator_accelerator_create(name, idempotency_token)
+#	p6_aws_globalaccelerator_accelerator_create(name, idempotency_token)
 #
-# Arg(s):
-#    name - 
-#    idempotency_token - 
-#
+#  Args:
+#	name - 
+#	idempotency_token - 
 #
 #>
 ######################################################################

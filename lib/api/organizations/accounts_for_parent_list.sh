@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_organizations_accounts_for_parent_list(parent_id)
+#	p6_aws_organizations_accounts_for_parent_list(parent_id)
 #
-# Arg(s):
-#    parent_id - 
-#
+#  Args:
+#	parent_id - 
 #
 #>
 ######################################################################

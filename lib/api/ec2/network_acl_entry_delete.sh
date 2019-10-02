@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_network_acl_entry_delete(egress, network_acl_id, rule_number)
+#	p6_aws_ec2_network_acl_entry_delete(egress, network_acl_id, rule_number)
 #
-# Arg(s):
-#    egress - 
-#    network_acl_id - 
-#    rule_number - 
-#
+#  Args:
+#	egress - 
+#	network_acl_id - 
+#	rule_number - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_traffic_policy_instance_get(id)
+#	p6_aws_route53_traffic_policy_instance_get(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

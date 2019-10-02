@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_smart_home_appliance_discovery_start(room_arn)
+#	p6_aws_alexaforbusiness_smart_home_appliance_discovery_start(room_arn)
 #
-# Arg(s):
-#    room_arn - 
-#
+#  Args:
+#	room_arn - 
 #
 #>
 ######################################################################

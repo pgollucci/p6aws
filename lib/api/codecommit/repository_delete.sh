@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codecommit_repository_delete(repository_name)
+#	p6_aws_codecommit_repository_delete(repository_name)
 #
-# Arg(s):
-#    repository_name - 
-#
+#  Args:
+#	repository_name - 
 #
 #>
 ######################################################################

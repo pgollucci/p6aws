@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudwatch_metrics_list()
-#
-#
+#	p6_aws_cloudwatch_metrics_list()
 #
 #>
 ######################################################################

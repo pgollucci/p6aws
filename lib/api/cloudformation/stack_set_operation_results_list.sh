@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudformation_stack_set_operation_results_list(stack_set_name, operation_id)
+#	p6_aws_cloudformation_stack_set_operation_results_list(stack_set_name, operation_id)
 #
-# Arg(s):
-#    stack_set_name - 
-#    operation_id - 
-#
+#  Args:
+#	stack_set_name - 
+#	operation_id - 
 #
 #>
 ######################################################################

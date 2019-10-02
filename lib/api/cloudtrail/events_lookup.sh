@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudtrail_events_lookup()
-#
-#
+#	p6_aws_cloudtrail_events_lookup()
 #
 #>
 ######################################################################

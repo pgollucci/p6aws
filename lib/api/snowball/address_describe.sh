@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_snowball_address_describe(address_id)
+#	p6_aws_snowball_address_describe(address_id)
 #
-# Arg(s):
-#    address_id - 
-#
+#  Args:
+#	address_id - 
 #
 #>
 ######################################################################

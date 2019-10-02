@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_room_resolve(user_id, skill_id)
+#	p6_aws_alexaforbusiness_room_resolve(user_id, skill_id)
 #
-# Arg(s):
-#    user_id - 
-#    skill_id - 
-#
+#  Args:
+#	user_id - 
+#	skill_id - 
 #
 #>
 ######################################################################

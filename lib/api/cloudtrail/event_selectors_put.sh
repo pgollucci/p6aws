@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudtrail_event_selectors_put(trail_name, event_selectors)
+#	p6_aws_cloudtrail_event_selectors_put(trail_name, event_selectors)
 #
-# Arg(s):
-#    trail_name - 
-#    event_selectors - 
-#
+#  Args:
+#	trail_name - 
+#	event_selectors - 
 #
 #>
 ######################################################################

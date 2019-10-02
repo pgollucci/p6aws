@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_fsx_backup_create(file_system_id)
+#	p6_aws_fsx_backup_create(file_system_id)
 #
-# Arg(s):
-#    file_system_id - 
-#
+#  Args:
+#	file_system_id - 
 #
 #>
 ######################################################################

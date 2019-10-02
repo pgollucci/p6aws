@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_launch_template_version_create(launch_template_data)
+#	p6_aws_ec2_launch_template_version_create(launch_template_data)
 #
-# Arg(s):
-#    launch_template_data - 
-#
+#  Args:
+#	launch_template_data - 
 #
 #>
 ######################################################################

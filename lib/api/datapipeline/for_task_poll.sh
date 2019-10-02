@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_datapipeline_for_task_poll(worker_group)
+#	p6_aws_datapipeline_for_task_poll(worker_group)
 #
-# Arg(s):
-#    worker_group - 
-#
+#  Args:
+#	worker_group - 
 #
 #>
 ######################################################################

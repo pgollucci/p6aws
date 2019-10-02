@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_chap_credentials_describe(target_arn)
+#	p6_aws_storagegateway_chap_credentials_describe(target_arn)
 #
-# Arg(s):
-#    target_arn - 
-#
+#  Args:
+#	target_arn - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iotevents_data_update_detector_batch(detectors)
+#	p6_aws_iotevents_data_update_detector_batch(detectors)
 #
-# Arg(s):
-#    detectors - 
-#
+#  Args:
+#	detectors - 
 #
 #>
 ######################################################################

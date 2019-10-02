@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_events_events_put(entries)
+#	p6_aws_events_events_put(entries)
 #
-# Arg(s):
-#    entries - 
-#
+#  Args:
+#	entries - 
 #
 #>
 ######################################################################

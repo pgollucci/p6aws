@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_devicefarm_jobs_list(arn)
+#	p6_aws_devicefarm_jobs_list(arn)
 #
-# Arg(s):
-#    arn - 
-#
+#  Args:
+#	arn - 
 #
 #>
 ######################################################################

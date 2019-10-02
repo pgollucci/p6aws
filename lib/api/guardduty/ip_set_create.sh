@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_guardduty_ip_set_create(detector_id, name, format, location, activate)
+#	p6_aws_guardduty_ip_set_create(detector_id, name, format, location, activate)
 #
-# Arg(s):
-#    detector_id - 
-#    name - 
-#    format - 
-#    location - 
-#    activate - 
-#
+#  Args:
+#	detector_id - 
+#	name - 
+#	format - 
+#	location - 
+#	activate - 
 #
 #>
 ######################################################################

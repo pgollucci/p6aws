@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_appmesh_virtual_node_describe(mesh_name, virtual_node_name)
+#	p6_aws_appmesh_virtual_node_describe(mesh_name, virtual_node_name)
 #
-# Arg(s):
-#    mesh_name - 
-#    virtual_node_name - 
-#
+#  Args:
+#	mesh_name - 
+#	virtual_node_name - 
 #
 #>
 ######################################################################

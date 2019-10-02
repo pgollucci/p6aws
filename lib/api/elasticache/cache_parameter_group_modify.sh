@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticache_cache_parameter_group_modify(cache_parameter_group_name, parameter_name_values)
+#	p6_aws_elasticache_cache_parameter_group_modify(cache_parameter_group_name, parameter_name_values)
 #
-# Arg(s):
-#    cache_parameter_group_name - 
-#    parameter_name_values - 
-#
+#  Args:
+#	cache_parameter_group_name - 
+#	parameter_name_values - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_acm_certificates_list()
-#
-#
+#	p6_aws_acm_certificates_list()
 #
 #>
 ######################################################################

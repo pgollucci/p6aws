@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticache_snapshot_create(snapshot_name)
+#	p6_aws_elasticache_snapshot_create(snapshot_name)
 #
-# Arg(s):
-#    snapshot_name - 
-#
+#  Args:
+#	snapshot_name - 
 #
 #>
 ######################################################################

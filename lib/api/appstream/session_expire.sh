@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_appstream_session_expire(session_id)
+#	p6_aws_appstream_session_expire(session_id)
 #
-# Arg(s):
-#    session_id - 
-#
+#  Args:
+#	session_id - 
 #
 #>
 ######################################################################

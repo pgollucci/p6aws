@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_user_permissions_boundary_put(user_name, permissions_boundary)
+#	p6_aws_iam_user_permissions_boundary_put(user_name, permissions_boundary)
 #
-# Arg(s):
-#    user_name - 
-#    permissions_boundary - 
-#
+#  Args:
+#	user_name - 
+#	permissions_boundary - 
 #
 #>
 ######################################################################

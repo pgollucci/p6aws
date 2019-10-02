@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_kms_encrypt_re(ciphertext_blob, destination_key_id)
+#	p6_aws_kms_encrypt_re(ciphertext_blob, destination_key_id)
 #
-# Arg(s):
-#    ciphertext_blob - 
-#    destination_key_id - 
-#
+#  Args:
+#	ciphertext_blob - 
+#	destination_key_id - 
 #
 #>
 ######################################################################

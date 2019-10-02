@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_attachment_state_changes_submit(attachments)
+#	p6_aws_ecs_attachment_state_changes_submit(attachments)
 #
-# Arg(s):
-#    attachments - 
-#
+#  Args:
+#	attachments - 
 #
 #>
 ######################################################################

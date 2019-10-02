@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesisanalyticsv2_application_snapshot_create(application_name, snapshot_name)
+#	p6_aws_kinesisanalyticsv2_application_snapshot_create(application_name, snapshot_name)
 #
-# Arg(s):
-#    application_name - 
-#    snapshot_name - 
-#
+#  Args:
+#	application_name - 
+#	snapshot_name - 
 #
 #>
 ######################################################################

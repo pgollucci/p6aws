@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_scaling_policy_put(name, fleet_id, metric_name)
+#	p6_aws_gamelift_scaling_policy_put(name, fleet_id, metric_name)
 #
-# Arg(s):
-#    name - 
-#    fleet_id - 
-#    metric_name - 
-#
+#  Args:
+#	name - 
+#	fleet_id - 
+#	metric_name - 
 #
 #>
 ######################################################################

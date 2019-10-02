@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_ds_user_password_reset(directory_id, user_name, new_password)
+#	p6_aws_ds_user_password_reset(directory_id, user_name, new_password)
 #
-# Arg(s):
-#    directory_id - 
-#    user_name - 
-#    new_password - 
-#
+#  Args:
+#	directory_id - 
+#	user_name - 
+#	new_password - 
 #
 #>
 ######################################################################

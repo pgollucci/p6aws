@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_worklink_domain_associate(fleet_arn, domain_name, acm_certificate_arn)
+#	p6_aws_worklink_domain_associate(fleet_arn, domain_name, acm_certificate_arn)
 #
-# Arg(s):
-#    fleet_arn - 
-#    domain_name - 
-#    acm_certificate_arn - 
-#
+#  Args:
+#	fleet_arn - 
+#	domain_name - 
+#	acm_certificate_arn - 
 #
 #>
 ######################################################################

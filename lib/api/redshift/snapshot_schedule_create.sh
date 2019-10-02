@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_snapshot_schedule_create()
-#
-#
+#	p6_aws_redshift_snapshot_schedule_create()
 #
 #>
 ######################################################################

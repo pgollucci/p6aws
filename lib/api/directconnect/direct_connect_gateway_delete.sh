@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_directconnect_direct_connect_gateway_delete(direct_connect_gateway_id)
+#	p6_aws_directconnect_direct_connect_gateway_delete(direct_connect_gateway_id)
 #
-# Arg(s):
-#    direct_connect_gateway_id - 
-#
+#  Args:
+#	direct_connect_gateway_id - 
 #
 #>
 ######################################################################

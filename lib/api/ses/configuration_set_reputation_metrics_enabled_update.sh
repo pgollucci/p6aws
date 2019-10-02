@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_configuration_set_reputation_metrics_enabled_update(configuration_set_name, enabled)
+#	p6_aws_ses_configuration_set_reputation_metrics_enabled_update(configuration_set_name, enabled)
 #
-# Arg(s):
-#    configuration_set_name - 
-#    enabled - 
-#
+#  Args:
+#	configuration_set_name - 
+#	enabled - 
 #
 #>
 ######################################################################

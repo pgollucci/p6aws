@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_clouddirectory_attached_indices_list(directory_arn, target_reference)
+#	p6_aws_clouddirectory_attached_indices_list(directory_arn, target_reference)
 #
-# Arg(s):
-#    directory_arn - 
-#    target_reference - 
-#
+#  Args:
+#	directory_arn - 
+#	target_reference - 
 #
 #>
 ######################################################################

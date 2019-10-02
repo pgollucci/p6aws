@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_mediaconnect_flow_create(name, source)
+#	p6_aws_mediaconnect_flow_create(name, source)
 #
-# Arg(s):
-#    name - 
-#    source - 
-#
+#  Args:
+#	name - 
+#	source - 
 #
 #>
 ######################################################################

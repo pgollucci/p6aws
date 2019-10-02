@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudformation_stack_drift_detection_status_describe(stack_drift_detection_id)
+#	p6_aws_cloudformation_stack_drift_detection_status_describe(stack_drift_detection_id)
 #
-# Arg(s):
-#    stack_drift_detection_id - 
-#
+#  Args:
+#	stack_drift_detection_id - 
 #
 #>
 ######################################################################

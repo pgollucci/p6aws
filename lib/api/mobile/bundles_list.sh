@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_mobile_bundles_list()
-#
-#
+#	p6_aws_mobile_bundles_list()
 #
 #>
 ######################################################################

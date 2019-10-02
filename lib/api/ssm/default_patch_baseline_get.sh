@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_default_patch_baseline_get()
-#
-#
+#	p6_aws_ssm_default_patch_baseline_get()
 #
 #>
 ######################################################################

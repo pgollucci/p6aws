@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_fleet_create(launch_template_configs, target_capacity_specification)
+#	p6_aws_ec2_fleet_create(launch_template_configs, target_capacity_specification)
 #
-# Arg(s):
-#    launch_template_configs - 
-#    target_capacity_specification - 
-#
+#  Args:
+#	launch_template_configs - 
+#	target_capacity_specification - 
 #
 #>
 ######################################################################

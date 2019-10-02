@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_acm_tags_from_certificate_remove(certificate_arn, tags)
+#	p6_aws_acm_tags_from_certificate_remove(certificate_arn, tags)
 #
-# Arg(s):
-#    certificate_arn - 
-#    tags - 
-#
+#  Args:
+#	certificate_arn - 
+#	tags - 
 #
 #>
 ######################################################################

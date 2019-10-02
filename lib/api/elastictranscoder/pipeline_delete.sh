@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_elastictranscoder_pipeline_delete(id)
+#	p6_aws_elastictranscoder_pipeline_delete(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

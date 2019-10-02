@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_endpoint_config_create(endpoint_config_name, production_variants)
+#	p6_aws_sagemaker_endpoint_config_create(endpoint_config_name, production_variants)
 #
-# Arg(s):
-#    endpoint_config_name - 
-#    production_variants - 
-#
+#  Args:
+#	endpoint_config_name - 
+#	production_variants - 
 #
 #>
 ######################################################################

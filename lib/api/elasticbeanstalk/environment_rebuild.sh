@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticbeanstalk_environment_rebuild()
-#
-#
+#	p6_aws_elasticbeanstalk_environment_rebuild()
 #
 #>
 ######################################################################

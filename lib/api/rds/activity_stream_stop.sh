@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_activity_stream_stop(resource_arn)
+#	p6_aws_rds_activity_stream_stop(resource_arn)
 #
-# Arg(s):
-#    resource_arn - 
-#
+#  Args:
+#	resource_arn - 
 #
 #>
 ######################################################################

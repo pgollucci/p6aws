@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_cluster_subnet_group_create(cluster_subnet_group_name, description, subnet_ids)
+#	p6_aws_redshift_cluster_subnet_group_create(cluster_subnet_group_name, description, subnet_ids)
 #
-# Arg(s):
-#    cluster_subnet_group_name - 
-#    description - 
-#    subnet_ids - 
-#
+#  Args:
+#	cluster_subnet_group_name - 
+#	description - 
+#	subnet_ids - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_neptune_engine_default_cluster_parameters_describe(db_parameter_group_family)
+#	p6_aws_neptune_engine_default_cluster_parameters_describe(db_parameter_group_family)
 #
-# Arg(s):
-#    db_parameter_group_family - 
-#
+#  Args:
+#	db_parameter_group_family - 
 #
 #>
 ######################################################################

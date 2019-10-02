@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_secretsmanager_secret_value_get(secret_id)
+#	p6_aws_secretsmanager_secret_value_get(secret_id)
 #
-# Arg(s):
-#    secret_id - 
-#
+#  Args:
+#	secret_id - 
 #
 #>
 ######################################################################

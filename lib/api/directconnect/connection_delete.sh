@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_directconnect_connection_delete(connection_id)
+#	p6_aws_directconnect_connection_delete(connection_id)
 #
-# Arg(s):
-#    connection_id - 
-#
+#  Args:
+#	connection_id - 
 #
 #>
 ######################################################################

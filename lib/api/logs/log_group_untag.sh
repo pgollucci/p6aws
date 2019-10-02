@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_logs_log_group_untag(log_group_name, tags)
+#	p6_aws_logs_log_group_untag(log_group_name, tags)
 #
-# Arg(s):
-#    log_group_name - 
-#    tags - 
-#
+#  Args:
+#	log_group_name - 
+#	tags - 
 #
 #>
 ######################################################################

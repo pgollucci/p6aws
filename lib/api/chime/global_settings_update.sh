@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_chime_global_settings_update(business_calling, voice_connector)
+#	p6_aws_chime_global_settings_update(business_calling, voice_connector)
 #
-# Arg(s):
-#    business_calling - 
-#    voice_connector - 
-#
+#  Args:
+#	business_calling - 
+#	voice_connector - 
 #
 #>
 ######################################################################

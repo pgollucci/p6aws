@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_autoscaling_processes_suspend(auto_scaling_group_name)
+#	p6_aws_autoscaling_processes_suspend(auto_scaling_group_name)
 #
-# Arg(s):
-#    auto_scaling_group_name - 
-#
+#  Args:
+#	auto_scaling_group_name - 
 #
 #>
 ######################################################################

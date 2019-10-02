@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_iam_instance_profile_associate(iam_instance_profile, instance_id)
+#	p6_aws_ec2_iam_instance_profile_associate(iam_instance_profile, instance_id)
 #
-# Arg(s):
-#    iam_instance_profile - 
-#    instance_id - 
-#
+#  Args:
+#	iam_instance_profile - 
+#	instance_id - 
 #
 #>
 ######################################################################

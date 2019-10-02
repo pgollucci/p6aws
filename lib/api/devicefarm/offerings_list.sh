@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_devicefarm_offerings_list()
-#
-#
+#	p6_aws_devicefarm_offerings_list()
 #
 #>
 ######################################################################

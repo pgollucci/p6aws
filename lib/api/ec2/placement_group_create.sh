@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_placement_group_create()
-#
-#
+#	p6_aws_ec2_placement_group_create()
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_logs_export_task_cancel(task_id)
+#	p6_aws_logs_export_task_cancel(task_id)
 #
-# Arg(s):
-#    task_id - 
-#
+#  Args:
+#	task_id - 
 #
 #>
 ######################################################################

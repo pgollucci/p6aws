@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_bucket_policy_put(bucket, policy)
+#	p6_aws_s3api_bucket_policy_put(bucket, policy)
 #
-# Arg(s):
-#    bucket - 
-#    policy - 
-#
+#  Args:
+#	bucket - 
+#	policy - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_guardduty_from_master_account_disassociate(detector_id)
+#	p6_aws_guardduty_from_master_account_disassociate(detector_id)
 #
-# Arg(s):
-#    detector_id - 
-#
+#  Args:
+#	detector_id - 
 #
 #>
 ######################################################################

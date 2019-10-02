@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_stage_delete(rest_api_id, stage_name)
+#	p6_aws_apigateway_stage_delete(rest_api_id, stage_name)
 #
-# Arg(s):
-#    rest_api_id - 
-#    stage_name - 
-#
+#  Args:
+#	rest_api_id - 
+#	stage_name - 
 #
 #>
 ######################################################################

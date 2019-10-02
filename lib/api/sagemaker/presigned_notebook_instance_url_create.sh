@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_presigned_notebook_instance_url_create(notebook_instance_name)
+#	p6_aws_sagemaker_presigned_notebook_instance_url_create(notebook_instance_name)
 #
-# Arg(s):
-#    notebook_instance_name - 
-#
+#  Args:
+#	notebook_instance_name - 
 #
 #>
 ######################################################################

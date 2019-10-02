@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_apigatewayv2_integration_create(api_id, integration_type)
+#	p6_aws_apigatewayv2_integration_create(api_id, integration_type)
 #
-# Arg(s):
-#    api_id - 
-#    integration_type - 
-#
+#  Args:
+#	api_id - 
+#	integration_type - 
 #
 #>
 ######################################################################

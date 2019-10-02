@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_appsync_function_delete(api_id, function_id)
+#	p6_aws_appsync_function_delete(api_id, function_id)
 #
-# Arg(s):
-#    api_id - 
-#    function_id - 
-#
+#  Args:
+#	api_id - 
+#	function_id - 
 #
 #>
 ######################################################################

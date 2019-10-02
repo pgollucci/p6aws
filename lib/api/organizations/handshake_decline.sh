@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_organizations_handshake_decline(handshake_id)
+#	p6_aws_organizations_handshake_decline(handshake_id)
 #
-# Arg(s):
-#    handshake_id - 
-#
+#  Args:
+#	handshake_id - 
 #
 #>
 ######################################################################

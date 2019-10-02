@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_xray_trace_segments_put(trace_segment_documents)
+#	p6_aws_xray_trace_segments_put(trace_segment_documents)
 #
-# Arg(s):
-#    trace_segment_documents - 
-#
+#  Args:
+#	trace_segment_documents - 
 #
 #>
 ######################################################################

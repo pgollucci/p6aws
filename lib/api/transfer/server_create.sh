@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_transfer_server_create()
-#
-#
+#	p6_aws_transfer_server_create()
 #
 #>
 ######################################################################

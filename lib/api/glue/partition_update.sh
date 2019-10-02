@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_partition_update(database_name, table_name, partition_value_list, partition_input)
+#	p6_aws_glue_partition_update(database_name, table_name, partition_value_list, partition_input)
 #
-# Arg(s):
-#    database_name - 
-#    table_name - 
-#    partition_value_list - 
-#    partition_input - 
-#
+#  Args:
+#	database_name - 
+#	table_name - 
+#	partition_value_list - 
+#	partition_input - 
 #
 #>
 ######################################################################

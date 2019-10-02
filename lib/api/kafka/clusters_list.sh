@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_kafka_clusters_list()
-#
-#
+#	p6_aws_kafka_clusters_list()
 #
 #>
 ######################################################################

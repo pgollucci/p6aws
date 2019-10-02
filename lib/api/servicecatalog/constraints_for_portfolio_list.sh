@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_constraints_for_portfolio_list(portfolio_id)
+#	p6_aws_servicecatalog_constraints_for_portfolio_list(portfolio_id)
 #
-# Arg(s):
-#    portfolio_id - 
-#
+#  Args:
+#	portfolio_id - 
 #
 #>
 ######################################################################

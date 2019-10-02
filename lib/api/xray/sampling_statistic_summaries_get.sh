@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_xray_sampling_statistic_summaries_get()
-#
-#
+#	p6_aws_xray_sampling_statistic_summaries_get()
 #
 #>
 ######################################################################

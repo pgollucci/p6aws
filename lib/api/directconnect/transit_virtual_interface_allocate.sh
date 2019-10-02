@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_directconnect_transit_virtual_interface_allocate(connection_id, owner_account, new_transit_virtual_interface_allocation)
+#	p6_aws_directconnect_transit_virtual_interface_allocate(connection_id, owner_account, new_transit_virtual_interface_allocation)
 #
-# Arg(s):
-#    connection_id - 
-#    owner_account - 
-#    new_transit_virtual_interface_allocation - 
-#
+#  Args:
+#	connection_id - 
+#	owner_account - 
+#	new_transit_virtual_interface_allocation - 
 #
 #>
 ######################################################################

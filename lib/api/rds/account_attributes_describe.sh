@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_account_attributes_describe()
-#
-#
+#	p6_aws_rds_account_attributes_describe()
 #
 #>
 ######################################################################

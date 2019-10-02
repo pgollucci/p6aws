@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_discovery_configurations_list(configuration_type)
+#	p6_aws_discovery_configurations_list(configuration_type)
 #
-# Arg(s):
-#    configuration_type - 
-#
+#  Args:
+#	configuration_type - 
 #
 #>
 ######################################################################

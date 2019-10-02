@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_codebuild_source_credentials_import(token, server_type, auth_type)
+#	p6_aws_codebuild_source_credentials_import(token, server_type, auth_type)
 #
-# Arg(s):
-#    token - 
-#    server_type - 
-#    auth_type - 
-#
+#  Args:
+#	token - 
+#	server_type - 
+#	auth_type - 
 #
 #>
 ######################################################################

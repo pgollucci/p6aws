@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_document_create(content, name)
+#	p6_aws_ssm_document_create(content, name)
 #
-# Arg(s):
-#    content - 
-#    name - 
-#
+#  Args:
+#	content - 
+#	name - 
 #
 #>
 ######################################################################

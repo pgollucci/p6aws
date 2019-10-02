@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mediapackage_channel_create(id)
+#	p6_aws_mediapackage_channel_create(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

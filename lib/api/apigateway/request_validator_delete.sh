@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_request_validator_delete(rest_api_id, request_validator_id)
+#	p6_aws_apigateway_request_validator_delete(rest_api_id, request_validator_id)
 #
-# Arg(s):
-#    rest_api_id - 
-#    request_validator_id - 
-#
+#  Args:
+#	rest_api_id - 
+#	request_validator_id - 
 #
 #>
 ######################################################################

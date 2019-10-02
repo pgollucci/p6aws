@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_sync_identity_pool_usage_list()
-#
-#
+#	p6_aws_cognito_sync_identity_pool_usage_list()
 #
 #>
 ######################################################################

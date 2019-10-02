@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_securityhub_insight_create(name, filters, group_by_attribute)
+#	p6_aws_securityhub_insight_create(name, filters, group_by_attribute)
 #
-# Arg(s):
-#    name - 
-#    filters - 
-#    group_by_attribute - 
-#
+#  Args:
+#	name - 
+#	filters - 
+#	group_by_attribute - 
 #
 #>
 ######################################################################

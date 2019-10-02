@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elb_health_check_configure(load_balancer_name, health_check)
+#	p6_aws_elb_health_check_configure(load_balancer_name, health_check)
 #
-# Arg(s):
-#    load_balancer_name - 
-#    health_check - 
-#
+#  Args:
+#	load_balancer_name - 
+#	health_check - 
 #
 #>
 ######################################################################

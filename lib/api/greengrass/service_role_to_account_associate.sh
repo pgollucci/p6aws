@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_greengrass_service_role_to_account_associate(role_arn)
+#	p6_aws_greengrass_service_role_to_account_associate(role_arn)
 #
-# Arg(s):
-#    role_arn - 
-#
+#  Args:
+#	role_arn - 
 #
 #>
 ######################################################################

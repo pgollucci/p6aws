@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_db_engine_versions_describe()
-#
-#
+#	p6_aws_rds_db_engine_versions_describe()
 #
 #>
 ######################################################################

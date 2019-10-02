@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_security_token_service_preferences_set(global_endpoint_token_version)
+#	p6_aws_iam_security_token_service_preferences_set(global_endpoint_token_version)
 #
-# Arg(s):
-#    global_endpoint_token_version - 
-#
+#  Args:
+#	global_endpoint_token_version - 
 #
 #>
 ######################################################################

@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_robomaker_simulation_application_update(application, sources, simulation_software_suite, robot_software_suite, rendering_engine)
+#	p6_aws_robomaker_simulation_application_update(application, sources, simulation_software_suite, robot_software_suite, rendering_engine)
 #
-# Arg(s):
-#    application - 
-#    sources - 
-#    simulation_software_suite - 
-#    robot_software_suite - 
-#    rendering_engine - 
-#
+#  Args:
+#	application - 
+#	sources - 
+#	simulation_software_suite - 
+#	robot_software_suite - 
+#	rendering_engine - 
 #
 #>
 ######################################################################

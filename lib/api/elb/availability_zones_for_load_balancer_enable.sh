@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elb_availability_zones_for_load_balancer_enable(load_balancer_name, availability_zones)
+#	p6_aws_elb_availability_zones_for_load_balancer_enable(load_balancer_name, availability_zones)
 #
-# Arg(s):
-#    load_balancer_name - 
-#    availability_zones - 
-#
+#  Args:
+#	load_balancer_name - 
+#	availability_zones - 
 #
 #>
 ######################################################################

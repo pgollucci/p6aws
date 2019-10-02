@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_batch_jobs_describe(jobs)
+#	p6_aws_batch_jobs_describe(jobs)
 #
-# Arg(s):
-#    jobs - 
-#
+#  Args:
+#	jobs - 
 #
 #>
 ######################################################################

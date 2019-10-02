@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_chime_voice_connector_termination_put(voice_connector_id, termination)
+#	p6_aws_chime_voice_connector_termination_put(voice_connector_id, termination)
 #
-# Arg(s):
-#    voice_connector_id - 
-#    termination - 
-#
+#  Args:
+#	voice_connector_id - 
+#	termination - 
 #
 #>
 ######################################################################

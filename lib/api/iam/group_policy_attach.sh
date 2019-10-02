@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_group_policy_attach(group_name, policy_arn)
+#	p6_aws_iam_group_policy_attach(group_name, policy_arn)
 #
-# Arg(s):
-#    group_name - 
-#    policy_arn - 
-#
+#  Args:
+#	group_name - 
+#	policy_arn - 
 #
 #>
 ######################################################################

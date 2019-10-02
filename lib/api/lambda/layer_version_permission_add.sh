@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_lambda_layer_version_permission_add(layer_name, version_number, statement_id, action, principal)
+#	p6_aws_lambda_layer_version_permission_add(layer_name, version_number, statement_id, action, principal)
 #
-# Arg(s):
-#    layer_name - 
-#    version_number - 
-#    statement_id - 
-#    action - 
-#    principal - 
-#
+#  Args:
+#	layer_name - 
+#	version_number - 
+#	statement_id - 
+#	action - 
+#	principal - 
 #
 #>
 ######################################################################

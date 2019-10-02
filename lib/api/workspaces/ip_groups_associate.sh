@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_workspaces_ip_groups_associate(directory_id, group_ids)
+#	p6_aws_workspaces_ip_groups_associate(directory_id, group_ids)
 #
-# Arg(s):
-#    directory_id - 
-#    group_ids - 
-#
+#  Args:
+#	directory_id - 
+#	group_ids - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_route_table_delete(route_table_id)
+#	p6_aws_ec2_route_table_delete(route_table_id)
 #
-# Arg(s):
-#    route_table_id - 
-#
+#  Args:
+#	route_table_id - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_security_profiles_list()
-#
-#
+#	p6_aws_iot_security_profiles_list()
 #
 #>
 ######################################################################

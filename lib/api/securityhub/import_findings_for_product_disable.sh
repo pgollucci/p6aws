@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_securityhub_import_findings_for_product_disable(product_subscription_arn)
+#	p6_aws_securityhub_import_findings_for_product_disable(product_subscription_arn)
 #
-# Arg(s):
-#    product_subscription_arn - 
-#
+#  Args:
+#	product_subscription_arn - 
 #
 #>
 ######################################################################

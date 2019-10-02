@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticache_allowed_node_type_modifications_list()
-#
-#
+#	p6_aws_elasticache_allowed_node_type_modifications_list()
 #
 #>
 ######################################################################

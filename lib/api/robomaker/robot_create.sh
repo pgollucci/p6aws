@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_robomaker_robot_create(name, architecture, greengrass_group_id)
+#	p6_aws_robomaker_robot_create(name, architecture, greengrass_group_id)
 #
-# Arg(s):
-#    name - 
-#    architecture - 
-#    greengrass_group_id - 
-#
+#  Args:
+#	name - 
+#	architecture - 
+#	greengrass_group_id - 
 #
 #>
 ######################################################################

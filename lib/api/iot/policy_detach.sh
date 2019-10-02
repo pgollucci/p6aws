@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_policy_detach(policy_name, target)
+#	p6_aws_iot_policy_detach(policy_name, target)
 #
-# Arg(s):
-#    policy_name - 
-#    target - 
-#
+#  Args:
+#	policy_name - 
+#	target - 
 #
 #>
 ######################################################################

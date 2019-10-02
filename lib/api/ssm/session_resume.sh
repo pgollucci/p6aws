@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_session_resume(session_id)
+#	p6_aws_ssm_session_resume(session_id)
 #
-# Arg(s):
-#    session_id - 
-#
+#  Args:
+#	session_id - 
 #
 #>
 ######################################################################

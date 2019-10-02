@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_medialive_channel_create()
-#
-#
+#	p6_aws_medialive_channel_create()
 #
 #>
 ######################################################################

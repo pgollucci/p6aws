@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_disk_attach(disk_name, instance_name, disk_path)
+#	p6_aws_lightsail_disk_attach(disk_name, instance_name, disk_path)
 #
-# Arg(s):
-#    disk_name - 
-#    instance_name - 
-#    disk_path - 
-#
+#  Args:
+#	disk_name - 
+#	instance_name - 
+#	disk_path - 
 #
 #>
 ######################################################################

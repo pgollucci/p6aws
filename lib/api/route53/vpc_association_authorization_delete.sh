@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_vpc_association_authorization_delete(hosted_zone_id, vpc)
+#	p6_aws_route53_vpc_association_authorization_delete(hosted_zone_id, vpc)
 #
-# Arg(s):
-#    hosted_zone_id - 
-#    vpc - 
-#
+#  Args:
+#	hosted_zone_id - 
+#	vpc - 
 #
 #>
 ######################################################################

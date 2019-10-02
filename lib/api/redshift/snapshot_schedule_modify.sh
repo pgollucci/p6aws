@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_snapshot_schedule_modify(schedule_identifier, schedule_definitions)
+#	p6_aws_redshift_snapshot_schedule_modify(schedule_identifier, schedule_definitions)
 #
-# Arg(s):
-#    schedule_identifier - 
-#    schedule_definitions - 
-#
+#  Args:
+#	schedule_identifier - 
+#	schedule_definitions - 
 #
 #>
 ######################################################################

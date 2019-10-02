@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_support_trusted_advisor_checks_describe(language)
+#	p6_aws_support_trusted_advisor_checks_describe(language)
 #
-# Arg(s):
-#    language - 
-#
+#  Args:
+#	language - 
 #
 #>
 ######################################################################

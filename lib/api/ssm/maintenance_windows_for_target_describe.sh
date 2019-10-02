@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_maintenance_windows_for_target_describe(targets, resource_type)
+#	p6_aws_ssm_maintenance_windows_for_target_describe(targets, resource_type)
 #
-# Arg(s):
-#    targets - 
-#    resource_type - 
-#
+#  Args:
+#	targets - 
+#	resource_type - 
 #
 #>
 ######################################################################

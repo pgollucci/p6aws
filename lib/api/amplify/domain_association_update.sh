@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_amplify_domain_association_update(app_id, domain_name, sub_domain_settings)
+#	p6_aws_amplify_domain_association_update(app_id, domain_name, sub_domain_settings)
 #
-# Arg(s):
-#    app_id - 
-#    domain_name - 
-#    sub_domain_settings - 
-#
+#  Args:
+#	app_id - 
+#	domain_name - 
+#	sub_domain_settings - 
 #
 #>
 ######################################################################

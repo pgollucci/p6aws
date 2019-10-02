@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_sdk_get(rest_api_id, stage_name, sdk_type)
+#	p6_aws_apigateway_sdk_get(rest_api_id, stage_name, sdk_type)
 #
-# Arg(s):
-#    rest_api_id - 
-#    stage_name - 
-#    sdk_type - 
-#
+#  Args:
+#	rest_api_id - 
+#	stage_name - 
+#	sdk_type - 
 #
 #>
 ######################################################################

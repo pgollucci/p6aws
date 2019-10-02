@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_events_partner_event_source_create(name, account)
+#	p6_aws_events_partner_event_source_create(name, account)
 #
-# Arg(s):
-#    name - 
-#    account - 
-#
+#  Args:
+#	name - 
+#	account - 
 #
 #>
 ######################################################################

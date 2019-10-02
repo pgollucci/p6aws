@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_skill_group_delete()
-#
-#
+#	p6_aws_alexaforbusiness_skill_group_delete()
 #
 #>
 ######################################################################

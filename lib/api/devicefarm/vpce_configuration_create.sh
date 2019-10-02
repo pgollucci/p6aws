@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_devicefarm_vpce_configuration_create(vpce_configuration_name, vpce_service_name, service_dns_name)
+#	p6_aws_devicefarm_vpce_configuration_create(vpce_configuration_name, vpce_service_name, service_dns_name)
 #
-# Arg(s):
-#    vpce_configuration_name - 
-#    vpce_service_name - 
-#    service_dns_name - 
-#
+#  Args:
+#	vpce_configuration_name - 
+#	vpce_service_name - 
+#	service_dns_name - 
 #
 #>
 ######################################################################

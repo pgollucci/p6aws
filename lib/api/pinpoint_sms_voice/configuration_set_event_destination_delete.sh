@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_sms_voice_configuration_set_event_destination_delete(configuration_set_name, event_destination_name)
+#	p6_aws_pinpoint_sms_voice_configuration_set_event_destination_delete(configuration_set_name, event_destination_name)
 #
-# Arg(s):
-#    configuration_set_name - 
-#    event_destination_name - 
-#
+#  Args:
+#	configuration_set_name - 
+#	event_destination_name - 
 #
 #>
 ######################################################################

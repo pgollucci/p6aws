@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_connect_contact_attributes_get(instance_id, initial_contact_id)
+#	p6_aws_connect_contact_attributes_get(instance_id, initial_contact_id)
 #
-# Arg(s):
-#    instance_id - 
-#    initial_contact_id - 
-#
+#  Args:
+#	instance_id - 
+#	initial_contact_id - 
 #
 #>
 ######################################################################

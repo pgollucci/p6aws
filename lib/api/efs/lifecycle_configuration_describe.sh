@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_efs_lifecycle_configuration_describe(file_system_id)
+#	p6_aws_efs_lifecycle_configuration_describe(file_system_id)
 #
-# Arg(s):
-#    file_system_id - 
-#
+#  Args:
+#	file_system_id - 
 #
 #>
 ######################################################################

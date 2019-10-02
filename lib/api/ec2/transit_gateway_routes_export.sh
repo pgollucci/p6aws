@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_transit_gateway_routes_export(transit_gateway_route_table_id, s3_bucket)
+#	p6_aws_ec2_transit_gateway_routes_export(transit_gateway_route_table_id, s3_bucket)
 #
-# Arg(s):
-#    transit_gateway_route_table_id - 
-#    s3_bucket - 
-#
+#  Args:
+#	transit_gateway_route_table_id - 
+#	s3_bucket - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_internet_gateway_attach(internet_gateway_id, vpc_id)
+#	p6_aws_ec2_internet_gateway_attach(internet_gateway_id, vpc_id)
 #
-# Arg(s):
-#    internet_gateway_id - 
-#    vpc_id - 
-#
+#  Args:
+#	internet_gateway_id - 
+#	vpc_id - 
 #
 #>
 ######################################################################

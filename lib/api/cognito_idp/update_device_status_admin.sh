@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_update_device_status_admin(user_pool_id, username, device_key)
+#	p6_aws_cognito_idp_update_device_status_admin(user_pool_id, username, device_key)
 #
-# Arg(s):
-#    user_pool_id - 
-#    username - 
-#    device_key - 
-#
+#  Args:
+#	user_pool_id - 
+#	username - 
+#	device_key - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_voice_channel_update(application_id, voice_channel_request)
+#	p6_aws_pinpoint_voice_channel_update(application_id, voice_channel_request)
 #
-# Arg(s):
-#    application_id - 
-#    voice_channel_request - 
-#
+#  Args:
+#	application_id - 
+#	voice_channel_request - 
 #
 #>
 ######################################################################

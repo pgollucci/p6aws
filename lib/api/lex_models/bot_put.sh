@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_lex_models_bot_put(name, locale, child_directed)
+#	p6_aws_lex_models_bot_put(name, locale, child_directed)
 #
-# Arg(s):
-#    name - 
-#    locale - 
-#    child_directed - 
-#
+#  Args:
+#	name - 
+#	locale - 
+#	child_directed - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_athena_named_query_create(name, database, query_string)
+#	p6_aws_athena_named_query_create(name, database, query_string)
 #
-# Arg(s):
-#    name - 
-#    database - 
-#    query_string - 
-#
+#  Args:
+#	name - 
+#	database - 
+#	query_string - 
 #
 #>
 ######################################################################

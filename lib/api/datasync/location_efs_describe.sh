@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_datasync_location_efs_describe(location_arn)
+#	p6_aws_datasync_location_efs_describe(location_arn)
 #
-# Arg(s):
-#    location_arn - 
-#
+#  Args:
+#	location_arn - 
 #
 #>
 ######################################################################

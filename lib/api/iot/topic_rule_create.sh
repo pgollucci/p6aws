@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_topic_rule_create(rule_name, topic_rule_payload)
+#	p6_aws_iot_topic_rule_create(rule_name, topic_rule_payload)
 #
-# Arg(s):
-#    rule_name - 
-#    topic_rule_payload - 
-#
+#  Args:
+#	rule_name - 
+#	topic_rule_payload - 
 #
 #>
 ######################################################################

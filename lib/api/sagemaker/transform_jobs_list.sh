@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_transform_jobs_list()
-#
-#
+#	p6_aws_sagemaker_transform_jobs_list()
 #
 #>
 ######################################################################

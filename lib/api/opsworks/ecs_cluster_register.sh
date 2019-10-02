@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_ecs_cluster_register(ecs_cluster_arn, stack_id)
+#	p6_aws_opsworks_ecs_cluster_register(ecs_cluster_arn, stack_id)
 #
-# Arg(s):
-#    ecs_cluster_arn - 
-#    stack_id - 
-#
+#  Args:
+#	ecs_cluster_arn - 
+#	stack_id - 
 #
 #>
 ######################################################################

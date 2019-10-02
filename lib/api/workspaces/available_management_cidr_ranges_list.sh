@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_workspaces_available_management_cidr_ranges_list(management_cidr_range_constraint)
+#	p6_aws_workspaces_available_management_cidr_ranges_list(management_cidr_range_constraint)
 #
-# Arg(s):
-#    management_cidr_range_constraint - 
-#
+#  Args:
+#	management_cidr_range_constraint - 
 #
 #>
 ######################################################################

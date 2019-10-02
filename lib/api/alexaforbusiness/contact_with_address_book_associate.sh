@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_contact_with_address_book_associate(contact_arn, address_book_arn)
+#	p6_aws_alexaforbusiness_contact_with_address_book_associate(contact_arn, address_book_arn)
 #
-# Arg(s):
-#    contact_arn - 
-#    address_book_arn - 
-#
+#  Args:
+#	contact_arn - 
+#	address_book_arn - 
 #
 #>
 ######################################################################

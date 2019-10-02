@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_permission_set(stack_id, iam_user_arn)
+#	p6_aws_opsworks_permission_set(stack_id, iam_user_arn)
 #
-# Arg(s):
-#    stack_id - 
-#    iam_user_arn - 
-#
+#  Args:
+#	stack_id - 
+#	iam_user_arn - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudsearch_suggesters_build(domain_name)
+#	p6_aws_cloudsearch_suggesters_build(domain_name)
 #
-# Arg(s):
-#    domain_name - 
-#
+#  Args:
+#	domain_name - 
 #
 #>
 ######################################################################

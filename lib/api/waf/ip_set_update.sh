@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_ip_set_update(ip_set_id, change_token, updates)
+#	p6_aws_waf_ip_set_update(ip_set_id, change_token, updates)
 #
-# Arg(s):
-#    ip_set_id - 
-#    change_token - 
-#    updates - 
-#
+#  Args:
+#	ip_set_id - 
+#	change_token - 
+#	updates - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_apigatewayv2_api_mappings_get(domain_name)
+#	p6_aws_apigatewayv2_api_mappings_get(domain_name)
 #
-# Arg(s):
-#    domain_name - 
-#
+#  Args:
+#	domain_name - 
 #
 #>
 ######################################################################

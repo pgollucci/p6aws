@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_codecommit_comment_for_pull_request_post(pull_request_id, repository_name, before_commit_id, after_commit_id, content)
+#	p6_aws_codecommit_comment_for_pull_request_post(pull_request_id, repository_name, before_commit_id, after_commit_id, content)
 #
-# Arg(s):
-#    pull_request_id - 
-#    repository_name - 
-#    before_commit_id - 
-#    after_commit_id - 
-#    content - 
-#
+#  Args:
+#	pull_request_id - 
+#	repository_name - 
+#	before_commit_id - 
+#	after_commit_id - 
+#	content - 
 #
 #>
 ######################################################################

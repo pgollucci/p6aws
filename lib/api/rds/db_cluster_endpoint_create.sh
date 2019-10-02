@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_db_cluster_endpoint_create(db_cluster_identifier, db_cluster_endpoint_identifier, endpoint_type)
+#	p6_aws_rds_db_cluster_endpoint_create(db_cluster_identifier, db_cluster_endpoint_identifier, endpoint_type)
 #
-# Arg(s):
-#    db_cluster_identifier - 
-#    db_cluster_endpoint_identifier - 
-#    endpoint_type - 
-#
+#  Args:
+#	db_cluster_identifier - 
+#	db_cluster_endpoint_identifier - 
+#	endpoint_type - 
 #
 #>
 ######################################################################

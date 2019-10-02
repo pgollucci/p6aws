@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_elbv2_ssl_policies_describe()
-#
-#
+#	p6_aws_elbv2_ssl_policies_describe()
 #
 #>
 ######################################################################

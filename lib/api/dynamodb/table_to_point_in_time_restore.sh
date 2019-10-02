@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_dynamodb_table_to_point_in_time_restore(source_table_name, target_table_name)
+#	p6_aws_dynamodb_table_to_point_in_time_restore(source_table_name, target_table_name)
 #
-# Arg(s):
-#    source_table_name - 
-#    target_table_name - 
-#
+#  Args:
+#	source_table_name - 
+#	target_table_name - 
 #
 #>
 ######################################################################

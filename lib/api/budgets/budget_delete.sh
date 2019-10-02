@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_budgets_budget_delete(account_id, budget_name)
+#	p6_aws_budgets_budget_delete(account_id, budget_name)
 #
-# Arg(s):
-#    account_id - 
-#    budget_name - 
-#
+#  Args:
+#	account_id - 
+#	budget_name - 
 #
 #>
 ######################################################################

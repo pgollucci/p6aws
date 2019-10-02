@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_task_stop(task)
+#	p6_aws_ecs_task_stop(task)
 #
-# Arg(s):
-#    task - 
-#
+#  Args:
+#	task - 
 #
 #>
 ######################################################################

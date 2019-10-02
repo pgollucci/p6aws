@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_access_key_delete(access_key_id)
+#	p6_aws_iam_access_key_delete(access_key_id)
 #
-# Arg(s):
-#    access_key_id - 
-#
+#  Args:
+#	access_key_id - 
 #
 #>
 ######################################################################

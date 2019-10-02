@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_spot_instances_request()
-#
-#
+#	p6_aws_ec2_spot_instances_request()
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_organizations_create_account_status_list()
-#
-#
+#	p6_aws_organizations_create_account_status_list()
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_automation_execution_get(automation_execution_id)
+#	p6_aws_ssm_automation_execution_get(automation_execution_id)
 #
-# Arg(s):
-#    automation_execution_id - 
-#
+#  Args:
+#	automation_execution_id - 
 #
 #>
 ######################################################################

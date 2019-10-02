@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_instance_event_start_time_modify(instance_id, instance_event_id, not_before)
+#	p6_aws_ec2_instance_event_start_time_modify(instance_id, instance_event_id, not_before)
 #
-# Arg(s):
-#    instance_id - 
-#    instance_event_id - 
-#    not_before - 
-#
+#  Args:
+#	instance_id - 
+#	instance_event_id - 
+#	not_before - 
 #
 #>
 ######################################################################

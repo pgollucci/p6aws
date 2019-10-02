@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_data_catalog_encryption_settings_put(data_catalog_encryption_settings)
+#	p6_aws_glue_data_catalog_encryption_settings_put(data_catalog_encryption_settings)
 #
-# Arg(s):
-#    data_catalog_encryption_settings - 
-#
+#  Args:
+#	data_catalog_encryption_settings - 
 #
 #>
 ######################################################################

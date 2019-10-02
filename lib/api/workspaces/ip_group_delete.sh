@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_workspaces_ip_group_delete(group_id)
+#	p6_aws_workspaces_ip_group_delete(group_id)
 #
-# Arg(s):
-#    group_id - 
-#
+#  Args:
+#	group_id - 
 #
 #>
 ######################################################################

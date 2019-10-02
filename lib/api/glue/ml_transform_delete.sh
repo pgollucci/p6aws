@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_ml_transform_delete(transform_id)
+#	p6_aws_glue_ml_transform_delete(transform_id)
 #
-# Arg(s):
-#    transform_id - 
-#
+#  Args:
+#	transform_id - 
 #
 #>
 ######################################################################

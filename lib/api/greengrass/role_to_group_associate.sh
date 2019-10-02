@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_greengrass_role_to_group_associate(group_id, role_arn)
+#	p6_aws_greengrass_role_to_group_associate(group_id, role_arn)
 #
-# Arg(s):
-#    group_id - 
-#    role_arn - 
-#
+#  Args:
+#	group_id - 
+#	role_arn - 
 #
 #>
 ######################################################################

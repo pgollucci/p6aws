@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_emr_instance_fleet_modify(cluster_id, instance_fleet)
+#	p6_aws_emr_instance_fleet_modify(cluster_id, instance_fleet)
 #
-# Arg(s):
-#    cluster_id - 
-#    instance_fleet - 
-#
+#  Args:
+#	cluster_id - 
+#	instance_fleet - 
 #
 #>
 ######################################################################

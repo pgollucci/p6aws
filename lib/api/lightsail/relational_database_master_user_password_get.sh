@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_relational_database_master_user_password_get(relational_database_name)
+#	p6_aws_lightsail_relational_database_master_user_password_get(relational_database_name)
 #
-# Arg(s):
-#    relational_database_name - 
-#
+#  Args:
+#	relational_database_name - 
 #
 #>
 ######################################################################

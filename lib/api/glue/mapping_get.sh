@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_mapping_get(source)
+#	p6_aws_glue_mapping_get(source)
 #
-# Arg(s):
-#    source - 
-#
+#  Args:
+#	source - 
 #
 #>
 ######################################################################

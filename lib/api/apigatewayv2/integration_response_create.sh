@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_apigatewayv2_integration_response_create(api_id, integration_id, integration_response_key)
+#	p6_aws_apigatewayv2_integration_response_create(api_id, integration_id, integration_response_key)
 #
-# Arg(s):
-#    api_id - 
-#    integration_id - 
-#    integration_response_key - 
-#
+#  Args:
+#	api_id - 
+#	integration_id - 
+#	integration_response_key - 
 #
 #>
 ######################################################################

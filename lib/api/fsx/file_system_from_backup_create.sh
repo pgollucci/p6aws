@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_fsx_file_system_from_backup_create(backup_id, subnet_ids)
+#	p6_aws_fsx_file_system_from_backup_create(backup_id, subnet_ids)
 #
-# Arg(s):
-#    backup_id - 
-#    subnet_ids - 
-#
+#  Args:
+#	backup_id - 
+#	subnet_ids - 
 #
 #>
 ######################################################################

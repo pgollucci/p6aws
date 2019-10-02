@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codepipeline_pipeline_state_get(name)
+#	p6_aws_codepipeline_pipeline_state_get(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

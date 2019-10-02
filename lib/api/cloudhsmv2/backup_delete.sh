@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudhsmv2_backup_delete(backup_id)
+#	p6_aws_cloudhsmv2_backup_delete(backup_id)
 #
-# Arg(s):
-#    backup_id - 
-#
+#  Args:
+#	backup_id - 
 #
 #>
 ######################################################################

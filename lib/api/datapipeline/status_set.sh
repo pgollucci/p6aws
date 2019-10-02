@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_datapipeline_status_set(pipeline_id, object_ids, status)
+#	p6_aws_datapipeline_status_set(pipeline_id, object_ids, status)
 #
-# Arg(s):
-#    pipeline_id - 
-#    object_ids - 
-#    status - 
-#
+#  Args:
+#	pipeline_id - 
+#	object_ids - 
+#	status - 
 #
 #>
 ######################################################################

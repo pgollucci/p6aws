@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_configuration_set_tracking_options_update(configuration_set_name, tracking_options)
+#	p6_aws_ses_configuration_set_tracking_options_update(configuration_set_name, tracking_options)
 #
-# Arg(s):
-#    configuration_set_name - 
-#    tracking_options - 
-#
+#  Args:
+#	configuration_set_name - 
+#	tracking_options - 
 #
 #>
 ######################################################################

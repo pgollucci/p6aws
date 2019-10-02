@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_fms_policy_get(policy_id)
+#	p6_aws_fms_policy_get(policy_id)
 #
-# Arg(s):
-#    policy_id - 
-#
+#  Args:
+#	policy_id - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_kms_key_description_update(key_id, description)
+#	p6_aws_kms_key_description_update(key_id, description)
 #
-# Arg(s):
-#    key_id - 
-#    description - 
-#
+#  Args:
+#	key_id - 
+#	description - 
 #
 #>
 ######################################################################

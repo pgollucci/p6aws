@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_sdb_attributes_delete(domain_name, item_name)
+#	p6_aws_sdb_attributes_delete(domain_name, item_name)
 #
-# Arg(s):
-#    domain_name - 
-#    item_name - 
-#
+#  Args:
+#	domain_name - 
+#	item_name - 
 #
 #>
 ######################################################################

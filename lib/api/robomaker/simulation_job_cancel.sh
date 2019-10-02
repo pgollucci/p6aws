@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_robomaker_simulation_job_cancel(job)
+#	p6_aws_robomaker_simulation_job_cancel(job)
 #
-# Arg(s):
-#    job - 
-#
+#  Args:
+#	job - 
 #
 #>
 ######################################################################

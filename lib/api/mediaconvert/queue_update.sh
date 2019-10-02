@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mediaconvert_queue_update(name)
+#	p6_aws_mediaconvert_queue_update(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

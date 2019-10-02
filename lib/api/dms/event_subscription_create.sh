@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_dms_event_subscription_create(subscription_name, sns_topic_arn)
+#	p6_aws_dms_event_subscription_create(subscription_name, sns_topic_arn)
 #
-# Arg(s):
-#    subscription_name - 
-#    sns_topic_arn - 
-#
+#  Args:
+#	subscription_name - 
+#	sns_topic_arn - 
 #
 #>
 ######################################################################

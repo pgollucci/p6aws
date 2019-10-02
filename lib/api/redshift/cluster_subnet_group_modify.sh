@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_cluster_subnet_group_modify(cluster_subnet_group_name, subnet_ids)
+#	p6_aws_redshift_cluster_subnet_group_modify(cluster_subnet_group_name, subnet_ids)
 #
-# Arg(s):
-#    cluster_subnet_group_name - 
-#    subnet_ids - 
-#
+#  Args:
+#	cluster_subnet_group_name - 
+#	subnet_ids - 
 #
 #>
 ######################################################################

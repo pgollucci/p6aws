@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_acm_pca_certificate_authority_restore(certificate_authority_arn)
+#	p6_aws_acm_pca_certificate_authority_restore(certificate_authority_arn)
 #
-# Arg(s):
-#    certificate_authority_arn - 
-#
+#  Args:
+#	certificate_authority_arn - 
 #
 #>
 ######################################################################

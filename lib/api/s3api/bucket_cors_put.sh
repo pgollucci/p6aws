@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_bucket_cors_put(bucket, cors_configuration)
+#	p6_aws_s3api_bucket_cors_put(bucket, cors_configuration)
 #
-# Arg(s):
-#    bucket - 
-#    cors_configuration - 
-#
+#  Args:
+#	bucket - 
+#	cors_configuration - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_personalize_runtime_personalized_ranking_get(campaign_arn, input_list, user_id)
+#	p6_aws_personalize_runtime_personalized_ranking_get(campaign_arn, input_list, user_id)
 #
-# Arg(s):
-#    campaign_arn - 
-#    input_list - 
-#    user_id - 
-#
+#  Args:
+#	campaign_arn - 
+#	input_list - 
+#	user_id - 
 #
 #>
 ######################################################################

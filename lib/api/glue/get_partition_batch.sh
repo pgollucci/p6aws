@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_get_partition_batch(database_name, table_name, partitions_to_get)
+#	p6_aws_glue_get_partition_batch(database_name, table_name, partitions_to_get)
 #
-# Arg(s):
-#    database_name - 
-#    table_name - 
-#    partitions_to_get - 
-#
+#  Args:
+#	database_name - 
+#	table_name - 
+#	partitions_to_get - 
 #
 #>
 ######################################################################

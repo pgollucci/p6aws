@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_workspaces_account_modify()
-#
-#
+#	p6_aws_workspaces_account_modify()
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elbv2_tags_remove(resource_arns, tag_keys)
+#	p6_aws_elbv2_tags_remove(resource_arns, tag_keys)
 #
-# Arg(s):
-#    resource_arns - 
-#    tag_keys - 
-#
+#  Args:
+#	resource_arns - 
+#	tag_keys - 
 #
 #>
 ######################################################################

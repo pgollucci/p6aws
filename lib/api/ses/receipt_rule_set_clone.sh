@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_receipt_rule_set_clone(rule_set_name, original_rule_set_name)
+#	p6_aws_ses_receipt_rule_set_clone(rule_set_name, original_rule_set_name)
 #
-# Arg(s):
-#    rule_set_name - 
-#    original_rule_set_name - 
-#
+#  Args:
+#	rule_set_name - 
+#	original_rule_set_name - 
 #
 #>
 ######################################################################

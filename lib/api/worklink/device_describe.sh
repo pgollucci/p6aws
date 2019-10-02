@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_worklink_device_describe(fleet_arn, device_id)
+#	p6_aws_worklink_device_describe(fleet_arn, device_id)
 #
-# Arg(s):
-#    fleet_arn - 
-#    device_id - 
-#
+#  Args:
+#	fleet_arn - 
+#	device_id - 
 #
 #>
 ######################################################################

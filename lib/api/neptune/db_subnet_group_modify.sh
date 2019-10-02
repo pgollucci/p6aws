@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_neptune_db_subnet_group_modify(db_subnet_group_name, subnet_ids)
+#	p6_aws_neptune_db_subnet_group_modify(db_subnet_group_name, subnet_ids)
 #
-# Arg(s):
-#    db_subnet_group_name - 
-#    subnet_ids - 
-#
+#  Args:
+#	db_subnet_group_name - 
+#	subnet_ids - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_index_describe(index_name)
+#	p6_aws_iot_index_describe(index_name)
 #
-# Arg(s):
-#    index_name - 
-#
+#  Args:
+#	index_name - 
 #
 #>
 ######################################################################

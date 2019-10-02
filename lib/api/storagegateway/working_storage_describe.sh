@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_working_storage_describe(gateway_arn)
+#	p6_aws_storagegateway_working_storage_describe(gateway_arn)
 #
-# Arg(s):
-#    gateway_arn - 
-#
+#  Args:
+#	gateway_arn - 
 #
 #>
 ######################################################################

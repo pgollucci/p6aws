@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_organizations_handshakes_for_organization_list()
-#
-#
+#	p6_aws_organizations_handshakes_for_organization_list()
 #
 #>
 ######################################################################

@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_directconnect_lag_create(number_of_connections, location, connections_bandwidth, lag_name)
+#	p6_aws_directconnect_lag_create(number_of_connections, location, connections_bandwidth, lag_name)
 #
-# Arg(s):
-#    number_of_connections - 
-#    location - 
-#    connections_bandwidth - 
-#    lag_name - 
-#
+#  Args:
+#	number_of_connections - 
+#	location - 
+#	connections_bandwidth - 
+#	lag_name - 
 #
 #>
 ######################################################################

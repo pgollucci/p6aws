@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_smb_guest_password_set(gateway_arn, password)
+#	p6_aws_storagegateway_smb_guest_password_set(gateway_arn, password)
 #
-# Arg(s):
-#    gateway_arn - 
-#    password - 
-#
+#  Args:
+#	gateway_arn - 
+#	password - 
 #
 #>
 ######################################################################

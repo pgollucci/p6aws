@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_integration_put(rest_api_id, resource_id, http_method, type)
+#	p6_aws_apigateway_integration_put(rest_api_id, resource_id, http_method, type)
 #
-# Arg(s):
-#    rest_api_id - 
-#    resource_id - 
-#    http_method - 
-#    type - 
-#
+#  Args:
+#	rest_api_id - 
+#	resource_id - 
+#	http_method - 
+#	type - 
 #
 #>
 ######################################################################

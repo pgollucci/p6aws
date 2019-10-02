@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_db_cluster_snapshot_copy(source_db_cluster_snapshot_identifier, target_db_cluster_snapshot_identifier)
+#	p6_aws_rds_db_cluster_snapshot_copy(source_db_cluster_snapshot_identifier, target_db_cluster_snapshot_identifier)
 #
-# Arg(s):
-#    source_db_cluster_snapshot_identifier - 
-#    target_db_cluster_snapshot_identifier - 
-#
+#  Args:
+#	source_db_cluster_snapshot_identifier - 
+#	target_db_cluster_snapshot_identifier - 
 #
 #>
 ######################################################################

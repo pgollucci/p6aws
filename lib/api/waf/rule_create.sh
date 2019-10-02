@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_rule_create(name, metric_name, change_token)
+#	p6_aws_waf_rule_create(name, metric_name, change_token)
 #
-# Arg(s):
-#    name - 
-#    metric_name - 
-#    change_token - 
-#
+#  Args:
+#	name - 
+#	metric_name - 
+#	change_token - 
 #
 #>
 ######################################################################

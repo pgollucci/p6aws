@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_xray_trace_summaries_get(start_time, end_time)
+#	p6_aws_xray_trace_summaries_get(start_time, end_time)
 #
-# Arg(s):
-#    start_time - 
-#    end_time - 
-#
+#  Args:
+#	start_time - 
+#	end_time - 
 #
 #>
 ######################################################################

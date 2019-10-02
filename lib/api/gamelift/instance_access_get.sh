@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_instance_access_get(fleet_id, instance_id)
+#	p6_aws_gamelift_instance_access_get(fleet_id, instance_id)
 #
-# Arg(s):
-#    fleet_id - 
-#    instance_id - 
-#
+#  Args:
+#	fleet_id - 
+#	instance_id - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_securityhub_import_findings_for_product_enable(product_arn)
+#	p6_aws_securityhub_import_findings_for_product_enable(product_arn)
 #
-# Arg(s):
-#    product_arn - 
-#
+#  Args:
+#	product_arn - 
 #
 #>
 ######################################################################

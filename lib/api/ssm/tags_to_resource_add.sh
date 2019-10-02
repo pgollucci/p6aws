@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_tags_to_resource_add(resource_type, resource_id, tags)
+#	p6_aws_ssm_tags_to_resource_add(resource_type, resource_id, tags)
 #
-# Arg(s):
-#    resource_type - 
-#    resource_id - 
-#    tags - 
-#
+#  Args:
+#	resource_type - 
+#	resource_id - 
+#	tags - 
 #
 #>
 ######################################################################

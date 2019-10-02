@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_emr_applications_install(cluster_id, applications)
+#	p6_aws_emr_applications_install(cluster_id, applications)
 #
-# Arg(s):
-#    cluster_id - 
-#    applications - 
-#
+#  Args:
+#	cluster_id - 
+#	applications - 
 #
 #>
 ######################################################################

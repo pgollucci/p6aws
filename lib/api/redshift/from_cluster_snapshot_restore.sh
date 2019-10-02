@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_from_cluster_snapshot_restore(cluster_identifier, snapshot_identifier)
+#	p6_aws_redshift_from_cluster_snapshot_restore(cluster_identifier, snapshot_identifier)
 #
-# Arg(s):
-#    cluster_identifier - 
-#    snapshot_identifier - 
-#
+#  Args:
+#	cluster_identifier - 
+#	snapshot_identifier - 
 #
 #>
 ######################################################################

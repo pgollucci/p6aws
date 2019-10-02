@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_kms_key_policy_put(key_id, policy_name, policy)
+#	p6_aws_kms_key_policy_put(key_id, policy_name, policy)
 #
-# Arg(s):
-#    key_id - 
-#    policy_name - 
-#    policy - 
-#
+#  Args:
+#	key_id - 
+#	policy_name - 
+#	policy - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_appsync_type_update(api_id, type_name, format)
+#	p6_aws_appsync_type_update(api_id, type_name, format)
 #
-# Arg(s):
-#    api_id - 
-#    type_name - 
-#    format - 
-#
+#  Args:
+#	api_id - 
+#	type_name - 
+#	format - 
 #
 #>
 ######################################################################

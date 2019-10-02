@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_appstream_image_builder_start(name)
+#	p6_aws_appstream_image_builder_start(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

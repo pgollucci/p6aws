@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_shield_drt_log_bucket_associate(log_bucket)
+#	p6_aws_shield_drt_log_bucket_associate(log_bucket)
 #
-# Arg(s):
-#    log_bucket - 
-#
+#  Args:
+#	log_bucket - 
 #
 #>
 ######################################################################

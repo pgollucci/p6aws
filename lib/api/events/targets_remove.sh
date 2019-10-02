@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_events_targets_remove(rule, ids)
+#	p6_aws_events_targets_remove(rule, ids)
 #
-# Arg(s):
-#    rule - 
-#    ids - 
-#
+#  Args:
+#	rule - 
+#	ids - 
 #
 #>
 ######################################################################

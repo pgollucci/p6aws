@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_application_autoscaling_scheduled_action_put(service_namespace, scheduled_action_name, resource_id, scalable_dimension)
+#	p6_aws_application_autoscaling_scheduled_action_put(service_namespace, scheduled_action_name, resource_id, scalable_dimension)
 #
-# Arg(s):
-#    service_namespace - 
-#    scheduled_action_name - 
-#    resource_id - 
-#    scalable_dimension - 
-#
+#  Args:
+#	service_namespace - 
+#	scheduled_action_name - 
+#	resource_id - 
+#	scalable_dimension - 
 #
 #>
 ######################################################################

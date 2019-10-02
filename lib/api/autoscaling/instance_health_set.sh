@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_autoscaling_instance_health_set(instance_id, health_status)
+#	p6_aws_autoscaling_instance_health_set(instance_id, health_status)
 #
-# Arg(s):
-#    instance_id - 
-#    health_status - 
-#
+#  Args:
+#	instance_id - 
+#	health_status - 
 #
 #>
 ######################################################################

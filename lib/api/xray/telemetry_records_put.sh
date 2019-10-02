@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_xray_telemetry_records_put(telemetry_records)
+#	p6_aws_xray_telemetry_records_put(telemetry_records)
 #
-# Arg(s):
-#    telemetry_records - 
-#
+#  Args:
+#	telemetry_records - 
 #
 #>
 ######################################################################

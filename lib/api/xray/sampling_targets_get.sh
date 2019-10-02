@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_xray_sampling_targets_get(sampling_statistics_documents)
+#	p6_aws_xray_sampling_targets_get(sampling_statistics_documents)
 #
-# Arg(s):
-#    sampling_statistics_documents - 
-#
+#  Args:
+#	sampling_statistics_documents - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_size_constraint_set_update(size_constraint_set_id, change_token, updates)
+#	p6_aws_waf_size_constraint_set_update(size_constraint_set_id, change_token, updates)
 #
-# Arg(s):
-#    size_constraint_set_id - 
-#    change_token - 
-#    updates - 
-#
+#  Args:
+#	size_constraint_set_id - 
+#	change_token - 
+#	updates - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iotanalytics_datastore_create(datastore_name)
+#	p6_aws_iotanalytics_datastore_create(datastore_name)
 #
-# Arg(s):
-#    datastore_name - 
-#
+#  Args:
+#	datastore_name - 
 #
 #>
 ######################################################################

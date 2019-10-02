@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_autoscaling_auto_scaling_group_create(auto_scaling_group_name, min_size, max_size)
+#	p6_aws_autoscaling_auto_scaling_group_create(auto_scaling_group_name, min_size, max_size)
 #
-# Arg(s):
-#    auto_scaling_group_name - 
-#    min_size - 
-#    max_size - 
-#
+#  Args:
+#	auto_scaling_group_name - 
+#	min_size - 
+#	max_size - 
 #
 #>
 ######################################################################

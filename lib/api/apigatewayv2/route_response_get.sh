@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_apigatewayv2_route_response_get(api_id, route_id, route_response_id)
+#	p6_aws_apigatewayv2_route_response_get(api_id, route_id, route_response_id)
 #
-# Arg(s):
-#    api_id - 
-#    route_id - 
-#    route_response_id - 
-#
+#  Args:
+#	api_id - 
+#	route_id - 
+#	route_response_id - 
 #
 #>
 ######################################################################

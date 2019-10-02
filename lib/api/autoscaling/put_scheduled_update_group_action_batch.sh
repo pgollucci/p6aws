@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_autoscaling_put_scheduled_update_group_action_batch(auto_scaling_group_name, scheduled_update_group_actions)
+#	p6_aws_autoscaling_put_scheduled_update_group_action_batch(auto_scaling_group_name, scheduled_update_group_actions)
 #
-# Arg(s):
-#    auto_scaling_group_name - 
-#    scheduled_update_group_actions - 
-#
+#  Args:
+#	auto_scaling_group_name - 
+#	scheduled_update_group_actions - 
 #
 #>
 ######################################################################

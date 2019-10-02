@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_workdocs_root_folders_describe(authentication_token)
+#	p6_aws_workdocs_root_folders_describe(authentication_token)
 #
-# Arg(s):
-#    authentication_token - 
-#
+#  Args:
+#	authentication_token - 
 #
 #>
 ######################################################################

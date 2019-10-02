@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_backup_backup_selection_delete(backup_plan_id, selection_id)
+#	p6_aws_backup_backup_selection_delete(backup_plan_id, selection_id)
 #
-# Arg(s):
-#    backup_plan_id - 
-#    selection_id - 
-#
+#  Args:
+#	backup_plan_id - 
+#	selection_id - 
 #
 #>
 ######################################################################

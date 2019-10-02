@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_device_usage_data_delete(device_arn, device_usage_type)
+#	p6_aws_alexaforbusiness_device_usage_data_delete(device_arn, device_usage_type)
 #
-# Arg(s):
-#    device_arn - 
-#    device_usage_type - 
-#
+#  Args:
+#	device_arn - 
+#	device_usage_type - 
 #
 #>
 ######################################################################

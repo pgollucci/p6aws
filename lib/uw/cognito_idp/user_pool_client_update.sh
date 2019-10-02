@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_o_auth_flows_user_pool_client(user_pool_id, client_id)
+#	p6_aws_cognito_idp_o_auth_flows_user_pool_client(user_pool_id, client_id)
 #
-# Arg(s):
-#    user_pool_id - 
-#    client_id - 
-#
+#  Args:
+#	user_pool_id - 
+#	client_id - 
 #
 #>
 ######################################################################

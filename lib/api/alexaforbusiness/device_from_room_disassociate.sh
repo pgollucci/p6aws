@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_device_from_room_disassociate()
-#
-#
+#	p6_aws_alexaforbusiness_device_from_room_disassociate()
 #
 #>
 ######################################################################

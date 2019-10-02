@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elb_load_balancer_attributes_modify(load_balancer_name, load_balancer_attributes)
+#	p6_aws_elb_load_balancer_attributes_modify(load_balancer_name, load_balancer_attributes)
 #
-# Arg(s):
-#    load_balancer_name - 
-#    load_balancer_attributes - 
-#
+#  Args:
+#	load_balancer_name - 
+#	load_balancer_attributes - 
 #
 #>
 ######################################################################

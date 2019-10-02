@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_dns_answer_test(hosted_zone_id, record_name, record_type)
+#	p6_aws_route53_dns_answer_test(hosted_zone_id, record_name, record_type)
 #
-# Arg(s):
-#    hosted_zone_id - 
-#    record_name - 
-#    record_type - 
-#
+#  Args:
+#	hosted_zone_id - 
+#	record_name - 
+#	record_type - 
 #
 #>
 ######################################################################

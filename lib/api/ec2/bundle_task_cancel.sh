@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_bundle_task_cancel(bundle_id)
+#	p6_aws_ec2_bundle_task_cancel(bundle_id)
 #
-# Arg(s):
-#    bundle_id - 
-#
+#  Args:
+#	bundle_id - 
 #
 #>
 ######################################################################

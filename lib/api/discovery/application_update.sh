@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_discovery_application_update(configuration_id)
+#	p6_aws_discovery_application_update(configuration_id)
 #
-# Arg(s):
-#    configuration_id - 
-#
+#  Args:
+#	configuration_id - 
 #
 #>
 ######################################################################

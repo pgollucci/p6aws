@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codebuild_enabled(name)
+#	p6_aws_codebuild_enabled(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

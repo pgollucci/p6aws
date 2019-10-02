@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_operation_get(operation_id)
+#	p6_aws_lightsail_operation_get(operation_id)
 #
-# Arg(s):
-#    operation_id - 
-#
+#  Args:
+#	operation_id - 
 #
 #>
 ######################################################################

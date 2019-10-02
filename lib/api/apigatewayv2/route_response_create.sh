@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_apigatewayv2_route_response_create(api_id, route_id, route_response_key)
+#	p6_aws_apigatewayv2_route_response_create(api_id, route_id, route_response_key)
 #
-# Arg(s):
-#    api_id - 
-#    route_id - 
-#    route_response_key - 
-#
+#  Args:
+#	api_id - 
+#	route_id - 
+#	route_response_key - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_emr_auto_scaling_policy_remove(cluster_id, instance_group_id)
+#	p6_aws_emr_auto_scaling_policy_remove(cluster_id, instance_group_id)
 #
-# Arg(s):
-#    cluster_id - 
-#    instance_group_id - 
-#
+#  Args:
+#	cluster_id - 
+#	instance_group_id - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_bucket_request_payment_put(bucket, request_payment_configuration)
+#	p6_aws_s3api_bucket_request_payment_put(bucket, request_payment_configuration)
 #
-# Arg(s):
-#    bucket - 
-#    request_payment_configuration - 
-#
+#  Args:
+#	bucket - 
+#	request_payment_configuration - 
 #
 #>
 ######################################################################

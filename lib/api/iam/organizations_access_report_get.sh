@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_organizations_access_report_get(job_id)
+#	p6_aws_iam_organizations_access_report_get(job_id)
 #
-# Arg(s):
-#    job_id - 
-#
+#  Args:
+#	job_id - 
 #
 #>
 ######################################################################

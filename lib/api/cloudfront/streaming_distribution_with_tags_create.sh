@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudfront_streaming_distribution_with_tags_create(streaming_distribution_config_with_tags)
+#	p6_aws_cloudfront_streaming_distribution_with_tags_create(streaming_distribution_config_with_tags)
 #
-# Arg(s):
-#    streaming_distribution_config_with_tags - 
-#
+#  Args:
+#	streaming_distribution_config_with_tags - 
 #
 #>
 ######################################################################

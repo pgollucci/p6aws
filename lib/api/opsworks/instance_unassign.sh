@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_instance_unassign(instance_id)
+#	p6_aws_opsworks_instance_unassign(instance_id)
 #
-# Arg(s):
-#    instance_id - 
-#
+#  Args:
+#	instance_id - 
 #
 #>
 ######################################################################

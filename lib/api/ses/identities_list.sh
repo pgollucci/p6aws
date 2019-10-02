@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_identities_list()
-#
-#
+#	p6_aws_ses_identities_list()
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_lambda_permission_remove(function_name, statement_id)
+#	p6_aws_lambda_permission_remove(function_name, statement_id)
 #
-# Arg(s):
-#    function_name - 
-#    statement_id - 
-#
+#  Args:
+#	function_name - 
+#	statement_id - 
 #
 #>
 ######################################################################

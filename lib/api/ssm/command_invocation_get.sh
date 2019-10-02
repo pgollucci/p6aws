@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_command_invocation_get(command_id, instance_id)
+#	p6_aws_ssm_command_invocation_get(command_id, instance_id)
 #
-# Arg(s):
-#    command_id - 
-#    instance_id - 
-#
+#  Args:
+#	command_id - 
+#	instance_id - 
 #
 #>
 ######################################################################

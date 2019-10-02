@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iotanalytics_pipeline_activity_run(pipeline_activity, payloads)
+#	p6_aws_iotanalytics_pipeline_activity_run(pipeline_activity, payloads)
 #
-# Arg(s):
-#    pipeline_activity - 
-#    payloads - 
-#
+#  Args:
+#	pipeline_activity - 
+#	payloads - 
 #
 #>
 ######################################################################

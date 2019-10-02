@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_dynamodb_global_table_create(global_table_name, replication_group)
+#	p6_aws_dynamodb_global_table_create(global_table_name, replication_group)
 #
-# Arg(s):
-#    global_table_name - 
-#    replication_group - 
-#
+#  Args:
+#	global_table_name - 
+#	replication_group - 
 #
 #>
 ######################################################################

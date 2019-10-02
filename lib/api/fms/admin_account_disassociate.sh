@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_fms_admin_account_disassociate()
-#
-#
+#	p6_aws_fms_admin_account_disassociate()
 #
 #>
 ######################################################################

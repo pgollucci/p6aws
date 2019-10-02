@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_batch_job_cancel(job_id, reason)
+#	p6_aws_batch_job_cancel(job_id, reason)
 #
-# Arg(s):
-#    job_id - 
-#    reason - 
-#
+#  Args:
+#	job_id - 
+#	reason - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_inspector_cross_account_access_role_register(role_arn)
+#	p6_aws_inspector_cross_account_access_role_register(role_arn)
 #
-# Arg(s):
-#    role_arn - 
-#
+#  Args:
+#	role_arn - 
 #
 #>
 ######################################################################

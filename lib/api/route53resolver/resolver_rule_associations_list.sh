@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_route53resolver_resolver_rule_associations_list()
-#
-#
+#	p6_aws_route53resolver_resolver_rule_associations_list()
 #
 #>
 ######################################################################

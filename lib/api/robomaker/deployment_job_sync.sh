@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_robomaker_deployment_job_sync(fleet)
+#	p6_aws_robomaker_deployment_job_sync(fleet)
 #
-# Arg(s):
-#    fleet - 
-#
+#  Args:
+#	fleet - 
 #
 #>
 ######################################################################

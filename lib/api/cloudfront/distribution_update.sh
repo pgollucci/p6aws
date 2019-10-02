@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudfront_distribution_update(id)
+#	p6_aws_cloudfront_distribution_update(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

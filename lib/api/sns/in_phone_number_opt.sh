@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sns_in_phone_number_opt(phone_number)
+#	p6_aws_sns_in_phone_number_opt(phone_number)
 #
-# Arg(s):
-#    phone_number - 
-#
+#  Args:
+#	phone_number - 
 #
 #>
 ######################################################################

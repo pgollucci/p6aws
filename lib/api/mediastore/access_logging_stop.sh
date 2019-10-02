@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mediastore_access_logging_stop(container_name)
+#	p6_aws_mediastore_access_logging_stop(container_name)
 #
-# Arg(s):
-#    container_name - 
-#
+#  Args:
+#	container_name - 
 #
 #>
 ######################################################################

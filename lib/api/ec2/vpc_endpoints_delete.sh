@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpc_endpoints_delete(vpc_endpoint_ids)
+#	p6_aws_ec2_vpc_endpoints_delete(vpc_endpoint_ids)
 #
-# Arg(s):
-#    vpc_endpoint_ids - 
-#
+#  Args:
+#	vpc_endpoint_ids - 
 #
 #>
 ######################################################################

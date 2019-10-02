@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_codecommit_comments_for_compared_commit_get(repository_name, after_commit_id)
+#	p6_aws_codecommit_comments_for_compared_commit_get(repository_name, after_commit_id)
 #
-# Arg(s):
-#    repository_name - 
-#    after_commit_id - 
-#
+#  Args:
+#	repository_name - 
+#	after_commit_id - 
 #
 #>
 ######################################################################

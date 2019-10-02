@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpc_endpoint_connection_notification_modify(connection_notification_id)
+#	p6_aws_ec2_vpc_endpoint_connection_notification_modify(connection_notification_id)
 #
-# Arg(s):
-#    connection_notification_id - 
-#
+#  Args:
+#	connection_notification_id - 
 #
 #>
 ######################################################################

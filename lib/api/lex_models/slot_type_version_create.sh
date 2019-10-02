@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lex_models_slot_type_version_create(name)
+#	p6_aws_lex_models_slot_type_version_create(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

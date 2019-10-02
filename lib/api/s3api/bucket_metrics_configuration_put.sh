@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_bucket_metrics_configuration_put(bucket, id, metrics_configuration)
+#	p6_aws_s3api_bucket_metrics_configuration_put(bucket, id, metrics_configuration)
 #
-# Arg(s):
-#    bucket - 
-#    id - 
-#    metrics_configuration - 
-#
+#  Args:
+#	bucket - 
+#	id - 
+#	metrics_configuration - 
 #
 #>
 ######################################################################

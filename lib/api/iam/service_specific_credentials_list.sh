@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_service_specific_credentials_list()
-#
-#
+#	p6_aws_iam_service_specific_credentials_list()
 #
 #>
 ######################################################################

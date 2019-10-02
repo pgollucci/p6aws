@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_workspaces_client_properties_modify(resource_id, client_properties)
+#	p6_aws_workspaces_client_properties_modify(resource_id, client_properties)
 #
-# Arg(s):
-#    resource_id - 
-#    client_properties - 
-#
+#  Args:
+#	resource_id - 
+#	client_properties - 
 #
 #>
 ######################################################################

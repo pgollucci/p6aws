@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_patch_baseline_create(name)
+#	p6_aws_ssm_patch_baseline_create(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

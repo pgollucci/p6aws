@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_chime_account_settings_get(account_id)
+#	p6_aws_chime_account_settings_get(account_id)
 #
-# Arg(s):
-#    account_id - 
-#
+#  Args:
+#	account_id - 
 #
 #>
 ######################################################################

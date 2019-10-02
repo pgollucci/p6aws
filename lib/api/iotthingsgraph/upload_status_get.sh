@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iotthingsgraph_upload_status_get(upload_id)
+#	p6_aws_iotthingsgraph_upload_status_get(upload_id)
 #
-# Arg(s):
-#    upload_id - 
-#
+#  Args:
+#	upload_id - 
 #
 #>
 ######################################################################

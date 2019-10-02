@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_service_quotas_requested_service_quota_change_history_by_quota_list(service_code, quota_code)
+#	p6_aws_service_quotas_requested_service_quota_change_history_by_quota_list(service_code, quota_code)
 #
-# Arg(s):
-#    service_code - 
-#    quota_code - 
-#
+#  Args:
+#	service_code - 
+#	quota_code - 
 #
 #>
 ######################################################################

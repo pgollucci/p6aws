@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_route53domains_contact_reachability_email_resend()
-#
-#
+#	p6_aws_route53domains_contact_reachability_email_resend()
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_shield_protection_create(name, resource_arn)
+#	p6_aws_shield_protection_create(name, resource_arn)
 #
-# Arg(s):
-#    name - 
-#    resource_arn - 
-#
+#  Args:
+#	name - 
+#	resource_arn - 
 #
 #>
 ######################################################################

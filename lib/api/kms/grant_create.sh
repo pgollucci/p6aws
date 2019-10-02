@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_kms_grant_create(key_id, grantee_principal, operations)
+#	p6_aws_kms_grant_create(key_id, grantee_principal, operations)
 #
-# Arg(s):
-#    key_id - 
-#    grantee_principal - 
-#    operations - 
-#
+#  Args:
+#	key_id - 
+#	grantee_principal - 
+#	operations - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_discovery_applications_delete(configuration_ids)
+#	p6_aws_discovery_applications_delete(configuration_ids)
 #
-# Arg(s):
-#    configuration_ids - 
-#
+#  Args:
+#	configuration_ids - 
 #
 #>
 ######################################################################

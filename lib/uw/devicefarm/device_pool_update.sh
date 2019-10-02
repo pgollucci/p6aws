@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_devicefarm_max_devices(arn)
+#	p6_aws_devicefarm_max_devices(arn)
 #
-# Arg(s):
-#    arn - 
-#
+#  Args:
+#	arn - 
 #
 #>
 ######################################################################

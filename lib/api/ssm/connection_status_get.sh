@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_connection_status_get(target)
+#	p6_aws_ssm_connection_status_get(target)
 #
-# Arg(s):
-#    target - 
-#
+#  Args:
+#	target - 
 #
 #>
 ######################################################################

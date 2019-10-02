@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_dms_table_statistics_describe(replication_task_arn)
+#	p6_aws_dms_table_statistics_describe(replication_task_arn)
 #
-# Arg(s):
-#    replication_task_arn - 
-#
+#  Args:
+#	replication_task_arn - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_chime_phone_number_with_user_associate(account_id, user_id, e164_phone_number)
+#	p6_aws_chime_phone_number_with_user_associate(account_id, user_id, e164_phone_number)
 #
-# Arg(s):
-#    account_id - 
-#    user_id - 
-#    e164_phone_number - 
-#
+#  Args:
+#	account_id - 
+#	user_id - 
+#	e164_phone_number - 
 #
 #>
 ######################################################################

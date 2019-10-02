@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_autoscaling_load_balancers_detach(auto_scaling_group_name, load_balancer_names)
+#	p6_aws_autoscaling_load_balancers_detach(auto_scaling_group_name, load_balancer_names)
 #
-# Arg(s):
-#    auto_scaling_group_name - 
-#    load_balancer_names - 
-#
+#  Args:
+#	auto_scaling_group_name - 
+#	load_balancer_names - 
 #
 #>
 ######################################################################

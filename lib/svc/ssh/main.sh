@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ssh_svc_do(tag, type)
+#	p6_aws_ssh_svc_do(tag, type)
 #
-# Arg(s):
-#    tag - 
-#    type - 
-#
+#  Args:
+#	tag - 
+#	type - 
 #
 #>
 ######################################################################

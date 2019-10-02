@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_appstream_image_builder_streaming_url_create(name)
+#	p6_aws_appstream_image_builder_streaming_url_create(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

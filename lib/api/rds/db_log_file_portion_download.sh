@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_db_log_file_portion_download(db_instance_identifier, log_file_name)
+#	p6_aws_rds_db_log_file_portion_download(db_instance_identifier, log_file_name)
 #
-# Arg(s):
-#    db_instance_identifier - 
-#    log_file_name - 
-#
+#  Args:
+#	db_instance_identifier - 
+#	log_file_name - 
 #
 #>
 ######################################################################

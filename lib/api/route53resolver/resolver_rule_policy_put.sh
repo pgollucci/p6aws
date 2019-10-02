@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_route53resolver_resolver_rule_policy_put(arn, resolver_rule_policy)
+#	p6_aws_route53resolver_resolver_rule_policy_put(arn, resolver_rule_policy)
 #
-# Arg(s):
-#    arn - 
-#    resolver_rule_policy - 
-#
+#  Args:
+#	arn - 
+#	resolver_rule_policy - 
 #
 #>
 ######################################################################

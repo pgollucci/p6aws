@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mediaconnect_flow_delete(flow_arn)
+#	p6_aws_mediaconnect_flow_delete(flow_arn)
 #
-# Arg(s):
-#    flow_arn - 
-#
+#  Args:
+#	flow_arn - 
 #
 #>
 ######################################################################

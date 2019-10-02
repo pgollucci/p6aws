@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_notebook_instance_lifecycle_config_delete(notebook_instance_lifecycle_config_name)
+#	p6_aws_sagemaker_notebook_instance_lifecycle_config_delete(notebook_instance_lifecycle_config_name)
 #
-# Arg(s):
-#    notebook_instance_lifecycle_config_name - 
-#
+#  Args:
+#	notebook_instance_lifecycle_config_name - 
 #
 #>
 ######################################################################

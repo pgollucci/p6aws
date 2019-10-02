@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_data_transaction_begin(resource_arn, secret_arn)
+#	p6_aws_rds_data_transaction_begin(resource_arn, secret_arn)
 #
-# Arg(s):
-#    resource_arn - 
-#    secret_arn - 
-#
+#  Args:
+#	resource_arn - 
+#	secret_arn - 
 #
 #>
 ######################################################################

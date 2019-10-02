@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ecr_authorization_token_get()
-#
-#
+#	p6_aws_ecr_authorization_token_get()
 #
 #>
 ######################################################################

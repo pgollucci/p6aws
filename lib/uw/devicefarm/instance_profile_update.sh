@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_devicefarm_cleanup(arn)
+#	p6_aws_devicefarm_cleanup(arn)
 #
-# Arg(s):
-#    arn - 
-#
+#  Args:
+#	arn - 
 #
 #>
 ######################################################################
@@ -21,11 +20,10 @@ p6_aws_devicefarm_cleanup() {
 #<
 #
 # Function:
-#      = p6_aws_devicefarm_after_use(arn)
+#	p6_aws_devicefarm_after_use(arn)
 #
-# Arg(s):
-#    arn - 
-#
+#  Args:
+#	arn - 
 #
 #>
 ######################################################################

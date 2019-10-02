@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_association_batch_create(entries)
+#	p6_aws_ssm_association_batch_create(entries)
 #
-# Arg(s):
-#    entries - 
-#
+#  Args:
+#	entries - 
 #
 #>
 ######################################################################

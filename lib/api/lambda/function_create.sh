@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_lambda_function_create(function_name, runtime, role, handler)
+#	p6_aws_lambda_function_create(function_name, runtime, role, handler)
 #
-# Arg(s):
-#    function_name - 
-#    runtime - 
-#    role - 
-#    handler - 
-#
+#  Args:
+#	function_name - 
+#	runtime - 
+#	role - 
+#	handler - 
 #
 #>
 ######################################################################

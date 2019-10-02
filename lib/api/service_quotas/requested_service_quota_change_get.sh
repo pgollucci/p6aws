@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_service_quotas_requested_service_quota_change_get(request_id)
+#	p6_aws_service_quotas_requested_service_quota_change_get(request_id)
 #
-# Arg(s):
-#    request_id - 
-#
+#  Args:
+#	request_id - 
 #
 #>
 ######################################################################

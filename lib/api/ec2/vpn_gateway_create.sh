@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpn_gateway_create(type)
+#	p6_aws_ec2_vpn_gateway_create(type)
 #
-# Arg(s):
-#    type - 
-#
+#  Args:
+#	type - 
 #
 #>
 ######################################################################

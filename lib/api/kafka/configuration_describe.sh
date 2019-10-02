@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kafka_configuration_describe(arn)
+#	p6_aws_kafka_configuration_describe(arn)
 #
-# Arg(s):
-#    arn - 
-#
+#  Args:
+#	arn - 
 #
 #>
 ######################################################################

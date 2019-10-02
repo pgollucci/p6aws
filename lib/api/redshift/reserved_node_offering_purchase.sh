@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_reserved_node_offering_purchase(reserved_node_offering_id)
+#	p6_aws_redshift_reserved_node_offering_purchase(reserved_node_offering_id)
 #
-# Arg(s):
-#    reserved_node_offering_id - 
-#
+#  Args:
+#	reserved_node_offering_id - 
 #
 #>
 ######################################################################

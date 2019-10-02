@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_cfg_active(profile, region, env, vpc_id, type)
+#	p6_aws_cfg_active(profile, region, env, vpc_id, type)
 #
-# Arg(s):
-#    profile - 
-#    region - 
-#    env - 
-#    vpc_id - 
-#    type - 
-#
+#  Args:
+#	profile - 
+#	region - 
+#	env - 
+#	vpc_id - 
+#	type - 
 #
 #>
 ######################################################################
@@ -35,11 +34,10 @@ p6_aws_cfg_active() {
 #<
 #
 # Function:
-#     $kinds = p6_aws_cfg_kinds()
+#	unkown kinds = p6_aws_cfg_kinds()
 #
-#
-# Return(s):
-#    $kinds - 
+#  Returns:
+#	unkown - kinds
 #
 #>
 ######################################################################
@@ -54,11 +52,10 @@ p6_aws_cfg_kinds() {
 #<
 #
 # Function:
-#     $env_vars = p6_aws_cfg_vars()
+#	unkown env_vars = p6_aws_cfg_vars()
 #
-#
-# Return(s):
-#    $env_vars - 
+#  Returns:
+#	unkown - env_vars
 #
 #>
 ######################################################################
@@ -80,9 +77,7 @@ p6_aws_cfg_vars() {
 #<
 #
 # Function:
-#      = p6_aws_cfg_show()
-#
-#
+#	p6_aws_cfg_show()
 #
 #>
 ######################################################################
@@ -95,9 +90,7 @@ p6_aws_cfg_show() {
 #<
 #
 # Function:
-#      = p6_aws_cfg_reset()
-#
-#
+#	p6_aws_cfg_reset()
 #
 #>
 ######################################################################
@@ -114,9 +107,7 @@ p6_aws_cfg_reset() {
 #<
 #
 # Function:
-#      = p6_aws_cfg_clear()
-#
-#
+#	p6_aws_cfg_clear()
 #
 #>
 ######################################################################
@@ -133,9 +124,7 @@ p6_aws_cfg_clear() {
 #<
 #
 # Function:
-#      = p6_aws_cfg_save()
-#
-#
+#	p6_aws_cfg_save()
 #
 #>
 ######################################################################
@@ -154,9 +143,7 @@ p6_aws_cfg_save() {
 #<
 #
 # Function:
-#      = p6_aws_cfg_restore_saved()
-#
-#
+#	p6_aws_cfg_restore_saved()
 #
 #>
 ######################################################################
@@ -175,9 +162,7 @@ p6_aws_cfg_restore_saved() {
 #<
 #
 # Function:
-#      = p6_aws_cfg_restore_source()
-#
-#
+#	p6_aws_cfg_restore_source()
 #
 #>
 ######################################################################
@@ -196,9 +181,7 @@ p6_aws_cfg_restore_source() {
 #<
 #
 # Function:
-#      = p6_aws_cfg__generate()
-#
-#
+#	p6_aws_cfg__generate()
 #
 #>
 ######################################################################

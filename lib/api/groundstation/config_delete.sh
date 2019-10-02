@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_groundstation_config_delete(config_id, config_type)
+#	p6_aws_groundstation_config_delete(config_id, config_type)
 #
-# Arg(s):
-#    config_id - 
-#    config_type - 
-#
+#  Args:
+#	config_id - 
+#	config_type - 
 #
 #>
 ######################################################################

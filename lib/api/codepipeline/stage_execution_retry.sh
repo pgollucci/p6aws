@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_codepipeline_stage_execution_retry(pipeline_name, stage_name, pipeline_execution_id, retry_mode)
+#	p6_aws_codepipeline_stage_execution_retry(pipeline_name, stage_name, pipeline_execution_id, retry_mode)
 #
-# Arg(s):
-#    pipeline_name - 
-#    stage_name - 
-#    pipeline_execution_id - 
-#    retry_mode - 
-#
+#  Args:
+#	pipeline_name - 
+#	stage_name - 
+#	pipeline_execution_id - 
+#	retry_mode - 
 #
 #>
 ######################################################################

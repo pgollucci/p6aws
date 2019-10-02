@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_personalize_event_tracker_describe(event_tracker_arn)
+#	p6_aws_personalize_event_tracker_describe(event_tracker_arn)
 #
-# Arg(s):
-#    event_tracker_arn - 
-#
+#  Args:
+#	event_tracker_arn - 
 #
 #>
 ######################################################################

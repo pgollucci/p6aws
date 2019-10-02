@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_auth_event_feedback_update(user_pool_id, username, event_id, feedback_token, feedback_value)
+#	p6_aws_cognito_idp_auth_event_feedback_update(user_pool_id, username, event_id, feedback_token, feedback_value)
 #
-# Arg(s):
-#    user_pool_id - 
-#    username - 
-#    event_id - 
-#    feedback_token - 
-#    feedback_value - 
-#
+#  Args:
+#	user_pool_id - 
+#	username - 
+#	event_id - 
+#	feedback_token - 
+#	feedback_value - 
 #
 #>
 ######################################################################

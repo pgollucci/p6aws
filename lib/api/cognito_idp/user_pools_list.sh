@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_user_pools_list()
-#
-#
+#	p6_aws_cognito_idp_user_pools_list()
 #
 #>
 ######################################################################

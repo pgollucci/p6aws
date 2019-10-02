@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_support_attachments_to_set_add(attachments)
+#	p6_aws_support_attachments_to_set_add(attachments)
 #
-# Arg(s):
-#    attachments - 
-#
+#  Args:
+#	attachments - 
 #
 #>
 ######################################################################

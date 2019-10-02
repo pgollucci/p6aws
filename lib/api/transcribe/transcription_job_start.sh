@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_transcribe_transcription_job_start(transcription_job_name, language_code, media_format, media)
+#	p6_aws_transcribe_transcription_job_start(transcription_job_name, language_code, media_format, media)
 #
-# Arg(s):
-#    transcription_job_name - 
-#    language_code - 
-#    media_format - 
-#    media - 
-#
+#  Args:
+#	transcription_job_name - 
+#	language_code - 
+#	media_format - 
+#	media - 
 #
 #>
 ######################################################################

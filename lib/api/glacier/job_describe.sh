@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_glacier_job_describe(account_id, vault_name, job_id)
+#	p6_aws_glacier_job_describe(account_id, vault_name, job_id)
 #
-# Arg(s):
-#    account_id - 
-#    vault_name - 
-#    job_id - 
-#
+#  Args:
+#	account_id - 
+#	vault_name - 
+#	job_id - 
 #
 #>
 ######################################################################

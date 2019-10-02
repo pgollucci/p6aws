@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codepipeline_pipeline_execution_start(name)
+#	p6_aws_codepipeline_pipeline_execution_start(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

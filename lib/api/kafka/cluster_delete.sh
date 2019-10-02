@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kafka_cluster_delete(cluster_arn)
+#	p6_aws_kafka_cluster_delete(cluster_arn)
 #
-# Arg(s):
-#    cluster_arn - 
-#
+#  Args:
+#	cluster_arn - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_backup_backup_jobs_list()
-#
-#
+#	p6_aws_backup_backup_jobs_list()
 #
 #>
 ######################################################################

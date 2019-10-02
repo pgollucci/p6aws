@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_email_dedicated_ip_pool_delete(pool_name)
+#	p6_aws_pinpoint_email_dedicated_ip_pool_delete(pool_name)
 #
-# Arg(s):
-#    pool_name - 
-#
+#  Args:
+#	pool_name - 
 #
 #>
 ######################################################################

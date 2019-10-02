@@ -2,16 +2,15 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_traffic_mirror_filter_rule_create(traffic_mirror_filter_id, traffic_direction, rule_number, rule_action, destination_cidr_block, source_cidr_block)
+#	p6_aws_ec2_traffic_mirror_filter_rule_create(traffic_mirror_filter_id, traffic_direction, rule_number, rule_action, destination_cidr_block, source_cidr_block)
 #
-# Arg(s):
-#    traffic_mirror_filter_id - 
-#    traffic_direction - 
-#    rule_number - 
-#    rule_action - 
-#    destination_cidr_block - 
-#    source_cidr_block - 
-#
+#  Args:
+#	traffic_mirror_filter_id - 
+#	traffic_direction - 
+#	rule_number - 
+#	rule_action - 
+#	destination_cidr_block - 
+#	source_cidr_block - 
 #
 #>
 ######################################################################

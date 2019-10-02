@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_lambda_function_concurrency_put(function_name, reserved_concurrent_executions)
+#	p6_aws_lambda_function_concurrency_put(function_name, reserved_concurrent_executions)
 #
-# Arg(s):
-#    function_name - 
-#    reserved_concurrent_executions - 
-#
+#  Args:
+#	function_name - 
+#	reserved_concurrent_executions - 
 #
 #>
 ######################################################################

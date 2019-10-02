@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_backup_supported_resource_types_get()
-#
-#
+#	p6_aws_backup_supported_resource_types_get()
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_connect_user_describe(user_id, instance_id)
+#	p6_aws_connect_user_describe(user_id, instance_id)
 #
-# Arg(s):
-#    user_id - 
-#    instance_id - 
-#
+#  Args:
+#	user_id - 
+#	instance_id - 
 #
 #>
 ######################################################################

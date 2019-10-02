@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_connect_current_metric_data_get(instance_id, filters, current_metrics)
+#	p6_aws_connect_current_metric_data_get(instance_id, filters, current_metrics)
 #
-# Arg(s):
-#    instance_id - 
-#    filters - 
-#    current_metrics - 
-#
+#  Args:
+#	instance_id - 
+#	filters - 
+#	current_metrics - 
 #
 #>
 ######################################################################

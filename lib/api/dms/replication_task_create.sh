@@ -2,16 +2,15 @@
 #<
 #
 # Function:
-#      = p6_aws_dms_replication_task_create(replication_task_identifier, source_endpoint_arn, target_endpoint_arn, replication_instance_arn, migration_type, table_mappings)
+#	p6_aws_dms_replication_task_create(replication_task_identifier, source_endpoint_arn, target_endpoint_arn, replication_instance_arn, migration_type, table_mappings)
 #
-# Arg(s):
-#    replication_task_identifier - 
-#    source_endpoint_arn - 
-#    target_endpoint_arn - 
-#    replication_instance_arn - 
-#    migration_type - 
-#    table_mappings - 
-#
+#  Args:
+#	replication_task_identifier - 
+#	source_endpoint_arn - 
+#	target_endpoint_arn - 
+#	replication_instance_arn - 
+#	migration_type - 
+#	table_mappings - 
 #
 #>
 ######################################################################

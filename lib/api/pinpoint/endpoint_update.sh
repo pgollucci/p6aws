@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_endpoint_update(application_id, endpoint_id, endpoint_request)
+#	p6_aws_pinpoint_endpoint_update(application_id, endpoint_id, endpoint_request)
 #
-# Arg(s):
-#    application_id - 
-#    endpoint_id - 
-#    endpoint_request - 
-#
+#  Args:
+#	application_id - 
+#	endpoint_id - 
+#	endpoint_request - 
 #
 #>
 ######################################################################

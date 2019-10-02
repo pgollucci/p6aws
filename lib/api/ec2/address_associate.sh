@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_address_associate()
-#
-#
+#	p6_aws_ec2_address_associate()
 #
 #>
 ######################################################################

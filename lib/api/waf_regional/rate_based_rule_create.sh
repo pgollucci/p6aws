@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_regional_rate_based_rule_create(name, metric_name, rate_key, rate_limit, change_token)
+#	p6_aws_waf_regional_rate_based_rule_create(name, metric_name, rate_key, rate_limit, change_token)
 #
-# Arg(s):
-#    name - 
-#    metric_name - 
-#    rate_key - 
-#    rate_limit - 
-#    change_token - 
-#
+#  Args:
+#	name - 
+#	metric_name - 
+#	rate_key - 
+#	rate_limit - 
+#	change_token - 
 #
 #>
 ######################################################################

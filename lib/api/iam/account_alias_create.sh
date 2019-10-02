@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_account_alias_create(account_alias)
+#	p6_aws_iam_account_alias_create(account_alias)
 #
-# Arg(s):
-#    account_alias - 
-#
+#  Args:
+#	account_alias - 
 #
 #>
 ######################################################################

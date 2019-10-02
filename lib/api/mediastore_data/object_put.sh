@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_mediastore_data_object_put(body, path)
+#	p6_aws_mediastore_data_object_put(body, path)
 #
-# Arg(s):
-#    body - 
-#    path - 
-#
+#  Args:
+#	body - 
+#	path - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_organizations_policies_list(filter)
+#	p6_aws_organizations_policies_list(filter)
 #
-# Arg(s):
-#    filter - 
-#
+#  Args:
+#	filter - 
 #
 #>
 ######################################################################

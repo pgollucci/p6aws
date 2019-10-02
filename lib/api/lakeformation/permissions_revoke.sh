@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_lakeformation_permissions_revoke(principal, resource, permissions)
+#	p6_aws_lakeformation_permissions_revoke(principal, resource, permissions)
 #
-# Arg(s):
-#    principal - 
-#    resource - 
-#    permissions - 
-#
+#  Args:
+#	principal - 
+#	resource - 
+#	permissions - 
 #
 #>
 ######################################################################

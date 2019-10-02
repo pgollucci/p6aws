@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codebuild_build_stop(id)
+#	p6_aws_codebuild_build_stop(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

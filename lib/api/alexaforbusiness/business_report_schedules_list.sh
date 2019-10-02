@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_business_report_schedules_list()
-#
-#
+#	p6_aws_alexaforbusiness_business_report_schedules_list()
 #
 #>
 ######################################################################

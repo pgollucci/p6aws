@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_byoip_cidr_advertise(cidr)
+#	p6_aws_ec2_byoip_cidr_advertise(cidr)
 #
-# Arg(s):
-#    cidr - 
-#
+#  Args:
+#	cidr - 
 #
 #>
 ######################################################################

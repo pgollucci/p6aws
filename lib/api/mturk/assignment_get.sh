@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mturk_assignment_get(assignment_id)
+#	p6_aws_mturk_assignment_get(assignment_id)
 #
-# Arg(s):
-#    assignment_id - 
-#
+#  Args:
+#	assignment_id - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesis_shards_list()
-#
-#
+#	p6_aws_kinesis_shards_list()
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_organizations_account_move(account_id, source_parent_id, destination_parent_id)
+#	p6_aws_organizations_account_move(account_id, source_parent_id, destination_parent_id)
 #
-# Arg(s):
-#    account_id - 
-#    source_parent_id - 
-#    destination_parent_id - 
-#
+#  Args:
+#	account_id - 
+#	source_parent_id - 
+#	destination_parent_id - 
 #
 #>
 ######################################################################

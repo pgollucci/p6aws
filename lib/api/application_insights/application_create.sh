@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_application_insights_application_create(resource_group_name)
+#	p6_aws_application_insights_application_create(resource_group_name)
 #
-# Arg(s):
-#    resource_group_name - 
-#
+#  Args:
+#	resource_group_name - 
 #
 #>
 ######################################################################

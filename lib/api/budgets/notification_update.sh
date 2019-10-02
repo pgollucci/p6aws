@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_budgets_notification_update(account_id, budget_name, old_notification, new_notification)
+#	p6_aws_budgets_notification_update(account_id, budget_name, old_notification, new_notification)
 #
-# Arg(s):
-#    account_id - 
-#    budget_name - 
-#    old_notification - 
-#    new_notification - 
-#
+#  Args:
+#	account_id - 
+#	budget_name - 
+#	old_notification - 
+#	new_notification - 
 #
 #>
 ######################################################################

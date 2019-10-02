@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_inventory_entries_list(instance_id, type_name)
+#	p6_aws_ssm_inventory_entries_list(instance_id, type_name)
 #
-# Arg(s):
-#    instance_id - 
-#    type_name - 
-#
+#  Args:
+#	instance_id - 
+#	type_name - 
 #
 #>
 ######################################################################

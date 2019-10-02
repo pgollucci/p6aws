@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_devicefarm_artifacts_list(arn, type)
+#	p6_aws_devicefarm_artifacts_list(arn, type)
 #
-# Arg(s):
-#    arn - 
-#    type - 
-#
+#  Args:
+#	arn - 
+#	type - 
 #
 #>
 ######################################################################

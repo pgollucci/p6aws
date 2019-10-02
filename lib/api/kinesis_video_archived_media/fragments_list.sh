@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesis_video_archived_media_fragments_list(stream_name)
+#	p6_aws_kinesis_video_archived_media_fragments_list(stream_name)
 #
-# Arg(s):
-#    stream_name - 
-#
+#  Args:
+#	stream_name - 
 #
 #>
 ######################################################################

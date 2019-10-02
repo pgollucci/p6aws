@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_mediastore_lifecycle_policy_put(container_name, lifecycle_policy)
+#	p6_aws_mediastore_lifecycle_policy_put(container_name, lifecycle_policy)
 #
-# Arg(s):
-#    container_name - 
-#    lifecycle_policy - 
-#
+#  Args:
+#	container_name - 
+#	lifecycle_policy - 
 #
 #>
 ######################################################################

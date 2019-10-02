@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ecr_get_image_batch(repository_name, image_ids)
+#	p6_aws_ecr_get_image_batch(repository_name, image_ids)
 #
-# Arg(s):
-#    repository_name - 
-#    image_ids - 
-#
+#  Args:
+#	repository_name - 
+#	image_ids - 
 #
 #>
 ######################################################################

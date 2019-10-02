@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_cm_events_describe(server_name)
+#	p6_aws_opsworks_cm_events_describe(server_name)
 #
-# Arg(s):
-#    server_name - 
-#
+#  Args:
+#	server_name - 
 #
 #>
 ######################################################################

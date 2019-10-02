@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_snapshot_attribute_reset(attribute, snapshot_id)
+#	p6_aws_ec2_snapshot_attribute_reset(attribute, snapshot_id)
 #
-# Arg(s):
-#    attribute - 
-#    snapshot_id - 
-#
+#  Args:
+#	attribute - 
+#	snapshot_id - 
 #
 #>
 ######################################################################

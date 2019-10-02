@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudwatch_dashboard_put(dashboard_name, dashboard_body)
+#	p6_aws_cloudwatch_dashboard_put(dashboard_name, dashboard_body)
 #
-# Arg(s):
-#    dashboard_name - 
-#    dashboard_body - 
-#
+#  Args:
+#	dashboard_name - 
+#	dashboard_body - 
 #
 #>
 ######################################################################

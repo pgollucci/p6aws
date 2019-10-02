@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_dynamodb_item_get(table_name, key)
+#	p6_aws_dynamodb_item_get(table_name, key)
 #
-# Arg(s):
-#    table_name - 
-#    key - 
-#
+#  Args:
+#	table_name - 
+#	key - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_autoscaling_notification_configuration_delete(auto_scaling_group_name, topic_arn)
+#	p6_aws_autoscaling_notification_configuration_delete(auto_scaling_group_name, topic_arn)
 #
-# Arg(s):
-#    auto_scaling_group_name - 
-#    topic_arn - 
-#
+#  Args:
+#	auto_scaling_group_name - 
+#	topic_arn - 
 #
 #>
 ######################################################################

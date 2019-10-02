@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudformation_change_set_describe(change_set_name)
+#	p6_aws_cloudformation_change_set_describe(change_set_name)
 #
-# Arg(s):
-#    change_set_name - 
-#
+#  Args:
+#	change_set_name - 
 #
 #>
 ######################################################################

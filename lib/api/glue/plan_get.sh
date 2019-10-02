@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_plan_get(mapping, source)
+#	p6_aws_glue_plan_get(mapping, source)
 #
-# Arg(s):
-#    mapping - 
-#    source - 
-#
+#  Args:
+#	mapping - 
+#	source - 
 #
 #>
 ######################################################################

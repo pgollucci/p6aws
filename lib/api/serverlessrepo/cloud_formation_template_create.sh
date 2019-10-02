@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_serverlessrepo_cloud_formation_template_create(application_id)
+#	p6_aws_serverlessrepo_cloud_formation_template_create(application_id)
 #
-# Arg(s):
-#    application_id - 
-#
+#  Args:
+#	application_id - 
 #
 #>
 ######################################################################

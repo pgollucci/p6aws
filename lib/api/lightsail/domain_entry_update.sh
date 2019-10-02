@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_domain_entry_update(domain_name, domain_entry)
+#	p6_aws_lightsail_domain_entry_update(domain_name, domain_entry)
 #
-# Arg(s):
-#    domain_name - 
-#    domain_entry - 
-#
+#  Args:
+#	domain_name - 
+#	domain_entry - 
 #
 #>
 ######################################################################

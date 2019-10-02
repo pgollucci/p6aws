@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_activation_delete(activation_id)
+#	p6_aws_ssm_activation_delete(activation_id)
 #
-# Arg(s):
-#    activation_id - 
-#
+#  Args:
+#	activation_id - 
 #
 #>
 ######################################################################

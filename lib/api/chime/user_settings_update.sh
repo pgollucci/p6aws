@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_chime_user_settings_update(account_id, user_id, user_settings)
+#	p6_aws_chime_user_settings_update(account_id, user_id, user_settings)
 #
-# Arg(s):
-#    account_id - 
-#    user_id - 
-#    user_settings - 
-#
+#  Args:
+#	account_id - 
+#	user_id - 
+#	user_settings - 
 #
 #>
 ######################################################################

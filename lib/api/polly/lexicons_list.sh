@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_polly_lexicons_list()
-#
-#
+#	p6_aws_polly_lexicons_list()
 #
 #>
 ######################################################################

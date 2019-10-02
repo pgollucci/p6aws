@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_user_create(user_id)
+#	p6_aws_alexaforbusiness_user_create(user_id)
 #
-# Arg(s):
-#    user_id - 
-#
+#  Args:
+#	user_id - 
 #
 #>
 ######################################################################

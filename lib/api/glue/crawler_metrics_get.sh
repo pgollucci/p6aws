@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_crawler_metrics_get()
-#
-#
+#	p6_aws_glue_crawler_metrics_get()
 #
 #>
 ######################################################################

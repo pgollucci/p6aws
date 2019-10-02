@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_shield_protection_delete(protection_id)
+#	p6_aws_shield_protection_delete(protection_id)
 #
-# Arg(s):
-#    protection_id - 
-#
+#  Args:
+#	protection_id - 
 #
 #>
 ######################################################################

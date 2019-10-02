@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_swf_pending_activity_tasks_count(domain, task_list)
+#	p6_aws_swf_pending_activity_tasks_count(domain, task_list)
 #
-# Arg(s):
-#    domain - 
-#    task_list - 
-#
+#  Args:
+#	domain - 
+#	task_list - 
 #
 #>
 ######################################################################

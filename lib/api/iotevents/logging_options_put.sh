@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iotevents_logging_options_put(logging_options)
+#	p6_aws_iotevents_logging_options_put(logging_options)
 #
-# Arg(s):
-#    logging_options - 
-#
+#  Args:
+#	logging_options - 
 #
 #>
 ######################################################################

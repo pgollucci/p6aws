@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_cloud_formation_stack_create(instances)
+#	p6_aws_lightsail_cloud_formation_stack_create(instances)
 #
-# Arg(s):
-#    instances - 
-#
+#  Args:
+#	instances - 
 #
 #>
 ######################################################################

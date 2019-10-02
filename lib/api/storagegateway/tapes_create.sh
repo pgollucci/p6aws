@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_tapes_create(gateway_arn, tape_size_in_bytes, client_token, num_tapes_to_create, tape_barcode_prefix)
+#	p6_aws_storagegateway_tapes_create(gateway_arn, tape_size_in_bytes, client_token, num_tapes_to_create, tape_barcode_prefix)
 #
-# Arg(s):
-#    gateway_arn - 
-#    tape_size_in_bytes - 
-#    client_token - 
-#    num_tapes_to_create - 
-#    tape_barcode_prefix - 
-#
+#  Args:
+#	gateway_arn - 
+#	tape_size_in_bytes - 
+#	client_token - 
+#	num_tapes_to_create - 
+#	tape_barcode_prefix - 
 #
 #>
 ######################################################################

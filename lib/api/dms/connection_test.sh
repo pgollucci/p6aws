@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_dms_connection_test(replication_instance_arn, endpoint_arn)
+#	p6_aws_dms_connection_test(replication_instance_arn, endpoint_arn)
 #
-# Arg(s):
-#    replication_instance_arn - 
-#    endpoint_arn - 
-#
+#  Args:
+#	replication_instance_arn - 
+#	endpoint_arn - 
 #
 #>
 ######################################################################

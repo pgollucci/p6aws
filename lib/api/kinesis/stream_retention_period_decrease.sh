@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesis_stream_retention_period_decrease(stream_name, retention_period_hours)
+#	p6_aws_kinesis_stream_retention_period_decrease(stream_name, retention_period_hours)
 #
-# Arg(s):
-#    stream_name - 
-#    retention_period_hours - 
-#
+#  Args:
+#	stream_name - 
+#	retention_period_hours - 
 #
 #>
 ######################################################################

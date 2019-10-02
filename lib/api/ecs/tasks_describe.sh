@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_tasks_describe(tasks)
+#	p6_aws_ecs_tasks_describe(tasks)
 #
-# Arg(s):
-#    tasks - 
-#
+#  Args:
+#	tasks - 
 #
 #>
 ######################################################################

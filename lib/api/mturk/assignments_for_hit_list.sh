@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mturk_assignments_for_hit_list(hit_id)
+#	p6_aws_mturk_assignments_for_hit_list(hit_id)
 #
-# Arg(s):
-#    hit_id - 
-#
+#  Args:
+#	hit_id - 
 #
 #>
 ######################################################################

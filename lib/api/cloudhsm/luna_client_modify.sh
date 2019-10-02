@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudhsm_luna_client_modify(client_arn, certificate)
+#	p6_aws_cloudhsm_luna_client_modify(client_arn, certificate)
 #
-# Arg(s):
-#    client_arn - 
-#    certificate - 
-#
+#  Args:
+#	client_arn - 
+#	certificate - 
 #
 #>
 ######################################################################

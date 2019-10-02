@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_classic_link_vpc_detach(instance_id, vpc_id)
+#	p6_aws_ec2_classic_link_vpc_detach(instance_id, vpc_id)
 #
-# Arg(s):
-#    instance_id - 
-#    vpc_id - 
-#
+#  Args:
+#	instance_id - 
+#	vpc_id - 
 #
 #>
 ######################################################################

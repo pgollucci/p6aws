@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_open_id_connect_provider_thumbprint_update(open_id_connect_provider_arn, thumbprint_list)
+#	p6_aws_iam_open_id_connect_provider_thumbprint_update(open_id_connect_provider_arn, thumbprint_list)
 #
-# Arg(s):
-#    open_id_connect_provider_arn - 
-#    thumbprint_list - 
-#
+#  Args:
+#	open_id_connect_provider_arn - 
+#	thumbprint_list - 
 #
 #>
 ######################################################################

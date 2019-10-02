@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudfront_field_level_encryption_config_create(field_level_encryption_config)
+#	p6_aws_cloudfront_field_level_encryption_config_create(field_level_encryption_config)
 #
-# Arg(s):
-#    field_level_encryption_config - 
-#
+#  Args:
+#	field_level_encryption_config - 
 #
 #>
 ######################################################################

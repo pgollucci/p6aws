@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_ebs_default_kms_key_id_get()
-#
-#
+#	p6_aws_ec2_ebs_default_kms_key_id_get()
 #
 #>
 ######################################################################

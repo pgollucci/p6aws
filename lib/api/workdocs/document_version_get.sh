@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_workdocs_document_version_get(document_id, version_id)
+#	p6_aws_workdocs_document_version_get(document_id, version_id)
 #
-# Arg(s):
-#    document_id - 
-#    version_id - 
-#
+#  Args:
+#	document_id - 
+#	version_id - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesis_video_media_media_get(start_selector)
+#	p6_aws_kinesis_video_media_media_get(start_selector)
 #
-# Arg(s):
-#    start_selector - 
-#
+#  Args:
+#	start_selector - 
 #
 #>
 ######################################################################

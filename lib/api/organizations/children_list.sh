@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_organizations_children_list(parent_id, child_type)
+#	p6_aws_organizations_children_list(parent_id, child_type)
 #
-# Arg(s):
-#    parent_id - 
-#    child_type - 
-#
+#  Args:
+#	parent_id - 
+#	child_type - 
 #
 #>
 ######################################################################

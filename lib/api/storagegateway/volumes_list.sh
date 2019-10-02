@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_volumes_list()
-#
-#
+#	p6_aws_storagegateway_volumes_list()
 #
 #>
 ######################################################################

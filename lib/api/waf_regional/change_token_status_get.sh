@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_regional_change_token_status_get(change_token)
+#	p6_aws_waf_regional_change_token_status_get(change_token)
 #
-# Arg(s):
-#    change_token - 
-#
+#  Args:
+#	change_token - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_svc_sg_delete(group_name)
+#	p6_aws_ec2_svc_sg_delete(group_name)
 #
-# Arg(s):
-#    group_name - 
-#
+#  Args:
+#	group_name - 
 #
 #>
 ######################################################################
@@ -22,15 +21,15 @@ p6_aws_ec2_svc_sg_delete() {
 #<
 #
 # Function:
-#     $sg_id = p6_aws_ec2_svc_sg_create(desc, tag_name, [vpc_id])
+#	unkown sg_id = p6_aws_ec2_svc_sg_create(desc, tag_name, [vpc_id=$AWS_VPC])
 #
-# Arg(s):
-#    desc - 
-#    tag_name - 
-#    vpc_id - 
+#  Args:
+#	desc - 
+#	tag_name - 
+#	OPTIONAL vpc_id -  [$AWS_VPC]
 #
-# Return(s):
-#    $sg_id - 
+#  Returns:
+#	unkown - sg_id
 #
 #>
 ######################################################################
@@ -51,11 +50,10 @@ p6_aws_ec2_svc_sg_create() {
 #<
 #
 # Function:
-#      = p6_aws_ec2_svc_sgs_list([vpc_id])
+#	p6_aws_ec2_svc_sgs_list([vpc_id=$AWS_VPC])
 #
-# Arg(s):
-#    vpc_id - 
-#
+#  Args:
+#	OPTIONAL vpc_id -  [$AWS_VPC]
 #
 #>
 ######################################################################
@@ -72,12 +70,11 @@ p6_aws_ec2_svc_sgs_list() {
 #<
 #
 # Function:
-#      = p6_aws_ec2_svc_sg_show(security_group_id_or_name, [vpc_id])
+#	p6_aws_ec2_svc_sg_show(security_group_id_or_name, [vpc_id=$AWS_VPC])
 #
-# Arg(s):
-#    security_group_id_or_name - 
-#    vpc_id - 
-#
+#  Args:
+#	security_group_id_or_name - 
+#	OPTIONAL vpc_id -  [$AWS_VPC]
 #
 #>
 ######################################################################
@@ -104,12 +101,11 @@ p6_aws_ec2_svc_sg_show() {
 #<
 #
 # Function:
-#      = p6_aws_ec2_svc_sg_id_from_tag_name(tag_name, [vpc_id])
+#	p6_aws_ec2_svc_sg_id_from_tag_name(tag_name, [vpc_id=$AWS_VPC])
 #
-# Arg(s):
-#    tag_name - 
-#    vpc_id - 
-#
+#  Args:
+#	tag_name - 
+#	OPTIONAL vpc_id -  [$AWS_VPC]
 #
 #>
 ######################################################################
@@ -129,12 +125,11 @@ p6_aws_ec2_svc_sg_id_from_tag_name() {
 #<
 #
 # Function:
-#      = p6_old_aws_ec2_svc_sg_id_from_group_name(group_name, [vpc_id])
+#	p6_old_aws_ec2_svc_sg_id_from_group_name(group_name, [vpc_id=$AWS_VPC])
 #
-# Arg(s):
-#    group_name - 
-#    vpc_id - 
-#
+#  Args:
+#	group_name - 
+#	OPTIONAL vpc_id -  [$AWS_VPC]
 #
 #>
 ######################################################################

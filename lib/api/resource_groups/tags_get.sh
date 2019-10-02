@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_resource_groups_tags_get(arn)
+#	p6_aws_resource_groups_tags_get(arn)
 #
-# Arg(s):
-#    arn - 
-#
+#  Args:
+#	arn - 
 #
 #>
 ######################################################################

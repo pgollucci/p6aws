@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_support_communication_to_case_add(communication_body)
+#	p6_aws_support_communication_to_case_add(communication_body)
 #
-# Arg(s):
-#    communication_body - 
-#
+#  Args:
+#	communication_body - 
 #
 #>
 ######################################################################

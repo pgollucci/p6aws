@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudhsm_luna_client_delete(client_arn)
+#	p6_aws_cloudhsm_luna_client_delete(client_arn)
 #
-# Arg(s):
-#    client_arn - 
-#
+#  Args:
+#	client_arn - 
 #
 #>
 ######################################################################

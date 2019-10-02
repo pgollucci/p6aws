@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_product_from_portfolio_disassociate(product_id, portfolio_id)
+#	p6_aws_servicecatalog_product_from_portfolio_disassociate(product_id, portfolio_id)
 #
-# Arg(s):
-#    product_id - 
-#    portfolio_id - 
-#
+#  Args:
+#	product_id - 
+#	portfolio_id - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_data_execute_statement_batch(resource_arn, secret_arn, sql)
+#	p6_aws_rds_data_execute_statement_batch(resource_arn, secret_arn, sql)
 #
-# Arg(s):
-#    resource_arn - 
-#    secret_arn - 
-#    sql - 
-#
+#  Args:
+#	resource_arn - 
+#	secret_arn - 
+#	sql - 
 #
 #>
 ######################################################################

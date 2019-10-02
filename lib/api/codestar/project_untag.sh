@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_codestar_project_untag(id, tags)
+#	p6_aws_codestar_project_untag(id, tags)
 #
-# Arg(s):
-#    id - 
-#    tags - 
-#
+#  Args:
+#	id - 
+#	tags - 
 #
 #>
 ######################################################################

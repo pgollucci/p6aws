@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_lex_models_bot_alias_delete(name, bot_name)
+#	p6_aws_lex_models_bot_alias_delete(name, bot_name)
 #
-# Arg(s):
-#    name - 
-#    bot_name - 
-#
+#  Args:
+#	name - 
+#	bot_name - 
 #
 #>
 ######################################################################

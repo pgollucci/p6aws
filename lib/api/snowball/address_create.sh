@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_snowball_address_create(address)
+#	p6_aws_snowball_address_create(address)
 #
-# Arg(s):
-#    address - 
-#
+#  Args:
+#	address - 
 #
 #>
 ######################################################################

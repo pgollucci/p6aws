@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_cluster_snapshot_create(snapshot_identifier, cluster_identifier)
+#	p6_aws_redshift_cluster_snapshot_create(snapshot_identifier, cluster_identifier)
 #
-# Arg(s):
-#    snapshot_identifier - 
-#    cluster_identifier - 
-#
+#  Args:
+#	snapshot_identifier - 
+#	cluster_identifier - 
 #
 #>
 ######################################################################

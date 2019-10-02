@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mturk_hit_review_status_update(hit_id)
+#	p6_aws_mturk_hit_review_status_update(hit_id)
 #
-# Arg(s):
-#    hit_id - 
-#
+#  Args:
+#	hit_id - 
 #
 #>
 ######################################################################

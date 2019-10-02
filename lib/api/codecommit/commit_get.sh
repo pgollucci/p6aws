@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_codecommit_commit_get(repository_name, commit_id)
+#	p6_aws_codecommit_commit_get(repository_name, commit_id)
 #
-# Arg(s):
-#    repository_name - 
-#    commit_id - 
-#
+#  Args:
+#	repository_name - 
+#	commit_id - 
 #
 #>
 ######################################################################

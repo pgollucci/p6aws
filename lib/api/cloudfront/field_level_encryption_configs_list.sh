@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudfront_field_level_encryption_configs_list()
-#
-#
+#	p6_aws_cloudfront_field_level_encryption_configs_list()
 #
 #>
 ######################################################################

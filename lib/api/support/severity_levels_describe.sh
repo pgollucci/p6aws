@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_support_severity_levels_describe()
-#
-#
+#	p6_aws_support_severity_levels_describe()
 #
 #>
 ######################################################################

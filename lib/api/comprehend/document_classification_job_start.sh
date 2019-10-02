@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_comprehend_document_classification_job_start(document_classifier_arn, input_data_config, output_data_config, data_access_role_arn)
+#	p6_aws_comprehend_document_classification_job_start(document_classifier_arn, input_data_config, output_data_config, data_access_role_arn)
 #
-# Arg(s):
-#    document_classifier_arn - 
-#    input_data_config - 
-#    output_data_config - 
-#    data_access_role_arn - 
-#
+#  Args:
+#	document_classifier_arn - 
+#	input_data_config - 
+#	output_data_config - 
+#	data_access_role_arn - 
 #
 #>
 ######################################################################

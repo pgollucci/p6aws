@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_user_pool_client_create(user_pool_id, client_name)
+#	p6_aws_cognito_idp_user_pool_client_create(user_pool_id, client_name)
 #
-# Arg(s):
-#    user_pool_id - 
-#    client_name - 
-#
+#  Args:
+#	user_pool_id - 
+#	client_name - 
 #
 #>
 ######################################################################

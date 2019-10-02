@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_identity_mail_from_domain_attributes_get(identities)
+#	p6_aws_ses_identity_mail_from_domain_attributes_get(identities)
 #
-# Arg(s):
-#    identities - 
-#
+#  Args:
+#	identities - 
 #
 #>
 ######################################################################

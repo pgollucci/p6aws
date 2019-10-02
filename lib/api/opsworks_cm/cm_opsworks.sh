@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_cm_cm_opsworks()
-#
-#
+#	p6_aws_opsworks_cm_cm_opsworks()
 #
 #>
 ######################################################################

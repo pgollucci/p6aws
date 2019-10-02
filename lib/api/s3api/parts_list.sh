@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_parts_list(bucket, key, upload_id)
+#	p6_aws_s3api_parts_list(bucket, key, upload_id)
 #
-# Arg(s):
-#    bucket - 
-#    key - 
-#    upload_id - 
-#
+#  Args:
+#	bucket - 
+#	key - 
+#	upload_id - 
 #
 #>
 ######################################################################

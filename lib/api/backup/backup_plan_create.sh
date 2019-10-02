@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_backup_backup_plan_create(backup_plan)
+#	p6_aws_backup_backup_plan_create(backup_plan)
 #
-# Arg(s):
-#    backup_plan - 
-#
+#  Args:
+#	backup_plan - 
 #
 #>
 ######################################################################

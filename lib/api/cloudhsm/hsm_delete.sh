@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudhsm_hsm_delete(hsm_arn)
+#	p6_aws_cloudhsm_hsm_delete(hsm_arn)
 #
-# Arg(s):
-#    hsm_arn - 
-#
+#  Args:
+#	hsm_arn - 
 #
 #>
 ######################################################################

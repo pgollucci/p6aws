@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_workdocs_custom_metadata_delete(resource_id)
+#	p6_aws_workdocs_custom_metadata_delete(resource_id)
 #
-# Arg(s):
-#    resource_id - 
-#
+#  Args:
+#	resource_id - 
 #
 #>
 ######################################################################

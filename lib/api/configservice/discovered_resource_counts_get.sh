@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_discovered_resource_counts_get()
-#
-#
+#	p6_aws_configservice_discovered_resource_counts_get()
 #
 #>
 ######################################################################

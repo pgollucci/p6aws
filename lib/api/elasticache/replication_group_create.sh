@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticache_replication_group_create(replication_group_id, replication_group_description)
+#	p6_aws_elasticache_replication_group_create(replication_group_id, replication_group_description)
 #
-# Arg(s):
-#    replication_group_id - 
-#    replication_group_description - 
-#
+#  Args:
+#	replication_group_id - 
+#	replication_group_description - 
 #
 #>
 ######################################################################

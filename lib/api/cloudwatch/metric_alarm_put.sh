@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudwatch_metric_alarm_put(alarm_name, evaluation_periods, comparison_operator)
+#	p6_aws_cloudwatch_metric_alarm_put(alarm_name, evaluation_periods, comparison_operator)
 #
-# Arg(s):
-#    alarm_name - 
-#    evaluation_periods - 
-#    comparison_operator - 
-#
+#  Args:
+#	alarm_name - 
+#	evaluation_periods - 
+#	comparison_operator - 
 #
 #>
 ######################################################################

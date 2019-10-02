@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_service_last_accessed_details_generate(arn)
+#	p6_aws_iam_service_last_accessed_details_generate(arn)
 #
-# Arg(s):
-#    arn - 
-#
+#  Args:
+#	arn - 
 #
 #>
 ######################################################################

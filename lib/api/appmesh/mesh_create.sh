@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_appmesh_mesh_create(mesh_name)
+#	p6_aws_appmesh_mesh_create(mesh_name)
 #
-# Arg(s):
-#    mesh_name - 
-#
+#  Args:
+#	mesh_name - 
 #
 #>
 ######################################################################

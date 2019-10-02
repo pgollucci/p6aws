@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iotthingsgraph_system_template_create(definition)
+#	p6_aws_iotthingsgraph_system_template_create(definition)
 #
-# Arg(s):
-#    definition - 
-#
+#  Args:
+#	definition - 
 #
 #>
 ######################################################################

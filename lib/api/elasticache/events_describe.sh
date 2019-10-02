@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticache_events_describe()
-#
-#
+#	p6_aws_elasticache_events_describe()
 #
 #>
 ######################################################################

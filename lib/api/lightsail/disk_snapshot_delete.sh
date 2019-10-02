@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_disk_snapshot_delete(disk_snapshot_name)
+#	p6_aws_lightsail_disk_snapshot_delete(disk_snapshot_name)
 #
-# Arg(s):
-#    disk_snapshot_name - 
-#
+#  Args:
+#	disk_snapshot_name - 
 #
 #>
 ######################################################################

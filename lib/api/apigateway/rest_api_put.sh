@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_rest_api_put(rest_api_id, body)
+#	p6_aws_apigateway_rest_api_put(rest_api_id, body)
 #
-# Arg(s):
-#    rest_api_id - 
-#    body - 
-#
+#  Args:
+#	rest_api_id - 
+#	body - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_time_based_auto_scaling_set(instance_id)
+#	p6_aws_opsworks_time_based_auto_scaling_set(instance_id)
 #
-# Arg(s):
-#    instance_id - 
-#
+#  Args:
+#	instance_id - 
 #
 #>
 ######################################################################

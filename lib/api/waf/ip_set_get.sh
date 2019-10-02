@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_ip_set_get(ip_set_id)
+#	p6_aws_waf_ip_set_get(ip_set_id)
 #
-# Arg(s):
-#    ip_set_id - 
-#
+#  Args:
+#	ip_set_id - 
 #
 #>
 ######################################################################

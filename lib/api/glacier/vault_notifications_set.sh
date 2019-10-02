@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_glacier_vault_notifications_set(account_id, vault_name)
+#	p6_aws_glacier_vault_notifications_set(account_id, vault_name)
 #
-# Arg(s):
-#    account_id - 
-#    vault_name - 
-#
+#  Args:
+#	account_id - 
+#	vault_name - 
 #
 #>
 ######################################################################

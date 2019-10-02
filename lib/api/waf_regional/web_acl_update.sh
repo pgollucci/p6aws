@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_regional_web_acl_update(web_acl_id, change_token)
+#	p6_aws_waf_regional_web_acl_update(web_acl_id, change_token)
 #
-# Arg(s):
-#    web_acl_id - 
-#    change_token - 
-#
+#  Args:
+#	web_acl_id - 
+#	change_token - 
 #
 #>
 ######################################################################

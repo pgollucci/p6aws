@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_code_repository_create(code_repository_name, git_config)
+#	p6_aws_sagemaker_code_repository_create(code_repository_name, git_config)
 #
-# Arg(s):
-#    code_repository_name - 
-#    git_config - 
-#
+#  Args:
+#	code_repository_name - 
+#	git_config - 
 #
 #>
 ######################################################################

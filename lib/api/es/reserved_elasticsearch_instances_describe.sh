@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_es_reserved_elasticsearch_instances_describe()
-#
-#
+#	p6_aws_es_reserved_elasticsearch_instances_describe()
 #
 #>
 ######################################################################

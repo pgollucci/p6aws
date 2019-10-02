@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_instance_export_task_create(instance_id)
+#	p6_aws_ec2_instance_export_task_create(instance_id)
 #
-# Arg(s):
-#    instance_id - 
-#
+#  Args:
+#	instance_id - 
 #
 #>
 ######################################################################

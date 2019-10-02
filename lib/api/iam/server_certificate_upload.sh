@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_server_certificate_upload(server_certificate_name, certificate_body, private_key)
+#	p6_aws_iam_server_certificate_upload(server_certificate_name, certificate_body, private_key)
 #
-# Arg(s):
-#    server_certificate_name - 
-#    certificate_body - 
-#    private_key - 
-#
+#  Args:
+#	server_certificate_name - 
+#	certificate_body - 
+#	private_key - 
 #
 #>
 ######################################################################

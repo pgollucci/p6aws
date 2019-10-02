@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_snapshot_copy_grant_delete(snapshot_copy_grant_name)
+#	p6_aws_redshift_snapshot_copy_grant_delete(snapshot_copy_grant_name)
 #
-# Arg(s):
-#    snapshot_copy_grant_name - 
-#
+#  Args:
+#	snapshot_copy_grant_name - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_logging_enable(cluster_identifier, bucket_name)
+#	p6_aws_redshift_logging_enable(cluster_identifier, bucket_name)
 #
-# Arg(s):
-#    cluster_identifier - 
-#    bucket_name - 
-#
+#  Args:
+#	cluster_identifier - 
+#	bucket_name - 
 #
 #>
 ######################################################################

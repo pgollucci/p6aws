@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_id_format_modify(resource, use_long_ids)
+#	p6_aws_ec2_id_format_modify(resource, use_long_ids)
 #
-# Arg(s):
-#    resource - 
-#    use_long_ids - 
-#
+#  Args:
+#	resource - 
+#	use_long_ids - 
 #
 #>
 ######################################################################

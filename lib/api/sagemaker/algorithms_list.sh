@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_algorithms_list()
-#
-#
+#	p6_aws_sagemaker_algorithms_list()
 #
 #>
 ######################################################################

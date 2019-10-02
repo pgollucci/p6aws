@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_clouddirectory_typed_link_facet_update(schema_arn, name, attribute_updates, identity_attribute_order)
+#	p6_aws_clouddirectory_typed_link_facet_update(schema_arn, name, attribute_updates, identity_attribute_order)
 #
-# Arg(s):
-#    schema_arn - 
-#    name - 
-#    attribute_updates - 
-#    identity_attribute_order - 
-#
+#  Args:
+#	schema_arn - 
+#	name - 
+#	attribute_updates - 
+#	identity_attribute_order - 
 #
 #>
 ######################################################################

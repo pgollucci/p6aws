@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_db_snapshot_create(db_snapshot_identifier, db_instance_identifier)
+#	p6_aws_rds_db_snapshot_create(db_snapshot_identifier, db_instance_identifier)
 #
-# Arg(s):
-#    db_snapshot_identifier - 
-#    db_instance_identifier - 
-#
+#  Args:
+#	db_snapshot_identifier - 
+#	db_instance_identifier - 
 #
 #>
 ######################################################################

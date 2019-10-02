@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_stored_iscsi_volume_create(gateway_arn, disk_id, preserve_existing_data, target_name, network_interface_id)
+#	p6_aws_storagegateway_stored_iscsi_volume_create(gateway_arn, disk_id, preserve_existing_data, target_name, network_interface_id)
 #
-# Arg(s):
-#    gateway_arn - 
-#    disk_id - 
-#    preserve_existing_data - 
-#    target_name - 
-#    network_interface_id - 
-#
+#  Args:
+#	gateway_arn - 
+#	disk_id - 
+#	preserve_existing_data - 
+#	target_name - 
+#	network_interface_id - 
 #
 #>
 ######################################################################

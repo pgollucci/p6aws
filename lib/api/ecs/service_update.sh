@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_service_update(service)
+#	p6_aws_ecs_service_update(service)
 #
-# Arg(s):
-#    service - 
-#
+#  Args:
+#	service - 
 #
 #>
 ######################################################################

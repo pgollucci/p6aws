@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_amplify_webhook_update(webhook_id)
+#	p6_aws_amplify_webhook_update(webhook_id)
 #
-# Arg(s):
-#    webhook_id - 
-#
+#  Args:
+#	webhook_id - 
 #
 #>
 ######################################################################

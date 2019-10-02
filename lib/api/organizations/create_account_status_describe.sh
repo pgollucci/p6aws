@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_organizations_create_account_status_describe(create_account_request_id)
+#	p6_aws_organizations_create_account_status_describe(create_account_request_id)
 #
-# Arg(s):
-#    create_account_request_id - 
-#
+#  Args:
+#	create_account_request_id - 
 #
 #>
 ######################################################################

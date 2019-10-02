@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudhsmv2_hsm_create(cluster_id, availability_zone)
+#	p6_aws_cloudhsmv2_hsm_create(cluster_id, availability_zone)
 #
-# Arg(s):
-#    cluster_id - 
-#    availability_zone - 
-#
+#  Args:
+#	cluster_id - 
+#	availability_zone - 
 #
 #>
 ######################################################################

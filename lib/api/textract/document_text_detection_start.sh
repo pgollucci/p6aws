@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_textract_document_text_detection_start(document_location)
+#	p6_aws_textract_document_text_detection_start(document_location)
 #
-# Arg(s):
-#    document_location - 
-#
+#  Args:
+#	document_location - 
 #
 #>
 ######################################################################

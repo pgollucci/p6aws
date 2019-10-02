@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_dms_replication_subnet_group_delete(replication_subnet_group_identifier)
+#	p6_aws_dms_replication_subnet_group_delete(replication_subnet_group_identifier)
 #
-# Arg(s):
-#    replication_subnet_group_identifier - 
-#
+#  Args:
+#	replication_subnet_group_identifier - 
 #
 #>
 ######################################################################

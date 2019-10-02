@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticache_service_updates_describe()
-#
-#
+#	p6_aws_elasticache_service_updates_describe()
 #
 #>
 ######################################################################

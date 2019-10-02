@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_securityhub_invitation_accept()
-#
-#
+#	p6_aws_securityhub_invitation_accept()
 #
 #>
 ######################################################################

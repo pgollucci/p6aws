@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_placement_groups_describe()
-#
-#
+#	p6_aws_ec2_placement_groups_describe()
 #
 #>
 ######################################################################

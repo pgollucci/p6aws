@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_cm_server_engine_attribute_export(export_attribute_name, server_name)
+#	p6_aws_opsworks_cm_server_engine_attribute_export(export_attribute_name, server_name)
 #
-# Arg(s):
-#    export_attribute_name - 
-#    server_name - 
-#
+#  Args:
+#	export_attribute_name - 
+#	server_name - 
 #
 #>
 ######################################################################

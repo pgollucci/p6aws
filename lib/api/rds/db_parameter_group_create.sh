@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_db_parameter_group_create(db_parameter_group_name, db_parameter_group_family, description)
+#	p6_aws_rds_db_parameter_group_create(db_parameter_group_name, db_parameter_group_family, description)
 #
-# Arg(s):
-#    db_parameter_group_name - 
-#    db_parameter_group_family - 
-#    description - 
-#
+#  Args:
+#	db_parameter_group_name - 
+#	db_parameter_group_family - 
+#	description - 
 #
 #>
 ######################################################################

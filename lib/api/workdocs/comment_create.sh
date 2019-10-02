@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_workdocs_comment_create(document_id, version_id, text)
+#	p6_aws_workdocs_comment_create(document_id, version_id, text)
 #
-# Arg(s):
-#    document_id - 
-#    version_id - 
-#    text - 
-#
+#  Args:
+#	document_id - 
+#	version_id - 
+#	text - 
 #
 #>
 ######################################################################

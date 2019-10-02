@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_apigatewayv2_model_create(api_id, name, schema)
+#	p6_aws_apigatewayv2_model_create(api_id, name, schema)
 #
-# Arg(s):
-#    api_id - 
-#    name - 
-#    schema - 
-#
+#  Args:
+#	api_id - 
+#	name - 
+#	schema - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_sdk_type_get(id)
+#	p6_aws_apigateway_sdk_type_get(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_identity_verification_attributes_get(identities)
+#	p6_aws_ses_identity_verification_attributes_get(identities)
 #
-# Arg(s):
-#    identities - 
-#
+#  Args:
+#	identities - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_mq_configuration_revision_describe(configuration_id, configuration_revision)
+#	p6_aws_mq_configuration_revision_describe(configuration_id, configuration_revision)
 #
-# Arg(s):
-#    configuration_id - 
-#    configuration_revision - 
-#
+#  Args:
+#	configuration_id - 
+#	configuration_revision - 
 #
 #>
 ######################################################################

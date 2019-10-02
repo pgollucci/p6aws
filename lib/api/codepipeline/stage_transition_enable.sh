@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_codepipeline_stage_transition_enable(pipeline_name, stage_name, transition_type)
+#	p6_aws_codepipeline_stage_transition_enable(pipeline_name, stage_name, transition_type)
 #
-# Arg(s):
-#    pipeline_name - 
-#    stage_name - 
-#    transition_type - 
-#
+#  Args:
+#	pipeline_name - 
+#	stage_name - 
+#	transition_type - 
 #
 #>
 ######################################################################

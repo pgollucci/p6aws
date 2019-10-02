@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_datapipeline_task_status_set(task_id, task_status)
+#	p6_aws_datapipeline_task_status_set(task_id, task_status)
 #
-# Arg(s):
-#    task_id - 
-#    task_status - 
-#
+#  Args:
+#	task_id - 
+#	task_status - 
 #
 #>
 ######################################################################

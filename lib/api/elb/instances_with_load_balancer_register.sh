@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elb_instances_with_load_balancer_register(load_balancer_name, instances)
+#	p6_aws_elb_instances_with_load_balancer_register(load_balancer_name, instances)
 #
-# Arg(s):
-#    load_balancer_name - 
-#    instances - 
-#
+#  Args:
+#	load_balancer_name - 
+#	instances - 
 #
 #>
 ######################################################################

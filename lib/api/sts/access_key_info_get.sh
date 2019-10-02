@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sts_access_key_info_get(access_key_id)
+#	p6_aws_sts_access_key_info_get(access_key_id)
 #
-# Arg(s):
-#    access_key_id - 
-#
+#  Args:
+#	access_key_id - 
 #
 #>
 ######################################################################

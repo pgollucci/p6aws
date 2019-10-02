@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_gcm_channel_get(application_id)
+#	p6_aws_pinpoint_gcm_channel_get(application_id)
 #
-# Arg(s):
-#    application_id - 
-#
+#  Args:
+#	application_id - 
 #
 #>
 ######################################################################

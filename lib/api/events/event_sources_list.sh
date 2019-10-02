@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_events_event_sources_list()
-#
-#
+#	p6_aws_events_event_sources_list()
 #
 #>
 ######################################################################

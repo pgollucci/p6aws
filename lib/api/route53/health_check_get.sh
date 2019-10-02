@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_health_check_get(health_check_id)
+#	p6_aws_route53_health_check_get(health_check_id)
 #
-# Arg(s):
-#    health_check_id - 
-#
+#  Args:
+#	health_check_id - 
 #
 #>
 ######################################################################

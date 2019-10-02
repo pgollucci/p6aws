@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_instance_create(stack_id, layer_ids, instance_type)
+#	p6_aws_opsworks_instance_create(stack_id, layer_ids, instance_type)
 #
-# Arg(s):
-#    stack_id - 
-#    layer_ids - 
-#    instance_type - 
-#
+#  Args:
+#	stack_id - 
+#	layer_ids - 
+#	instance_type - 
 #
 #>
 ######################################################################

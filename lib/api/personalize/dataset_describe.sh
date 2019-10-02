@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_personalize_dataset_describe(dataset_arn)
+#	p6_aws_personalize_dataset_describe(dataset_arn)
 #
-# Arg(s):
-#    dataset_arn - 
-#
+#  Args:
+#	dataset_arn - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_inspector_rules_packages_list()
-#
-#
+#	p6_aws_inspector_rules_packages_list()
 #
 #>
 ######################################################################

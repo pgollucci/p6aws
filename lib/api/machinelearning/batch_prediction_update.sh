@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_machinelearning_batch_prediction_update(batch_prediction_id, batch_prediction_name)
+#	p6_aws_machinelearning_batch_prediction_update(batch_prediction_id, batch_prediction_name)
 #
-# Arg(s):
-#    batch_prediction_id - 
-#    batch_prediction_name - 
-#
+#  Args:
+#	batch_prediction_id - 
+#	batch_prediction_name - 
 #
 #>
 ######################################################################

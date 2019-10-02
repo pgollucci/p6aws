@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_codecommit_differences_get(repository_name, after_commit_specifier)
+#	p6_aws_codecommit_differences_get(repository_name, after_commit_specifier)
 #
-# Arg(s):
-#    repository_name - 
-#    after_commit_specifier - 
-#
+#  Args:
+#	repository_name - 
+#	after_commit_specifier - 
 #
 #>
 ######################################################################

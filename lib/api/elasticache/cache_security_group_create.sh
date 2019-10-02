@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticache_cache_security_group_create(cache_security_group_name, description)
+#	p6_aws_elasticache_cache_security_group_create(cache_security_group_name, description)
 #
-# Arg(s):
-#    cache_security_group_name - 
-#    description - 
-#
+#  Args:
+#	cache_security_group_name - 
+#	description - 
 #
 #>
 ######################################################################

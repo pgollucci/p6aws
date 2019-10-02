@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_gateway_get(gateway_arn)
+#	p6_aws_alexaforbusiness_gateway_get(gateway_arn)
 #
-# Arg(s):
-#    gateway_arn - 
-#
+#  Args:
+#	gateway_arn - 
 #
 #>
 ######################################################################

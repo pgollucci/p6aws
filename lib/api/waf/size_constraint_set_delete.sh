@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_size_constraint_set_delete(size_constraint_set_id, change_token)
+#	p6_aws_waf_size_constraint_set_delete(size_constraint_set_id, change_token)
 #
-# Arg(s):
-#    size_constraint_set_id - 
-#    change_token - 
-#
+#  Args:
+#	size_constraint_set_id - 
+#	change_token - 
 #
 #>
 ######################################################################

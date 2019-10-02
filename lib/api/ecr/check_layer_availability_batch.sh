@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ecr_check_layer_availability_batch(repository_name, layer_digests)
+#	p6_aws_ecr_check_layer_availability_batch(repository_name, layer_digests)
 #
-# Arg(s):
-#    repository_name - 
-#    layer_digests - 
-#
+#  Args:
+#	repository_name - 
+#	layer_digests - 
 #
 #>
 ######################################################################

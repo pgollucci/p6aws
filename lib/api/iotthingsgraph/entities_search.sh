@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iotthingsgraph_entities_search(entity_types)
+#	p6_aws_iotthingsgraph_entities_search(entity_types)
 #
-# Arg(s):
-#    entity_types - 
-#
+#  Args:
+#	entity_types - 
 #
 #>
 ######################################################################

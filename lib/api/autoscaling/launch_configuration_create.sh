@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_autoscaling_launch_configuration_create(launch_configuration_name)
+#	p6_aws_autoscaling_launch_configuration_create(launch_configuration_name)
 #
-# Arg(s):
-#    launch_configuration_name - 
-#
+#  Args:
+#	launch_configuration_name - 
 #
 #>
 ######################################################################

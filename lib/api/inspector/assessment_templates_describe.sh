@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_inspector_assessment_templates_describe(assessment_template_arns)
+#	p6_aws_inspector_assessment_templates_describe(assessment_template_arns)
 #
-# Arg(s):
-#    assessment_template_arns - 
-#
+#  Args:
+#	assessment_template_arns - 
 #
 #>
 ######################################################################

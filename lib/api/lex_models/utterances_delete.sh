@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_lex_models_utterances_delete(bot_name, user_id)
+#	p6_aws_lex_models_utterances_delete(bot_name, user_id)
 #
-# Arg(s):
-#    bot_name - 
-#    user_id - 
-#
+#  Args:
+#	bot_name - 
+#	user_id - 
 #
 #>
 ######################################################################

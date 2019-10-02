@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_query_logging_config_create(hosted_zone_id, cloud_watch_logs_log_group_arn)
+#	p6_aws_route53_query_logging_config_create(hosted_zone_id, cloud_watch_logs_log_group_arn)
 #
-# Arg(s):
-#    hosted_zone_id - 
-#    cloud_watch_logs_log_group_arn - 
-#
+#  Args:
+#	hosted_zone_id - 
+#	cloud_watch_logs_log_group_arn - 
 #
 #>
 ######################################################################

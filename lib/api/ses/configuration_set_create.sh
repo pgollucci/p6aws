@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_configuration_set_create(configuration_set)
+#	p6_aws_ses_configuration_set_create(configuration_set)
 #
-# Arg(s):
-#    configuration_set - 
-#
+#  Args:
+#	configuration_set - 
 #
 #>
 ######################################################################

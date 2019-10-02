@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_base_path_mapping_create(domain_name, rest_api_id)
+#	p6_aws_apigateway_base_path_mapping_create(domain_name, rest_api_id)
 #
-# Arg(s):
-#    domain_name - 
-#    rest_api_id - 
-#
+#  Args:
+#	domain_name - 
+#	rest_api_id - 
 #
 #>
 ######################################################################

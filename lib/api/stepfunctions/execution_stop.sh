@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_stepfunctions_execution_stop(execution_arn)
+#	p6_aws_stepfunctions_execution_stop(execution_arn)
 #
-# Arg(s):
-#    execution_arn - 
-#
+#  Args:
+#	execution_arn - 
 #
 #>
 ######################################################################

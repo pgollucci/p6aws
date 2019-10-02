@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mediaconvert_certificate_disassociate(arn)
+#	p6_aws_mediaconvert_certificate_disassociate(arn)
 #
-# Arg(s):
-#    arn - 
-#
+#  Args:
+#	arn - 
 #
 #>
 ######################################################################

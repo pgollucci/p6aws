@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_greengrass_device_definition_version_get(device_definition_id, device_definition_version_id)
+#	p6_aws_greengrass_device_definition_version_get(device_definition_id, device_definition_version_id)
 #
-# Arg(s):
-#    device_definition_id - 
-#    device_definition_version_id - 
-#
+#  Args:
+#	device_definition_id - 
+#	device_definition_version_id - 
 #
 #>
 ######################################################################

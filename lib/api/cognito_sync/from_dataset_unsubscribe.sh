@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_sync_from_dataset_unsubscribe(identity_pool_id, identity_id, dataset_name, device_id)
+#	p6_aws_cognito_sync_from_dataset_unsubscribe(identity_pool_id, identity_id, dataset_name, device_id)
 #
-# Arg(s):
-#    identity_pool_id - 
-#    identity_id - 
-#    dataset_name - 
-#    device_id - 
-#
+#  Args:
+#	identity_pool_id - 
+#	identity_id - 
+#	dataset_name - 
+#	device_id - 
 #
 #>
 ######################################################################

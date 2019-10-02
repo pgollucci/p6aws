@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_support_communications_describe(case_id)
+#	p6_aws_support_communications_describe(case_id)
 #
-# Arg(s):
-#    case_id - 
-#
+#  Args:
+#	case_id - 
 #
 #>
 ######################################################################

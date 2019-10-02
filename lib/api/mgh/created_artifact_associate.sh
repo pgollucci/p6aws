@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_mgh_created_artifact_associate(progress_update_stream, migration_task_name, created_artifact)
+#	p6_aws_mgh_created_artifact_associate(progress_update_stream, migration_task_name, created_artifact)
 #
-# Arg(s):
-#    progress_update_stream - 
-#    migration_task_name - 
-#    created_artifact - 
-#
+#  Args:
+#	progress_update_stream - 
+#	migration_task_name - 
+#	created_artifact - 
 #
 #>
 ######################################################################

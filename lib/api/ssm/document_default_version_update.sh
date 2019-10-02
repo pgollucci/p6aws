@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_document_default_version_update(name, document_version)
+#	p6_aws_ssm_document_default_version_update(name, document_version)
 #
-# Arg(s):
-#    name - 
-#    document_version - 
-#
+#  Args:
+#	name - 
+#	document_version - 
 #
 #>
 ######################################################################

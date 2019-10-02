@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_global_cluster_delete(global_cluster_identifier)
+#	p6_aws_rds_global_cluster_delete(global_cluster_identifier)
 #
-# Arg(s):
-#    global_cluster_identifier - 
-#
+#  Args:
+#	global_cluster_identifier - 
 #
 #>
 ######################################################################

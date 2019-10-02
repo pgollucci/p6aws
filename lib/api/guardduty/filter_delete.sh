@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_guardduty_filter_delete(detector_id, filter_name)
+#	p6_aws_guardduty_filter_delete(detector_id, filter_name)
 #
-# Arg(s):
-#    detector_id - 
-#    filter_name - 
-#
+#  Args:
+#	detector_id - 
+#	filter_name - 
 #
 #>
 ######################################################################

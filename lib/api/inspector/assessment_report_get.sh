@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_inspector_assessment_report_get(assessment_run_arn, report_file_format, report_type)
+#	p6_aws_inspector_assessment_report_get(assessment_run_arn, report_file_format, report_type)
 #
-# Arg(s):
-#    assessment_run_arn - 
-#    report_file_format - 
-#    report_type - 
-#
+#  Args:
+#	assessment_run_arn - 
+#	report_file_format - 
+#	report_type - 
 #
 #>
 ######################################################################

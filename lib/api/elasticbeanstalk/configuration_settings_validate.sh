@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticbeanstalk_configuration_settings_validate(application_name, option_settings)
+#	p6_aws_elasticbeanstalk_configuration_settings_validate(application_name, option_settings)
 #
-# Arg(s):
-#    application_name - 
-#    option_settings - 
-#
+#  Args:
+#	application_name - 
+#	option_settings - 
 #
 #>
 ######################################################################

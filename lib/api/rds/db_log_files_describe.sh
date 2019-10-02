@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_db_log_files_describe(db_instance_identifier)
+#	p6_aws_rds_db_log_files_describe(db_instance_identifier)
 #
-# Arg(s):
-#    db_instance_identifier - 
-#
+#  Args:
+#	db_instance_identifier - 
 #
 #>
 ######################################################################

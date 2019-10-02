@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudhsm_tags_to_resource_add(resource_arn, tag_list)
+#	p6_aws_cloudhsm_tags_to_resource_add(resource_arn, tag_list)
 #
-# Arg(s):
-#    resource_arn - 
-#    tag_list - 
-#
+#  Args:
+#	resource_arn - 
+#	tag_list - 
 #
 #>
 ######################################################################

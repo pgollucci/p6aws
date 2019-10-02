@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_provisioned_product_describe(id)
+#	p6_aws_servicecatalog_provisioned_product_describe(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

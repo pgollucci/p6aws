@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticbeanstalk_dns_availability_check(cname_prefix)
+#	p6_aws_elasticbeanstalk_dns_availability_check(cname_prefix)
 #
-# Arg(s):
-#    cname_prefix - 
-#
+#  Args:
+#	cname_prefix - 
 #
 #>
 ######################################################################

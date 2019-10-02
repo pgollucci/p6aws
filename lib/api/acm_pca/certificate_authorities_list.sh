@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_acm_pca_certificate_authorities_list()
-#
-#
+#	p6_aws_acm_pca_certificate_authorities_list()
 #
 #>
 ######################################################################

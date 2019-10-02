@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codecommit_repository_description_update(repository_name)
+#	p6_aws_codecommit_repository_description_update(repository_name)
 #
-# Arg(s):
-#    repository_name - 
-#
+#  Args:
+#	repository_name - 
 #
 #>
 ######################################################################

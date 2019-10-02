@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_batch_job_definitions_describe()
-#
-#
+#	p6_aws_batch_job_definitions_describe()
 #
 #>
 ######################################################################

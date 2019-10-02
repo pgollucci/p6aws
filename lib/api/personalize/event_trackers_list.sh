@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_personalize_event_trackers_list()
-#
-#
+#	p6_aws_personalize_event_trackers_list()
 #
 #>
 ######################################################################

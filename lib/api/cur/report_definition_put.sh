@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cur_report_definition_put(report_definition)
+#	p6_aws_cur_report_definition_put(report_definition)
 #
-# Arg(s):
-#    report_definition - 
-#
+#  Args:
+#	report_definition - 
 #
 #>
 ######################################################################

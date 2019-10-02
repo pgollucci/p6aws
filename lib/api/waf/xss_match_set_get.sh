@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_xss_match_set_get(xss_match_set_id)
+#	p6_aws_waf_xss_match_set_get(xss_match_set_id)
 #
-# Arg(s):
-#    xss_match_set_id - 
-#
+#  Args:
+#	xss_match_set_id - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_servicediscovery_public_dns_namespace_create(name)
+#	p6_aws_servicediscovery_public_dns_namespace_create(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

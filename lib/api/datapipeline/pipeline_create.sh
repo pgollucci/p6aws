@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_datapipeline_pipeline_create(name, unique_id)
+#	p6_aws_datapipeline_pipeline_create(name, unique_id)
 #
-# Arg(s):
-#    name - 
-#    unique_id - 
-#
+#  Args:
+#	name - 
+#	unique_id - 
 #
 #>
 ######################################################################

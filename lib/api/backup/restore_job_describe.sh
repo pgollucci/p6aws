@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_backup_restore_job_describe(restore_job_id)
+#	p6_aws_backup_restore_job_describe(restore_job_id)
 #
-# Arg(s):
-#    restore_job_id - 
-#
+#  Args:
+#	restore_job_id - 
 #
 #>
 ######################################################################

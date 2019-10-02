@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_kms_custom_key_store_create(custom_key_store_name, cloud_hsm_cluster_id, trust_anchor_certificate, key_store_password)
+#	p6_aws_kms_custom_key_store_create(custom_key_store_name, cloud_hsm_cluster_id, trust_anchor_certificate, key_store_password)
 #
-# Arg(s):
-#    custom_key_store_name - 
-#    cloud_hsm_cluster_id - 
-#    trust_anchor_certificate - 
-#    key_store_password - 
-#
+#  Args:
+#	custom_key_store_name - 
+#	cloud_hsm_cluster_id - 
+#	trust_anchor_certificate - 
+#	key_store_password - 
 #
 #>
 ######################################################################

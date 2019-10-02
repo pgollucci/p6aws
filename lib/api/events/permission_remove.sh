@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_events_permission_remove(statement_id)
+#	p6_aws_events_permission_remove(statement_id)
 #
-# Arg(s):
-#    statement_id - 
-#
+#  Args:
+#	statement_id - 
 #
 #>
 ######################################################################

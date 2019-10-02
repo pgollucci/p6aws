@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_email_dedicated_ip_warmup_attributes_put(ip, warmup_percentage)
+#	p6_aws_pinpoint_email_dedicated_ip_warmup_attributes_put(ip, warmup_percentage)
 #
-# Arg(s):
-#    ip - 
-#    warmup_percentage - 
-#
+#  Args:
+#	ip - 
+#	warmup_percentage - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticbeanstalk_configuration_template_update(application_name, template_name)
+#	p6_aws_elasticbeanstalk_configuration_template_update(application_name, template_name)
 #
-# Arg(s):
-#    application_name - 
-#    template_name - 
-#
+#  Args:
+#	application_name - 
+#	template_name - 
 #
 #>
 ######################################################################

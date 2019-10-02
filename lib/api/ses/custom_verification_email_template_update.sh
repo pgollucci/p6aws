@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_custom_verification_email_template_update(template_name)
+#	p6_aws_ses_custom_verification_email_template_update(template_name)
 #
-# Arg(s):
-#    template_name - 
-#
+#  Args:
+#	template_name - 
 #
 #>
 ######################################################################

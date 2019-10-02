@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudtrail_logging_start(name)
+#	p6_aws_cloudtrail_logging_start(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

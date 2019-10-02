@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_mitigation_action_create(action_name, role_arn, action_params)
+#	p6_aws_iot_mitigation_action_create(action_name, role_arn, action_params)
 #
-# Arg(s):
-#    action_name - 
-#    role_arn - 
-#    action_params - 
-#
+#  Args:
+#	action_name - 
+#	role_arn - 
+#	action_params - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_service_quotas_service_quota_increase_request_from_template_delete(service_code, quota_code, aws_region)
+#	p6_aws_service_quotas_service_quota_increase_request_from_template_delete(service_code, quota_code, aws_region)
 #
-# Arg(s):
-#    service_code - 
-#    quota_code - 
-#    aws_region - 
-#
+#  Args:
+#	service_code - 
+#	quota_code - 
+#	aws_region - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_signer_signing_profile_cancel(profile_name)
+#	p6_aws_signer_signing_profile_cancel(profile_name)
 #
-# Arg(s):
-#    profile_name - 
-#
+#  Args:
+#	profile_name - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_appsync_resolver_delete(api_id, type_name, field_name)
+#	p6_aws_appsync_resolver_delete(api_id, type_name, field_name)
 #
-# Arg(s):
-#    api_id - 
-#    type_name - 
-#    field_name - 
-#
+#  Args:
+#	api_id - 
+#	type_name - 
+#	field_name - 
 #
 #>
 ######################################################################

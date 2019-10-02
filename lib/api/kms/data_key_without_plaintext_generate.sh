@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kms_data_key_without_plaintext_generate(key_id)
+#	p6_aws_kms_data_key_without_plaintext_generate(key_id)
 #
-# Arg(s):
-#    key_id - 
-#
+#  Args:
+#	key_id - 
 #
 #>
 ######################################################################

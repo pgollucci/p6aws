@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_image_register(name)
+#	p6_aws_ec2_image_register(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

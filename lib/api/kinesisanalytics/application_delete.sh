@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesisanalytics_application_delete(application_name, create_timestamp)
+#	p6_aws_kinesisanalytics_application_delete(application_name, create_timestamp)
 #
-# Arg(s):
-#    application_name - 
-#    create_timestamp - 
-#
+#  Args:
+#	application_name - 
+#	create_timestamp - 
 #
 #>
 ######################################################################

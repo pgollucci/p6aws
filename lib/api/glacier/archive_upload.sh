@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_glacier_archive_upload(vault_name, account_id)
+#	p6_aws_glacier_archive_upload(vault_name, account_id)
 #
-# Arg(s):
-#    vault_name - 
-#    account_id - 
-#
+#  Args:
+#	vault_name - 
+#	account_id - 
 #
 #>
 ######################################################################

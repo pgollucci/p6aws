@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_bucket_encryption_put(bucket, server_side_encryption_configuration)
+#	p6_aws_s3api_bucket_encryption_put(bucket, server_side_encryption_configuration)
 #
-# Arg(s):
-#    bucket - 
-#    server_side_encryption_configuration - 
-#
+#  Args:
+#	bucket - 
+#	server_side_encryption_configuration - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_identity_provider_by_identifier_get(user_pool_id, idp_identifier)
+#	p6_aws_cognito_idp_identity_provider_by_identifier_get(user_pool_id, idp_identifier)
 #
-# Arg(s):
-#    user_pool_id - 
-#    idp_identifier - 
-#
+#  Args:
+#	user_pool_id - 
+#	idp_identifier - 
 #
 #>
 ######################################################################

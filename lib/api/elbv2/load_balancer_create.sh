@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_elbv2_load_balancer_create(name)
+#	p6_aws_elbv2_load_balancer_create(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

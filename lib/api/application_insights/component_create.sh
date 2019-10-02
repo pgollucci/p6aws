@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_application_insights_component_create(resource_group_name, component_name, resource_list)
+#	p6_aws_application_insights_component_create(resource_group_name, component_name, resource_list)
 #
-# Arg(s):
-#    resource_group_name - 
-#    component_name - 
-#    resource_list - 
-#
+#  Args:
+#	resource_group_name - 
+#	component_name - 
+#	resource_list - 
 #
 #>
 ######################################################################

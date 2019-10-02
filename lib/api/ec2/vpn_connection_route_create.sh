@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpn_connection_route_create(destination_cidr_block, vpn_connection_id)
+#	p6_aws_ec2_vpn_connection_route_create(destination_cidr_block, vpn_connection_id)
 #
-# Arg(s):
-#    destination_cidr_block - 
-#    vpn_connection_id - 
-#
+#  Args:
+#	destination_cidr_block - 
+#	vpn_connection_id - 
 #
 #>
 ######################################################################

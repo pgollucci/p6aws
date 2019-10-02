@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_logging_options_set(logging_options_payload)
+#	p6_aws_iot_logging_options_set(logging_options_payload)
 #
-# Arg(s):
-#    logging_options_payload - 
-#
+#  Args:
+#	logging_options_payload - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_codepipeline_pipeline_execution_get(pipeline_name, pipeline_execution_id)
+#	p6_aws_codepipeline_pipeline_execution_get(pipeline_name, pipeline_execution_id)
 #
-# Arg(s):
-#    pipeline_name - 
-#    pipeline_execution_id - 
-#
+#  Args:
+#	pipeline_name - 
+#	pipeline_execution_id - 
 #
 #>
 ######################################################################

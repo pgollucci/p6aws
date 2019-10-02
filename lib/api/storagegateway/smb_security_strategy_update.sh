@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_smb_security_strategy_update(gateway_arn, smb_security_strategy)
+#	p6_aws_storagegateway_smb_security_strategy_update(gateway_arn, smb_security_strategy)
 #
-# Arg(s):
-#    gateway_arn - 
-#    smb_security_strategy - 
-#
+#  Args:
+#	gateway_arn - 
+#	smb_security_strategy - 
 #
 #>
 ######################################################################

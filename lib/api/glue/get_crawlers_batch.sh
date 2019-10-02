@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_get_crawlers_batch(crawler_names)
+#	p6_aws_glue_get_crawlers_batch(crawler_names)
 #
-# Arg(s):
-#    crawler_names - 
-#
+#  Args:
+#	crawler_names - 
 #
 #>
 ######################################################################

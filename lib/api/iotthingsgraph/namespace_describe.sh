@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iotthingsgraph_namespace_describe()
-#
-#
+#	p6_aws_iotthingsgraph_namespace_describe()
 #
 #>
 ######################################################################

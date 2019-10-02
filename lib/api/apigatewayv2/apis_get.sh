@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_apigatewayv2_apis_get()
-#
-#
+#	p6_aws_apigatewayv2_apis_get()
 #
 #>
 ######################################################################

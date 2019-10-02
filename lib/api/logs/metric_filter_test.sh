@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_logs_metric_filter_test(filter_pattern, log_event_messages)
+#	p6_aws_logs_metric_filter_test(filter_pattern, log_event_messages)
 #
-# Arg(s):
-#    filter_pattern - 
-#    log_event_messages - 
-#
+#  Args:
+#	filter_pattern - 
+#	log_event_messages - 
 #
 #>
 ######################################################################

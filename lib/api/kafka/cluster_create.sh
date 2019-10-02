@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_kafka_cluster_create(broker_node_group_info, cluster_name, kafka_version, number_of_broker_nodes)
+#	p6_aws_kafka_cluster_create(broker_node_group_info, cluster_name, kafka_version, number_of_broker_nodes)
 #
-# Arg(s):
-#    broker_node_group_info - 
-#    cluster_name - 
-#    kafka_version - 
-#    number_of_broker_nodes - 
-#
+#  Args:
+#	broker_node_group_info - 
+#	cluster_name - 
+#	kafka_version - 
+#	number_of_broker_nodes - 
 #
 #>
 ######################################################################

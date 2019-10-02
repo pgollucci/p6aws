@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_managedblockchain_network_get(network_id)
+#	p6_aws_managedblockchain_network_get(network_id)
 #
-# Arg(s):
-#    network_id - 
-#
+#  Args:
+#	network_id - 
 #
 #>
 ######################################################################

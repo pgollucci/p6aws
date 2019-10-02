@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_medialive_input_security_group_delete(input_security_group_id)
+#	p6_aws_medialive_input_security_group_delete(input_security_group_id)
 #
-# Arg(s):
-#    input_security_group_id - 
-#
+#  Args:
+#	input_security_group_id - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codepipeline_webhook_delete(name)
+#	p6_aws_codepipeline_webhook_delete(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

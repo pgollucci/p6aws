@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_role_tag(role_name, tags)
+#	p6_aws_iam_role_tag(role_name, tags)
 #
-# Arg(s):
-#    role_name - 
-#    tags - 
-#
+#  Args:
+#	role_name - 
+#	tags - 
 #
 #>
 ######################################################################

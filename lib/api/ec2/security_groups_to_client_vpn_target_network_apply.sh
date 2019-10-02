@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_security_groups_to_client_vpn_target_network_apply(client_vpn_endpoint_id, vpc_id, security_group_ids)
+#	p6_aws_ec2_security_groups_to_client_vpn_target_network_apply(client_vpn_endpoint_id, vpc_id, security_group_ids)
 #
-# Arg(s):
-#    client_vpn_endpoint_id - 
-#    vpc_id - 
-#    security_group_ids - 
-#
+#  Args:
+#	client_vpn_endpoint_id - 
+#	vpc_id - 
+#	security_group_ids - 
 #
 #>
 ######################################################################

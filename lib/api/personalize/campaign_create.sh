@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_personalize_campaign_create(name, solution_version_arn, min_provisioned_tps)
+#	p6_aws_personalize_campaign_create(name, solution_version_arn, min_provisioned_tps)
 #
-# Arg(s):
-#    name - 
-#    solution_version_arn - 
-#    min_provisioned_tps - 
-#
+#  Args:
+#	name - 
+#	solution_version_arn - 
+#	min_provisioned_tps - 
 #
 #>
 ######################################################################

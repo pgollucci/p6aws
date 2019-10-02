@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_global_cluster_modify()
-#
-#
+#	p6_aws_rds_global_cluster_modify()
 #
 #>
 ######################################################################

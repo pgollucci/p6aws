@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_cloud_formation_stack_records_get()
-#
-#
+#	p6_aws_lightsail_cloud_formation_stack_records_get()
 #
 #>
 ######################################################################

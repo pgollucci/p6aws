@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_codestar_team_member_update(project_id, user_arn)
+#	p6_aws_codestar_team_member_update(project_id, user_arn)
 #
-# Arg(s):
-#    project_id - 
-#    user_arn - 
-#
+#  Args:
+#	project_id - 
+#	user_arn - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_resourcegroupstaggingapi_tag_keys_get()
-#
-#
+#	p6_aws_resourcegroupstaggingapi_tag_keys_get()
 #
 #>
 ######################################################################

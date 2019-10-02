@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_retention_configuration_delete(retention_configuration_name)
+#	p6_aws_configservice_retention_configuration_delete(retention_configuration_name)
 #
-# Arg(s):
-#    retention_configuration_name - 
-#
+#  Args:
+#	retention_configuration_name - 
 #
 #>
 ######################################################################

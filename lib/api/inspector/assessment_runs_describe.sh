@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_inspector_assessment_runs_describe(assessment_run_arns)
+#	p6_aws_inspector_assessment_runs_describe(assessment_run_arns)
 #
-# Arg(s):
-#    assessment_run_arns - 
-#
+#  Args:
+#	assessment_run_arns - 
 #
 #>
 ######################################################################

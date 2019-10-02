@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudtrail_public_keys_list()
-#
-#
+#	p6_aws_cloudtrail_public_keys_list()
 #
 #>
 ######################################################################

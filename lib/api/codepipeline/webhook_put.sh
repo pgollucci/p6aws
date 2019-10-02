@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codepipeline_webhook_put(webhook)
+#	p6_aws_codepipeline_webhook_put(webhook)
 #
-# Arg(s):
-#    webhook - 
-#
+#  Args:
+#	webhook - 
 #
 #>
 ######################################################################

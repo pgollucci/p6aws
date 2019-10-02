@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_resources_for_tag_option_list(tag_option_id)
+#	p6_aws_servicecatalog_resources_for_tag_option_list(tag_option_id)
 #
-# Arg(s):
-#    tag_option_id - 
-#
+#  Args:
+#	tag_option_id - 
 #
 #>
 ######################################################################

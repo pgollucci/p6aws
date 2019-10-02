@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_serverlessrepo_application_create(author, description, name)
+#	p6_aws_serverlessrepo_application_create(author, description, name)
 #
-# Arg(s):
-#    author - 
-#    description - 
-#    name - 
-#
+#  Args:
+#	author - 
+#	description - 
+#	name - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_maintenance_windows_describe()
-#
-#
+#	p6_aws_ssm_maintenance_windows_describe()
 #
 #>
 ######################################################################

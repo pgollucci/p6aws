@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_xray_service_graph_get(start_time, end_time)
+#	p6_aws_xray_service_graph_get(start_time, end_time)
 #
-# Arg(s):
-#    start_time - 
-#    end_time - 
-#
+#  Args:
+#	start_time - 
+#	end_time - 
 #
 #>
 ######################################################################

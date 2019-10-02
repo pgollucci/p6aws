@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iot1click_projects_placement_delete(placement_name, project_name)
+#	p6_aws_iot1click_projects_placement_delete(placement_name, project_name)
 #
-# Arg(s):
-#    placement_name - 
-#    project_name - 
-#
+#  Args:
+#	placement_name - 
+#	project_name - 
 #
 #>
 ######################################################################

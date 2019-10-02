@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_v2_logging_level_set(log_target, log_level)
+#	p6_aws_iot_v2_logging_level_set(log_target, log_level)
 #
-# Arg(s):
-#    log_target - 
-#    log_level - 
-#
+#  Args:
+#	log_target - 
+#	log_level - 
 #
 #>
 ######################################################################

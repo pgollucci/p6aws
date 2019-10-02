@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_chime_update_phone_number_batch(update_phone_number_request_items)
+#	p6_aws_chime_update_phone_number_batch(update_phone_number_request_items)
 #
-# Arg(s):
-#    update_phone_number_request_items - 
-#
+#  Args:
+#	update_phone_number_request_items - 
 #
 #>
 ######################################################################

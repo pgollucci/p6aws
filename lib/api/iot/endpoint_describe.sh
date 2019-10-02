@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_endpoint_describe()
-#
-#
+#	p6_aws_iot_endpoint_describe()
 #
 #>
 ######################################################################

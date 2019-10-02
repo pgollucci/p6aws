@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpc_endpoint_modify(vpc_endpoint_id)
+#	p6_aws_ec2_vpc_endpoint_modify(vpc_endpoint_id)
 #
-# Arg(s):
-#    vpc_endpoint_id - 
-#
+#  Args:
+#	vpc_endpoint_id - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_discovered_resources_list(resource_type)
+#	p6_aws_configservice_discovered_resources_list(resource_type)
 #
-# Arg(s):
-#    resource_type - 
-#
+#  Args:
+#	resource_type - 
 #
 #>
 ######################################################################

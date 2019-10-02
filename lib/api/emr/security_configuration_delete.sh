@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_emr_security_configuration_delete(name)
+#	p6_aws_emr_security_configuration_delete(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

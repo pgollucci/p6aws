@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_snowball_cluster_cancel(cluster_id)
+#	p6_aws_snowball_cluster_cancel(cluster_id)
 #
-# Arg(s):
-#    cluster_id - 
-#
+#  Args:
+#	cluster_id - 
 #
 #>
 ######################################################################

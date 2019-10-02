@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_elb_tags_describe(load_balancer_names)
+#	p6_aws_elb_tags_describe(load_balancer_names)
 #
-# Arg(s):
-#    load_balancer_names - 
-#
+#  Args:
+#	load_balancer_names - 
 #
 #>
 ######################################################################

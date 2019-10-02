@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_mturk_file_upload_url_get(assignment_id, question_identifier)
+#	p6_aws_mturk_file_upload_url_get(assignment_id, question_identifier)
 #
-# Arg(s):
-#    assignment_id - 
-#    question_identifier - 
-#
+#  Args:
+#	assignment_id - 
+#	question_identifier - 
 #
 #>
 ######################################################################

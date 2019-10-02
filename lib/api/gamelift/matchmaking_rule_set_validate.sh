@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_matchmaking_rule_set_validate(rule_set_body)
+#	p6_aws_gamelift_matchmaking_rule_set_validate(rule_set_body)
 #
-# Arg(s):
-#    rule_set_body - 
-#
+#  Args:
+#	rule_set_body - 
 #
 #>
 ######################################################################

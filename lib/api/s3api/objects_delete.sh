@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_objects_delete(bucket, delete)
+#	p6_aws_s3api_objects_delete(bucket, delete)
 #
-# Arg(s):
-#    bucket - 
-#    delete - 
-#
+#  Args:
+#	bucket - 
+#	delete - 
 #
 #>
 ######################################################################

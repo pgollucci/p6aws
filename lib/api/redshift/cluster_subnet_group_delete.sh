@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_cluster_subnet_group_delete(cluster_subnet_group_name)
+#	p6_aws_redshift_cluster_subnet_group_delete(cluster_subnet_group_name)
 #
-# Arg(s):
-#    cluster_subnet_group_name - 
-#
+#  Args:
+#	cluster_subnet_group_name - 
 #
 #>
 ######################################################################

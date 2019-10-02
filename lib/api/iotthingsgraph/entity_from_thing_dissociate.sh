@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iotthingsgraph_entity_from_thing_dissociate(thing_name, entity_type)
+#	p6_aws_iotthingsgraph_entity_from_thing_dissociate(thing_name, entity_type)
 #
-# Arg(s):
-#    thing_name - 
-#    entity_type - 
-#
+#  Args:
+#	thing_name - 
+#	entity_type - 
 #
 #>
 ######################################################################

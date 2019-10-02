@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_personalize_solution_versions_list()
-#
-#
+#	p6_aws_personalize_solution_versions_list()
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_default()
-#
-#
+#	p6_aws_alexaforbusiness_default()
 #
 #>
 ######################################################################
@@ -17,9 +15,7 @@ p6_aws_alexaforbusiness_default() {
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_mode_disabled()
-#
-#
+#	p6_aws_alexaforbusiness_mode_disabled()
 #
 #>
 ######################################################################
@@ -32,9 +28,7 @@ p6_aws_alexaforbusiness_mode_disabled() {
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_enabled()
-#
-#
+#	p6_aws_alexaforbusiness_enabled()
 #
 #>
 ######################################################################

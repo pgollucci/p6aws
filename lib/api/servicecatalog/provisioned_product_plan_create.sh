@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_provisioned_product_plan_create(plan_name, plan_type, product_id, provisioned_product_name, provisioning_artifact_id)
+#	p6_aws_servicecatalog_provisioned_product_plan_create(plan_name, plan_type, product_id, provisioned_product_name, provisioning_artifact_id)
 #
-# Arg(s):
-#    plan_name - 
-#    plan_type - 
-#    product_id - 
-#    provisioned_product_name - 
-#    provisioning_artifact_id - 
-#
+#  Args:
+#	plan_name - 
+#	plan_type - 
+#	product_id - 
+#	provisioned_product_name - 
+#	provisioning_artifact_id - 
 #
 #>
 ######################################################################

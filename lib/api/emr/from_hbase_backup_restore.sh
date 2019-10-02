@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_emr_from_hbase_backup_restore(cluster_id, dir)
+#	p6_aws_emr_from_hbase_backup_restore(cluster_id, dir)
 #
-# Arg(s):
-#    cluster_id - 
-#    dir - 
-#
+#  Args:
+#	cluster_id - 
+#	dir - 
 #
 #>
 ######################################################################

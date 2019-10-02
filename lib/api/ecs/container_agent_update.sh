@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_container_agent_update(container_instance)
+#	p6_aws_ecs_container_agent_update(container_instance)
 #
-# Arg(s):
-#    container_instance - 
-#
+#  Args:
+#	container_instance - 
 #
 #>
 ######################################################################

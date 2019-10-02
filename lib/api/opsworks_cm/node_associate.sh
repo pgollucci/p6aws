@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_cm_node_associate(server_name, node_name, engine_attributes)
+#	p6_aws_opsworks_cm_node_associate(server_name, node_name, engine_attributes)
 #
-# Arg(s):
-#    server_name - 
-#    node_name - 
-#    engine_attributes - 
-#
+#  Args:
+#	server_name - 
+#	node_name - 
+#	engine_attributes - 
 #
 #>
 ######################################################################

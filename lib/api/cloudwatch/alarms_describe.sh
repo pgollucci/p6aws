@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudwatch_alarms_describe()
-#
-#
+#	p6_aws_cloudwatch_alarms_describe()
 #
 #>
 ######################################################################

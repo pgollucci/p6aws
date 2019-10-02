@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_greengrass_logger_definition_get(logger_definition_id)
+#	p6_aws_greengrass_logger_definition_get(logger_definition_id)
 #
-# Arg(s):
-#    logger_definition_id - 
-#
+#  Args:
+#	logger_definition_id - 
 #
 #>
 ######################################################################

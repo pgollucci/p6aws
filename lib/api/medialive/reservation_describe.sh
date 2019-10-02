@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_medialive_reservation_describe(reservation_id)
+#	p6_aws_medialive_reservation_describe(reservation_id)
 #
-# Arg(s):
-#    reservation_id - 
-#
+#  Args:
+#	reservation_id - 
 #
 #>
 ######################################################################

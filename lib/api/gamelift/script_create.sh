@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_script_create()
-#
-#
+#	p6_aws_gamelift_script_create()
 #
 #>
 ######################################################################

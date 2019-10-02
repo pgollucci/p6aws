@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_rest_api_create(name)
+#	p6_aws_apigateway_rest_api_create(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

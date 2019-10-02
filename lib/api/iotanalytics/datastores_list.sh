@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iotanalytics_datastores_list()
-#
-#
+#	p6_aws_iotanalytics_datastores_list()
 #
 #>
 ######################################################################

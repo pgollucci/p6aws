@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_client_vpn_ingress_authorize(client_vpn_endpoint_id, target_network_cidr)
+#	p6_aws_ec2_client_vpn_ingress_authorize(client_vpn_endpoint_id, target_network_cidr)
 #
-# Arg(s):
-#    client_vpn_endpoint_id - 
-#    target_network_cidr - 
-#
+#  Args:
+#	client_vpn_endpoint_id - 
+#	target_network_cidr - 
 #
 #>
 ######################################################################

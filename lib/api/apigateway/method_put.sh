@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_method_put(rest_api_id, resource_id, http_method, authorization_type)
+#	p6_aws_apigateway_method_put(rest_api_id, resource_id, http_method, authorization_type)
 #
-# Arg(s):
-#    rest_api_id - 
-#    resource_id - 
-#    http_method - 
-#    authorization_type - 
-#
+#  Args:
+#	rest_api_id - 
+#	resource_id - 
+#	http_method - 
+#	authorization_type - 
 #
 #>
 ######################################################################

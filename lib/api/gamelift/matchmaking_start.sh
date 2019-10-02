@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_matchmaking_start(configuration_name, players)
+#	p6_aws_gamelift_matchmaking_start(configuration_name, players)
 #
-# Arg(s):
-#    configuration_name - 
-#    players - 
-#
+#  Args:
+#	configuration_name - 
+#	players - 
 #
 #>
 ######################################################################

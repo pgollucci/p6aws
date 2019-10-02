@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpc_endpoint_service_configurations_delete(service_ids)
+#	p6_aws_ec2_vpc_endpoint_service_configurations_delete(service_ids)
 #
-# Arg(s):
-#    service_ids - 
-#
+#  Args:
+#	service_ids - 
 #
 #>
 ######################################################################

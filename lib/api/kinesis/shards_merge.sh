@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesis_shards_merge(stream_name, shard_to_merge, adjacent_shard_to_merge)
+#	p6_aws_kinesis_shards_merge(stream_name, shard_to_merge, adjacent_shard_to_merge)
 #
-# Arg(s):
-#    stream_name - 
-#    shard_to_merge - 
-#    adjacent_shard_to_merge - 
-#
+#  Args:
+#	stream_name - 
+#	shard_to_merge - 
+#	adjacent_shard_to_merge - 
 #
 #>
 ######################################################################

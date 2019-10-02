@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_apigatewayv2_api_mapping_delete(api_mapping_id, domain_name)
+#	p6_aws_apigatewayv2_api_mapping_delete(api_mapping_id, domain_name)
 #
-# Arg(s):
-#    api_mapping_id - 
-#    domain_name - 
-#
+#  Args:
+#	api_mapping_id - 
+#	domain_name - 
 #
 #>
 ######################################################################

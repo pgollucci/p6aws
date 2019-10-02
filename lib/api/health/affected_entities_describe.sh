@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_health_affected_entities_describe(filter)
+#	p6_aws_health_affected_entities_describe(filter)
 #
-# Arg(s):
-#    filter - 
-#
+#  Args:
+#	filter - 
 #
 #>
 ######################################################################

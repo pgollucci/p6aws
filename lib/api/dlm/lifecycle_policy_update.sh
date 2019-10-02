@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_dlm_lifecycle_policy_update(policy_id)
+#	p6_aws_dlm_lifecycle_policy_update(policy_id)
 #
-# Arg(s):
-#    policy_id - 
-#
+#  Args:
+#	policy_id - 
 #
 #>
 ######################################################################

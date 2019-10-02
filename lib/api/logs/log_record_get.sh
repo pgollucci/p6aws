@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_logs_log_record_get(log_record_pointer)
+#	p6_aws_logs_log_record_get(log_record_pointer)
 #
-# Arg(s):
-#    log_record_pointer - 
-#
+#  Args:
+#	log_record_pointer - 
 #
 #>
 ######################################################################

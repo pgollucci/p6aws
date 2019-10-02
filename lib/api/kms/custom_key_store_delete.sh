@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kms_custom_key_store_delete(custom_key_store_id)
+#	p6_aws_kms_custom_key_store_delete(custom_key_store_id)
 #
-# Arg(s):
-#    custom_key_store_id - 
-#
+#  Args:
+#	custom_key_store_id - 
 #
 #>
 ######################################################################

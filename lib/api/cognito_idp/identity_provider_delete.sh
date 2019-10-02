@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_identity_provider_delete(user_pool_id, provider_name)
+#	p6_aws_cognito_idp_identity_provider_delete(user_pool_id, provider_name)
 #
-# Arg(s):
-#    user_pool_id - 
-#    provider_name - 
-#
+#  Args:
+#	user_pool_id - 
+#	provider_name - 
 #
 #>
 ######################################################################

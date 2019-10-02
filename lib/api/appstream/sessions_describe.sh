@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_appstream_sessions_describe(stack_name, fleet_name)
+#	p6_aws_appstream_sessions_describe(stack_name, fleet_name)
 #
-# Arg(s):
-#    stack_name - 
-#    fleet_name - 
-#
+#  Args:
+#	stack_name - 
+#	fleet_name - 
 #
 #>
 ######################################################################

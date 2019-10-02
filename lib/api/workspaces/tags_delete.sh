@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_workspaces_tags_delete(resource_id, tag_keys)
+#	p6_aws_workspaces_tags_delete(resource_id, tag_keys)
 #
-# Arg(s):
-#    resource_id - 
-#    tag_keys - 
-#
+#  Args:
+#	resource_id - 
+#	tag_keys - 
 #
 #>
 ######################################################################

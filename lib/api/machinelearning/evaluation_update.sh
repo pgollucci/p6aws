@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_machinelearning_evaluation_update(evaluation_id, evaluation_name)
+#	p6_aws_machinelearning_evaluation_update(evaluation_id, evaluation_name)
 #
-# Arg(s):
-#    evaluation_id - 
-#    evaluation_name - 
-#
+#  Args:
+#	evaluation_id - 
+#	evaluation_name - 
 #
 #>
 ######################################################################

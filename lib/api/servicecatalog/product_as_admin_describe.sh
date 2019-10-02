@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_product_as_admin_describe(id)
+#	p6_aws_servicecatalog_product_as_admin_describe(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

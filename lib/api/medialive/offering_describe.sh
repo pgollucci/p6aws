@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_medialive_offering_describe(offering_id)
+#	p6_aws_medialive_offering_describe(offering_id)
 #
-# Arg(s):
-#    offering_id - 
-#
+#  Args:
+#	offering_id - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_secretsmanager_resource_policy_put(secret_id, resource_policy)
+#	p6_aws_secretsmanager_resource_policy_put(secret_id, resource_policy)
 #
-# Arg(s):
-#    secret_id - 
-#    resource_policy - 
-#
+#  Args:
+#	secret_id - 
+#	resource_policy - 
 #
 #>
 ######################################################################

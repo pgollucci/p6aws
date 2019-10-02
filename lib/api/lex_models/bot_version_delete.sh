@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_lex_models_bot_version_delete(name, bot_version)
+#	p6_aws_lex_models_bot_version_delete(name, bot_version)
 #
-# Arg(s):
-#    name - 
-#    bot_version - 
-#
+#  Args:
+#	name - 
+#	bot_version - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_elastictranscoder_jobs_by_pipeline_list(pipeline_id)
+#	p6_aws_elastictranscoder_jobs_by_pipeline_list(pipeline_id)
 #
-# Arg(s):
-#    pipeline_id - 
-#
+#  Args:
+#	pipeline_id - 
 #
 #>
 ######################################################################

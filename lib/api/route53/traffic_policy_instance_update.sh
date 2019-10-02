@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_traffic_policy_instance_update(id, ttl, traffic_policy_id, traffic_policy_version)
+#	p6_aws_route53_traffic_policy_instance_update(id, ttl, traffic_policy_id, traffic_policy_version)
 #
-# Arg(s):
-#    id - 
-#    ttl - 
-#    traffic_policy_id - 
-#    traffic_policy_version - 
-#
+#  Args:
+#	id - 
+#	ttl - 
+#	traffic_policy_id - 
+#	traffic_policy_version - 
 #
 #>
 ######################################################################

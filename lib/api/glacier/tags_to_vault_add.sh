@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_glacier_tags_to_vault_add(account_id, vault_name)
+#	p6_aws_glacier_tags_to_vault_add(account_id, vault_name)
 #
-# Arg(s):
-#    account_id - 
-#    vault_name - 
-#
+#  Args:
+#	account_id - 
+#	vault_name - 
 #
 #>
 ######################################################################

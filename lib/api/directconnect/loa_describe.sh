@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_directconnect_loa_describe(connection_id)
+#	p6_aws_directconnect_loa_describe(connection_id)
 #
-# Arg(s):
-#    connection_id - 
-#
+#  Args:
+#	connection_id - 
 #
 #>
 ######################################################################

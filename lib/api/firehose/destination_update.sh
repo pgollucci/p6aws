@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_firehose_destination_update(delivery_stream_name, current_delivery_stream_version_id, destination_id)
+#	p6_aws_firehose_destination_update(delivery_stream_name, current_delivery_stream_version_id, destination_id)
 #
-# Arg(s):
-#    delivery_stream_name - 
-#    current_delivery_stream_version_id - 
-#    destination_id - 
-#
+#  Args:
+#	delivery_stream_name - 
+#	current_delivery_stream_version_id - 
+#	destination_id - 
 #
 #>
 ######################################################################

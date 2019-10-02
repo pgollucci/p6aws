@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ds_ip_routes_remove(directory_id, cidr_ips)
+#	p6_aws_ds_ip_routes_remove(directory_id, cidr_ips)
 #
-# Arg(s):
-#    directory_id - 
-#    cidr_ips - 
-#
+#  Args:
+#	directory_id - 
+#	cidr_ips - 
 #
 #>
 ######################################################################

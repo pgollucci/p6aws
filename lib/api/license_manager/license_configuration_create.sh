@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_license_manager_license_configuration_create(name, license_counting_type)
+#	p6_aws_license_manager_license_configuration_create(name, license_counting_type)
 #
-# Arg(s):
-#    name - 
-#    license_counting_type - 
-#
+#  Args:
+#	name - 
+#	license_counting_type - 
 #
 #>
 ######################################################################

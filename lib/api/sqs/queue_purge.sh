@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sqs_queue_purge(queue_url)
+#	p6_aws_sqs_queue_purge(queue_url)
 #
-# Arg(s):
-#    queue_url - 
-#
+#  Args:
+#	queue_url - 
 #
 #>
 ######################################################################

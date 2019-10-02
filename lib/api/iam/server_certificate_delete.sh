@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_server_certificate_delete(server_certificate_name)
+#	p6_aws_iam_server_certificate_delete(server_certificate_name)
 #
-# Arg(s):
-#    server_certificate_name - 
-#
+#  Args:
+#	server_certificate_name - 
 #
 #>
 ######################################################################

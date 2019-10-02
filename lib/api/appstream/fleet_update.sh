@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_appstream_fleet_update()
-#
-#
+#	p6_aws_appstream_fleet_update()
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_personalize_solution_version_create(solution_arn)
+#	p6_aws_personalize_solution_version_create(solution_arn)
 #
-# Arg(s):
-#    solution_arn - 
-#
+#  Args:
+#	solution_arn - 
 #
 #>
 ######################################################################

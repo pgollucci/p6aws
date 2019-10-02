@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_guardduty_invitations_count_get()
-#
-#
+#	p6_aws_guardduty_invitations_count_get()
 #
 #>
 ######################################################################

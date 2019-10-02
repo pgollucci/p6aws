@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iotanalytics_put_message_batch(channel_name, messages)
+#	p6_aws_iotanalytics_put_message_batch(channel_name, messages)
 #
-# Arg(s):
-#    channel_name - 
-#    messages - 
-#
+#  Args:
+#	channel_name - 
+#	messages - 
 #
 #>
 ######################################################################

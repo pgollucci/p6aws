@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_fpga_image_attribute_describe(fpga_image_id, attribute)
+#	p6_aws_ec2_fpga_image_attribute_describe(fpga_image_id, attribute)
 #
-# Arg(s):
-#    fpga_image_id - 
-#    attribute - 
-#
+#  Args:
+#	fpga_image_id - 
+#	attribute - 
 #
 #>
 ######################################################################

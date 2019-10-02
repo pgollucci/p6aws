@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_traffic_mirror_sessions_describe()
-#
-#
+#	p6_aws_ec2_traffic_mirror_sessions_describe()
 #
 #>
 ######################################################################

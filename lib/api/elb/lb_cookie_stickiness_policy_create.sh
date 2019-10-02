@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elb_lb_cookie_stickiness_policy_create(load_balancer_name, policy_name)
+#	p6_aws_elb_lb_cookie_stickiness_policy_create(load_balancer_name, policy_name)
 #
-# Arg(s):
-#    load_balancer_name - 
-#    policy_name - 
-#
+#  Args:
+#	load_balancer_name - 
+#	policy_name - 
 #
 #>
 ######################################################################

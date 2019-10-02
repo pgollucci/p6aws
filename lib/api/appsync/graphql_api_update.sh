@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_appsync_graphql_api_update(api_id, name)
+#	p6_aws_appsync_graphql_api_update(api_id, name)
 #
-# Arg(s):
-#    api_id - 
-#    name - 
-#
+#  Args:
+#	api_id - 
+#	name - 
 #
 #>
 ######################################################################

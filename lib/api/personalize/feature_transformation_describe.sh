@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_personalize_feature_transformation_describe(feature_transformation_arn)
+#	p6_aws_personalize_feature_transformation_describe(feature_transformation_arn)
 #
-# Arg(s):
-#    feature_transformation_arn - 
-#
+#  Args:
+#	feature_transformation_arn - 
 #
 #>
 ######################################################################

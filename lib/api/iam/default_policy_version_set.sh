@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_default_policy_version_set(policy_arn, version_id)
+#	p6_aws_iam_default_policy_version_set(policy_arn, version_id)
 #
-# Arg(s):
-#    policy_arn - 
-#    version_id - 
-#
+#  Args:
+#	policy_arn - 
+#	version_id - 
 #
 #>
 ######################################################################

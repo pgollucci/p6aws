@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iotthingsgraph_system_instance_get(id)
+#	p6_aws_iotthingsgraph_system_instance_get(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

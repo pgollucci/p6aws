@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_snapshot_access_authorize(snapshot_identifier, account_with_restore_access)
+#	p6_aws_redshift_snapshot_access_authorize(snapshot_identifier, account_with_restore_access)
 #
-# Arg(s):
-#    snapshot_identifier - 
-#    account_with_restore_access - 
-#
+#  Args:
+#	snapshot_identifier - 
+#	account_with_restore_access - 
 #
 #>
 ######################################################################

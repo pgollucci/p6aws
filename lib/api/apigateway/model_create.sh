@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_model_create(rest_api_id, name, content_type)
+#	p6_aws_apigateway_model_create(rest_api_id, name, content_type)
 #
-# Arg(s):
-#    rest_api_id - 
-#    name - 
-#    content_type - 
-#
+#  Args:
+#	rest_api_id - 
+#	name - 
+#	content_type - 
 #
 #>
 ######################################################################

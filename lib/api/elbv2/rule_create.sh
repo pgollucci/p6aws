@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_elbv2_rule_create(listener_arn, conditions, priority, actions)
+#	p6_aws_elbv2_rule_create(listener_arn, conditions, priority, actions)
 #
-# Arg(s):
-#    listener_arn - 
-#    conditions - 
-#    priority - 
-#    actions - 
-#
+#  Args:
+#	listener_arn - 
+#	conditions - 
+#	priority - 
+#	actions - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_change_token_get()
-#
-#
+#	p6_aws_waf_change_token_get()
 #
 #>
 ######################################################################

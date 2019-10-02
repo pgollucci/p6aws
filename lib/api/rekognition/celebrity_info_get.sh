@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_rekognition_celebrity_info_get(id)
+#	p6_aws_rekognition_celebrity_info_get(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

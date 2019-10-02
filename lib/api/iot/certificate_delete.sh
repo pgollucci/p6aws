@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_certificate_delete(certificate_id)
+#	p6_aws_iot_certificate_delete(certificate_id)
 #
-# Arg(s):
-#    certificate_id - 
-#
+#  Args:
+#	certificate_id - 
 #
 #>
 ######################################################################

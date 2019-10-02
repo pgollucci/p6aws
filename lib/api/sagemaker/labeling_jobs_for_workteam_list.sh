@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_labeling_jobs_for_workteam_list(workteam_arn)
+#	p6_aws_sagemaker_labeling_jobs_for_workteam_list(workteam_arn)
 #
-# Arg(s):
-#    workteam_arn - 
-#
+#  Args:
+#	workteam_arn - 
 #
 #>
 ######################################################################

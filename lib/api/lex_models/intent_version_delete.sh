@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_lex_models_intent_version_delete(name, intent_version)
+#	p6_aws_lex_models_intent_version_delete(name, intent_version)
 #
-# Arg(s):
-#    name - 
-#    intent_version - 
-#
+#  Args:
+#	name - 
+#	intent_version - 
 #
 #>
 ######################################################################

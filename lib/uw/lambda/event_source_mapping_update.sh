@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lambda_enabled(uuid)
+#	p6_aws_lambda_enabled(uuid)
 #
-# Arg(s):
-#    uuid - 
-#
+#  Args:
+#	uuid - 
 #
 #>
 ######################################################################

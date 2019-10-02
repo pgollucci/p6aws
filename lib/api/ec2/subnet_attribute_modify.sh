@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_subnet_attribute_modify(subnet_id)
+#	p6_aws_ec2_subnet_attribute_modify(subnet_id)
 #
-# Arg(s):
-#    subnet_id - 
-#
+#  Args:
+#	subnet_id - 
 #
 #>
 ######################################################################

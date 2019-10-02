@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_client_certificate_update(client_certificate_id)
+#	p6_aws_apigateway_client_certificate_update(client_certificate_id)
 #
-# Arg(s):
-#    client_certificate_id - 
-#
+#  Args:
+#	client_certificate_id - 
 #
 #>
 ######################################################################

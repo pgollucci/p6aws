@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codebuild_project_update(name)
+#	p6_aws_codebuild_project_update(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

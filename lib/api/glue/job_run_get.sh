@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_job_run_get(job_name, run_id)
+#	p6_aws_glue_job_run_get(job_name, run_id)
 #
-# Arg(s):
-#    job_name - 
-#    run_id - 
-#
+#  Args:
+#	job_name - 
+#	run_id - 
 #
 #>
 ######################################################################

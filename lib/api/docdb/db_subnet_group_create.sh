@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_docdb_db_subnet_group_create(db_subnet_group_name, db_subnet_group_description, subnet_ids)
+#	p6_aws_docdb_db_subnet_group_create(db_subnet_group_name, db_subnet_group_description, subnet_ids)
 #
-# Arg(s):
-#    db_subnet_group_name - 
-#    db_subnet_group_description - 
-#    subnet_ids - 
-#
+#  Args:
+#	db_subnet_group_name - 
+#	db_subnet_group_description - 
+#	subnet_ids - 
 #
 #>
 ######################################################################

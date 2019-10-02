@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_appsync_api_keys_list(api_id)
+#	p6_aws_appsync_api_keys_list(api_id)
 #
-# Arg(s):
-#    api_id - 
-#
+#  Args:
+#	api_id - 
 #
 #>
 ######################################################################

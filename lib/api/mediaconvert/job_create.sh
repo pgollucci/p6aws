@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_mediaconvert_job_create(role, settings)
+#	p6_aws_mediaconvert_job_create(role, settings)
 #
-# Arg(s):
-#    role - 
-#    settings - 
-#
+#  Args:
+#	role - 
+#	settings - 
 #
 #>
 ######################################################################

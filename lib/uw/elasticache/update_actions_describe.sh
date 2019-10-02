@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticache_node_level_update_status()
-#
-#
+#	p6_aws_elasticache_node_level_update_status()
 #
 #>
 ######################################################################

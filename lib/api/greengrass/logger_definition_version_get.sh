@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_greengrass_logger_definition_version_get(logger_definition_id, logger_definition_version_id)
+#	p6_aws_greengrass_logger_definition_version_get(logger_definition_id, logger_definition_version_id)
 #
-# Arg(s):
-#    logger_definition_id - 
-#    logger_definition_version_id - 
-#
+#  Args:
+#	logger_definition_id - 
+#	logger_definition_version_id - 
 #
 #>
 ######################################################################

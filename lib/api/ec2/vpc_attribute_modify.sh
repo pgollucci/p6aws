@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpc_attribute_modify(vpc_id)
+#	p6_aws_ec2_vpc_attribute_modify(vpc_id)
 #
-# Arg(s):
-#    vpc_id - 
-#
+#  Args:
+#	vpc_id - 
 #
 #>
 ######################################################################

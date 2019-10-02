@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ce_rightsizing_recommendation_get(service)
+#	p6_aws_ce_rightsizing_recommendation_get(service)
 #
-# Arg(s):
-#    service - 
-#
+#  Args:
+#	service - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_meteringmarketplace_usage_meter(product_code, timestamp, usage_dimension)
+#	p6_aws_meteringmarketplace_usage_meter(product_code, timestamp, usage_dimension)
 #
-# Arg(s):
-#    product_code - 
-#    timestamp - 
-#    usage_dimension - 
-#
+#  Args:
+#	product_code - 
+#	timestamp - 
+#	usage_dimension - 
 #
 #>
 ######################################################################

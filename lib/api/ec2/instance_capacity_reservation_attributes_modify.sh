@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_instance_capacity_reservation_attributes_modify(instance_id, capacity_reservation_specification)
+#	p6_aws_ec2_instance_capacity_reservation_attributes_modify(instance_id, capacity_reservation_specification)
 #
-# Arg(s):
-#    instance_id - 
-#    capacity_reservation_specification - 
-#
+#  Args:
+#	instance_id - 
+#	capacity_reservation_specification - 
 #
 #>
 ######################################################################

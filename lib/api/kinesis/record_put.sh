@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesis_record_put(stream_name, data, partition_key)
+#	p6_aws_kinesis_record_put(stream_name, data, partition_key)
 #
-# Arg(s):
-#    stream_name - 
-#    data - 
-#    partition_key - 
-#
+#  Args:
+#	stream_name - 
+#	data - 
+#	partition_key - 
 #
 #>
 ######################################################################

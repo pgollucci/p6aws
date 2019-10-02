@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_dms_endpoint_types_describe()
-#
-#
+#	p6_aws_dms_endpoint_types_describe()
 #
 #>
 ######################################################################

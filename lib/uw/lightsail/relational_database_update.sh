@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_master_user_password(relational_database_name)
+#	p6_aws_lightsail_master_user_password(relational_database_name)
 #
-# Arg(s):
-#    relational_database_name - 
-#
+#  Args:
+#	relational_database_name - 
 #
 #>
 ######################################################################
@@ -21,12 +20,11 @@ p6_aws_lightsail_master_user_password() {
 #<
 #
 # Function:
-#      = p6_aws_lightsail_backup_retention(relational_database_name, relational_database_name)
+#	p6_aws_lightsail_backup_retention(relational_database_name, relational_database_name)
 #
-# Arg(s):
-#    relational_database_name - 
-#    relational_database_name - 
-#
+#  Args:
+#	relational_database_name - 
+#	relational_database_name - 
 #
 #>
 ######################################################################
@@ -41,12 +39,11 @@ p6_aws_lightsail_backup_retention() {
 #<
 #
 # Function:
-#      = p6_aws_lightsail_backup_retention(relational_database_name, relational_database_name)
+#	p6_aws_lightsail_backup_retention(relational_database_name, relational_database_name)
 #
-# Arg(s):
-#    relational_database_name - 
-#    relational_database_name - 
-#
+#  Args:
+#	relational_database_name - 
+#	relational_database_name - 
 #
 #>
 ######################################################################
@@ -61,11 +58,10 @@ p6_aws_lightsail_backup_retention() {
 #<
 #
 # Function:
-#      = p6_aws_lightsail_accessible(relational_database_name)
+#	p6_aws_lightsail_accessible(relational_database_name)
 #
-# Arg(s):
-#    relational_database_name - 
-#
+#  Args:
+#	relational_database_name - 
 #
 #>
 ######################################################################
@@ -80,11 +76,10 @@ p6_aws_lightsail_accessible() {
 #<
 #
 # Function:
-#      = p6_aws_lightsail_immediately(relational_database_name)
+#	p6_aws_lightsail_immediately(relational_database_name)
 #
-# Arg(s):
-#    relational_database_name - 
-#
+#  Args:
+#	relational_database_name - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_events_put(application_id, events_request)
+#	p6_aws_pinpoint_events_put(application_id, events_request)
 #
-# Arg(s):
-#    application_id - 
-#    events_request - 
-#
+#  Args:
+#	application_id - 
+#	events_request - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_datapipeline_default_roles_create()
-#
-#
+#	p6_aws_datapipeline_default_roles_create()
 #
 #>
 ######################################################################

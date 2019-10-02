@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_swf_activity_types_list(domain, registration_status)
+#	p6_aws_swf_activity_types_list(domain, registration_status)
 #
-# Arg(s):
-#    domain - 
-#    registration_status - 
-#
+#  Args:
+#	domain - 
+#	registration_status - 
 #
 #>
 ######################################################################

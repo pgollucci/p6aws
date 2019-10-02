@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_es_elasticsearch_domains_describe(domain_names)
+#	p6_aws_es_elasticsearch_domains_describe(domain_names)
 #
-# Arg(s):
-#    domain_names - 
-#
+#  Args:
+#	domain_names - 
 #
 #>
 ######################################################################

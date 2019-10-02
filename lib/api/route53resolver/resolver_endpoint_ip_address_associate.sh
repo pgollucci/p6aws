@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_route53resolver_resolver_endpoint_ip_address_associate(resolver_endpoint_id, ip_address)
+#	p6_aws_route53resolver_resolver_endpoint_ip_address_associate(resolver_endpoint_id, ip_address)
 #
-# Arg(s):
-#    resolver_endpoint_id - 
-#    ip_address - 
-#
+#  Args:
+#	resolver_endpoint_id - 
+#	ip_address - 
 #
 #>
 ######################################################################

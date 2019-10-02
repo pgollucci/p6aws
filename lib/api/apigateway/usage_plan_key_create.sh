@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_usage_plan_key_create(usage_plan_id, key_id, key_type)
+#	p6_aws_apigateway_usage_plan_key_create(usage_plan_id, key_id, key_type)
 #
-# Arg(s):
-#    usage_plan_id - 
-#    key_id - 
-#    key_type - 
-#
+#  Args:
+#	usage_plan_id - 
+#	key_id - 
+#	key_type - 
 #
 #>
 ######################################################################

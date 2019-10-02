@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_security_profile_update(security_profile_name)
+#	p6_aws_iot_security_profile_update(security_profile_name)
 #
-# Arg(s):
-#    security_profile_name - 
-#
+#  Args:
+#	security_profile_name - 
 #
 #>
 ######################################################################

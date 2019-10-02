@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_svc_bucket_policy(bucket)
+#	p6_aws_s3api_svc_bucket_policy(bucket)
 #
-# Arg(s):
-#    bucket - 
-#
+#  Args:
+#	bucket - 
 #
 #>
 ######################################################################
@@ -20,11 +19,10 @@ p6_aws_s3api_svc_bucket_policy() {
 #<
 #
 # Function:
-#      = p6_aws_s3api_svc_bucket_objects_versions_list(bucket)
+#	p6_aws_s3api_svc_bucket_objects_versions_list(bucket)
 #
-# Arg(s):
-#    bucket - 
-#
+#  Args:
+#	bucket - 
 #
 #>
 ######################################################################
@@ -41,11 +39,10 @@ p6_aws_s3api_svc_bucket_objects_versions_list() {
 #<
 #
 # Function:
-#      = p6_aws_s3api_svc_bucket_objects_deleted(bucket)
+#	p6_aws_s3api_svc_bucket_objects_deleted(bucket)
 #
-# Arg(s):
-#    bucket - 
-#
+#  Args:
+#	bucket - 
 #
 #>
 ######################################################################
@@ -62,11 +59,10 @@ p6_aws_s3api_svc_bucket_objects_deleted() {
 #<
 #
 # Function:
-#      = p6_aws_s3api_svc_bucket_list_objects_all(bucket)
+#	p6_aws_s3api_svc_bucket_list_objects_all(bucket)
 #
-# Arg(s):
-#    bucket - 
-#
+#  Args:
+#	bucket - 
 #
 #>
 ######################################################################
@@ -84,11 +80,10 @@ p6_aws_s3api_svc_bucket_list_objects_all() {
 #<
 #
 # Function:
-#      = p6_aws_s3api_svc_bucket_delete_with_versioned_objects(bucket)
+#	p6_aws_s3api_svc_bucket_delete_with_versioned_objects(bucket)
 #
-# Arg(s):
-#    bucket - 
-#
+#  Args:
+#	bucket - 
 #
 #>
 ######################################################################

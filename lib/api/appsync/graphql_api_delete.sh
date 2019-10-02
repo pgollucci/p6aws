@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_appsync_graphql_api_delete(api_id)
+#	p6_aws_appsync_graphql_api_delete(api_id)
 #
-# Arg(s):
-#    api_id - 
-#
+#  Args:
+#	api_id - 
 #
 #>
 ######################################################################

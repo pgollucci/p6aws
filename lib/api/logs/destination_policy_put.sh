@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_logs_destination_policy_put(destination_name, access_policy)
+#	p6_aws_logs_destination_policy_put(destination_name, access_policy)
 #
-# Arg(s):
-#    destination_name - 
-#    access_policy - 
-#
+#  Args:
+#	destination_name - 
+#	access_policy - 
 #
 #>
 ######################################################################

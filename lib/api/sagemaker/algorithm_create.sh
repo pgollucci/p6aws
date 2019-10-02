@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_algorithm_create(algorithm_name, training_specification)
+#	p6_aws_sagemaker_algorithm_create(algorithm_name, training_specification)
 #
-# Arg(s):
-#    algorithm_name - 
-#    training_specification - 
-#
+#  Args:
+#	algorithm_name - 
+#	training_specification - 
 #
 #>
 ######################################################################

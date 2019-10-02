@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_provisioned_product_service_action_execute(provisioned_product_id, service_action_id)
+#	p6_aws_servicecatalog_provisioned_product_service_action_execute(provisioned_product_id, service_action_id)
 #
-# Arg(s):
-#    provisioned_product_id - 
-#    service_action_id - 
-#
+#  Args:
+#	provisioned_product_id - 
+#	service_action_id - 
 #
 #>
 ######################################################################

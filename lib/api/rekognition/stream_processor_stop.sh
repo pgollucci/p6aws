@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_rekognition_stream_processor_stop(name)
+#	p6_aws_rekognition_stream_processor_stop(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_gateways_list()
-#
-#
+#	p6_aws_alexaforbusiness_gateways_list()
 #
 #>
 ######################################################################

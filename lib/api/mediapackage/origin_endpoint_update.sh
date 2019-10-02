@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mediapackage_origin_endpoint_update(id)
+#	p6_aws_mediapackage_origin_endpoint_update(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

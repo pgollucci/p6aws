@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_snapshot_copy(source_region, source_snapshot_id)
+#	p6_aws_ec2_snapshot_copy(source_region, source_snapshot_id)
 #
-# Arg(s):
-#    source_region - 
-#    source_snapshot_id - 
-#
+#  Args:
+#	source_region - 
+#	source_snapshot_id - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_budgets_budgets_describe(account_id)
+#	p6_aws_budgets_budgets_describe(account_id)
 #
-# Arg(s):
-#    account_id - 
-#
+#  Args:
+#	account_id - 
 #
 #>
 ######################################################################

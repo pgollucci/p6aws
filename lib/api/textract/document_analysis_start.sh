@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_textract_document_analysis_start(document_location, feature_types)
+#	p6_aws_textract_document_analysis_start(document_location, feature_types)
 #
-# Arg(s):
-#    document_location - 
-#    feature_types - 
-#
+#  Args:
+#	document_location - 
+#	feature_types - 
 #
 #>
 ######################################################################

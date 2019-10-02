@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_budgets_subscriber_update(account_id, budget_name, notification, old_subscriber, new_subscriber)
+#	p6_aws_budgets_subscriber_update(account_id, budget_name, notification, old_subscriber, new_subscriber)
 #
-# Arg(s):
-#    account_id - 
-#    budget_name - 
-#    notification - 
-#    old_subscriber - 
-#    new_subscriber - 
-#
+#  Args:
+#	account_id - 
+#	budget_name - 
+#	notification - 
+#	old_subscriber - 
+#	new_subscriber - 
 #
 #>
 ######################################################################

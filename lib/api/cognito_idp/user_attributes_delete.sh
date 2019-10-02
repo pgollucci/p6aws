@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_user_attributes_delete(user_attribute_names, access_token)
+#	p6_aws_cognito_idp_user_attributes_delete(user_attribute_names, access_token)
 #
-# Arg(s):
-#    user_attribute_names - 
-#    access_token - 
-#
+#  Args:
+#	user_attribute_names - 
+#	access_token - 
 #
 #>
 ######################################################################

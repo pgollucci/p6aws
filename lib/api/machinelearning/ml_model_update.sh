@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_machinelearning_ml_model_update(ml_model_id)
+#	p6_aws_machinelearning_ml_model_update(ml_model_id)
 #
-# Arg(s):
-#    ml_model_id - 
-#
+#  Args:
+#	ml_model_id - 
 #
 #>
 ######################################################################

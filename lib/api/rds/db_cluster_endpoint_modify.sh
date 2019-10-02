@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_db_cluster_endpoint_modify(db_cluster_endpoint_identifier)
+#	p6_aws_rds_db_cluster_endpoint_modify(db_cluster_endpoint_identifier)
 #
-# Arg(s):
-#    db_cluster_endpoint_identifier - 
-#
+#  Args:
+#	db_cluster_endpoint_identifier - 
 #
 #>
 ######################################################################

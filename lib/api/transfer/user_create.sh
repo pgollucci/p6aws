@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_transfer_user_create(role, server_id, user_name)
+#	p6_aws_transfer_user_create(role, server_id, user_name)
 #
-# Arg(s):
-#    role - 
-#    server_id - 
-#    user_name - 
-#
+#  Args:
+#	role - 
+#	server_id - 
+#	user_name - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_dhcp_options_delete(dhcp_options_id)
+#	p6_aws_ec2_dhcp_options_delete(dhcp_options_id)
 #
-# Arg(s):
-#    dhcp_options_id - 
-#
+#  Args:
+#	dhcp_options_id - 
 #
 #>
 ######################################################################

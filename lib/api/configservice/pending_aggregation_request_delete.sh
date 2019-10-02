@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_pending_aggregation_request_delete(requester_account_id, requester_aws_region)
+#	p6_aws_configservice_pending_aggregation_request_delete(requester_account_id, requester_aws_region)
 #
-# Arg(s):
-#    requester_account_id - 
-#    requester_aws_region - 
-#
+#  Args:
+#	requester_account_id - 
+#	requester_aws_region - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_subnet_create(cidr_block, vpc_id)
+#	p6_aws_ec2_subnet_create(cidr_block, vpc_id)
 #
-# Arg(s):
-#    cidr_block - 
-#    vpc_id - 
-#
+#  Args:
+#	cidr_block - 
+#	vpc_id - 
 #
 #>
 ######################################################################

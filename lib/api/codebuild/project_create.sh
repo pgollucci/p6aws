@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_codebuild_project_create(name, source, artifacts, environment, service_role)
+#	p6_aws_codebuild_project_create(name, source, artifacts, environment, service_role)
 #
-# Arg(s):
-#    name - 
-#    source - 
-#    artifacts - 
-#    environment - 
-#    service_role - 
-#
+#  Args:
+#	name - 
+#	source - 
+#	artifacts - 
+#	environment - 
+#	service_role - 
 #
 #>
 ######################################################################

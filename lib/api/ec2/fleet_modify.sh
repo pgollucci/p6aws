@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_fleet_modify(fleet_id, target_capacity_specification)
+#	p6_aws_ec2_fleet_modify(fleet_id, target_capacity_specification)
 #
-# Arg(s):
-#    fleet_id - 
-#    target_capacity_specification - 
-#
+#  Args:
+#	fleet_id - 
+#	target_capacity_specification - 
 #
 #>
 ######################################################################

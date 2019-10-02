@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_delivery_channel_put(delivery_channel)
+#	p6_aws_configservice_delivery_channel_put(delivery_channel)
 #
-# Arg(s):
-#    delivery_channel - 
-#
+#  Args:
+#	delivery_channel - 
 #
 #>
 ######################################################################

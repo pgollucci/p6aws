@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_rule_update(rule_id, change_token, updates)
+#	p6_aws_waf_rule_update(rule_id, change_token, updates)
 #
-# Arg(s):
-#    rule_id - 
-#    change_token - 
-#    updates - 
-#
+#  Args:
+#	rule_id - 
+#	change_token - 
+#	updates - 
 #
 #>
 ######################################################################

@@ -2,16 +2,15 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_object_content_select(bucket, key, expression, expression_type, input_serialization, output_serialization)
+#	p6_aws_s3api_object_content_select(bucket, key, expression, expression_type, input_serialization, output_serialization)
 #
-# Arg(s):
-#    bucket - 
-#    key - 
-#    expression - 
-#    expression_type - 
-#    input_serialization - 
-#    output_serialization - 
-#
+#  Args:
+#	bucket - 
+#	key - 
+#	expression - 
+#	expression_type - 
+#	input_serialization - 
+#	output_serialization - 
 #
 #>
 ######################################################################

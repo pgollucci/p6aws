@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudwatch_alarm_state_set(alarm_name, state_value, state_reason)
+#	p6_aws_cloudwatch_alarm_state_set(alarm_name, state_value, state_reason)
 #
-# Arg(s):
-#    alarm_name - 
-#    state_value - 
-#    state_reason - 
-#
+#  Args:
+#	alarm_name - 
+#	state_value - 
+#	state_reason - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_app_update(app_id)
+#	p6_aws_opsworks_app_update(app_id)
 #
-# Arg(s):
-#    app_id - 
-#
+#  Args:
+#	app_id - 
 #
 #>
 ######################################################################

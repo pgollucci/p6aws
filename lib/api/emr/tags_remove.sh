@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_emr_tags_remove(resource_id, tag_keys)
+#	p6_aws_emr_tags_remove(resource_id, tag_keys)
 #
-# Arg(s):
-#    resource_id - 
-#    tag_keys - 
-#
+#  Args:
+#	resource_id - 
+#	tag_keys - 
 #
 #>
 ######################################################################

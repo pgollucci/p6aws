@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_resource_server_update(user_pool_id, identifier, name)
+#	p6_aws_cognito_idp_resource_server_update(user_pool_id, identifier, name)
 #
-# Arg(s):
-#    user_pool_id - 
-#    identifier - 
-#    name - 
-#
+#  Args:
+#	user_pool_id - 
+#	identifier - 
+#	name - 
 #
 #>
 ######################################################################

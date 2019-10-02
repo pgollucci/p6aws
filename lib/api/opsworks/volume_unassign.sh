@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_volume_unassign(volume_id)
+#	p6_aws_opsworks_volume_unassign(volume_id)
 #
-# Arg(s):
-#    volume_id - 
-#
+#  Args:
+#	volume_id - 
 #
 #>
 ######################################################################

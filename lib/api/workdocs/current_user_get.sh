@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_workdocs_current_user_get(authentication_token)
+#	p6_aws_workdocs_current_user_get(authentication_token)
 #
-# Arg(s):
-#    authentication_token - 
-#
+#  Args:
+#	authentication_token - 
 #
 #>
 ######################################################################

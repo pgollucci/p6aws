@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_nat_gateway_create(allocation_id, subnet_id)
+#	p6_aws_ec2_nat_gateway_create(allocation_id, subnet_id)
 #
-# Arg(s):
-#    allocation_id - 
-#    subnet_id - 
-#
+#  Args:
+#	allocation_id - 
+#	subnet_id - 
 #
 #>
 ######################################################################

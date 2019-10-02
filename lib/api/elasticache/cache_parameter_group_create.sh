@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticache_cache_parameter_group_create(cache_parameter_group_name, cache_parameter_group_family, description)
+#	p6_aws_elasticache_cache_parameter_group_create(cache_parameter_group_name, cache_parameter_group_family, description)
 #
-# Arg(s):
-#    cache_parameter_group_name - 
-#    cache_parameter_group_family - 
-#    description - 
-#
+#  Args:
+#	cache_parameter_group_name - 
+#	cache_parameter_group_family - 
+#	description - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_mturk_worker_blocks_list()
-#
-#
+#	p6_aws_mturk_worker_blocks_list()
 #
 #>
 ######################################################################

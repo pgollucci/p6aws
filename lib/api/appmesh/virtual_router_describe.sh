@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_appmesh_virtual_router_describe(mesh_name, virtual_router_name)
+#	p6_aws_appmesh_virtual_router_describe(mesh_name, virtual_router_name)
 #
-# Arg(s):
-#    mesh_name - 
-#    virtual_router_name - 
-#
+#  Args:
+#	mesh_name - 
+#	virtual_router_name - 
 #
 #>
 ######################################################################

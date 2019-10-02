@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_patches_enable_non_security(baseline_id)
+#	p6_aws_ssm_patches_enable_non_security(baseline_id)
 #
-# Arg(s):
-#    baseline_id - 
-#
+#  Args:
+#	baseline_id - 
 #
 #>
 ######################################################################
@@ -21,16 +20,15 @@ p6_aws_ssm_patches_enable_non_security() {
 #<
 #
 # Function:
-#      = p6_aws_ssm_replace(window_id, window_target_id, window_id, window_task_id, window_id, baseline_id)
+#	p6_aws_ssm_replace(window_id, window_target_id, window_id, window_task_id, window_id, baseline_id)
 #
-# Arg(s):
-#    window_id - 
-#    window_target_id - 
-#    window_id - 
-#    window_task_id - 
-#    window_id - 
-#    baseline_id - 
-#
+#  Args:
+#	window_id - 
+#	window_target_id - 
+#	window_id - 
+#	window_task_id - 
+#	window_id - 
+#	baseline_id - 
 #
 #>
 ######################################################################

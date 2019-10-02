@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_servicediscovery_service_update(id, service)
+#	p6_aws_servicediscovery_service_update(id, service)
 #
-# Arg(s):
-#    id - 
-#    service - 
-#
+#  Args:
+#	id - 
+#	service - 
 #
 #>
 ######################################################################

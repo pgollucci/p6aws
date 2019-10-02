@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_acm_pca_permission_create(certificate_authority_arn, principal, actions)
+#	p6_aws_acm_pca_permission_create(certificate_authority_arn, principal, actions)
 #
-# Arg(s):
-#    certificate_authority_arn - 
-#    principal - 
-#    actions - 
-#
+#  Args:
+#	certificate_authority_arn - 
+#	principal - 
+#	actions - 
 #
 #>
 ######################################################################

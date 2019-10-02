@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_comprehend_entity_recognizer_describe(entity_recognizer_arn)
+#	p6_aws_comprehend_entity_recognizer_describe(entity_recognizer_arn)
 #
-# Arg(s):
-#    entity_recognizer_arn - 
-#
+#  Args:
+#	entity_recognizer_arn - 
 #
 #>
 ######################################################################

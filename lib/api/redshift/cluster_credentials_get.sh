@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_cluster_credentials_get(db_user, cluster_identifier)
+#	p6_aws_redshift_cluster_credentials_get(db_user, cluster_identifier)
 #
-# Arg(s):
-#    db_user - 
-#    cluster_identifier - 
-#
+#  Args:
+#	db_user - 
+#	cluster_identifier - 
 #
 #>
 ######################################################################

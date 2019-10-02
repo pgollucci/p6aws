@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_thing_register(template_body)
+#	p6_aws_iot_thing_register(template_body)
 #
-# Arg(s):
-#    template_body - 
-#
+#  Args:
+#	template_body - 
 #
 #>
 ######################################################################

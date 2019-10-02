@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_dynamodb_table_create(attribute_definitions, table_name, key_schema)
+#	p6_aws_dynamodb_table_create(attribute_definitions, table_name, key_schema)
 #
-# Arg(s):
-#    attribute_definitions - 
-#    table_name - 
-#    key_schema - 
-#
+#  Args:
+#	attribute_definitions - 
+#	table_name - 
+#	key_schema - 
 #
 #>
 ######################################################################

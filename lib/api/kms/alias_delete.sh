@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kms_alias_delete(alias_name)
+#	p6_aws_kms_alias_delete(alias_name)
 #
-# Arg(s):
-#    alias_name - 
-#
+#  Args:
+#	alias_name - 
 #
 #>
 ######################################################################

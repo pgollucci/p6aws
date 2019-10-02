@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mediaconvert_preset_delete(name)
+#	p6_aws_mediaconvert_preset_delete(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

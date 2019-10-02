@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_neptune_db_cluster_parameter_group_create(db_cluster_parameter_group_name, db_parameter_group_family, description)
+#	p6_aws_neptune_db_cluster_parameter_group_create(db_cluster_parameter_group_name, db_parameter_group_family, description)
 #
-# Arg(s):
-#    db_cluster_parameter_group_name - 
-#    db_parameter_group_family - 
-#    description - 
-#
+#  Args:
+#	db_cluster_parameter_group_name - 
+#	db_parameter_group_family - 
+#	description - 
 #
 #>
 ######################################################################

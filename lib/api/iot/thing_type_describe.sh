@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_thing_type_describe(thing_type_name)
+#	p6_aws_iot_thing_type_describe(thing_type_name)
 #
-# Arg(s):
-#    thing_type_name - 
-#
+#  Args:
+#	thing_type_name - 
 #
 #>
 ######################################################################

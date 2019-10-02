@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_identity_identities_list(identity_pool_id, max_results)
+#	p6_aws_cognito_identity_identities_list(identity_pool_id, max_results)
 #
-# Arg(s):
-#    identity_pool_id - 
-#    max_results - 
-#
+#  Args:
+#	identity_pool_id - 
+#	max_results - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_chime_phone_number_order_create(product_type, e164_phone_numbers)
+#	p6_aws_chime_phone_number_order_create(product_type, e164_phone_numbers)
 #
-# Arg(s):
-#    product_type - 
-#    e164_phone_numbers - 
-#
+#  Args:
+#	product_type - 
+#	e164_phone_numbers - 
 #
 #>
 ######################################################################

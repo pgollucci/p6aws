@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_traffic_policy_get(id, traffic_policy_version)
+#	p6_aws_route53_traffic_policy_get(id, traffic_policy_version)
 #
-# Arg(s):
-#    id - 
-#    traffic_policy_version - 
-#
+#  Args:
+#	id - 
+#	traffic_policy_version - 
 #
 #>
 ######################################################################

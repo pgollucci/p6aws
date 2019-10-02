@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_transcribe_vocabulary_create(vocabulary_name, language_code)
+#	p6_aws_transcribe_vocabulary_create(vocabulary_name, language_code)
 #
-# Arg(s):
-#    vocabulary_name - 
-#    language_code - 
-#
+#  Args:
+#	vocabulary_name - 
+#	language_code - 
 #
 #>
 ######################################################################

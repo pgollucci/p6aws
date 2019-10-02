@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_shield_drt_role_associate(role_arn)
+#	p6_aws_shield_drt_role_associate(role_arn)
 #
-# Arg(s):
-#    role_arn - 
-#
+#  Args:
+#	role_arn - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_encryption_key_rotate(cluster_identifier)
+#	p6_aws_redshift_encryption_key_rotate(cluster_identifier)
 #
-# Arg(s):
-#    cluster_identifier - 
-#
+#  Args:
+#	cluster_identifier - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_container_state_change_submit()
-#
-#
+#	p6_aws_ecs_container_state_change_submit()
 #
 #>
 ######################################################################

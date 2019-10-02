@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mq_broker_reboot(broker_id)
+#	p6_aws_mq_broker_reboot(broker_id)
 #
-# Arg(s):
-#    broker_id - 
-#
+#  Args:
+#	broker_id - 
 #
 #>
 ######################################################################

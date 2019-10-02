@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_managedblockchain_networks_list()
-#
-#
+#	p6_aws_managedblockchain_networks_list()
 #
 #>
 ######################################################################

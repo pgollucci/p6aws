@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_workdocs_resource_permission_remove(resource_id, principal_id)
+#	p6_aws_workdocs_resource_permission_remove(resource_id, principal_id)
 #
-# Arg(s):
-#    resource_id - 
-#    principal_id - 
-#
+#  Args:
+#	resource_id - 
+#	principal_id - 
 #
 #>
 ######################################################################

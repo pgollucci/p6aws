@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_ecr_layer_part_upload(repository_name, upload_id, part_first_byte, part_last_byte, layer_part_blob)
+#	p6_aws_ecr_layer_part_upload(repository_name, upload_id, part_first_byte, part_last_byte, layer_part_blob)
 #
-# Arg(s):
-#    repository_name - 
-#    upload_id - 
-#    part_first_byte - 
-#    part_last_byte - 
-#    layer_part_blob - 
-#
+#  Args:
+#	repository_name - 
+#	upload_id - 
+#	part_first_byte - 
+#	part_last_byte - 
+#	layer_part_blob - 
 #
 #>
 ######################################################################

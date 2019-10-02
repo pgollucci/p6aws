@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_bucket_create(bucket)
+#	p6_aws_s3api_bucket_create(bucket)
 #
-# Arg(s):
-#    bucket - 
-#
+#  Args:
+#	bucket - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesis_records_get(shard_iterator)
+#	p6_aws_kinesis_records_get(shard_iterator)
 #
-# Arg(s):
-#    shard_iterator - 
-#
+#  Args:
+#	shard_iterator - 
 #
 #>
 ######################################################################

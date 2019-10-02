@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_logs_query_stop(query_id)
+#	p6_aws_logs_query_stop(query_id)
 #
-# Arg(s):
-#    query_id - 
-#
+#  Args:
+#	query_id - 
 #
 #>
 ######################################################################

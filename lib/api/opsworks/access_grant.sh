@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_access_grant(instance_id)
+#	p6_aws_opsworks_access_grant(instance_id)
 #
-# Arg(s):
-#    instance_id - 
-#
+#  Args:
+#	instance_id - 
 #
 #>
 ######################################################################

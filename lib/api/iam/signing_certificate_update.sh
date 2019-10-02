@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_signing_certificate_update(certificate_id, status)
+#	p6_aws_iam_signing_certificate_update(certificate_id, status)
 #
-# Arg(s):
-#    certificate_id - 
-#    status - 
-#
+#  Args:
+#	certificate_id - 
+#	status - 
 #
 #>
 ######################################################################

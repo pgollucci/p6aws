@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_endpoint_delete(endpoint_name)
+#	p6_aws_sagemaker_endpoint_delete(endpoint_name)
 #
-# Arg(s):
-#    endpoint_name - 
-#
+#  Args:
+#	endpoint_name - 
 #
 #>
 ######################################################################

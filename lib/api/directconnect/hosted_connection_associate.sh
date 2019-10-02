@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_directconnect_hosted_connection_associate(connection_id, parent_connection_id)
+#	p6_aws_directconnect_hosted_connection_associate(connection_id, parent_connection_id)
 #
-# Arg(s):
-#    connection_id - 
-#    parent_connection_id - 
-#
+#  Args:
+#	connection_id - 
+#	parent_connection_id - 
 #
 #>
 ######################################################################

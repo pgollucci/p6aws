@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticbeanstalk_storage_location_create()
-#
-#
+#	p6_aws_elasticbeanstalk_storage_location_create()
 #
 #>
 ######################################################################

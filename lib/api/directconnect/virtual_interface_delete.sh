@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_directconnect_virtual_interface_delete(virtual_interface_id)
+#	p6_aws_directconnect_virtual_interface_delete(virtual_interface_id)
 #
-# Arg(s):
-#    virtual_interface_id - 
-#
+#  Args:
+#	virtual_interface_id - 
 #
 #>
 ######################################################################

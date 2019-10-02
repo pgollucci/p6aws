@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iotthingsgraph_flow_template_get(id)
+#	p6_aws_iotthingsgraph_flow_template_get(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

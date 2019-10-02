@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_login_profile_create(user_name, password)
+#	p6_aws_iam_login_profile_create(user_name, password)
 #
-# Arg(s):
-#    user_name - 
-#    password - 
-#
+#  Args:
+#	user_name - 
+#	password - 
 #
 #>
 ######################################################################

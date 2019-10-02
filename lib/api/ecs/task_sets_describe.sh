@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_task_sets_describe(cluster, service)
+#	p6_aws_ecs_task_sets_describe(cluster, service)
 #
-# Arg(s):
-#    cluster - 
-#    service - 
-#
+#  Args:
+#	cluster - 
+#	service - 
 #
 #>
 ######################################################################

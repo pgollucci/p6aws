@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_api_keys_get()
-#
-#
+#	p6_aws_apigateway_api_keys_get()
 #
 #>
 ######################################################################

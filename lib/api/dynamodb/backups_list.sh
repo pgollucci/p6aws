@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_dynamodb_backups_list()
-#
-#
+#	p6_aws_dynamodb_backups_list()
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_route53domains_contact_reachability_status_get()
-#
-#
+#	p6_aws_route53domains_contact_reachability_status_get()
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_volume_detach(volume_arn)
+#	p6_aws_storagegateway_volume_detach(volume_arn)
 #
-# Arg(s):
-#    volume_arn - 
-#
+#  Args:
+#	volume_arn - 
 #
 #>
 ######################################################################

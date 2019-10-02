@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_regional_sql_injection_match_set_delete(sql_injection_match_set_id, change_token)
+#	p6_aws_waf_regional_sql_injection_match_set_delete(sql_injection_match_set_id, change_token)
 #
-# Arg(s):
-#    sql_injection_match_set_id - 
-#    change_token - 
-#
+#  Args:
+#	sql_injection_match_set_id - 
+#	change_token - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_workdocs_folder_delete(folder_id)
+#	p6_aws_workdocs_folder_delete(folder_id)
 #
-# Arg(s):
-#    folder_id - 
-#
+#  Args:
+#	folder_id - 
 #
 #>
 ######################################################################

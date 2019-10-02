@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_groundstation_config_create(config_data, name)
+#	p6_aws_groundstation_config_create(config_data, name)
 #
-# Arg(s):
-#    config_data - 
-#    name - 
-#
+#  Args:
+#	config_data - 
+#	name - 
 #
 #>
 ######################################################################

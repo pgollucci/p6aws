@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_route53resolver_resolver_rule_delete(resolver_rule_id)
+#	p6_aws_route53resolver_resolver_rule_delete(resolver_rule_id)
 #
-# Arg(s):
-#    resolver_rule_id - 
-#
+#  Args:
+#	resolver_rule_id - 
 #
 #>
 ######################################################################

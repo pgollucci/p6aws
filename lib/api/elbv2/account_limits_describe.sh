@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_elbv2_account_limits_describe()
-#
-#
+#	p6_aws_elbv2_account_limits_describe()
 #
 #>
 ######################################################################

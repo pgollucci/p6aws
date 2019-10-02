@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_spot_fleet_requests_cancel(spot_fleet_request_ids, terminate_instances)
+#	p6_aws_ec2_spot_fleet_requests_cancel(spot_fleet_request_ids, terminate_instances)
 #
-# Arg(s):
-#    spot_fleet_request_ids - 
-#    terminate_instances - 
-#
+#  Args:
+#	spot_fleet_request_ids - 
+#	terminate_instances - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_cluster_resize(cluster_identifier, number_of_nodes)
+#	p6_aws_redshift_cluster_resize(cluster_identifier, number_of_nodes)
 #
-# Arg(s):
-#    cluster_identifier - 
-#    number_of_nodes - 
-#
+#  Args:
+#	cluster_identifier - 
+#	number_of_nodes - 
 #
 #>
 ######################################################################

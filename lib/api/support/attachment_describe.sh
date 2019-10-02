@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_support_attachment_describe(attachment_id)
+#	p6_aws_support_attachment_describe(attachment_id)
 #
-# Arg(s):
-#    attachment_id - 
-#
+#  Args:
+#	attachment_id - 
 #
 #>
 ######################################################################

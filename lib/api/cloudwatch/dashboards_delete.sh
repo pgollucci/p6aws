@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudwatch_dashboards_delete(dashboard_names)
+#	p6_aws_cloudwatch_dashboards_delete(dashboard_names)
 #
-# Arg(s):
-#    dashboard_names - 
-#
+#  Args:
+#	dashboard_names - 
 #
 #>
 ######################################################################

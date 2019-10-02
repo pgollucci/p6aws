@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_rds_db_instance_register(stack_id, rds_db_instance_arn, db_user, db_password)
+#	p6_aws_opsworks_rds_db_instance_register(stack_id, rds_db_instance_arn, db_user, db_password)
 #
-# Arg(s):
-#    stack_id - 
-#    rds_db_instance_arn - 
-#    db_user - 
-#    db_password - 
-#
+#  Args:
+#	stack_id - 
+#	rds_db_instance_arn - 
+#	db_user - 
+#	db_password - 
 #
 #>
 ######################################################################

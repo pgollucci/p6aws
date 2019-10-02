@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_workspaces_ip_group_create(group_name)
+#	p6_aws_workspaces_ip_group_create(group_name)
 #
-# Arg(s):
-#    group_name - 
-#
+#  Args:
+#	group_name - 
 #
 #>
 ######################################################################

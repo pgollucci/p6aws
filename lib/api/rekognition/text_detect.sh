@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_rekognition_text_detect()
-#
-#
+#	p6_aws_rekognition_text_detect()
 #
 #>
 ######################################################################

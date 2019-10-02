@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_instance_snapshot_get(instance_snapshot_name)
+#	p6_aws_lightsail_instance_snapshot_get(instance_snapshot_name)
 #
-# Arg(s):
-#    instance_snapshot_name - 
-#
+#  Args:
+#	instance_snapshot_name - 
 #
 #>
 ######################################################################

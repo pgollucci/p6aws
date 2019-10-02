@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_build_describe(build_id)
+#	p6_aws_gamelift_build_describe(build_id)
 #
-# Arg(s):
-#    build_id - 
-#
+#  Args:
+#	build_id - 
 #
 #>
 ######################################################################

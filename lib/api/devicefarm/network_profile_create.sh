@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_devicefarm_network_profile_create(project_arn, name)
+#	p6_aws_devicefarm_network_profile_create(project_arn, name)
 #
-# Arg(s):
-#    project_arn - 
-#    name - 
-#
+#  Args:
+#	project_arn - 
+#	name - 
 #
 #>
 ######################################################################

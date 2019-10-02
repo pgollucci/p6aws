@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_spot_fleet_request(spot_fleet_request_config)
+#	p6_aws_ec2_spot_fleet_request(spot_fleet_request_config)
 #
-# Arg(s):
-#    spot_fleet_request_config - 
-#
+#  Args:
+#	spot_fleet_request_config - 
 #
 #>
 ######################################################################

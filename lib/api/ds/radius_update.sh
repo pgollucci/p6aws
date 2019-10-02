@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ds_radius_update(directory_id, radius_settings)
+#	p6_aws_ds_radius_update(directory_id, radius_settings)
 #
-# Arg(s):
-#    directory_id - 
-#    radius_settings - 
-#
+#  Args:
+#	directory_id - 
+#	radius_settings - 
 #
 #>
 ######################################################################

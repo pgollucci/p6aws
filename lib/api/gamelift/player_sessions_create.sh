@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_player_sessions_create(game_session_id, player_ids)
+#	p6_aws_gamelift_player_sessions_create(game_session_id, player_ids)
 #
-# Arg(s):
-#    game_session_id - 
-#    player_ids - 
-#
+#  Args:
+#	game_session_id - 
+#	player_ids - 
 #
 #>
 ######################################################################

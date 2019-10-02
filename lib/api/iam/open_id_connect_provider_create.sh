@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_open_id_connect_provider_create(url, thumbprint_list)
+#	p6_aws_iam_open_id_connect_provider_create(url, thumbprint_list)
 #
-# Arg(s):
-#    url - 
-#    thumbprint_list - 
-#
+#  Args:
+#	url - 
+#	thumbprint_list - 
 #
 #>
 ######################################################################

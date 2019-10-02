@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesis_shard_iterator_get(stream_name, shard_id, shard_iterator_type)
+#	p6_aws_kinesis_shard_iterator_get(stream_name, shard_id, shard_iterator_type)
 #
-# Arg(s):
-#    stream_name - 
-#    shard_id - 
-#    shard_iterator_type - 
-#
+#  Args:
+#	stream_name - 
+#	shard_id - 
+#	shard_iterator_type - 
 #
 #>
 ######################################################################

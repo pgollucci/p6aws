@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_neptune_role_to_db_cluster_add(db_cluster_identifier, role_arn)
+#	p6_aws_neptune_role_to_db_cluster_add(db_cluster_identifier, role_arn)
 #
-# Arg(s):
-#    db_cluster_identifier - 
-#    role_arn - 
-#
+#  Args:
+#	db_cluster_identifier - 
+#	role_arn - 
 #
 #>
 ######################################################################

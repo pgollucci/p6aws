@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_delete_partition_batch(database_name, table_name, partitions_to_delete)
+#	p6_aws_glue_delete_partition_batch(database_name, table_name, partitions_to_delete)
 #
-# Arg(s):
-#    database_name - 
-#    table_name - 
-#    partitions_to_delete - 
-#
+#  Args:
+#	database_name - 
+#	table_name - 
+#	partitions_to_delete - 
 #
 #>
 ######################################################################

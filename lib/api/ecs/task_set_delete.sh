@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_task_set_delete(cluster, service, task_set)
+#	p6_aws_ecs_task_set_delete(cluster, service, task_set)
 #
-# Arg(s):
-#    cluster - 
-#    service - 
-#    task_set - 
-#
+#  Args:
+#	cluster - 
+#	service - 
+#	task_set - 
 #
 #>
 ######################################################################

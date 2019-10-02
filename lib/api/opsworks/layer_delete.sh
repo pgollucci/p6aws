@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_layer_delete(layer_id)
+#	p6_aws_opsworks_layer_delete(layer_id)
 #
-# Arg(s):
-#    layer_id - 
-#
+#  Args:
+#	layer_id - 
 #
 #>
 ######################################################################

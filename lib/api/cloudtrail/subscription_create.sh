@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudtrail_subscription_create()
-#
-#
+#	p6_aws_cloudtrail_subscription_create()
 #
 #>
 ######################################################################

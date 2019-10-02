@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_resource_config_history_get(resource_type, resource_id)
+#	p6_aws_configservice_resource_config_history_get(resource_type, resource_id)
 #
-# Arg(s):
-#    resource_type - 
-#    resource_id - 
-#
+#  Args:
+#	resource_type - 
+#	resource_id - 
 #
 #>
 ######################################################################

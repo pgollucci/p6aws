@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_profile_get()
-#
-#
+#	p6_aws_alexaforbusiness_profile_get()
 #
 #>
 ######################################################################

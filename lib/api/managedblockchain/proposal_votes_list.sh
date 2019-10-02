@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_managedblockchain_proposal_votes_list(network_id, proposal_id)
+#	p6_aws_managedblockchain_proposal_votes_list(network_id, proposal_id)
 #
-# Arg(s):
-#    network_id - 
-#    proposal_id - 
-#
+#  Args:
+#	network_id - 
+#	proposal_id - 
 #
 #>
 ######################################################################

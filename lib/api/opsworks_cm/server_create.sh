@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_cm_server_create(server_name, instance_profile_arn, instance_type, service_role_arn)
+#	p6_aws_opsworks_cm_server_create(server_name, instance_profile_arn, instance_type, service_role_arn)
 #
-# Arg(s):
-#    server_name - 
-#    instance_profile_arn - 
-#    instance_type - 
-#    service_role_arn - 
-#
+#  Args:
+#	server_name - 
+#	instance_profile_arn - 
+#	instance_type - 
+#	service_role_arn - 
 #
 #>
 ######################################################################

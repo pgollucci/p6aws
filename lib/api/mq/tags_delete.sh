@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_mq_tags_delete(resource_arn, tag_keys)
+#	p6_aws_mq_tags_delete(resource_arn, tag_keys)
 #
-# Arg(s):
-#    resource_arn - 
-#    tag_keys - 
-#
+#  Args:
+#	resource_arn - 
+#	tag_keys - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_tag_option_create(key, value)
+#	p6_aws_servicecatalog_tag_option_create(key, value)
 #
-# Arg(s):
-#    key - 
-#    value - 
-#
+#  Args:
+#	key - 
+#	value - 
 #
 #>
 ######################################################################

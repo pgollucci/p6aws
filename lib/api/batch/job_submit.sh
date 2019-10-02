@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_batch_job_submit(job_name, job_queue, job_definition)
+#	p6_aws_batch_job_submit(job_name, job_queue, job_definition)
 #
-# Arg(s):
-#    job_name - 
-#    job_queue - 
-#    job_definition - 
-#
+#  Args:
+#	job_name - 
+#	job_queue - 
+#	job_definition - 
 #
 #>
 ######################################################################

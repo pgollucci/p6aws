@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_mobile_project_create()
-#
-#
+#	p6_aws_mobile_project_create()
 #
 #>
 ######################################################################

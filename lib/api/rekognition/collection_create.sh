@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_rekognition_collection_create(collection_id)
+#	p6_aws_rekognition_collection_create(collection_id)
 #
-# Arg(s):
-#    collection_id - 
-#
+#  Args:
+#	collection_id - 
 #
 #>
 ######################################################################

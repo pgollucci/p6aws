@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_servicediscovery_instance_register(service_id, instance_id, attributes)
+#	p6_aws_servicediscovery_instance_register(service_id, instance_id, attributes)
 #
-# Arg(s):
-#    service_id - 
-#    instance_id - 
-#    attributes - 
-#
+#  Args:
+#	service_id - 
+#	instance_id - 
+#	attributes - 
 #
 #>
 ######################################################################

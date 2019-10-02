@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_to_auth_challenge_respond(client_id, challenge_name)
+#	p6_aws_cognito_idp_to_auth_challenge_respond(client_id, challenge_name)
 #
-# Arg(s):
-#    client_id - 
-#    challenge_name - 
-#
+#  Args:
+#	client_id - 
+#	challenge_name - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_documentation_version_get(rest_api_id, documentation_version)
+#	p6_aws_apigateway_documentation_version_get(rest_api_id, documentation_version)
 #
-# Arg(s):
-#    rest_api_id - 
-#    documentation_version - 
-#
+#  Args:
+#	rest_api_id - 
+#	documentation_version - 
 #
 #>
 ######################################################################

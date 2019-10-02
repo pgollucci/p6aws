@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_invoke_authorizer_test(authorizer_name, token, token_signature)
+#	p6_aws_iot_invoke_authorizer_test(authorizer_name, token, token_signature)
 #
-# Arg(s):
-#    authorizer_name - 
-#    token - 
-#    token_signature - 
-#
+#  Args:
+#	authorizer_name - 
+#	token - 
+#	token_signature - 
 #
 #>
 ######################################################################

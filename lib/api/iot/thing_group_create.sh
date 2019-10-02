@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_thing_group_create(thing_group_name)
+#	p6_aws_iot_thing_group_create(thing_group_name)
 #
-# Arg(s):
-#    thing_group_name - 
-#
+#  Args:
+#	thing_group_name - 
 #
 #>
 ######################################################################

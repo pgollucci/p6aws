@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_mturk_hit_create(lifetime_in_seconds, assignment_duration_in_seconds, reward, title, description)
+#	p6_aws_mturk_hit_create(lifetime_in_seconds, assignment_duration_in_seconds, reward, title, description)
 #
-# Arg(s):
-#    lifetime_in_seconds - 
-#    assignment_duration_in_seconds - 
-#    reward - 
-#    title - 
-#    description - 
-#
+#  Args:
+#	lifetime_in_seconds - 
+#	assignment_duration_in_seconds - 
+#	reward - 
+#	title - 
+#	description - 
 #
 #>
 ######################################################################

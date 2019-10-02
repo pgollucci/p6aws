@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesis_stream_consumers_list(stream_arn)
+#	p6_aws_kinesis_stream_consumers_list(stream_arn)
 #
-# Arg(s):
-#    stream_arn - 
-#
+#  Args:
+#	stream_arn - 
 #
 #>
 ######################################################################

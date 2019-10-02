@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_eks_run(name)
+#	p6_aws_eks_run(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################
@@ -21,11 +20,10 @@ p6_aws_eks_run() {
 #<
 #
 # Function:
-#      = p6_aws_eks_verbose(name)
+#	p6_aws_eks_verbose(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

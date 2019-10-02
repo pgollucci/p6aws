@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_backup_backup_plan_update(backup_plan_id, backup_plan)
+#	p6_aws_backup_backup_plan_update(backup_plan_id, backup_plan)
 #
-# Arg(s):
-#    backup_plan_id - 
-#    backup_plan - 
-#
+#  Args:
+#	backup_plan_id - 
+#	backup_plan - 
 #
 #>
 ######################################################################

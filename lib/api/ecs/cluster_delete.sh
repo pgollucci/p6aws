@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_cluster_delete(cluster)
+#	p6_aws_ecs_cluster_delete(cluster)
 #
-# Arg(s):
-#    cluster - 
-#
+#  Args:
+#	cluster - 
 #
 #>
 ######################################################################

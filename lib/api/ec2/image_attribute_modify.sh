@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_image_attribute_modify(image_id)
+#	p6_aws_ec2_image_attribute_modify(image_id)
 #
-# Arg(s):
-#    image_id - 
-#
+#  Args:
+#	image_id - 
 #
 #>
 ######################################################################

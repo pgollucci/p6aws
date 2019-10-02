@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticbeanstalk_environment_managed_action_apply(action_id)
+#	p6_aws_elasticbeanstalk_environment_managed_action_apply(action_id)
 #
-# Arg(s):
-#    action_id - 
-#
+#  Args:
+#	action_id - 
 #
 #>
 ######################################################################

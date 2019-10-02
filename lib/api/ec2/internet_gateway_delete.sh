@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_internet_gateway_delete(internet_gateway_id)
+#	p6_aws_ec2_internet_gateway_delete(internet_gateway_id)
 #
-# Arg(s):
-#    internet_gateway_id - 
-#
+#  Args:
+#	internet_gateway_id - 
 #
 #>
 ######################################################################

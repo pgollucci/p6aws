@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_server_certificates_list()
-#
-#
+#	p6_aws_iam_server_certificates_list()
 #
 #>
 ######################################################################

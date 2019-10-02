@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_code_repositories_list()
-#
-#
+#	p6_aws_sagemaker_code_repositories_list()
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_unassociated_targets(window_id)
+#	p6_aws_ssm_unassociated_targets(window_id)
 #
-# Arg(s):
-#    window_id - 
-#
+#  Args:
+#	window_id - 
 #
 #>
 ######################################################################
@@ -21,11 +20,10 @@ p6_aws_ssm_unassociated_targets() {
 #<
 #
 # Function:
-#      = p6_aws_ssm_enabled(window_id)
+#	p6_aws_ssm_enabled(window_id)
 #
-# Arg(s):
-#    window_id - 
-#
+#  Args:
+#	window_id - 
 #
 #>
 ######################################################################
@@ -40,16 +38,15 @@ p6_aws_ssm_enabled() {
 #<
 #
 # Function:
-#      = p6_aws_ssm_replace(window_id, window_target_id, window_id, window_task_id, window_id, baseline_id)
+#	p6_aws_ssm_replace(window_id, window_target_id, window_id, window_task_id, window_id, baseline_id)
 #
-# Arg(s):
-#    window_id - 
-#    window_target_id - 
-#    window_id - 
-#    window_task_id - 
-#    window_id - 
-#    baseline_id - 
-#
+#  Args:
+#	window_id - 
+#	window_target_id - 
+#	window_id - 
+#	window_task_id - 
+#	window_id - 
+#	baseline_id - 
 #
 #>
 ######################################################################

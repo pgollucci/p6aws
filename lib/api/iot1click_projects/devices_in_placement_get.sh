@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iot1click_projects_devices_in_placement_get(project_name, placement_name)
+#	p6_aws_iot1click_projects_devices_in_placement_get(project_name, placement_name)
 #
-# Arg(s):
-#    project_name - 
-#    placement_name - 
-#
+#  Args:
+#	project_name - 
+#	placement_name - 
 #
 #>
 ######################################################################

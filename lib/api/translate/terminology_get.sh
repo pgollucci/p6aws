@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_translate_terminology_get(name, terminology_data_format)
+#	p6_aws_translate_terminology_get(name, terminology_data_format)
 #
-# Arg(s):
-#    name - 
-#    terminology_data_format - 
-#
+#  Args:
+#	name - 
+#	terminology_data_format - 
 #
 #>
 ######################################################################

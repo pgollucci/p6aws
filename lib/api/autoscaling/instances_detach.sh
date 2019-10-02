@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_autoscaling_instances_detach(auto_scaling_group_name, should_decrement_desired_capacity)
+#	p6_aws_autoscaling_instances_detach(auto_scaling_group_name, should_decrement_desired_capacity)
 #
-# Arg(s):
-#    auto_scaling_group_name - 
-#    should_decrement_desired_capacity - 
-#
+#  Args:
+#	auto_scaling_group_name - 
+#	should_decrement_desired_capacity - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_load_balancer_create(load_balancer_name, instance_port)
+#	p6_aws_lightsail_load_balancer_create(load_balancer_name, instance_port)
 #
-# Arg(s):
-#    load_balancer_name - 
-#    instance_port - 
-#
+#  Args:
+#	load_balancer_name - 
+#	instance_port - 
 #
 #>
 ######################################################################

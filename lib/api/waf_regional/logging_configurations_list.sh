@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_regional_logging_configurations_list()
-#
-#
+#	p6_aws_waf_regional_logging_configurations_list()
 #
 #>
 ######################################################################

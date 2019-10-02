@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_secretsmanager_resource_tag(secret_id, tags)
+#	p6_aws_secretsmanager_resource_tag(secret_id, tags)
 #
-# Arg(s):
-#    secret_id - 
-#    tags - 
-#
+#  Args:
+#	secret_id - 
+#	tags - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticache_tags_from_resource_remove(resource_name, tag_keys)
+#	p6_aws_elasticache_tags_from_resource_remove(resource_name, tag_keys)
 #
-# Arg(s):
-#    resource_name - 
-#    tag_keys - 
-#
+#  Args:
+#	resource_name - 
+#	tag_keys - 
 #
 #>
 ######################################################################

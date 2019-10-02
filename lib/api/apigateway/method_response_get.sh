@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_method_response_get(rest_api_id, resource_id, http_method, status_code)
+#	p6_aws_apigateway_method_response_get(rest_api_id, resource_id, http_method, status_code)
 #
-# Arg(s):
-#    rest_api_id - 
-#    resource_id - 
-#    http_method - 
-#    status_code - 
-#
+#  Args:
+#	rest_api_id - 
+#	resource_id - 
+#	http_method - 
+#	status_code - 
 #
 #>
 ######################################################################

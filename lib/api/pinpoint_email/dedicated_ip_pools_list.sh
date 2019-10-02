@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_email_dedicated_ip_pools_list()
-#
-#
+#	p6_aws_pinpoint_email_dedicated_ip_pools_list()
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_authorizer_describe(authorizer_name)
+#	p6_aws_iot_authorizer_describe(authorizer_name)
 #
-# Arg(s):
-#    authorizer_name - 
-#
+#  Args:
+#	authorizer_name - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_iotevents_detector_model_create(detector_model_name, detector_model_definition, role_arn)
+#	p6_aws_iotevents_detector_model_create(detector_model_name, detector_model_definition, role_arn)
 #
-# Arg(s):
-#    detector_model_name - 
-#    detector_model_definition - 
-#    role_arn - 
-#
+#  Args:
+#	detector_model_name - 
+#	detector_model_definition - 
+#	role_arn - 
 #
 #>
 ######################################################################

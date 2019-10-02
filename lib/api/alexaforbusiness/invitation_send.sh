@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_invitation_send()
-#
-#
+#	p6_aws_alexaforbusiness_invitation_send()
 #
 #>
 ######################################################################

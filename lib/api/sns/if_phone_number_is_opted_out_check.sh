@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sns_if_phone_number_is_opted_out_check(phone_number)
+#	p6_aws_sns_if_phone_number_is_opted_out_check(phone_number)
 #
-# Arg(s):
-#    phone_number - 
-#
+#  Args:
+#	phone_number - 
 #
 #>
 ######################################################################

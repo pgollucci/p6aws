@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_es_upgrade_status_get(domain_name)
+#	p6_aws_es_upgrade_status_get(domain_name)
 #
-# Arg(s):
-#    domain_name - 
-#
+#  Args:
+#	domain_name - 
 #
 #>
 ######################################################################

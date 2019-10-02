@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_db_subnet_group_delete(db_subnet_group_name)
+#	p6_aws_rds_db_subnet_group_delete(db_subnet_group_name)
 #
-# Arg(s):
-#    db_subnet_group_name - 
-#
+#  Args:
+#	db_subnet_group_name - 
 #
 #>
 ######################################################################

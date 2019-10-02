@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_deployment_create(stack_id, command)
+#	p6_aws_opsworks_deployment_create(stack_id, command)
 #
-# Arg(s):
-#    stack_id - 
-#    command - 
-#
+#  Args:
+#	stack_id - 
+#	command - 
 #
 #>
 ######################################################################

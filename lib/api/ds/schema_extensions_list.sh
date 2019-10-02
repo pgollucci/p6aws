@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ds_schema_extensions_list(directory_id)
+#	p6_aws_ds_schema_extensions_list(directory_id)
 #
-# Arg(s):
-#    directory_id - 
-#
+#  Args:
+#	directory_id - 
 #
 #>
 ######################################################################

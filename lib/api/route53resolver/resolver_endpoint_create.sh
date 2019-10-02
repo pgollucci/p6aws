@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_route53resolver_resolver_endpoint_create(creator_request_id, security_group_ids, direction, ip_addresses)
+#	p6_aws_route53resolver_resolver_endpoint_create(creator_request_id, security_group_ids, direction, ip_addresses)
 #
-# Arg(s):
-#    creator_request_id - 
-#    security_group_ids - 
-#    direction - 
-#    ip_addresses - 
-#
+#  Args:
+#	creator_request_id - 
+#	security_group_ids - 
+#	direction - 
+#	ip_addresses - 
 #
 #>
 ######################################################################

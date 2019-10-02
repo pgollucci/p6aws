@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_email_account_dedicated_ip_warmup_attributes_put()
-#
-#
+#	p6_aws_pinpoint_email_account_dedicated_ip_warmup_attributes_put()
 #
 #>
 ######################################################################

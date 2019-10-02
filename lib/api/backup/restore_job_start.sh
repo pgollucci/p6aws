@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_backup_restore_job_start(recovery_point_arn, metadata, iam_role_arn)
+#	p6_aws_backup_restore_job_start(recovery_point_arn, metadata, iam_role_arn)
 #
-# Arg(s):
-#    recovery_point_arn - 
-#    metadata - 
-#    iam_role_arn - 
-#
+#  Args:
+#	recovery_point_arn - 
+#	metadata - 
+#	iam_role_arn - 
 #
 #>
 ######################################################################

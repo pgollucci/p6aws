@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_guardduty_filters_list(detector_id)
+#	p6_aws_guardduty_filters_list(detector_id)
 #
-# Arg(s):
-#    detector_id - 
-#
+#  Args:
+#	detector_id - 
 #
 #>
 ######################################################################

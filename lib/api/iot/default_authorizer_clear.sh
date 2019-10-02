@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_default_authorizer_clear()
-#
-#
+#	p6_aws_iot_default_authorizer_clear()
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_dax_cluster_delete(cluster_name)
+#	p6_aws_dax_cluster_delete(cluster_name)
 #
-# Arg(s):
-#    cluster_name - 
-#
+#  Args:
+#	cluster_name - 
 #
 #>
 ######################################################################

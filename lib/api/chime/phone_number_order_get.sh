@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_chime_phone_number_order_get(phone_number_order_id)
+#	p6_aws_chime_phone_number_order_get(phone_number_order_id)
 #
-# Arg(s):
-#    phone_number_order_id - 
-#
+#  Args:
+#	phone_number_order_id - 
 #
 #>
 ######################################################################

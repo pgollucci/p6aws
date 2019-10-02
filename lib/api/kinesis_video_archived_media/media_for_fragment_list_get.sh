@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesis_video_archived_media_media_for_fragment_list_get(stream_name, fragments)
+#	p6_aws_kinesis_video_archived_media_media_for_fragment_list_get(stream_name, fragments)
 #
-# Arg(s):
-#    stream_name - 
-#    fragments - 
-#
+#  Args:
+#	stream_name - 
+#	fragments - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ds_conditional_forwarder_delete(directory_id, remote_domain_name)
+#	p6_aws_ds_conditional_forwarder_delete(directory_id, remote_domain_name)
 #
-# Arg(s):
-#    directory_id - 
-#    remote_domain_name - 
-#
+#  Args:
+#	directory_id - 
+#	remote_domain_name - 
 #
 #>
 ######################################################################

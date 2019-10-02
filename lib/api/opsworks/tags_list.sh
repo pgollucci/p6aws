@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_tags_list(resource_arn)
+#	p6_aws_opsworks_tags_list(resource_arn)
 #
-# Arg(s):
-#    resource_arn - 
-#
+#  Args:
+#	resource_arn - 
 #
 #>
 ######################################################################

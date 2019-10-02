@@ -2,16 +2,15 @@
 #<
 #
 # Function:
-#      = p6_aws_appsync_function_update(api_id, name, function_id, data_source_name, request_mapping_template, function_version)
+#	p6_aws_appsync_function_update(api_id, name, function_id, data_source_name, request_mapping_template, function_version)
 #
-# Arg(s):
-#    api_id - 
-#    name - 
-#    function_id - 
-#    data_source_name - 
-#    request_mapping_template - 
-#    function_version - 
-#
+#  Args:
+#	api_id - 
+#	name - 
+#	function_id - 
+#	data_source_name - 
+#	request_mapping_template - 
+#	function_version - 
 #
 #>
 ######################################################################

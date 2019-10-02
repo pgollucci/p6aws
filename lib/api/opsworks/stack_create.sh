@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_stack_create(name, service_role_arn, default_instance_profile_arn, stack_region)
+#	p6_aws_opsworks_stack_create(name, service_role_arn, default_instance_profile_arn, stack_region)
 #
-# Arg(s):
-#    name - 
-#    service_role_arn - 
-#    default_instance_profile_arn - 
-#    stack_region - 
-#
+#  Args:
+#	name - 
+#	service_role_arn - 
+#	default_instance_profile_arn - 
+#	stack_region - 
 #
 #>
 ######################################################################

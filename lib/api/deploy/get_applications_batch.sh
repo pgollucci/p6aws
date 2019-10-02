@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_deploy_get_applications_batch(application_names)
+#	p6_aws_deploy_get_applications_batch(application_names)
 #
-# Arg(s):
-#    application_names - 
-#
+#  Args:
+#	application_names - 
 #
 #>
 ######################################################################

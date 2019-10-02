@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudsearch_scaling_parameters_update(domain_name, scaling_parameters)
+#	p6_aws_cloudsearch_scaling_parameters_update(domain_name, scaling_parameters)
 #
-# Arg(s):
-#    domain_name - 
-#    scaling_parameters - 
-#
+#  Args:
+#	domain_name - 
+#	scaling_parameters - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_inspector_tags_for_resource_set(resource_arn)
+#	p6_aws_inspector_tags_for_resource_set(resource_arn)
 #
-# Arg(s):
-#    resource_arn - 
-#
+#  Args:
+#	resource_arn - 
 #
 #>
 ######################################################################

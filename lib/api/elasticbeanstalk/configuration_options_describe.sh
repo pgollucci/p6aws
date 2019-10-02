@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticbeanstalk_configuration_options_describe()
-#
-#
+#	p6_aws_elasticbeanstalk_configuration_options_describe()
 #
 #>
 ######################################################################

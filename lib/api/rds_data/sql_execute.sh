@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_data_sql_execute(aws_secret_store_arn, db_cluster_or_instance_arn, sql_statements)
+#	p6_aws_rds_data_sql_execute(aws_secret_store_arn, db_cluster_or_instance_arn, sql_statements)
 #
-# Arg(s):
-#    aws_secret_store_arn - 
-#    db_cluster_or_instance_arn - 
-#    sql_statements - 
-#
+#  Args:
+#	aws_secret_store_arn - 
+#	db_cluster_or_instance_arn - 
+#	sql_statements - 
 #
 #>
 ######################################################################

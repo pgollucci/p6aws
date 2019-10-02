@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_clouddirectory_schema_create(name)
+#	p6_aws_clouddirectory_schema_create(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

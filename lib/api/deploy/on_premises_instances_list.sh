@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_deploy_on_premises_instances_list()
-#
-#
+#	p6_aws_deploy_on_premises_instances_list()
 #
 #>
 ######################################################################

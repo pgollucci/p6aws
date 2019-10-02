@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_sts_role_with_web_identity_assume(role_arn, role_session_name, web_identity_token)
+#	p6_aws_sts_role_with_web_identity_assume(role_arn, role_session_name, web_identity_token)
 #
-# Arg(s):
-#    role_arn - 
-#    role_session_name - 
-#    web_identity_token - 
-#
+#  Args:
+#	role_arn - 
+#	role_session_name - 
+#	web_identity_token - 
 #
 #>
 ######################################################################

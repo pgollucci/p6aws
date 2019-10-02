@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_neptune_db_cluster_parameter_group_reset(db_cluster_parameter_group_name)
+#	p6_aws_neptune_db_cluster_parameter_group_reset(db_cluster_parameter_group_name)
 #
-# Arg(s):
-#    db_cluster_parameter_group_name - 
-#
+#  Args:
+#	db_cluster_parameter_group_name - 
 #
 #>
 ######################################################################

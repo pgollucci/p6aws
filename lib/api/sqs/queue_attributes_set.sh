@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_sqs_queue_attributes_set(queue_url, attributes)
+#	p6_aws_sqs_queue_attributes_set(queue_url, attributes)
 #
-# Arg(s):
-#    queue_url - 
-#    attributes - 
-#
+#  Args:
+#	queue_url - 
+#	attributes - 
 #
 #>
 ######################################################################

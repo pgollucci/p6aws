@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_parameter_history_get(name)
+#	p6_aws_ssm_parameter_history_get(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudtrail_subscription_update()
-#
-#
+#	p6_aws_cloudtrail_subscription_update()
 #
 #>
 ######################################################################

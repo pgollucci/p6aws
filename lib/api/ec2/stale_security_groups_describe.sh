@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_stale_security_groups_describe(vpc_id)
+#	p6_aws_ec2_stale_security_groups_describe(vpc_id)
 #
-# Arg(s):
-#    vpc_id - 
-#
+#  Args:
+#	vpc_id - 
 #
 #>
 ######################################################################

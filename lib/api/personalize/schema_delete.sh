@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_personalize_schema_delete(schema_arn)
+#	p6_aws_personalize_schema_delete(schema_arn)
 #
-# Arg(s):
-#    schema_arn - 
-#
+#  Args:
+#	schema_arn - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_resourcegroupstaggingapi_resources_untag(resource_arn_list, tag_keys)
+#	p6_aws_resourcegroupstaggingapi_resources_untag(resource_arn_list, tag_keys)
 #
-# Arg(s):
-#    resource_arn_list - 
-#    tag_keys - 
-#
+#  Args:
+#	resource_arn_list - 
+#	tag_keys - 
 #
 #>
 ######################################################################

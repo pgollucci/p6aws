@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticbeanstalk_environment_terminate()
-#
-#
+#	p6_aws_elasticbeanstalk_environment_terminate()
 #
 #>
 ######################################################################

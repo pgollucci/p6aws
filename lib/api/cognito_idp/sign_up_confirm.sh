@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_sign_up_confirm(client_id, username, confirmation_code)
+#	p6_aws_cognito_idp_sign_up_confirm(client_id, username, confirmation_code)
 #
-# Arg(s):
-#    client_id - 
-#    username - 
-#    confirmation_code - 
-#
+#  Args:
+#	client_id - 
+#	username - 
+#	confirmation_code - 
 #
 #>
 ######################################################################

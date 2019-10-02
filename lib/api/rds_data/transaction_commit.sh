@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_data_transaction_commit(resource_arn, secret_arn, transaction_id)
+#	p6_aws_rds_data_transaction_commit(resource_arn, secret_arn, transaction_id)
 #
-# Arg(s):
-#    resource_arn - 
-#    secret_arn - 
-#    transaction_id - 
-#
+#  Args:
+#	resource_arn - 
+#	secret_arn - 
+#	transaction_id - 
 #
 #>
 ######################################################################

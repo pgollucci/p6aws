@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_inverted(health_check_id)
+#	p6_aws_route53_inverted(health_check_id)
 #
-# Arg(s):
-#    health_check_id - 
-#
+#  Args:
+#	health_check_id - 
 #
 #>
 ######################################################################
@@ -21,11 +20,10 @@ p6_aws_route53_inverted() {
 #<
 #
 # Function:
-#      = p6_aws_route53_disabled(health_check_id)
+#	p6_aws_route53_disabled(health_check_id)
 #
-# Arg(s):
-#    health_check_id - 
-#
+#  Args:
+#	health_check_id - 
 #
 #>
 ######################################################################
@@ -40,11 +38,10 @@ p6_aws_route53_disabled() {
 #<
 #
 # Function:
-#      = p6_aws_route53_sni(health_check_id)
+#	p6_aws_route53_sni(health_check_id)
 #
-# Arg(s):
-#    health_check_id - 
-#
+#  Args:
+#	health_check_id - 
 #
 #>
 ######################################################################

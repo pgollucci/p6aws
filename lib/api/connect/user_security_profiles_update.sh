@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_connect_user_security_profiles_update(security_profile_ids, user_id, instance_id)
+#	p6_aws_connect_user_security_profiles_update(security_profile_ids, user_id, instance_id)
 #
-# Arg(s):
-#    security_profile_ids - 
-#    user_id - 
-#    instance_id - 
-#
+#  Args:
+#	security_profile_ids - 
+#	user_id - 
+#	instance_id - 
 #
 #>
 ######################################################################

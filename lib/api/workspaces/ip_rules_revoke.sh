@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_workspaces_ip_rules_revoke(group_id, user_rules)
+#	p6_aws_workspaces_ip_rules_revoke(group_id, user_rules)
 #
-# Arg(s):
-#    group_id - 
-#    user_rules - 
-#
+#  Args:
+#	group_id - 
+#	user_rules - 
 #
 #>
 ######################################################################

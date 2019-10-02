@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_rate_based_rule_managed_keys_get(rule_id)
+#	p6_aws_waf_rate_based_rule_managed_keys_get(rule_id)
 #
-# Arg(s):
-#    rule_id - 
-#
+#  Args:
+#	rule_id - 
 #
 #>
 ######################################################################

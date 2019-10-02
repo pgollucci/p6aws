@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_workdocs_user_delete(user_id)
+#	p6_aws_workdocs_user_delete(user_id)
 #
-# Arg(s):
-#    user_id - 
-#
+#  Args:
+#	user_id - 
 #
 #>
 ######################################################################

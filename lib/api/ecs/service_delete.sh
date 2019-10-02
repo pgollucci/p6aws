@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_service_delete(service)
+#	p6_aws_ecs_service_delete(service)
 #
-# Arg(s):
-#    service - 
-#
+#  Args:
+#	service - 
 #
 #>
 ######################################################################

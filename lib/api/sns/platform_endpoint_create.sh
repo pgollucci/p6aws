@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_sns_platform_endpoint_create(platform_application_arn, token)
+#	p6_aws_sns_platform_endpoint_create(platform_application_arn, token)
 #
-# Arg(s):
-#    platform_application_arn - 
-#    token - 
-#
+#  Args:
+#	platform_application_arn - 
+#	token - 
 #
 #>
 ######################################################################

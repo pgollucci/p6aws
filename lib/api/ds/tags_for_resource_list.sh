@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ds_tags_for_resource_list(resource_id)
+#	p6_aws_ds_tags_for_resource_list(resource_id)
 #
-# Arg(s):
-#    resource_id - 
-#
+#  Args:
+#	resource_id - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_receipt_rule_create(rule_set_name, rule)
+#	p6_aws_ses_receipt_rule_create(rule_set_name, rule)
 #
-# Arg(s):
-#    rule_set_name - 
-#    rule - 
-#
+#  Args:
+#	rule_set_name - 
+#	rule - 
 #
 #>
 ######################################################################

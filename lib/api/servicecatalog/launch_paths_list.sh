@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_launch_paths_list(product_id)
+#	p6_aws_servicecatalog_launch_paths_list(product_id)
 #
-# Arg(s):
-#    product_id - 
-#
+#  Args:
+#	product_id - 
 #
 #>
 ######################################################################

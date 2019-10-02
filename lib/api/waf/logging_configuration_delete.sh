@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_logging_configuration_delete(resource_arn)
+#	p6_aws_waf_logging_configuration_delete(resource_arn)
 #
-# Arg(s):
-#    resource_arn - 
-#
+#  Args:
+#	resource_arn - 
 #
 #>
 ######################################################################

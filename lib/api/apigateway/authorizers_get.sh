@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_authorizers_get(rest_api_id)
+#	p6_aws_apigateway_authorizers_get(rest_api_id)
 #
-# Arg(s):
-#    rest_api_id - 
-#
+#  Args:
+#	rest_api_id - 
 #
 #>
 ######################################################################

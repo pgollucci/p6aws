@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_traffic_policy_version_create(id, document)
+#	p6_aws_route53_traffic_policy_version_create(id, document)
 #
-# Arg(s):
-#    id - 
-#    document - 
-#
+#  Args:
+#	id - 
+#	document - 
 #
 #>
 ######################################################################

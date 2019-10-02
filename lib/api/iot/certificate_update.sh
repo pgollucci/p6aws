@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_certificate_update(certificate_id, new_status)
+#	p6_aws_iot_certificate_update(certificate_id, new_status)
 #
-# Arg(s):
-#    certificate_id - 
-#    new_status - 
-#
+#  Args:
+#	certificate_id - 
+#	new_status - 
 #
 #>
 ######################################################################

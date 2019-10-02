@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_provisioning_artifact_describe(provisioning_artifact_id, product_id)
+#	p6_aws_servicecatalog_provisioning_artifact_describe(provisioning_artifact_id, product_id)
 #
-# Arg(s):
-#    provisioning_artifact_id - 
-#    product_id - 
-#
+#  Args:
+#	provisioning_artifact_id - 
+#	product_id - 
 #
 #>
 ######################################################################

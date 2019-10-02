@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kafka_bootstrap_brokers_get(cluster_arn)
+#	p6_aws_kafka_bootstrap_brokers_get(cluster_arn)
 #
-# Arg(s):
-#    cluster_arn - 
-#
+#  Args:
+#	cluster_arn - 
 #
 #>
 ######################################################################

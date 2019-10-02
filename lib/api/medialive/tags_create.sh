@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_medialive_tags_create(resource_arn)
+#	p6_aws_medialive_tags_create(resource_arn)
 #
-# Arg(s):
-#    resource_arn - 
-#
+#  Args:
+#	resource_arn - 
 #
 #>
 ######################################################################

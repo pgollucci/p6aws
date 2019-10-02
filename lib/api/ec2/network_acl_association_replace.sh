@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_network_acl_association_replace(association_id, network_acl_id)
+#	p6_aws_ec2_network_acl_association_replace(association_id, network_acl_id)
 #
-# Arg(s):
-#    association_id - 
-#    network_acl_id - 
-#
+#  Args:
+#	association_id - 
+#	network_acl_id - 
 #
 #>
 ######################################################################

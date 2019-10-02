@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_connect_federation_token_get(instance_id)
+#	p6_aws_connect_federation_token_get(instance_id)
 #
-# Arg(s):
-#    instance_id - 
-#
+#  Args:
+#	instance_id - 
 #
 #>
 ######################################################################

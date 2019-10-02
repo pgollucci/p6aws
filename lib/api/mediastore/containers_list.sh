@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_mediastore_containers_list()
-#
-#
+#	p6_aws_mediastore_containers_list()
 #
 #>
 ######################################################################

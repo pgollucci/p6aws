@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_workmail_mailbox_details_get(organization_id, user_id)
+#	p6_aws_workmail_mailbox_details_get(organization_id, user_id)
 #
-# Arg(s):
-#    organization_id - 
-#    user_id - 
-#
+#  Args:
+#	organization_id - 
+#	user_id - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_regional_logging_configuration_put(logging_configuration)
+#	p6_aws_waf_regional_logging_configuration_put(logging_configuration)
 #
-# Arg(s):
-#    logging_configuration - 
-#
+#  Args:
+#	logging_configuration - 
 #
 #>
 ######################################################################

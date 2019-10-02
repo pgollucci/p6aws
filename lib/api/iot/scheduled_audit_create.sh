@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_scheduled_audit_create(frequency, target_check_names, scheduled_audit_name)
+#	p6_aws_iot_scheduled_audit_create(frequency, target_check_names, scheduled_audit_name)
 #
-# Arg(s):
-#    frequency - 
-#    target_check_names - 
-#    scheduled_audit_name - 
-#
+#  Args:
+#	frequency - 
+#	target_check_names - 
+#	scheduled_audit_name - 
 #
 #>
 ######################################################################

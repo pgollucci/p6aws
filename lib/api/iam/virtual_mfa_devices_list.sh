@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_virtual_mfa_devices_list()
-#
-#
+#	p6_aws_iam_virtual_mfa_devices_list()
 #
 #>
 ######################################################################

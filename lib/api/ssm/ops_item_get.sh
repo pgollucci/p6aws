@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_ops_item_get(ops_item_id)
+#	p6_aws_ssm_ops_item_get(ops_item_id)
 #
-# Arg(s):
-#    ops_item_id - 
-#
+#  Args:
+#	ops_item_id - 
 #
 #>
 ######################################################################

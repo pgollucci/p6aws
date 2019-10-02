@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_service_setting_update(setting_id, setting_value)
+#	p6_aws_ssm_service_setting_update(setting_id, setting_value)
 #
-# Arg(s):
-#    setting_id - 
-#    setting_value - 
-#
+#  Args:
+#	setting_id - 
+#	setting_value - 
 #
 #>
 ######################################################################

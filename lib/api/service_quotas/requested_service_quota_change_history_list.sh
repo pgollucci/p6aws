@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_service_quotas_requested_service_quota_change_history_list()
-#
-#
+#	p6_aws_service_quotas_requested_service_quota_change_history_list()
 #
 #>
 ######################################################################

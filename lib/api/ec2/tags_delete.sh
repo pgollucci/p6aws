@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_tags_delete(resources)
+#	p6_aws_ec2_tags_delete(resources)
 #
-# Arg(s):
-#    resources - 
-#
+#  Args:
+#	resources - 
 #
 #>
 ######################################################################

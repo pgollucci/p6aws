@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_quicksight_dashboard_embed_url_get(aws_account_id, dashboard_id, identity_type)
+#	p6_aws_quicksight_dashboard_embed_url_get(aws_account_id, dashboard_id, identity_type)
 #
-# Arg(s):
-#    aws_account_id - 
-#    dashboard_id - 
-#    identity_type - 
-#
+#  Args:
+#	aws_account_id - 
+#	dashboard_id - 
+#	identity_type - 
 #
 #>
 ######################################################################

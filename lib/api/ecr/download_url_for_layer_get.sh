@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ecr_download_url_for_layer_get(repository_name, layer_digest)
+#	p6_aws_ecr_download_url_for_layer_get(repository_name, layer_digest)
 #
-# Arg(s):
-#    repository_name - 
-#    layer_digest - 
-#
+#  Args:
+#	repository_name - 
+#	layer_digest - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_usage_plans_get()
-#
-#
+#	p6_aws_apigateway_usage_plans_get()
 #
 #>
 ######################################################################

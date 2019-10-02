@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_import_job_get(application_id, job_id)
+#	p6_aws_pinpoint_import_job_get(application_id, job_id)
 #
-# Arg(s):
-#    application_id - 
-#    job_id - 
-#
+#  Args:
+#	application_id - 
+#	job_id - 
 #
 #>
 ######################################################################

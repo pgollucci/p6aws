@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_sqs_queue_tag(queue_url, tags)
+#	p6_aws_sqs_queue_tag(queue_url, tags)
 #
-# Arg(s):
-#    queue_url - 
-#    tags - 
-#
+#  Args:
+#	queue_url - 
+#	tags - 
 #
 #>
 ######################################################################

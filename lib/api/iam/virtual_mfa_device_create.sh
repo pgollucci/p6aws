@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_virtual_mfa_device_create(virtual_mfa_device_name, outfile, bootstrap_method)
+#	p6_aws_iam_virtual_mfa_device_create(virtual_mfa_device_name, outfile, bootstrap_method)
 #
-# Arg(s):
-#    virtual_mfa_device_name - 
-#    outfile - 
-#    bootstrap_method - 
-#
+#  Args:
+#	virtual_mfa_device_name - 
+#	outfile - 
+#	bootstrap_method - 
 #
 #>
 ######################################################################

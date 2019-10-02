@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_sns_subscription_attributes_set(subscription_arn, attribute_name)
+#	p6_aws_sns_subscription_attributes_set(subscription_arn, attribute_name)
 #
-# Arg(s):
-#    subscription_arn - 
-#    attribute_name - 
-#
+#  Args:
+#	subscription_arn - 
+#	attribute_name - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_xss_match_set_update(xss_match_set_id, change_token, updates)
+#	p6_aws_waf_xss_match_set_update(xss_match_set_id, change_token, updates)
 #
-# Arg(s):
-#    xss_match_set_id - 
-#    change_token - 
-#    updates - 
-#
+#  Args:
+#	xss_match_set_id - 
+#	change_token - 
+#	updates - 
 #
 #>
 ######################################################################

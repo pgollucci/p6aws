@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_clouddirectory_to_index_attach(directory_arn, index_reference, target_reference)
+#	p6_aws_clouddirectory_to_index_attach(directory_arn, index_reference, target_reference)
 #
-# Arg(s):
-#    directory_arn - 
-#    index_reference - 
-#    target_reference - 
-#
+#  Args:
+#	directory_arn - 
+#	index_reference - 
+#	target_reference - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_devicefarm_device_pool_create(project_arn, name, rules)
+#	p6_aws_devicefarm_device_pool_create(project_arn, name, rules)
 #
-# Arg(s):
-#    project_arn - 
-#    name - 
-#    rules - 
-#
+#  Args:
+#	project_arn - 
+#	name - 
+#	rules - 
 #
 #>
 ######################################################################

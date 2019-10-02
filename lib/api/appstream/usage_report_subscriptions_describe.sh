@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_appstream_usage_report_subscriptions_describe()
-#
-#
+#	p6_aws_appstream_usage_report_subscriptions_describe()
 #
 #>
 ######################################################################

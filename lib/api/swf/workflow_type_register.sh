@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_swf_workflow_type_register(domain, name, workflow_version)
+#	p6_aws_swf_workflow_type_register(domain, name, workflow_version)
 #
-# Arg(s):
-#    domain - 
-#    name - 
-#    workflow_version - 
-#
+#  Args:
+#	domain - 
+#	name - 
+#	workflow_version - 
 #
 #>
 ######################################################################

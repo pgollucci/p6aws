@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_v2_logging_options_get()
-#
-#
+#	p6_aws_iot_v2_logging_options_get()
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpc_endpoint_connections_accept(service_id, vpc_endpoint_ids)
+#	p6_aws_ec2_vpc_endpoint_connections_accept(service_id, vpc_endpoint_ids)
 #
-# Arg(s):
-#    service_id - 
-#    vpc_endpoint_ids - 
-#
+#  Args:
+#	service_id - 
+#	vpc_endpoint_ids - 
 #
 #>
 ######################################################################

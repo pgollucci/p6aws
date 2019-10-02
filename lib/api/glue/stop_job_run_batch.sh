@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_stop_job_run_batch(job_name, job_run_ids)
+#	p6_aws_glue_stop_job_run_batch(job_name, job_run_ids)
 #
-# Arg(s):
-#    job_name - 
-#    job_run_ids - 
-#
+#  Args:
+#	job_name - 
+#	job_run_ids - 
 #
 #>
 ######################################################################

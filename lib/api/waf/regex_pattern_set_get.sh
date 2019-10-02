@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_regex_pattern_set_get(regex_pattern_set_id)
+#	p6_aws_waf_regex_pattern_set_get(regex_pattern_set_id)
 #
-# Arg(s):
-#    regex_pattern_set_id - 
-#
+#  Args:
+#	regex_pattern_set_id - 
 #
 #>
 ######################################################################

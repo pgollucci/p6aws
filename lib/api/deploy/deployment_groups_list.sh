@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_deploy_deployment_groups_list(application_name)
+#	p6_aws_deploy_deployment_groups_list(application_name)
 #
-# Arg(s):
-#    application_name - 
-#
+#  Args:
+#	application_name - 
 #
 #>
 ######################################################################

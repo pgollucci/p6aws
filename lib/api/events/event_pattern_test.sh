@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_events_event_pattern_test(event_pattern, event)
+#	p6_aws_events_event_pattern_test(event_pattern, event)
 #
-# Arg(s):
-#    event_pattern - 
-#    event - 
-#
+#  Args:
+#	event_pattern - 
+#	event - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iotthingsgraph_flow_execution_messages_list(flow_execution_id)
+#	p6_aws_iotthingsgraph_flow_execution_messages_list(flow_execution_id)
 #
-# Arg(s):
-#    flow_execution_id - 
-#
+#  Args:
+#	flow_execution_id - 
 #
 #>
 ######################################################################

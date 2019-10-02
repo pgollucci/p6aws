@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_fleets_delete(fleet_ids, terminate_instances)
+#	p6_aws_ec2_fleets_delete(fleet_ids, terminate_instances)
 #
-# Arg(s):
-#    fleet_ids - 
-#    terminate_instances - 
-#
+#  Args:
+#	fleet_ids - 
+#	terminate_instances - 
 #
 #>
 ######################################################################

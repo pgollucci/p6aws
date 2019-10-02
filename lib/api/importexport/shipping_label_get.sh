@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_importexport_shipping_label_get(job_ids)
+#	p6_aws_importexport_shipping_label_get(job_ids)
 #
-# Arg(s):
-#    job_ids - 
-#
+#  Args:
+#	job_ids - 
 #
 #>
 ######################################################################

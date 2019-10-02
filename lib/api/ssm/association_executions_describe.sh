@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_association_executions_describe(association_id)
+#	p6_aws_ssm_association_executions_describe(association_id)
 #
-# Arg(s):
-#    association_id - 
-#
+#  Args:
+#	association_id - 
 #
 #>
 ######################################################################

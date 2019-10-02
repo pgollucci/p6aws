@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_cm_server_engine_attributes_update(server_name, attribute_name)
+#	p6_aws_opsworks_cm_server_engine_attributes_update(server_name, attribute_name)
 #
-# Arg(s):
-#    server_name - 
-#    attribute_name - 
-#
+#  Args:
+#	server_name - 
+#	attribute_name - 
 #
 #>
 ######################################################################

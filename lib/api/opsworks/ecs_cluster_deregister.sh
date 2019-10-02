@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_ecs_cluster_deregister(ecs_cluster_arn)
+#	p6_aws_opsworks_ecs_cluster_deregister(ecs_cluster_arn)
 #
-# Arg(s):
-#    ecs_cluster_arn - 
-#
+#  Args:
+#	ecs_cluster_arn - 
 #
 #>
 ######################################################################

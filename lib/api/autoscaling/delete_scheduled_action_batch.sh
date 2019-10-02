@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_autoscaling_delete_scheduled_action_batch(auto_scaling_group_name, scheduled_action_names)
+#	p6_aws_autoscaling_delete_scheduled_action_batch(auto_scaling_group_name, scheduled_action_names)
 #
-# Arg(s):
-#    auto_scaling_group_name - 
-#    scheduled_action_names - 
-#
+#  Args:
+#	auto_scaling_group_name - 
+#	scheduled_action_names - 
 #
 #>
 ######################################################################

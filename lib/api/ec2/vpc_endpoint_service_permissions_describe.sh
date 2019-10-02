@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpc_endpoint_service_permissions_describe(service_id)
+#	p6_aws_ec2_vpc_endpoint_service_permissions_describe(service_id)
 #
-# Arg(s):
-#    service_id - 
-#
+#  Args:
+#	service_id - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_maintenance_window_execution_task_get(window_execution_id, task_id)
+#	p6_aws_ssm_maintenance_window_execution_task_get(window_execution_id, task_id)
 #
-# Arg(s):
-#    window_execution_id - 
-#    task_id - 
-#
+#  Args:
+#	window_execution_id - 
+#	task_id - 
 #
 #>
 ######################################################################

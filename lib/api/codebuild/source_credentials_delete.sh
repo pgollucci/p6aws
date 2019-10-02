@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codebuild_source_credentials_delete(arn)
+#	p6_aws_codebuild_source_credentials_delete(arn)
 #
-# Arg(s):
-#    arn - 
-#
+#  Args:
+#	arn - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_worklink_identity_provider_configuration_update(fleet_arn, identity_provider_type)
+#	p6_aws_worklink_identity_provider_configuration_update(fleet_arn, identity_provider_type)
 #
-# Arg(s):
-#    fleet_arn - 
-#    identity_provider_type - 
-#
+#  Args:
+#	fleet_arn - 
+#	identity_provider_type - 
 #
 #>
 ######################################################################

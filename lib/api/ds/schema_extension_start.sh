@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_ds_schema_extension_start(directory_id, create_snapshot_before_schema_extension, ldif_content, description)
+#	p6_aws_ds_schema_extension_start(directory_id, create_snapshot_before_schema_extension, ldif_content, description)
 #
-# Arg(s):
-#    directory_id - 
-#    create_snapshot_before_schema_extension - 
-#    ldif_content - 
-#    description - 
-#
+#  Args:
+#	directory_id - 
+#	create_snapshot_before_schema_extension - 
+#	ldif_content - 
+#	description - 
 #
 #>
 ######################################################################

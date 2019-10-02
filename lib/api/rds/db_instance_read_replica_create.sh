@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_db_instance_read_replica_create(db_instance_identifier, source_db_instance_identifier)
+#	p6_aws_rds_db_instance_read_replica_create(db_instance_identifier, source_db_instance_identifier)
 #
-# Arg(s):
-#    db_instance_identifier - 
-#    source_db_instance_identifier - 
-#
+#  Args:
+#	db_instance_identifier - 
+#	source_db_instance_identifier - 
 #
 #>
 ######################################################################

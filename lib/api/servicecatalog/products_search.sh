@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_products_search()
-#
-#
+#	p6_aws_servicecatalog_products_search()
 #
 #>
 ######################################################################

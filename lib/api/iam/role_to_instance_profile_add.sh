@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_role_to_instance_profile_add(instance_profile_name, role_name)
+#	p6_aws_iam_role_to_instance_profile_add(instance_profile_name, role_name)
 #
-# Arg(s):
-#    instance_profile_name - 
-#    role_name - 
-#
+#  Args:
+#	instance_profile_name - 
+#	role_name - 
 #
 #>
 ######################################################################

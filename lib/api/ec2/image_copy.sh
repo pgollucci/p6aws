@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_image_copy(name, source_image_id, source_region)
+#	p6_aws_ec2_image_copy(name, source_image_id, source_region)
 #
-# Arg(s):
-#    name - 
-#    source_image_id - 
-#    source_region - 
-#
+#  Args:
+#	name - 
+#	source_image_id - 
+#	source_region - 
 #
 #>
 ######################################################################

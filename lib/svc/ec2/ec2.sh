@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_svc_instance_show(instance_id)
+#	p6_aws_ec2_svc_instance_show(instance_id)
 #
-# Arg(s):
-#    instance_id - 
-#
+#  Args:
+#	instance_id - 
 #
 #>
 ######################################################################
@@ -20,11 +19,10 @@ p6_aws_ec2_svc_instance_show() {
 #<
 #
 # Function:
-#      = p6_aws_ec2_svc_instances_list([vpc_id])
+#	p6_aws_ec2_svc_instances_list([vpc_id=$AWS_VPC])
 #
-# Arg(s):
-#    vpc_id - 
-#
+#  Args:
+#	OPTIONAL vpc_id -  [$AWS_VPC]
 #
 #>
 ######################################################################
@@ -41,13 +39,13 @@ p6_aws_ec2_svc_instances_list() {
 #<
 #
 # Function:
-#     $instance_id = p6_aws_ec2_svc_instance_id_from_name_tag(name)
+#	unkown instance_id = p6_aws_ec2_svc_instance_id_from_name_tag(name)
 #
-# Arg(s):
-#    name - 
+#  Args:
+#	name - 
 #
-# Return(s):
-#    $instance_id - 
+#  Returns:
+#	unkown - instance_id
 #
 #>
 ######################################################################
@@ -69,13 +67,13 @@ p6_aws_ec2_svc_instance_id_from_name_tag() {
 #<
 #
 # Function:
-#     $private_ip = p6_aws_ec2_svc_instance_private_ip(instance_id)
+#	unkown private_ip = p6_aws_ec2_svc_instance_private_ip(instance_id)
 #
-# Arg(s):
-#    instance_id - 
+#  Args:
+#	instance_id - 
 #
-# Return(s):
-#    $private_ip - 
+#  Returns:
+#	unkown - private_ip
 #
 #>
 ######################################################################
@@ -94,13 +92,13 @@ p6_aws_ec2_svc_instance_private_ip() {
 #<
 #
 # Function:
-#     $public_ip = p6_aws_ec2_svc_instance_public_ip(instance_id)
+#	unkown public_ip = p6_aws_ec2_svc_instance_public_ip(instance_id)
 #
-# Arg(s):
-#    instance_id - 
+#  Args:
+#	instance_id - 
 #
-# Return(s):
-#    $public_ip - 
+#  Returns:
+#	unkown - public_ip
 #
 #>
 ######################################################################
@@ -119,19 +117,19 @@ p6_aws_ec2_svc_instance_public_ip() {
 #<
 #
 # Function:
-#     $instance_id = p6_aws_ec2_svc_instance_create(name, ami_id, [instance_type], sg_ids, subnet_id, key_name, user_data)
+#	unkown instance_id = p6_aws_ec2_svc_instance_create(name, ami_id, [instance_type=t3a.nano], sg_ids, subnet_id, key_name, [user_data=])
 #
-# Arg(s):
-#    name - 
-#    ami_id - 
-#    instance_type - 
-#    sg_ids - 
-#    subnet_id - 
-#    key_name - 
-#    user_data - 
+#  Args:
+#	name - 
+#	ami_id - 
+#	OPTIONAL instance_type -  [t3a.nano]
+#	sg_ids - 
+#	subnet_id - 
+#	key_name - 
+#	OPTIONAL user_data -  []
 #
-# Return(s):
-#    $instance_id - 
+#  Returns:
+#	unkown - instance_id
 #
 #>
 ######################################################################
@@ -166,15 +164,14 @@ p6_aws_ec2_svc_instance_create() {
 #<
 #
 # Function:
-#      = p6_aws_ec2_svc_launch_template_create(lt_name, ami_id, [instance_type], sg_ids, key_name)
+#	p6_aws_ec2_svc_launch_template_create(lt_name, ami_id, [instance_type=t3a.nano], sg_ids, key_name)
 #
-# Arg(s):
-#    lt_name - 
-#    ami_id - 
-#    instance_type - 
-#    sg_ids - 
-#    key_name - 
-#
+#  Args:
+#	lt_name - 
+#	ami_id - 
+#	OPTIONAL instance_type -  [t3a.nano]
+#	sg_ids - 
+#	key_name - 
 #
 #>
 ######################################################################
@@ -206,9 +203,7 @@ p6_aws_ec2_svc_launch_template_create() {
 #<
 #
 # Function:
-#      = p6_aws_ec2_svc_launch_templates_list()
-#
-#
+#	p6_aws_ec2_svc_launch_templates_list()
 #
 #>
 ######################################################################
@@ -223,9 +218,7 @@ p6_aws_ec2_svc_launch_templates_list() {
 #<
 #
 # Function:
-#      = p6_aws_ec2_svc_volumes_list()
-#
-#
+#	p6_aws_ec2_svc_volumes_list()
 #
 #>
 ######################################################################

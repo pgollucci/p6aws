@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_volume_delete(volume_id)
+#	p6_aws_ec2_volume_delete(volume_id)
 #
-# Arg(s):
-#    volume_id - 
-#
+#  Args:
+#	volume_id - 
 #
 #>
 ######################################################################

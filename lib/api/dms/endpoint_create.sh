@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_dms_endpoint_create(endpoint_identifier, endpoint_type, engine_name)
+#	p6_aws_dms_endpoint_create(endpoint_identifier, endpoint_type, engine_name)
 #
-# Arg(s):
-#    endpoint_identifier - 
-#    endpoint_type - 
-#    engine_name - 
-#
+#  Args:
+#	endpoint_identifier - 
+#	endpoint_type - 
+#	engine_name - 
 #
 #>
 ######################################################################

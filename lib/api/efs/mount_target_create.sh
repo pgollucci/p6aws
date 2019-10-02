@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_efs_mount_target_create(file_system_id, subnet_id)
+#	p6_aws_efs_mount_target_create(file_system_id, subnet_id)
 #
-# Arg(s):
-#    file_system_id - 
-#    subnet_id - 
-#
+#  Args:
+#	file_system_id - 
+#	subnet_id - 
 #
 #>
 ######################################################################

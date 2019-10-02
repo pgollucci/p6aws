@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_role_policy_attach(role_name, policy_arn)
+#	p6_aws_iam_role_policy_attach(role_name, policy_arn)
 #
-# Arg(s):
-#    role_name - 
-#    policy_arn - 
-#
+#  Args:
+#	role_name - 
+#	policy_arn - 
 #
 #>
 ######################################################################

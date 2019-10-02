@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_policy_get(policy_arn)
+#	p6_aws_iam_policy_get(policy_arn)
 #
-# Arg(s):
-#    policy_arn - 
-#
+#  Args:
+#	policy_arn - 
 #
 #>
 ######################################################################

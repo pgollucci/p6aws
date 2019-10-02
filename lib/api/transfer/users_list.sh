@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_transfer_users_list(server_id)
+#	p6_aws_transfer_users_list(server_id)
 #
-# Arg(s):
-#    server_id - 
-#
+#  Args:
+#	server_id - 
 #
 #>
 ######################################################################

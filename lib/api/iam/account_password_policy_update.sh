@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_account_password_policy_update()
-#
-#
+#	p6_aws_iam_account_password_policy_update()
 #
 #>
 ######################################################################

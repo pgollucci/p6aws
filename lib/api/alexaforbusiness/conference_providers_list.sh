@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_conference_providers_list()
-#
-#
+#	p6_aws_alexaforbusiness_conference_providers_list()
 #
 #>
 ######################################################################

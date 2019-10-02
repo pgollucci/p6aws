@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_machinelearning_ml_models_describe()
-#
-#
+#	p6_aws_machinelearning_ml_models_describe()
 #
 #>
 ######################################################################

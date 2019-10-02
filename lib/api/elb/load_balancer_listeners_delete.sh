@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elb_load_balancer_listeners_delete(load_balancer_name, load_balancer_ports)
+#	p6_aws_elb_load_balancer_listeners_delete(load_balancer_name, load_balancer_ports)
 #
-# Arg(s):
-#    load_balancer_name - 
-#    load_balancer_ports - 
-#
+#  Args:
+#	load_balancer_name - 
+#	load_balancer_ports - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_stage_create(rest_api_id, stage_name, deployment_id)
+#	p6_aws_apigateway_stage_create(rest_api_id, stage_name, deployment_id)
 #
-# Arg(s):
-#    rest_api_id - 
-#    stage_name - 
-#    deployment_id - 
-#
+#  Args:
+#	rest_api_id - 
+#	stage_name - 
+#	deployment_id - 
 #
 #>
 ######################################################################

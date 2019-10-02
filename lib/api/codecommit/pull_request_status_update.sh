@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_codecommit_pull_request_status_update(pull_request_id, pull_request_status)
+#	p6_aws_codecommit_pull_request_status_update(pull_request_id, pull_request_status)
 #
-# Arg(s):
-#    pull_request_id - 
-#    pull_request_status - 
-#
+#  Args:
+#	pull_request_id - 
+#	pull_request_status - 
 #
 #>
 ######################################################################

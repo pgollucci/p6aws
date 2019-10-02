@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_devicefarm_vpce_configurations_list()
-#
-#
+#	p6_aws_devicefarm_vpce_configurations_list()
 #
 #>
 ######################################################################

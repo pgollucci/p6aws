@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_route53domains_operations_list()
-#
-#
+#	p6_aws_route53domains_operations_list()
 #
 #>
 ######################################################################

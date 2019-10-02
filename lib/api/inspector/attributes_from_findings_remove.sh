@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_inspector_attributes_from_findings_remove(finding_arns, attribute_keys)
+#	p6_aws_inspector_attributes_from_findings_remove(finding_arns, attribute_keys)
 #
-# Arg(s):
-#    finding_arns - 
-#    attribute_keys - 
-#
+#  Args:
+#	finding_arns - 
+#	attribute_keys - 
 #
 #>
 ######################################################################

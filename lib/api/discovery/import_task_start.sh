@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_discovery_import_task_start(name, import_url)
+#	p6_aws_discovery_import_task_start(name, import_url)
 #
-# Arg(s):
-#    name - 
-#    import_url - 
-#
+#  Args:
+#	name - 
+#	import_url - 
 #
 #>
 ######################################################################

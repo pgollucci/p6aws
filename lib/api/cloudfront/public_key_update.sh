@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudfront_public_key_update(public_key_config, id)
+#	p6_aws_cloudfront_public_key_update(public_key_config, id)
 #
-# Arg(s):
-#    public_key_config - 
-#    id - 
-#
+#  Args:
+#	public_key_config - 
+#	id - 
 #
 #>
 ######################################################################

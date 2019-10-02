@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_db_cluster_create(db_cluster_identifier, engine)
+#	p6_aws_rds_db_cluster_create(db_cluster_identifier, engine)
 #
-# Arg(s):
-#    db_cluster_identifier - 
-#    engine - 
-#
+#  Args:
+#	db_cluster_identifier - 
+#	engine - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_provisioning_artifact_delete(product_id, provisioning_artifact_id)
+#	p6_aws_servicecatalog_provisioning_artifact_delete(product_id, provisioning_artifact_id)
 #
-# Arg(s):
-#    product_id - 
-#    provisioning_artifact_id - 
-#
+#  Args:
+#	product_id - 
+#	provisioning_artifact_id - 
 #
 #>
 ######################################################################

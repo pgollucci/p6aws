@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_bucket_notification_configuration_put(bucket, notification_configuration)
+#	p6_aws_s3api_bucket_notification_configuration_put(bucket, notification_configuration)
 #
-# Arg(s):
-#    bucket - 
-#    notification_configuration - 
-#
+#  Args:
+#	bucket - 
+#	notification_configuration - 
 #
 #>
 ######################################################################

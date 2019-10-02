@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_provisioned_product_properties_update(provisioned_product_id, provisioned_product_properties)
+#	p6_aws_servicecatalog_provisioned_product_properties_update(provisioned_product_id, provisioned_product_properties)
 #
-# Arg(s):
-#    provisioned_product_id - 
-#    provisioned_product_properties - 
-#
+#  Args:
+#	provisioned_product_id - 
+#	provisioned_product_properties - 
 #
 #>
 ######################################################################

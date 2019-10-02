@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_stepfunctions_activity_task_get(activity_arn)
+#	p6_aws_stepfunctions_activity_task_get(activity_arn)
 #
-# Arg(s):
-#    activity_arn - 
-#
+#  Args:
+#	activity_arn - 
 #
 #>
 ######################################################################

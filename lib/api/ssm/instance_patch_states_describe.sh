@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_instance_patch_states_describe(instance_ids)
+#	p6_aws_ssm_instance_patch_states_describe(instance_ids)
 #
-# Arg(s):
-#    instance_ids - 
-#
+#  Args:
+#	instance_ids - 
 #
 #>
 ######################################################################

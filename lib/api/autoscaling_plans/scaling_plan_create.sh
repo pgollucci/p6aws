@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_autoscaling_plans_scaling_plan_create(scaling_plan_name, application_source, scaling_instructions)
+#	p6_aws_autoscaling_plans_scaling_plan_create(scaling_plan_name, application_source, scaling_instructions)
 #
-# Arg(s):
-#    scaling_plan_name - 
-#    application_source - 
-#    scaling_instructions - 
-#
+#  Args:
+#	scaling_plan_name - 
+#	application_source - 
+#	scaling_instructions - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_game_session_queues_describe()
-#
-#
+#	p6_aws_gamelift_game_session_queues_describe()
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_workspaces_workspaces_start(start_workspace_requests)
+#	p6_aws_workspaces_workspaces_start(start_workspace_requests)
 #
-# Arg(s):
-#    start_workspace_requests - 
-#
+#  Args:
+#	start_workspace_requests - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_transfer_server_update(server_id)
+#	p6_aws_transfer_server_update(server_id)
 #
-# Arg(s):
-#    server_id - 
-#
+#  Args:
+#	server_id - 
 #
 #>
 ######################################################################

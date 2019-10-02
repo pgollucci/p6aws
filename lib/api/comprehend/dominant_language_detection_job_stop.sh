@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_comprehend_dominant_language_detection_job_stop(job_id)
+#	p6_aws_comprehend_dominant_language_detection_job_stop(job_id)
 #
-# Arg(s):
-#    job_id - 
-#
+#  Args:
+#	job_id - 
 #
 #>
 ######################################################################

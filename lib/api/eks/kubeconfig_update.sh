@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_eks_kubeconfig_update(name)
+#	p6_aws_eks_kubeconfig_update(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

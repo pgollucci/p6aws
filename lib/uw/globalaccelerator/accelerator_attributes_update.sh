@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_globalaccelerator_logs_enabled()
-#
-#
+#	p6_aws_globalaccelerator_logs_enabled()
 #
 #>
 ######################################################################

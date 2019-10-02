@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elastictranscoder_pipeline_status_update(id, status)
+#	p6_aws_elastictranscoder_pipeline_status_update(id, status)
 #
-# Arg(s):
-#    id - 
-#    status - 
-#
+#  Args:
+#	id - 
+#	status - 
 #
 #>
 ######################################################################

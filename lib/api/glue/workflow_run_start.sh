@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_workflow_run_start(name)
+#	p6_aws_glue_workflow_run_start(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

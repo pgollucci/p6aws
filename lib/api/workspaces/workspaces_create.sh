@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_workspaces_workspaces_create(workspaces)
+#	p6_aws_workspaces_workspaces_create(workspaces)
 #
-# Arg(s):
-#    workspaces - 
-#
+#  Args:
+#	workspaces - 
 #
 #>
 ######################################################################

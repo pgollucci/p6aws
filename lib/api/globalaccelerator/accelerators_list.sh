@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_globalaccelerator_accelerators_list()
-#
-#
+#	p6_aws_globalaccelerator_accelerators_list()
 #
 #>
 ######################################################################

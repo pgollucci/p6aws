@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codecommit_get_repositories_batch(repository_names)
+#	p6_aws_codecommit_get_repositories_batch(repository_names)
 #
-# Arg(s):
-#    repository_names - 
-#
+#  Args:
+#	repository_names - 
 #
 #>
 ######################################################################

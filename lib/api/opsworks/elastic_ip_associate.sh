@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_elastic_ip_associate(elastic_ip)
+#	p6_aws_opsworks_elastic_ip_associate(elastic_ip)
 #
-# Arg(s):
-#    elastic_ip - 
-#
+#  Args:
+#	elastic_ip - 
 #
 #>
 ######################################################################

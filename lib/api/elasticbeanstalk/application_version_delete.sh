@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticbeanstalk_application_version_delete(application_name, version_label)
+#	p6_aws_elasticbeanstalk_application_version_delete(application_name, version_label)
 #
-# Arg(s):
-#    application_name - 
-#    version_label - 
-#
+#  Args:
+#	application_name - 
+#	version_label - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_crawler_stop(name)
+#	p6_aws_glue_crawler_stop(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

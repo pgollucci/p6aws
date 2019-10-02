@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_personalize_dataset_create(name, schema_arn, dataset_group_arn, dataset_type)
+#	p6_aws_personalize_dataset_create(name, schema_arn, dataset_group_arn, dataset_type)
 #
-# Arg(s):
-#    name - 
-#    schema_arn - 
-#    dataset_group_arn - 
-#    dataset_type - 
-#
+#  Args:
+#	name - 
+#	schema_arn - 
+#	dataset_group_arn - 
+#	dataset_type - 
 #
 #>
 ######################################################################

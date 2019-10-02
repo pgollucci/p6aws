@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_codebuild_projects_list()
-#
-#
+#	p6_aws_codebuild_projects_list()
 #
 #>
 ######################################################################

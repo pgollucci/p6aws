@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_backup_backup_vaults_list()
-#
-#
+#	p6_aws_backup_backup_vaults_list()
 #
 #>
 ######################################################################

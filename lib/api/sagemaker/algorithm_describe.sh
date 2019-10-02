@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_algorithm_describe(algorithm_name)
+#	p6_aws_sagemaker_algorithm_describe(algorithm_name)
 #
-# Arg(s):
-#    algorithm_name - 
-#
+#  Args:
+#	algorithm_name - 
 #
 #>
 ######################################################################

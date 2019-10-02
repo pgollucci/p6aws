@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_endpoints_batch_update(application_id, endpoint_batch_request)
+#	p6_aws_pinpoint_endpoints_batch_update(application_id, endpoint_batch_request)
 #
-# Arg(s):
-#    application_id - 
-#    endpoint_batch_request - 
-#
+#  Args:
+#	application_id - 
+#	endpoint_batch_request - 
 #
 #>
 ######################################################################

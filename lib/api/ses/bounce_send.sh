@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_bounce_send(original_message_id, bounce_sender, bounced_recipient_info_list)
+#	p6_aws_ses_bounce_send(original_message_id, bounce_sender, bounced_recipient_info_list)
 #
-# Arg(s):
-#    original_message_id - 
-#    bounce_sender - 
-#    bounced_recipient_info_list - 
-#
+#  Args:
+#	original_message_id - 
+#	bounce_sender - 
+#	bounced_recipient_info_list - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_servicediscovery_instances_list(service_id)
+#	p6_aws_servicediscovery_instances_list(service_id)
 #
-# Arg(s):
-#    service_id - 
-#
+#  Args:
+#	service_id - 
 #
 #>
 ######################################################################

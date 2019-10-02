@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_greengrass_subscription_definition_delete(subscription_definition_id)
+#	p6_aws_greengrass_subscription_definition_delete(subscription_definition_id)
 #
-# Arg(s):
-#    subscription_definition_id - 
-#
+#  Args:
+#	subscription_definition_id - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_appstream_streaming_url_create(stack_name, fleet_name, user_id)
+#	p6_aws_appstream_streaming_url_create(stack_name, fleet_name, user_id)
 #
-# Arg(s):
-#    stack_name - 
-#    fleet_name - 
-#    user_id - 
-#
+#  Args:
+#	stack_name - 
+#	fleet_name - 
+#	user_id - 
 #
 #>
 ######################################################################

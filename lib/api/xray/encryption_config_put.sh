@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_xray_encryption_config_put(type)
+#	p6_aws_xray_encryption_config_put(type)
 #
-# Arg(s):
-#    type - 
-#
+#  Args:
+#	type - 
 #
 #>
 ######################################################################

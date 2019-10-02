@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_email_email_identity_delete(email_identity)
+#	p6_aws_pinpoint_email_email_identity_delete(email_identity)
 #
-# Arg(s):
-#    email_identity - 
-#
+#  Args:
+#	email_identity - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_elbv2_rule_modify(rule_arn)
+#	p6_aws_elbv2_rule_modify(rule_arn)
 #
-# Arg(s):
-#    rule_arn - 
-#
+#  Args:
+#	rule_arn - 
 #
 #>
 ######################################################################

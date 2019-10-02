@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_backup_backup_plan_from_json_get(backup_plan_template_json)
+#	p6_aws_backup_backup_plan_from_json_get(backup_plan_template_json)
 #
-# Arg(s):
-#    backup_plan_template_json - 
-#
+#  Args:
+#	backup_plan_template_json - 
 #
 #>
 ######################################################################

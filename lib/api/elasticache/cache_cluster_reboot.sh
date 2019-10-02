@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticache_cache_cluster_reboot(cache_cluster_id, cache_node_ids_to_reboot)
+#	p6_aws_elasticache_cache_cluster_reboot(cache_cluster_id, cache_node_ids_to_reboot)
 #
-# Arg(s):
-#    cache_cluster_id - 
-#    cache_node_ids_to_reboot - 
-#
+#  Args:
+#	cache_cluster_id - 
+#	cache_node_ids_to_reboot - 
 #
 #>
 ######################################################################

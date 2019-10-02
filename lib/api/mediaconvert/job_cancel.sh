@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mediaconvert_job_cancel(id)
+#	p6_aws_mediaconvert_job_cancel(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

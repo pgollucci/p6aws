@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_devicefarm_to_remote_access_session_install(remote_access_session_arn, app_arn)
+#	p6_aws_devicefarm_to_remote_access_session_install(remote_access_session_arn, app_arn)
 #
-# Arg(s):
-#    remote_access_session_arn - 
-#    app_arn - 
-#
+#  Args:
+#	remote_access_session_arn - 
+#	app_arn - 
 #
 #>
 ######################################################################

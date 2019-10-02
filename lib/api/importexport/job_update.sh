@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_importexport_job_update(job_id, manifest, job_type, validate_only)
+#	p6_aws_importexport_job_update(job_id, manifest, job_type, validate_only)
 #
-# Arg(s):
-#    job_id - 
-#    manifest - 
-#    job_type - 
-#    validate_only - 
-#
+#  Args:
+#	job_id - 
+#	manifest - 
+#	job_type - 
+#	validate_only - 
 #
 #>
 ######################################################################

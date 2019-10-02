@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ds_ip_routes_add(directory_id, ip_routes)
+#	p6_aws_ds_ip_routes_add(directory_id, ip_routes)
 #
-# Arg(s):
-#    directory_id - 
-#    ip_routes - 
-#
+#  Args:
+#	directory_id - 
+#	ip_routes - 
 #
 #>
 ######################################################################

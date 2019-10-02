@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_static_ip_attach(static_ip_name, instance_name)
+#	p6_aws_lightsail_static_ip_attach(static_ip_name, instance_name)
 #
-# Arg(s):
-#    static_ip_name - 
-#    instance_name - 
-#
+#  Args:
+#	static_ip_name - 
+#	instance_name - 
 #
 #>
 ######################################################################

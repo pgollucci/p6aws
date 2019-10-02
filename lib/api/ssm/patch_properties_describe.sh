@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_patch_properties_describe(operating_system, property)
+#	p6_aws_ssm_patch_properties_describe(operating_system, property)
 #
-# Arg(s):
-#    operating_system - 
-#    property - 
-#
+#  Args:
+#	operating_system - 
+#	property - 
 #
 #>
 ######################################################################

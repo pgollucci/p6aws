@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_account_limit_get(type)
+#	p6_aws_route53_account_limit_get(type)
 #
-# Arg(s):
-#    type - 
-#
+#  Args:
+#	type - 
 #
 #>
 ######################################################################

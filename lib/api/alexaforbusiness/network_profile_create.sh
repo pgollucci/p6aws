@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_network_profile_create(network_profile_name, ssid, security_type)
+#	p6_aws_alexaforbusiness_network_profile_create(network_profile_name, ssid, security_type)
 #
-# Arg(s):
-#    network_profile_name - 
-#    ssid - 
-#    security_type - 
-#
+#  Args:
+#	network_profile_name - 
+#	ssid - 
+#	security_type - 
 #
 #>
 ######################################################################

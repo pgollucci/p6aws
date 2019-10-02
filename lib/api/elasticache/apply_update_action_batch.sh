@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticache_apply_update_action_batch(replication_group_ids, service_update_name)
+#	p6_aws_elasticache_apply_update_action_batch(replication_group_ids, service_update_name)
 #
-# Arg(s):
-#    replication_group_ids - 
-#    service_update_name - 
-#
+#  Args:
+#	replication_group_ids - 
+#	service_update_name - 
 #
 #>
 ######################################################################

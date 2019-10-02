@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_securityhub_members_disassociate()
-#
-#
+#	p6_aws_securityhub_members_disassociate()
 #
 #>
 ######################################################################

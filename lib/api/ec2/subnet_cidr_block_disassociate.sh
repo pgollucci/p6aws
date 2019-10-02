@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_subnet_cidr_block_disassociate(association_id)
+#	p6_aws_ec2_subnet_cidr_block_disassociate(association_id)
 #
-# Arg(s):
-#    association_id - 
-#
+#  Args:
+#	association_id - 
 #
 #>
 ######################################################################

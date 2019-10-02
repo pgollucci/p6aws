@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_mgh_migration_task_state_notify(progress_update_stream, migration_task_name, task, update_date_time, next_update_seconds)
+#	p6_aws_mgh_migration_task_state_notify(progress_update_stream, migration_task_name, task, update_date_time, next_update_seconds)
 #
-# Arg(s):
-#    progress_update_stream - 
-#    migration_task_name - 
-#    task - 
-#    update_date_time - 
-#    next_update_seconds - 
-#
+#  Args:
+#	progress_update_stream - 
+#	migration_task_name - 
+#	task - 
+#	update_date_time - 
+#	next_update_seconds - 
 #
 #>
 ######################################################################

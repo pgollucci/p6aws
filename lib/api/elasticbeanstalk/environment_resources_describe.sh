@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticbeanstalk_environment_resources_describe()
-#
-#
+#	p6_aws_elasticbeanstalk_environment_resources_describe()
 #
 #>
 ######################################################################

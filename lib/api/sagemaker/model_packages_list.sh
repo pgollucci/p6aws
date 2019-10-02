@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_model_packages_list()
-#
-#
+#	p6_aws_sagemaker_model_packages_list()
 #
 #>
 ######################################################################

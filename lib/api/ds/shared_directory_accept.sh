@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ds_shared_directory_accept(shared_directory_id)
+#	p6_aws_ds_shared_directory_accept(shared_directory_id)
 #
-# Arg(s):
-#    shared_directory_id - 
-#
+#  Args:
+#	shared_directory_id - 
 #
 #>
 ######################################################################

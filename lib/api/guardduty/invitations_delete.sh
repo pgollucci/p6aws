@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_guardduty_invitations_delete(account_ids)
+#	p6_aws_guardduty_invitations_delete(account_ids)
 #
-# Arg(s):
-#    account_ids - 
-#
+#  Args:
+#	account_ids - 
 #
 #>
 ######################################################################

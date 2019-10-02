@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_robomaker_simulation_application_delete(application)
+#	p6_aws_robomaker_simulation_application_delete(application)
 #
-# Arg(s):
-#    application - 
-#
+#  Args:
+#	application - 
 #
 #>
 ######################################################################

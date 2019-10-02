@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_appsync_function_create(api_id, name, data_source_name, request_mapping_template, function_version)
+#	p6_aws_appsync_function_create(api_id, name, data_source_name, request_mapping_template, function_version)
 #
-# Arg(s):
-#    api_id - 
-#    name - 
-#    data_source_name - 
-#    request_mapping_template - 
-#    function_version - 
-#
+#  Args:
+#	api_id - 
+#	name - 
+#	data_source_name - 
+#	request_mapping_template - 
+#	function_version - 
 #
 #>
 ######################################################################

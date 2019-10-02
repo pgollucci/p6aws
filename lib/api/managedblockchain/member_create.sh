@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_managedblockchain_member_create(invitation_id, network_id, member_configuration)
+#	p6_aws_managedblockchain_member_create(invitation_id, network_id, member_configuration)
 #
-# Arg(s):
-#    invitation_id - 
-#    network_id - 
-#    member_configuration - 
-#
+#  Args:
+#	invitation_id - 
+#	network_id - 
+#	member_configuration - 
 #
 #>
 ######################################################################

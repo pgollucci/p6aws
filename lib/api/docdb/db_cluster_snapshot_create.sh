@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_docdb_db_cluster_snapshot_create(db_cluster_snapshot_identifier, db_cluster_identifier)
+#	p6_aws_docdb_db_cluster_snapshot_create(db_cluster_snapshot_identifier, db_cluster_identifier)
 #
-# Arg(s):
-#    db_cluster_snapshot_identifier - 
-#    db_cluster_identifier - 
-#
+#  Args:
+#	db_cluster_snapshot_identifier - 
+#	db_cluster_identifier - 
 #
 #>
 ######################################################################

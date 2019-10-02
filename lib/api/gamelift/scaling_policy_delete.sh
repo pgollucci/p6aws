@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_scaling_policy_delete(name, fleet_id)
+#	p6_aws_gamelift_scaling_policy_delete(name, fleet_id)
 #
-# Arg(s):
-#    name - 
-#    fleet_id - 
-#
+#  Args:
+#	name - 
+#	fleet_id - 
 #
 #>
 ######################################################################

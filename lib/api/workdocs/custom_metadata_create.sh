@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_workdocs_custom_metadata_create(resource_id, custom_metadata)
+#	p6_aws_workdocs_custom_metadata_create(resource_id, custom_metadata)
 #
-# Arg(s):
-#    resource_id - 
-#    custom_metadata - 
-#
+#  Args:
+#	resource_id - 
+#	custom_metadata - 
 #
 #>
 ######################################################################

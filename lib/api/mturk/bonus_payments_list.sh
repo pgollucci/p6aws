@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_mturk_bonus_payments_list()
-#
-#
+#	p6_aws_mturk_bonus_payments_list()
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_policy_create(policy_name, policy_document)
+#	p6_aws_iam_policy_create(policy_name, policy_document)
 #
-# Arg(s):
-#    policy_name - 
-#    policy_document - 
-#
+#  Args:
+#	policy_name - 
+#	policy_document - 
 #
 #>
 ######################################################################

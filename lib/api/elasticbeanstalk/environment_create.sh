@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticbeanstalk_environment_create(application_name)
+#	p6_aws_elasticbeanstalk_environment_create(application_name)
 #
-# Arg(s):
-#    application_name - 
-#
+#  Args:
+#	application_name - 
 #
 #>
 ######################################################################

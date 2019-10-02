@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_mturk_worker_block_create(worker_id, reason)
+#	p6_aws_mturk_worker_block_create(worker_id, reason)
 #
-# Arg(s):
-#    worker_id - 
-#    reason - 
-#
+#  Args:
+#	worker_id - 
+#	reason - 
 #
 #>
 ######################################################################

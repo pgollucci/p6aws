@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_neptune_db_cluster_failover()
-#
-#
+#	p6_aws_neptune_db_cluster_failover()
 #
 #>
 ######################################################################

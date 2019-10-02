@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_compliance_items_put(resource_id, resource_type, compliance_type, execution_summary, items)
+#	p6_aws_ssm_compliance_items_put(resource_id, resource_type, compliance_type, execution_summary, items)
 #
-# Arg(s):
-#    resource_id - 
-#    resource_type - 
-#    compliance_type - 
-#    execution_summary - 
-#    items - 
-#
+#  Args:
+#	resource_id - 
+#	resource_type - 
+#	compliance_type - 
+#	execution_summary - 
+#	items - 
 #
 #>
 ######################################################################

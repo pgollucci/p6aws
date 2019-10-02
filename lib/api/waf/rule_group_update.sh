@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_rule_group_update(rule_group_id, updates, change_token)
+#	p6_aws_waf_rule_group_update(rule_group_id, updates, change_token)
 #
-# Arg(s):
-#    rule_group_id - 
-#    updates - 
-#    change_token - 
-#
+#  Args:
+#	rule_group_id - 
+#	updates - 
+#	change_token - 
 #
 #>
 ######################################################################

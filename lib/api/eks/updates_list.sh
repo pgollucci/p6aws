@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_eks_updates_list(name)
+#	p6_aws_eks_updates_list(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

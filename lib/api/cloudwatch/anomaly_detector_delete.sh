@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudwatch_anomaly_detector_delete(namespace, metric_name, stat)
+#	p6_aws_cloudwatch_anomaly_detector_delete(namespace, metric_name, stat)
 #
-# Arg(s):
-#    namespace - 
-#    metric_name - 
-#    stat - 
-#
+#  Args:
+#	namespace - 
+#	metric_name - 
+#	stat - 
 #
 #>
 ######################################################################

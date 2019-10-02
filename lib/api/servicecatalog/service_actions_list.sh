@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_service_actions_list()
-#
-#
+#	p6_aws_servicecatalog_service_actions_list()
 #
 #>
 ######################################################################

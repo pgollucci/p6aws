@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_personalize_dataset_group_create(name)
+#	p6_aws_personalize_dataset_group_create(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

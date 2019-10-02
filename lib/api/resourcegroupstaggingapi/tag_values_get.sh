@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_resourcegroupstaggingapi_tag_values_get(key)
+#	p6_aws_resourcegroupstaggingapi_tag_values_get(key)
 #
-# Arg(s):
-#    key - 
-#
+#  Args:
+#	key - 
 #
 #>
 ######################################################################

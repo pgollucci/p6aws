@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_rds_db_instances_describe(stack_id)
+#	p6_aws_opsworks_rds_db_instances_describe(stack_id)
 #
-# Arg(s):
-#    stack_id - 
-#
+#  Args:
+#	stack_id - 
 #
 #>
 ######################################################################

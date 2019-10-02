@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_bucket_analytics_configuration_get(bucket, id)
+#	p6_aws_s3api_bucket_analytics_configuration_get(bucket, id)
 #
-# Arg(s):
-#    bucket - 
-#    id - 
-#
+#  Args:
+#	bucket - 
+#	id - 
 #
 #>
 ######################################################################

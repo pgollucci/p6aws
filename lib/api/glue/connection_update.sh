@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_connection_update(name, connection_input)
+#	p6_aws_glue_connection_update(name, connection_input)
 #
-# Arg(s):
-#    name - 
-#    connection_input - 
-#
+#  Args:
+#	name - 
+#	connection_input - 
 #
 #>
 ######################################################################

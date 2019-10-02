@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_appstream_fleet_associate(fleet_name, stack_name)
+#	p6_aws_appstream_fleet_associate(fleet_name, stack_name)
 #
-# Arg(s):
-#    fleet_name - 
-#    stack_name - 
-#
+#  Args:
+#	fleet_name - 
+#	stack_name - 
 #
 #>
 ######################################################################

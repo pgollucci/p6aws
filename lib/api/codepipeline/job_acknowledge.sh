@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_codepipeline_job_acknowledge(job_id, nonce)
+#	p6_aws_codepipeline_job_acknowledge(job_id, nonce)
 #
-# Arg(s):
-#    job_id - 
-#    nonce - 
-#
+#  Args:
+#	job_id - 
+#	nonce - 
 #
 #>
 ######################################################################

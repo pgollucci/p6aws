@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_reserved_db_instances_offering_purchase(reserved_db_instances_offering_id)
+#	p6_aws_rds_reserved_db_instances_offering_purchase(reserved_db_instances_offering_id)
 #
-# Arg(s):
-#    reserved_db_instances_offering_id - 
-#
+#  Args:
+#	reserved_db_instances_offering_id - 
 #
 #>
 ######################################################################

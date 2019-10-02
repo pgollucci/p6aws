@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_volume_attribute_describe(attribute, volume_id)
+#	p6_aws_ec2_volume_attribute_describe(attribute, volume_id)
 #
-# Arg(s):
-#    attribute - 
-#    volume_id - 
-#
+#  Args:
+#	attribute - 
+#	volume_id - 
 #
 #>
 ######################################################################

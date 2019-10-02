@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_codepipeline_third_party_job_acknowledge(job_id, nonce, client_token)
+#	p6_aws_codepipeline_third_party_job_acknowledge(job_id, nonce, client_token)
 #
-# Arg(s):
-#    job_id - 
-#    nonce - 
-#    client_token - 
-#
+#  Args:
+#	job_id - 
+#	nonce - 
+#	client_token - 
 #
 #>
 ######################################################################

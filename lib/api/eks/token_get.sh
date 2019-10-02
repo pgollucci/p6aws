@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_eks_token_get(cluster_name)
+#	p6_aws_eks_token_get(cluster_name)
 #
-# Arg(s):
-#    cluster_name - 
-#
+#  Args:
+#	cluster_name - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_signer_signing_platform_get(platform_id)
+#	p6_aws_signer_signing_platform_get(platform_id)
 #
-# Arg(s):
-#    platform_id - 
-#
+#  Args:
+#	platform_id - 
 #
 #>
 ######################################################################

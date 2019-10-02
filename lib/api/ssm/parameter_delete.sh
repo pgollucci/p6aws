@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_parameter_delete(name)
+#	p6_aws_ssm_parameter_delete(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

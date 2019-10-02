@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_workdocs_groups_describe(search_query)
+#	p6_aws_workdocs_groups_describe(search_query)
 #
-# Arg(s):
-#    search_query - 
-#
+#  Args:
+#	search_query - 
 #
 #>
 ######################################################################

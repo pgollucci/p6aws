@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_appstream_stacks_describe()
-#
-#
+#	p6_aws_appstream_stacks_describe()
 #
 #>
 ######################################################################

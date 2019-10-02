@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_model_create(model_name, execution_role_arn)
+#	p6_aws_sagemaker_model_create(model_name, execution_role_arn)
 #
-# Arg(s):
-#    model_name - 
-#    execution_role_arn - 
-#
+#  Args:
+#	model_name - 
+#	execution_role_arn - 
 #
 #>
 ######################################################################

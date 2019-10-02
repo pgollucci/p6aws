@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_database_create(database_input)
+#	p6_aws_glue_database_create(database_input)
 #
-# Arg(s):
-#    database_input - 
-#
+#  Args:
+#	database_input - 
 #
 #>
 ######################################################################

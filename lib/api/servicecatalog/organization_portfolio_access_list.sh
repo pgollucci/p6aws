@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_organization_portfolio_access_list(portfolio_id, organization_node_type)
+#	p6_aws_servicecatalog_organization_portfolio_access_list(portfolio_id, organization_node_type)
 #
-# Arg(s):
-#    portfolio_id - 
-#    organization_node_type - 
-#
+#  Args:
+#	portfolio_id - 
+#	organization_node_type - 
 #
 #>
 ######################################################################

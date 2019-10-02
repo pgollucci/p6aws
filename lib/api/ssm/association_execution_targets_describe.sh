@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_association_execution_targets_describe(association_id, execution_id)
+#	p6_aws_ssm_association_execution_targets_describe(association_id, execution_id)
 #
-# Arg(s):
-#    association_id - 
-#    execution_id - 
-#
+#  Args:
+#	association_id - 
+#	execution_id - 
 #
 #>
 ######################################################################

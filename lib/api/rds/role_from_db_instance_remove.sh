@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_role_from_db_instance_remove(db_instance_identifier, role_arn, feature_name)
+#	p6_aws_rds_role_from_db_instance_remove(db_instance_identifier, role_arn, feature_name)
 #
-# Arg(s):
-#    db_instance_identifier - 
-#    role_arn - 
-#    feature_name - 
-#
+#  Args:
+#	db_instance_identifier - 
+#	role_arn - 
+#	feature_name - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_code_repository_describe(code_repository_name)
+#	p6_aws_sagemaker_code_repository_describe(code_repository_name)
 #
-# Arg(s):
-#    code_repository_name - 
-#
+#  Args:
+#	code_repository_name - 
 #
 #>
 ######################################################################

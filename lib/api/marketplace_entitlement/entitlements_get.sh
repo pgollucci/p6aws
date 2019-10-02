@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_marketplace_entitlement_entitlements_get(product_code)
+#	p6_aws_marketplace_entitlement_entitlements_get(product_code)
 #
-# Arg(s):
-#    product_code - 
-#
+#  Args:
+#	product_code - 
 #
 #>
 ######################################################################

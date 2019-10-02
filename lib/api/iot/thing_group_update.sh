@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_thing_group_update(thing_group_name, thing_group_properties)
+#	p6_aws_iot_thing_group_update(thing_group_name, thing_group_properties)
 #
-# Arg(s):
-#    thing_group_name - 
-#    thing_group_properties - 
-#
+#  Args:
+#	thing_group_name - 
+#	thing_group_properties - 
 #
 #>
 ######################################################################

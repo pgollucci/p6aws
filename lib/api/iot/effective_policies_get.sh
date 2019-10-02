@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_effective_policies_get()
-#
-#
+#	p6_aws_iot_effective_policies_get()
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_snowball_job_create()
-#
-#
+#	p6_aws_snowball_job_create()
 #
 #>
 ######################################################################

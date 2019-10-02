@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_mediaconnect_flow_entitlement_update(entitlement_arn, flow_arn)
+#	p6_aws_mediaconnect_flow_entitlement_update(entitlement_arn, flow_arn)
 #
-# Arg(s):
-#    entitlement_arn - 
-#    flow_arn - 
-#
+#  Args:
+#	entitlement_arn - 
+#	flow_arn - 
 #
 #>
 ######################################################################

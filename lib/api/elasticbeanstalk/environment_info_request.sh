@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticbeanstalk_environment_info_request(info_type)
+#	p6_aws_elasticbeanstalk_environment_info_request(info_type)
 #
-# Arg(s):
-#    info_type - 
-#
+#  Args:
+#	info_type - 
 #
 #>
 ######################################################################

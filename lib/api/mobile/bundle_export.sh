@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mobile_bundle_export(bundle_id)
+#	p6_aws_mobile_bundle_export(bundle_id)
 #
-# Arg(s):
-#    bundle_id - 
-#
+#  Args:
+#	bundle_id - 
 #
 #>
 ######################################################################

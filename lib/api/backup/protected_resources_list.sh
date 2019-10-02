@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_backup_protected_resources_list()
-#
-#
+#	p6_aws_backup_protected_resources_list()
 #
 #>
 ######################################################################

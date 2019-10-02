@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_swf_workflow_execution_describe(domain, execution)
+#	p6_aws_swf_workflow_execution_describe(domain, execution)
 #
-# Arg(s):
-#    domain - 
-#    execution - 
-#
+#  Args:
+#	domain - 
+#	execution - 
 #
 #>
 ######################################################################

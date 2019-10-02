@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_transcribe_transcription_job_delete(transcription_job_name)
+#	p6_aws_transcribe_transcription_job_delete(transcription_job_name)
 #
-# Arg(s):
-#    transcription_job_name - 
-#
+#  Args:
+#	transcription_job_name - 
 #
 #>
 ######################################################################

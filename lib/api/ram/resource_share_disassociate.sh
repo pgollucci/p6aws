@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ram_resource_share_disassociate(resource_share_arn)
+#	p6_aws_ram_resource_share_disassociate(resource_share_arn)
 #
-# Arg(s):
-#    resource_share_arn - 
-#
+#  Args:
+#	resource_share_arn - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_neptune_pending_maintenance_action_apply(resource_identifier, apply_action, opt_in_type)
+#	p6_aws_neptune_pending_maintenance_action_apply(resource_identifier, apply_action, opt_in_type)
 #
-# Arg(s):
-#    resource_identifier - 
-#    apply_action - 
-#    opt_in_type - 
-#
+#  Args:
+#	resource_identifier - 
+#	apply_action - 
+#	opt_in_type - 
 #
 #>
 ######################################################################

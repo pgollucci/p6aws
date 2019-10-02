@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_dhcp_options_associate(dhcp_options_id, vpc_id)
+#	p6_aws_ec2_dhcp_options_associate(dhcp_options_id, vpc_id)
 #
-# Arg(s):
-#    dhcp_options_id - 
-#    vpc_id - 
-#
+#  Args:
+#	dhcp_options_id - 
+#	vpc_id - 
 #
 #>
 ######################################################################

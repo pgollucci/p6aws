@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesis_limits_describe()
-#
-#
+#	p6_aws_kinesis_limits_describe()
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_datasync_resource_untag(resource_arn, keys)
+#	p6_aws_datasync_resource_untag(resource_arn, keys)
 #
-# Arg(s):
-#    resource_arn - 
-#    keys - 
-#
+#  Args:
+#	resource_arn - 
+#	keys - 
 #
 #>
 ######################################################################

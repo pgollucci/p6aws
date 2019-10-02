@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_regional_regex_pattern_set_delete(regex_pattern_set_id, change_token)
+#	p6_aws_waf_regional_regex_pattern_set_delete(regex_pattern_set_id, change_token)
 #
-# Arg(s):
-#    regex_pattern_set_id - 
-#    change_token - 
-#
+#  Args:
+#	regex_pattern_set_id - 
+#	change_token - 
 #
 #>
 ######################################################################

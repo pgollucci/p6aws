@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_amplify_app_delete(app_id)
+#	p6_aws_amplify_app_delete(app_id)
 #
-# Arg(s):
-#    app_id - 
-#
+#  Args:
+#	app_id - 
 #
 #>
 ######################################################################

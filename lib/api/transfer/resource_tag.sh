@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_transfer_resource_tag(arn, tags)
+#	p6_aws_transfer_resource_tag(arn, tags)
 #
-# Arg(s):
-#    arn - 
-#    tags - 
-#
+#  Args:
+#	arn - 
+#	tags - 
 #
 #>
 ######################################################################

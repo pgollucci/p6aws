@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_logs_resource_policy_delete()
-#
-#
+#	p6_aws_logs_resource_policy_delete()
 #
 #>
 ######################################################################

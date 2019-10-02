@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_sql_injection_match_set_update(sql_injection_match_set_id, change_token, updates)
+#	p6_aws_waf_sql_injection_match_set_update(sql_injection_match_set_id, change_token, updates)
 #
-# Arg(s):
-#    sql_injection_match_set_id - 
-#    change_token - 
-#    updates - 
-#
+#  Args:
+#	sql_injection_match_set_id - 
+#	change_token - 
+#	updates - 
 #
 #>
 ######################################################################

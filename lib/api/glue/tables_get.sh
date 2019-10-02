@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_tables_get(database_name)
+#	p6_aws_glue_tables_get(database_name)
 #
-# Arg(s):
-#    database_name - 
-#
+#  Args:
+#	database_name - 
 #
 #>
 ######################################################################

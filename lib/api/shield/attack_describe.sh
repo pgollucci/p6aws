@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_shield_attack_describe(attack_id)
+#	p6_aws_shield_attack_describe(attack_id)
 #
-# Arg(s):
-#    attack_id - 
-#
+#  Args:
+#	attack_id - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_groundstation_dataflow_endpoint_group_get(dataflow_endpoint_group_id)
+#	p6_aws_groundstation_dataflow_endpoint_group_get(dataflow_endpoint_group_id)
 #
-# Arg(s):
-#    dataflow_endpoint_group_id - 
-#
+#  Args:
+#	dataflow_endpoint_group_id - 
 #
 #>
 ######################################################################

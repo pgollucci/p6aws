@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_neptune_source_identifier_to_subscription_add(subscription_name, source_identifier)
+#	p6_aws_neptune_source_identifier_to_subscription_add(subscription_name, source_identifier)
 #
-# Arg(s):
-#    subscription_name - 
-#    source_identifier - 
-#
+#  Args:
+#	subscription_name - 
+#	source_identifier - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_appsync_graphql_apis_list()
-#
-#
+#	p6_aws_appsync_graphql_apis_list()
 #
 #>
 ######################################################################

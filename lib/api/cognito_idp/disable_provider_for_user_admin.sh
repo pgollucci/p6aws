@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_disable_provider_for_user_admin(user_pool_id, user)
+#	p6_aws_cognito_idp_disable_provider_for_user_admin(user_pool_id, user)
 #
-# Arg(s):
-#    user_pool_id - 
-#    user - 
-#
+#  Args:
+#	user_pool_id - 
+#	user - 
 #
 #>
 ######################################################################

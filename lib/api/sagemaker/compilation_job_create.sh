@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_compilation_job_create(compilation_job_name, role_arn, input_config, output_config, stopping_condition)
+#	p6_aws_sagemaker_compilation_job_create(compilation_job_name, role_arn, input_config, output_config, stopping_condition)
 #
-# Arg(s):
-#    compilation_job_name - 
-#    role_arn - 
-#    input_config - 
-#    output_config - 
-#    stopping_condition - 
-#
+#  Args:
+#	compilation_job_name - 
+#	role_arn - 
+#	input_config - 
+#	output_config - 
+#	stopping_condition - 
 #
 #>
 ######################################################################

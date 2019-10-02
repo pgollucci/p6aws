@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elastictranscoder_preset_create(name, container)
+#	p6_aws_elastictranscoder_preset_create(name, container)
 #
-# Arg(s):
-#    name - 
-#    container - 
-#
+#  Args:
+#	name - 
+#	container - 
 #
 #>
 ######################################################################

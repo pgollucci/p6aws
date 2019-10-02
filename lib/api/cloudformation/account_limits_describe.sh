@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudformation_account_limits_describe()
-#
-#
+#	p6_aws_cloudformation_account_limits_describe()
 #
 #>
 ######################################################################

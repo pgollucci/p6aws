@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mturk_qualification_request_reject(qualification_request_id)
+#	p6_aws_mturk_qualification_request_reject(qualification_request_id)
 #
-# Arg(s):
-#    qualification_request_id - 
-#
+#  Args:
+#	qualification_request_id - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_importexport_job_create(job_type, manifest, validate_only)
+#	p6_aws_importexport_job_create(job_type, manifest, validate_only)
 #
-# Arg(s):
-#    job_type - 
-#    manifest - 
-#    validate_only - 
-#
+#  Args:
+#	job_type - 
+#	manifest - 
+#	validate_only - 
 #
 #>
 ######################################################################

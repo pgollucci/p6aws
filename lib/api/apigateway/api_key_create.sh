@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_api_key_create()
-#
-#
+#	p6_aws_apigateway_api_key_create()
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_identity_dkim_enabled_set(identity, dkim_enabled)
+#	p6_aws_ses_identity_dkim_enabled_set(identity, dkim_enabled)
 #
-# Arg(s):
-#    identity - 
-#    dkim_enabled - 
-#
+#  Args:
+#	identity - 
+#	dkim_enabled - 
 #
 #>
 ######################################################################

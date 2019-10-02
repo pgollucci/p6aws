@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_task_set_update(cluster, service, task_set, scale)
+#	p6_aws_ecs_task_set_update(cluster, service, task_set, scale)
 #
-# Arg(s):
-#    cluster - 
-#    service - 
-#    task_set - 
-#    scale - 
-#
+#  Args:
+#	cluster - 
+#	service - 
+#	task_set - 
+#	scale - 
 #
 #>
 ######################################################################

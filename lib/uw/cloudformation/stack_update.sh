@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudformation_previous_template(stack_set_name, stack_name)
+#	p6_aws_cloudformation_previous_template(stack_set_name, stack_name)
 #
-# Arg(s):
-#    stack_set_name - 
-#    stack_name - 
-#
+#  Args:
+#	stack_set_name - 
+#	stack_name - 
 #
 #>
 ######################################################################

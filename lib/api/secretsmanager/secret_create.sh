@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_secretsmanager_secret_create(name)
+#	p6_aws_secretsmanager_secret_create(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

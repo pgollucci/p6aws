@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticache_cache_cluster_create(cache_cluster_id)
+#	p6_aws_elasticache_cache_cluster_create(cache_cluster_id)
 #
-# Arg(s):
-#    cache_cluster_id - 
-#
+#  Args:
+#	cache_cluster_id - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_game_session_details_describe()
-#
-#
+#	p6_aws_gamelift_game_session_details_describe()
 #
 #>
 ######################################################################

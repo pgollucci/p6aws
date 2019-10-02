@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_deploy_application_revision_register(application_name)
+#	p6_aws_deploy_application_revision_register(application_name)
 #
-# Arg(s):
-#    application_name - 
-#
+#  Args:
+#	application_name - 
 #
 #>
 ######################################################################

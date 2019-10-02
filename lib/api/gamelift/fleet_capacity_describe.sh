@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_fleet_capacity_describe()
-#
-#
+#	p6_aws_gamelift_fleet_capacity_describe()
 #
 #>
 ######################################################################

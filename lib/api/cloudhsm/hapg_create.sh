@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudhsm_hapg_create(label)
+#	p6_aws_cloudhsm_hapg_create(label)
 #
-# Arg(s):
-#    label - 
-#
+#  Args:
+#	label - 
 #
 #>
 ######################################################################

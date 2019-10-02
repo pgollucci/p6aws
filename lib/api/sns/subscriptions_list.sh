@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_sns_subscriptions_list()
-#
-#
+#	p6_aws_sns_subscriptions_list()
 #
 #>
 ######################################################################

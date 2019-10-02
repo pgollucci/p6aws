@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_identity_dkim_attributes_get(identities)
+#	p6_aws_ses_identity_dkim_attributes_get(identities)
 #
-# Arg(s):
-#    identities - 
-#
+#  Args:
+#	identities - 
 #
 #>
 ######################################################################

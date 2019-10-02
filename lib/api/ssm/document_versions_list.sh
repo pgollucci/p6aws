@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_document_versions_list(name)
+#	p6_aws_ssm_document_versions_list(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

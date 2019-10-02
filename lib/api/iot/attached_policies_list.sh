@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_attached_policies_list(target)
+#	p6_aws_iot_attached_policies_list(target)
 #
-# Arg(s):
-#    target - 
-#
+#  Args:
+#	target - 
 #
 #>
 ######################################################################

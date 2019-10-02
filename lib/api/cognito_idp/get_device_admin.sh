@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_get_device_admin(device_key, user_pool_id, username)
+#	p6_aws_cognito_idp_get_device_admin(device_key, user_pool_id, username)
 #
-# Arg(s):
-#    device_key - 
-#    user_pool_id - 
-#    username - 
-#
+#  Args:
+#	device_key - 
+#	user_pool_id - 
+#	username - 
 #
 #>
 ######################################################################

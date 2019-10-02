@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_clouddirectory_directory_disable(directory_arn)
+#	p6_aws_clouddirectory_directory_disable(directory_arn)
 #
-# Arg(s):
-#    directory_arn - 
-#
+#  Args:
+#	directory_arn - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_dynamodb_global_tables_list()
-#
-#
+#	p6_aws_dynamodb_global_tables_list()
 #
 #>
 ######################################################################

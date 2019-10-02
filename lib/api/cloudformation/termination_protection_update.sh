@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudformation_termination_protection_update(enable_termination_protection, stack_name)
+#	p6_aws_cloudformation_termination_protection_update(enable_termination_protection, stack_name)
 #
-# Arg(s):
-#    enable_termination_protection - 
-#    stack_name - 
-#
+#  Args:
+#	enable_termination_protection - 
+#	stack_name - 
 #
 #>
 ######################################################################

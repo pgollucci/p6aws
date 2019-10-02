@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_datapipeline_tags_remove(pipeline_id, tag_keys)
+#	p6_aws_datapipeline_tags_remove(pipeline_id, tag_keys)
 #
-# Arg(s):
-#    pipeline_id - 
-#    tag_keys - 
-#
+#  Args:
+#	pipeline_id - 
+#	tag_keys - 
 #
 #>
 ######################################################################

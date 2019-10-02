@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_clouddirectory_schema_from_json_put(schema_arn, document)
+#	p6_aws_clouddirectory_schema_from_json_put(schema_arn, document)
 #
-# Arg(s):
-#    schema_arn - 
-#    document - 
-#
+#  Args:
+#	schema_arn - 
+#	document - 
 #
 #>
 ######################################################################

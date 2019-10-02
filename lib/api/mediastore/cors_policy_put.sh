@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_mediastore_cors_policy_put(container_name, cors_policy)
+#	p6_aws_mediastore_cors_policy_put(container_name, cors_policy)
 #
-# Arg(s):
-#    container_name - 
-#    cors_policy - 
-#
+#  Args:
+#	container_name - 
+#	cors_policy - 
 #
 #>
 ######################################################################

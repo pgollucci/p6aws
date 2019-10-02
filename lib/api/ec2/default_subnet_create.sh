@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_default_subnet_create(availability_zone)
+#	p6_aws_ec2_default_subnet_create(availability_zone)
 #
-# Arg(s):
-#    availability_zone - 
-#
+#  Args:
+#	availability_zone - 
 #
 #>
 ######################################################################

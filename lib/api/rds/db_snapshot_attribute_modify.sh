@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_db_snapshot_attribute_modify(db_snapshot_identifier, attribute_name)
+#	p6_aws_rds_db_snapshot_attribute_modify(db_snapshot_identifier, attribute_name)
 #
-# Arg(s):
-#    db_snapshot_identifier - 
-#    attribute_name - 
-#
+#  Args:
+#	db_snapshot_identifier - 
+#	attribute_name - 
 #
 #>
 ######################################################################

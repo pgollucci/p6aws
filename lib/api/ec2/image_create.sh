@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_image_create(instance_id, name)
+#	p6_aws_ec2_image_create(instance_id, name)
 #
-# Arg(s):
-#    instance_id - 
-#    name - 
-#
+#  Args:
+#	instance_id - 
+#	name - 
 #
 #>
 ######################################################################

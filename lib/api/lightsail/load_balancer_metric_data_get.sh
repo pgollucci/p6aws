@@ -2,17 +2,16 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_load_balancer_metric_data_get(load_balancer_name, metric_name, period, start_time, end_time, unit, statistics)
+#	p6_aws_lightsail_load_balancer_metric_data_get(load_balancer_name, metric_name, period, start_time, end_time, unit, statistics)
 #
-# Arg(s):
-#    load_balancer_name - 
-#    metric_name - 
-#    period - 
-#    start_time - 
-#    end_time - 
-#    unit - 
-#    statistics - 
-#
+#  Args:
+#	load_balancer_name - 
+#	metric_name - 
+#	period - 
+#	start_time - 
+#	end_time - 
+#	unit - 
+#	statistics - 
 #
 #>
 ######################################################################

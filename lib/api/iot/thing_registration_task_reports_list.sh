@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_thing_registration_task_reports_list(task_id, report_type)
+#	p6_aws_iot_thing_registration_task_reports_list(task_id, report_type)
 #
-# Arg(s):
-#    task_id - 
-#    report_type - 
-#
+#  Args:
+#	task_id - 
+#	report_type - 
 #
 #>
 ######################################################################

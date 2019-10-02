@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_appstream_image_permissions_delete(name, shared_account_id)
+#	p6_aws_appstream_image_permissions_delete(name, shared_account_id)
 #
-# Arg(s):
-#    name - 
-#    shared_account_id - 
-#
+#  Args:
+#	name - 
+#	shared_account_id - 
 #
 #>
 ######################################################################

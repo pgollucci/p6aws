@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iotthingsgraph_entity_to_thing_associate(thing_name, entity_id)
+#	p6_aws_iotthingsgraph_entity_to_thing_associate(thing_name, entity_id)
 #
-# Arg(s):
-#    thing_name - 
-#    entity_id - 
-#
+#  Args:
+#	thing_name - 
+#	entity_id - 
 #
 #>
 ######################################################################

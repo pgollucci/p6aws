@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_db_cluster_backtrack(db_cluster_identifier, backtrack_to)
+#	p6_aws_rds_db_cluster_backtrack(db_cluster_identifier, backtrack_to)
 #
-# Arg(s):
-#    db_cluster_identifier - 
-#    backtrack_to - 
-#
+#  Args:
+#	db_cluster_identifier - 
+#	backtrack_to - 
 #
 #>
 ######################################################################

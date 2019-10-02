@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_email_send(from)
+#	p6_aws_ses_email_send(from)
 #
-# Arg(s):
-#    from - 
-#
+#  Args:
+#	from - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_comprehend_document_classification_job_describe(job_id)
+#	p6_aws_comprehend_document_classification_job_describe(job_id)
 #
-# Arg(s):
-#    job_id - 
-#
+#  Args:
+#	job_id - 
 #
 #>
 ######################################################################

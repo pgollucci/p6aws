@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_shield_subscription_describe()
-#
-#
+#	p6_aws_shield_subscription_describe()
 #
 #>
 ######################################################################

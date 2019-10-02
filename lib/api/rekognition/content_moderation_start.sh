@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_rekognition_content_moderation_start(video)
+#	p6_aws_rekognition_content_moderation_start(video)
 #
-# Arg(s):
-#    video - 
-#
+#  Args:
+#	video - 
 #
 #>
 ######################################################################

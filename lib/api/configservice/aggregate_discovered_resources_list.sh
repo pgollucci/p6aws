@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_aggregate_discovered_resources_list(configuration_aggregator_name, resource_type)
+#	p6_aws_configservice_aggregate_discovered_resources_list(configuration_aggregator_name, resource_type)
 #
-# Arg(s):
-#    configuration_aggregator_name - 
-#    resource_type - 
-#
+#  Args:
+#	configuration_aggregator_name - 
+#	resource_type - 
 #
 #>
 ######################################################################

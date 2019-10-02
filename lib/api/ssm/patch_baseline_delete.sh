@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_patch_baseline_delete(baseline_id)
+#	p6_aws_ssm_patch_baseline_delete(baseline_id)
 #
-# Arg(s):
-#    baseline_id - 
-#
+#  Args:
+#	baseline_id - 
 #
 #>
 ######################################################################

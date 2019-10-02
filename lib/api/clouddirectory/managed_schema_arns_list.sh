@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_clouddirectory_managed_schema_arns_list()
-#
-#
+#	p6_aws_clouddirectory_managed_schema_arns_list()
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesisanalytics_application_cloud_watch_logging_option_add(application_name, current_application_version_id, cloud_watch_logging_option)
+#	p6_aws_kinesisanalytics_application_cloud_watch_logging_option_add(application_name, current_application_version_id, cloud_watch_logging_option)
 #
-# Arg(s):
-#    application_name - 
-#    current_application_version_id - 
-#    cloud_watch_logging_option - 
-#
+#  Args:
+#	application_name - 
+#	current_application_version_id - 
+#	cloud_watch_logging_option - 
 #
 #>
 ######################################################################

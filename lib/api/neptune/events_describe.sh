@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_neptune_events_describe()
-#
-#
+#	p6_aws_neptune_events_describe()
 #
 #>
 ######################################################################

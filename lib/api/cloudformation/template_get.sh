@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudformation_template_get()
-#
-#
+#	p6_aws_cloudformation_template_get()
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesisvideo_stream_create(stream_name)
+#	p6_aws_kinesisvideo_stream_create(stream_name)
 #
-# Arg(s):
-#    stream_name - 
-#
+#  Args:
+#	stream_name - 
 #
 #>
 ######################################################################

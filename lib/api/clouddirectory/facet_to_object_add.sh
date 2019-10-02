@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_clouddirectory_facet_to_object_add(directory_arn, schema_facet, object_reference)
+#	p6_aws_clouddirectory_facet_to_object_add(directory_arn, schema_facet, object_reference)
 #
-# Arg(s):
-#    directory_arn - 
-#    schema_facet - 
-#    object_reference - 
-#
+#  Args:
+#	directory_arn - 
+#	schema_facet - 
+#	object_reference - 
 #
 #>
 ######################################################################

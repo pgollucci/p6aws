@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_appstream_stack_create(name)
+#	p6_aws_appstream_stack_create(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

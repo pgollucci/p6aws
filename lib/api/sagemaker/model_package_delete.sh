@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_model_package_delete(model_package_name)
+#	p6_aws_sagemaker_model_package_delete(model_package_name)
 #
-# Arg(s):
-#    model_package_name - 
-#
+#  Args:
+#	model_package_name - 
 #
 #>
 ######################################################################

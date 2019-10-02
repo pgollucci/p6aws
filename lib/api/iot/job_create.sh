@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_job_create(job_id, targets)
+#	p6_aws_iot_job_create(job_id, targets)
 #
-# Arg(s):
-#    job_id - 
-#    targets - 
-#
+#  Args:
+#	job_id - 
+#	targets - 
 #
 #>
 ######################################################################

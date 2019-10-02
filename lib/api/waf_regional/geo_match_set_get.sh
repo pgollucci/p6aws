@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_regional_geo_match_set_get(geo_match_set_id)
+#	p6_aws_waf_regional_geo_match_set_get(geo_match_set_id)
 #
-# Arg(s):
-#    geo_match_set_id - 
-#
+#  Args:
+#	geo_match_set_id - 
 #
 #>
 ######################################################################

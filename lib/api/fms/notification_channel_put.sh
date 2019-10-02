@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_fms_notification_channel_put(sns_topic_arn, sns_role_name)
+#	p6_aws_fms_notification_channel_put(sns_topic_arn, sns_role_name)
 #
-# Arg(s):
-#    sns_topic_arn - 
-#    sns_role_name - 
-#
+#  Args:
+#	sns_topic_arn - 
+#	sns_role_name - 
 #
 #>
 ######################################################################

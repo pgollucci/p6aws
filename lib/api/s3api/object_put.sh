@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_object_put(bucket, key)
+#	p6_aws_s3api_object_put(bucket, key)
 #
-# Arg(s):
-#    bucket - 
-#    key - 
-#
+#  Args:
+#	bucket - 
+#	key - 
 #
 #>
 ######################################################################

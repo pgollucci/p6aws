@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_object_restore(bucket, key)
+#	p6_aws_s3api_object_restore(bucket, key)
 #
-# Arg(s):
-#    bucket - 
-#    key - 
-#
+#  Args:
+#	bucket - 
+#	key - 
 #
 #>
 ######################################################################

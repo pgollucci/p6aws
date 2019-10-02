@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_chime_voice_connector_origination_put(voice_connector_id, origination)
+#	p6_aws_chime_voice_connector_origination_put(voice_connector_id, origination)
 #
-# Arg(s):
-#    voice_connector_id - 
-#    origination - 
-#
+#  Args:
+#	voice_connector_id - 
+#	origination - 
 #
 #>
 ######################################################################

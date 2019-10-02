@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_regional_web_acl_associate(web_acl_id, resource_arn)
+#	p6_aws_waf_regional_web_acl_associate(web_acl_id, resource_arn)
 #
-# Arg(s):
-#    web_acl_id - 
-#    resource_arn - 
-#
+#  Args:
+#	web_acl_id - 
+#	resource_arn - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_directconnect_transit_virtual_interface_confirm(virtual_interface_id, direct_connect_gateway_id)
+#	p6_aws_directconnect_transit_virtual_interface_confirm(virtual_interface_id, direct_connect_gateway_id)
 #
-# Arg(s):
-#    virtual_interface_id - 
-#    direct_connect_gateway_id - 
-#
+#  Args:
+#	virtual_interface_id - 
+#	direct_connect_gateway_id - 
 #
 #>
 ######################################################################

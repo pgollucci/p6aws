@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_connection_create(connection_input)
+#	p6_aws_glue_connection_create(connection_input)
 #
-# Arg(s):
-#    connection_input - 
-#
+#  Args:
+#	connection_input - 
 #
 #>
 ######################################################################

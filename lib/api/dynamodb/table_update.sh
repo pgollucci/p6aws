@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_dynamodb_table_update(table_name)
+#	p6_aws_dynamodb_table_update(table_name)
 #
-# Arg(s):
-#    table_name - 
-#
+#  Args:
+#	table_name - 
 #
 #>
 ######################################################################

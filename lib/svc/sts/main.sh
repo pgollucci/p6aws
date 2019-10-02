@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_sts_svc_refresh(cred_file, map_file, org, daas_login)
+#	p6_aws_sts_svc_refresh(cred_file, map_file, org, daas_login)
 #
-# Arg(s):
-#    cred_file - 
-#    map_file - 
-#    org - 
-#    daas_login - 
-#
+#  Args:
+#	cred_file - 
+#	map_file - 
+#	org - 
+#	daas_login - 
 #
 #>
 ######################################################################
@@ -39,18 +38,17 @@ p6_aws_sts_svc_refresh() {
 #<
 #
 # Function:
-#      = p6_aws_sts_svc_role_assume(profile, region, output, role_arn, role_session_name, cred_file, src_cred_file, assumed_cred_file)
+#	p6_aws_sts_svc_role_assume(profile, region, output, role_arn, role_session_name, cred_file, src_cred_file, assumed_cred_file)
 #
-# Arg(s):
-#    profile - 
-#    region - 
-#    output - 
-#    role_arn - 
-#    role_session_name - 
-#    cred_file - 
-#    src_cred_file - 
-#    assumed_cred_file - 
-#
+#  Args:
+#	profile - 
+#	region - 
+#	output - 
+#	role_arn - 
+#	role_session_name - 
+#	cred_file - 
+#	src_cred_file - 
+#	assumed_cred_file - 
 #
 #>
 ######################################################################
@@ -93,13 +91,12 @@ p6_aws_sts_svc_role_assume() {
 #<
 #
 # Function:
-#      = p6_aws_sts_svc_role_unassume(cred_file, src_file, assumed_file)
+#	p6_aws_sts_svc_role_unassume(cred_file, src_file, assumed_file)
 #
-# Arg(s):
-#    cred_file - 
-#    src_file - 
-#    assumed_file - 
-#
+#  Args:
+#	cred_file - 
+#	src_file - 
+#	assumed_file - 
 #
 #>
 ######################################################################
@@ -123,17 +120,16 @@ p6_aws_sts_svc_role_unassume() {
 #<
 #
 # Function:
-#      = p6_aws_sts_svc_cred_write(profile, region, output, aws_access_key_id, aws_secret_access_key, aws_session_token, expiration)
+#	p6_aws_sts_svc_cred_write(profile, region, output, aws_access_key_id, aws_secret_access_key, aws_session_token, expiration)
 #
-# Arg(s):
-#    profile - 
-#    region - 
-#    output - 
-#    aws_access_key_id - 
-#    aws_secret_access_key - 
-#    aws_session_token - 
-#    expiration - 
-#
+#  Args:
+#	profile - 
+#	region - 
+#	output - 
+#	aws_access_key_id - 
+#	aws_secret_access_key - 
+#	aws_session_token - 
+#	expiration - 
 #
 #>
 ######################################################################
@@ -160,11 +156,10 @@ p6_aws_sts_svc_cred_write() {
 #<
 #
 # Function:
-#      = p6_aws_sts_svc_profiles_list(cred_file)
+#	p6_aws_sts_svc_profiles_list(cred_file)
 #
-# Arg(s):
-#    cred_file - 
-#
+#  Args:
+#	cred_file - 
 #
 #>
 ######################################################################
@@ -178,11 +173,10 @@ p6_aws_sts_svc_profiles_list() {
 #<
 #
 # Function:
-#      = p6_aws_sts_svc_map(org)
+#	p6_aws_sts_svc_map(org)
 #
-# Arg(s):
-#    org - 
-#
+#  Args:
+#	org - 
 #
 #>
 ######################################################################
@@ -196,12 +190,11 @@ p6_aws_sts_svc_map() {
 #<
 #
 # Function:
-#      = p6_aws_sts_svc_jc_refresh(nicks, saml_provider_email)
+#	p6_aws_sts_svc_jc_refresh(nicks, saml_provider_email)
 #
-# Arg(s):
-#    nicks - 
-#    saml_provider_email - 
-#
+#  Args:
+#	nicks - 
+#	saml_provider_email - 
 #
 #>
 ######################################################################
@@ -216,11 +209,10 @@ p6_aws_sts_svc_jc_refresh() {
 #<
 #
 # Function:
-#      = p6_aws_sts_svc_regions_disable(account_email)
+#	p6_aws_sts_svc_regions_disable(account_email)
 #
-# Arg(s):
-#    account_email - 
-#
+#  Args:
+#	account_email - 
 #
 #>
 ######################################################################
@@ -235,11 +227,10 @@ p6_aws_sts_svc_regions_disable() {
 #<
 #
 # Function:
-#      = p6_aws_sts_svc_root_keys_delete(account_email)
+#	p6_aws_sts_svc_root_keys_delete(account_email)
 #
-# Arg(s):
-#    account_email - 
-#
+#  Args:
+#	account_email - 
 #
 #>
 ######################################################################
@@ -253,11 +244,10 @@ p6_aws_sts_svc_root_keys_delete() {
 #<
 #
 # Function:
-#      = p6_aws_sts_svc_root_mfa_enable(account_email)
+#	p6_aws_sts_svc_root_mfa_enable(account_email)
 #
-# Arg(s):
-#    account_email - 
-#
+#  Args:
+#	account_email - 
 #
 #>
 ######################################################################

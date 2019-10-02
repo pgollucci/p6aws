@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_quicksight_user_register(identity_type, email, user_role, aws_account_id, namespace)
+#	p6_aws_quicksight_user_register(identity_type, email, user_role, aws_account_id, namespace)
 #
-# Arg(s):
-#    identity_type - 
-#    email - 
-#    user_role - 
-#    aws_account_id - 
-#    namespace - 
-#
+#  Args:
+#	identity_type - 
+#	email - 
+#	user_role - 
+#	aws_account_id - 
+#	namespace - 
 #
 #>
 ######################################################################

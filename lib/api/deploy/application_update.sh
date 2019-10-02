@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_deploy_application_update()
-#
-#
+#	p6_aws_deploy_application_update()
 #
 #>
 ######################################################################

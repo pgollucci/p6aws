@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpn_gateways_describe()
-#
-#
+#	p6_aws_ec2_vpn_gateways_describe()
 #
 #>
 ######################################################################

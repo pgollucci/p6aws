@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_support_services_describe()
-#
-#
+#	p6_aws_support_services_describe()
 #
 #>
 ######################################################################

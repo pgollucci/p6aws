@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudsearch_index_field_delete(domain_name, index_field_name)
+#	p6_aws_cloudsearch_index_field_delete(domain_name, index_field_name)
 #
-# Arg(s):
-#    domain_name - 
-#    index_field_name - 
-#
+#  Args:
+#	domain_name - 
+#	index_field_name - 
 #
 #>
 ######################################################################

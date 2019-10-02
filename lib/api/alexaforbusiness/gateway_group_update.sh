@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_gateway_group_update(gateway_group_arn)
+#	p6_aws_alexaforbusiness_gateway_group_update(gateway_group_arn)
 #
-# Arg(s):
-#    gateway_group_arn - 
-#
+#  Args:
+#	gateway_group_arn - 
 #
 #>
 ######################################################################

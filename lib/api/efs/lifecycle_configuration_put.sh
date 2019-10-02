@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_efs_lifecycle_configuration_put(file_system_id, lifecycle_policies)
+#	p6_aws_efs_lifecycle_configuration_put(file_system_id, lifecycle_policies)
 #
-# Arg(s):
-#    file_system_id - 
-#    lifecycle_policies - 
-#
+#  Args:
+#	file_system_id - 
+#	lifecycle_policies - 
 #
 #>
 ######################################################################

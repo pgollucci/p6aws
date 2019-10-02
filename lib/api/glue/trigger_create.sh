@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_trigger_create(name, type, actions)
+#	p6_aws_glue_trigger_create(name, type, actions)
 #
-# Arg(s):
-#    name - 
-#    type - 
-#    actions - 
-#
+#  Args:
+#	name - 
+#	type - 
+#	actions - 
 #
 #>
 ######################################################################

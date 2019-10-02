@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_budgets_notification_delete(account_id, budget_name, notification)
+#	p6_aws_budgets_notification_delete(account_id, budget_name, notification)
 #
-# Arg(s):
-#    account_id - 
-#    budget_name - 
-#    notification - 
-#
+#  Args:
+#	account_id - 
+#	budget_name - 
+#	notification - 
 #
 #>
 ######################################################################

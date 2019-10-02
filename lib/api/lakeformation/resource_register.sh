@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lakeformation_resource_register(resource_arn)
+#	p6_aws_lakeformation_resource_register(resource_arn)
 #
-# Arg(s):
-#    resource_arn - 
-#
+#  Args:
+#	resource_arn - 
 #
 #>
 ######################################################################

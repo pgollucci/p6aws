@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_vpc_link_get(vpc_link_id)
+#	p6_aws_apigateway_vpc_link_get(vpc_link_id)
 #
-# Arg(s):
-#    vpc_link_id - 
-#
+#  Args:
+#	vpc_link_id - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_servicediscovery_namespace_get(id)
+#	p6_aws_servicediscovery_namespace_get(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

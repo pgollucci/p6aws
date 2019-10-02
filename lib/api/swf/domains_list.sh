@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_swf_domains_list(registration_status)
+#	p6_aws_swf_domains_list(registration_status)
 #
-# Arg(s):
-#    registration_status - 
-#
+#  Args:
+#	registration_status - 
 #
 #>
 ######################################################################

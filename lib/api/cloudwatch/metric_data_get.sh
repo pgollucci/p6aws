@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudwatch_metric_data_get(metric_data_queries, start_time, end_time)
+#	p6_aws_cloudwatch_metric_data_get(metric_data_queries, start_time, end_time)
 #
-# Arg(s):
-#    metric_data_queries - 
-#    start_time - 
-#    end_time - 
-#
+#  Args:
+#	metric_data_queries - 
+#	start_time - 
+#	end_time - 
 #
 #>
 ######################################################################

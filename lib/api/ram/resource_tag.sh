@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ram_resource_tag(resource_share_arn, tags)
+#	p6_aws_ram_resource_tag(resource_share_arn, tags)
 #
-# Arg(s):
-#    resource_share_arn - 
-#    tags - 
-#
+#  Args:
+#	resource_share_arn - 
+#	tags - 
 #
 #>
 ######################################################################

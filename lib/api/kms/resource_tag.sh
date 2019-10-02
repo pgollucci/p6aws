@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_kms_resource_tag(key_id, tags)
+#	p6_aws_kms_resource_tag(key_id, tags)
 #
-# Arg(s):
-#    key_id - 
-#    tags - 
-#
+#  Args:
+#	key_id - 
+#	tags - 
 #
 #>
 ######################################################################

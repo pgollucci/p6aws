@@ -4,9 +4,7 @@ P6_AWS_JQ_TAG_NAME="Tags[?Key==\`Name\`].Value | [0]"
 #<
 #
 # Function:
-#      = p6_aws_util_cli_qload()
-#
-#
+#	p6_aws_util_cli_qload()
 #
 #>
 ######################################################################
@@ -25,11 +23,10 @@ p6_aws_util_cli_qload() {
 #<
 #
 # Function:
-#      = p6_aws_util_include_service(service)
+#	p6_aws_util_include_service(service)
 #
-# Arg(s):
-#    service - 
-#
+#  Args:
+#	service - 
 #
 #>
 ######################################################################
@@ -48,12 +45,11 @@ p6_aws_util_include_service() {
 #<
 #
 # Function:
-#      = p6_aws_util_account_alias_to_id(account_alias, map)
+#	p6_aws_util_account_alias_to_id(account_alias, map)
 #
-# Arg(s):
-#    account_alias - 
-#    map - 
-#
+#  Args:
+#	account_alias - 
+#	map - 
 #
 #>
 ######################################################################
@@ -68,12 +64,11 @@ p6_aws_util_account_alias_to_id() {
 #<
 #
 # Function:
-#      = p6_aws_util_nicks(org, map)
+#	p6_aws_util_nicks(org, map)
 #
-# Arg(s):
-#    org - 
-#    map - 
-#
+#  Args:
+#	org - 
+#	map - 
 #
 #>
 ######################################################################
@@ -90,13 +85,12 @@ p6_aws_util_nicks() {
 #<
 #
 # Function:
-#      = p6_aws_util_account_map(account_id, account_alias, map)
+#	p6_aws_util_account_map(account_id, account_alias, map)
 #
-# Arg(s):
-#    account_id - 
-#    account_alias - 
-#    map - 
-#
+#  Args:
+#	account_id - 
+#	account_alias - 
+#	map - 
 #
 #>
 ######################################################################
@@ -115,12 +109,11 @@ p6_aws_util_account_map() {
 #<
 #
 # Function:
-#      = p6_aws_util_region_for_profile_from_cred_file(profile, cred_file)
+#	p6_aws_util_region_for_profile_from_cred_file(profile, cred_file)
 #
-# Arg(s):
-#    profile - 
-#    cred_file - 
-#
+#  Args:
+#	profile - 
+#	cred_file - 
 #
 #>
 ######################################################################
@@ -135,11 +128,10 @@ p6_aws_util_region_for_profile_from_cred_file() {
 #<
 #
 # Function:
-#      = p6_aws_util_template_process(infile)
+#	p6_aws_util_template_process(infile)
 #
-# Arg(s):
-#    infile - 
-#
+#  Args:
+#	infile - 
 #
 #>
 ######################################################################

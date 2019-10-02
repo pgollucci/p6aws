@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_run(ip_permissions, ip_permissions)
+#	p6_aws_ec2_run(ip_permissions, ip_permissions)
 #
-# Arg(s):
-#    ip_permissions - 
-#    ip_permissions - 
-#
+#  Args:
+#	ip_permissions - 
+#	ip_permissions - 
 #
 #>
 ######################################################################

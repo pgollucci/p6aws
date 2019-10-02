@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_prefix_lists_describe()
-#
-#
+#	p6_aws_ec2_prefix_lists_describe()
 #
 #>
 ######################################################################

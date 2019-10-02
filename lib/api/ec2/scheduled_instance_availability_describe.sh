@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_scheduled_instance_availability_describe(first_slot_start_time_range, recurrence)
+#	p6_aws_ec2_scheduled_instance_availability_describe(first_slot_start_time_range, recurrence)
 #
-# Arg(s):
-#    first_slot_start_time_range - 
-#    recurrence - 
-#
+#  Args:
+#	first_slot_start_time_range - 
+#	recurrence - 
 #
 #>
 ######################################################################

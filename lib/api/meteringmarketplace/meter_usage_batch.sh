@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_meteringmarketplace_meter_usage_batch(usage_records, product_code)
+#	p6_aws_meteringmarketplace_meter_usage_batch(usage_records, product_code)
 #
-# Arg(s):
-#    usage_records - 
-#    product_code - 
-#
+#  Args:
+#	usage_records - 
+#	product_code - 
 #
 #>
 ######################################################################

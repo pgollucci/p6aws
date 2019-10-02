@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_organizations_all_features_enable()
-#
-#
+#	p6_aws_organizations_all_features_enable()
 #
 #>
 ######################################################################

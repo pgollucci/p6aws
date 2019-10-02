@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_email_blacklist_reports_get(blacklist_item_names)
+#	p6_aws_pinpoint_email_blacklist_reports_get(blacklist_item_names)
 #
-# Arg(s):
-#    blacklist_item_names - 
-#
+#  Args:
+#	blacklist_item_names - 
 #
 #>
 ######################################################################

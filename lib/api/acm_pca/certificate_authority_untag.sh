@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_acm_pca_certificate_authority_untag(certificate_authority_arn, tags)
+#	p6_aws_acm_pca_certificate_authority_untag(certificate_authority_arn, tags)
 #
-# Arg(s):
-#    certificate_authority_arn - 
-#    tags - 
-#
+#  Args:
+#	certificate_authority_arn - 
+#	tags - 
 #
 #>
 ######################################################################

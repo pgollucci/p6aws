@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_mturk_workers_notify(subject, message_text, worker_ids)
+#	p6_aws_mturk_workers_notify(subject, message_text, worker_ids)
 #
-# Arg(s):
-#    subject - 
-#    message_text - 
-#    worker_ids - 
-#
+#  Args:
+#	subject - 
+#	message_text - 
+#	worker_ids - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_skill_authorization_put(authorization_result, skill_id)
+#	p6_aws_alexaforbusiness_skill_authorization_put(authorization_result, skill_id)
 #
-# Arg(s):
-#    authorization_result - 
-#    skill_id - 
-#
+#  Args:
+#	authorization_result - 
+#	skill_id - 
 #
 #>
 ######################################################################

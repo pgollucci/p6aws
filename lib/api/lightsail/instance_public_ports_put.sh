@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_instance_public_ports_put(port_infos, instance_name)
+#	p6_aws_lightsail_instance_public_ports_put(port_infos, instance_name)
 #
-# Arg(s):
-#    port_infos - 
-#    instance_name - 
-#
+#  Args:
+#	port_infos - 
+#	instance_name - 
 #
 #>
 ######################################################################

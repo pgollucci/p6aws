@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iotthingsgraph_system_instance_create(definition, target)
+#	p6_aws_iotthingsgraph_system_instance_create(definition, target)
 #
-# Arg(s):
-#    definition - 
-#    target - 
-#
+#  Args:
+#	definition - 
+#	target - 
 #
 #>
 ######################################################################

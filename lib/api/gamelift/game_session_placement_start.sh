@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_game_session_placement_start(placement_id, game_session_queue_name, maximum_player_session_count)
+#	p6_aws_gamelift_game_session_placement_start(placement_id, game_session_queue_name, maximum_player_session_count)
 #
-# Arg(s):
-#    placement_id - 
-#    game_session_queue_name - 
-#    maximum_player_session_count - 
-#
+#  Args:
+#	placement_id - 
+#	game_session_queue_name - 
+#	maximum_player_session_count - 
 #
 #>
 ######################################################################

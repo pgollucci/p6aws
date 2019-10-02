@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_identity_id_get(identity_pool_id)
+#	p6_aws_cognito_identity_id_get(identity_pool_id)
 #
-# Arg(s):
-#    identity_pool_id - 
-#
+#  Args:
+#	identity_pool_id - 
 #
 #>
 ######################################################################

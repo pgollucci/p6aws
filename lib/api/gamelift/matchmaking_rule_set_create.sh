@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_matchmaking_rule_set_create(name, rule_set_body)
+#	p6_aws_gamelift_matchmaking_rule_set_create(name, rule_set_body)
 #
-# Arg(s):
-#    name - 
-#    rule_set_body - 
-#
+#  Args:
+#	name - 
+#	rule_set_body - 
 #
 #>
 ######################################################################

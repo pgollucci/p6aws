@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_workmail_group_create(organization_id, name)
+#	p6_aws_workmail_group_create(organization_id, name)
 #
-# Arg(s):
-#    organization_id - 
-#    name - 
-#
+#  Args:
+#	organization_id - 
+#	name - 
 #
 #>
 ######################################################################

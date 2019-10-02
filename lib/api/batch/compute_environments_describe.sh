@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_batch_compute_environments_describe()
-#
-#
+#	p6_aws_batch_compute_environments_describe()
 #
 #>
 ######################################################################

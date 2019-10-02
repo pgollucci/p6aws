@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_rekognition_face_search_start(video, collection_id)
+#	p6_aws_rekognition_face_search_start(video, collection_id)
 #
-# Arg(s):
-#    video - 
-#    collection_id - 
-#
+#  Args:
+#	video - 
+#	collection_id - 
 #
 #>
 ######################################################################

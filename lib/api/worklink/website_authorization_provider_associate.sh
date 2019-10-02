@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_worklink_website_authorization_provider_associate(fleet_arn, authorization_provider_type)
+#	p6_aws_worklink_website_authorization_provider_associate(fleet_arn, authorization_provider_type)
 #
-# Arg(s):
-#    fleet_arn - 
-#    authorization_provider_type - 
-#
+#  Args:
+#	fleet_arn - 
+#	authorization_provider_type - 
 #
 #>
 ######################################################################

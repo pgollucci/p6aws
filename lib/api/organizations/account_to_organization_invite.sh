@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_organizations_account_to_organization_invite(target)
+#	p6_aws_organizations_account_to_organization_invite(target)
 #
-# Arg(s):
-#    target - 
-#
+#  Args:
+#	target - 
 #
 #>
 ######################################################################

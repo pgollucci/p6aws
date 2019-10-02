@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_athena_named_query_get(named_query_id)
+#	p6_aws_athena_named_query_get(named_query_id)
 #
-# Arg(s):
-#    named_query_id - 
-#
+#  Args:
+#	named_query_id - 
 #
 #>
 ######################################################################

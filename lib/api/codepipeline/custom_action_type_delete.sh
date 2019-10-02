@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_codepipeline_custom_action_type_delete(category, provider, action_version)
+#	p6_aws_codepipeline_custom_action_type_delete(category, provider, action_version)
 #
-# Arg(s):
-#    category - 
-#    provider - 
-#    action_version - 
-#
+#  Args:
+#	category - 
+#	provider - 
+#	action_version - 
 #
 #>
 ######################################################################

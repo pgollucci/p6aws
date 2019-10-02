@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_backup_backup_selection_create(backup_plan_id, backup_selection)
+#	p6_aws_backup_backup_selection_create(backup_plan_id, backup_selection)
 #
-# Arg(s):
-#    backup_plan_id - 
-#    backup_selection - 
-#
+#  Args:
+#	backup_plan_id - 
+#	backup_selection - 
 #
 #>
 ######################################################################

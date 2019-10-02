@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_layers_describe()
-#
-#
+#	p6_aws_opsworks_layers_describe()
 #
 #>
 ######################################################################

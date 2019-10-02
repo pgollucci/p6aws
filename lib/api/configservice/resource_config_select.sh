@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_resource_config_select(expression)
+#	p6_aws_configservice_resource_config_select(expression)
 #
-# Arg(s):
-#    expression - 
-#
+#  Args:
+#	expression - 
 #
 #>
 ######################################################################

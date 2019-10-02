@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_rekognition_celebrities_recognize()
-#
-#
+#	p6_aws_rekognition_celebrities_recognize()
 #
 #>
 ######################################################################

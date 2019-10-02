@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codepipeline_pipeline_create(pipeline)
+#	p6_aws_codepipeline_pipeline_create(pipeline)
 #
-# Arg(s):
-#    pipeline - 
-#
+#  Args:
+#	pipeline - 
 #
 #>
 ######################################################################

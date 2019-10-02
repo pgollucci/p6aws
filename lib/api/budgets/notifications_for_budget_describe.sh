@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_budgets_notifications_for_budget_describe(account_id, budget_name)
+#	p6_aws_budgets_notifications_for_budget_describe(account_id, budget_name)
 #
-# Arg(s):
-#    account_id - 
-#    budget_name - 
-#
+#  Args:
+#	account_id - 
+#	budget_name - 
 #
 #>
 ######################################################################

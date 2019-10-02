@@ -2,16 +2,15 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_custom_verification_email_template_create(template_name, from_email_address, template_subject, template_content, success_redirection_url, failure_redirection_url)
+#	p6_aws_ses_custom_verification_email_template_create(template_name, from_email_address, template_subject, template_content, success_redirection_url, failure_redirection_url)
 #
-# Arg(s):
-#    template_name - 
-#    from_email_address - 
-#    template_subject - 
-#    template_content - 
-#    success_redirection_url - 
-#    failure_redirection_url - 
-#
+#  Args:
+#	template_name - 
+#	from_email_address - 
+#	template_subject - 
+#	template_content - 
+#	success_redirection_url - 
+#	failure_redirection_url - 
 #
 #>
 ######################################################################

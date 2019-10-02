@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_neptune_tags_to_resource_add(resource_name, tags)
+#	p6_aws_neptune_tags_to_resource_add(resource_name, tags)
 #
-# Arg(s):
-#    resource_name - 
-#    tags - 
-#
+#  Args:
+#	resource_name - 
+#	tags - 
 #
 #>
 ######################################################################

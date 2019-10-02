@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lambda_event_source_mapping_get(uuid)
+#	p6_aws_lambda_event_source_mapping_get(uuid)
 #
-# Arg(s):
-#    uuid - 
-#
+#  Args:
+#	uuid - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_auto_healing(layer_id)
+#	p6_aws_opsworks_auto_healing(layer_id)
 #
-# Arg(s):
-#    layer_id - 
-#
+#  Args:
+#	layer_id - 
 #
 #>
 ######################################################################
@@ -21,11 +20,10 @@ p6_aws_opsworks_auto_healing() {
 #<
 #
 # Function:
-#      = p6_aws_opsworks_assign_elastic_ips(layer_id)
+#	p6_aws_opsworks_assign_elastic_ips(layer_id)
 #
-# Arg(s):
-#    layer_id - 
-#
+#  Args:
+#	layer_id - 
 #
 #>
 ######################################################################
@@ -40,11 +38,10 @@ p6_aws_opsworks_assign_elastic_ips() {
 #<
 #
 # Function:
-#      = p6_aws_opsworks_assign_public_ips(layer_id)
+#	p6_aws_opsworks_assign_public_ips(layer_id)
 #
-# Arg(s):
-#    layer_id - 
-#
+#  Args:
+#	layer_id - 
 #
 #>
 ######################################################################
@@ -59,12 +56,11 @@ p6_aws_opsworks_assign_public_ips() {
 #<
 #
 # Function:
-#      = p6_aws_opsworks_updates_on_boot(instance_id, layer_id)
+#	p6_aws_opsworks_updates_on_boot(instance_id, layer_id)
 #
-# Arg(s):
-#    instance_id - 
-#    layer_id - 
-#
+#  Args:
+#	instance_id - 
+#	layer_id - 
 #
 #>
 ######################################################################
@@ -79,11 +75,10 @@ p6_aws_opsworks_updates_on_boot() {
 #<
 #
 # Function:
-#      = p6_aws_opsworks_ebs_optimized_instances(layer_id)
+#	p6_aws_opsworks_ebs_optimized_instances(layer_id)
 #
-# Arg(s):
-#    layer_id - 
-#
+#  Args:
+#	layer_id - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_mfa_device_deactivate(user_name, serial_number)
+#	p6_aws_iam_mfa_device_deactivate(user_name, serial_number)
 #
-# Arg(s):
-#    user_name - 
-#    serial_number - 
-#
+#  Args:
+#	user_name - 
+#	serial_number - 
 #
 #>
 ######################################################################

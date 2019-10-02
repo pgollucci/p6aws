@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_codestar_team_member_associate(project_id, user_arn, project_role)
+#	p6_aws_codestar_team_member_associate(project_id, user_arn, project_role)
 #
-# Arg(s):
-#    project_id - 
-#    user_arn - 
-#    project_role - 
-#
+#  Args:
+#	project_id - 
+#	user_arn - 
+#	project_role - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_role_create(role_name, assume_role_policy_document)
+#	p6_aws_iam_role_create(role_name, assume_role_policy_document)
 #
-# Arg(s):
-#    role_name - 
-#    assume_role_policy_document - 
-#
+#  Args:
+#	role_name - 
+#	assume_role_policy_document - 
 #
 #>
 ######################################################################

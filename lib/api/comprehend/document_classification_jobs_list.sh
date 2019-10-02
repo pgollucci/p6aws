@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_comprehend_document_classification_jobs_list()
-#
-#
+#	p6_aws_comprehend_document_classification_jobs_list()
 #
 #>
 ######################################################################

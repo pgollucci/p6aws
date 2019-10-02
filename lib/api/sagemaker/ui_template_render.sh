@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_ui_template_render(ui_template, task, role_arn)
+#	p6_aws_sagemaker_ui_template_render(ui_template, task, role_arn)
 #
-# Arg(s):
-#    ui_template - 
-#    task - 
-#    role_arn - 
-#
+#  Args:
+#	ui_template - 
+#	task - 
+#	role_arn - 
 #
 #>
 ######################################################################

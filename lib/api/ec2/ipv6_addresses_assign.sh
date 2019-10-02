@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_ipv6_addresses_assign(network_interface_id)
+#	p6_aws_ec2_ipv6_addresses_assign(network_interface_id)
 #
-# Arg(s):
-#    network_interface_id - 
-#
+#  Args:
+#	network_interface_id - 
 #
 #>
 ######################################################################

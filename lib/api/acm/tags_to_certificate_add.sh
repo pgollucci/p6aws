@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_acm_tags_to_certificate_add(certificate_arn, tags)
+#	p6_aws_acm_tags_to_certificate_add(certificate_arn, tags)
 #
-# Arg(s):
-#    certificate_arn - 
-#    tags - 
-#
+#  Args:
+#	certificate_arn - 
+#	tags - 
 #
 #>
 ######################################################################

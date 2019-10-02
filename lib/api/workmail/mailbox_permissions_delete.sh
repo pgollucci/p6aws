@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_workmail_mailbox_permissions_delete(organization_id, entity_id, grantee_id)
+#	p6_aws_workmail_mailbox_permissions_delete(organization_id, entity_id, grantee_id)
 #
-# Arg(s):
-#    organization_id - 
-#    entity_id - 
-#    grantee_id - 
-#
+#  Args:
+#	organization_id - 
+#	entity_id - 
+#	grantee_id - 
 #
 #>
 ######################################################################

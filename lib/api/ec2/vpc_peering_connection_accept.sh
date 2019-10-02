@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpc_peering_connection_accept()
-#
-#
+#	p6_aws_ec2_vpc_peering_connection_accept()
 #
 #>
 ######################################################################

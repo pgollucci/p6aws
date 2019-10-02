@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_hosts_allocate(availability_zone, instance_type, quantity)
+#	p6_aws_ec2_hosts_allocate(availability_zone, instance_type, quantity)
 #
-# Arg(s):
-#    availability_zone - 
-#    instance_type - 
-#    quantity - 
-#
+#  Args:
+#	availability_zone - 
+#	instance_type - 
+#	quantity - 
 #
 #>
 ######################################################################

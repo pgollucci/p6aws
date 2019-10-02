@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_authorizer_delete(authorizer_name)
+#	p6_aws_iot_authorizer_delete(authorizer_name)
 #
-# Arg(s):
-#    authorizer_name - 
-#
+#  Args:
+#	authorizer_name - 
 #
 #>
 ######################################################################

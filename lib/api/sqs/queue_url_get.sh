@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sqs_queue_url_get(queue_name)
+#	p6_aws_sqs_queue_url_get(queue_name)
 #
-# Arg(s):
-#    queue_name - 
-#
+#  Args:
+#	queue_name - 
 #
 #>
 ######################################################################

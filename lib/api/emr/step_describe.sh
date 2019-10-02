@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_emr_step_describe(cluster_id, step_id)
+#	p6_aws_emr_step_describe(cluster_id, step_id)
 #
-# Arg(s):
-#    cluster_id - 
-#    step_id - 
-#
+#  Args:
+#	cluster_id - 
+#	step_id - 
 #
 #>
 ######################################################################

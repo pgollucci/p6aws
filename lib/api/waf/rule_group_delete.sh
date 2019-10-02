@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_rule_group_delete(rule_group_id, change_token)
+#	p6_aws_waf_rule_group_delete(rule_group_id, change_token)
 #
-# Arg(s):
-#    rule_group_id - 
-#    change_token - 
-#
+#  Args:
+#	rule_group_id - 
+#	change_token - 
 #
 #>
 ######################################################################

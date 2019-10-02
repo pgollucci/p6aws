@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_acm_certificate_export(certificate_arn, passphrase)
+#	p6_aws_acm_certificate_export(certificate_arn, passphrase)
 #
-# Arg(s):
-#    certificate_arn - 
-#    passphrase - 
-#
+#  Args:
+#	certificate_arn - 
+#	passphrase - 
 #
 #>
 ######################################################################

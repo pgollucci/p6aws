@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_public_access_block_get(bucket)
+#	p6_aws_s3api_public_access_block_get(bucket)
 #
-# Arg(s):
-#    bucket - 
-#
+#  Args:
+#	bucket - 
 #
 #>
 ######################################################################

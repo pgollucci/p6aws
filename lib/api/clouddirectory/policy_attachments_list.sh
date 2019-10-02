@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_clouddirectory_policy_attachments_list(directory_arn, policy_reference)
+#	p6_aws_clouddirectory_policy_attachments_list(directory_arn, policy_reference)
 #
-# Arg(s):
-#    directory_arn - 
-#    policy_reference - 
-#
+#  Args:
+#	directory_arn - 
+#	policy_reference - 
 #
 #>
 ######################################################################

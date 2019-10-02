@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticbeanstalk_tags_for_resource_update(resource_arn)
+#	p6_aws_elasticbeanstalk_tags_for_resource_update(resource_arn)
 #
-# Arg(s):
-#    resource_arn - 
-#
+#  Args:
+#	resource_arn - 
 #
 #>
 ######################################################################

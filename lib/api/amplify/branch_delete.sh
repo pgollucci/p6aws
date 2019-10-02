@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_amplify_branch_delete(app_id, branch_name)
+#	p6_aws_amplify_branch_delete(app_id, branch_name)
 #
-# Arg(s):
-#    app_id - 
-#    branch_name - 
-#
+#  Args:
+#	app_id - 
+#	branch_name - 
 #
 #>
 ######################################################################

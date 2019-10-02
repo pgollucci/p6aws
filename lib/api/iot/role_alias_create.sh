@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_role_alias_create(role_alias, role_arn)
+#	p6_aws_iot_role_alias_create(role_alias, role_arn)
 #
-# Arg(s):
-#    role_alias - 
-#    role_arn - 
-#
+#  Args:
+#	role_alias - 
+#	role_arn - 
 #
 #>
 ######################################################################

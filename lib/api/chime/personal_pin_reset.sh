@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_chime_personal_pin_reset(account_id, user_id)
+#	p6_aws_chime_personal_pin_reset(account_id, user_id)
 #
-# Arg(s):
-#    account_id - 
-#    user_id - 
-#
+#  Args:
+#	account_id - 
+#	user_id - 
 #
 #>
 ######################################################################

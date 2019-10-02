@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_deployment_delete(rest_api_id, deployment_id)
+#	p6_aws_apigateway_deployment_delete(rest_api_id, deployment_id)
 #
-# Arg(s):
-#    rest_api_id - 
-#    deployment_id - 
-#
+#  Args:
+#	rest_api_id - 
+#	deployment_id - 
 #
 #>
 ######################################################################

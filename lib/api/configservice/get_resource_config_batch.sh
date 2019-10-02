@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_get_resource_config_batch(resource_keys)
+#	p6_aws_configservice_get_resource_config_batch(resource_keys)
 #
-# Arg(s):
-#    resource_keys - 
-#
+#  Args:
+#	resource_keys - 
 #
 #>
 ######################################################################

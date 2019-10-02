@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_ds_computer_create(directory_id, computer_name, password)
+#	p6_aws_ds_computer_create(directory_id, computer_name, password)
 #
-# Arg(s):
-#    directory_id - 
-#    computer_name - 
-#    password - 
-#
+#  Args:
+#	directory_id - 
+#	computer_name - 
+#	password - 
 #
 #>
 ######################################################################

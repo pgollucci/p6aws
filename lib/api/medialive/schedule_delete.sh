@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_medialive_schedule_delete(channel_id)
+#	p6_aws_medialive_schedule_delete(channel_id)
 #
-# Arg(s):
-#    channel_id - 
-#
+#  Args:
+#	channel_id - 
 #
 #>
 ######################################################################

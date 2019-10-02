@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_logging_disable(cluster_identifier)
+#	p6_aws_redshift_logging_disable(cluster_identifier)
 #
-# Arg(s):
-#    cluster_identifier - 
-#
+#  Args:
+#	cluster_identifier - 
 #
 #>
 ######################################################################

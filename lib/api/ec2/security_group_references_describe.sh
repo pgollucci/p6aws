@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_security_group_references_describe(group_id)
+#	p6_aws_ec2_security_group_references_describe(group_id)
 #
-# Arg(s):
-#    group_id - 
-#
+#  Args:
+#	group_id - 
 #
 #>
 ######################################################################

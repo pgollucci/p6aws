@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_inspector_exclusions_preview_create(assessment_template_arn)
+#	p6_aws_inspector_exclusions_preview_create(assessment_template_arn)
 #
-# Arg(s):
-#    assessment_template_arn - 
-#
+#  Args:
+#	assessment_template_arn - 
 #
 #>
 ######################################################################

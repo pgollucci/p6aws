@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpc_endpoint_connection_notification_create(connection_notification_arn, connection_events)
+#	p6_aws_ec2_vpc_endpoint_connection_notification_create(connection_notification_arn, connection_events)
 #
-# Arg(s):
-#    connection_notification_arn - 
-#    connection_events - 
-#
+#  Args:
+#	connection_notification_arn - 
+#	connection_events - 
 #
 #>
 ######################################################################

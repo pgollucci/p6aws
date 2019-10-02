@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_build_upload(name, build_version, build_root)
+#	p6_aws_gamelift_build_upload(name, build_version, build_root)
 #
-# Arg(s):
-#    name - 
-#    build_version - 
-#    build_root - 
-#
+#  Args:
+#	name - 
+#	build_version - 
+#	build_root - 
 #
 #>
 ######################################################################

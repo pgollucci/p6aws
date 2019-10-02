@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_thing_registration_task_start(template_body, input_file_bucket, input_file_key, role_arn)
+#	p6_aws_iot_thing_registration_task_start(template_body, input_file_bucket, input_file_key, role_arn)
 #
-# Arg(s):
-#    template_body - 
-#    input_file_bucket - 
-#    input_file_key - 
-#    role_arn - 
-#
+#  Args:
+#	template_body - 
+#	input_file_bucket - 
+#	input_file_key - 
+#	role_arn - 
 #
 #>
 ######################################################################

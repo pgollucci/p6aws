@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesisvideo_stream_delete(stream_arn)
+#	p6_aws_kinesisvideo_stream_delete(stream_arn)
 #
-# Arg(s):
-#    stream_arn - 
-#
+#  Args:
+#	stream_arn - 
 #
 #>
 ######################################################################

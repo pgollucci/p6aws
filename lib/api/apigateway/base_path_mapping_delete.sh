@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_base_path_mapping_delete(domain_name, base_path)
+#	p6_aws_apigateway_base_path_mapping_delete(domain_name, base_path)
 #
-# Arg(s):
-#    domain_name - 
-#    base_path - 
-#
+#  Args:
+#	domain_name - 
+#	base_path - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_stack_clone(source_stack_id, service_role_arn)
+#	p6_aws_opsworks_stack_clone(source_stack_id, service_role_arn)
 #
-# Arg(s):
-#    source_stack_id - 
-#    service_role_arn - 
-#
+#  Args:
+#	source_stack_id - 
+#	service_role_arn - 
 #
 #>
 ######################################################################

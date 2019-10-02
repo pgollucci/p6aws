@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_inspector_findings_describe(finding_arns)
+#	p6_aws_inspector_findings_describe(finding_arns)
 #
-# Arg(s):
-#    finding_arns - 
-#
+#  Args:
+#	finding_arns - 
 #
 #>
 ######################################################################

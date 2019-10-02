@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudsearch_expression_define(domain_name, expression, name)
+#	p6_aws_cloudsearch_expression_define(domain_name, expression, name)
 #
-# Arg(s):
-#    domain_name - 
-#    expression - 
-#    name - 
-#
+#  Args:
+#	domain_name - 
+#	expression - 
+#	name - 
 #
 #>
 ######################################################################

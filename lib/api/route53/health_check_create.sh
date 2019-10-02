@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_health_check_create(caller_reference, health_check_config)
+#	p6_aws_route53_health_check_create(caller_reference, health_check_config)
 #
-# Arg(s):
-#    caller_reference - 
-#    health_check_config - 
-#
+#  Args:
+#	caller_reference - 
+#	health_check_config - 
 #
 #>
 ######################################################################

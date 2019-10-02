@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lex_models_import_get(import_id)
+#	p6_aws_lex_models_import_get(import_id)
 #
-# Arg(s):
-#    import_id - 
-#
+#  Args:
+#	import_id - 
 #
 #>
 ######################################################################

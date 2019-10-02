@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_organizations_policy_detach(policy_id, target_id)
+#	p6_aws_organizations_policy_detach(policy_id, target_id)
 #
-# Arg(s):
-#    policy_id - 
-#    target_id - 
-#
+#  Args:
+#	policy_id - 
+#	target_id - 
 #
 #>
 ######################################################################

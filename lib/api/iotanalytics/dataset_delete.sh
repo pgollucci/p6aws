@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iotanalytics_dataset_delete(dataset_name)
+#	p6_aws_iotanalytics_dataset_delete(dataset_name)
 #
-# Arg(s):
-#    dataset_name - 
-#
+#  Args:
+#	dataset_name - 
 #
 #>
 ######################################################################

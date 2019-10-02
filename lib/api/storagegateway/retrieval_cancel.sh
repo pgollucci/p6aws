@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_retrieval_cancel(gateway_arn, tape_arn)
+#	p6_aws_storagegateway_retrieval_cancel(gateway_arn, tape_arn)
 #
-# Arg(s):
-#    gateway_arn - 
-#    tape_arn - 
-#
+#  Args:
+#	gateway_arn - 
+#	tape_arn - 
 #
 #>
 ######################################################################

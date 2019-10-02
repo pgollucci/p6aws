@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_device_get(device_key)
+#	p6_aws_cognito_idp_device_get(device_key)
 #
-# Arg(s):
-#    device_key - 
-#
+#  Args:
+#	device_key - 
 #
 #>
 ######################################################################

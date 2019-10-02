@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_ssh_public_key_delete(user_name, ssh_public_key_id)
+#	p6_aws_iam_ssh_public_key_delete(user_name, ssh_public_key_id)
 #
-# Arg(s):
-#    user_name - 
-#    ssh_public_key_id - 
-#
+#  Args:
+#	user_name - 
+#	ssh_public_key_id - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_parameters_by_path_get(path)
+#	p6_aws_ssm_parameters_by_path_get(path)
 #
-# Arg(s):
-#    path - 
-#
+#  Args:
+#	path - 
 #
 #>
 ######################################################################

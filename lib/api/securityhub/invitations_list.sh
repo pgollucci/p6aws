@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_securityhub_invitations_list()
-#
-#
+#	p6_aws_securityhub_invitations_list()
 #
 #>
 ######################################################################

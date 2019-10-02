@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_health_event_details_describe(event_arns)
+#	p6_aws_health_event_details_describe(event_arns)
 #
-# Arg(s):
-#    event_arns - 
-#
+#  Args:
+#	event_arns - 
 #
 #>
 ######################################################################

@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_mturk_bonus_send(worker_id, bonus_amount, assignment_id, reason)
+#	p6_aws_mturk_bonus_send(worker_id, bonus_amount, assignment_id, reason)
 #
-# Arg(s):
-#    worker_id - 
-#    bonus_amount - 
-#    assignment_id - 
-#    reason - 
-#
+#  Args:
+#	worker_id - 
+#	bonus_amount - 
+#	assignment_id - 
+#	reason - 
 #
 #>
 ######################################################################

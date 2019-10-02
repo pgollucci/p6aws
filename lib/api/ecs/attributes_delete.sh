@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_attributes_delete(attributes)
+#	p6_aws_ecs_attributes_delete(attributes)
 #
-# Arg(s):
-#    attributes - 
-#
+#  Args:
+#	attributes - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesis_stream_consumer_register(stream_arn, consumer_name)
+#	p6_aws_kinesis_stream_consumer_register(stream_arn, consumer_name)
 #
-# Arg(s):
-#    stream_arn - 
-#    consumer_name - 
-#
+#  Args:
+#	stream_arn - 
+#	consumer_name - 
 #
 #>
 ######################################################################

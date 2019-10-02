@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cur_report_definition_delete()
-#
-#
+#	p6_aws_cur_report_definition_delete()
 #
 #>
 ######################################################################

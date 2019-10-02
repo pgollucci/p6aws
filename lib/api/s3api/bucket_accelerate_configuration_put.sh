@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_bucket_accelerate_configuration_put(bucket, accelerate_configuration)
+#	p6_aws_s3api_bucket_accelerate_configuration_put(bucket, accelerate_configuration)
 #
-# Arg(s):
-#    bucket - 
-#    accelerate_configuration - 
-#
+#  Args:
+#	bucket - 
+#	accelerate_configuration - 
 #
 #>
 ######################################################################

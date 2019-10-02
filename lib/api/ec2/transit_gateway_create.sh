@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_transit_gateway_create()
-#
-#
+#	p6_aws_ec2_transit_gateway_create()
 #
 #>
 ######################################################################

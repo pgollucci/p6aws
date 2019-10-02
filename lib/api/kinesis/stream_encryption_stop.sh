@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesis_stream_encryption_stop(stream_name, encryption_type, key_id)
+#	p6_aws_kinesis_stream_encryption_stop(stream_name, encryption_type, key_id)
 #
-# Arg(s):
-#    stream_name - 
-#    encryption_type - 
-#    key_id - 
-#
+#  Args:
+#	stream_name - 
+#	encryption_type - 
+#	key_id - 
 #
 #>
 ######################################################################

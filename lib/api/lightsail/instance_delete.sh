@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_instance_delete(instance_name)
+#	p6_aws_lightsail_instance_delete(instance_name)
 #
-# Arg(s):
-#    instance_name - 
-#
+#  Args:
+#	instance_name - 
 #
 #>
 ######################################################################

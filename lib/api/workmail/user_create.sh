@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_workmail_user_create(organization_id, name, display_name, password)
+#	p6_aws_workmail_user_create(organization_id, name, display_name, password)
 #
-# Arg(s):
-#    organization_id - 
-#    name - 
-#    display_name - 
-#    password - 
-#
+#  Args:
+#	organization_id - 
+#	name - 
+#	display_name - 
+#	password - 
 #
 #>
 ######################################################################

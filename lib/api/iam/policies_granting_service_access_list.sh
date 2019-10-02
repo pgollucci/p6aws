@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_policies_granting_service_access_list(arn, service_namespaces)
+#	p6_aws_iam_policies_granting_service_access_list(arn, service_namespaces)
 #
-# Arg(s):
-#    arn - 
-#    service_namespaces - 
-#
+#  Args:
+#	arn - 
+#	service_namespaces - 
 #
 #>
 ######################################################################

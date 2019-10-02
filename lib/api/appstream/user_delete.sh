@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_appstream_user_delete(user_name, authentication_type)
+#	p6_aws_appstream_user_delete(user_name, authentication_type)
 #
-# Arg(s):
-#    user_name - 
-#    authentication_type - 
-#
+#  Args:
+#	user_name - 
+#	authentication_type - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_dlm_lifecycle_policies_get()
-#
-#
+#	p6_aws_dlm_lifecycle_policies_get()
 #
 #>
 ######################################################################

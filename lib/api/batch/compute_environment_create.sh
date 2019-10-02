@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_batch_compute_environment_create(compute_environment_name, type, service_role)
+#	p6_aws_batch_compute_environment_create(compute_environment_name, type, service_role)
 #
-# Arg(s):
-#    compute_environment_name - 
-#    type - 
-#    service_role - 
-#
+#  Args:
+#	compute_environment_name - 
+#	type - 
+#	service_role - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_resource_groups_resources_search(resource_query)
+#	p6_aws_resource_groups_resources_search(resource_query)
 #
-# Arg(s):
-#    resource_query - 
-#
+#  Args:
+#	resource_query - 
 #
 #>
 ######################################################################

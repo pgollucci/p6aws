@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_reusable_delegation_set_create(caller_reference)
+#	p6_aws_route53_reusable_delegation_set_create(caller_reference)
 #
-# Arg(s):
-#    caller_reference - 
-#
+#  Args:
+#	caller_reference - 
 #
 #>
 ######################################################################

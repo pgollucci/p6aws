@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sns_endpoints_by_platform_application_list(platform_application_arn)
+#	p6_aws_sns_endpoints_by_platform_application_list(platform_application_arn)
 #
-# Arg(s):
-#    platform_application_arn - 
-#
+#  Args:
+#	platform_application_arn - 
 #
 #>
 ######################################################################

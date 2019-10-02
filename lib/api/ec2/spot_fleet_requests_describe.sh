@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_spot_fleet_requests_describe()
-#
-#
+#	p6_aws_ec2_spot_fleet_requests_describe()
 #
 #>
 ######################################################################

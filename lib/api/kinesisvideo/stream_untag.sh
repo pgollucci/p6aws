@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesisvideo_stream_untag(tag_key_list)
+#	p6_aws_kinesisvideo_stream_untag(tag_key_list)
 #
-# Arg(s):
-#    tag_key_list - 
-#
+#  Args:
+#	tag_key_list - 
 #
 #>
 ######################################################################

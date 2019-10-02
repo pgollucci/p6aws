@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudtrail_tags_remove(resource_id)
+#	p6_aws_cloudtrail_tags_remove(resource_id)
 #
-# Arg(s):
-#    resource_id - 
-#
+#  Args:
+#	resource_id - 
 #
 #>
 ######################################################################

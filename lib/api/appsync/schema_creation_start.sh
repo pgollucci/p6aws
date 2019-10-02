@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_appsync_schema_creation_start(api_id, definition)
+#	p6_aws_appsync_schema_creation_start(api_id, definition)
 #
-# Arg(s):
-#    api_id - 
-#    definition - 
-#
+#  Args:
+#	api_id - 
+#	definition - 
 #
 #>
 ######################################################################

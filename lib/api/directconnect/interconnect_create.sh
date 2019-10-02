@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_directconnect_interconnect_create(interconnect_name, bandwidth, location)
+#	p6_aws_directconnect_interconnect_create(interconnect_name, bandwidth, location)
 #
-# Arg(s):
-#    interconnect_name - 
-#    bandwidth - 
-#    location - 
-#
+#  Args:
+#	interconnect_name - 
+#	bandwidth - 
+#	location - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_load_balancer_tls_certificate_delete(load_balancer_name, certificate_name)
+#	p6_aws_lightsail_load_balancer_tls_certificate_delete(load_balancer_name, certificate_name)
 #
-# Arg(s):
-#    load_balancer_name - 
-#    certificate_name - 
-#
+#  Args:
+#	load_balancer_name - 
+#	certificate_name - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_logs_log_group_create(log_group_name)
+#	p6_aws_logs_log_group_create(log_group_name)
 #
-# Arg(s):
-#    log_group_name - 
-#
+#  Args:
+#	log_group_name - 
 #
 #>
 ######################################################################

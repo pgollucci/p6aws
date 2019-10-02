@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_apns_channel_update(apns_channel_request, application_id)
+#	p6_aws_pinpoint_apns_channel_update(apns_channel_request, application_id)
 #
-# Arg(s):
-#    apns_channel_request - 
-#    application_id - 
-#
+#  Args:
+#	apns_channel_request - 
+#	application_id - 
 #
 #>
 ######################################################################

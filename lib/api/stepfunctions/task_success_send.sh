@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_stepfunctions_task_success_send(task_token, task_output)
+#	p6_aws_stepfunctions_task_success_send(task_token, task_output)
 #
-# Arg(s):
-#    task_token - 
-#    task_output - 
-#
+#  Args:
+#	task_token - 
+#	task_output - 
 #
 #>
 ######################################################################

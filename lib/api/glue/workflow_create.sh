@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_workflow_create(name)
+#	p6_aws_glue_workflow_create(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

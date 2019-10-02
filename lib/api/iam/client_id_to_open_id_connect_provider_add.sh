@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_client_id_to_open_id_connect_provider_add(open_id_connect_provider_arn, client_id)
+#	p6_aws_iam_client_id_to_open_id_connect_provider_add(open_id_connect_provider_arn, client_id)
 #
-# Arg(s):
-#    open_id_connect_provider_arn - 
-#    client_id - 
-#
+#  Args:
+#	open_id_connect_provider_arn - 
+#	client_id - 
 #
 #>
 ######################################################################

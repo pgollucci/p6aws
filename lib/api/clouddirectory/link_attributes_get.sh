@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_clouddirectory_link_attributes_get(directory_arn, typed_link_specifier, attribute_names)
+#	p6_aws_clouddirectory_link_attributes_get(directory_arn, typed_link_specifier, attribute_names)
 #
-# Arg(s):
-#    directory_arn - 
-#    typed_link_specifier - 
-#    attribute_names - 
-#
+#  Args:
+#	directory_arn - 
+#	typed_link_specifier - 
+#	attribute_names - 
 #
 #>
 ######################################################################

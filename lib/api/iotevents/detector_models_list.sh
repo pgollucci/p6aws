@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iotevents_detector_models_list()
-#
-#
+#	p6_aws_iotevents_detector_models_list()
 #
 #>
 ######################################################################

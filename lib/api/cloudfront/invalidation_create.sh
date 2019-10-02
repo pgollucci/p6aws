@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudfront_invalidation_create(distribution_id)
+#	p6_aws_cloudfront_invalidation_create(distribution_id)
 #
-# Arg(s):
-#    distribution_id - 
-#
+#  Args:
+#	distribution_id - 
 #
 #>
 ######################################################################

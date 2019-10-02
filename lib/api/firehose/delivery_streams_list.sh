@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_firehose_delivery_streams_list()
-#
-#
+#	p6_aws_firehose_delivery_streams_list()
 #
 #>
 ######################################################################

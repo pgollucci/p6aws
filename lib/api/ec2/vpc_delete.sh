@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpc_delete(vpc_id)
+#	p6_aws_ec2_vpc_delete(vpc_id)
 #
-# Arg(s):
-#    vpc_id - 
-#
+#  Args:
+#	vpc_id - 
 #
 #>
 ######################################################################

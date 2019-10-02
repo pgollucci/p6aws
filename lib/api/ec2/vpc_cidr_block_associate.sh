@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpc_cidr_block_associate(vpc_id)
+#	p6_aws_ec2_vpc_cidr_block_associate(vpc_id)
 #
-# Arg(s):
-#    vpc_id - 
-#
+#  Args:
+#	vpc_id - 
 #
 #>
 ######################################################################

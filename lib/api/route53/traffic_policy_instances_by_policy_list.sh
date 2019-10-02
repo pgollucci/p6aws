@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_traffic_policy_instances_by_policy_list(traffic_policy_id, traffic_policy_version)
+#	p6_aws_route53_traffic_policy_instances_by_policy_list(traffic_policy_id, traffic_policy_version)
 #
-# Arg(s):
-#    traffic_policy_id - 
-#    traffic_policy_version - 
-#
+#  Args:
+#	traffic_policy_id - 
+#	traffic_policy_version - 
 #
 #>
 ######################################################################

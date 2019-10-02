@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_docdb_db_clusters_describe()
-#
-#
+#	p6_aws_docdb_db_clusters_describe()
 #
 #>
 ######################################################################

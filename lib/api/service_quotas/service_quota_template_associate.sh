@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_service_quotas_service_quota_template_associate()
-#
-#
+#	p6_aws_service_quotas_service_quota_template_associate()
 #
 #>
 ######################################################################

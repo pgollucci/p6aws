@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codepipeline_for_third_party_jobs_poll(action_type_id)
+#	p6_aws_codepipeline_for_third_party_jobs_poll(action_type_id)
 #
-# Arg(s):
-#    action_type_id - 
-#
+#  Args:
+#	action_type_id - 
 #
 #>
 ######################################################################

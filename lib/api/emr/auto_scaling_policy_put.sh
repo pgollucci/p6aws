@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_emr_auto_scaling_policy_put(cluster_id, instance_group_id, auto_scaling_policy)
+#	p6_aws_emr_auto_scaling_policy_put(cluster_id, instance_group_id, auto_scaling_policy)
 #
-# Arg(s):
-#    cluster_id - 
-#    instance_group_id - 
-#    auto_scaling_policy - 
-#
+#  Args:
+#	cluster_id - 
+#	instance_group_id - 
+#	auto_scaling_policy - 
 #
 #>
 ######################################################################

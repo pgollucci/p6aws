@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_es_elasticsearch_service_role_delete()
-#
-#
+#	p6_aws_es_elasticsearch_service_role_delete()
 #
 #>
 ######################################################################

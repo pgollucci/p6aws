@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ds_shared_directories_describe(owner_directory_id)
+#	p6_aws_ds_shared_directories_describe(owner_directory_id)
 #
-# Arg(s):
-#    owner_directory_id - 
-#
+#  Args:
+#	owner_directory_id - 
 #
 #>
 ######################################################################

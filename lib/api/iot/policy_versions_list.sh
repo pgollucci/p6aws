@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_policy_versions_list(policy_name)
+#	p6_aws_iot_policy_versions_list(policy_name)
 #
-# Arg(s):
-#    policy_name - 
-#
+#  Args:
+#	policy_name - 
 #
 #>
 ######################################################################

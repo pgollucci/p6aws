@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_logs_retention_policy_put(log_group_name, retention_in_days)
+#	p6_aws_logs_retention_policy_put(log_group_name, retention_in_days)
 #
-# Arg(s):
-#    log_group_name - 
-#    retention_in_days - 
-#
+#  Args:
+#	log_group_name - 
+#	retention_in_days - 
 #
 #>
 ######################################################################

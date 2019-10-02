@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_acm_pca_certificate_issue(certificate_authority_arn, csr, signing_algorithm, validity)
+#	p6_aws_acm_pca_certificate_issue(certificate_authority_arn, csr, signing_algorithm, validity)
 #
-# Arg(s):
-#    certificate_authority_arn - 
-#    csr - 
-#    signing_algorithm - 
-#    validity - 
-#
+#  Args:
+#	certificate_authority_arn - 
+#	csr - 
+#	signing_algorithm - 
+#	validity - 
 #
 #>
 ######################################################################

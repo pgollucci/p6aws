@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_organizations_policy_type_disable(root_id, policy_type)
+#	p6_aws_organizations_policy_type_disable(root_id, policy_type)
 #
-# Arg(s):
-#    root_id - 
-#    policy_type - 
-#
+#  Args:
+#	root_id - 
+#	policy_type - 
 #
 #>
 ######################################################################

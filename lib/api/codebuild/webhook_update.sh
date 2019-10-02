@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codebuild_webhook_update(project_name)
+#	p6_aws_codebuild_webhook_update(project_name)
 #
-# Arg(s):
-#    project_name - 
-#
+#  Args:
+#	project_name - 
 #
 #>
 ######################################################################

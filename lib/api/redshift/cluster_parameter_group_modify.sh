@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_cluster_parameter_group_modify(parameter_group_name, parameters)
+#	p6_aws_redshift_cluster_parameter_group_modify(parameter_group_name, parameters)
 #
-# Arg(s):
-#    parameter_group_name - 
-#    parameters - 
-#
+#  Args:
+#	parameter_group_name - 
+#	parameters - 
 #
 #>
 ######################################################################

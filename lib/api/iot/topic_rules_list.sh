@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_topic_rules_list()
-#
-#
+#	p6_aws_iot_topic_rules_list()
 #
 #>
 ######################################################################

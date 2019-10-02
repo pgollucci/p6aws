@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_static_ip_detach(static_ip_name)
+#	p6_aws_lightsail_static_ip_detach(static_ip_name)
 #
-# Arg(s):
-#    static_ip_name - 
-#
+#  Args:
+#	static_ip_name - 
 #
 #>
 ######################################################################

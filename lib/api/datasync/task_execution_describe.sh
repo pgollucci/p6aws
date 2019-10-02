@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_datasync_task_execution_describe(task_execution_arn)
+#	p6_aws_datasync_task_execution_describe(task_execution_arn)
 #
-# Arg(s):
-#    task_execution_arn - 
-#
+#  Args:
+#	task_execution_arn - 
 #
 #>
 ######################################################################

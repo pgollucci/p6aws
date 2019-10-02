@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sms_connector_disassociate(connector_id)
+#	p6_aws_sms_connector_disassociate(connector_id)
 #
-# Arg(s):
-#    connector_id - 
-#
+#  Args:
+#	connector_id - 
 #
 #>
 ######################################################################

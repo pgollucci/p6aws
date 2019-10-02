@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_dms_replication_instances_describe()
-#
-#
+#	p6_aws_dms_replication_instances_describe()
 #
 #>
 ######################################################################

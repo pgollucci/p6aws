@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_skill_group_with_room_associate()
-#
-#
+#	p6_aws_alexaforbusiness_skill_group_with_room_associate()
 #
 #>
 ######################################################################

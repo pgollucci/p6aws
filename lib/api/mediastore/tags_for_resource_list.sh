@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mediastore_tags_for_resource_list(resource)
+#	p6_aws_mediastore_tags_for_resource_list(resource)
 #
-# Arg(s):
-#    resource - 
-#
+#  Args:
+#	resource - 
 #
 #>
 ######################################################################

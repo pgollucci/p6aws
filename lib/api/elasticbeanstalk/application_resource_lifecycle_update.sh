@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticbeanstalk_application_resource_lifecycle_update(application_name, resource_lifecycle_config)
+#	p6_aws_elasticbeanstalk_application_resource_lifecycle_update(application_name, resource_lifecycle_config)
 #
-# Arg(s):
-#    application_name - 
-#    resource_lifecycle_config - 
-#
+#  Args:
+#	application_name - 
+#	resource_lifecycle_config - 
 #
 #>
 ######################################################################

@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_identity_developer_identity_unlink(identity_id, identity_pool_id, developer_provider_name, developer_user_identifier)
+#	p6_aws_cognito_identity_developer_identity_unlink(identity_id, identity_pool_id, developer_provider_name, developer_user_identifier)
 #
-# Arg(s):
-#    identity_id - 
-#    identity_pool_id - 
-#    developer_provider_name - 
-#    developer_user_identifier - 
-#
+#  Args:
+#	identity_id - 
+#	identity_pool_id - 
+#	developer_provider_name - 
+#	developer_user_identifier - 
 #
 #>
 ######################################################################

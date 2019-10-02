@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_clouddirectory_object_attach(directory_arn, parent_reference, child_reference, link_name)
+#	p6_aws_clouddirectory_object_attach(directory_arn, parent_reference, child_reference, link_name)
 #
-# Arg(s):
-#    directory_arn - 
-#    parent_reference - 
-#    child_reference - 
-#    link_name - 
-#
+#  Args:
+#	directory_arn - 
+#	parent_reference - 
+#	child_reference - 
+#	link_name - 
 #
 #>
 ######################################################################

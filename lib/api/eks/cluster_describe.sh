@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_eks_cluster_describe(name)
+#	p6_aws_eks_cluster_describe(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

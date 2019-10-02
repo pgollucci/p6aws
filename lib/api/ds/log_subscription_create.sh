@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ds_log_subscription_create(directory_id, log_group_name)
+#	p6_aws_ds_log_subscription_create(directory_id, log_group_name)
 #
-# Arg(s):
-#    directory_id - 
-#    log_group_name - 
-#
+#  Args:
+#	directory_id - 
+#	log_group_name - 
 #
 #>
 ######################################################################

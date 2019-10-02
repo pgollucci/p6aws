@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_email_deliverability_test_report_get(report_id)
+#	p6_aws_pinpoint_email_deliverability_test_report_get(report_id)
 #
-# Arg(s):
-#    report_id - 
-#
+#  Args:
+#	report_id - 
 #
 #>
 ######################################################################

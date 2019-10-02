@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_portfolio_share_status_describe(portfolio_share_token)
+#	p6_aws_servicecatalog_portfolio_share_status_describe(portfolio_share_token)
 #
-# Arg(s):
-#    portfolio_share_token - 
-#
+#  Args:
+#	portfolio_share_token - 
 #
 #>
 ######################################################################

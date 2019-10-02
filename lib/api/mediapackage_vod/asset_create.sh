@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_mediapackage_vod_asset_create(id, packaging_group_id, source_arn, source_role_arn)
+#	p6_aws_mediapackage_vod_asset_create(id, packaging_group_id, source_arn, source_role_arn)
 #
-# Arg(s):
-#    id - 
-#    packaging_group_id - 
-#    source_arn - 
-#    source_role_arn - 
-#
+#  Args:
+#	id - 
+#	packaging_group_id - 
+#	source_arn - 
+#	source_role_arn - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_elb_load_balancer_policies_of_listener_set(load_balancer_name, load_balancer_port, policy_names)
+#	p6_aws_elb_load_balancer_policies_of_listener_set(load_balancer_name, load_balancer_port, policy_names)
 #
-# Arg(s):
-#    load_balancer_name - 
-#    load_balancer_port - 
-#    policy_names - 
-#
+#  Args:
+#	load_balancer_name - 
+#	load_balancer_port - 
+#	policy_names - 
 #
 #>
 ######################################################################

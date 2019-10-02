@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_key_pair_create(key_name)
+#	p6_aws_ec2_key_pair_create(key_name)
 #
-# Arg(s):
-#    key_name - 
-#
+#  Args:
+#	key_name - 
 #
 #>
 ######################################################################

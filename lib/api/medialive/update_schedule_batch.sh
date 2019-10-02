@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_medialive_update_schedule_batch(channel_id)
+#	p6_aws_medialive_update_schedule_batch(channel_id)
 #
-# Arg(s):
-#    channel_id - 
-#
+#  Args:
+#	channel_id - 
 #
 #>
 ######################################################################

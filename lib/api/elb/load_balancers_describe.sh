@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_elb_load_balancers_describe()
-#
-#
+#	p6_aws_elb_load_balancers_describe()
 #
 #>
 ######################################################################

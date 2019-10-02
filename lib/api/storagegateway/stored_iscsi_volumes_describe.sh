@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_stored_iscsi_volumes_describe(volume_arns)
+#	p6_aws_storagegateway_stored_iscsi_volumes_describe(volume_arns)
 #
-# Arg(s):
-#    volume_arns - 
-#
+#  Args:
+#	volume_arns - 
 #
 #>
 ######################################################################

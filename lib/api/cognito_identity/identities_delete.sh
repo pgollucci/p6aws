@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_identity_identities_delete(identity_ids_to_delete)
+#	p6_aws_cognito_identity_identities_delete(identity_ids_to_delete)
 #
-# Arg(s):
-#    identity_ids_to_delete - 
-#
+#  Args:
+#	identity_ids_to_delete - 
 #
 #>
 ######################################################################

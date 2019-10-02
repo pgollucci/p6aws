@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_db_instance_create(db_instance_identifier, db_instance_class, engine)
+#	p6_aws_rds_db_instance_create(db_instance_identifier, db_instance_class, engine)
 #
-# Arg(s):
-#    db_instance_identifier - 
-#    db_instance_class - 
-#    engine - 
-#
+#  Args:
+#	db_instance_identifier - 
+#	db_instance_class - 
+#	engine - 
 #
 #>
 ######################################################################

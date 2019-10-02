@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_documentation_parts_import(rest_api_id, body)
+#	p6_aws_apigateway_documentation_parts_import(rest_api_id, body)
 #
-# Arg(s):
-#    rest_api_id - 
-#    body - 
-#
+#  Args:
+#	rest_api_id - 
+#	body - 
 #
 #>
 ######################################################################

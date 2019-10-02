@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_tape_recovery_point_retrieve(tape_arn, gateway_arn)
+#	p6_aws_storagegateway_tape_recovery_point_retrieve(tape_arn, gateway_arn)
 #
-# Arg(s):
-#    tape_arn - 
-#    gateway_arn - 
-#
+#  Args:
+#	tape_arn - 
+#	gateway_arn - 
 #
 #>
 ######################################################################

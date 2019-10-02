@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpc_peering_connection_create()
-#
-#
+#	p6_aws_ec2_vpc_peering_connection_create()
 #
 #>
 ######################################################################

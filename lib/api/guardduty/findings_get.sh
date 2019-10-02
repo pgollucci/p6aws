@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_guardduty_findings_get(detector_id, finding_ids)
+#	p6_aws_guardduty_findings_get(detector_id, finding_ids)
 #
-# Arg(s):
-#    detector_id - 
-#    finding_ids - 
-#
+#  Args:
+#	detector_id - 
+#	finding_ids - 
 #
 #>
 ######################################################################

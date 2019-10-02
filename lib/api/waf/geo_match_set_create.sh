@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_geo_match_set_create(name, change_token)
+#	p6_aws_waf_geo_match_set_create(name, change_token)
 #
-# Arg(s):
-#    name - 
-#    change_token - 
-#
+#  Args:
+#	name - 
+#	change_token - 
 #
 #>
 ######################################################################

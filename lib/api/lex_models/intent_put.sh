@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lex_models_intent_put(name)
+#	p6_aws_lex_models_intent_put(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

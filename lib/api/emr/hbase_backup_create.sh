@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_emr_hbase_backup_create(cluster_id, dir)
+#	p6_aws_emr_hbase_backup_create(cluster_id, dir)
 #
-# Arg(s):
-#    cluster_id - 
-#    dir - 
-#
+#  Args:
+#	cluster_id - 
+#	dir - 
 #
 #>
 ######################################################################

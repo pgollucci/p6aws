@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iotanalytics_dataset_update(dataset_name, actions)
+#	p6_aws_iotanalytics_dataset_update(dataset_name, actions)
 #
-# Arg(s):
-#    dataset_name - 
-#    actions - 
-#
+#  Args:
+#	dataset_name - 
+#	actions - 
 #
 #>
 ######################################################################

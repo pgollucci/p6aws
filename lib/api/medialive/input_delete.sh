@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_medialive_input_delete(input_id)
+#	p6_aws_medialive_input_delete(input_id)
 #
-# Arg(s):
-#    input_id - 
-#
+#  Args:
+#	input_id - 
 #
 #>
 ######################################################################

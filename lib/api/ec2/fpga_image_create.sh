@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_fpga_image_create(input_storage_location)
+#	p6_aws_ec2_fpga_image_create(input_storage_location)
 #
-# Arg(s):
-#    input_storage_location - 
-#
+#  Args:
+#	input_storage_location - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_elbv2_rule_priorities_set(rule_priorities)
+#	p6_aws_elbv2_rule_priorities_set(rule_priorities)
 #
-# Arg(s):
-#    rule_priorities - 
-#
+#  Args:
+#	rule_priorities - 
 #
 #>
 ######################################################################

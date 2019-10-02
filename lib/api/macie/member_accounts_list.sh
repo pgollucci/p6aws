@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_macie_member_accounts_list()
-#
-#
+#	p6_aws_macie_member_accounts_list()
 #
 #>
 ######################################################################

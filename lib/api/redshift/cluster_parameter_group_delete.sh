@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_cluster_parameter_group_delete(parameter_group_name)
+#	p6_aws_redshift_cluster_parameter_group_delete(parameter_group_name)
 #
-# Arg(s):
-#    parameter_group_name - 
-#
+#  Args:
+#	parameter_group_name - 
 #
 #>
 ######################################################################

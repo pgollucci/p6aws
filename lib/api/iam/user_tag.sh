@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_user_tag(user_name, tags)
+#	p6_aws_iam_user_tag(user_name, tags)
 #
-# Arg(s):
-#    user_name - 
-#    tags - 
-#
+#  Args:
+#	user_name - 
+#	tags - 
 #
 #>
 ######################################################################

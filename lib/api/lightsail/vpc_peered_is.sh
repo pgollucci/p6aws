@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_vpc_peered_is()
-#
-#
+#	p6_aws_lightsail_vpc_peered_is()
 #
 #>
 ######################################################################

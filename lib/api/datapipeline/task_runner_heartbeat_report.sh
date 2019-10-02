@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_datapipeline_task_runner_heartbeat_report(taskrunner_id)
+#	p6_aws_datapipeline_task_runner_heartbeat_report(taskrunner_id)
 #
-# Arg(s):
-#    taskrunner_id - 
-#
+#  Args:
+#	taskrunner_id - 
 #
 #>
 ######################################################################

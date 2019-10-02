@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_comprehend_training_document_classifier_stop(document_classifier_arn)
+#	p6_aws_comprehend_training_document_classifier_stop(document_classifier_arn)
 #
-# Arg(s):
-#    document_classifier_arn - 
-#
+#  Args:
+#	document_classifier_arn - 
 #
 #>
 ######################################################################

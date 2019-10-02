@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_kms_parameters_for_import_get(key_id, wrapping_algorithm, wrapping_key_spec)
+#	p6_aws_kms_parameters_for_import_get(key_id, wrapping_algorithm, wrapping_key_spec)
 #
-# Arg(s):
-#    key_id - 
-#    wrapping_algorithm - 
-#    wrapping_key_spec - 
-#
+#  Args:
+#	key_id - 
+#	wrapping_algorithm - 
+#	wrapping_key_spec - 
 #
 #>
 ######################################################################

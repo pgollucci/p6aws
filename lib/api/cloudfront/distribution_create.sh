@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudfront_distribution_create()
-#
-#
+#	p6_aws_cloudfront_distribution_create()
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_chime_voice_connector_create(name, require_encryption)
+#	p6_aws_chime_voice_connector_create(name, require_encryption)
 #
-# Arg(s):
-#    name - 
-#    require_encryption - 
-#
+#  Args:
+#	name - 
+#	require_encryption - 
 #
 #>
 ######################################################################

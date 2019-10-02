@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_upload_buffer_add(gateway_arn, disk_ids)
+#	p6_aws_storagegateway_upload_buffer_add(gateway_arn, disk_ids)
 #
-# Arg(s):
-#    gateway_arn - 
-#    disk_ids - 
-#
+#  Args:
+#	gateway_arn - 
+#	disk_ids - 
 #
 #>
 ######################################################################

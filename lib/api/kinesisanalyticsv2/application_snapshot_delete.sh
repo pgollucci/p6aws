@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesisanalyticsv2_application_snapshot_delete(application_name, snapshot_name, snapshot_creation_timestamp)
+#	p6_aws_kinesisanalyticsv2_application_snapshot_delete(application_name, snapshot_name, snapshot_creation_timestamp)
 #
-# Arg(s):
-#    application_name - 
-#    snapshot_name - 
-#    snapshot_creation_timestamp - 
-#
+#  Args:
+#	application_name - 
+#	snapshot_name - 
+#	snapshot_creation_timestamp - 
 #
 #>
 ######################################################################

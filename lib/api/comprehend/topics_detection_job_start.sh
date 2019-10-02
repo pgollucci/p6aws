@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_comprehend_topics_detection_job_start(input_data_config, output_data_config, data_access_role_arn)
+#	p6_aws_comprehend_topics_detection_job_start(input_data_config, output_data_config, data_access_role_arn)
 #
-# Arg(s):
-#    input_data_config - 
-#    output_data_config - 
-#    data_access_role_arn - 
-#
+#  Args:
+#	input_data_config - 
+#	output_data_config - 
+#	data_access_role_arn - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_trigger_delete(name)
+#	p6_aws_glue_trigger_delete(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

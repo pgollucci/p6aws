@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_regional_permission_policy_put(resource_arn, policy)
+#	p6_aws_waf_regional_permission_policy_put(resource_arn, policy)
 #
-# Arg(s):
-#    resource_arn - 
-#    policy - 
-#
+#  Args:
+#	resource_arn - 
+#	policy - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudhsm_luna_client_describe()
-#
-#
+#	p6_aws_cloudhsm_luna_client_describe()
 #
 #>
 ######################################################################

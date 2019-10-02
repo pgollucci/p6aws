@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_instance_profile_get(instance_profile_name)
+#	p6_aws_iam_instance_profile_get(instance_profile_name)
 #
-# Arg(s):
-#    instance_profile_name - 
-#
+#  Args:
+#	instance_profile_name - 
 #
 #>
 ######################################################################

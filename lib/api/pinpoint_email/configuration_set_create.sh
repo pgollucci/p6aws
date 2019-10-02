@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_email_configuration_set_create(configuration_set_name)
+#	p6_aws_pinpoint_email_configuration_set_create(configuration_set_name)
 #
-# Arg(s):
-#    configuration_set_name - 
-#
+#  Args:
+#	configuration_set_name - 
 #
 #>
 ######################################################################

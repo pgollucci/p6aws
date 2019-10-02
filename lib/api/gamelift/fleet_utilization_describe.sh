@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_fleet_utilization_describe()
-#
-#
+#	p6_aws_gamelift_fleet_utilization_describe()
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_amplify_branch_auto_build(app_id)
+#	p6_aws_amplify_branch_auto_build(app_id)
 #
-# Arg(s):
-#    app_id - 
-#
+#  Args:
+#	app_id - 
 #
 #>
 ######################################################################
@@ -21,13 +20,12 @@ p6_aws_amplify_branch_auto_build() {
 #<
 #
 # Function:
-#      = p6_aws_amplify_basic_auth(app_id, app_id, branch_name)
+#	p6_aws_amplify_basic_auth(app_id, app_id, branch_name)
 #
-# Arg(s):
-#    app_id - 
-#    app_id - 
-#    branch_name - 
-#
+#  Args:
+#	app_id - 
+#	app_id - 
+#	branch_name - 
 #
 #>
 ######################################################################
@@ -42,11 +40,10 @@ p6_aws_amplify_basic_auth() {
 #<
 #
 # Function:
-#      = p6_aws_amplify_auto_branch_creation(app_id)
+#	p6_aws_amplify_auto_branch_creation(app_id)
 #
-# Arg(s):
-#    app_id - 
-#
+#  Args:
+#	app_id - 
 #
 #>
 ######################################################################

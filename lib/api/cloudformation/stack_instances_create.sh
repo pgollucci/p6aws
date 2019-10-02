@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudformation_stack_instances_create(stack_set_name, accounts, regions)
+#	p6_aws_cloudformation_stack_instances_create(stack_set_name, accounts, regions)
 #
-# Arg(s):
-#    stack_set_name - 
-#    accounts - 
-#    regions - 
-#
+#  Args:
+#	stack_set_name - 
+#	accounts - 
+#	regions - 
 #
 #>
 ######################################################################

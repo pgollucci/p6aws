@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mobile_project_delete(project_id)
+#	p6_aws_mobile_project_delete(project_id)
 #
-# Arg(s):
-#    project_id - 
-#
+#  Args:
+#	project_id - 
 #
 #>
 ######################################################################

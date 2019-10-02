@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_robomaker_fleet_describe(fleet)
+#	p6_aws_robomaker_fleet_describe(fleet)
 #
-# Arg(s):
-#    fleet - 
-#
+#  Args:
+#	fleet - 
 #
 #>
 ######################################################################

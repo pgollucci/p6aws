@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_resource_compliance_summaries_list()
-#
-#
+#	p6_aws_ssm_resource_compliance_summaries_list()
 #
 #>
 ######################################################################

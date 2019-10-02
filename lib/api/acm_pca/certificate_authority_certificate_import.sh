@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_acm_pca_certificate_authority_certificate_import(certificate_authority_arn, certificate)
+#	p6_aws_acm_pca_certificate_authority_certificate_import(certificate_authority_arn, certificate)
 #
-# Arg(s):
-#    certificate_authority_arn - 
-#    certificate - 
-#
+#  Args:
+#	certificate_authority_arn - 
+#	certificate - 
 #
 #>
 ######################################################################

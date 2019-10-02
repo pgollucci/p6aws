@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_athena_query_execution_start(query_string)
+#	p6_aws_athena_query_execution_start(query_string)
 #
-# Arg(s):
-#    query_string - 
-#
+#  Args:
+#	query_string - 
 #
 #>
 ######################################################################

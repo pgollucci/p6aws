@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_event_configurations_update()
-#
-#
+#	p6_aws_iot_event_configurations_update()
 #
 #>
 ######################################################################

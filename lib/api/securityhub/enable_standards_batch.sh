@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_securityhub_enable_standards_batch(standards_subscription_requests)
+#	p6_aws_securityhub_enable_standards_batch(standards_subscription_requests)
 #
-# Arg(s):
-#    standards_subscription_requests - 
-#
+#  Args:
+#	standards_subscription_requests - 
 #
 #>
 ######################################################################

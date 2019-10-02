@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_dynamodb_get_item_batch(request_items)
+#	p6_aws_dynamodb_get_item_batch(request_items)
 #
-# Arg(s):
-#    request_items - 
-#
+#  Args:
+#	request_items - 
 #
 #>
 ######################################################################

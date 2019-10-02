@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ecr_layer_upload_initiate(repository_name)
+#	p6_aws_ecr_layer_upload_initiate(repository_name)
 #
-# Arg(s):
-#    repository_name - 
-#
+#  Args:
+#	repository_name - 
 #
 #>
 ######################################################################

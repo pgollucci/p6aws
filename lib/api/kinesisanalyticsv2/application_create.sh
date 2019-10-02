@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesisanalyticsv2_application_create(application_name, runtime_environment, service_execution_role)
+#	p6_aws_kinesisanalyticsv2_application_create(application_name, runtime_environment, service_execution_role)
 #
-# Arg(s):
-#    application_name - 
-#    runtime_environment - 
-#    service_execution_role - 
-#
+#  Args:
+#	application_name - 
+#	runtime_environment - 
+#	service_execution_role - 
 #
 #>
 ######################################################################

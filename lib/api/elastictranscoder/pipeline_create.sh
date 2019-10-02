@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_elastictranscoder_pipeline_create(name, input_bucket, role)
+#	p6_aws_elastictranscoder_pipeline_create(name, input_bucket, role)
 #
-# Arg(s):
-#    name - 
-#    input_bucket - 
-#    role - 
-#
+#  Args:
+#	name - 
+#	input_bucket - 
+#	role - 
 #
 #>
 ######################################################################

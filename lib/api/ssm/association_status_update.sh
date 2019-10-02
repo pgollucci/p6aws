@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_association_status_update(name, instance_id, association_status)
+#	p6_aws_ssm_association_status_update(name, instance_id, association_status)
 #
-# Arg(s):
-#    name - 
-#    instance_id - 
-#    association_status - 
-#
+#  Args:
+#	name - 
+#	instance_id - 
+#	association_status - 
 #
 #>
 ######################################################################

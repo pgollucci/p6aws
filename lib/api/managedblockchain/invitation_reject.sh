@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_managedblockchain_invitation_reject(invitation_id)
+#	p6_aws_managedblockchain_invitation_reject(invitation_id)
 #
-# Arg(s):
-#    invitation_id - 
-#
+#  Args:
+#	invitation_id - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_parameter_put(name, value, type)
+#	p6_aws_ssm_parameter_put(name, value, type)
 #
-# Arg(s):
-#    name - 
-#    value - 
-#    type - 
-#
+#  Args:
+#	name - 
+#	value - 
+#	type - 
 #
 #>
 ######################################################################

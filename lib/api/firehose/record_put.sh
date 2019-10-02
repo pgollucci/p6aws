@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_firehose_record_put(delivery_stream_name, record)
+#	p6_aws_firehose_record_put(delivery_stream_name, record)
 #
-# Arg(s):
-#    delivery_stream_name - 
-#    record - 
-#
+#  Args:
+#	delivery_stream_name - 
+#	record - 
 #
 #>
 ######################################################################

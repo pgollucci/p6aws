@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_logs_metric_filter_put(log_group_name, filter_name, filter_pattern, metric_transformations)
+#	p6_aws_logs_metric_filter_put(log_group_name, filter_name, filter_pattern, metric_transformations)
 #
-# Arg(s):
-#    log_group_name - 
-#    filter_name - 
-#    filter_pattern - 
-#    metric_transformations - 
-#
+#  Args:
+#	log_group_name - 
+#	filter_name - 
+#	filter_pattern - 
+#	metric_transformations - 
 #
 #>
 ######################################################################

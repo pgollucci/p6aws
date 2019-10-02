@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_instances_to_load_balancer_attach(load_balancer_name, instance_names)
+#	p6_aws_lightsail_instances_to_load_balancer_attach(load_balancer_name, instance_names)
 #
-# Arg(s):
-#    load_balancer_name - 
-#    instance_names - 
-#
+#  Args:
+#	load_balancer_name - 
+#	instance_names - 
 #
 #>
 ######################################################################

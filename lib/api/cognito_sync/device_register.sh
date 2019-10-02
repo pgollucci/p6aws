@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_sync_device_register(identity_pool_id, identity_id, platform, token)
+#	p6_aws_cognito_sync_device_register(identity_pool_id, identity_id, platform, token)
 #
-# Arg(s):
-#    identity_pool_id - 
-#    identity_id - 
-#    platform - 
-#    token - 
-#
+#  Args:
+#	identity_pool_id - 
+#	identity_id - 
+#	platform - 
+#	token - 
 #
 #>
 ######################################################################

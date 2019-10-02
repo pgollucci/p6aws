@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_securityhub_action_target_create(name, description, id)
+#	p6_aws_securityhub_action_target_create(name, description, id)
 #
-# Arg(s):
-#    name - 
-#    description - 
-#    id - 
-#
+#  Args:
+#	name - 
+#	description - 
+#	id - 
 #
 #>
 ######################################################################

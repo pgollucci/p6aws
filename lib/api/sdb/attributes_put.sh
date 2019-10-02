@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_sdb_attributes_put(domain_name, item_name, attributes)
+#	p6_aws_sdb_attributes_put(domain_name, item_name, attributes)
 #
-# Arg(s):
-#    domain_name - 
-#    item_name - 
-#    attributes - 
-#
+#  Args:
+#	domain_name - 
+#	item_name - 
+#	attributes - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_xray_encryption_config_get()
-#
-#
+#	p6_aws_xray_encryption_config_get()
 #
 #>
 ######################################################################

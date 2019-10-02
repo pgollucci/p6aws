@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticbeanstalk_environment_health_describe()
-#
-#
+#	p6_aws_elasticbeanstalk_environment_health_describe()
 #
 #>
 ######################################################################

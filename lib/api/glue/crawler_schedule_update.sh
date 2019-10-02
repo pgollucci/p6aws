@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_crawler_schedule_update(crawler_name)
+#	p6_aws_glue_crawler_schedule_update(crawler_name)
 #
-# Arg(s):
-#    crawler_name - 
-#
+#  Args:
+#	crawler_name - 
 #
 #>
 ######################################################################

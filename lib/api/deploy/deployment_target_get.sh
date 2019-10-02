@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_deploy_deployment_target_get()
-#
-#
+#	p6_aws_deploy_deployment_target_get()
 #
 #>
 ######################################################################

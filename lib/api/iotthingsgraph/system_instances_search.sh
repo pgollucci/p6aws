@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iotthingsgraph_system_instances_search()
-#
-#
+#	p6_aws_iotthingsgraph_system_instances_search()
 #
 #>
 ######################################################################

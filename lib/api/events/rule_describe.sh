@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_events_rule_describe(name)
+#	p6_aws_events_rule_describe(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

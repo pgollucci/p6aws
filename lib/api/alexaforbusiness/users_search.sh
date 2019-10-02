@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_users_search()
-#
-#
+#	p6_aws_alexaforbusiness_users_search()
 #
 #>
 ######################################################################

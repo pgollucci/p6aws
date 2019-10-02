@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloud9_environments_describe(environment_ids)
+#	p6_aws_cloud9_environments_describe(environment_ids)
 #
-# Arg(s):
-#    environment_ids - 
-#
+#  Args:
+#	environment_ids - 
 #
 #>
 ######################################################################

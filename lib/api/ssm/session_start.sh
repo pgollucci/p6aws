@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_session_start(target)
+#	p6_aws_ssm_session_start(target)
 #
-# Arg(s):
-#    target - 
-#
+#  Args:
+#	target - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_directconnect_tags_describe(resource_arns)
+#	p6_aws_directconnect_tags_describe(resource_arns)
 #
-# Arg(s):
-#    resource_arns - 
-#
+#  Args:
+#	resource_arns - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_configuration_aggregator_delete(configuration_aggregator_name)
+#	p6_aws_configservice_configuration_aggregator_delete(configuration_aggregator_name)
 #
-# Arg(s):
-#    configuration_aggregator_name - 
-#
+#  Args:
+#	configuration_aggregator_name - 
 #
 #>
 ######################################################################

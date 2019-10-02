@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudformation_stack_instance_describe(stack_set_name, stack_instance_account, stack_instance_region)
+#	p6_aws_cloudformation_stack_instance_describe(stack_set_name, stack_instance_account, stack_instance_region)
 #
-# Arg(s):
-#    stack_set_name - 
-#    stack_instance_account - 
-#    stack_instance_region - 
-#
+#  Args:
+#	stack_set_name - 
+#	stack_instance_account - 
+#	stack_instance_region - 
 #
 #>
 ######################################################################

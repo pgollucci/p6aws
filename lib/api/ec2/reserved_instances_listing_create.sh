@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_reserved_instances_listing_create(client_token, instance_count, price_schedules, reserved_instances_id)
+#	p6_aws_ec2_reserved_instances_listing_create(client_token, instance_count, price_schedules, reserved_instances_id)
 #
-# Arg(s):
-#    client_token - 
-#    instance_count - 
-#    price_schedules - 
-#    reserved_instances_id - 
-#
+#  Args:
+#	client_token - 
+#	instance_count - 
+#	price_schedules - 
+#	reserved_instances_id - 
 #
 #>
 ######################################################################

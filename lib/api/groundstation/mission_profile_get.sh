@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_groundstation_mission_profile_get(mission_profile_id)
+#	p6_aws_groundstation_mission_profile_get(mission_profile_id)
 #
-# Arg(s):
-#    mission_profile_id - 
-#
+#  Args:
+#	mission_profile_id - 
 #
 #>
 ######################################################################

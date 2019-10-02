@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_codecommit_helper_credential()
-#
-#
+#	p6_aws_codecommit_helper_credential()
 #
 #>
 ######################################################################

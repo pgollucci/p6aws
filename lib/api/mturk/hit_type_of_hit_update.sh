@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_mturk_hit_type_of_hit_update(hit_id, hit_type_id)
+#	p6_aws_mturk_hit_type_of_hit_update(hit_id, hit_type_id)
 #
-# Arg(s):
-#    hit_id - 
-#    hit_type_id - 
-#
+#  Args:
+#	hit_id - 
+#	hit_type_id - 
 #
 #>
 ######################################################################

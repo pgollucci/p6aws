@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_conference_provider_create(conference_provider_name, conference_provider_type, meeting_setting)
+#	p6_aws_alexaforbusiness_conference_provider_create(conference_provider_name, conference_provider_type, meeting_setting)
 #
-# Arg(s):
-#    conference_provider_name - 
-#    conference_provider_type - 
-#    meeting_setting - 
-#
+#  Args:
+#	conference_provider_name - 
+#	conference_provider_type - 
+#	meeting_setting - 
 #
 #>
 ######################################################################

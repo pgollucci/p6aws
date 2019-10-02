@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_elastictranscoder_pipelines_list()
-#
-#
+#	p6_aws_elastictranscoder_pipelines_list()
 #
 #>
 ######################################################################

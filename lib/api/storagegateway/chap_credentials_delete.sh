@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_chap_credentials_delete(target_arn, initiator_name)
+#	p6_aws_storagegateway_chap_credentials_delete(target_arn, initiator_name)
 #
-# Arg(s):
-#    target_arn - 
-#    initiator_name - 
-#
+#  Args:
+#	target_arn - 
+#	initiator_name - 
 #
 #>
 ######################################################################

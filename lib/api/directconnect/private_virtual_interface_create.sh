@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_directconnect_private_virtual_interface_create(connection_id, new_private_virtual_interface)
+#	p6_aws_directconnect_private_virtual_interface_create(connection_id, new_private_virtual_interface)
 #
-# Arg(s):
-#    connection_id - 
-#    new_private_virtual_interface - 
-#
+#  Args:
+#	connection_id - 
+#	new_private_virtual_interface - 
 #
 #>
 ######################################################################

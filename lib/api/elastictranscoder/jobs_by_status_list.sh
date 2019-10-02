@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_elastictranscoder_jobs_by_status_list(status)
+#	p6_aws_elastictranscoder_jobs_by_status_list(status)
 #
-# Arg(s):
-#    status - 
-#
+#  Args:
+#	status - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codestar_team_members_list(project_id)
+#	p6_aws_codestar_team_members_list(project_id)
 #
-# Arg(s):
-#    project_id - 
-#
+#  Args:
+#	project_id - 
 #
 #>
 ######################################################################

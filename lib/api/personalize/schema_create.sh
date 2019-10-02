@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_personalize_schema_create(name, schema)
+#	p6_aws_personalize_schema_create(name, schema)
 #
-# Arg(s):
-#    name - 
-#    schema - 
-#
+#  Args:
+#	name - 
+#	schema - 
 #
 #>
 ######################################################################

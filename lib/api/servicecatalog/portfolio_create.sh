@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_portfolio_create(display_name, provider_name)
+#	p6_aws_servicecatalog_portfolio_create(display_name, provider_name)
 #
-# Arg(s):
-#    display_name - 
-#    provider_name - 
-#
+#  Args:
+#	display_name - 
+#	provider_name - 
 #
 #>
 ######################################################################

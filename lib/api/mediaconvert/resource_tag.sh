@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_mediaconvert_resource_tag(arn, tags)
+#	p6_aws_mediaconvert_resource_tag(arn, tags)
 #
-# Arg(s):
-#    arn - 
-#    tags - 
-#
+#  Args:
+#	arn - 
+#	tags - 
 #
 #>
 ######################################################################

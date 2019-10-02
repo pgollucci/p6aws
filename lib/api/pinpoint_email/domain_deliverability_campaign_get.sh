@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_email_domain_deliverability_campaign_get(campaign_id)
+#	p6_aws_pinpoint_email_domain_deliverability_campaign_get(campaign_id)
 #
-# Arg(s):
-#    campaign_id - 
-#
+#  Args:
+#	campaign_id - 
 #
 #>
 ######################################################################

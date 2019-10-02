@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_identity_identity_pool_roles_set(identity_pool_id, roles)
+#	p6_aws_cognito_identity_identity_pool_roles_set(identity_pool_id, roles)
 #
-# Arg(s):
-#    identity_pool_id - 
-#    roles - 
-#
+#  Args:
+#	identity_pool_id - 
+#	roles - 
 #
 #>
 ######################################################################

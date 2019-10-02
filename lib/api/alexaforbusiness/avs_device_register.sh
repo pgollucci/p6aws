@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_avs_device_register(client_id, user_code, product_id, device_serial_number, amazon_id)
+#	p6_aws_alexaforbusiness_avs_device_register(client_id, user_code, product_id, device_serial_number, amazon_id)
 #
-# Arg(s):
-#    client_id - 
-#    user_code - 
-#    product_id - 
-#    device_serial_number - 
-#    amazon_id - 
-#
+#  Args:
+#	client_id - 
+#	user_code - 
+#	product_id - 
+#	device_serial_number - 
+#	amazon_id - 
 #
 #>
 ######################################################################

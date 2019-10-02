@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudsearch_availability_options_describe(domain_name)
+#	p6_aws_cloudsearch_availability_options_describe(domain_name)
 #
-# Arg(s):
-#    domain_name - 
-#
+#  Args:
+#	domain_name - 
 #
 #>
 ######################################################################

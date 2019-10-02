@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_object_tagging_put(bucket, key, tagging)
+#	p6_aws_s3api_object_tagging_put(bucket, key, tagging)
 #
-# Arg(s):
-#    bucket - 
-#    key - 
-#    tagging - 
-#
+#  Args:
+#	bucket - 
+#	key - 
+#	tagging - 
 #
 #>
 ######################################################################

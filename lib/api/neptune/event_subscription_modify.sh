@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_neptune_event_subscription_modify(subscription_name)
+#	p6_aws_neptune_event_subscription_modify(subscription_name)
 #
-# Arg(s):
-#    subscription_name - 
-#
+#  Args:
+#	subscription_name - 
 #
 #>
 ######################################################################

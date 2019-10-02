@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_domain_dkim_verify(domain)
+#	p6_aws_ses_domain_dkim_verify(domain)
 #
-# Arg(s):
-#    domain - 
-#
+#  Args:
+#	domain - 
 #
 #>
 ######################################################################

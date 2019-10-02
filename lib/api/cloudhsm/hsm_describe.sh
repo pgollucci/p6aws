@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudhsm_hsm_describe()
-#
-#
+#	p6_aws_cloudhsm_hsm_describe()
 #
 #>
 ######################################################################

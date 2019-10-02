@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_security_profile_behaviors_validate(behaviors)
+#	p6_aws_iot_security_profile_behaviors_validate(behaviors)
 #
-# Arg(s):
-#    behaviors - 
-#
+#  Args:
+#	behaviors - 
 #
 #>
 ######################################################################

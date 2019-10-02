@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesisanalyticsv2_application_describe(application_name)
+#	p6_aws_kinesisanalyticsv2_application_describe(application_name)
 #
-# Arg(s):
-#    application_name - 
-#
+#  Args:
+#	application_name - 
 #
 #>
 ######################################################################

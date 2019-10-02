@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_neptune_db_cluster_from_snapshot_restore(db_cluster_identifier, snapshot_identifier, engine)
+#	p6_aws_neptune_db_cluster_from_snapshot_restore(db_cluster_identifier, snapshot_identifier, engine)
 #
-# Arg(s):
-#    db_cluster_identifier - 
-#    snapshot_identifier - 
-#    engine - 
-#
+#  Args:
+#	db_cluster_identifier - 
+#	snapshot_identifier - 
+#	engine - 
 #
 #>
 ######################################################################

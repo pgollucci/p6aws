@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_serverlessrepo_application_version_create(application_id, semantic_version)
+#	p6_aws_serverlessrepo_application_version_create(application_id, semantic_version)
 #
-# Arg(s):
-#    application_id - 
-#    semantic_version - 
-#
+#  Args:
+#	application_id - 
+#	semantic_version - 
 #
 #>
 ######################################################################

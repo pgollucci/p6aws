@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_route53resolver_resolver_rule_update(resolver_rule_id, config)
+#	p6_aws_route53resolver_resolver_rule_update(resolver_rule_id, config)
 #
-# Arg(s):
-#    resolver_rule_id - 
-#    config - 
-#
+#  Args:
+#	resolver_rule_id - 
+#	config - 
 #
 #>
 ######################################################################

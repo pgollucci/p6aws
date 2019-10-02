@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_smb_file_share_create(client_token, gateway_arn, role, location_arn)
+#	p6_aws_storagegateway_smb_file_share_create(client_token, gateway_arn, role, location_arn)
 #
-# Arg(s):
-#    client_token - 
-#    gateway_arn - 
-#    role - 
-#    location_arn - 
-#
+#  Args:
+#	client_token - 
+#	gateway_arn - 
+#	role - 
+#	location_arn - 
 #
 #>
 ######################################################################

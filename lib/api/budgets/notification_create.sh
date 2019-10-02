@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_budgets_notification_create(account_id, budget_name, notification, subscribers)
+#	p6_aws_budgets_notification_create(account_id, budget_name, notification, subscribers)
 #
-# Arg(s):
-#    account_id - 
-#    budget_name - 
-#    notification - 
-#    subscribers - 
-#
+#  Args:
+#	account_id - 
+#	budget_name - 
+#	notification - 
+#	subscribers - 
 #
 #>
 ######################################################################

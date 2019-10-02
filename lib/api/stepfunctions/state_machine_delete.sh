@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_stepfunctions_state_machine_delete(state_machine_arn)
+#	p6_aws_stepfunctions_state_machine_delete(state_machine_arn)
 #
-# Arg(s):
-#    state_machine_arn - 
-#
+#  Args:
+#	state_machine_arn - 
 #
 #>
 ######################################################################

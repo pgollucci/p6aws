@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_inspector_rules_packages_describe(rules_package_arns)
+#	p6_aws_inspector_rules_packages_describe(rules_package_arns)
 #
-# Arg(s):
-#    rules_package_arns - 
-#
+#  Args:
+#	rules_package_arns - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticache_cache_security_group_ingress_revoke(cache_security_group_name, ec2_security_group_name, ec2_security_group_owner_id)
+#	p6_aws_elasticache_cache_security_group_ingress_revoke(cache_security_group_name, ec2_security_group_name, ec2_security_group_owner_id)
 #
-# Arg(s):
-#    cache_security_group_name - 
-#    ec2_security_group_name - 
-#    ec2_security_group_owner_id - 
-#
+#  Args:
+#	cache_security_group_name - 
+#	ec2_security_group_name - 
+#	ec2_security_group_owner_id - 
 #
 #>
 ######################################################################

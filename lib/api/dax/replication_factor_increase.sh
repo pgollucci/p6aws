@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_dax_replication_factor_increase(cluster_name, new_replication_factor)
+#	p6_aws_dax_replication_factor_increase(cluster_name, new_replication_factor)
 #
-# Arg(s):
-#    cluster_name - 
-#    new_replication_factor - 
-#
+#  Args:
+#	cluster_name - 
+#	new_replication_factor - 
 #
 #>
 ######################################################################

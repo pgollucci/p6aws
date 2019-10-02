@@ -2,16 +2,15 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_labeling_job_create(labeling_job_name, label_attribute_name, input_config, output_config, role_arn, human_task_config)
+#	p6_aws_sagemaker_labeling_job_create(labeling_job_name, label_attribute_name, input_config, output_config, role_arn, human_task_config)
 #
-# Arg(s):
-#    labeling_job_name - 
-#    label_attribute_name - 
-#    input_config - 
-#    output_config - 
-#    role_arn - 
-#    human_task_config - 
-#
+#  Args:
+#	labeling_job_name - 
+#	label_attribute_name - 
+#	input_config - 
+#	output_config - 
+#	role_arn - 
+#	human_task_config - 
 #
 #>
 ######################################################################

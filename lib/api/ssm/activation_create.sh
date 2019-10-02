@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_activation_create(iam_role)
+#	p6_aws_ssm_activation_create(iam_role)
 #
-# Arg(s):
-#    iam_role - 
-#
+#  Args:
+#	iam_role - 
 #
 #>
 ######################################################################

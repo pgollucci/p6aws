@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesisvideo_stream_tag(tags)
+#	p6_aws_kinesisvideo_stream_tag(tags)
 #
-# Arg(s):
-#    tags - 
-#
+#  Args:
+#	tags - 
 #
 #>
 ######################################################################

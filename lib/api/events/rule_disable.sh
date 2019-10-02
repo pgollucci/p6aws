@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_events_rule_disable(name)
+#	p6_aws_events_rule_disable(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

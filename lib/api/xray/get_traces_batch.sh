@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_xray_get_traces_batch(trace_ids)
+#	p6_aws_xray_get_traces_batch(trace_ids)
 #
-# Arg(s):
-#    trace_ids - 
-#
+#  Args:
+#	trace_ids - 
 #
 #>
 ######################################################################

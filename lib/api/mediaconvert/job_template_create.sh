@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_mediaconvert_job_template_create(name, settings)
+#	p6_aws_mediaconvert_job_template_create(name, settings)
 #
-# Arg(s):
-#    name - 
-#    settings - 
-#
+#  Args:
+#	name - 
+#	settings - 
 #
 #>
 ######################################################################

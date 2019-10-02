@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iot1click_projects_projects_list()
-#
-#
+#	p6_aws_iot1click_projects_projects_list()
 #
 #>
 ######################################################################

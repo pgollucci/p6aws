@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_transcribe_transcription_jobs_list()
-#
-#
+#	p6_aws_transcribe_transcription_jobs_list()
 #
 #>
 ######################################################################

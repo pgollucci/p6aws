@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_config_rule_put(config_rule)
+#	p6_aws_configservice_config_rule_put(config_rule)
 #
-# Arg(s):
-#    config_rule - 
-#
+#  Args:
+#	config_rule - 
 #
 #>
 ######################################################################

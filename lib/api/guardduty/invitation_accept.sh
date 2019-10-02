@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_guardduty_invitation_accept(detector_id, master_id, invitation_id)
+#	p6_aws_guardduty_invitation_accept(detector_id, master_id, invitation_id)
 #
-# Arg(s):
-#    detector_id - 
-#    master_id - 
-#    invitation_id - 
-#
+#  Args:
+#	detector_id - 
+#	master_id - 
+#	invitation_id - 
 #
 #>
 ######################################################################

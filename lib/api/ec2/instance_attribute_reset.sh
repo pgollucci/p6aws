@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_instance_attribute_reset(attribute, instance_id)
+#	p6_aws_ec2_instance_attribute_reset(attribute, instance_id)
 #
-# Arg(s):
-#    attribute - 
-#    instance_id - 
-#
+#  Args:
+#	attribute - 
+#	instance_id - 
 #
 #>
 ######################################################################

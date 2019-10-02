@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_usage_plan_get(usage_plan_id)
+#	p6_aws_apigateway_usage_plan_get(usage_plan_id)
 #
-# Arg(s):
-#    usage_plan_id - 
-#
+#  Args:
+#	usage_plan_id - 
 #
 #>
 ######################################################################

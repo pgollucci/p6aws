@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_workmail_group_delete(organization_id, group_id)
+#	p6_aws_workmail_group_delete(organization_id, group_id)
 #
-# Arg(s):
-#    organization_id - 
-#    group_id - 
-#
+#  Args:
+#	organization_id - 
+#	group_id - 
 #
 #>
 ######################################################################

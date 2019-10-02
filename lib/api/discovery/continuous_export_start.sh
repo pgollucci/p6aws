@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_discovery_continuous_export_start()
-#
-#
+#	p6_aws_discovery_continuous_export_start()
 #
 #>
 ######################################################################

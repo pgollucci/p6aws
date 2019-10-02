@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_dlm_default_role_create()
-#
-#
+#	p6_aws_dlm_default_role_create()
 #
 #>
 ######################################################################

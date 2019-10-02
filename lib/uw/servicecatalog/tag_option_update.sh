@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_active(product_id, provisioning_artifact_id, id)
+#	p6_aws_servicecatalog_active(product_id, provisioning_artifact_id, id)
 #
-# Arg(s):
-#    product_id - 
-#    provisioning_artifact_id - 
-#    id - 
-#
+#  Args:
+#	product_id - 
+#	provisioning_artifact_id - 
+#	id - 
 #
 #>
 ######################################################################

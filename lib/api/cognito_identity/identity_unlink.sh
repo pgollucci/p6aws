@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_identity_identity_unlink(identity_id, logins, logins_to_remove)
+#	p6_aws_cognito_identity_identity_unlink(identity_id, logins, logins_to_remove)
 #
-# Arg(s):
-#    identity_id - 
-#    logins - 
-#    logins_to_remove - 
-#
+#  Args:
+#	identity_id - 
+#	logins - 
+#	logins_to_remove - 
 #
 #>
 ######################################################################

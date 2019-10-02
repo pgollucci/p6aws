@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_configuration_recorder_status_describe()
-#
-#
+#	p6_aws_configservice_configuration_recorder_status_describe()
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_application_insights_problem_observations_describe(problem_id)
+#	p6_aws_application_insights_problem_observations_describe(problem_id)
 #
-# Arg(s):
-#    problem_id - 
-#
+#  Args:
+#	problem_id - 
 #
 #>
 ######################################################################

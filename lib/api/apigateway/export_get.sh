@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_export_get(rest_api_id, stage_name, export_type)
+#	p6_aws_apigateway_export_get(rest_api_id, stage_name, export_type)
 #
-# Arg(s):
-#    rest_api_id - 
-#    stage_name - 
-#    export_type - 
-#
+#  Args:
+#	rest_api_id - 
+#	stage_name - 
+#	export_type - 
 #
 #>
 ######################################################################

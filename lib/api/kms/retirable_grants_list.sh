@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kms_retirable_grants_list(retiring_principal)
+#	p6_aws_kms_retirable_grants_list(retiring_principal)
 #
-# Arg(s):
-#    retiring_principal - 
-#
+#  Args:
+#	retiring_principal - 
 #
 #>
 ######################################################################

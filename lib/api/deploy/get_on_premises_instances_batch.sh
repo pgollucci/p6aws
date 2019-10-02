@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_deploy_get_on_premises_instances_batch(instance_names)
+#	p6_aws_deploy_get_on_premises_instances_batch(instance_names)
 #
-# Arg(s):
-#    instance_names - 
-#
+#  Args:
+#	instance_names - 
 #
 #>
 ######################################################################

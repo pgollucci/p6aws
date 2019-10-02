@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_chime_unsuspend_user_batch(account_id, user_id_list)
+#	p6_aws_chime_unsuspend_user_batch(account_id, user_id_list)
 #
-# Arg(s):
-#    account_id - 
-#    user_id_list - 
-#
+#  Args:
+#	account_id - 
+#	user_id_list - 
 #
 #>
 ######################################################################

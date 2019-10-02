@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_status_get()
-#
-#
+#	p6_aws_configservice_status_get()
 #
 #>
 ######################################################################

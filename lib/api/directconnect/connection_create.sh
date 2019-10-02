@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_directconnect_connection_create(location, bandwidth, connection_name)
+#	p6_aws_directconnect_connection_create(location, bandwidth, connection_name)
 #
-# Arg(s):
-#    location - 
-#    bandwidth - 
-#    connection_name - 
-#
+#  Args:
+#	location - 
+#	bandwidth - 
+#	connection_name - 
 #
 #>
 ######################################################################

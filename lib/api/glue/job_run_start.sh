@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_job_run_start(job_name)
+#	p6_aws_glue_job_run_start(job_name)
 #
-# Arg(s):
-#    job_name - 
-#
+#  Args:
+#	job_name - 
 #
 #>
 ######################################################################

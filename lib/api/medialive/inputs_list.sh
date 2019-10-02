@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_medialive_inputs_list()
-#
-#
+#	p6_aws_medialive_inputs_list()
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_s3_svc_buckets_list()
-#
-#
+#	p6_aws_s3_svc_buckets_list()
 #
 #>
 ######################################################################
@@ -17,9 +15,7 @@ p6_aws_s3_svc_buckets_list() {
 #<
 #
 # Function:
-#      = p6_aws_s3_svc_bucket_list()
-#
-#
+#	p6_aws_s3_svc_bucket_list()
 #
 #>
 ######################################################################
@@ -32,9 +28,7 @@ p6_aws_s3_svc_bucket_list() {
 #<
 #
 # Function:
-#      = p6_aws_s3_svc_bucket_policy()
-#
-#
+#	p6_aws_s3_svc_bucket_policy()
 #
 #>
 ######################################################################

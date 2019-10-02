@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_bucket_website_put(bucket, website_configuration)
+#	p6_aws_s3api_bucket_website_put(bucket, website_configuration)
 #
-# Arg(s):
-#    bucket - 
-#    website_configuration - 
-#
+#  Args:
+#	bucket - 
+#	website_configuration - 
 #
 #>
 ######################################################################

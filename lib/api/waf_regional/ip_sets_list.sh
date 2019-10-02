@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_regional_ip_sets_list()
-#
-#
+#	p6_aws_waf_regional_ip_sets_list()
 #
 #>
 ######################################################################

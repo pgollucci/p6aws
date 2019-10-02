@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_script_delete(script_id)
+#	p6_aws_gamelift_script_delete(script_id)
 #
-# Arg(s):
-#    script_id - 
-#
+#  Args:
+#	script_id - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_segment_update(application_id, segment_id, write_segment_request)
+#	p6_aws_pinpoint_segment_update(application_id, segment_id, write_segment_request)
 #
-# Arg(s):
-#    application_id - 
-#    segment_id - 
-#    write_segment_request - 
-#
+#  Args:
+#	application_id - 
+#	segment_id - 
+#	write_segment_request - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_amplify_app_create(name)
+#	p6_aws_amplify_app_create(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

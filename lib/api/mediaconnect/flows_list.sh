@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_mediaconnect_flows_list()
-#
-#
+#	p6_aws_mediaconnect_flows_list()
 #
 #>
 ######################################################################

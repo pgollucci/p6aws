@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_sessions_describe(state)
+#	p6_aws_ssm_sessions_describe(state)
 #
-# Arg(s):
-#    state - 
-#
+#  Args:
+#	state - 
 #
 #>
 ######################################################################

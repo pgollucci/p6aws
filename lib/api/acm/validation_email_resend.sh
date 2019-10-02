@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_acm_validation_email_resend(certificate_arn, domain, validation_domain)
+#	p6_aws_acm_validation_email_resend(certificate_arn, domain, validation_domain)
 #
-# Arg(s):
-#    certificate_arn - 
-#    domain - 
-#    validation_domain - 
-#
+#  Args:
+#	certificate_arn - 
+#	domain - 
+#	validation_domain - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_db_instance_to_point_in_time_restore(target_db_instance_identifier)
+#	p6_aws_rds_db_instance_to_point_in_time_restore(target_db_instance_identifier)
 #
-# Arg(s):
-#    target_db_instance_identifier - 
-#
+#  Args:
+#	target_db_instance_identifier - 
 #
 #>
 ######################################################################

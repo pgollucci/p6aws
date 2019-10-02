@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ecr_image_put(repository_name, image_manifest)
+#	p6_aws_ecr_image_put(repository_name, image_manifest)
 #
-# Arg(s):
-#    repository_name - 
-#    image_manifest - 
-#
+#  Args:
+#	repository_name - 
+#	image_manifest - 
 #
 #>
 ######################################################################

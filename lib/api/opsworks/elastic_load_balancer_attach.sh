@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_elastic_load_balancer_attach(elastic_load_balancer_name, layer_id)
+#	p6_aws_opsworks_elastic_load_balancer_attach(elastic_load_balancer_name, layer_id)
 #
-# Arg(s):
-#    elastic_load_balancer_name - 
-#    layer_id - 
-#
+#  Args:
+#	elastic_load_balancer_name - 
+#	layer_id - 
 #
 #>
 ######################################################################

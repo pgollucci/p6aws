@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_skill_group_create(skill_group_name)
+#	p6_aws_alexaforbusiness_skill_group_create(skill_group_name)
 #
-# Arg(s):
-#    skill_group_name - 
-#
+#  Args:
+#	skill_group_name - 
 #
 #>
 ######################################################################

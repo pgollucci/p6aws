@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_reset_user_password_admin(user_pool_id, username)
+#	p6_aws_cognito_idp_reset_user_password_admin(user_pool_id, username)
 #
-# Arg(s):
-#    user_pool_id - 
-#    username - 
-#
+#  Args:
+#	user_pool_id - 
+#	username - 
 #
 #>
 ######################################################################

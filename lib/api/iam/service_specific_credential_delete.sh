@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_service_specific_credential_delete(service_specific_credential_id)
+#	p6_aws_iam_service_specific_credential_delete(service_specific_credential_id)
 #
-# Arg(s):
-#    service_specific_credential_id - 
-#
+#  Args:
+#	service_specific_credential_id - 
 #
 #>
 ######################################################################

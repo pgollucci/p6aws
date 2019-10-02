@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudformation_stacks_list()
-#
-#
+#	p6_aws_cloudformation_stacks_list()
 #
 #>
 ######################################################################

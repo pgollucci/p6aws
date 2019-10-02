@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mgh_progress_update_stream_delete(progress_update_stream_name)
+#	p6_aws_mgh_progress_update_stream_delete(progress_update_stream_name)
 #
-# Arg(s):
-#    progress_update_stream_name - 
-#
+#  Args:
+#	progress_update_stream_name - 
 #
 #>
 ######################################################################

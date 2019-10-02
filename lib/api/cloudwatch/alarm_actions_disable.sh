@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudwatch_alarm_actions_disable(alarm_names)
+#	p6_aws_cloudwatch_alarm_actions_disable(alarm_names)
 #
-# Arg(s):
-#    alarm_names - 
-#
+#  Args:
+#	alarm_names - 
 #
 #>
 ######################################################################

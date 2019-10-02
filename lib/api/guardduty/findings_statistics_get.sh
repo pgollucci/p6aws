@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_guardduty_findings_statistics_get(detector_id, finding_statistic_types)
+#	p6_aws_guardduty_findings_statistics_get(detector_id, finding_statistic_types)
 #
-# Arg(s):
-#    detector_id - 
-#    finding_statistic_types - 
-#
+#  Args:
+#	detector_id - 
+#	finding_statistic_types - 
 #
 #>
 ######################################################################

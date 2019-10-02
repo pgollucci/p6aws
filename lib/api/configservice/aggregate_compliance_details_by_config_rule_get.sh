@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_aggregate_compliance_details_by_config_rule_get(configuration_aggregator_name, config_rule_name, account_id, aws_region)
+#	p6_aws_configservice_aggregate_compliance_details_by_config_rule_get(configuration_aggregator_name, config_rule_name, account_id, aws_region)
 #
-# Arg(s):
-#    configuration_aggregator_name - 
-#    config_rule_name - 
-#    account_id - 
-#    aws_region - 
-#
+#  Args:
+#	configuration_aggregator_name - 
+#	config_rule_name - 
+#	account_id - 
+#	aws_region - 
 #
 #>
 ######################################################################

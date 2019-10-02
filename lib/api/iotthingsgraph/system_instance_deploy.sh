@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iotthingsgraph_system_instance_deploy()
-#
-#
+#	p6_aws_iotthingsgraph_system_instance_deploy()
 #
 #>
 ######################################################################

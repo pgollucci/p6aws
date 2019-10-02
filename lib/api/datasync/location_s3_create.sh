@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_datasync_location_s3_create(s3_bucket_arn, s3_config)
+#	p6_aws_datasync_location_s3_create(s3_bucket_arn, s3_config)
 #
-# Arg(s):
-#    s3_bucket_arn - 
-#    s3_config - 
-#
+#  Args:
+#	s3_bucket_arn - 
+#	s3_config - 
 #
 #>
 ######################################################################

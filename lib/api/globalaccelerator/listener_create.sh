@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_globalaccelerator_listener_create(accelerator_arn, port_ranges, protocol, idempotency_token)
+#	p6_aws_globalaccelerator_listener_create(accelerator_arn, port_ranges, protocol, idempotency_token)
 #
-# Arg(s):
-#    accelerator_arn - 
-#    port_ranges - 
-#    protocol - 
-#    idempotency_token - 
-#
+#  Args:
+#	accelerator_arn - 
+#	port_ranges - 
+#	protocol - 
+#	idempotency_token - 
 #
 #>
 ######################################################################

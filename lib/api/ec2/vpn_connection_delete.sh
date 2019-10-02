@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpn_connection_delete(vpn_connection_id)
+#	p6_aws_ec2_vpn_connection_delete(vpn_connection_id)
 #
-# Arg(s):
-#    vpn_connection_id - 
-#
+#  Args:
+#	vpn_connection_id - 
 #
 #>
 ######################################################################

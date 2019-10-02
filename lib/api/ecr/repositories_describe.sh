@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ecr_repositories_describe()
-#
-#
+#	p6_aws_ecr_repositories_describe()
 #
 #>
 ######################################################################

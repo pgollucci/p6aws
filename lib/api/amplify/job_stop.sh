@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_amplify_job_stop(app_id, branch_name, job_id)
+#	p6_aws_amplify_job_stop(app_id, branch_name, job_id)
 #
-# Arg(s):
-#    app_id - 
-#    branch_name - 
-#    job_id - 
-#
+#  Args:
+#	app_id - 
+#	branch_name - 
+#	job_id - 
 #
 #>
 ######################################################################

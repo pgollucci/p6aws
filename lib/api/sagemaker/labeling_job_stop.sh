@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_labeling_job_stop(labeling_job_name)
+#	p6_aws_sagemaker_labeling_job_stop(labeling_job_name)
 #
-# Arg(s):
-#    labeling_job_name - 
-#
+#  Args:
+#	labeling_job_name - 
 #
 #>
 ######################################################################

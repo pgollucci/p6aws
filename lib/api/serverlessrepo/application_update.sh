@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_serverlessrepo_application_update(application_id)
+#	p6_aws_serverlessrepo_application_update(application_id)
 #
-# Arg(s):
-#    application_id - 
-#
+#  Args:
+#	application_id - 
 #
 #>
 ######################################################################

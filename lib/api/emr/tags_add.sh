@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_emr_tags_add(resource_id, tags)
+#	p6_aws_emr_tags_add(resource_id, tags)
 #
-# Arg(s):
-#    resource_id - 
-#    tags - 
-#
+#  Args:
+#	resource_id - 
+#	tags - 
 #
 #>
 ######################################################################

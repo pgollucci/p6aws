@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_sts_role_with_saml_assume(role_arn, principal_arn, saml_assertion)
+#	p6_aws_sts_role_with_saml_assume(role_arn, principal_arn, saml_assertion)
 #
-# Arg(s):
-#    role_arn - 
-#    principal_arn - 
-#    saml_assertion - 
-#
+#  Args:
+#	role_arn - 
+#	principal_arn - 
+#	saml_assertion - 
 #
 #>
 ######################################################################

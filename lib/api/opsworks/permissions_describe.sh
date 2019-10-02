@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_permissions_describe()
-#
-#
+#	p6_aws_opsworks_permissions_describe()
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_config_snapshot_deliver(delivery_channel_name)
+#	p6_aws_configservice_config_snapshot_deliver(delivery_channel_name)
 #
-# Arg(s):
-#    delivery_channel_name - 
-#
+#  Args:
+#	delivery_channel_name - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_organization_config_rule_statuses_describe()
-#
-#
+#	p6_aws_configservice_organization_config_rule_statuses_describe()
 #
 #>
 ######################################################################

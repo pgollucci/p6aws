@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_workdocs_resource_permissions_add(resource_id, principals)
+#	p6_aws_workdocs_resource_permissions_add(resource_id, principals)
 #
-# Arg(s):
-#    resource_id - 
-#    principals - 
-#
+#  Args:
+#	resource_id - 
+#	principals - 
 #
 #>
 ######################################################################

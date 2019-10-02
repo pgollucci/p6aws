@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_autoscaling_lifecycle_hook_delete(lifecycle_hook_name, auto_scaling_group_name)
+#	p6_aws_autoscaling_lifecycle_hook_delete(lifecycle_hook_name, auto_scaling_group_name)
 #
-# Arg(s):
-#    lifecycle_hook_name - 
-#    auto_scaling_group_name - 
-#
+#  Args:
+#	lifecycle_hook_name - 
+#	auto_scaling_group_name - 
 #
 #>
 ######################################################################

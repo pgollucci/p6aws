@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_robomaker_robot_register(fleet, robot)
+#	p6_aws_robomaker_robot_register(fleet, robot)
 #
-# Arg(s):
-#    fleet - 
-#    robot - 
-#
+#  Args:
+#	fleet - 
+#	robot - 
 #
 #>
 ######################################################################

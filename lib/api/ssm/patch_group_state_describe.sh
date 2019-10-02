@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_patch_group_state_describe(patch_group)
+#	p6_aws_ssm_patch_group_state_describe(patch_group)
 #
-# Arg(s):
-#    patch_group - 
-#
+#  Args:
+#	patch_group - 
 #
 #>
 ######################################################################

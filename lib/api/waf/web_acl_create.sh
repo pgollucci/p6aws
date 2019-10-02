@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_web_acl_create(name, metric_name, default_action, change_token)
+#	p6_aws_waf_web_acl_create(name, metric_name, default_action, change_token)
 #
-# Arg(s):
-#    name - 
-#    metric_name - 
-#    default_action - 
-#    change_token - 
-#
+#  Args:
+#	name - 
+#	metric_name - 
+#	default_action - 
+#	change_token - 
 #
 #>
 ######################################################################

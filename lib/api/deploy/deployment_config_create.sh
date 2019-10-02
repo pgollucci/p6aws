@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_deploy_deployment_config_create(deployment_config_name)
+#	p6_aws_deploy_deployment_config_create(deployment_config_name)
 #
-# Arg(s):
-#    deployment_config_name - 
-#
+#  Args:
+#	deployment_config_name - 
 #
 #>
 ######################################################################

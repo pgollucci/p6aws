@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_rooms_search()
-#
-#
+#	p6_aws_alexaforbusiness_rooms_search()
 #
 #>
 ######################################################################

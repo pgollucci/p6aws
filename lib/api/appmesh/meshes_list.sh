@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_appmesh_meshes_list()
-#
-#
+#	p6_aws_appmesh_meshes_list()
 #
 #>
 ######################################################################

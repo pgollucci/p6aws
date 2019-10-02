@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_s3control_job_describe(account_id, job_id)
+#	p6_aws_s3control_job_describe(account_id, job_id)
 #
-# Arg(s):
-#    account_id - 
-#    job_id - 
-#
+#  Args:
+#	account_id - 
+#	job_id - 
 #
 #>
 ######################################################################

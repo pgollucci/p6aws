@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticache_tags_for_resource_list(resource_name)
+#	p6_aws_elasticache_tags_for_resource_list(resource_name)
 #
-# Arg(s):
-#    resource_name - 
-#
+#  Args:
+#	resource_name - 
 #
 #>
 ######################################################################

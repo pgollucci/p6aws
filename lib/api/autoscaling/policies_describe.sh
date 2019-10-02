@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_autoscaling_policies_describe()
-#
-#
+#	p6_aws_autoscaling_policies_describe()
 #
 #>
 ######################################################################

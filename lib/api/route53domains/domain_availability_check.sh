@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_route53domains_domain_availability_check(domain_name)
+#	p6_aws_route53domains_domain_availability_check(domain_name)
 #
-# Arg(s):
-#    domain_name - 
-#
+#  Args:
+#	domain_name - 
 #
 #>
 ######################################################################

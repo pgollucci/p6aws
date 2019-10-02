@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elbv2_targets_register(target_group_arn, targets)
+#	p6_aws_elbv2_targets_register(target_group_arn, targets)
 #
-# Arg(s):
-#    target_group_arn - 
-#    targets - 
-#
+#  Args:
+#	target_group_arn - 
+#	targets - 
 #
 #>
 ######################################################################

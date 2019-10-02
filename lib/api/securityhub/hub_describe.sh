@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_securityhub_hub_describe()
-#
-#
+#	p6_aws_securityhub_hub_describe()
 #
 #>
 ######################################################################

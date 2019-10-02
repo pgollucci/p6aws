@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ds_schema_extension_cancel(directory_id, schema_extension_id)
+#	p6_aws_ds_schema_extension_cancel(directory_id, schema_extension_id)
 #
-# Arg(s):
-#    directory_id - 
-#    schema_extension_id - 
-#
+#  Args:
+#	directory_id - 
+#	schema_extension_id - 
 #
 #>
 ######################################################################

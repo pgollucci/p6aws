@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_dynamodb_tags_of_resource_list(resource_arn)
+#	p6_aws_dynamodb_tags_of_resource_list(resource_arn)
 #
-# Arg(s):
-#    resource_arn - 
-#
+#  Args:
+#	resource_arn - 
 #
 #>
 ######################################################################

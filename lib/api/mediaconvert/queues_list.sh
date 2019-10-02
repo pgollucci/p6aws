@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_mediaconvert_queues_list()
-#
-#
+#	p6_aws_mediaconvert_queues_list()
 #
 #>
 ######################################################################

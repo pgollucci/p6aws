@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_appstream_users_describe(authentication_type)
+#	p6_aws_appstream_users_describe(authentication_type)
 #
-# Arg(s):
-#    authentication_type - 
-#
+#  Args:
+#	authentication_type - 
 #
 #>
 ######################################################################

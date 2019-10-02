@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_discovery_continuous_export_stop(export_id)
+#	p6_aws_discovery_continuous_export_stop(export_id)
 #
-# Arg(s):
-#    export_id - 
-#
+#  Args:
+#	export_id - 
 #
 #>
 ######################################################################

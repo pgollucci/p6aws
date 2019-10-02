@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_profile_delete()
-#
-#
+#	p6_aws_alexaforbusiness_profile_delete()
 #
 #>
 ######################################################################

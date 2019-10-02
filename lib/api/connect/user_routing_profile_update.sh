@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_connect_user_routing_profile_update(routing_profile_id, user_id, instance_id)
+#	p6_aws_connect_user_routing_profile_update(routing_profile_id, user_id, instance_id)
 #
-# Arg(s):
-#    routing_profile_id - 
-#    user_id - 
-#    instance_id - 
-#
+#  Args:
+#	routing_profile_id - 
+#	user_id - 
+#	instance_id - 
 #
 #>
 ######################################################################

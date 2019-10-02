@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_snapshot_copy_retention_period_modify(cluster_identifier, retention_period)
+#	p6_aws_redshift_snapshot_copy_retention_period_modify(cluster_identifier, retention_period)
 #
-# Arg(s):
-#    cluster_identifier - 
-#    retention_period - 
-#
+#  Args:
+#	cluster_identifier - 
+#	retention_period - 
 #
 #>
 ######################################################################

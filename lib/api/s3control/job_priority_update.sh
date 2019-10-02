@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_s3control_job_priority_update(account_id, job_id, priority)
+#	p6_aws_s3control_job_priority_update(account_id, job_id, priority)
 #
-# Arg(s):
-#    account_id - 
-#    job_id - 
-#    priority - 
-#
+#  Args:
+#	account_id - 
+#	job_id - 
+#	priority - 
 #
 #>
 ######################################################################

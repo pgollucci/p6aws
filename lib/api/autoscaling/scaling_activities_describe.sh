@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_autoscaling_scaling_activities_describe()
-#
-#
+#	p6_aws_autoscaling_scaling_activities_describe()
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_discovery_tags_create(configuration_ids, tags)
+#	p6_aws_discovery_tags_create(configuration_ids, tags)
 #
-# Arg(s):
-#    configuration_ids - 
-#    tags - 
-#
+#  Args:
+#	configuration_ids - 
+#	tags - 
 #
 #>
 ######################################################################

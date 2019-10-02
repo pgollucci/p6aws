@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_job_update(job_name, job_update)
+#	p6_aws_glue_job_update(job_name, job_update)
 #
-# Arg(s):
-#    job_name - 
-#    job_update - 
-#
+#  Args:
+#	job_name - 
+#	job_update - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_matchmaking_configuration_update(name)
+#	p6_aws_gamelift_matchmaking_configuration_update(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

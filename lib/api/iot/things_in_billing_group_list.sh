@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_things_in_billing_group_list(billing_group_name)
+#	p6_aws_iot_things_in_billing_group_list(billing_group_name)
 #
-# Arg(s):
-#    billing_group_name - 
-#
+#  Args:
+#	billing_group_name - 
 #
 #>
 ######################################################################

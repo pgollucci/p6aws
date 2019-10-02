@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_byte_match_set_get(byte_match_set_id)
+#	p6_aws_waf_byte_match_set_get(byte_match_set_id)
 #
-# Arg(s):
-#    byte_match_set_id - 
-#
+#  Args:
+#	byte_match_set_id - 
 #
 #>
 ######################################################################

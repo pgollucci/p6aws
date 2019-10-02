@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_groundstation_minute_usage_get(month, year)
+#	p6_aws_groundstation_minute_usage_get(month, year)
 #
-# Arg(s):
-#    month - 
-#    year - 
-#
+#  Args:
+#	month - 
+#	year - 
 #
 #>
 ######################################################################

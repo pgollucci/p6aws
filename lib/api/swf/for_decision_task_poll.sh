@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_swf_for_decision_task_poll(domain, task_list)
+#	p6_aws_swf_for_decision_task_poll(domain, task_list)
 #
-# Arg(s):
-#    domain - 
-#    task_list - 
-#
+#  Args:
+#	domain - 
+#	task_list - 
 #
 #>
 ######################################################################

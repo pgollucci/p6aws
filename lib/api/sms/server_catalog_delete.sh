@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_sms_server_catalog_delete()
-#
-#
+#	p6_aws_sms_server_catalog_delete()
 #
 #>
 ######################################################################

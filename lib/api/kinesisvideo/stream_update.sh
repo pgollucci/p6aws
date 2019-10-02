@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesisvideo_stream_update(current_version)
+#	p6_aws_kinesisvideo_stream_update(current_version)
 #
-# Arg(s):
-#    current_version - 
-#
+#  Args:
+#	current_version - 
 #
 #>
 ######################################################################

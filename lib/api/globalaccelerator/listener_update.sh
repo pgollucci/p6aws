@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_globalaccelerator_listener_update(listener_arn)
+#	p6_aws_globalaccelerator_listener_update(listener_arn)
 #
-# Arg(s):
-#    listener_arn - 
-#
+#  Args:
+#	listener_arn - 
 #
 #>
 ######################################################################

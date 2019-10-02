@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_organizations_organization_create()
-#
-#
+#	p6_aws_organizations_organization_create()
 #
 #>
 ######################################################################

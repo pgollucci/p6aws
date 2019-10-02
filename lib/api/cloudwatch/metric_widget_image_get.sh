@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudwatch_metric_widget_image_get(metric_widget)
+#	p6_aws_cloudwatch_metric_widget_image_get(metric_widget)
 #
-# Arg(s):
-#    metric_widget - 
-#
+#  Args:
+#	metric_widget - 
 #
 #>
 ######################################################################

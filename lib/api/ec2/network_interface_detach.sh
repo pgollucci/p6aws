@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_network_interface_detach(attachment_id)
+#	p6_aws_ec2_network_interface_detach(attachment_id)
 #
-# Arg(s):
-#    attachment_id - 
-#
+#  Args:
+#	attachment_id - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_events_event_bus_create(name)
+#	p6_aws_events_event_bus_create(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

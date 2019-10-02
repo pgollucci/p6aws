@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_identity_policies_list(identity)
+#	p6_aws_ses_identity_policies_list(identity)
 #
-# Arg(s):
-#    identity - 
-#
+#  Args:
+#	identity - 
 #
 #>
 ######################################################################

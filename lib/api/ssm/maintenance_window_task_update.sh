@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_maintenance_window_task_update(window_id, window_task_id)
+#	p6_aws_ssm_maintenance_window_task_update(window_id, window_task_id)
 #
-# Arg(s):
-#    window_id - 
-#    window_task_id - 
-#
+#  Args:
+#	window_id - 
+#	window_task_id - 
 #
 #>
 ######################################################################

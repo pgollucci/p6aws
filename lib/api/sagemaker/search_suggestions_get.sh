@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_search_suggestions_get(resource)
+#	p6_aws_sagemaker_search_suggestions_get(resource)
 #
-# Arg(s):
-#    resource - 
-#
+#  Args:
+#	resource - 
 #
 #>
 ######################################################################

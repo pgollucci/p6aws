@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_mediapackage_origin_endpoint_create(channel_id, id)
+#	p6_aws_mediapackage_origin_endpoint_create(channel_id, id)
 #
-# Arg(s):
-#    channel_id - 
-#    id - 
-#
+#  Args:
+#	channel_id - 
+#	id - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_clouddirectory_write_batch(directory_arn, operations)
+#	p6_aws_clouddirectory_write_batch(directory_arn, operations)
 #
-# Arg(s):
-#    directory_arn - 
-#    operations - 
-#
+#  Args:
+#	directory_arn - 
+#	operations - 
 #
 #>
 ######################################################################

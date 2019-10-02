@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_greengrass_core_definition_delete(core_definition_id)
+#	p6_aws_greengrass_core_definition_delete(core_definition_id)
 #
-# Arg(s):
-#    core_definition_id - 
-#
+#  Args:
+#	core_definition_id - 
 #
 #>
 ######################################################################

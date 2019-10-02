@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_efs_file_system_update(file_system_id)
+#	p6_aws_efs_file_system_update(file_system_id)
 #
-# Arg(s):
-#    file_system_id - 
-#
+#  Args:
+#	file_system_id - 
 #
 #>
 ######################################################################

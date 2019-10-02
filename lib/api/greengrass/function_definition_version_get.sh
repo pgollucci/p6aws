@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_greengrass_function_definition_version_get(function_definition_id, function_definition_version_id)
+#	p6_aws_greengrass_function_definition_version_get(function_definition_id, function_definition_version_id)
 #
-# Arg(s):
-#    function_definition_id - 
-#    function_definition_version_id - 
-#
+#  Args:
+#	function_definition_id - 
+#	function_definition_version_id - 
 #
 #>
 ######################################################################

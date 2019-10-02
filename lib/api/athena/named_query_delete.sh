@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_athena_named_query_delete()
-#
-#
+#	p6_aws_athena_named_query_delete()
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_user_attributes_update(user_attributes, access_token)
+#	p6_aws_cognito_idp_user_attributes_update(user_attributes, access_token)
 #
-# Arg(s):
-#    user_attributes - 
-#    access_token - 
-#
+#  Args:
+#	user_attributes - 
+#	access_token - 
 #
 #>
 ######################################################################

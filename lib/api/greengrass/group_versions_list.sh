@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_greengrass_group_versions_list(group_id)
+#	p6_aws_greengrass_group_versions_list(group_id)
 #
-# Arg(s):
-#    group_id - 
-#
+#  Args:
+#	group_id - 
 #
 #>
 ######################################################################

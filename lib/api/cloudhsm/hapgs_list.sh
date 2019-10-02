@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudhsm_hapgs_list()
-#
-#
+#	p6_aws_cloudhsm_hapgs_list()
 #
 #>
 ######################################################################

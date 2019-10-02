@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudfront_streaming_distribution_create(streaming_distribution_config)
+#	p6_aws_cloudfront_streaming_distribution_create(streaming_distribution_config)
 #
-# Arg(s):
-#    streaming_distribution_config - 
-#
+#  Args:
+#	streaming_distribution_config - 
 #
 #>
 ######################################################################

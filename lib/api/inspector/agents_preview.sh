@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_inspector_agents_preview()
-#
-#
+#	p6_aws_inspector_agents_preview()
 #
 #>
 ######################################################################

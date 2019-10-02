@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_attributes_remove(application_id, attribute_type, update_attributes_request)
+#	p6_aws_pinpoint_attributes_remove(application_id, attribute_type, update_attributes_request)
 #
-# Arg(s):
-#    application_id - 
-#    attribute_type - 
-#    update_attributes_request - 
-#
+#  Args:
+#	application_id - 
+#	attribute_type - 
+#	update_attributes_request - 
 #
 #>
 ######################################################################

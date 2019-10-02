@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_bundles_get()
-#
-#
+#	p6_aws_lightsail_bundles_get()
 #
 #>
 ######################################################################

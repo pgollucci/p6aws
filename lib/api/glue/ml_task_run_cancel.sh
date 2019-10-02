@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_ml_task_run_cancel(transform_id, task_run_id)
+#	p6_aws_glue_ml_task_run_cancel(transform_id, task_run_id)
 #
-# Arg(s):
-#    transform_id - 
-#    task_run_id - 
-#
+#  Args:
+#	transform_id - 
+#	task_run_id - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_snapshot_create(volume_id)
+#	p6_aws_ec2_snapshot_create(volume_id)
 #
-# Arg(s):
-#    volume_id - 
-#
+#  Args:
+#	volume_id - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_lex_models_bot_get(name, version_or_alias)
+#	p6_aws_lex_models_bot_get(name, version_or_alias)
 #
-# Arg(s):
-#    name - 
-#    version_or_alias - 
-#
+#  Args:
+#	name - 
+#	version_or_alias - 
 #
 #>
 ######################################################################

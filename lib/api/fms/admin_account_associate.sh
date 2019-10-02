@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_fms_admin_account_associate(admin_account)
+#	p6_aws_fms_admin_account_associate(admin_account)
 #
-# Arg(s):
-#    admin_account - 
-#
+#  Args:
+#	admin_account - 
 #
 #>
 ######################################################################

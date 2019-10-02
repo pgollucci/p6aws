@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_sms_replication_job_create(server_id, seed_replication_time)
+#	p6_aws_sms_replication_job_create(server_id, seed_replication_time)
 #
-# Arg(s):
-#    server_id - 
-#    seed_replication_time - 
-#
+#  Args:
+#	server_id - 
+#	seed_replication_time - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_workspaces_client_properties_describe(resource_ids)
+#	p6_aws_workspaces_client_properties_describe(resource_ids)
 #
-# Arg(s):
-#    resource_ids - 
-#
+#  Args:
+#	resource_ids - 
 #
 #>
 ######################################################################

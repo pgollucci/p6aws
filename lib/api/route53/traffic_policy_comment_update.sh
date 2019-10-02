@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_traffic_policy_comment_update(id, comment, traffic_policy_version)
+#	p6_aws_route53_traffic_policy_comment_update(id, comment, traffic_policy_version)
 #
-# Arg(s):
-#    id - 
-#    comment - 
-#    traffic_policy_version - 
-#
+#  Args:
+#	id - 
+#	comment - 
+#	traffic_policy_version - 
 #
 #>
 ######################################################################

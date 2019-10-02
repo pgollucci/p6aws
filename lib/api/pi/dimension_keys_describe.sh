@@ -2,16 +2,15 @@
 #<
 #
 # Function:
-#      = p6_aws_pi_dimension_keys_describe(service_type, identifier, start_time, end_time, metric, group_by)
+#	p6_aws_pi_dimension_keys_describe(service_type, identifier, start_time, end_time, metric, group_by)
 #
-# Arg(s):
-#    service_type - 
-#    identifier - 
-#    start_time - 
-#    end_time - 
-#    metric - 
-#    group_by - 
-#
+#  Args:
+#	service_type - 
+#	identifier - 
+#	start_time - 
+#	end_time - 
+#	metric - 
+#	group_by - 
 #
 #>
 ######################################################################

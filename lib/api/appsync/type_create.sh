@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_appsync_type_create(api_id, definition, format)
+#	p6_aws_appsync_type_create(api_id, definition, format)
 #
-# Arg(s):
-#    api_id - 
-#    definition - 
-#    format - 
-#
+#  Args:
+#	api_id - 
+#	definition - 
+#	format - 
 #
 #>
 ######################################################################

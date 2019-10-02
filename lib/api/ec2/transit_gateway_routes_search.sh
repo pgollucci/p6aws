@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_transit_gateway_routes_search(transit_gateway_route_table_id, filters)
+#	p6_aws_ec2_transit_gateway_routes_search(transit_gateway_route_table_id, filters)
 #
-# Arg(s):
-#    transit_gateway_route_table_id - 
-#    filters - 
-#
+#  Args:
+#	transit_gateway_route_table_id - 
+#	filters - 
 #
 #>
 ######################################################################

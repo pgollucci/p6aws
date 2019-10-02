@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_task_start(task_definition, container_instances)
+#	p6_aws_ecs_task_start(task_definition, container_instances)
 #
-# Arg(s):
-#    task_definition - 
-#    container_instances - 
-#
+#  Args:
+#	task_definition - 
+#	container_instances - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_sns_permission_remove(topic_arn, label)
+#	p6_aws_sns_permission_remove(topic_arn, label)
 #
-# Arg(s):
-#    topic_arn - 
-#    label - 
-#
+#  Args:
+#	topic_arn - 
+#	label - 
 #
 #>
 ######################################################################

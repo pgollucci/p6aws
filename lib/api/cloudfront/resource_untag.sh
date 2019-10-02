@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudfront_resource_untag(resource, tag_keys)
+#	p6_aws_cloudfront_resource_untag(resource, tag_keys)
 #
-# Arg(s):
-#    resource - 
-#    tag_keys - 
-#
+#  Args:
+#	resource - 
+#	tag_keys - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_medialive_channel_update(channel_id)
+#	p6_aws_medialive_channel_update(channel_id)
 #
-# Arg(s):
-#    channel_id - 
-#
+#  Args:
+#	channel_id - 
 #
 #>
 ######################################################################

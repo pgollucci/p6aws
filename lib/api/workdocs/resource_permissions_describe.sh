@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_workdocs_resource_permissions_describe(resource_id)
+#	p6_aws_workdocs_resource_permissions_describe(resource_id)
 #
-# Arg(s):
-#    resource_id - 
-#
+#  Args:
+#	resource_id - 
 #
 #>
 ######################################################################

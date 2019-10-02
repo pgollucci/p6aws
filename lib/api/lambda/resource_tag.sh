@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_lambda_resource_tag(resource, tags)
+#	p6_aws_lambda_resource_tag(resource, tags)
 #
-# Arg(s):
-#    resource - 
-#    tags - 
-#
+#  Args:
+#	resource - 
+#	tags - 
 #
 #>
 ######################################################################

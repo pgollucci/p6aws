@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_service_quotas_service_quota_get(service_code, quota_code)
+#	p6_aws_service_quotas_service_quota_get(service_code, quota_code)
 #
-# Arg(s):
-#    service_code - 
-#    quota_code - 
-#
+#  Args:
+#	service_code - 
+#	quota_code - 
 #
 #>
 ######################################################################

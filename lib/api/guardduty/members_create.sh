@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_guardduty_members_create(detector_id, account_details)
+#	p6_aws_guardduty_members_create(detector_id, account_details)
 #
-# Arg(s):
-#    detector_id - 
-#    account_details - 
-#
+#  Args:
+#	detector_id - 
+#	account_details - 
 #
 #>
 ######################################################################

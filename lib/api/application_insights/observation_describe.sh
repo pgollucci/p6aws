@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_application_insights_observation_describe(observation_id)
+#	p6_aws_application_insights_observation_describe(observation_id)
 #
-# Arg(s):
-#    observation_id - 
-#
+#  Args:
+#	observation_id - 
 #
 #>
 ######################################################################

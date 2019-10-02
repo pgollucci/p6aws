@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_greengrass_deployment_create(deployment_type, group_id)
+#	p6_aws_greengrass_deployment_create(deployment_type, group_id)
 #
-# Arg(s):
-#    deployment_type - 
-#    group_id - 
-#
+#  Args:
+#	deployment_type - 
+#	group_id - 
 #
 #>
 ######################################################################

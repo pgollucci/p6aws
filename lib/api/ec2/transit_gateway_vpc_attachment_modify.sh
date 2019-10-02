@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_transit_gateway_vpc_attachment_modify(transit_gateway_attachment_id)
+#	p6_aws_ec2_transit_gateway_vpc_attachment_modify(transit_gateway_attachment_id)
 #
-# Arg(s):
-#    transit_gateway_attachment_id - 
-#
+#  Args:
+#	transit_gateway_attachment_id - 
 #
 #>
 ######################################################################

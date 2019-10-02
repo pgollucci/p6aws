@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesisanalyticsv2_input_schema_discover(service_execution_role)
+#	p6_aws_kinesisanalyticsv2_input_schema_discover(service_execution_role)
 #
-# Arg(s):
-#    service_execution_role - 
-#
+#  Args:
+#	service_execution_role - 
 #
 #>
 ######################################################################

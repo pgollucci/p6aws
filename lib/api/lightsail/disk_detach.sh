@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_disk_detach(disk_name)
+#	p6_aws_lightsail_disk_detach(disk_name)
 #
-# Arg(s):
-#    disk_name - 
-#
+#  Args:
+#	disk_name - 
 #
 #>
 ######################################################################

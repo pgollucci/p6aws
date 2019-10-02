@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_clouddirectory_policy_detach(directory_arn, policy_reference, object_reference)
+#	p6_aws_clouddirectory_policy_detach(directory_arn, policy_reference, object_reference)
 #
-# Arg(s):
-#    directory_arn - 
-#    policy_reference - 
-#    object_reference - 
-#
+#  Args:
+#	directory_arn - 
+#	policy_reference - 
+#	object_reference - 
 #
 #>
 ######################################################################

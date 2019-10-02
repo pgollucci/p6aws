@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_transfer_ssh_public_key_delete(server_id, ssh_public_key_id, user_name)
+#	p6_aws_transfer_ssh_public_key_delete(server_id, ssh_public_key_id, user_name)
 #
-# Arg(s):
-#    server_id - 
-#    ssh_public_key_id - 
-#    user_name - 
-#
+#  Args:
+#	server_id - 
+#	ssh_public_key_id - 
+#	user_name - 
 #
 #>
 ######################################################################

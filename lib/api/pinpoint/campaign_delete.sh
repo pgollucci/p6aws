@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_campaign_delete(application_id, campaign_id)
+#	p6_aws_pinpoint_campaign_delete(application_id, campaign_id)
 #
-# Arg(s):
-#    application_id - 
-#    campaign_id - 
-#
+#  Args:
+#	application_id - 
+#	campaign_id - 
 #
 #>
 ######################################################################

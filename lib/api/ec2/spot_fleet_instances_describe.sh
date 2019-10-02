@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_spot_fleet_instances_describe(spot_fleet_request_id)
+#	p6_aws_ec2_spot_fleet_instances_describe(spot_fleet_request_id)
 #
-# Arg(s):
-#    spot_fleet_request_id - 
-#
+#  Args:
+#	spot_fleet_request_id - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudtrail_logs_validate(trail_arn, start_time)
+#	p6_aws_cloudtrail_logs_validate(trail_arn, start_time)
 #
-# Arg(s):
-#    trail_arn - 
-#    start_time - 
-#
+#  Args:
+#	trail_arn - 
+#	start_time - 
 #
 #>
 ######################################################################

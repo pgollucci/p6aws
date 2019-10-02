@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_signing_certificate_get(user_pool_id)
+#	p6_aws_cognito_idp_signing_certificate_get(user_pool_id)
 #
-# Arg(s):
-#    user_pool_id - 
-#
+#  Args:
+#	user_pool_id - 
 #
 #>
 ######################################################################

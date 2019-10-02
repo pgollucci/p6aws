@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_game_session_log_get(game_session_id, save_as)
+#	p6_aws_gamelift_game_session_log_get(game_session_id, save_as)
 #
-# Arg(s):
-#    game_session_id - 
-#    save_as - 
-#
+#  Args:
+#	game_session_id - 
+#	save_as - 
 #
 #>
 ######################################################################

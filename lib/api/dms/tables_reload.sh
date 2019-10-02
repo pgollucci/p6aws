@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_dms_tables_reload(replication_task_arn, tables_to_reload)
+#	p6_aws_dms_tables_reload(replication_task_arn, tables_to_reload)
 #
-# Arg(s):
-#    replication_task_arn - 
-#    tables_to_reload - 
-#
+#  Args:
+#	replication_task_arn - 
+#	tables_to_reload - 
 #
 #>
 ######################################################################

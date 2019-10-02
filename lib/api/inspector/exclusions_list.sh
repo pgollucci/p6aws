@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_inspector_exclusions_list(assessment_run_arn)
+#	p6_aws_inspector_exclusions_list(assessment_run_arn)
 #
-# Arg(s):
-#    assessment_run_arn - 
-#
+#  Args:
+#	assessment_run_arn - 
 #
 #>
 ######################################################################

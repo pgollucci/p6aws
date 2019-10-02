@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_events_rule_names_by_target_list(target_arn)
+#	p6_aws_events_rule_names_by_target_list(target_arn)
 #
-# Arg(s):
-#    target_arn - 
-#
+#  Args:
+#	target_arn - 
 #
 #>
 ######################################################################

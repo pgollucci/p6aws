@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_user_pool_domain_describe(domain)
+#	p6_aws_cognito_idp_user_pool_domain_describe(domain)
 #
-# Arg(s):
-#    domain - 
-#
+#  Args:
+#	domain - 
 #
 #>
 ######################################################################

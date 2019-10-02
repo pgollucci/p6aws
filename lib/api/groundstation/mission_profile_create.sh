@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_groundstation_mission_profile_create(dataflow_edges, minimum_viable_contact_duration_seconds, name, tracking_config_arn)
+#	p6_aws_groundstation_mission_profile_create(dataflow_edges, minimum_viable_contact_duration_seconds, name, tracking_config_arn)
 #
-# Arg(s):
-#    dataflow_edges - 
-#    minimum_viable_contact_duration_seconds - 
-#    name - 
-#    tracking_config_arn - 
-#
+#  Args:
+#	dataflow_edges - 
+#	minimum_viable_contact_duration_seconds - 
+#	name - 
+#	tracking_config_arn - 
 #
 #>
 ######################################################################

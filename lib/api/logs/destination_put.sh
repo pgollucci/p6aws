@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_logs_destination_put(destination_name, target_arn, role_arn)
+#	p6_aws_logs_destination_put(destination_name, target_arn, role_arn)
 #
-# Arg(s):
-#    destination_name - 
-#    target_arn - 
-#    role_arn - 
-#
+#  Args:
+#	destination_name - 
+#	target_arn - 
+#	role_arn - 
 #
 #>
 ######################################################################

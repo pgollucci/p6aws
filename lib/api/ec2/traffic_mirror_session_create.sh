@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_traffic_mirror_session_create(network_interface_id, traffic_mirror_target_id, traffic_mirror_filter_id, session_number)
+#	p6_aws_ec2_traffic_mirror_session_create(network_interface_id, traffic_mirror_target_id, traffic_mirror_filter_id, session_number)
 #
-# Arg(s):
-#    network_interface_id - 
-#    traffic_mirror_target_id - 
-#    traffic_mirror_filter_id - 
-#    session_number - 
-#
+#  Args:
+#	network_interface_id - 
+#	traffic_mirror_target_id - 
+#	traffic_mirror_filter_id - 
+#	session_number - 
 #
 #>
 ######################################################################

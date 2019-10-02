@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_self_management(iam_user_arn)
+#	p6_aws_opsworks_self_management(iam_user_arn)
 #
-# Arg(s):
-#    iam_user_arn - 
-#
+#  Args:
+#	iam_user_arn - 
 #
 #>
 ######################################################################

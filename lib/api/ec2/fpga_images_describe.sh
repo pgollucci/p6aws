@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_fpga_images_describe()
-#
-#
+#	p6_aws_ec2_fpga_images_describe()
 #
 #>
 ######################################################################

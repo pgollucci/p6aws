@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_codestar_user_profile_create(user_arn, display_name, email_address)
+#	p6_aws_codestar_user_profile_create(user_arn, display_name, email_address)
 #
-# Arg(s):
-#    user_arn - 
-#    display_name - 
-#    email_address - 
-#
+#  Args:
+#	user_arn - 
+#	display_name - 
+#	email_address - 
 #
 #>
 ######################################################################

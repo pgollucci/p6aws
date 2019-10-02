@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_usage_get(usage_plan_id, start_date, end_date)
+#	p6_aws_apigateway_usage_get(usage_plan_id, start_date, end_date)
 #
-# Arg(s):
-#    usage_plan_id - 
-#    start_date - 
-#    end_date - 
-#
+#  Args:
+#	usage_plan_id - 
+#	start_date - 
+#	end_date - 
 #
 #>
 ######################################################################

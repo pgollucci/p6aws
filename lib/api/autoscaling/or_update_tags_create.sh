@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_autoscaling_or_update_tags_create(tags)
+#	p6_aws_autoscaling_or_update_tags_create(tags)
 #
-# Arg(s):
-#    tags - 
-#
+#  Args:
+#	tags - 
 #
 #>
 ######################################################################

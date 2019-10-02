@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_vtl_device_type_update(vtl_device_arn, device_type)
+#	p6_aws_storagegateway_vtl_device_type_update(vtl_device_arn, device_type)
 #
-# Arg(s):
-#    vtl_device_arn - 
-#    device_type - 
-#
+#  Args:
+#	vtl_device_arn - 
+#	device_type - 
 #
 #>
 ######################################################################

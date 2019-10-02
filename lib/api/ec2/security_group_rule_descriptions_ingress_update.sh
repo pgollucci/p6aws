@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_security_group_rule_descriptions_ingress_update(ip_permissions)
+#	p6_aws_ec2_security_group_rule_descriptions_ingress_update(ip_permissions)
 #
-# Arg(s):
-#    ip_permissions - 
-#
+#  Args:
+#	ip_permissions - 
 #
 #>
 ######################################################################

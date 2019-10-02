@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_clouddirectory_schema_publish(development_schema_arn, schema_version)
+#	p6_aws_clouddirectory_schema_publish(development_schema_arn, schema_version)
 #
-# Arg(s):
-#    development_schema_arn - 
-#    schema_version - 
-#
+#  Args:
+#	development_schema_arn - 
+#	schema_version - 
 #
 #>
 ######################################################################

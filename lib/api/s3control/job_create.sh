@@ -2,16 +2,15 @@
 #<
 #
 # Function:
-#      = p6_aws_s3control_job_create(account_id, operation, report, manifest, priority, role_arn)
+#	p6_aws_s3control_job_create(account_id, operation, report, manifest, priority, role_arn)
 #
-# Arg(s):
-#    account_id - 
-#    operation - 
-#    report - 
-#    manifest - 
-#    priority - 
-#    role_arn - 
-#
+#  Args:
+#	account_id - 
+#	operation - 
+#	report - 
+#	manifest - 
+#	priority - 
+#	role_arn - 
 #
 #>
 ######################################################################

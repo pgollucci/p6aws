@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_xray_sampling_rule_delete()
-#
-#
+#	p6_aws_xray_sampling_rule_delete()
 #
 #>
 ######################################################################

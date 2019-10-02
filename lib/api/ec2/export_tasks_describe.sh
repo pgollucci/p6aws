@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_export_tasks_describe()
-#
-#
+#	p6_aws_ec2_export_tasks_describe()
 #
 #>
 ######################################################################

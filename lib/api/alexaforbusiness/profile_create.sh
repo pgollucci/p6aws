@@ -2,16 +2,15 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_profile_create(profile_name, timezone, address, distance_unit, temperature_unit, wake_word)
+#	p6_aws_alexaforbusiness_profile_create(profile_name, timezone, address, distance_unit, temperature_unit, wake_word)
 #
-# Arg(s):
-#    profile_name - 
-#    timezone - 
-#    address - 
-#    distance_unit - 
-#    temperature_unit - 
-#    wake_word - 
-#
+#  Args:
+#	profile_name - 
+#	timezone - 
+#	address - 
+#	distance_unit - 
+#	temperature_unit - 
+#	wake_word - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ds_event_topic_deregister(directory_id, topic_name)
+#	p6_aws_ds_event_topic_deregister(directory_id, topic_name)
 #
-# Arg(s):
-#    directory_id - 
-#    topic_name - 
-#
+#  Args:
+#	directory_id - 
+#	topic_name - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_identity_delete(identity)
+#	p6_aws_ses_identity_delete(identity)
 #
-# Arg(s):
-#    identity - 
-#
+#  Args:
+#	identity - 
 #
 #>
 ######################################################################

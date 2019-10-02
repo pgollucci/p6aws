@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_clouddirectory_schema_apply(published_schema_arn, directory_arn)
+#	p6_aws_clouddirectory_schema_apply(published_schema_arn, directory_arn)
 #
-# Arg(s):
-#    published_schema_arn - 
-#    directory_arn - 
-#
+#  Args:
+#	published_schema_arn - 
+#	directory_arn - 
 #
 #>
 ######################################################################

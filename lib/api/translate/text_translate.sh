@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_translate_text_translate(text, source_language_code, target_language_code)
+#	p6_aws_translate_text_translate(text, source_language_code, target_language_code)
 #
-# Arg(s):
-#    text - 
-#    source_language_code - 
-#    target_language_code - 
-#
+#  Args:
+#	text - 
+#	source_language_code - 
+#	target_language_code - 
 #
 #>
 ######################################################################

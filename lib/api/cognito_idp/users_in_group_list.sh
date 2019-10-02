@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_users_in_group_list(user_pool_id, group_name)
+#	p6_aws_cognito_idp_users_in_group_list(user_pool_id, group_name)
 #
-# Arg(s):
-#    user_pool_id - 
-#    group_name - 
-#
+#  Args:
+#	user_pool_id - 
+#	group_name - 
 #
 #>
 ######################################################################

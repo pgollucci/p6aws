@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_option_group_copy(source_option_group_identifier, target_option_group_identifier, target_option_group_description)
+#	p6_aws_rds_option_group_copy(source_option_group_identifier, target_option_group_identifier, target_option_group_description)
 #
-# Arg(s):
-#    source_option_group_identifier - 
-#    target_option_group_identifier - 
-#    target_option_group_description - 
-#
+#  Args:
+#	source_option_group_identifier - 
+#	target_option_group_identifier - 
+#	target_option_group_description - 
 #
 #>
 ######################################################################

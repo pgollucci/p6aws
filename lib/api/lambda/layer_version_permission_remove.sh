@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_lambda_layer_version_permission_remove(layer_name, version_number, statement_id)
+#	p6_aws_lambda_layer_version_permission_remove(layer_name, version_number, statement_id)
 #
-# Arg(s):
-#    layer_name - 
-#    version_number - 
-#    statement_id - 
-#
+#  Args:
+#	layer_name - 
+#	version_number - 
+#	statement_id - 
 #
 #>
 ######################################################################

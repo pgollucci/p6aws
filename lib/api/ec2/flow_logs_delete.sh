@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_flow_logs_delete(flow_log_ids)
+#	p6_aws_ec2_flow_logs_delete(flow_log_ids)
 #
-# Arg(s):
-#    flow_log_ids - 
-#
+#  Args:
+#	flow_log_ids - 
 #
 #>
 ######################################################################

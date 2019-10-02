@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_delete_cluster_snapshots_batch(identifiers)
+#	p6_aws_redshift_delete_cluster_snapshots_batch(identifiers)
 #
-# Arg(s):
-#    identifiers - 
-#
+#  Args:
+#	identifiers - 
 #
 #>
 ######################################################################

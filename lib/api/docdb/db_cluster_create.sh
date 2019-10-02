@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_docdb_db_cluster_create(db_cluster_identifier, engine, master_username, master_user_password)
+#	p6_aws_docdb_db_cluster_create(db_cluster_identifier, engine, master_username, master_user_password)
 #
-# Arg(s):
-#    db_cluster_identifier - 
-#    engine - 
-#    master_username - 
-#    master_user_password - 
-#
+#  Args:
+#	db_cluster_identifier - 
+#	engine - 
+#	master_username - 
+#	master_user_password - 
 #
 #>
 ######################################################################

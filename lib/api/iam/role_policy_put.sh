@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_role_policy_put(role_name, policy_name, policy_document)
+#	p6_aws_iam_role_policy_put(role_name, policy_name, policy_document)
 #
-# Arg(s):
-#    role_name - 
-#    policy_name - 
-#    policy_document - 
-#
+#  Args:
+#	role_name - 
+#	policy_name - 
+#	policy_document - 
 #
 #>
 ######################################################################

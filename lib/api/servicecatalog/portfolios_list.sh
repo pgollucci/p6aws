@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_portfolios_list()
-#
-#
+#	p6_aws_servicecatalog_portfolios_list()
 #
 #>
 ######################################################################

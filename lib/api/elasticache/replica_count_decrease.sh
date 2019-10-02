@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticache_replica_count_decrease(replication_group_id, apply_immediately)
+#	p6_aws_elasticache_replica_count_decrease(replication_group_id, apply_immediately)
 #
-# Arg(s):
-#    replication_group_id - 
-#    apply_immediately - 
-#
+#  Args:
+#	replication_group_id - 
+#	apply_immediately - 
 #
 #>
 ######################################################################

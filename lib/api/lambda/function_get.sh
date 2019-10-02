@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lambda_function_get(function_name)
+#	p6_aws_lambda_function_get(function_name)
 #
-# Arg(s):
-#    function_name - 
-#
+#  Args:
+#	function_name - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudformation_exports_list()
-#
-#
+#	p6_aws_cloudformation_exports_list()
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lex_models_bot_aliases_get(bot_name)
+#	p6_aws_lex_models_bot_aliases_get(bot_name)
 #
-# Arg(s):
-#    bot_name - 
-#
+#  Args:
+#	bot_name - 
 #
 #>
 ######################################################################

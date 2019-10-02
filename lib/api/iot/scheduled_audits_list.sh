@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_scheduled_audits_list()
-#
-#
+#	p6_aws_iot_scheduled_audits_list()
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_ebs_encryption_by_default_disable()
-#
-#
+#	p6_aws_ec2_ebs_encryption_by_default_disable()
 #
 #>
 ######################################################################

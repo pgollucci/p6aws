@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesisanalytics_resource_tag(resource_arn, tags)
+#	p6_aws_kinesisanalytics_resource_tag(resource_arn, tags)
 #
-# Arg(s):
-#    resource_arn - 
-#    tags - 
-#
+#  Args:
+#	resource_arn - 
+#	tags - 
 #
 #>
 ######################################################################

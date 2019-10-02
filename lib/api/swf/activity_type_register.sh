@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_swf_activity_type_register(domain, name, activity_version)
+#	p6_aws_swf_activity_type_register(domain, name, activity_version)
 #
-# Arg(s):
-#    domain - 
-#    name - 
-#    activity_version - 
-#
+#  Args:
+#	domain - 
+#	name - 
+#	activity_version - 
 #
 #>
 ######################################################################

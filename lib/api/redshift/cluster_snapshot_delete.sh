@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_cluster_snapshot_delete(snapshot_identifier)
+#	p6_aws_redshift_cluster_snapshot_delete(snapshot_identifier)
 #
-# Arg(s):
-#    snapshot_identifier - 
-#
+#  Args:
+#	snapshot_identifier - 
 #
 #>
 ######################################################################

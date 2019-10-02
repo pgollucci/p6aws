@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_mediatailor_playback_configuration_put()
-#
-#
+#	p6_aws_mediatailor_playback_configuration_put()
 #
 #>
 ######################################################################

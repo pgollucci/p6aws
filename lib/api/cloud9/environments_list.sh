@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloud9_environments_list()
-#
-#
+#	p6_aws_cloud9_environments_list()
 #
 #>
 ######################################################################

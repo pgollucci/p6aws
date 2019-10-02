@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_fsx_file_system_create(file_system_type, storage_capacity, subnet_ids)
+#	p6_aws_fsx_file_system_create(file_system_type, storage_capacity, subnet_ids)
 #
-# Arg(s):
-#    file_system_type - 
-#    storage_capacity - 
-#    subnet_ids - 
-#
+#  Args:
+#	file_system_type - 
+#	storage_capacity - 
+#	subnet_ids - 
 #
 #>
 ######################################################################

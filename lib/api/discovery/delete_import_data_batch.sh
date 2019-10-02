@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_discovery_delete_import_data_batch(import_task_ids)
+#	p6_aws_discovery_delete_import_data_batch(import_task_ids)
 #
-# Arg(s):
-#    import_task_ids - 
-#
+#  Args:
+#	import_task_ids - 
 #
 #>
 ######################################################################

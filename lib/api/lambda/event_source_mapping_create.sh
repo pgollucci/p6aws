@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_lambda_event_source_mapping_create(event_source_arn, function_name)
+#	p6_aws_lambda_event_source_mapping_create(event_source_arn, function_name)
 #
-# Arg(s):
-#    event_source_arn - 
-#    function_name - 
-#
+#  Args:
+#	event_source_arn - 
+#	function_name - 
 #
 #>
 ######################################################################

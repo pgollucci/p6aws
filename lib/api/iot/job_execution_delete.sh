@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_job_execution_delete(job_id, thing_name, execution_number)
+#	p6_aws_iot_job_execution_delete(job_id, thing_name, execution_number)
 #
-# Arg(s):
-#    job_id - 
-#    thing_name - 
-#    execution_number - 
-#
+#  Args:
+#	job_id - 
+#	thing_name - 
+#	execution_number - 
 #
 #>
 ######################################################################

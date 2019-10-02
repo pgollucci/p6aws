@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_parameter_version_label(name, labels)
+#	p6_aws_ssm_parameter_version_label(name, labels)
 #
-# Arg(s):
-#    name - 
-#    labels - 
-#
+#  Args:
+#	name - 
+#	labels - 
 #
 #>
 ######################################################################

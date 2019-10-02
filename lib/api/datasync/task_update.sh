@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_datasync_task_update(task_arn)
+#	p6_aws_datasync_task_update(task_arn)
 #
-# Arg(s):
-#    task_arn - 
-#
+#  Args:
+#	task_arn - 
 #
 #>
 ######################################################################

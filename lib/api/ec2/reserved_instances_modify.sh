@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_reserved_instances_modify(reserved_instances_ids, target_configurations)
+#	p6_aws_ec2_reserved_instances_modify(reserved_instances_ids, target_configurations)
 #
-# Arg(s):
-#    reserved_instances_ids - 
-#    target_configurations - 
-#
+#  Args:
+#	reserved_instances_ids - 
+#	target_configurations - 
 #
 #>
 ######################################################################

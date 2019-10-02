@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_import_snapshot_tasks_describe()
-#
-#
+#	p6_aws_ec2_import_snapshot_tasks_describe()
 #
 #>
 ######################################################################

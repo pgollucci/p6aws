@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_snapshot_attribute_modify(snapshot_id)
+#	p6_aws_ec2_snapshot_attribute_modify(snapshot_id)
 #
-# Arg(s):
-#    snapshot_id - 
-#
+#  Args:
+#	snapshot_id - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_appstream_image_permissions_describe(name)
+#	p6_aws_appstream_image_permissions_describe(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_backup_recovery_point_delete(backup_vault_name, recovery_point_arn)
+#	p6_aws_backup_recovery_point_delete(backup_vault_name, recovery_point_arn)
 #
-# Arg(s):
-#    backup_vault_name - 
-#    recovery_point_arn - 
-#
+#  Args:
+#	backup_vault_name - 
+#	recovery_point_arn - 
 #
 #>
 ######################################################################

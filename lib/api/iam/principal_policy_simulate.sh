@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_principal_policy_simulate(policy_source_arn, action_names)
+#	p6_aws_iam_principal_policy_simulate(policy_source_arn, action_names)
 #
-# Arg(s):
-#    policy_source_arn - 
-#    action_names - 
-#
+#  Args:
+#	policy_source_arn - 
+#	action_names - 
 #
 #>
 ######################################################################

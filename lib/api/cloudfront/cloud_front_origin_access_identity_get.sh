@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudfront_cloud_front_origin_access_identity_get(id)
+#	p6_aws_cloudfront_cloud_front_origin_access_identity_get(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

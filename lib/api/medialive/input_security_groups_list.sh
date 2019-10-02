@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_medialive_input_security_groups_list()
-#
-#
+#	p6_aws_medialive_input_security_groups_list()
 #
 #>
 ######################################################################

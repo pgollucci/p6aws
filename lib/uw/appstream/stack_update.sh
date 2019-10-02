@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_appstream_storage_connectors(name)
+#	p6_aws_appstream_storage_connectors(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

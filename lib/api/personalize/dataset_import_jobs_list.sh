@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_personalize_dataset_import_jobs_list()
-#
-#
+#	p6_aws_personalize_dataset_import_jobs_list()
 #
 #>
 ######################################################################

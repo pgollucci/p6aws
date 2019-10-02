@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_budgets_budget_update(account_id, new_budget)
+#	p6_aws_budgets_budget_update(account_id, new_budget)
 #
-# Arg(s):
-#    account_id - 
-#    new_budget - 
-#
+#  Args:
+#	account_id - 
+#	new_budget - 
 #
 #>
 ######################################################################

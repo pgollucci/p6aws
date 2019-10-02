@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudhsm_luna_client_create(certificate)
+#	p6_aws_cloudhsm_luna_client_create(certificate)
 #
-# Arg(s):
-#    certificate - 
-#
+#  Args:
+#	certificate - 
 #
 #>
 ######################################################################

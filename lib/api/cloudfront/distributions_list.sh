@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudfront_distributions_list()
-#
-#
+#	p6_aws_cloudfront_distributions_list()
 #
 #>
 ######################################################################

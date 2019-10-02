@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kafka_cluster_operation_describe(cluster_operation_arn)
+#	p6_aws_kafka_cluster_operation_describe(cluster_operation_arn)
 #
-# Arg(s):
-#    cluster_operation_arn - 
-#
+#  Args:
+#	cluster_operation_arn - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_lambda_layer_version_get(layer_name, version_number)
+#	p6_aws_lambda_layer_version_get(layer_name, version_number)
 #
-# Arg(s):
-#    layer_name - 
-#    version_number - 
-#
+#  Args:
+#	layer_name - 
+#	version_number - 
 #
 #>
 ######################################################################

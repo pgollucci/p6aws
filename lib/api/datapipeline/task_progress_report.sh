@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_datapipeline_task_progress_report(task_id)
+#	p6_aws_datapipeline_task_progress_report(task_id)
 #
-# Arg(s):
-#    task_id - 
-#
+#  Args:
+#	task_id - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_matchmaking_describe(ticket_ids)
+#	p6_aws_gamelift_matchmaking_describe(ticket_ids)
 #
-# Arg(s):
-#    ticket_ids - 
-#
+#  Args:
+#	ticket_ids - 
 #
 #>
 ######################################################################

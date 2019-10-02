@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_robomaker_describe_simulation_job_batch(jobs)
+#	p6_aws_robomaker_describe_simulation_job_batch(jobs)
 #
-# Arg(s):
-#    jobs - 
-#
+#  Args:
+#	jobs - 
 #
 #>
 ######################################################################

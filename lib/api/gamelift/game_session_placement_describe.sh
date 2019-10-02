@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_game_session_placement_describe(placement_id)
+#	p6_aws_gamelift_game_session_placement_describe(placement_id)
 #
-# Arg(s):
-#    placement_id - 
-#
+#  Args:
+#	placement_id - 
 #
 #>
 ######################################################################

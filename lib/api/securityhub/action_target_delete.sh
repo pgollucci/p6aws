@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_securityhub_action_target_delete(action_target_arn)
+#	p6_aws_securityhub_action_target_delete(action_target_arn)
 #
-# Arg(s):
-#    action_target_arn - 
-#
+#  Args:
+#	action_target_arn - 
 #
 #>
 ######################################################################

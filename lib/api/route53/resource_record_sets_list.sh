@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_resource_record_sets_list(hosted_zone_id)
+#	p6_aws_route53_resource_record_sets_list(hosted_zone_id)
 #
-# Arg(s):
-#    hosted_zone_id - 
-#
+#  Args:
+#	hosted_zone_id - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_greengrass_resource_definition_versions_list(resource_definition_id)
+#	p6_aws_greengrass_resource_definition_versions_list(resource_definition_id)
 #
-# Arg(s):
-#    resource_definition_id - 
-#
+#  Args:
+#	resource_definition_id - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lakeformation_data_lake_settings_put(data_lake_settings)
+#	p6_aws_lakeformation_data_lake_settings_put(data_lake_settings)
 #
-# Arg(s):
-#    data_lake_settings - 
-#
+#  Args:
+#	data_lake_settings - 
 #
 #>
 ######################################################################

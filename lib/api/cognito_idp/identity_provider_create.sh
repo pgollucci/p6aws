@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_identity_provider_create(user_pool_id, provider_name, provider_type, provider_details)
+#	p6_aws_cognito_idp_identity_provider_create(user_pool_id, provider_name, provider_type, provider_details)
 #
-# Arg(s):
-#    user_pool_id - 
-#    provider_name - 
-#    provider_type - 
-#    provider_details - 
-#
+#  Args:
+#	user_pool_id - 
+#	provider_name - 
+#	provider_type - 
+#	provider_details - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_mturk_account_balance_get()
-#
-#
+#	p6_aws_mturk_account_balance_get()
 #
 #>
 ######################################################################

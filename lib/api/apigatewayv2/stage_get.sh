@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_apigatewayv2_stage_get(api_id, stage_name)
+#	p6_aws_apigatewayv2_stage_get(api_id, stage_name)
 #
-# Arg(s):
-#    api_id - 
-#    stage_name - 
-#
+#  Args:
+#	api_id - 
+#	stage_name - 
 #
 #>
 ######################################################################

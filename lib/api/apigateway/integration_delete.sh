@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_integration_delete(rest_api_id, resource_id, http_method)
+#	p6_aws_apigateway_integration_delete(rest_api_id, resource_id, http_method)
 #
-# Arg(s):
-#    rest_api_id - 
-#    resource_id - 
-#    http_method - 
-#
+#  Args:
+#	rest_api_id - 
+#	resource_id - 
+#	http_method - 
 #
 #>
 ######################################################################

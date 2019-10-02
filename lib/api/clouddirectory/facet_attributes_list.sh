@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_clouddirectory_facet_attributes_list(schema_arn, name)
+#	p6_aws_clouddirectory_facet_attributes_list(schema_arn, name)
 #
-# Arg(s):
-#    schema_arn - 
-#    name - 
-#
+#  Args:
+#	schema_arn - 
+#	name - 
 #
 #>
 ######################################################################

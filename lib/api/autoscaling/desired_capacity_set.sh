@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_autoscaling_desired_capacity_set(auto_scaling_group_name, desired_capacity)
+#	p6_aws_autoscaling_desired_capacity_set(auto_scaling_group_name, desired_capacity)
 #
-# Arg(s):
-#    auto_scaling_group_name - 
-#    desired_capacity - 
-#
+#  Args:
+#	auto_scaling_group_name - 
+#	desired_capacity - 
 #
 #>
 ######################################################################

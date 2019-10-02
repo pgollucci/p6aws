@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_dax_resource_untag(resource_name, tag_keys)
+#	p6_aws_dax_resource_untag(resource_name, tag_keys)
 #
-# Arg(s):
-#    resource_name - 
-#    tag_keys - 
-#
+#  Args:
+#	resource_name - 
+#	tag_keys - 
 #
 #>
 ######################################################################

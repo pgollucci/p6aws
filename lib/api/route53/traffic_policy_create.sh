@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_traffic_policy_create(name, document)
+#	p6_aws_route53_traffic_policy_create(name, document)
 #
-# Arg(s):
-#    name - 
-#    document - 
-#
+#  Args:
+#	name - 
+#	document - 
 #
 #>
 ######################################################################

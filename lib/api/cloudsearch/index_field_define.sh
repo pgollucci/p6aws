@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudsearch_index_field_define(domain_name, name, type)
+#	p6_aws_cloudsearch_index_field_define(domain_name, name, type)
 #
-# Arg(s):
-#    domain_name - 
-#    name - 
-#    type - 
-#
+#  Args:
+#	domain_name - 
+#	name - 
+#	type - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_clouddirectory_object_create(directory_arn, schema_facets)
+#	p6_aws_clouddirectory_object_create(directory_arn, schema_facets)
 #
-# Arg(s):
-#    directory_arn - 
-#    schema_facets - 
-#
+#  Args:
+#	directory_arn - 
+#	schema_facets - 
 #
 #>
 ######################################################################

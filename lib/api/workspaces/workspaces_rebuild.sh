@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_workspaces_workspaces_rebuild(rebuild_workspace_requests)
+#	p6_aws_workspaces_workspaces_rebuild(rebuild_workspace_requests)
 #
-# Arg(s):
-#    rebuild_workspace_requests - 
-#
+#  Args:
+#	rebuild_workspace_requests - 
 #
 #>
 ######################################################################

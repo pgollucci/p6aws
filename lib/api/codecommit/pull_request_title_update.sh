@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_codecommit_pull_request_title_update(pull_request_id, title)
+#	p6_aws_codecommit_pull_request_title_update(pull_request_id, title)
 #
-# Arg(s):
-#    pull_request_id - 
-#    title - 
-#
+#  Args:
+#	pull_request_id - 
+#	title - 
 #
 #>
 ######################################################################

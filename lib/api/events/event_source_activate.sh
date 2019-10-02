@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_events_event_source_activate(name)
+#	p6_aws_events_event_source_activate(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

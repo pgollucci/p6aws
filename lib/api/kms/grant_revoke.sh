@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_kms_grant_revoke(key_id, grant_id)
+#	p6_aws_kms_grant_revoke(key_id, grant_id)
 #
-# Arg(s):
-#    key_id - 
-#    grant_id - 
-#
+#  Args:
+#	key_id - 
+#	grant_id - 
 #
 #>
 ######################################################################

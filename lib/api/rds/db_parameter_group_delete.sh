@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_db_parameter_group_delete(db_parameter_group_name)
+#	p6_aws_rds_db_parameter_group_delete(db_parameter_group_name)
 #
-# Arg(s):
-#    db_parameter_group_name - 
-#
+#  Args:
+#	db_parameter_group_name - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_servicediscovery_instances_discover(namespace_name, service_name)
+#	p6_aws_servicediscovery_instances_discover(namespace_name, service_name)
 #
-# Arg(s):
-#    namespace_name - 
-#    service_name - 
-#
+#  Args:
+#	namespace_name - 
+#	service_name - 
 #
 #>
 ######################################################################

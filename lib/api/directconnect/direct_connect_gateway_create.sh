@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_directconnect_direct_connect_gateway_create(direct_connect_gateway_name)
+#	p6_aws_directconnect_direct_connect_gateway_create(direct_connect_gateway_name)
 #
-# Arg(s):
-#    direct_connect_gateway_name - 
-#
+#  Args:
+#	direct_connect_gateway_name - 
 #
 #>
 ######################################################################

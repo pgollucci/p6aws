@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_shield_subscription_state_get()
-#
-#
+#	p6_aws_shield_subscription_state_get()
 #
 #>
 ######################################################################

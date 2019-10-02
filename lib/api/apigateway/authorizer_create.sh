@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_authorizer_create(rest_api_id, name, type)
+#	p6_aws_apigateway_authorizer_create(rest_api_id, name, type)
 #
-# Arg(s):
-#    rest_api_id - 
-#    name - 
-#    type - 
-#
+#  Args:
+#	rest_api_id - 
+#	name - 
+#	type - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_autoscaling_scaling_policy_put(auto_scaling_group_name, policy_name)
+#	p6_aws_autoscaling_scaling_policy_put(auto_scaling_group_name, policy_name)
 #
-# Arg(s):
-#    auto_scaling_group_name - 
-#    policy_name - 
-#
+#  Args:
+#	auto_scaling_group_name - 
+#	policy_name - 
 #
 #>
 ######################################################################

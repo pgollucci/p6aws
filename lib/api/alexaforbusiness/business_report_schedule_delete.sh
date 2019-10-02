@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_business_report_schedule_delete(schedule_arn)
+#	p6_aws_alexaforbusiness_business_report_schedule_delete(schedule_arn)
 #
-# Arg(s):
-#    schedule_arn - 
-#
+#  Args:
+#	schedule_arn - 
 #
 #>
 ######################################################################

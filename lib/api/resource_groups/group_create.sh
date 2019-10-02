@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_resource_groups_group_create(name, resource_query)
+#	p6_aws_resource_groups_group_create(name, resource_query)
 #
-# Arg(s):
-#    name - 
-#    resource_query - 
-#
+#  Args:
+#	name - 
+#	resource_query - 
 #
 #>
 ######################################################################

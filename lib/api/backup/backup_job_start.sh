@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_backup_backup_job_start(backup_vault_name, resource_arn, iam_role_arn)
+#	p6_aws_backup_backup_job_start(backup_vault_name, resource_arn, iam_role_arn)
 #
-# Arg(s):
-#    backup_vault_name - 
-#    resource_arn - 
-#    iam_role_arn - 
-#
+#  Args:
+#	backup_vault_name - 
+#	resource_arn - 
+#	iam_role_arn - 
 #
 #>
 ######################################################################

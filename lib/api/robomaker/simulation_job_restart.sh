@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_robomaker_simulation_job_restart(job)
+#	p6_aws_robomaker_simulation_job_restart(job)
 #
-# Arg(s):
-#    job - 
-#
+#  Args:
+#	job - 
 #
 #>
 ######################################################################

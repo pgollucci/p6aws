@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_workmail_alias_delete(organization_id, entity_id, alias)
+#	p6_aws_workmail_alias_delete(organization_id, entity_id, alias)
 #
-# Arg(s):
-#    organization_id - 
-#    entity_id - 
-#    alias - 
-#
+#  Args:
+#	organization_id - 
+#	entity_id - 
+#	alias - 
 #
 #>
 ######################################################################

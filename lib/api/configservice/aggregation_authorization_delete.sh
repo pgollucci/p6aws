@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_aggregation_authorization_delete(authorized_account_id, authorized_aws_region)
+#	p6_aws_configservice_aggregation_authorization_delete(authorized_account_id, authorized_aws_region)
 #
-# Arg(s):
-#    authorized_account_id - 
-#    authorized_aws_region - 
-#
+#  Args:
+#	authorized_account_id - 
+#	authorized_aws_region - 
 #
 #>
 ######################################################################

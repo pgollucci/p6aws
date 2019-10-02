@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lambda_layer_version_by_arn_get(arn)
+#	p6_aws_lambda_layer_version_by_arn_get(arn)
 #
-# Arg(s):
-#    arn - 
-#
+#  Args:
+#	arn - 
 #
 #>
 ######################################################################

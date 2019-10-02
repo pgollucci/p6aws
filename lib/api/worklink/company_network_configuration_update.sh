@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_worklink_company_network_configuration_update(fleet_arn, vpc_id, subnet_ids, security_group_ids)
+#	p6_aws_worklink_company_network_configuration_update(fleet_arn, vpc_id, subnet_ids, security_group_ids)
 #
-# Arg(s):
-#    fleet_arn - 
-#    vpc_id - 
-#    subnet_ids - 
-#    security_group_ids - 
-#
+#  Args:
+#	fleet_arn - 
+#	vpc_id - 
+#	subnet_ids - 
+#	security_group_ids - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_host_reservation_offerings_describe()
-#
-#
+#	p6_aws_ec2_host_reservation_offerings_describe()
 #
 #>
 ######################################################################

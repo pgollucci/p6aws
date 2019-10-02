@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iotevents_data_detectors_list(detector_model_name)
+#	p6_aws_iotevents_data_detectors_list(detector_model_name)
 #
-# Arg(s):
-#    detector_model_name - 
-#
+#  Args:
+#	detector_model_name - 
 #
 #>
 ######################################################################

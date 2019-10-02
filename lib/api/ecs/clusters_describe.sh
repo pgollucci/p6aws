@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_clusters_describe()
-#
-#
+#	p6_aws_ecs_clusters_describe()
 #
 #>
 ######################################################################

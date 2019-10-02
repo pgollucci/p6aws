@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_comprehend_detect_dominant_language_batch(text_list)
+#	p6_aws_comprehend_detect_dominant_language_batch(text_list)
 #
-# Arg(s):
-#    text_list - 
-#
+#  Args:
+#	text_list - 
 #
 #>
 ######################################################################

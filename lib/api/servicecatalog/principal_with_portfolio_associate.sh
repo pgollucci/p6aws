@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_principal_with_portfolio_associate(portfolio_id, principal_arn, principal_type)
+#	p6_aws_servicecatalog_principal_with_portfolio_associate(portfolio_id, principal_arn, principal_type)
 #
-# Arg(s):
-#    portfolio_id - 
-#    principal_arn - 
-#    principal_type - 
-#
+#  Args:
+#	portfolio_id - 
+#	principal_arn - 
+#	principal_type - 
 #
 #>
 ######################################################################

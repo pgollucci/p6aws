@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_skill_group_from_room_disassociate()
-#
-#
+#	p6_aws_alexaforbusiness_skill_group_from_room_disassociate()
 #
 #>
 ######################################################################

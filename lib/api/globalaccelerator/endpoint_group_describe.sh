@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_globalaccelerator_endpoint_group_describe(endpoint_group_arn)
+#	p6_aws_globalaccelerator_endpoint_group_describe(endpoint_group_arn)
 #
-# Arg(s):
-#    endpoint_group_arn - 
-#
+#  Args:
+#	endpoint_group_arn - 
 #
 #>
 ######################################################################

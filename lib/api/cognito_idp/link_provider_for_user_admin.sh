@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_link_provider_for_user_admin(user_pool_id, destination_user, source_user)
+#	p6_aws_cognito_idp_link_provider_for_user_admin(user_pool_id, destination_user, source_user)
 #
-# Arg(s):
-#    user_pool_id - 
-#    destination_user - 
-#    source_user - 
-#
+#  Args:
+#	user_pool_id - 
+#	destination_user - 
+#	source_user - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_deploy_get_deployment_targets_batch()
-#
-#
+#	p6_aws_deploy_get_deployment_targets_batch()
 #
 #>
 ######################################################################

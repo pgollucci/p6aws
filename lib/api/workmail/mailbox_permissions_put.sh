@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_workmail_mailbox_permissions_put(organization_id, entity_id, grantee_id, permission_values)
+#	p6_aws_workmail_mailbox_permissions_put(organization_id, entity_id, grantee_id, permission_values)
 #
-# Arg(s):
-#    organization_id - 
-#    entity_id - 
-#    grantee_id - 
-#    permission_values - 
-#
+#  Args:
+#	organization_id - 
+#	entity_id - 
+#	grantee_id - 
+#	permission_values - 
 #
 #>
 ######################################################################

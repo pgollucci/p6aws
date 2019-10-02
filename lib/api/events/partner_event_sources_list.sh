@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_events_partner_event_sources_list(name_prefix)
+#	p6_aws_events_partner_event_sources_list(name_prefix)
 #
-# Arg(s):
-#    name_prefix - 
-#
+#  Args:
+#	name_prefix - 
 #
 #>
 ######################################################################

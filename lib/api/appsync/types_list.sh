@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_appsync_types_list(api_id, format)
+#	p6_aws_appsync_types_list(api_id, format)
 #
-# Arg(s):
-#    api_id - 
-#    format - 
-#
+#  Args:
+#	api_id - 
+#	format - 
 #
 #>
 ######################################################################

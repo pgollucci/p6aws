@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_relational_database_log_streams_get(relational_database_name)
+#	p6_aws_lightsail_relational_database_log_streams_get(relational_database_name)
 #
-# Arg(s):
-#    relational_database_name - 
-#
+#  Args:
+#	relational_database_name - 
 #
 #>
 ######################################################################

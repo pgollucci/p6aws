@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_comprehend_dominant_language_detect(text)
+#	p6_aws_comprehend_dominant_language_detect(text)
 #
-# Arg(s):
-#    text - 
-#
+#  Args:
+#	text - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_lex_models_bot_channel_associations_get(bot_name, bot_alias)
+#	p6_aws_lex_models_bot_channel_associations_get(bot_name, bot_alias)
 #
-# Arg(s):
-#    bot_name - 
-#    bot_alias - 
-#
+#  Args:
+#	bot_name - 
+#	bot_alias - 
 #
 #>
 ######################################################################

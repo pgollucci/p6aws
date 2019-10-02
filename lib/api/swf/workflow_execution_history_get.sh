@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_swf_workflow_execution_history_get(domain, execution)
+#	p6_aws_swf_workflow_execution_history_get(domain, execution)
 #
-# Arg(s):
-#    domain - 
-#    execution - 
-#
+#  Args:
+#	domain - 
+#	execution - 
 #
 #>
 ######################################################################

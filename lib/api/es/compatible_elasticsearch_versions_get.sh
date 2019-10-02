@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_es_compatible_elasticsearch_versions_get()
-#
-#
+#	p6_aws_es_compatible_elasticsearch_versions_get()
 #
 #>
 ######################################################################

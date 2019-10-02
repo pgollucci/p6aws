@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudformation_stack_resources_describe()
-#
-#
+#	p6_aws_cloudformation_stack_resources_describe()
 #
 #>
 ######################################################################

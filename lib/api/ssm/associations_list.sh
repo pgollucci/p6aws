@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_associations_list()
-#
-#
+#	p6_aws_ssm_associations_list()
 #
 #>
 ######################################################################

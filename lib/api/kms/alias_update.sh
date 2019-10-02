@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_kms_alias_update(alias_name, target_key_id)
+#	p6_aws_kms_alias_update(alias_name, target_key_id)
 #
-# Arg(s):
-#    alias_name - 
-#    target_key_id - 
-#
+#  Args:
+#	alias_name - 
+#	target_key_id - 
 #
 #>
 ######################################################################

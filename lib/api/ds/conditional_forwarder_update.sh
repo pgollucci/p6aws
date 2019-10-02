@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_ds_conditional_forwarder_update(directory_id, remote_domain_name, dns_ip_addrs)
+#	p6_aws_ds_conditional_forwarder_update(directory_id, remote_domain_name, dns_ip_addrs)
 #
-# Arg(s):
-#    directory_id - 
-#    remote_domain_name - 
-#    dns_ip_addrs - 
-#
+#  Args:
+#	directory_id - 
+#	remote_domain_name - 
+#	dns_ip_addrs - 
 #
 #>
 ######################################################################

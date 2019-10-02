@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_apigatewayv2_schema_validation(api_id)
+#	p6_aws_apigatewayv2_schema_validation(api_id)
 #
-# Arg(s):
-#    api_id - 
-#
+#  Args:
+#	api_id - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_lambda_event_source_mappings_list()
-#
-#
+#	p6_aws_lambda_event_source_mappings_list()
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_import_labels_task_run_start(transform_id, input_s3_path)
+#	p6_aws_glue_import_labels_task_run_start(transform_id, input_s3_path)
 #
-# Arg(s):
-#    transform_id - 
-#    input_s3_path - 
-#
+#  Args:
+#	transform_id - 
+#	input_s3_path - 
 #
 #>
 ######################################################################

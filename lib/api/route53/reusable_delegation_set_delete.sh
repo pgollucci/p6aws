@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_reusable_delegation_set_delete(id)
+#	p6_aws_route53_reusable_delegation_set_delete(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

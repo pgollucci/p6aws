@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_route53domains_tags_for_domain_delete(domain_name, tags_to_delete)
+#	p6_aws_route53domains_tags_for_domain_delete(domain_name, tags_to_delete)
 #
-# Arg(s):
-#    domain_name - 
-#    tags_to_delete - 
-#
+#  Args:
+#	domain_name - 
+#	tags_to_delete - 
 #
 #>
 ######################################################################

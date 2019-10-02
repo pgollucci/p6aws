@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_kms_custom_key_stores_describe()
-#
-#
+#	p6_aws_kms_custom_key_stores_describe()
 #
 #>
 ######################################################################

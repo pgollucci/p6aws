@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_eks_cluster_create(name, role_arn, resources_vpc_config)
+#	p6_aws_eks_cluster_create(name, role_arn, resources_vpc_config)
 #
-# Arg(s):
-#    name - 
-#    role_arn - 
-#    resources_vpc_config - 
-#
+#  Args:
+#	name - 
+#	role_arn - 
+#	resources_vpc_config - 
 #
 #>
 ######################################################################

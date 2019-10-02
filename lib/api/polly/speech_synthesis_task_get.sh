@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_polly_speech_synthesis_task_get(task_id)
+#	p6_aws_polly_speech_synthesis_task_get(task_id)
 #
-# Arg(s):
-#    task_id - 
-#
+#  Args:
+#	task_id - 
 #
 #>
 ######################################################################

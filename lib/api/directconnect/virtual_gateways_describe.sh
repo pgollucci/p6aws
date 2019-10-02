@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_directconnect_virtual_gateways_describe()
-#
-#
+#	p6_aws_directconnect_virtual_gateways_describe()
 #
 #>
 ######################################################################

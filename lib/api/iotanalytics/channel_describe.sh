@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iotanalytics_channel_describe(channel_name)
+#	p6_aws_iotanalytics_channel_describe(channel_name)
 #
-# Arg(s):
-#    channel_name - 
-#
+#  Args:
+#	channel_name - 
 #
 #>
 ######################################################################

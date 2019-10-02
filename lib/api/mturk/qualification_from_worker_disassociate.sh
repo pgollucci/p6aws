@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_mturk_qualification_from_worker_disassociate(worker_id, qualification_type_id)
+#	p6_aws_mturk_qualification_from_worker_disassociate(worker_id, qualification_type_id)
 #
-# Arg(s):
-#    worker_id - 
-#    qualification_type_id - 
-#
+#  Args:
+#	worker_id - 
+#	qualification_type_id - 
 #
 #>
 ######################################################################

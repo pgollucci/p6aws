@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_clouddirectory_outgoing_typed_links_list(directory_arn, object_reference)
+#	p6_aws_clouddirectory_outgoing_typed_links_list(directory_arn, object_reference)
 #
-# Arg(s):
-#    directory_arn - 
-#    object_reference - 
-#
+#  Args:
+#	directory_arn - 
+#	object_reference - 
 #
 #>
 ######################################################################

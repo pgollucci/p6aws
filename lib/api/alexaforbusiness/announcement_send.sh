@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_announcement_send(room_filters, content)
+#	p6_aws_alexaforbusiness_announcement_send(room_filters, content)
 #
-# Arg(s):
-#    room_filters - 
-#    content - 
-#
+#  Args:
+#	room_filters - 
+#	content - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_sns_endpoint_attributes_set(endpoint_arn, attributes)
+#	p6_aws_sns_endpoint_attributes_set(endpoint_arn, attributes)
 #
-# Arg(s):
-#    endpoint_arn - 
-#    attributes - 
-#
+#  Args:
+#	endpoint_arn - 
+#	attributes - 
 #
 #>
 ######################################################################

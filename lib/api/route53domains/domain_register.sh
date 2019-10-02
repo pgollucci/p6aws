@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_route53domains_domain_register(domain_name, duration_in_years, admin_contact, registrant_contact, tech_contact)
+#	p6_aws_route53domains_domain_register(domain_name, duration_in_years, admin_contact, registrant_contact, tech_contact)
 #
-# Arg(s):
-#    domain_name - 
-#    duration_in_years - 
-#    admin_contact - 
-#    registrant_contact - 
-#    tech_contact - 
-#
+#  Args:
+#	domain_name - 
+#	duration_in_years - 
+#	admin_contact - 
+#	registrant_contact - 
+#	tech_contact - 
 #
 #>
 ######################################################################

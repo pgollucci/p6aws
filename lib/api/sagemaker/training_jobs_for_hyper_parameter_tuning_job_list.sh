@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_training_jobs_for_hyper_parameter_tuning_job_list(hyper_parameter_tuning_job_name)
+#	p6_aws_sagemaker_training_jobs_for_hyper_parameter_tuning_job_list(hyper_parameter_tuning_job_name)
 #
-# Arg(s):
-#    hyper_parameter_tuning_job_name - 
-#
+#  Args:
+#	hyper_parameter_tuning_job_name - 
 #
 #>
 ######################################################################

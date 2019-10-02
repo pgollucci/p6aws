@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_customer_gateway_create(bgp_asn, public_ip, type)
+#	p6_aws_ec2_customer_gateway_create(bgp_asn, public_ip, type)
 #
-# Arg(s):
-#    bgp_asn - 
-#    public_ip - 
-#    type - 
-#
+#  Args:
+#	bgp_asn - 
+#	public_ip - 
+#	type - 
 #
 #>
 ######################################################################

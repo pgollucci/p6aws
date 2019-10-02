@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_organizations_organizational_unit_delete(organizational_unit_id)
+#	p6_aws_organizations_organizational_unit_delete(organizational_unit_id)
 #
-# Arg(s):
-#    organizational_unit_id - 
-#
+#  Args:
+#	organizational_unit_id - 
 #
 #>
 ######################################################################

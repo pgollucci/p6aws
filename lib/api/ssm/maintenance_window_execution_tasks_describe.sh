@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_maintenance_window_execution_tasks_describe(window_execution_id)
+#	p6_aws_ssm_maintenance_window_execution_tasks_describe(window_execution_id)
 #
-# Arg(s):
-#    window_execution_id - 
-#
+#  Args:
+#	window_execution_id - 
 #
 #>
 ######################################################################

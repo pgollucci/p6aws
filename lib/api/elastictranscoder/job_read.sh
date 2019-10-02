@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_elastictranscoder_job_read(id)
+#	p6_aws_elastictranscoder_job_read(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

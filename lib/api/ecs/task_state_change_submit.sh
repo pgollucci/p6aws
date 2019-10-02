@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_task_state_change_submit()
-#
-#
+#	p6_aws_ecs_task_state_change_submit()
 #
 #>
 ######################################################################

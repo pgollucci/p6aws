@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_bandwidth_rate_limit_describe(gateway_arn)
+#	p6_aws_storagegateway_bandwidth_rate_limit_describe(gateway_arn)
 #
-# Arg(s):
-#    gateway_arn - 
-#
+#  Args:
+#	gateway_arn - 
 #
 #>
 ######################################################################

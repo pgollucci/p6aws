@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_audit_mitigation_actions_executions_list(task_id, finding_id)
+#	p6_aws_iot_audit_mitigation_actions_executions_list(task_id, finding_id)
 #
-# Arg(s):
-#    task_id - 
-#    finding_id - 
-#
+#  Args:
+#	task_id - 
+#	finding_id - 
 #
 #>
 ######################################################################

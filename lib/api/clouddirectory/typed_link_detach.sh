@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_clouddirectory_typed_link_detach(directory_arn, typed_link_specifier)
+#	p6_aws_clouddirectory_typed_link_detach(directory_arn, typed_link_specifier)
 #
-# Arg(s):
-#    directory_arn - 
-#    typed_link_specifier - 
-#
+#  Args:
+#	directory_arn - 
+#	typed_link_specifier - 
 #
 #>
 ######################################################################

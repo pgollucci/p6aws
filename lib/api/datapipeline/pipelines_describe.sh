@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_datapipeline_pipelines_describe(pipeline_ids)
+#	p6_aws_datapipeline_pipelines_describe(pipeline_ids)
 #
-# Arg(s):
-#    pipeline_ids - 
-#
+#  Args:
+#	pipeline_ids - 
 #
 #>
 ######################################################################

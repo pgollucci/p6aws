@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_device_events_list(device_arn)
+#	p6_aws_alexaforbusiness_device_events_list(device_arn)
 #
-# Arg(s):
-#    device_arn - 
-#
+#  Args:
+#	device_arn - 
 #
 #>
 ######################################################################

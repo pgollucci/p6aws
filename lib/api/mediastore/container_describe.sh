@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_mediastore_container_describe()
-#
-#
+#	p6_aws_mediastore_container_describe()
 #
 #>
 ######################################################################

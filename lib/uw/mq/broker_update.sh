@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mq_minor_version_upgrade(broker_id)
+#	p6_aws_mq_minor_version_upgrade(broker_id)
 #
-# Arg(s):
-#    broker_id - 
-#
+#  Args:
+#	broker_id - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesisanalyticsv2_application_start(application_name, run_configuration)
+#	p6_aws_kinesisanalyticsv2_application_start(application_name, run_configuration)
 #
-# Arg(s):
-#    application_name - 
-#    run_configuration - 
-#
+#  Args:
+#	application_name - 
+#	run_configuration - 
 #
 #>
 ######################################################################

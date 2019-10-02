@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_appstream_image_builder_create(name, instance_type)
+#	p6_aws_appstream_image_builder_create(name, instance_type)
 #
-# Arg(s):
-#    name - 
-#    instance_type - 
-#
+#  Args:
+#	name - 
+#	instance_type - 
 #
 #>
 ######################################################################

@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_sampled_requests_get(web_acl_id, rule_id, time_window, max_items)
+#	p6_aws_waf_sampled_requests_get(web_acl_id, rule_id, time_window, max_items)
 #
-# Arg(s):
-#    web_acl_id - 
-#    rule_id - 
-#    time_window - 
-#    max_items - 
-#
+#  Args:
+#	web_acl_id - 
+#	rule_id - 
+#	time_window - 
+#	max_items - 
 #
 #>
 ######################################################################

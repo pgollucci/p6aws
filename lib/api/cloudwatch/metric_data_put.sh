@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudwatch_metric_data_put(namespace)
+#	p6_aws_cloudwatch_metric_data_put(namespace)
 #
-# Arg(s):
-#    namespace - 
-#
+#  Args:
+#	namespace - 
 #
 #>
 ######################################################################

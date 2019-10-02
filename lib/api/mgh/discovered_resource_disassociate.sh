@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_mgh_discovered_resource_disassociate(progress_update_stream, migration_task_name, configuration_id)
+#	p6_aws_mgh_discovered_resource_disassociate(progress_update_stream, migration_task_name, configuration_id)
 #
-# Arg(s):
-#    progress_update_stream - 
-#    migration_task_name - 
-#    configuration_id - 
-#
+#  Args:
+#	progress_update_stream - 
+#	migration_task_name - 
+#	configuration_id - 
 #
 #>
 ######################################################################

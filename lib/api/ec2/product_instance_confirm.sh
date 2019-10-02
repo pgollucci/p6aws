@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_product_instance_confirm(instance_id, product_code)
+#	p6_aws_ec2_product_instance_confirm(instance_id, product_code)
 #
-# Arg(s):
-#    instance_id - 
-#    product_code - 
-#
+#  Args:
+#	instance_id - 
+#	product_code - 
 #
 #>
 ######################################################################

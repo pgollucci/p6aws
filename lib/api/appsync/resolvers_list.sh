@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_appsync_resolvers_list(api_id, type_name)
+#	p6_aws_appsync_resolvers_list(api_id, type_name)
 #
-# Arg(s):
-#    api_id - 
-#    type_name - 
-#
+#  Args:
+#	api_id - 
+#	type_name - 
 #
 #>
 ######################################################################

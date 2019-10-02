@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_route53domains_domain_nameservers_update(domain_name, nameservers)
+#	p6_aws_route53domains_domain_nameservers_update(domain_name, nameservers)
 #
-# Arg(s):
-#    domain_name - 
-#    nameservers - 
-#
+#  Args:
+#	domain_name - 
+#	nameservers - 
 #
 #>
 ######################################################################

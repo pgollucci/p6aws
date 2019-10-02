@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_mturk_qualification_requests_list()
-#
-#
+#	p6_aws_mturk_qualification_requests_list()
 #
 #>
 ######################################################################

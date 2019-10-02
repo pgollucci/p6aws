@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_regional_change_token_get()
-#
-#
+#	p6_aws_waf_regional_change_token_get()
 #
 #>
 ######################################################################

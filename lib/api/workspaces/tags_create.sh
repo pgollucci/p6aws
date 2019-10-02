@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_workspaces_tags_create(resource_id, tags)
+#	p6_aws_workspaces_tags_create(resource_id, tags)
 #
-# Arg(s):
-#    resource_id - 
-#    tags - 
-#
+#  Args:
+#	resource_id - 
+#	tags - 
 #
 #>
 ######################################################################

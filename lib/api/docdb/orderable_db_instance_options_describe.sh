@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_docdb_orderable_db_instance_options_describe(engine)
+#	p6_aws_docdb_orderable_db_instance_options_describe(engine)
 #
-# Arg(s):
-#    engine - 
-#
+#  Args:
+#	engine - 
 #
 #>
 ######################################################################

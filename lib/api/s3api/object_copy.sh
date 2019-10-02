@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_object_copy(bucket, copy_source, key)
+#	p6_aws_s3api_object_copy(bucket, copy_source, key)
 #
-# Arg(s):
-#    bucket - 
-#    copy_source - 
-#    key - 
-#
+#  Args:
+#	bucket - 
+#	copy_source - 
+#	key - 
 #
 #>
 ######################################################################

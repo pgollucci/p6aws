@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_raw_email_send(raw_message)
+#	p6_aws_ses_raw_email_send(raw_message)
 #
-# Arg(s):
-#    raw_message - 
-#
+#  Args:
+#	raw_message - 
 #
 #>
 ######################################################################

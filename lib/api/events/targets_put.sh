@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_events_targets_put(rule, targets)
+#	p6_aws_events_targets_put(rule, targets)
 #
-# Arg(s):
-#    rule - 
-#    targets - 
-#
+#  Args:
+#	rule - 
+#	targets - 
 #
 #>
 ######################################################################

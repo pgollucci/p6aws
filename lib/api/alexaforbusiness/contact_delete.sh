@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_contact_delete(contact_arn)
+#	p6_aws_alexaforbusiness_contact_delete(contact_arn)
 #
-# Arg(s):
-#    contact_arn - 
-#
+#  Args:
+#	contact_arn - 
 #
 #>
 ######################################################################

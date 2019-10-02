@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_index_search(query_string)
+#	p6_aws_iot_index_search(query_string)
 #
-# Arg(s):
-#    query_string - 
-#
+#  Args:
+#	query_string - 
 #
 #>
 ######################################################################

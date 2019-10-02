@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_key_pair_delete(key_pair_name)
+#	p6_aws_lightsail_key_pair_delete(key_pair_name)
 #
-# Arg(s):
-#    key_pair_name - 
-#
+#  Args:
+#	key_pair_name - 
 #
 #>
 ######################################################################

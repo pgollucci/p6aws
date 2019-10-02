@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_tape_pool_assign(tape_arn, pool_id)
+#	p6_aws_storagegateway_tape_pool_assign(tape_arn, pool_id)
 #
-# Arg(s):
-#    tape_arn - 
-#    pool_id - 
-#
+#  Args:
+#	tape_arn - 
+#	pool_id - 
 #
 #>
 ######################################################################

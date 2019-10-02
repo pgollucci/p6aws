@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_snapshot_export(source_snapshot_name)
+#	p6_aws_lightsail_snapshot_export(source_snapshot_name)
 #
-# Arg(s):
-#    source_snapshot_name - 
-#
+#  Args:
+#	source_snapshot_name - 
 #
 #>
 ######################################################################

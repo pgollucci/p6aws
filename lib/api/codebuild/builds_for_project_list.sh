@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codebuild_builds_for_project_list(project_name)
+#	p6_aws_codebuild_builds_for_project_list(project_name)
 #
-# Arg(s):
-#    project_name - 
-#
+#  Args:
+#	project_name - 
 #
 #>
 ######################################################################

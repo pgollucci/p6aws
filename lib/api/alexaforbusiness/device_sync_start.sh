@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_device_sync_start(features)
+#	p6_aws_alexaforbusiness_device_sync_start(features)
 #
-# Arg(s):
-#    features - 
-#
+#  Args:
+#	features - 
 #
 #>
 ######################################################################

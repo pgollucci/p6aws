@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_swf_closed_workflow_executions_list(domain)
+#	p6_aws_swf_closed_workflow_executions_list(domain)
 #
-# Arg(s):
-#    domain - 
-#
+#  Args:
+#	domain - 
 #
 #>
 ######################################################################

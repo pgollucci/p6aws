@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_chime_phone_numbers_with_voice_connector_associate(voice_connector_id)
+#	p6_aws_chime_phone_numbers_with_voice_connector_associate(voice_connector_id)
 #
-# Arg(s):
-#    voice_connector_id - 
-#
+#  Args:
+#	voice_connector_id - 
 #
 #>
 ######################################################################

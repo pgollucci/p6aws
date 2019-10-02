@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_athena_query_results_get(query_execution_id)
+#	p6_aws_athena_query_results_get(query_execution_id)
 #
-# Arg(s):
-#    query_execution_id - 
-#
+#  Args:
+#	query_execution_id - 
 #
 #>
 ######################################################################

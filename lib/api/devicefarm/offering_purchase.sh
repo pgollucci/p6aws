@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_devicefarm_offering_purchase()
-#
-#
+#	p6_aws_devicefarm_offering_purchase()
 #
 #>
 ######################################################################

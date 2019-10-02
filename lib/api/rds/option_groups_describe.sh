@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_option_groups_describe()
-#
-#
+#	p6_aws_rds_option_groups_describe()
 #
 #>
 ######################################################################

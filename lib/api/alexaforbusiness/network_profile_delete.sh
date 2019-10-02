@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_network_profile_delete(network_profile_arn)
+#	p6_aws_alexaforbusiness_network_profile_delete(network_profile_arn)
 #
-# Arg(s):
-#    network_profile_arn - 
-#
+#  Args:
+#	network_profile_arn - 
 #
 #>
 ######################################################################

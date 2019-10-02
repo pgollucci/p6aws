@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_sync_records_update(identity_pool_id, identity_id, dataset_name, sync_session_token)
+#	p6_aws_cognito_sync_records_update(identity_pool_id, identity_id, dataset_name, sync_session_token)
 #
-# Arg(s):
-#    identity_pool_id - 
-#    identity_id - 
-#    dataset_name - 
-#    sync_session_token - 
-#
+#  Args:
+#	identity_pool_id - 
+#	identity_id - 
+#	dataset_name - 
+#	sync_session_token - 
 #
 #>
 ######################################################################

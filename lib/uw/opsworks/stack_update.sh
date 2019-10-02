@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_custom_cookbooks(stack_id)
+#	p6_aws_opsworks_custom_cookbooks(stack_id)
 #
-# Arg(s):
-#    stack_id - 
-#
+#  Args:
+#	stack_id - 
 #
 #>
 ######################################################################
@@ -21,11 +20,10 @@ p6_aws_opsworks_custom_cookbooks() {
 #<
 #
 # Function:
-#      = p6_aws_opsworks_opsworks_security_groups(stack_id)
+#	p6_aws_opsworks_opsworks_security_groups(stack_id)
 #
-# Arg(s):
-#    stack_id - 
-#
+#  Args:
+#	stack_id - 
 #
 #>
 ######################################################################

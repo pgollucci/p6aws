@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_es_elasticsearch_domain_delete(domain_name)
+#	p6_aws_es_elasticsearch_domain_delete(domain_name)
 #
-# Arg(s):
-#    domain_name - 
-#
+#  Args:
+#	domain_name - 
 #
 #>
 ######################################################################

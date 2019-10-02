@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_mitigation_action_delete(action_name)
+#	p6_aws_iot_mitigation_action_delete(action_name)
 #
-# Arg(s):
-#    action_name - 
-#
+#  Args:
+#	action_name - 
 #
 #>
 ######################################################################

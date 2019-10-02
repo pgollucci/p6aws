@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_ds_directory_create(name, password, size)
+#	p6_aws_ds_directory_create(name, password, size)
 #
-# Arg(s):
-#    name - 
-#    password - 
-#    size - 
-#
+#  Args:
+#	name - 
+#	password - 
+#	size - 
 #
 #>
 ######################################################################

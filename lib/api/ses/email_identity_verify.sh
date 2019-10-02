@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_email_identity_verify(email_address)
+#	p6_aws_ses_email_identity_verify(email_address)
 #
-# Arg(s):
-#    email_address - 
-#
+#  Args:
+#	email_address - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_option_group_options_describe(engine_name)
+#	p6_aws_rds_option_group_options_describe(engine_name)
 #
-# Arg(s):
-#    engine_name - 
-#
+#  Args:
+#	engine_name - 
 #
 #>
 ######################################################################

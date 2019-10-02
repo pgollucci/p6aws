@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpc_endpoint_connection_notifications_delete(connection_notification_ids)
+#	p6_aws_ec2_vpc_endpoint_connection_notifications_delete(connection_notification_ids)
 #
-# Arg(s):
-#    connection_notification_ids - 
-#
+#  Args:
+#	connection_notification_ids - 
 #
 #>
 ######################################################################

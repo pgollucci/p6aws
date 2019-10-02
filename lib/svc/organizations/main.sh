@@ -2,28 +2,28 @@
 #<
 #
 # Function:
-#     $saml_file = p6_aws_organizations_svc_account_make(cred_file, src_cred_file, assumed_cred_file, org, account_alias, account_email, account_map, saml_provider, saml_provider_email, region, output, role_full_path, policy_arn, cert_subject, cert_bits, cert_exp)
+#	unkown saml_file = p6_aws_organizations_svc_account_make(cred_file, src_cred_file, assumed_cred_file, org, account_alias, account_email, account_map, saml_provider, saml_provider_email, region, output, role_full_path, policy_arn, cert_subject, cert_bits, cert_exp)
 #
-# Arg(s):
-#    cred_file - 
-#    src_cred_file - 
-#    assumed_cred_file - 
-#    org - 
-#    account_alias - 
-#    account_email - 
-#    account_map - 
-#    saml_provider - 
-#    saml_provider_email - 
-#    region - 
-#    output - 
-#    role_full_path - 
-#    policy_arn - 
-#    cert_subject - 
-#    cert_bits - 
-#    cert_exp - 
+#  Args:
+#	cred_file - 
+#	src_cred_file - 
+#	assumed_cred_file - 
+#	org - 
+#	account_alias - 
+#	account_email - 
+#	account_map - 
+#	saml_provider - 
+#	saml_provider_email - 
+#	region - 
+#	output - 
+#	role_full_path - 
+#	policy_arn - 
+#	cert_subject - 
+#	cert_bits - 
+#	cert_exp - 
 #
-# Return(s):
-#    $saml_file - 
+#  Returns:
+#	unkown - saml_file
 #
 #>
 ######################################################################
@@ -65,19 +65,18 @@ p6_aws_organizations_svc_account_make() {
 #<
 #
 # Function:
-#      = p6_aws_organizations_svc_account_init(org, account_alias, account_email, account_id, saml_file, saml_provider, role_full_path, policy_arn, provider)
+#	p6_aws_organizations_svc_account_init(org, account_alias, account_email, account_id, saml_file, saml_provider, role_full_path, policy_arn, provider)
 #
-# Arg(s):
-#    org - 
-#    account_alias - 
-#    account_email - 
-#    account_id - 
-#    saml_file - 
-#    saml_provider - 
-#    role_full_path - 
-#    policy_arn - 
-#    provider - 
-#
+#  Args:
+#	org - 
+#	account_alias - 
+#	account_email - 
+#	account_id - 
+#	saml_file - 
+#	saml_provider - 
+#	role_full_path - 
+#	policy_arn - 
+#	provider - 
 #
 #>
 ######################################################################
@@ -105,15 +104,15 @@ p6_aws_organizations_svc_account_init() {
 #<
 #
 # Function:
-#     str = p6_aws_organizations_svc_account_create_or_fetch(account_alias, account_email, account_map)
+#	unkown  = p6_aws_organizations_svc_account_create_or_fetch(account_alias, account_email, account_map)
 #
-# Arg(s):
-#    account_alias - 
-#    account_email - 
-#    account_map - 
+#  Args:
+#	account_alias - 
+#	account_email - 
+#	account_map - 
 #
-# Return(s):
-#     - 
+#  Returns:
+#	unkown - 
 #
 #>
 ######################################################################
@@ -135,19 +134,18 @@ p6_aws_organizations_svc_account_create_or_fetch() {
 #<
 #
 # Function:
-#     $account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
+#	unkown account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
 #
-# Arg(s):
-#    account_name - 
-#    account_email - 
-#    account_name - 
-#    account_email - 
-#    account_email - 
-#    account_alias - 
+#  Args:
+#	account_name - 
+#	account_email - 
+#	account_name - 
+#	account_email - 
+#	account_email - 
+#	account_alias - 
 #
-# Return(s):
-#    $account_id - 
-#    $car_id - 
+#  Returns:
+#	unkown - account_id#	unkown - car_id
 #
 #>
 ######################################################################
@@ -165,12 +163,11 @@ p6_aws_organizations_svc_account_create() {
 #<
 #
 # Function:
-#      = p6_aws_organizations_svc_account_wait_for(cas_id, car)
+#	p6_aws_organizations_svc_account_wait_for(cas_id, car)
 #
-# Arg(s):
-#    cas_id - 
-#    car - 
-#
+#  Args:
+#	cas_id - 
+#	car - 
 #
 #>
 ######################################################################
@@ -186,14 +183,13 @@ p6_aws_organizations_svc_account_wait_for() {
 #<
 #
 # Function:
-#      = p6_aws_organizations_svc_account_create_stop(status, cas_id, status, car)
+#	p6_aws_organizations_svc_account_create_stop(status, cas_id, status, car)
 #
-# Arg(s):
-#    status - 
-#    cas_id - 
-#    status - 
-#    car - 
-#
+#  Args:
+#	status - 
+#	cas_id - 
+#	status - 
+#	car - 
 #
 #>
 ######################################################################
@@ -211,19 +207,18 @@ p6_aws_organizations_svc_account_create_stop() {
 #<
 #
 # Function:
-#      = p6_aws_organizations_svc_su(account_alias, map_file, region, output, role_full_path, role_session_name, cred_file, src_cred_file, assumed_cred_file)
+#	p6_aws_organizations_svc_su(account_alias, map_file, region, output, role_full_path, role_session_name, cred_file, src_cred_file, assumed_cred_file)
 #
-# Arg(s):
-#    account_alias - 
-#    map_file - 
-#    region - 
-#    output - 
-#    role_full_path - 
-#    role_session_name - 
-#    cred_file - 
-#    src_cred_file - 
-#    assumed_cred_file - 
-#
+#  Args:
+#	account_alias - 
+#	map_file - 
+#	region - 
+#	output - 
+#	role_full_path - 
+#	role_session_name - 
+#	cred_file - 
+#	src_cred_file - 
+#	assumed_cred_file - 
 #
 #>
 ######################################################################
@@ -253,9 +248,7 @@ p6_aws_organizations_svc_su() {
 #<
 #
 # Function:
-#      = p6_aws_organizations_svc_su_un()
-#
-#
+#	p6_aws_organizations_svc_su_un()
 #
 #>
 ######################################################################
@@ -268,20 +261,19 @@ p6_aws_organizations_svc_su_un() {
 #<
 #
 # Function:
-#      = p6_aws_organizations_svc_run_as(account_alias, account_map, region, output, role_name, role_session_name, cred_file, src_cred_file, assumed_cred_file, cmd)
+#	p6_aws_organizations_svc_run_as(account_alias, account_map, region, output, role_name, role_session_name, cred_file, src_cred_file, assumed_cred_file, cmd)
 #
-# Arg(s):
-#    account_alias - 
-#    account_map - 
-#    region - 
-#    output - 
-#    role_name - 
-#    role_session_name - 
-#    cred_file - 
-#    src_cred_file - 
-#    assumed_cred_file - 
-#    cmd - 
-#
+#  Args:
+#	account_alias - 
+#	account_map - 
+#	region - 
+#	output - 
+#	role_name - 
+#	role_session_name - 
+#	cred_file - 
+#	src_cred_file - 
+#	assumed_cred_file - 
+#	cmd - 
 #
 #>
 ######################################################################
@@ -314,11 +306,10 @@ p6_aws_organizations_svc_run_as() {
 #<
 #
 # Function:
-#      = p6_aws_organizations_svc_account_id_from_alias(alias)
+#	p6_aws_organizations_svc_account_id_from_alias(alias)
 #
-# Arg(s):
-#    alias - 
-#
+#  Args:
+#	alias - 
 #
 #>
 ######################################################################
@@ -335,11 +326,10 @@ p6_aws_organizations_svc_account_id_from_alias() {
 #<
 #
 # Function:
-#      = p6_aws_organizations_svc_account_status_create(car_id)
+#	p6_aws_organizations_svc_account_status_create(car_id)
 #
-# Arg(s):
-#    car_id - 
-#
+#  Args:
+#	car_id - 
 #
 #>
 ######################################################################
@@ -355,9 +345,7 @@ p6_aws_organizations_svc_account_status_create() {
 #<
 #
 # Function:
-#      = p6_aws_organizations_svc_accounts_list()
-#
-#
+#	p6_aws_organizations_svc_accounts_list()
 #
 #>
 ######################################################################

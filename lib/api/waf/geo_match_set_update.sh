@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_geo_match_set_update(geo_match_set_id, change_token, updates)
+#	p6_aws_waf_geo_match_set_update(geo_match_set_id, change_token, updates)
 #
-# Arg(s):
-#    geo_match_set_id - 
-#    change_token - 
-#    updates - 
-#
+#  Args:
+#	geo_match_set_id - 
+#	change_token - 
+#	updates - 
 #
 #>
 ######################################################################

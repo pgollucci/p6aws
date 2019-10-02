@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_machinelearning_data_source_get(data_source_id)
+#	p6_aws_machinelearning_data_source_get(data_source_id)
 #
-# Arg(s):
-#    data_source_id - 
-#
+#  Args:
+#	data_source_id - 
 #
 #>
 ######################################################################

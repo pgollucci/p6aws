@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_workflow_delete(name)
+#	p6_aws_glue_workflow_delete(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

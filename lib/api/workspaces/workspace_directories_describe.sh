@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_workspaces_workspace_directories_describe()
-#
-#
+#	p6_aws_workspaces_workspace_directories_describe()
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_fpga_image_copy(source_fpga_image_id, source_region)
+#	p6_aws_ec2_fpga_image_copy(source_fpga_image_id, source_region)
 #
-# Arg(s):
-#    source_fpga_image_id - 
-#    source_region - 
-#
+#  Args:
+#	source_fpga_image_id - 
+#	source_region - 
 #
 #>
 ######################################################################

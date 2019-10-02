@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_thing_to_thing_group_add()
-#
-#
+#	p6_aws_iot_thing_to_thing_group_add()
 #
 #>
 ######################################################################

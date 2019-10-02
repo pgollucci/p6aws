@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_stream(ota_update_id)
+#	p6_aws_iot_stream(ota_update_id)
 #
-# Arg(s):
-#    ota_update_id - 
-#
+#  Args:
+#	ota_update_id - 
 #
 #>
 ######################################################################
@@ -21,11 +20,10 @@ p6_aws_iot_stream() {
 #<
 #
 # Function:
-#      = p6_aws_iot_delete_aws_job(ota_update_id)
+#	p6_aws_iot_delete_aws_job(ota_update_id)
 #
-# Arg(s):
-#    ota_update_id - 
-#
+#  Args:
+#	ota_update_id - 
 #
 #>
 ######################################################################

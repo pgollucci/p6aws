@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_emr_cluster_create(release_label, instance_fleets)
+#	p6_aws_emr_cluster_create(release_label, instance_fleets)
 #
-# Arg(s):
-#    release_label - 
-#    instance_fleets - 
-#
+#  Args:
+#	release_label - 
+#	instance_fleets - 
 #
 #>
 ######################################################################

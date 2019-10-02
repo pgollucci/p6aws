@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_add_user_to_group_admin(user_pool_id, username, group_name)
+#	p6_aws_cognito_idp_add_user_to_group_admin(user_pool_id, username, group_name)
 #
-# Arg(s):
-#    user_pool_id - 
-#    username - 
-#    group_name - 
-#
+#  Args:
+#	user_pool_id - 
+#	username - 
+#	group_name - 
 #
 #>
 ######################################################################

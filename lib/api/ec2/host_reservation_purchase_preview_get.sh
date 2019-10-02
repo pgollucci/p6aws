@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_host_reservation_purchase_preview_get(host_id_set, offering_id)
+#	p6_aws_ec2_host_reservation_purchase_preview_get(host_id_set, offering_id)
 #
-# Arg(s):
-#    host_id_set - 
-#    offering_id - 
-#
+#  Args:
+#	host_id_set - 
+#	offering_id - 
 #
 #>
 ######################################################################

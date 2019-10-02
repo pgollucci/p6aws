@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_iot1click_projects_device_with_placement_associate(project_name, placement_name, device_id, device_template_name)
+#	p6_aws_iot1click_projects_device_with_placement_associate(project_name, placement_name, device_id, device_template_name)
 #
-# Arg(s):
-#    project_name - 
-#    placement_name - 
-#    device_id - 
-#    device_template_name - 
-#
+#  Args:
+#	project_name - 
+#	placement_name - 
+#	device_id - 
+#	device_template_name - 
 #
 #>
 ######################################################################

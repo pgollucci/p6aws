@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elbv2_tags_add(resource_arns, tags)
+#	p6_aws_elbv2_tags_add(resource_arns, tags)
 #
-# Arg(s):
-#    resource_arns - 
-#    tags - 
-#
+#  Args:
+#	resource_arns - 
+#	tags - 
 #
 #>
 ######################################################################

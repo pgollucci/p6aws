@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_quicksight_groups_list(aws_account_id, namespace)
+#	p6_aws_quicksight_groups_list(aws_account_id, namespace)
 #
-# Arg(s):
-#    aws_account_id - 
-#    namespace - 
-#
+#  Args:
+#	aws_account_id - 
+#	namespace - 
 #
 #>
 ######################################################################

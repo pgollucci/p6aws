@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_devicefarm_device_pool_compatibility_get(device_pool_arn)
+#	p6_aws_devicefarm_device_pool_compatibility_get(device_pool_arn)
 #
-# Arg(s):
-#    device_pool_arn - 
-#
+#  Args:
+#	device_pool_arn - 
 #
 #>
 ######################################################################

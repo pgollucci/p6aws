@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudsearch_analysis_scheme_define(domain_name, analysis_scheme)
+#	p6_aws_cloudsearch_analysis_scheme_define(domain_name, analysis_scheme)
 #
-# Arg(s):
-#    domain_name - 
-#    analysis_scheme - 
-#
+#  Args:
+#	domain_name - 
+#	analysis_scheme - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_securityhub_insight_delete(insight_arn)
+#	p6_aws_securityhub_insight_delete(insight_arn)
 #
-# Arg(s):
-#    insight_arn - 
-#
+#  Args:
+#	insight_arn - 
 #
 #>
 ######################################################################

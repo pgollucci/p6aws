@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_connect_contact_stop(contact_id, instance_id)
+#	p6_aws_connect_contact_stop(contact_id, instance_id)
 #
-# Arg(s):
-#    contact_id - 
-#    instance_id - 
-#
+#  Args:
+#	contact_id - 
+#	instance_id - 
 #
 #>
 ######################################################################

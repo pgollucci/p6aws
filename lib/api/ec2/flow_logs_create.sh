@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_flow_logs_create(resource_ids, resource_type, traffic_type)
+#	p6_aws_ec2_flow_logs_create(resource_ids, resource_type, traffic_type)
 #
-# Arg(s):
-#    resource_ids - 
-#    resource_type - 
-#    traffic_type - 
-#
+#  Args:
+#	resource_ids - 
+#	resource_type - 
+#	traffic_type - 
 #
 #>
 ######################################################################

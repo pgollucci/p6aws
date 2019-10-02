@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sts_federation_token_get(name)
+#	p6_aws_sts_federation_token_get(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

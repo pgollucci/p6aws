@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_address_book_delete(address_book_arn)
+#	p6_aws_alexaforbusiness_address_book_delete(address_book_arn)
 #
-# Arg(s):
-#    address_book_arn - 
-#
+#  Args:
+#	address_book_arn - 
 #
 #>
 ######################################################################

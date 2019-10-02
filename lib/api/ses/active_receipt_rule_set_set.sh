@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_active_receipt_rule_set_set()
-#
-#
+#	p6_aws_ses_active_receipt_rule_set_set()
 #
 #>
 ######################################################################

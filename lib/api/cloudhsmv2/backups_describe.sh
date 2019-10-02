@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudhsmv2_backups_describe()
-#
-#
+#	p6_aws_cloudhsmv2_backups_describe()
 #
 #>
 ######################################################################

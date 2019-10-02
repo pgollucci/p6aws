@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_sts_role_assume(role_arn, role_session_name)
+#	p6_aws_sts_role_assume(role_arn, role_session_name)
 #
-# Arg(s):
-#    role_arn - 
-#    role_session_name - 
-#
+#  Args:
+#	role_arn - 
+#	role_session_name - 
 #
 #>
 ######################################################################

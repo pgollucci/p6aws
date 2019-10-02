@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_autoscaling_plans_scaling_plans_describe()
-#
-#
+#	p6_aws_autoscaling_plans_scaling_plans_describe()
 #
 #>
 ######################################################################

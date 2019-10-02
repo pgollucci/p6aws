@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sns_topic_create(name)
+#	p6_aws_sns_topic_create(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

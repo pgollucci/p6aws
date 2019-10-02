@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_upload_credentials_request(build_id)
+#	p6_aws_gamelift_upload_credentials_request(build_id)
 #
-# Arg(s):
-#    build_id - 
-#
+#  Args:
+#	build_id - 
 #
 #>
 ######################################################################

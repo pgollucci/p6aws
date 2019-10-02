@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_user_defined_function_delete(database_name, function_name)
+#	p6_aws_glue_user_defined_function_delete(database_name, function_name)
 #
-# Arg(s):
-#    database_name - 
-#    function_name - 
-#
+#  Args:
+#	database_name - 
+#	function_name - 
 #
 #>
 ######################################################################

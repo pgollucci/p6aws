@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_batch_job_definition_register(job_definition_name, type)
+#	p6_aws_batch_job_definition_register(job_definition_name, type)
 #
-# Arg(s):
-#    job_definition_name - 
-#    type - 
-#
+#  Args:
+#	job_definition_name - 
+#	type - 
 #
 #>
 ######################################################################

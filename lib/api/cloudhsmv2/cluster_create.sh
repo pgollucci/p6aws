@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudhsmv2_cluster_create(subnet_ids, hsm_type)
+#	p6_aws_cloudhsmv2_cluster_create(subnet_ids, hsm_type)
 #
-# Arg(s):
-#    subnet_ids - 
-#    hsm_type - 
-#
+#  Args:
+#	subnet_ids - 
+#	hsm_type - 
 #
 #>
 ######################################################################

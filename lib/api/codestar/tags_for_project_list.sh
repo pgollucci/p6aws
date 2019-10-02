@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codestar_tags_for_project_list(id)
+#	p6_aws_codestar_tags_for_project_list(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

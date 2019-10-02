@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_guardduty_filter_create(detector_id, name, finding_criteria)
+#	p6_aws_guardduty_filter_create(detector_id, name, finding_criteria)
 #
-# Arg(s):
-#    detector_id - 
-#    name - 
-#    finding_criteria - 
-#
+#  Args:
+#	detector_id - 
+#	name - 
+#	finding_criteria - 
 #
 #>
 ######################################################################

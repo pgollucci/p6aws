@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_documentation_part_create(rest_api_id, location, properties)
+#	p6_aws_apigateway_documentation_part_create(rest_api_id, location, properties)
 #
-# Arg(s):
-#    rest_api_id - 
-#    location - 
-#    properties - 
-#
+#  Args:
+#	rest_api_id - 
+#	location - 
+#	properties - 
 #
 #>
 ######################################################################

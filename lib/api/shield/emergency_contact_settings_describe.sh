@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_shield_emergency_contact_settings_describe()
-#
-#
+#	p6_aws_shield_emergency_contact_settings_describe()
 #
 #>
 ######################################################################

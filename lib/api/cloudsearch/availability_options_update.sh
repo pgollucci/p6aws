@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudsearch_availability_options_update(domain_name, multi_az)
+#	p6_aws_cloudsearch_availability_options_update(domain_name, multi_az)
 #
-# Arg(s):
-#    domain_name - 
-#    multi_az - 
-#
+#  Args:
+#	domain_name - 
+#	multi_az - 
 #
 #>
 ######################################################################

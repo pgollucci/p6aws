@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_password_change(previous_password, proposed_password, access_token)
+#	p6_aws_cognito_idp_password_change(previous_password, proposed_password, access_token)
 #
-# Arg(s):
-#    previous_password - 
-#    proposed_password - 
-#    access_token - 
-#
+#  Args:
+#	previous_password - 
+#	proposed_password - 
+#	access_token - 
 #
 #>
 ######################################################################

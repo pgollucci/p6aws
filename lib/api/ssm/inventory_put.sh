@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_inventory_put(instance_id, items)
+#	p6_aws_ssm_inventory_put(instance_id, items)
 #
-# Arg(s):
-#    instance_id - 
-#    items - 
-#
+#  Args:
+#	instance_id - 
+#	items - 
 #
 #>
 ######################################################################

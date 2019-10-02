@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_principal_things_list(principal)
+#	p6_aws_iot_principal_things_list(principal)
 #
-# Arg(s):
-#    principal - 
-#
+#  Args:
+#	principal - 
 #
 #>
 ######################################################################

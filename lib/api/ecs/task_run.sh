@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_task_run(task_definition)
+#	p6_aws_ecs_task_run(task_definition)
 #
-# Arg(s):
-#    task_definition - 
-#
+#  Args:
+#	task_definition - 
 #
 #>
 ######################################################################

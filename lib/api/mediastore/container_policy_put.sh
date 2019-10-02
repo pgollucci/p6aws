@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_mediastore_container_policy_put(container_name, policy)
+#	p6_aws_mediastore_container_policy_put(container_name, policy)
 #
-# Arg(s):
-#    container_name - 
-#    policy - 
-#
+#  Args:
+#	container_name - 
+#	policy - 
 #
 #>
 ######################################################################

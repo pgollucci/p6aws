@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_relational_database_snapshot_delete(relational_database_snapshot_name)
+#	p6_aws_lightsail_relational_database_snapshot_delete(relational_database_snapshot_name)
 #
-# Arg(s):
-#    relational_database_snapshot_name - 
-#
+#  Args:
+#	relational_database_snapshot_name - 
 #
 #>
 ######################################################################

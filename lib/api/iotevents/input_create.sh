@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iotevents_input_create(input_name, input_definition)
+#	p6_aws_iotevents_input_create(input_name, input_definition)
 #
-# Arg(s):
-#    input_name - 
-#    input_definition - 
-#
+#  Args:
+#	input_name - 
+#	input_definition - 
 #
 #>
 ######################################################################

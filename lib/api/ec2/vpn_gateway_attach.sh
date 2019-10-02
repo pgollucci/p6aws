@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpn_gateway_attach(vpc_id, vpn_gateway_id)
+#	p6_aws_ec2_vpn_gateway_attach(vpc_id, vpn_gateway_id)
 #
-# Arg(s):
-#    vpc_id - 
-#    vpn_gateway_id - 
-#
+#  Args:
+#	vpc_id - 
+#	vpn_gateway_id - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_traffic_mirror_target_create()
-#
-#
+#	p6_aws_ec2_traffic_mirror_target_create()
 #
 #>
 ######################################################################

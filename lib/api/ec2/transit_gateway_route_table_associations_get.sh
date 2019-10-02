@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_transit_gateway_route_table_associations_get(transit_gateway_route_table_id)
+#	p6_aws_ec2_transit_gateway_route_table_associations_get(transit_gateway_route_table_id)
 #
-# Arg(s):
-#    transit_gateway_route_table_id - 
-#
+#  Args:
+#	transit_gateway_route_table_id - 
 #
 #>
 ######################################################################

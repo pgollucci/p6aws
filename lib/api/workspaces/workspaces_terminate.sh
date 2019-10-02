@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_workspaces_workspaces_terminate(terminate_workspace_requests)
+#	p6_aws_workspaces_workspaces_terminate(terminate_workspace_requests)
 #
-# Arg(s):
-#    terminate_workspace_requests - 
-#
+#  Args:
+#	terminate_workspace_requests - 
 #
 #>
 ######################################################################

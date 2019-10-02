@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_appstream_fleet_start(name)
+#	p6_aws_appstream_fleet_start(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

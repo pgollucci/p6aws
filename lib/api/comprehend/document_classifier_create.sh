@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_comprehend_document_classifier_create(document_classifier_name, data_access_role_arn, input_data_config, language_code)
+#	p6_aws_comprehend_document_classifier_create(document_classifier_name, data_access_role_arn, input_data_config, language_code)
 #
-# Arg(s):
-#    document_classifier_name - 
-#    data_access_role_arn - 
-#    input_data_config - 
-#    language_code - 
-#
+#  Args:
+#	document_classifier_name - 
+#	data_access_role_arn - 
+#	input_data_config - 
+#	language_code - 
 #
 #>
 ######################################################################

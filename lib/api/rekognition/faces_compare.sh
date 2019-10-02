@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_rekognition_faces_compare()
-#
-#
+#	p6_aws_rekognition_faces_compare()
 #
 #>
 ######################################################################

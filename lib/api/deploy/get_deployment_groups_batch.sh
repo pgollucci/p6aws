@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_deploy_get_deployment_groups_batch(application_name, deployment_group_names)
+#	p6_aws_deploy_get_deployment_groups_batch(application_name, deployment_group_names)
 #
-# Arg(s):
-#    application_name - 
-#    deployment_group_names - 
-#
+#  Args:
+#	application_name - 
+#	deployment_group_names - 
 #
 #>
 ######################################################################

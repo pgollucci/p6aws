@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sns_topic_attributes_get(topic_arn)
+#	p6_aws_sns_topic_attributes_get(topic_arn)
 #
-# Arg(s):
-#    topic_arn - 
-#
+#  Args:
+#	topic_arn - 
 #
 #>
 ######################################################################

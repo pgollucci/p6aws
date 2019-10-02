@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesis_enhanced_monitoring_enable(stream_name, shard_level_metrics)
+#	p6_aws_kinesis_enhanced_monitoring_enable(stream_name, shard_level_metrics)
 #
-# Arg(s):
-#    stream_name - 
-#    shard_level_metrics - 
-#
+#  Args:
+#	stream_name - 
+#	shard_level_metrics - 
 #
 #>
 ######################################################################

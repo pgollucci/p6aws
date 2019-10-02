@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_job_delete(job_id)
+#	p6_aws_iot_job_delete(job_id)
 #
-# Arg(s):
-#    job_id - 
-#
+#  Args:
+#	job_id - 
 #
 #>
 ######################################################################

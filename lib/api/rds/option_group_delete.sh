@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_option_group_delete(option_group_name)
+#	p6_aws_rds_option_group_delete(option_group_name)
 #
-# Arg(s):
-#    option_group_name - 
-#
+#  Args:
+#	option_group_name - 
 #
 #>
 ######################################################################

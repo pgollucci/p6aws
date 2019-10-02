@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_cluster_snapshot_schedule_modify(cluster_identifier)
+#	p6_aws_redshift_cluster_snapshot_schedule_modify(cluster_identifier)
 #
-# Arg(s):
-#    cluster_identifier - 
-#
+#  Args:
+#	cluster_identifier - 
 #
 #>
 ######################################################################

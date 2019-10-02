@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_resource_groups_group_query_get(group_name)
+#	p6_aws_resource_groups_group_query_get(group_name)
 #
-# Arg(s):
-#    group_name - 
-#
+#  Args:
+#	group_name - 
 #
 #>
 ######################################################################

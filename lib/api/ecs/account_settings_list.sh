@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_account_settings_list()
-#
-#
+#	p6_aws_ecs_account_settings_list()
 #
 #>
 ######################################################################

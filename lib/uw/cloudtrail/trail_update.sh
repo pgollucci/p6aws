@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudtrail_global_service_events(name)
+#	p6_aws_cloudtrail_global_service_events(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################
@@ -21,11 +20,10 @@ p6_aws_cloudtrail_global_service_events() {
 #<
 #
 # Function:
-#      = p6_aws_cloudtrail_multi_region_trail(name)
+#	p6_aws_cloudtrail_multi_region_trail(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################
@@ -40,11 +38,10 @@ p6_aws_cloudtrail_multi_region_trail() {
 #<
 #
 # Function:
-#      = p6_aws_cloudtrail_log_file_validation(name)
+#	p6_aws_cloudtrail_log_file_validation(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################
@@ -59,11 +56,10 @@ p6_aws_cloudtrail_log_file_validation() {
 #<
 #
 # Function:
-#      = p6_aws_cloudtrail_organization_trail(name)
+#	p6_aws_cloudtrail_organization_trail(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

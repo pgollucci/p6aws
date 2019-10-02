@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codestar_project_update(id)
+#	p6_aws_codestar_project_update(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

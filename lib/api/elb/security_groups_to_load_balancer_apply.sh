@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elb_security_groups_to_load_balancer_apply(load_balancer_name, security_groups)
+#	p6_aws_elb_security_groups_to_load_balancer_apply(load_balancer_name, security_groups)
 #
-# Arg(s):
-#    load_balancer_name - 
-#    security_groups - 
-#
+#  Args:
+#	load_balancer_name - 
+#	security_groups - 
 #
 #>
 ######################################################################

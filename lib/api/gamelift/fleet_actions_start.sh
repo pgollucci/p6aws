@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_fleet_actions_start(fleet_id, actions)
+#	p6_aws_gamelift_fleet_actions_start(fleet_id, actions)
 #
-# Arg(s):
-#    fleet_id - 
-#    actions - 
-#
+#  Args:
+#	fleet_id - 
+#	actions - 
 #
 #>
 ######################################################################

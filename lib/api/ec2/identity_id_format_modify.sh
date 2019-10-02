@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_identity_id_format_modify(principal_arn, resource, use_long_ids)
+#	p6_aws_ec2_identity_id_format_modify(principal_arn, resource, use_long_ids)
 #
-# Arg(s):
-#    principal_arn - 
-#    resource - 
-#    use_long_ids - 
-#
+#  Args:
+#	principal_arn - 
+#	resource - 
+#	use_long_ids - 
 #
 #>
 ######################################################################

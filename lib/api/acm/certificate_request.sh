@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_acm_certificate_request(domain_name)
+#	p6_aws_acm_certificate_request(domain_name)
 #
-# Arg(s):
-#    domain_name - 
-#
+#  Args:
+#	domain_name - 
 #
 #>
 ######################################################################

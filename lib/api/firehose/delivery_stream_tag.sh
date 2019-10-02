@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_firehose_delivery_stream_tag(delivery_stream_name, tags)
+#	p6_aws_firehose_delivery_stream_tag(delivery_stream_name, tags)
 #
-# Arg(s):
-#    delivery_stream_name - 
-#    tags - 
-#
+#  Args:
+#	delivery_stream_name - 
+#	tags - 
 #
 #>
 ######################################################################

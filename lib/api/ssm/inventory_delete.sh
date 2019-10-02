@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_inventory_delete(type_name)
+#	p6_aws_ssm_inventory_delete(type_name)
 #
-# Arg(s):
-#    type_name - 
-#
+#  Args:
+#	type_name - 
 #
 #>
 ######################################################################

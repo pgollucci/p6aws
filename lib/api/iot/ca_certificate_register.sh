@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_ca_certificate_register(ca_certificate, verification_certificate)
+#	p6_aws_iot_ca_certificate_register(ca_certificate, verification_certificate)
 #
-# Arg(s):
-#    ca_certificate - 
-#    verification_certificate - 
-#
+#  Args:
+#	ca_certificate - 
+#	verification_certificate - 
 #
 #>
 ######################################################################

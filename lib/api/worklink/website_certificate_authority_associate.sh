@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_worklink_website_certificate_authority_associate(fleet_arn, certificate)
+#	p6_aws_worklink_website_certificate_authority_associate(fleet_arn, certificate)
 #
-# Arg(s):
-#    fleet_arn - 
-#    certificate - 
-#
+#  Args:
+#	fleet_arn - 
+#	certificate - 
 #
 #>
 ######################################################################

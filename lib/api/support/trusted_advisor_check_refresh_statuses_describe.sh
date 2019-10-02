@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_support_trusted_advisor_check_refresh_statuses_describe(check_ids)
+#	p6_aws_support_trusted_advisor_check_refresh_statuses_describe(check_ids)
 #
-# Arg(s):
-#    check_ids - 
-#
+#  Args:
+#	check_ids - 
 #
 #>
 ######################################################################

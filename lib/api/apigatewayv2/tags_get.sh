@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_apigatewayv2_tags_get(resource_arn)
+#	p6_aws_apigatewayv2_tags_get(resource_arn)
 #
-# Arg(s):
-#    resource_arn - 
-#
+#  Args:
+#	resource_arn - 
 #
 #>
 ######################################################################

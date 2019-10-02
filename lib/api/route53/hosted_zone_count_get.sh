@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_hosted_zone_count_get()
-#
-#
+#	p6_aws_route53_hosted_zone_count_get()
 #
 #>
 ######################################################################

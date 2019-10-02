@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_groundstation_contacts_list(end_time, start_time, status_list)
+#	p6_aws_groundstation_contacts_list(end_time, start_time, status_list)
 #
-# Arg(s):
-#    end_time - 
-#    start_time - 
-#    status_list - 
-#
+#  Args:
+#	end_time - 
+#	start_time - 
+#	status_list - 
 #
 #>
 ######################################################################

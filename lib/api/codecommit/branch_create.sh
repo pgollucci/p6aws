@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_codecommit_branch_create(repository_name, branch_name, commit_id)
+#	p6_aws_codecommit_branch_create(repository_name, branch_name, commit_id)
 #
-# Arg(s):
-#    repository_name - 
-#    branch_name - 
-#    commit_id - 
-#
+#  Args:
+#	repository_name - 
+#	branch_name - 
+#	commit_id - 
 #
 #>
 ######################################################################

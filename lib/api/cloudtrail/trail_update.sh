@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudtrail_trail_update(name)
+#	p6_aws_cloudtrail_trail_update(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

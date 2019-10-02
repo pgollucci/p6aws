@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_compliance_details_by_config_rule_get(config_rule_name)
+#	p6_aws_configservice_compliance_details_by_config_rule_get(config_rule_name)
 #
-# Arg(s):
-#    config_rule_name - 
-#
+#  Args:
+#	config_rule_name - 
 #
 #>
 ######################################################################

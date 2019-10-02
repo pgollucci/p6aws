@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_appstream_directory_config_update(directory_name)
+#	p6_aws_appstream_directory_config_update(directory_name)
 #
-# Arg(s):
-#    directory_name - 
-#
+#  Args:
+#	directory_name - 
 #
 #>
 ######################################################################

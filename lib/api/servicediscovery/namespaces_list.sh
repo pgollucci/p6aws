@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_servicediscovery_namespaces_list()
-#
-#
+#	p6_aws_servicediscovery_namespaces_list()
 #
 #>
 ######################################################################

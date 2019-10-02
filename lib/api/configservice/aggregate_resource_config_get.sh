@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_aggregate_resource_config_get(configuration_aggregator_name, resource_identifier)
+#	p6_aws_configservice_aggregate_resource_config_get(configuration_aggregator_name, resource_identifier)
 #
-# Arg(s):
-#    configuration_aggregator_name - 
-#    resource_identifier - 
-#
+#  Args:
+#	configuration_aggregator_name - 
+#	resource_identifier - 
 #
 #>
 ######################################################################

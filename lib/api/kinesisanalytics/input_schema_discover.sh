@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesisanalytics_input_schema_discover()
-#
-#
+#	p6_aws_kinesisanalytics_input_schema_discover()
 #
 #>
 ######################################################################

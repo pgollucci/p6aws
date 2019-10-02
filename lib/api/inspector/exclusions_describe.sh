@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_inspector_exclusions_describe(exclusion_arns)
+#	p6_aws_inspector_exclusions_describe(exclusion_arns)
 #
-# Arg(s):
-#    exclusion_arns - 
-#
+#  Args:
+#	exclusion_arns - 
 #
 #>
 ######################################################################

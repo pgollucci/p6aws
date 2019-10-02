@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elastictranscoder_pipeline_notifications_update(id, notifications)
+#	p6_aws_elastictranscoder_pipeline_notifications_update(id, notifications)
 #
-# Arg(s):
-#    id - 
-#    notifications - 
-#
+#  Args:
+#	id - 
+#	notifications - 
 #
 #>
 ######################################################################

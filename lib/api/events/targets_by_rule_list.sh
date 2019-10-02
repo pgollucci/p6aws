@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_events_targets_by_rule_list(rule)
+#	p6_aws_events_targets_by_rule_list(rule)
 #
-# Arg(s):
-#    rule - 
-#
+#  Args:
+#	rule - 
 #
 #>
 ######################################################################

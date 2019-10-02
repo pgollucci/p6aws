@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_stream_describe(stream_id)
+#	p6_aws_iot_stream_describe(stream_id)
 #
-# Arg(s):
-#    stream_id - 
-#
+#  Args:
+#	stream_id - 
 #
 #>
 ######################################################################

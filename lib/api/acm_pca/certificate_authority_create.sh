@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_acm_pca_certificate_authority_create(certificate_authority_configuration, certificate_authority_type)
+#	p6_aws_acm_pca_certificate_authority_create(certificate_authority_configuration, certificate_authority_type)
 #
-# Arg(s):
-#    certificate_authority_configuration - 
-#    certificate_authority_type - 
-#
+#  Args:
+#	certificate_authority_configuration - 
+#	certificate_authority_type - 
 #
 #>
 ######################################################################

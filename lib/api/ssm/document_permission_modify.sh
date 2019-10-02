@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_document_permission_modify(name, permission_type)
+#	p6_aws_ssm_document_permission_modify(name, permission_type)
 #
-# Arg(s):
-#    name - 
-#    permission_type - 
-#
+#  Args:
+#	name - 
+#	permission_type - 
 #
 #>
 ######################################################################

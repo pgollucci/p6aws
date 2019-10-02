@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesisanalyticsv2_application_reference_data_source_add(application_name, current_application_version_id, reference_data_source)
+#	p6_aws_kinesisanalyticsv2_application_reference_data_source_add(application_name, current_application_version_id, reference_data_source)
 #
-# Arg(s):
-#    application_name - 
-#    current_application_version_id - 
-#    reference_data_source - 
-#
+#  Args:
+#	application_name - 
+#	current_application_version_id - 
+#	reference_data_source - 
 #
 #>
 ######################################################################

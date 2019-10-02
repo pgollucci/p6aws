@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lambda_publish(function_name)
+#	p6_aws_lambda_publish(function_name)
 #
-# Arg(s):
-#    function_name - 
-#
+#  Args:
+#	function_name - 
 #
 #>
 ######################################################################
@@ -21,11 +20,10 @@ p6_aws_lambda_publish() {
 #<
 #
 # Function:
-#      = p6_aws_lambda_run(function_name)
+#	p6_aws_lambda_run(function_name)
 #
-# Arg(s):
-#    function_name - 
-#
+#  Args:
+#	function_name - 
 #
 #>
 ######################################################################

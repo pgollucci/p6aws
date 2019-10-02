@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_organizations_aws_service_access_enable(service_principal)
+#	p6_aws_organizations_aws_service_access_enable(service_principal)
 #
-# Arg(s):
-#    service_principal - 
-#
+#  Args:
+#	service_principal - 
 #
 #>
 ######################################################################

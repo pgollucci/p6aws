@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iotthingsgraph_entity_definitions_upload()
-#
-#
+#	p6_aws_iotthingsgraph_entity_definitions_upload()
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_service_setting_get(setting_id)
+#	p6_aws_ssm_service_setting_get(setting_id)
 #
-# Arg(s):
-#    setting_id - 
-#
+#  Args:
+#	setting_id - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_service_quotas_services_list()
-#
-#
+#	p6_aws_service_quotas_services_list()
 #
 #>
 ######################################################################

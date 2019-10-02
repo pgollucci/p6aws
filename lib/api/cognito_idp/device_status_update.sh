@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_device_status_update(access_token, device_key)
+#	p6_aws_cognito_idp_device_status_update(access_token, device_key)
 #
-# Arg(s):
-#    access_token - 
-#    device_key - 
-#
+#  Args:
+#	access_token - 
+#	device_key - 
 #
 #>
 ######################################################################

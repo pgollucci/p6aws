@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_codecommit_pull_request_create(title, targets)
+#	p6_aws_codecommit_pull_request_create(title, targets)
 #
-# Arg(s):
-#    title - 
-#    targets - 
-#
+#  Args:
+#	title - 
+#	targets - 
 #
 #>
 ######################################################################

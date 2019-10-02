@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_elbv2_target_health_describe(target_group_arn)
+#	p6_aws_elbv2_target_health_describe(target_group_arn)
 #
-# Arg(s):
-#    target_group_arn - 
-#
+#  Args:
+#	target_group_arn - 
 #
 #>
 ######################################################################

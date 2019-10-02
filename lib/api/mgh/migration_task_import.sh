@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_mgh_migration_task_import(progress_update_stream, migration_task_name)
+#	p6_aws_mgh_migration_task_import(progress_update_stream, migration_task_name)
 #
-# Arg(s):
-#    progress_update_stream - 
-#    migration_task_name - 
-#
+#  Args:
+#	progress_update_stream - 
+#	migration_task_name - 
 #
 #>
 ######################################################################

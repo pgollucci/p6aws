@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_invitation_configuration_put(organization_name)
+#	p6_aws_alexaforbusiness_invitation_configuration_put(organization_name)
 #
-# Arg(s):
-#    organization_name - 
-#
+#  Args:
+#	organization_name - 
 #
 #>
 ######################################################################

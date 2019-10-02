@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_mediapackage_channels_list()
-#
-#
+#	p6_aws_mediapackage_channels_list()
 #
 #>
 ######################################################################

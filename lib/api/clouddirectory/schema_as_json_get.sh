@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_clouddirectory_schema_as_json_get(schema_arn)
+#	p6_aws_clouddirectory_schema_as_json_get(schema_arn)
 #
-# Arg(s):
-#    schema_arn - 
-#
+#  Args:
+#	schema_arn - 
 #
 #>
 ######################################################################

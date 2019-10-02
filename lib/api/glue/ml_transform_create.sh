@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_ml_transform_create(name, input_record_tables, parameters, role)
+#	p6_aws_glue_ml_transform_create(name, input_record_tables, parameters, role)
 #
-# Arg(s):
-#    name - 
-#    input_record_tables - 
-#    parameters - 
-#    role - 
-#
+#  Args:
+#	name - 
+#	input_record_tables - 
+#	parameters - 
+#	role - 
 #
 #>
 ######################################################################

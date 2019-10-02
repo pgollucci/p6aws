@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_local_console_password_set(gateway_arn, local_console_password)
+#	p6_aws_storagegateway_local_console_password_set(gateway_arn, local_console_password)
 #
-# Arg(s):
-#    gateway_arn - 
-#    local_console_password - 
-#
+#  Args:
+#	gateway_arn - 
+#	local_console_password - 
 #
 #>
 ######################################################################

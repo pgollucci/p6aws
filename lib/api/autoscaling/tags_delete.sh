@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_autoscaling_tags_delete(tags)
+#	p6_aws_autoscaling_tags_delete(tags)
 #
-# Arg(s):
-#    tags - 
-#
+#  Args:
+#	tags - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_event_stream_put(application_id, write_event_stream)
+#	p6_aws_pinpoint_event_stream_put(application_id, write_event_stream)
 #
-# Arg(s):
-#    application_id - 
-#    write_event_stream - 
-#
+#  Args:
+#	application_id - 
+#	write_event_stream - 
 #
 #>
 ######################################################################

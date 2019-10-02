@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_instance_assign(instance_id, layer_ids)
+#	p6_aws_opsworks_instance_assign(instance_id, layer_ids)
 #
-# Arg(s):
-#    instance_id - 
-#    layer_ids - 
-#
+#  Args:
+#	instance_id - 
+#	layer_ids - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_snapshot_schedule_describe(volume_arn)
+#	p6_aws_storagegateway_snapshot_schedule_describe(volume_arn)
 #
-# Arg(s):
-#    volume_arn - 
-#
+#  Args:
+#	volume_arn - 
 #
 #>
 ######################################################################

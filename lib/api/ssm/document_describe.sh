@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_document_describe(name)
+#	p6_aws_ssm_document_describe(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_endpoints_list()
-#
-#
+#	p6_aws_sagemaker_endpoints_list()
 #
 #>
 ######################################################################

@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesisanalytics_application_input_processing_configuration_add(application_name, current_application_version_id, input_id, input_processing_configuration)
+#	p6_aws_kinesisanalytics_application_input_processing_configuration_add(application_name, current_application_version_id, input_id, input_processing_configuration)
 #
-# Arg(s):
-#    application_name - 
-#    current_application_version_id - 
-#    input_id - 
-#    input_processing_configuration - 
-#
+#  Args:
+#	application_name - 
+#	current_application_version_id - 
+#	input_id - 
+#	input_processing_configuration - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_regional_byte_match_set_delete(byte_match_set_id, change_token)
+#	p6_aws_waf_regional_byte_match_set_delete(byte_match_set_id, change_token)
 #
-# Arg(s):
-#    byte_match_set_id - 
-#    change_token - 
-#
+#  Args:
+#	byte_match_set_id - 
+#	change_token - 
 #
 #>
 ######################################################################

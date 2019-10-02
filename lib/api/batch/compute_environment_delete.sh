@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_batch_compute_environment_delete(compute_environment)
+#	p6_aws_batch_compute_environment_delete(compute_environment)
 #
-# Arg(s):
-#    compute_environment - 
-#
+#  Args:
+#	compute_environment - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_datasync_task_executions_list()
-#
-#
+#	p6_aws_datasync_task_executions_list()
 #
 #>
 ######################################################################

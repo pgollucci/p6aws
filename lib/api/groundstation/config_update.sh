@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_groundstation_config_update(config_data, config_id, config_type, name)
+#	p6_aws_groundstation_config_update(config_data, config_id, config_type, name)
 #
-# Arg(s):
-#    config_data - 
-#    config_id - 
-#    config_type - 
-#    name - 
-#
+#  Args:
+#	config_data - 
+#	config_id - 
+#	config_type - 
+#	name - 
 #
 #>
 ######################################################################

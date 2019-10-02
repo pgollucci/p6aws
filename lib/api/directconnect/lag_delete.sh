@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_directconnect_lag_delete(lag_id)
+#	p6_aws_directconnect_lag_delete(lag_id)
 #
-# Arg(s):
-#    lag_id - 
-#
+#  Args:
+#	lag_id - 
 #
 #>
 ######################################################################

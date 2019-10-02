@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_identity_id_format_describe(principal_arn)
+#	p6_aws_ec2_identity_id_format_describe(principal_arn)
 #
-# Arg(s):
-#    principal_arn - 
-#
+#  Args:
+#	principal_arn - 
 #
 #>
 ######################################################################

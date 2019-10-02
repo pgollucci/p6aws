@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_bucket_replication_put(bucket, replication_configuration)
+#	p6_aws_s3api_bucket_replication_put(bucket, replication_configuration)
 #
-# Arg(s):
-#    bucket - 
-#    replication_configuration - 
-#
+#  Args:
+#	bucket - 
+#	replication_configuration - 
 #
 #>
 ######################################################################

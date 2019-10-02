@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_subnet_cidr_block_associate(ipv6_cidr_block, subnet_id)
+#	p6_aws_ec2_subnet_cidr_block_associate(ipv6_cidr_block, subnet_id)
 #
-# Arg(s):
-#    ipv6_cidr_block - 
-#    subnet_id - 
-#
+#  Args:
+#	ipv6_cidr_block - 
+#	subnet_id - 
 #
 #>
 ######################################################################

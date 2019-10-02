@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudhsmv2_resource_tag(resource_id, tag_list)
+#	p6_aws_cloudhsmv2_resource_tag(resource_id, tag_list)
 #
-# Arg(s):
-#    resource_id - 
-#    tag_list - 
-#
+#  Args:
+#	resource_id - 
+#	tag_list - 
 #
 #>
 ######################################################################

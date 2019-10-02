@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_fleet_delete(fleet_id)
+#	p6_aws_gamelift_fleet_delete(fleet_id)
 #
-# Arg(s):
-#    fleet_id - 
-#
+#  Args:
+#	fleet_id - 
 #
 #>
 ######################################################################

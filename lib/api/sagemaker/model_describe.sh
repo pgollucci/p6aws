@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_model_describe(model_name)
+#	p6_aws_sagemaker_model_describe(model_name)
 #
-# Arg(s):
-#    model_name - 
-#
+#  Args:
+#	model_name - 
 #
 #>
 ######################################################################

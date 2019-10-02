@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_codecommit_folder_get(repository_name, folder_path)
+#	p6_aws_codecommit_folder_get(repository_name, folder_path)
 #
-# Arg(s):
-#    repository_name - 
-#    folder_path - 
-#
+#  Args:
+#	repository_name - 
+#	folder_path - 
 #
 #>
 ######################################################################

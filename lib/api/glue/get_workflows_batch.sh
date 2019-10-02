@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_get_workflows_batch(names)
+#	p6_aws_glue_get_workflows_batch(names)
 #
-# Arg(s):
-#    names - 
-#
+#  Args:
+#	names - 
 #
 #>
 ######################################################################

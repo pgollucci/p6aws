@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_swf_domain_register(name, workflow_execution_retention_period_in_days)
+#	p6_aws_swf_domain_register(name, workflow_execution_retention_period_in_days)
 #
-# Arg(s):
-#    name - 
-#    workflow_execution_retention_period_in_days - 
-#
+#  Args:
+#	name - 
+#	workflow_execution_retention_period_in_days - 
 #
 #>
 ######################################################################

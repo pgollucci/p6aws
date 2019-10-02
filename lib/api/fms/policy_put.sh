@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_fms_policy_put(policy)
+#	p6_aws_fms_policy_put(policy)
 #
-# Arg(s):
-#    policy - 
-#
+#  Args:
+#	policy - 
 #
 #>
 ######################################################################

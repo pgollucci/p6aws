@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_iotthingsgraph_namespace_delete()
-#
-#
+#	p6_aws_iotthingsgraph_namespace_delete()
 #
 #>
 ######################################################################

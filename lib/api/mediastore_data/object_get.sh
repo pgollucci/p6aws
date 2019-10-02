@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mediastore_data_object_get(path)
+#	p6_aws_mediastore_data_object_get(path)
 #
-# Arg(s):
-#    path - 
-#
+#  Args:
+#	path - 
 #
 #>
 ######################################################################

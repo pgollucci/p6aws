@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ecr_image_tag_mutability_put(repository_name, image_tag_mutability)
+#	p6_aws_ecr_image_tag_mutability_put(repository_name, image_tag_mutability)
 #
-# Arg(s):
-#    repository_name - 
-#    image_tag_mutability - 
-#
+#  Args:
+#	repository_name - 
+#	image_tag_mutability - 
 #
 #>
 ######################################################################

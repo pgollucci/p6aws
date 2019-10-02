@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudtrail_event_selectors_get(trail_name)
+#	p6_aws_cloudtrail_event_selectors_get(trail_name)
 #
-# Arg(s):
-#    trail_name - 
-#
+#  Args:
+#	trail_name - 
 #
 #>
 ######################################################################

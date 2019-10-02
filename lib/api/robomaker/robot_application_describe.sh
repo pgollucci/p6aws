@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_robomaker_robot_application_describe(application)
+#	p6_aws_robomaker_robot_application_describe(application)
 #
-# Arg(s):
-#    application - 
-#
+#  Args:
+#	application - 
 #
 #>
 ######################################################################

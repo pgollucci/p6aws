@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_network_profiles_search()
-#
-#
+#	p6_aws_alexaforbusiness_network_profiles_search()
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_reserved_instances_listing_cancel(reserved_instances_listing_id)
+#	p6_aws_ec2_reserved_instances_listing_cancel(reserved_instances_listing_id)
 #
-# Arg(s):
-#    reserved_instances_listing_id - 
-#
+#  Args:
+#	reserved_instances_listing_id - 
 #
 #>
 ######################################################################

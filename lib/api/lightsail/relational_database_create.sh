@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_relational_database_create(relational_database_name, relational_database_blueprint_id, relational_database_bundle_id, master_database_name, master_username)
+#	p6_aws_lightsail_relational_database_create(relational_database_name, relational_database_blueprint_id, relational_database_bundle_id, master_database_name, master_username)
 #
-# Arg(s):
-#    relational_database_name - 
-#    relational_database_blueprint_id - 
-#    relational_database_bundle_id - 
-#    master_database_name - 
-#    master_username - 
-#
+#  Args:
+#	relational_database_name - 
+#	relational_database_blueprint_id - 
+#	relational_database_bundle_id - 
+#	master_database_name - 
+#	master_username - 
 #
 #>
 ######################################################################

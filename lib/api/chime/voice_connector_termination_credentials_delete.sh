@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_chime_voice_connector_termination_credentials_delete(voice_connector_id)
+#	p6_aws_chime_voice_connector_termination_credentials_delete(voice_connector_id)
 #
-# Arg(s):
-#    voice_connector_id - 
-#
+#  Args:
+#	voice_connector_id - 
 #
 #>
 ######################################################################

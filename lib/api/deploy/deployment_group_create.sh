@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_deploy_deployment_group_create(application_name, deployment_group_name, service_role_arn)
+#	p6_aws_deploy_deployment_group_create(application_name, deployment_group_name, service_role_arn)
 #
-# Arg(s):
-#    application_name - 
-#    deployment_group_name - 
-#    service_role_arn - 
-#
+#  Args:
+#	application_name - 
+#	deployment_group_name - 
+#	service_role_arn - 
 #
 #>
 ######################################################################

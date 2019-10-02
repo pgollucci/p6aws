@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_robomaker_deployment_job_create(fleet, deployment_application_configs)
+#	p6_aws_robomaker_deployment_job_create(fleet, deployment_application_configs)
 #
-# Arg(s):
-#    fleet - 
-#    deployment_application_configs - 
-#
+#  Args:
+#	fleet - 
+#	deployment_application_configs - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudformation_template_cost_estimate()
-#
-#
+#	p6_aws_cloudformation_template_cost_estimate()
 #
 #>
 ######################################################################

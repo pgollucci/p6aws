@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_appmesh_virtual_service_describe(mesh_name, virtual_service_name)
+#	p6_aws_appmesh_virtual_service_describe(mesh_name, virtual_service_name)
 #
-# Arg(s):
-#    mesh_name - 
-#    virtual_service_name - 
-#
+#  Args:
+#	mesh_name - 
+#	virtual_service_name - 
 #
 #>
 ######################################################################

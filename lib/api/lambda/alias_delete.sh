@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_lambda_alias_delete(function_name, name)
+#	p6_aws_lambda_alias_delete(function_name, name)
 #
-# Arg(s):
-#    function_name - 
-#    name - 
-#
+#  Args:
+#	function_name - 
+#	name - 
 #
 #>
 ######################################################################

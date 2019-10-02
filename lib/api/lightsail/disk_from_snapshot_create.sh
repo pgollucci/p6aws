@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_disk_from_snapshot_create(disk_name, disk_snapshot_name, availability_zone, size_in_gb)
+#	p6_aws_lightsail_disk_from_snapshot_create(disk_name, disk_snapshot_name, availability_zone, size_in_gb)
 #
-# Arg(s):
-#    disk_name - 
-#    disk_snapshot_name - 
-#    availability_zone - 
-#    size_in_gb - 
-#
+#  Args:
+#	disk_name - 
+#	disk_snapshot_name - 
+#	availability_zone - 
+#	size_in_gb - 
 #
 #>
 ######################################################################

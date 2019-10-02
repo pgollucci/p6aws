@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_regional_web_acls_list()
-#
-#
+#	p6_aws_waf_regional_web_acls_list()
 #
 #>
 ######################################################################

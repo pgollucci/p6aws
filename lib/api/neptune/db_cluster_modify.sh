@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_neptune_db_cluster_modify(db_cluster_identifier)
+#	p6_aws_neptune_db_cluster_modify(db_cluster_identifier)
 #
-# Arg(s):
-#    db_cluster_identifier - 
-#
+#  Args:
+#	db_cluster_identifier - 
 #
 #>
 ######################################################################

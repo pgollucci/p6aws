@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudhsm_hapg_describe(hapg_arn)
+#	p6_aws_cloudhsm_hapg_describe(hapg_arn)
 #
-# Arg(s):
-#    hapg_arn - 
-#
+#  Args:
+#	hapg_arn - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_receipt_filter_create(filter)
+#	p6_aws_ses_receipt_filter_create(filter)
 #
-# Arg(s):
-#    filter - 
-#
+#  Args:
+#	filter - 
 #
 #>
 ######################################################################

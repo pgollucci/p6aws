@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ds_trust_delete(trust_id)
+#	p6_aws_ds_trust_delete(trust_id)
 #
-# Arg(s):
-#    trust_id - 
-#
+#  Args:
+#	trust_id - 
 #
 #>
 ######################################################################

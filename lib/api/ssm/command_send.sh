@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_command_send(document_name)
+#	p6_aws_ssm_command_send(document_name)
 #
-# Arg(s):
-#    document_name - 
-#
+#  Args:
+#	document_name - 
 #
 #>
 ######################################################################

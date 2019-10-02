@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_devicefarm_remote_access_session_create(project_arn, device_arn)
+#	p6_aws_devicefarm_remote_access_session_create(project_arn, device_arn)
 #
-# Arg(s):
-#    project_arn - 
-#    device_arn - 
-#
+#  Args:
+#	project_arn - 
+#	device_arn - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_byoip_cidr_deprovision(cidr)
+#	p6_aws_ec2_byoip_cidr_deprovision(cidr)
 #
-# Arg(s):
-#    cidr - 
-#
+#  Args:
+#	cidr - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_copy_product_status_describe(copy_product_token)
+#	p6_aws_servicecatalog_copy_product_status_describe(copy_product_token)
 #
-# Arg(s):
-#    copy_product_token - 
-#
+#  Args:
+#	copy_product_token - 
 #
 #>
 ######################################################################

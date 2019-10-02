@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_vpc_from_hosted_zone_disassociate(hosted_zone_id, vpc)
+#	p6_aws_route53_vpc_from_hosted_zone_disassociate(hosted_zone_id, vpc)
 #
-# Arg(s):
-#    hosted_zone_id - 
-#    vpc - 
-#
+#  Args:
+#	hosted_zone_id - 
+#	vpc - 
 #
 #>
 ######################################################################

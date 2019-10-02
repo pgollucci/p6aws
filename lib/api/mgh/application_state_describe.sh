@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mgh_application_state_describe(application_id)
+#	p6_aws_mgh_application_state_describe(application_id)
 #
-# Arg(s):
-#    application_id - 
-#
+#  Args:
+#	application_id - 
 #
 #>
 ######################################################################

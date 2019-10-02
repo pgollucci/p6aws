@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sns_sms_attributes_set(attributes)
+#	p6_aws_sns_sms_attributes_set(attributes)
 #
-# Arg(s):
-#    attributes - 
-#
+#  Args:
+#	attributes - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_jobs_data_job_execution_state(job_id, thing_name, status)
+#	p6_aws_iot_jobs_data_job_execution_state(job_id, thing_name, status)
 #
-# Arg(s):
-#    job_id - 
-#    thing_name - 
-#    status - 
-#
+#  Args:
+#	job_id - 
+#	thing_name - 
+#	status - 
 #
 #>
 ######################################################################
@@ -25,13 +24,12 @@ p6_aws_iot_jobs_data_job_execution_state() {
 #<
 #
 # Function:
-#      = p6_aws_iot_jobs_data_job_document(job_id, thing_name, status)
+#	p6_aws_iot_jobs_data_job_document(job_id, thing_name, status)
 #
-# Arg(s):
-#    job_id - 
-#    thing_name - 
-#    status - 
-#
+#  Args:
+#	job_id - 
+#	thing_name - 
+#	status - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_principal_from_portfolio_disassociate(portfolio_id, principal_arn)
+#	p6_aws_servicecatalog_principal_from_portfolio_disassociate(portfolio_id, principal_arn)
 #
-# Arg(s):
-#    portfolio_id - 
-#    principal_arn - 
-#
+#  Args:
+#	portfolio_id - 
+#	principal_arn - 
 #
 #>
 ######################################################################

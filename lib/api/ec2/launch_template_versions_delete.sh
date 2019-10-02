@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_launch_template_versions_delete(versions)
+#	p6_aws_ec2_launch_template_versions_delete(versions)
 #
-# Arg(s):
-#    versions - 
-#
+#  Args:
+#	versions - 
 #
 #>
 ######################################################################

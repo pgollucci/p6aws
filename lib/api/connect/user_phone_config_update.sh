@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_connect_user_phone_config_update(phone_config, user_id, instance_id)
+#	p6_aws_connect_user_phone_config_update(phone_config, user_id, instance_id)
 #
-# Arg(s):
-#    phone_config - 
-#    user_id - 
-#    instance_id - 
-#
+#  Args:
+#	phone_config - 
+#	user_id - 
+#	instance_id - 
 #
 #>
 ######################################################################

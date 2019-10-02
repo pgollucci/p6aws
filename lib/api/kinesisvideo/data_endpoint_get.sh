@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesisvideo_data_endpoint_get(api_name)
+#	p6_aws_kinesisvideo_data_endpoint_get(api_name)
 #
-# Arg(s):
-#    api_name - 
-#
+#  Args:
+#	api_name - 
 #
 #>
 ######################################################################

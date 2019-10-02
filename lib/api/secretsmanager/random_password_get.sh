@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_secretsmanager_random_password_get()
-#
-#
+#	p6_aws_secretsmanager_random_password_get()
 #
 #>
 ######################################################################

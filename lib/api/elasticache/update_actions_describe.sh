@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticache_update_actions_describe()
-#
-#
+#	p6_aws_elasticache_update_actions_describe()
 #
 #>
 ######################################################################

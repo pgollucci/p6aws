@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpc_attribute_describe(attribute, vpc_id)
+#	p6_aws_ec2_vpc_attribute_describe(attribute, vpc_id)
 #
-# Arg(s):
-#    attribute - 
-#    vpc_id - 
-#
+#  Args:
+#	attribute - 
+#	vpc_id - 
 #
 #>
 ######################################################################

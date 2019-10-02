@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloud9_environment_memberships_describe()
-#
-#
+#	p6_aws_cloud9_environment_memberships_describe()
 #
 #>
 ######################################################################

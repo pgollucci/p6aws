@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_workflow_run_properties_get(name, run_id)
+#	p6_aws_glue_workflow_run_properties_get(name, run_id)
 #
-# Arg(s):
-#    name - 
-#    run_id - 
-#
+#  Args:
+#	name - 
+#	run_id - 
 #
 #>
 ######################################################################

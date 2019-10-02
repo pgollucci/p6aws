@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_datapipeline_pipeline_deactivate(pipeline_id)
+#	p6_aws_datapipeline_pipeline_deactivate(pipeline_id)
 #
-# Arg(s):
-#    pipeline_id - 
-#
+#  Args:
+#	pipeline_id - 
 #
 #>
 ######################################################################

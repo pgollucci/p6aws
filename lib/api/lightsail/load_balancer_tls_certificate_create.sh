@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_load_balancer_tls_certificate_create(load_balancer_name, certificate_name, certificate_domain_name)
+#	p6_aws_lightsail_load_balancer_tls_certificate_create(load_balancer_name, certificate_name, certificate_domain_name)
 #
-# Arg(s):
-#    load_balancer_name - 
-#    certificate_name - 
-#    certificate_domain_name - 
-#
+#  Args:
+#	load_balancer_name - 
+#	certificate_name - 
+#	certificate_domain_name - 
 #
 #>
 ######################################################################

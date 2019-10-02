@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_greengrass_logger_definitions_list()
-#
-#
+#	p6_aws_greengrass_logger_definitions_list()
 #
 #>
 ######################################################################

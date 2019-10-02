@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_resource_tag(resource_arn, tags_to_add)
+#	p6_aws_glue_resource_tag(resource_arn, tags_to_add)
 #
-# Arg(s):
-#    resource_arn - 
-#    tags_to_add - 
-#
+#  Args:
+#	resource_arn - 
+#	tags_to_add - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_appstream_vpc_config()
-#
-#
+#	p6_aws_appstream_vpc_config()
 #
 #>
 ######################################################################
@@ -17,9 +15,7 @@ p6_aws_appstream_vpc_config() {
 #<
 #
 # Function:
-#      = p6_aws_appstream_default_internet_access()
-#
-#
+#	p6_aws_appstream_default_internet_access()
 #
 #>
 ######################################################################

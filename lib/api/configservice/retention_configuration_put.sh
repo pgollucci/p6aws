@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_retention_configuration_put(retention_period_in_days)
+#	p6_aws_configservice_retention_configuration_put(retention_period_in_days)
 #
-# Arg(s):
-#    retention_period_in_days - 
-#
+#  Args:
+#	retention_period_in_days - 
 #
 #>
 ######################################################################

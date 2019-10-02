@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_workdocs_document_path_get(document_id)
+#	p6_aws_workdocs_document_path_get(document_id)
 #
-# Arg(s):
-#    document_id - 
-#
+#  Args:
+#	document_id - 
 #
 #>
 ######################################################################

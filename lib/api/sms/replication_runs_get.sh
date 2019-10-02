@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sms_replication_runs_get(replication_job_id)
+#	p6_aws_sms_replication_runs_get(replication_job_id)
 #
-# Arg(s):
-#    replication_job_id - 
-#
+#  Args:
+#	replication_job_id - 
 #
 #>
 ######################################################################

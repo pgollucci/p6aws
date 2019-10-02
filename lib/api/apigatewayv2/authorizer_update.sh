@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_apigatewayv2_authorizer_update(api_id, authorizer_id)
+#	p6_aws_apigatewayv2_authorizer_update(api_id, authorizer_id)
 #
-# Arg(s):
-#    api_id - 
-#    authorizer_id - 
-#
+#  Args:
+#	api_id - 
+#	authorizer_id - 
 #
 #>
 ######################################################################

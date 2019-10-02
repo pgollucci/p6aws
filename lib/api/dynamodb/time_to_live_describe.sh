@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_dynamodb_time_to_live_describe(table_name)
+#	p6_aws_dynamodb_time_to_live_describe(table_name)
 #
-# Arg(s):
-#    table_name - 
-#
+#  Args:
+#	table_name - 
 #
 #>
 ######################################################################

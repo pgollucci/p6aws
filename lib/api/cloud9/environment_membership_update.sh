@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_cloud9_environment_membership_update(environment_id, user_arn, permissions)
+#	p6_aws_cloud9_environment_membership_update(environment_id, user_arn, permissions)
 #
-# Arg(s):
-#    environment_id - 
-#    user_arn - 
-#    permissions - 
-#
+#  Args:
+#	environment_id - 
+#	user_arn - 
+#	permissions - 
 #
 #>
 ######################################################################

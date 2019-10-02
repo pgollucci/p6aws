@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_table_delete(database_name, name)
+#	p6_aws_glue_table_delete(database_name, name)
 #
-# Arg(s):
-#    database_name - 
-#    name - 
-#
+#  Args:
+#	database_name - 
+#	name - 
 #
 #>
 ######################################################################

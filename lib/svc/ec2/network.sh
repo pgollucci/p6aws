@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_svc_vpcs_list()
-#
-#
+#	p6_aws_ec2_svc_vpcs_list()
 #
 #>
 ######################################################################
@@ -20,12 +18,11 @@ p6_aws_ec2_svc_vpcs_list() {
 #<
 #
 # Function:
-#      = p6_aws_ec2_svc_subnet_get(subnet_type, [vpc_id])
+#	p6_aws_ec2_svc_subnet_get(subnet_type, [vpc_id=$AWS_VPC])
 #
-# Arg(s):
-#    subnet_type - 
-#    vpc_id - 
-#
+#  Args:
+#	subnet_type - 
+#	OPTIONAL vpc_id -  [$AWS_VPC]
 #
 #>
 ######################################################################
@@ -40,12 +37,11 @@ p6_aws_ec2_svc_subnet_get() {
 #<
 #
 # Function:
-#      = p6_aws_ec2_svc_subnet_ids_get(subnet_type, [vpc_id])
+#	p6_aws_ec2_svc_subnet_ids_get(subnet_type, [vpc_id=$AWS_VPC])
 #
-# Arg(s):
-#    subnet_type - 
-#    vpc_id - 
-#
+#  Args:
+#	subnet_type - 
+#	OPTIONAL vpc_id -  [$AWS_VPC]
 #
 #>
 ######################################################################
@@ -60,11 +56,10 @@ p6_aws_ec2_svc_subnet_ids_get() {
 #<
 #
 # Function:
-#      = p6_aws_ec2_svc_subnets_list([vpc_id])
+#	p6_aws_ec2_svc_subnets_list([vpc_id=$AWS_VPC])
 #
-# Arg(s):
-#    vpc_id - 
-#
+#  Args:
+#	OPTIONAL vpc_id -  [$AWS_VPC]
 #
 #>
 ######################################################################
@@ -81,11 +76,10 @@ p6_aws_ec2_svc_subnets_list() {
 #<
 #
 # Function:
-#      = p6_aws_ec2_svc_rtbs_list([vpc_id])
+#	p6_aws_ec2_svc_rtbs_list([vpc_id=$AWS_VPC])
 #
-# Arg(s):
-#    vpc_id - 
-#
+#  Args:
+#	OPTIONAL vpc_id -  [$AWS_VPC]
 #
 #>
 ######################################################################
@@ -108,12 +102,11 @@ p6_aws_ec2_svc_rtbs_list() {
 #<
 #
 # Function:
-#      = p6_aws_ec2_svc_rtb_show(rtb_id, [vpc_id])
+#	p6_aws_ec2_svc_rtb_show(rtb_id, [vpc_id=$AWS_VPC])
 #
-# Arg(s):
-#    rtb_id - 
-#    vpc_id - 
-#
+#  Args:
+#	rtb_id - 
+#	OPTIONAL vpc_id -  [$AWS_VPC]
 #
 #>
 ######################################################################
@@ -136,11 +129,10 @@ p6_aws_ec2_svc_rtb_show() {
 #<
 #
 # Function:
-#      = p6_aws_ec2_svc_eni_list([vpc_id])
+#	p6_aws_ec2_svc_eni_list([vpc_id=$AWS_VPC])
 #
-# Arg(s):
-#    vpc_id - 
-#
+#  Args:
+#	OPTIONAL vpc_id -  [$AWS_VPC]
 #
 #>
 ######################################################################
@@ -157,11 +149,10 @@ p6_aws_ec2_svc_eni_list() {
 #<
 #
 # Function:
-#      = p6_aws_ec2_svc_nat_gateway_show([vpc_id])
+#	p6_aws_ec2_svc_nat_gateway_show([vpc_id=$AWS_VPC])
 #
-# Arg(s):
-#    vpc_id - 
-#
+#  Args:
+#	OPTIONAL vpc_id -  [$AWS_VPC]
 #
 #>
 ######################################################################

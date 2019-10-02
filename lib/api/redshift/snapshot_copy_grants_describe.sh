@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_snapshot_copy_grants_describe()
-#
-#
+#	p6_aws_redshift_snapshot_copy_grants_describe()
 #
 #>
 ######################################################################

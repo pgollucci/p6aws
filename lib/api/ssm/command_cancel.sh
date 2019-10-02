@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_command_cancel(command_id)
+#	p6_aws_ssm_command_cancel(command_id)
 #
-# Arg(s):
-#    command_id - 
-#
+#  Args:
+#	command_id - 
 #
 #>
 ######################################################################

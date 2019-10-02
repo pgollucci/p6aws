@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticbeanstalk_environment_configuration_delete(application_name, environment_name)
+#	p6_aws_elasticbeanstalk_environment_configuration_delete(application_name, environment_name)
 #
-# Arg(s):
-#    application_name - 
-#    environment_name - 
-#
+#  Args:
+#	application_name - 
+#	environment_name - 
 #
 #>
 ######################################################################

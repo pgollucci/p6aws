@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codebuild_delete_builds_batch(ids)
+#	p6_aws_codebuild_delete_builds_batch(ids)
 #
-# Arg(s):
-#    ids - 
-#
+#  Args:
+#	ids - 
 #
 #>
 ######################################################################

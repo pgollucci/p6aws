@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_shield_protections_list()
-#
-#
+#	p6_aws_shield_protections_list()
 #
 #>
 ######################################################################

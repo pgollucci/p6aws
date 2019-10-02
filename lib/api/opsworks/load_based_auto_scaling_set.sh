@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_load_based_auto_scaling_set(layer_id)
+#	p6_aws_opsworks_load_based_auto_scaling_set(layer_id)
 #
-# Arg(s):
-#    layer_id - 
-#
+#  Args:
+#	layer_id - 
 #
 #>
 ######################################################################

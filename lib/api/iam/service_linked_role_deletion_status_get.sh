@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_service_linked_role_deletion_status_get(deletion_task_id)
+#	p6_aws_iam_service_linked_role_deletion_status_get(deletion_task_id)
 #
-# Arg(s):
-#    deletion_task_id - 
-#
+#  Args:
+#	deletion_task_id - 
 #
 #>
 ######################################################################

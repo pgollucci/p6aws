@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_workmail_to_work_mail_register(organization_id, entity_id, email)
+#	p6_aws_workmail_to_work_mail_register(organization_id, entity_id, email)
 #
-# Arg(s):
-#    organization_id - 
-#    entity_id - 
-#    email - 
-#
+#  Args:
+#	organization_id - 
+#	entity_id - 
+#	email - 
 #
 #>
 ######################################################################

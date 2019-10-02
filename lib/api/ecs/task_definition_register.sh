@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_task_definition_register(family, container_definitions)
+#	p6_aws_ecs_task_definition_register(family, container_definitions)
 #
-# Arg(s):
-#    family - 
-#    container_definitions - 
-#
+#  Args:
+#	family - 
+#	container_definitions - 
 #
 #>
 ######################################################################

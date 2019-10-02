@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_lifecycle_config(notebook_instance_name)
+#	p6_aws_sagemaker_lifecycle_config(notebook_instance_name)
 #
-# Arg(s):
-#    notebook_instance_name - 
-#
+#  Args:
+#	notebook_instance_name - 
 #
 #>
 ######################################################################
@@ -21,11 +20,10 @@ p6_aws_sagemaker_lifecycle_config() {
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_accelerator_types(notebook_instance_name)
+#	p6_aws_sagemaker_accelerator_types(notebook_instance_name)
 #
-# Arg(s):
-#    notebook_instance_name - 
-#
+#  Args:
+#	notebook_instance_name - 
 #
 #>
 ######################################################################
@@ -40,11 +38,10 @@ p6_aws_sagemaker_accelerator_types() {
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_default_code_repository(notebook_instance_name)
+#	p6_aws_sagemaker_default_code_repository(notebook_instance_name)
 #
-# Arg(s):
-#    notebook_instance_name - 
-#
+#  Args:
+#	notebook_instance_name - 
 #
 #>
 ######################################################################
@@ -59,11 +56,10 @@ p6_aws_sagemaker_default_code_repository() {
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_additional_code_repositories(notebook_instance_name)
+#	p6_aws_sagemaker_additional_code_repositories(notebook_instance_name)
 #
-# Arg(s):
-#    notebook_instance_name - 
-#
+#  Args:
+#	notebook_instance_name - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_account_setting_default_put(name, value)
+#	p6_aws_ecs_account_setting_default_put(name, value)
 #
-# Arg(s):
-#    name - 
-#    value - 
-#
+#  Args:
+#	name - 
+#	value - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_attached_group_policies_list(group_name)
+#	p6_aws_iam_attached_group_policies_list(group_name)
 #
-# Arg(s):
-#    group_name - 
-#
+#  Args:
+#	group_name - 
 #
 #>
 ######################################################################

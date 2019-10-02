@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_stepfunctions_activity_delete(activity_arn)
+#	p6_aws_stepfunctions_activity_delete(activity_arn)
 #
-# Arg(s):
-#    activity_arn - 
-#
+#  Args:
+#	activity_arn - 
 #
 #>
 ######################################################################

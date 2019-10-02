@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudsearchdomain_documents_upload(documents, content_type)
+#	p6_aws_cloudsearchdomain_documents_upload(documents, content_type)
 #
-# Arg(s):
-#    documents - 
-#    content_type - 
-#
+#  Args:
+#	documents - 
+#	content_type - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_codecommit_repositories_list()
-#
-#
+#	p6_aws_codecommit_repositories_list()
 #
 #>
 ######################################################################

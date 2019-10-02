@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_dynamodb_write_items_transact(transact_items)
+#	p6_aws_dynamodb_write_items_transact(transact_items)
 #
-# Arg(s):
-#    transact_items - 
-#
+#  Args:
+#	transact_items - 
 #
 #>
 ######################################################################

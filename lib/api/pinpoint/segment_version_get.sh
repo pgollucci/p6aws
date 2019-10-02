@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_segment_version_get(application_id, segment_id, segment_version)
+#	p6_aws_pinpoint_segment_version_get(application_id, segment_id, segment_version)
 #
-# Arg(s):
-#    application_id - 
-#    segment_id - 
-#    segment_version - 
-#
+#  Args:
+#	application_id - 
+#	segment_id - 
+#	segment_version - 
 #
 #>
 ######################################################################

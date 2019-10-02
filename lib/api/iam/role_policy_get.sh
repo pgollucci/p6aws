@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_role_policy_get(role_name, policy_name)
+#	p6_aws_iam_role_policy_get(role_name, policy_name)
 #
-# Arg(s):
-#    role_name - 
-#    policy_name - 
-#
+#  Args:
+#	role_name - 
+#	policy_name - 
 #
 #>
 ######################################################################

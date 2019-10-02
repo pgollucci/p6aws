@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_machinelearning_evaluation_create(evaluation_id, ml_model_id, evaluation_data_source_id)
+#	p6_aws_machinelearning_evaluation_create(evaluation_id, ml_model_id, evaluation_data_source_id)
 #
-# Arg(s):
-#    evaluation_id - 
-#    ml_model_id - 
-#    evaluation_data_source_id - 
-#
+#  Args:
+#	evaluation_id - 
+#	ml_model_id - 
+#	evaluation_data_source_id - 
 #
 #>
 ######################################################################

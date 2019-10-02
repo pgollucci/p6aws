@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_polly_lexicon_put(name, content)
+#	p6_aws_polly_lexicon_put(name, content)
 #
-# Arg(s):
-#    name - 
-#    content - 
-#
+#  Args:
+#	name - 
+#	content - 
 #
 #>
 ######################################################################

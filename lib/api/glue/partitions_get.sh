@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_partitions_get(database_name, table_name)
+#	p6_aws_glue_partitions_get(database_name, table_name)
 #
-# Arg(s):
-#    database_name - 
-#    table_name - 
-#
+#  Args:
+#	database_name - 
+#	table_name - 
 #
 #>
 ######################################################################

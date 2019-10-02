@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_route53domains_privacy(domain_name, domain_name, domain_name)
+#	p6_aws_route53domains_privacy(domain_name, domain_name, domain_name)
 #
-# Arg(s):
-#    domain_name - 
-#    domain_name - 
-#    domain_name - 
-#
+#  Args:
+#	domain_name - 
+#	domain_name - 
+#	domain_name - 
 #
 #>
 ######################################################################
@@ -23,13 +22,12 @@ p6_aws_route53domains_privacy() {
 #<
 #
 # Function:
-#      = p6_aws_route53domains_privacy(domain_name, domain_name, domain_name)
+#	p6_aws_route53domains_privacy(domain_name, domain_name, domain_name)
 #
-# Arg(s):
-#    domain_name - 
-#    domain_name - 
-#    domain_name - 
-#
+#  Args:
+#	domain_name - 
+#	domain_name - 
+#	domain_name - 
 #
 #>
 ######################################################################
@@ -44,13 +42,12 @@ p6_aws_route53domains_privacy() {
 #<
 #
 # Function:
-#      = p6_aws_route53domains_privacy(domain_name, domain_name, domain_name)
+#	p6_aws_route53domains_privacy(domain_name, domain_name, domain_name)
 #
-# Arg(s):
-#    domain_name - 
-#    domain_name - 
-#    domain_name - 
-#
+#  Args:
+#	domain_name - 
+#	domain_name - 
+#	domain_name - 
 #
 #>
 ######################################################################

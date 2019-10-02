@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_license_manager_cross_accounts_discovery()
-#
-#
+#	p6_aws_license_manager_cross_accounts_discovery()
 #
 #>
 ######################################################################

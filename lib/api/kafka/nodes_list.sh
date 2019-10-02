@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kafka_nodes_list(cluster_arn)
+#	p6_aws_kafka_nodes_list(cluster_arn)
 #
-# Arg(s):
-#    cluster_arn - 
-#
+#  Args:
+#	cluster_arn - 
 #
 #>
 ######################################################################

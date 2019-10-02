@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iotthingsgraph_entities_get(ids)
+#	p6_aws_iotthingsgraph_entities_get(ids)
 #
-# Arg(s):
-#    ids - 
-#
+#  Args:
+#	ids - 
 #
 #>
 ######################################################################

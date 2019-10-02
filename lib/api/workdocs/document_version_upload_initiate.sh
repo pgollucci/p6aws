@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_workdocs_document_version_upload_initiate(parent_folder_id)
+#	p6_aws_workdocs_document_version_upload_initiate(parent_folder_id)
 #
-# Arg(s):
-#    parent_folder_id - 
-#
+#  Args:
+#	parent_folder_id - 
 #
 #>
 ######################################################################

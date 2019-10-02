@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_elastic_ip_register(elastic_ip, stack_id)
+#	p6_aws_opsworks_elastic_ip_register(elastic_ip, stack_id)
 #
-# Arg(s):
-#    elastic_ip - 
-#    stack_id - 
-#
+#  Args:
+#	elastic_ip - 
+#	stack_id - 
 #
 #>
 ######################################################################

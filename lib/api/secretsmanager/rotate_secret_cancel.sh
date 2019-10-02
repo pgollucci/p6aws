@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_secretsmanager_rotate_secret_cancel(secret_id)
+#	p6_aws_secretsmanager_rotate_secret_cancel(secret_id)
 #
-# Arg(s):
-#    secret_id - 
-#
+#  Args:
+#	secret_id - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_logs_query_start(start_time, end_time, query_string)
+#	p6_aws_logs_query_start(start_time, end_time, query_string)
 #
-# Arg(s):
-#    start_time - 
-#    end_time - 
-#    query_string - 
-#
+#  Args:
+#	start_time - 
+#	end_time - 
+#	query_string - 
 #
 #>
 ######################################################################

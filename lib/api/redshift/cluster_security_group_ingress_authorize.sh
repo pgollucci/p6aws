@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_cluster_security_group_ingress_authorize(cluster_security_group_name)
+#	p6_aws_redshift_cluster_security_group_ingress_authorize(cluster_security_group_name)
 #
-# Arg(s):
-#    cluster_security_group_name - 
-#
+#  Args:
+#	cluster_security_group_name - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_etl_libraries(endpoint_name)
+#	p6_aws_glue_etl_libraries(endpoint_name)
 #
-# Arg(s):
-#    endpoint_name - 
-#
+#  Args:
+#	endpoint_name - 
 #
 #>
 ######################################################################

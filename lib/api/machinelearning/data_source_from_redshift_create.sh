@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_machinelearning_data_source_from_redshift_create(data_source_id, data_spec, role_arn)
+#	p6_aws_machinelearning_data_source_from_redshift_create(data_source_id, data_spec, role_arn)
 #
-# Arg(s):
-#    data_source_id - 
-#    data_spec - 
-#    role_arn - 
-#
+#  Args:
+#	data_source_id - 
+#	data_spec - 
+#	role_arn - 
 #
 #>
 ######################################################################

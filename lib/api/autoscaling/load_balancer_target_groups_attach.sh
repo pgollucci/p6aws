@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_autoscaling_load_balancer_target_groups_attach(auto_scaling_group_name, target_group_arns)
+#	p6_aws_autoscaling_load_balancer_target_groups_attach(auto_scaling_group_name, target_group_arns)
 #
-# Arg(s):
-#    auto_scaling_group_name - 
-#    target_group_arns - 
-#
+#  Args:
+#	auto_scaling_group_name - 
+#	target_group_arns - 
 #
 #>
 ######################################################################

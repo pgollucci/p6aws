@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_greengrass_group_certificate_authority_get(certificate_authority_id, group_id)
+#	p6_aws_greengrass_group_certificate_authority_get(certificate_authority_id, group_id)
 #
-# Arg(s):
-#    certificate_authority_id - 
-#    group_id - 
-#
+#  Args:
+#	certificate_authority_id - 
+#	group_id - 
 #
 #>
 ######################################################################

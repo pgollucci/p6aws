@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_machinelearning_batch_predictions_describe()
-#
-#
+#	p6_aws_machinelearning_batch_predictions_describe()
 #
 #>
 ######################################################################

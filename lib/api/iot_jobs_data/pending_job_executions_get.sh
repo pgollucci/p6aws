@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_jobs_data_pending_job_executions_get(thing_name)
+#	p6_aws_iot_jobs_data_pending_job_executions_get(thing_name)
 #
-# Arg(s):
-#    thing_name - 
-#
+#  Args:
+#	thing_name - 
 #
 #>
 ######################################################################

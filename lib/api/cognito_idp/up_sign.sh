@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_up_sign(client_id, username, password)
+#	p6_aws_cognito_idp_up_sign(client_id, username, password)
 #
-# Arg(s):
-#    client_id - 
-#    username - 
-#    password - 
-#
+#  Args:
+#	client_id - 
+#	username - 
+#	password - 
 #
 #>
 ######################################################################

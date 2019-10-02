@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_apigatewayv2_api_create(name, protocol_type, route_selection_expression)
+#	p6_aws_apigatewayv2_api_create(name, protocol_type, route_selection_expression)
 #
-# Arg(s):
-#    name - 
-#    protocol_type - 
-#    route_selection_expression - 
-#
+#  Args:
+#	name - 
+#	protocol_type - 
+#	route_selection_expression - 
 #
 #>
 ######################################################################

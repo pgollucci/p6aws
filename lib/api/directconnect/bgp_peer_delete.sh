@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_directconnect_bgp_peer_delete()
-#
-#
+#	p6_aws_directconnect_bgp_peer_delete()
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_remediation_configuration_delete(config_rule_name)
+#	p6_aws_configservice_remediation_configuration_delete(config_rule_name)
 #
-# Arg(s):
-#    config_rule_name - 
-#
+#  Args:
+#	config_rule_name - 
 #
 #>
 ######################################################################

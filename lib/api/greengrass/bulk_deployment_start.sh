@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_greengrass_bulk_deployment_start(execution_role_arn, input_file_uri)
+#	p6_aws_greengrass_bulk_deployment_start(execution_role_arn, input_file_uri)
 #
-# Arg(s):
-#    execution_role_arn - 
-#    input_file_uri - 
-#
+#  Args:
+#	execution_role_arn - 
+#	input_file_uri - 
 #
 #>
 ######################################################################

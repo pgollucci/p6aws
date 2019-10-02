@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_docdb_event_categories_describe()
-#
-#
+#	p6_aws_docdb_event_categories_describe()
 #
 #>
 ######################################################################

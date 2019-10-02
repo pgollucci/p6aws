@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_meteringmarketplace_customer_resolve(registration_token)
+#	p6_aws_meteringmarketplace_customer_resolve(registration_token)
 #
-# Arg(s):
-#    registration_token - 
-#
+#  Args:
+#	registration_token - 
 #
 #>
 ######################################################################

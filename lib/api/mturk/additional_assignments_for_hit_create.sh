@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_mturk_additional_assignments_for_hit_create(hit_id, number_of_additional_assignments)
+#	p6_aws_mturk_additional_assignments_for_hit_create(hit_id, number_of_additional_assignments)
 #
-# Arg(s):
-#    hit_id - 
-#    number_of_additional_assignments - 
-#
+#  Args:
+#	hit_id - 
+#	number_of_additional_assignments - 
 #
 #>
 ######################################################################

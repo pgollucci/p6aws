@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_traffic_mirror_filter_network_services_modify(traffic_mirror_filter_id)
+#	p6_aws_ec2_traffic_mirror_filter_network_services_modify(traffic_mirror_filter_id)
 #
-# Arg(s):
-#    traffic_mirror_filter_id - 
-#
+#  Args:
+#	traffic_mirror_filter_id - 
 #
 #>
 ######################################################################

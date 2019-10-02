@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_codepipeline_action_revision_put(pipeline_name, stage_name, action_name, action_revision)
+#	p6_aws_codepipeline_action_revision_put(pipeline_name, stage_name, action_name, action_revision)
 #
-# Arg(s):
-#    pipeline_name - 
-#    stage_name - 
-#    action_name - 
-#    action_revision - 
-#
+#  Args:
+#	pipeline_name - 
+#	stage_name - 
+#	action_name - 
+#	action_revision - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_notebook_instance_start(notebook_instance_name)
+#	p6_aws_sagemaker_notebook_instance_start(notebook_instance_name)
 #
-# Arg(s):
-#    notebook_instance_name - 
-#
+#  Args:
+#	notebook_instance_name - 
 #
 #>
 ######################################################################

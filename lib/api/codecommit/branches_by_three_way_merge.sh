@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_codecommit_branches_by_three_way_merge(repository_name, source_commit_specifier, destination_commit_specifier)
+#	p6_aws_codecommit_branches_by_three_way_merge(repository_name, source_commit_specifier, destination_commit_specifier)
 #
-# Arg(s):
-#    repository_name - 
-#    source_commit_specifier - 
-#    destination_commit_specifier - 
-#
+#  Args:
+#	repository_name - 
+#	source_commit_specifier - 
+#	destination_commit_specifier - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_chime_delete_phone_number_batch(phone_number_ids)
+#	p6_aws_chime_delete_phone_number_batch(phone_number_ids)
 #
-# Arg(s):
-#    phone_number_ids - 
-#
+#  Args:
+#	phone_number_ids - 
 #
 #>
 ######################################################################

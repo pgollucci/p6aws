@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_directconnect_direct_connect_gateway_association_proposals_describe()
-#
-#
+#	p6_aws_directconnect_direct_connect_gateway_association_proposals_describe()
 #
 #>
 ######################################################################

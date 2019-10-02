@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_association_create(name)
+#	p6_aws_ssm_association_create(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

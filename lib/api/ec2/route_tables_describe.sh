@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_route_tables_describe()
-#
-#
+#	p6_aws_ec2_route_tables_describe()
 #
 #>
 ######################################################################

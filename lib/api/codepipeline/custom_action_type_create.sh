@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_codepipeline_custom_action_type_create(category, provider, input_artifact_details, output_artifact_details, action_version)
+#	p6_aws_codepipeline_custom_action_type_create(category, provider, input_artifact_details, output_artifact_details, action_version)
 #
-# Arg(s):
-#    category - 
-#    provider - 
-#    input_artifact_details - 
-#    output_artifact_details - 
-#    action_version - 
-#
+#  Args:
+#	category - 
+#	provider - 
+#	input_artifact_details - 
+#	output_artifact_details - 
+#	action_version - 
 #
 #>
 ######################################################################

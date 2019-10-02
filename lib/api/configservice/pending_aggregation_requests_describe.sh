@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_pending_aggregation_requests_describe()
-#
-#
+#	p6_aws_configservice_pending_aggregation_requests_describe()
 #
 #>
 ######################################################################

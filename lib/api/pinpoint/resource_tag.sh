@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_resource_tag(resource_arn, tags_model)
+#	p6_aws_pinpoint_resource_tag(resource_arn, tags_model)
 #
-# Arg(s):
-#    resource_arn - 
-#    tags_model - 
-#
+#  Args:
+#	resource_arn - 
+#	tags_model - 
 #
 #>
 ######################################################################

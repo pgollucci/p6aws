@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_apigatewayv2_integration_response_delete(api_id, integration_id, integration_response_id)
+#	p6_aws_apigatewayv2_integration_response_delete(api_id, integration_id, integration_response_id)
 #
-# Arg(s):
-#    api_id - 
-#    integration_id - 
-#    integration_response_id - 
-#
+#  Args:
+#	api_id - 
+#	integration_id - 
+#	integration_response_id - 
 #
 #>
 ######################################################################

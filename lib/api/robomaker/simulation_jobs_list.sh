@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_robomaker_simulation_jobs_list()
-#
-#
+#	p6_aws_robomaker_simulation_jobs_list()
 #
 #>
 ######################################################################

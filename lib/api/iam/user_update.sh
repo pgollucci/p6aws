@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_user_update(user_name)
+#	p6_aws_iam_user_update(user_name)
 #
-# Arg(s):
-#    user_name - 
-#
+#  Args:
+#	user_name - 
 #
 #>
 ######################################################################

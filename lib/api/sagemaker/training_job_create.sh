@@ -2,16 +2,15 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_training_job_create(training_job_name, algorithm_specification, role_arn, output_data_config, resource_config, stopping_condition)
+#	p6_aws_sagemaker_training_job_create(training_job_name, algorithm_specification, role_arn, output_data_config, resource_config, stopping_condition)
 #
-# Arg(s):
-#    training_job_name - 
-#    algorithm_specification - 
-#    role_arn - 
-#    output_data_config - 
-#    resource_config - 
-#    stopping_condition - 
-#
+#  Args:
+#	training_job_name - 
+#	algorithm_specification - 
+#	role_arn - 
+#	output_data_config - 
+#	resource_config - 
+#	stopping_condition - 
 #
 #>
 ######################################################################

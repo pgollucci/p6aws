@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_match_backfill_start(configuration_name, game_session_arn, players)
+#	p6_aws_gamelift_match_backfill_start(configuration_name, game_session_arn, players)
 #
-# Arg(s):
-#    configuration_name - 
-#    game_session_arn - 
-#    players - 
-#
+#  Args:
+#	configuration_name - 
+#	game_session_arn - 
+#	players - 
 #
 #>
 ######################################################################

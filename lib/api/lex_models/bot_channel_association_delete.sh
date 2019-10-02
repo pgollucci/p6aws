@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_lex_models_bot_channel_association_delete(name, bot_name, bot_alias)
+#	p6_aws_lex_models_bot_channel_association_delete(name, bot_name, bot_alias)
 #
-# Arg(s):
-#    name - 
-#    bot_name - 
-#    bot_alias - 
-#
+#  Args:
+#	name - 
+#	bot_name - 
+#	bot_alias - 
 #
 #>
 ######################################################################

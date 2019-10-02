@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_configuration_recorder_put(configuration_recorder)
+#	p6_aws_configservice_configuration_recorder_put(configuration_recorder)
 #
-# Arg(s):
-#    configuration_recorder - 
-#
+#  Args:
+#	configuration_recorder - 
 #
 #>
 ######################################################################

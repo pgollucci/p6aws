@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_connect_user_hierarchy_group_describe(hierarchy_group_id, instance_id)
+#	p6_aws_connect_user_hierarchy_group_describe(hierarchy_group_id, instance_id)
 #
-# Arg(s):
-#    hierarchy_group_id - 
-#    instance_id - 
-#
+#  Args:
+#	hierarchy_group_id - 
+#	instance_id - 
 #
 #>
 ######################################################################

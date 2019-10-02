@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_apigatewayv2_model_get(api_id, model_id)
+#	p6_aws_apigatewayv2_model_get(api_id, model_id)
 #
-# Arg(s):
-#    api_id - 
-#    model_id - 
-#
+#  Args:
+#	api_id - 
+#	model_id - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_greengrass_resource_untag(resource_arn, tag_keys)
+#	p6_aws_greengrass_resource_untag(resource_arn, tag_keys)
 #
-# Arg(s):
-#    resource_arn - 
-#    tag_keys - 
-#
+#  Args:
+#	resource_arn - 
+#	tag_keys - 
 #
 #>
 ######################################################################

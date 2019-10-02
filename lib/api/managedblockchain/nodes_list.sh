@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_managedblockchain_nodes_list(network_id, member_id)
+#	p6_aws_managedblockchain_nodes_list(network_id, member_id)
 #
-# Arg(s):
-#    network_id - 
-#    member_id - 
-#
+#  Args:
+#	network_id - 
+#	member_id - 
 #
 #>
 ######################################################################

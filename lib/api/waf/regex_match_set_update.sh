@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_regex_match_set_update(regex_match_set_id, updates, change_token)
+#	p6_aws_waf_regex_match_set_update(regex_match_set_id, updates, change_token)
 #
-# Arg(s):
-#    regex_match_set_id - 
-#    updates - 
-#    change_token - 
-#
+#  Args:
+#	regex_match_set_id - 
+#	updates - 
+#	change_token - 
 #
 #>
 ######################################################################

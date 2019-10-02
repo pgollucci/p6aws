@@ -2,16 +2,15 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_task_with_maintenance_window_register(window_id, targets, task_arn, task_type, max_concurrency, max_errors)
+#	p6_aws_ssm_task_with_maintenance_window_register(window_id, targets, task_arn, task_type, max_concurrency, max_errors)
 #
-# Arg(s):
-#    window_id - 
-#    targets - 
-#    task_arn - 
-#    task_type - 
-#    max_concurrency - 
-#    max_errors - 
-#
+#  Args:
+#	window_id - 
+#	targets - 
+#	task_arn - 
+#	task_type - 
+#	max_concurrency - 
+#	max_errors - 
 #
 #>
 ######################################################################

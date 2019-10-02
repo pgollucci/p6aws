@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudformation_stack_resource_drifts_describe(stack_name)
+#	p6_aws_cloudformation_stack_resource_drifts_describe(stack_name)
 #
-# Arg(s):
-#    stack_name - 
-#
+#  Args:
+#	stack_name - 
 #
 #>
 ######################################################################

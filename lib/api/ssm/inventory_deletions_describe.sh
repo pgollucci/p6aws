@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_inventory_deletions_describe()
-#
-#
+#	p6_aws_ssm_inventory_deletions_describe()
 #
 #>
 ######################################################################

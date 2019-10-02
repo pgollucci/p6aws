@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_regional_rule_get(rule_id)
+#	p6_aws_waf_regional_rule_get(rule_id)
 #
-# Arg(s):
-#    rule_id - 
-#
+#  Args:
+#	rule_id - 
 #
 #>
 ######################################################################

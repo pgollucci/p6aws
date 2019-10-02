@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_workdocs_notification_subscription_delete(subscription_id, organization_id)
+#	p6_aws_workdocs_notification_subscription_delete(subscription_id, organization_id)
 #
-# Arg(s):
-#    subscription_id - 
-#    organization_id - 
-#
+#  Args:
+#	subscription_id - 
+#	organization_id - 
 #
 #>
 ######################################################################

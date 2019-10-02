@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_autoscaling_plans_scaling_plan_resources_describe(scaling_plan_name, scaling_plan_version)
+#	p6_aws_autoscaling_plans_scaling_plan_resources_describe(scaling_plan_name, scaling_plan_version)
 #
-# Arg(s):
-#    scaling_plan_name - 
-#    scaling_plan_version - 
-#
+#  Args:
+#	scaling_plan_name - 
+#	scaling_plan_version - 
 #
 #>
 ######################################################################

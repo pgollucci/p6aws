@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_user_attribute_verify(access_token, attribute_name, code)
+#	p6_aws_cognito_idp_user_attribute_verify(access_token, attribute_name, code)
 #
-# Arg(s):
-#    access_token - 
-#    attribute_name - 
-#    code - 
-#
+#  Args:
+#	access_token - 
+#	attribute_name - 
+#	code - 
 #
 #>
 ######################################################################

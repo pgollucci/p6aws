@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpc_peering_connection_delete(vpc_peering_connection_id)
+#	p6_aws_ec2_vpc_peering_connection_delete(vpc_peering_connection_id)
 #
-# Arg(s):
-#    vpc_peering_connection_id - 
-#
+#  Args:
+#	vpc_peering_connection_id - 
 #
 #>
 ######################################################################

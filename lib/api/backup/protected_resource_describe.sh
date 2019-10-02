@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_backup_protected_resource_describe(resource_arn)
+#	p6_aws_backup_protected_resource_describe(resource_arn)
 #
-# Arg(s):
-#    resource_arn - 
-#
+#  Args:
+#	resource_arn - 
 #
 #>
 ######################################################################

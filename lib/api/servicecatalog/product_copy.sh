@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_product_copy(source_product_arn)
+#	p6_aws_servicecatalog_product_copy(source_product_arn)
 #
-# Arg(s):
-#    source_product_arn - 
-#
+#  Args:
+#	source_product_arn - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesisvideo_streams_list()
-#
-#
+#	p6_aws_kinesisvideo_streams_list()
 #
 #>
 ######################################################################

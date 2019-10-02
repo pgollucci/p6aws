@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mediastore_data_object_delete(path)
+#	p6_aws_mediastore_data_object_delete(path)
 #
-# Arg(s):
-#    path - 
-#
+#  Args:
+#	path - 
 #
 #>
 ######################################################################

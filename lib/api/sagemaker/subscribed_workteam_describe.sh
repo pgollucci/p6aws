@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_subscribed_workteam_describe(workteam_arn)
+#	p6_aws_sagemaker_subscribed_workteam_describe(workteam_arn)
 #
-# Arg(s):
-#    workteam_arn - 
-#
+#  Args:
+#	workteam_arn - 
 #
 #>
 ######################################################################

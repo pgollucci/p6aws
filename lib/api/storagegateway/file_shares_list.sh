@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_file_shares_list()
-#
-#
+#	p6_aws_storagegateway_file_shares_list()
 #
 #>
 ######################################################################

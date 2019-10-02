@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_clouddirectory_link_attributes_update(directory_arn, typed_link_specifier, attribute_updates)
+#	p6_aws_clouddirectory_link_attributes_update(directory_arn, typed_link_specifier, attribute_updates)
 #
-# Arg(s):
-#    directory_arn - 
-#    typed_link_specifier - 
-#    attribute_updates - 
-#
+#  Args:
+#	directory_arn - 
+#	typed_link_specifier - 
+#	attribute_updates - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_nat_gateway_delete(nat_gateway_id)
+#	p6_aws_ec2_nat_gateway_delete(nat_gateway_id)
 #
-# Arg(s):
-#    nat_gateway_id - 
-#
+#  Args:
+#	nat_gateway_id - 
 #
 #>
 ######################################################################

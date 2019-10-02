@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_workdocs_labels_create(resource_id, labels)
+#	p6_aws_workdocs_labels_create(resource_id, labels)
 #
-# Arg(s):
-#    resource_id - 
-#    labels - 
-#
+#  Args:
+#	resource_id - 
+#	labels - 
 #
 #>
 ######################################################################

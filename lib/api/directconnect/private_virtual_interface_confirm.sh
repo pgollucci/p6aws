@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_directconnect_private_virtual_interface_confirm(virtual_interface_id)
+#	p6_aws_directconnect_private_virtual_interface_confirm(virtual_interface_id)
 #
-# Arg(s):
-#    virtual_interface_id - 
-#
+#  Args:
+#	virtual_interface_id - 
 #
 #>
 ######################################################################

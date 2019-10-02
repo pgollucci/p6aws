@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_tape_archives_describe()
-#
-#
+#	p6_aws_storagegateway_tape_archives_describe()
 #
 #>
 ######################################################################

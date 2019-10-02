@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_cluster_security_group_create(cluster_security_group_name, description)
+#	p6_aws_redshift_cluster_security_group_create(cluster_security_group_name, description)
 #
-# Arg(s):
-#    cluster_security_group_name - 
-#    description - 
-#
+#  Args:
+#	cluster_security_group_name - 
+#	description - 
 #
 #>
 ######################################################################

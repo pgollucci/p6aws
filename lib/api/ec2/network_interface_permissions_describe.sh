@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_network_interface_permissions_describe()
-#
-#
+#	p6_aws_ec2_network_interface_permissions_describe()
 #
 #>
 ######################################################################

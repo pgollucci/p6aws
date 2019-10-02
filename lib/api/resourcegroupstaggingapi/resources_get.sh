@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_resourcegroupstaggingapi_resources_get()
-#
-#
+#	p6_aws_resourcegroupstaggingapi_resources_get()
 #
 #>
 ######################################################################

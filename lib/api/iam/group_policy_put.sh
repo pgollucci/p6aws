@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_group_policy_put(group_name, policy_name, policy_document)
+#	p6_aws_iam_group_policy_put(group_name, policy_name, policy_document)
 #
-# Arg(s):
-#    group_name - 
-#    policy_name - 
-#    policy_document - 
-#
+#  Args:
+#	group_name - 
+#	policy_name - 
+#	policy_document - 
 #
 #>
 ######################################################################

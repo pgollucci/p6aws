@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_chime_voice_connector_update(voice_connector_id, name, require_encryption)
+#	p6_aws_chime_voice_connector_update(voice_connector_id, name, require_encryption)
 #
-# Arg(s):
-#    voice_connector_id - 
-#    name - 
-#    require_encryption - 
-#
+#  Args:
+#	voice_connector_id - 
+#	name - 
+#	require_encryption - 
 #
 #>
 ######################################################################

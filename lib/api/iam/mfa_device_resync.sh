@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_mfa_device_resync(user_name, serial_number, authentication_code1, authentication_code2)
+#	p6_aws_iam_mfa_device_resync(user_name, serial_number, authentication_code1, authentication_code2)
 #
-# Arg(s):
-#    user_name - 
-#    serial_number - 
-#    authentication_code1 - 
-#    authentication_code2 - 
-#
+#  Args:
+#	user_name - 
+#	serial_number - 
+#	authentication_code1 - 
+#	authentication_code2 - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_organizations_policies_for_target_list(target_id, filter)
+#	p6_aws_organizations_policies_for_target_list(target_id, filter)
 #
-# Arg(s):
-#    target_id - 
-#    filter - 
-#
+#  Args:
+#	target_id - 
+#	filter - 
 #
 #>
 ######################################################################

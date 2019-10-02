@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_tags_add(resource_arn, tags)
+#	p6_aws_sagemaker_tags_add(resource_arn, tags)
 #
-# Arg(s):
-#    resource_arn - 
-#    tags - 
-#
+#  Args:
+#	resource_arn - 
+#	tags - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_catalog_to_glue_import()
-#
-#
+#	p6_aws_glue_catalog_to_glue_import()
 #
 #>
 ######################################################################

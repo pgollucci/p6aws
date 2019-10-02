@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_tags_for_resource_list(resource_type, resource_id)
+#	p6_aws_route53_tags_for_resource_list(resource_type, resource_id)
 #
-# Arg(s):
-#    resource_type - 
-#    resource_id - 
-#
+#  Args:
+#	resource_type - 
+#	resource_id - 
 #
 #>
 ######################################################################

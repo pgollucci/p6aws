@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_glacier_provisioned_capacity_list(account_id)
+#	p6_aws_glacier_provisioned_capacity_list(account_id)
 #
-# Arg(s):
-#    account_id - 
-#
+#  Args:
+#	account_id - 
 #
 #>
 ######################################################################

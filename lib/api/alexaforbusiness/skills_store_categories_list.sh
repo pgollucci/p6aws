@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_skills_store_categories_list()
-#
-#
+#	p6_aws_alexaforbusiness_skills_store_categories_list()
 #
 #>
 ######################################################################

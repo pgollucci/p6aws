@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_workspaces_workspace_properties_modify(workspace_id, workspace_properties)
+#	p6_aws_workspaces_workspace_properties_modify(workspace_id, workspace_properties)
 #
-# Arg(s):
-#    workspace_id - 
-#    workspace_properties - 
-#
+#  Args:
+#	workspace_id - 
+#	workspace_properties - 
 #
 #>
 ######################################################################

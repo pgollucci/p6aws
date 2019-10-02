@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_skills_store_skills_by_category_list(category_id)
+#	p6_aws_alexaforbusiness_skills_store_skills_by_category_list(category_id)
 #
-# Arg(s):
-#    category_id - 
-#
+#  Args:
+#	category_id - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ds_snapshot_limits_get(directory_id)
+#	p6_aws_ds_snapshot_limits_get(directory_id)
 #
-# Arg(s):
-#    directory_id - 
-#
+#  Args:
+#	directory_id - 
 #
 #>
 ######################################################################

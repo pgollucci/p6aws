@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_matchmaking_configurations_describe()
-#
-#
+#	p6_aws_gamelift_matchmaking_configurations_describe()
 #
 #>
 ######################################################################

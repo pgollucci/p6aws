@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_lakeformation_resources_list()
-#
-#
+#	p6_aws_lakeformation_resources_list()
 #
 #>
 ######################################################################

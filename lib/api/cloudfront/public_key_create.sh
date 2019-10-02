@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudfront_public_key_create(public_key_config)
+#	p6_aws_cloudfront_public_key_create(public_key_config)
 #
-# Arg(s):
-#    public_key_config - 
-#
+#  Args:
+#	public_key_config - 
 #
 #>
 ######################################################################

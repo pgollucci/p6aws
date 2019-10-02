@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_health_event_types_describe()
-#
-#
+#	p6_aws_health_event_types_describe()
 #
 #>
 ######################################################################

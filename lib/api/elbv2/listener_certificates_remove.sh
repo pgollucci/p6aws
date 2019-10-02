@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elbv2_listener_certificates_remove(listener_arn, certificates)
+#	p6_aws_elbv2_listener_certificates_remove(listener_arn, certificates)
 #
-# Arg(s):
-#    listener_arn - 
-#    certificates - 
-#
+#  Args:
+#	listener_arn - 
+#	certificates - 
 #
 #>
 ######################################################################

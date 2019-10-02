@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_discovery_import_tasks_describe()
-#
-#
+#	p6_aws_discovery_import_tasks_describe()
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_workmail_delegate_from_resource_disassociate(organization_id, resource_id, entity_id)
+#	p6_aws_workmail_delegate_from_resource_disassociate(organization_id, resource_id, entity_id)
 #
-# Arg(s):
-#    organization_id - 
-#    resource_id - 
-#    entity_id - 
-#
+#  Args:
+#	organization_id - 
+#	resource_id - 
+#	entity_id - 
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_geo_locations_list()
-#
-#
+#	p6_aws_route53_geo_locations_list()
 #
 #>
 ######################################################################

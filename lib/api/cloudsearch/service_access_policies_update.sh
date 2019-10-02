@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudsearch_service_access_policies_update(domain_name, access_policies)
+#	p6_aws_cloudsearch_service_access_policies_update(domain_name, access_policies)
 #
-# Arg(s):
-#    domain_name - 
-#    access_policies - 
-#
+#  Args:
+#	domain_name - 
+#	access_policies - 
 #
 #>
 ######################################################################

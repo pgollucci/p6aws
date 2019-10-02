@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_deploy_get_deployments_batch(deployment_ids)
+#	p6_aws_deploy_get_deployments_batch(deployment_ids)
 #
-# Arg(s):
-#    deployment_ids - 
-#
+#  Args:
+#	deployment_ids - 
 #
 #>
 ######################################################################

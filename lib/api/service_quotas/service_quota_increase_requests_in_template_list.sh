@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_service_quotas_service_quota_increase_requests_in_template_list()
-#
-#
+#	p6_aws_service_quotas_service_quota_increase_requests_in_template_list()
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codestar_user_profile_describe(user_arn)
+#	p6_aws_codestar_user_profile_describe(user_arn)
 #
-# Arg(s):
-#    user_arn - 
-#
+#  Args:
+#	user_arn - 
 #
 #>
 ######################################################################

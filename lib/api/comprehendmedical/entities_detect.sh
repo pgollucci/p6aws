@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_comprehendmedical_entities_detect(text)
+#	p6_aws_comprehendmedical_entities_detect(text)
 #
-# Arg(s):
-#    text - 
-#
+#  Args:
+#	text - 
 #
 #>
 ######################################################################

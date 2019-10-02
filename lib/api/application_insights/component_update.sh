@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_application_insights_component_update(resource_group_name, component_name)
+#	p6_aws_application_insights_component_update(resource_group_name, component_name)
 #
-# Arg(s):
-#    resource_group_name - 
-#    component_name - 
-#
+#  Args:
+#	resource_group_name - 
+#	component_name - 
 #
 #>
 ######################################################################

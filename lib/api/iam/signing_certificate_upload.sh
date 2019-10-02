@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_signing_certificate_upload(certificate_body)
+#	p6_aws_iam_signing_certificate_upload(certificate_body)
 #
-# Arg(s):
-#    certificate_body - 
-#
+#  Args:
+#	certificate_body - 
 #
 #>
 ######################################################################

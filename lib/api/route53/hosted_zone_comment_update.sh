@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_route53_hosted_zone_comment_update(id)
+#	p6_aws_route53_hosted_zone_comment_update(id)
 #
-# Arg(s):
-#    id - 
-#
+#  Args:
+#	id - 
 #
 #>
 ######################################################################

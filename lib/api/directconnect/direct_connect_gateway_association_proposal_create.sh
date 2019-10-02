@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_directconnect_direct_connect_gateway_association_proposal_create(direct_connect_gateway_id, direct_connect_gateway_owner_account, gateway_id)
+#	p6_aws_directconnect_direct_connect_gateway_association_proposal_create(direct_connect_gateway_id, direct_connect_gateway_owner_account, gateway_id)
 #
-# Arg(s):
-#    direct_connect_gateway_id - 
-#    direct_connect_gateway_owner_account - 
-#    gateway_id - 
-#
+#  Args:
+#	direct_connect_gateway_id - 
+#	direct_connect_gateway_owner_account - 
+#	gateway_id - 
 #
 #>
 ######################################################################

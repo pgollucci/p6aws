@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ds_alias_create(directory_id, alias)
+#	p6_aws_ds_alias_create(directory_id, alias)
 #
-# Arg(s):
-#    directory_id - 
-#    alias - 
-#
+#  Args:
+#	directory_id - 
+#	alias - 
 #
 #>
 ######################################################################

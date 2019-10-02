@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_worklink_website_certificate_authorities_list(fleet_arn)
+#	p6_aws_worklink_website_certificate_authorities_list(fleet_arn)
 #
-# Arg(s):
-#    fleet_arn - 
-#
+#  Args:
+#	fleet_arn - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_inspector_resource_group_create(resource_group_tags)
+#	p6_aws_inspector_resource_group_create(resource_group_tags)
 #
-# Arg(s):
-#    resource_group_tags - 
-#
+#  Args:
+#	resource_group_tags - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesisanalytics_application_start(application_name, input_configurations)
+#	p6_aws_kinesisanalytics_application_start(application_name, input_configurations)
 #
-# Arg(s):
-#    application_name - 
-#    input_configurations - 
-#
+#  Args:
+#	application_name - 
+#	input_configurations - 
 #
 #>
 ######################################################################

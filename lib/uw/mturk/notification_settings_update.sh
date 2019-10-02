@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_mturk_active(hit_type_id)
+#	p6_aws_mturk_active(hit_type_id)
 #
-# Arg(s):
-#    hit_type_id - 
-#
+#  Args:
+#	hit_type_id - 
 #
 #>
 ######################################################################

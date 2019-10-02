@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_swf_open_workflow_executions_count(domain, start_time_filter)
+#	p6_aws_swf_open_workflow_executions_count(domain, start_time_filter)
 #
-# Arg(s):
-#    domain - 
-#    start_time_filter - 
-#
+#  Args:
+#	domain - 
+#	start_time_filter - 
 #
 #>
 ######################################################################

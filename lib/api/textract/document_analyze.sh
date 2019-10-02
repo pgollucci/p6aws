@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_textract_document_analyze(document, feature_types)
+#	p6_aws_textract_document_analyze(document, feature_types)
 #
-# Arg(s):
-#    document - 
-#    feature_types - 
-#
+#  Args:
+#	document - 
+#	feature_types - 
 #
 #>
 ######################################################################

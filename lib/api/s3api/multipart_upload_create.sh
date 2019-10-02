@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_multipart_upload_create(bucket, key)
+#	p6_aws_s3api_multipart_upload_create(bucket, key)
 #
-# Arg(s):
-#    bucket - 
-#    key - 
-#
+#  Args:
+#	bucket - 
+#	key - 
 #
 #>
 ######################################################################

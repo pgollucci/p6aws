@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_securityhub_members_invite()
-#
-#
+#	p6_aws_securityhub_members_invite()
 #
 #>
 ######################################################################

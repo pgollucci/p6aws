@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_codestar_project_create(name, id)
+#	p6_aws_codestar_project_create(name, id)
 #
-# Arg(s):
-#    name - 
-#    id - 
-#
+#  Args:
+#	name - 
+#	id - 
 #
 #>
 ######################################################################

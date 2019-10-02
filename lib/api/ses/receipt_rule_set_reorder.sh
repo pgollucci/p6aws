@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_receipt_rule_set_reorder(rule_set_name, rule_names)
+#	p6_aws_ses_receipt_rule_set_reorder(rule_set_name, rule_names)
 #
-# Arg(s):
-#    rule_set_name - 
-#    rule_names - 
-#
+#  Args:
+#	rule_set_name - 
+#	rule_names - 
 #
 #>
 ######################################################################

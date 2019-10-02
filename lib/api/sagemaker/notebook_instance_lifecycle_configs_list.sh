@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_notebook_instance_lifecycle_configs_list()
-#
-#
+#	p6_aws_sagemaker_notebook_instance_lifecycle_configs_list()
 #
 #>
 ######################################################################

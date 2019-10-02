@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_campaign_create(application_id, write_campaign_request)
+#	p6_aws_pinpoint_campaign_create(application_id, write_campaign_request)
 #
-# Arg(s):
-#    application_id - 
-#    write_campaign_request - 
-#
+#  Args:
+#	application_id - 
+#	write_campaign_request - 
 #
 #>
 ######################################################################

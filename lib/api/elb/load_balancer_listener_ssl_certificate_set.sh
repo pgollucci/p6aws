@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_elb_load_balancer_listener_ssl_certificate_set(load_balancer_name, load_balancer_port, ssl_certificate_id)
+#	p6_aws_elb_load_balancer_listener_ssl_certificate_set(load_balancer_name, load_balancer_port, ssl_certificate_id)
 #
-# Arg(s):
-#    load_balancer_name - 
-#    load_balancer_port - 
-#    ssl_certificate_id - 
-#
+#  Args:
+#	load_balancer_name - 
+#	load_balancer_port - 
+#	ssl_certificate_id - 
 #
 #>
 ######################################################################

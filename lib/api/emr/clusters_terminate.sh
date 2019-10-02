@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_emr_clusters_terminate(cluster_ids)
+#	p6_aws_emr_clusters_terminate(cluster_ids)
 #
-# Arg(s):
-#    cluster_ids - 
-#
+#  Args:
+#	cluster_ids - 
 #
 #>
 ######################################################################

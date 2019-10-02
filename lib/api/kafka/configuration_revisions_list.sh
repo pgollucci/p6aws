@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_kafka_configuration_revisions_list(arn)
+#	p6_aws_kafka_configuration_revisions_list(arn)
 #
-# Arg(s):
-#    arn - 
-#
+#  Args:
+#	arn - 
 #
 #>
 ######################################################################

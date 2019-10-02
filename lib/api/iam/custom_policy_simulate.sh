@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_custom_policy_simulate(policy_input_list, action_names)
+#	p6_aws_iam_custom_policy_simulate(policy_input_list, action_names)
 #
-# Arg(s):
-#    policy_input_list - 
-#    action_names - 
-#
+#  Args:
+#	policy_input_list - 
+#	action_names - 
 #
 #>
 ######################################################################

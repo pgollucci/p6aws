@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_user_endpoints_delete(application_id, user_id)
+#	p6_aws_pinpoint_user_endpoints_delete(application_id, user_id)
 #
-# Arg(s):
-#    application_id - 
-#    user_id - 
-#
+#  Args:
+#	application_id - 
+#	user_id - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_elb_tags_add(load_balancer_names, tags)
+#	p6_aws_elb_tags_add(load_balancer_names, tags)
 #
-# Arg(s):
-#    load_balancer_names - 
-#    tags - 
-#
+#  Args:
+#	load_balancer_names - 
+#	tags - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_cluster_db_revision_modify(cluster_identifier, revision_target)
+#	p6_aws_redshift_cluster_db_revision_modify(cluster_identifier, revision_target)
 #
-# Arg(s):
-#    cluster_identifier - 
-#    revision_target - 
-#
+#  Args:
+#	cluster_identifier - 
+#	revision_target - 
 #
 #>
 ######################################################################

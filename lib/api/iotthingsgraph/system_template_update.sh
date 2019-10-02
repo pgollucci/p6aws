@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iotthingsgraph_system_template_update(id, definition)
+#	p6_aws_iotthingsgraph_system_template_update(id, definition)
 #
-# Arg(s):
-#    id - 
-#    definition - 
-#
+#  Args:
+#	id - 
+#	definition - 
 #
 #>
 ######################################################################

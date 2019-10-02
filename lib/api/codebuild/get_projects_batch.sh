@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codebuild_get_projects_batch(names)
+#	p6_aws_codebuild_get_projects_batch(names)
 #
-# Arg(s):
-#    names - 
-#
+#  Args:
+#	names - 
 #
 #>
 ######################################################################

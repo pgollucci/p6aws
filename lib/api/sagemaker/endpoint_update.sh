@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_sagemaker_endpoint_update(endpoint_name, endpoint_config_name)
+#	p6_aws_sagemaker_endpoint_update(endpoint_name, endpoint_config_name)
 #
-# Arg(s):
-#    endpoint_name - 
-#    endpoint_config_name - 
-#
+#  Args:
+#	endpoint_name - 
+#	endpoint_config_name - 
 #
 #>
 ######################################################################

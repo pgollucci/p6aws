@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_usage_plan_key_delete(usage_plan_id, key_id)
+#	p6_aws_apigateway_usage_plan_key_delete(usage_plan_id, key_id)
 #
-# Arg(s):
-#    usage_plan_id - 
-#    key_id - 
-#
+#  Args:
+#	usage_plan_id - 
+#	key_id - 
 #
 #>
 ######################################################################

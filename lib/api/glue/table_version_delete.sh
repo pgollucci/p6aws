@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_table_version_delete(database_name, table_name, version_id)
+#	p6_aws_glue_table_version_delete(database_name, table_name, version_id)
 #
-# Arg(s):
-#    database_name - 
-#    table_name - 
-#    version_id - 
-#
+#  Args:
+#	database_name - 
+#	table_name - 
+#	version_id - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_quicksight_user_describe(user_name, aws_account_id, namespace)
+#	p6_aws_quicksight_user_describe(user_name, aws_account_id, namespace)
 #
-# Arg(s):
-#    user_name - 
-#    aws_account_id - 
-#    namespace - 
-#
+#  Args:
+#	user_name - 
+#	aws_account_id - 
+#	namespace - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_identity_policy_delete(identity, policy_name)
+#	p6_aws_ses_identity_policy_delete(identity, policy_name)
 #
-# Arg(s):
-#    identity - 
-#    policy_name - 
-#
+#  Args:
+#	identity - 
+#	policy_name - 
 #
 #>
 ######################################################################

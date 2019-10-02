@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_service_create(service_name)
+#	p6_aws_ecs_service_create(service_name)
 #
-# Arg(s):
-#    service_name - 
-#
+#  Args:
+#	service_name - 
 #
 #>
 ######################################################################

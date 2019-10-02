@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_skill_groups_search()
-#
-#
+#	p6_aws_alexaforbusiness_skill_groups_search()
 #
 #>
 ######################################################################

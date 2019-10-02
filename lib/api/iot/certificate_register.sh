@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_certificate_register(certificate_pem)
+#	p6_aws_iot_certificate_register(certificate_pem)
 #
-# Arg(s):
-#    certificate_pem - 
-#
+#  Args:
+#	certificate_pem - 
 #
 #>
 ######################################################################

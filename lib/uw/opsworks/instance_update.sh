@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_opsworks_updates_on_boot(instance_id, layer_id)
+#	p6_aws_opsworks_updates_on_boot(instance_id, layer_id)
 #
-# Arg(s):
-#    instance_id - 
-#    layer_id - 
-#
+#  Args:
+#	instance_id - 
+#	layer_id - 
 #
 #>
 ######################################################################
@@ -22,11 +21,10 @@ p6_aws_opsworks_updates_on_boot() {
 #<
 #
 # Function:
-#      = p6_aws_opsworks_optimized(instance_id)
+#	p6_aws_opsworks_optimized(instance_id)
 #
-# Arg(s):
-#    instance_id - 
-#
+#  Args:
+#	instance_id - 
 #
 #>
 ######################################################################

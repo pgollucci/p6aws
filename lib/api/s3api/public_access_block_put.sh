@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_public_access_block_put(bucket, public_access_block_configuration)
+#	p6_aws_s3api_public_access_block_put(bucket, public_access_block_configuration)
 #
-# Arg(s):
-#    bucket - 
-#    public_access_block_configuration - 
-#
+#  Args:
+#	bucket - 
+#	public_access_block_configuration - 
 #
 #>
 ######################################################################

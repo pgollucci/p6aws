@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_user_to_group_add(group_name, user_name)
+#	p6_aws_iam_user_to_group_add(group_name, user_name)
 #
-# Arg(s):
-#    group_name - 
-#    user_name - 
-#
+#  Args:
+#	group_name - 
+#	user_name - 
 #
 #>
 ######################################################################

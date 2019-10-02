@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_sts_authorization_message_decode(encoded_message)
+#	p6_aws_sts_authorization_message_decode(encoded_message)
 #
-# Arg(s):
-#    encoded_message - 
-#
+#  Args:
+#	encoded_message - 
 #
 #>
 ######################################################################

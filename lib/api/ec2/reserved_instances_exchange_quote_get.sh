@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_reserved_instances_exchange_quote_get(reserved_instance_ids)
+#	p6_aws_ec2_reserved_instances_exchange_quote_get(reserved_instance_ids)
 #
-# Arg(s):
-#    reserved_instance_ids - 
-#
+#  Args:
+#	reserved_instance_ids - 
 #
 #>
 ######################################################################

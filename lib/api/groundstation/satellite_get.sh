@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_groundstation_satellite_get(satellite_id)
+#	p6_aws_groundstation_satellite_get(satellite_id)
 #
-# Arg(s):
-#    satellite_id - 
-#
+#  Args:
+#	satellite_id - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_scheduled_audit_update(scheduled_audit_name)
+#	p6_aws_iot_scheduled_audit_update(scheduled_audit_name)
 #
-# Arg(s):
-#    scheduled_audit_name - 
-#
+#  Args:
+#	scheduled_audit_name - 
 #
 #>
 ######################################################################

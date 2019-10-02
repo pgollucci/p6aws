@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_waf_regional_byte_match_set_update(byte_match_set_id, change_token, updates)
+#	p6_aws_waf_regional_byte_match_set_update(byte_match_set_id, change_token, updates)
 #
-# Arg(s):
-#    byte_match_set_id - 
-#    change_token - 
-#    updates - 
-#
+#  Args:
+#	byte_match_set_id - 
+#	change_token - 
+#	updates - 
 #
 #>
 ######################################################################

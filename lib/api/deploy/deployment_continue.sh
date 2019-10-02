@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_deploy_deployment_continue()
-#
-#
+#	p6_aws_deploy_deployment_continue()
 #
 #>
 ######################################################################

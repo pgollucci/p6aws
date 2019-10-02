@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_autoscaling_policy_execute(policy_name)
+#	p6_aws_autoscaling_policy_execute(policy_name)
 #
-# Arg(s):
-#    policy_name - 
-#
+#  Args:
+#	policy_name - 
 #
 #>
 ######################################################################

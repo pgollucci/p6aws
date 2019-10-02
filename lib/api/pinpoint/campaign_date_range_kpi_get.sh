@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_campaign_date_range_kpi_get(application_id, campaign_id, kpi_name)
+#	p6_aws_pinpoint_campaign_date_range_kpi_get(application_id, campaign_id, kpi_name)
 #
-# Arg(s):
-#    application_id - 
-#    campaign_id - 
-#    kpi_name - 
-#
+#  Args:
+#	application_id - 
+#	campaign_id - 
+#	kpi_name - 
 #
 #>
 ######################################################################

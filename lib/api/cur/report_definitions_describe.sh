@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cur_report_definitions_describe()
-#
-#
+#	p6_aws_cur_report_definitions_describe()
 #
 #>
 ######################################################################

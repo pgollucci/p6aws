@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_personalize_dataset_groups_list()
-#
-#
+#	p6_aws_personalize_dataset_groups_list()
 #
 #>
 ######################################################################

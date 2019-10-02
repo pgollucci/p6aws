@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_iot_audit_mitigation_actions_task_start(task_id, target, audit_check_to_actions_mapping)
+#	p6_aws_iot_audit_mitigation_actions_task_start(task_id, target, audit_check_to_actions_mapping)
 #
-# Arg(s):
-#    task_id - 
-#    target - 
-#    audit_check_to_actions_mapping - 
-#
+#  Args:
+#	task_id - 
+#	target - 
+#	audit_check_to_actions_mapping - 
 #
 #>
 ######################################################################

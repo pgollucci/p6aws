@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_iot1click_devices_device_describe(device_id)
+#	p6_aws_iot1click_devices_device_describe(device_id)
 #
-# Arg(s):
-#    device_id - 
-#
+#  Args:
+#	device_id - 
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_dynamodb_item_put(table_name, item)
+#	p6_aws_dynamodb_item_put(table_name, item)
 #
-# Arg(s):
-#    table_name - 
-#    item - 
-#
+#  Args:
+#	table_name - 
+#	item - 
 #
 #>
 ######################################################################

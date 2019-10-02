@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_application_autoscaling_scheduled_actions_describe(service_namespace)
+#	p6_aws_application_autoscaling_scheduled_actions_describe(service_namespace)
 #
-# Arg(s):
-#    service_namespace - 
-#
+#  Args:
+#	service_namespace - 
 #
 #>
 ######################################################################

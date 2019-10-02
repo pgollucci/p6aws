@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_groundstation_contact_reserve(end_time, ground_station, mission_profile_arn, satellite_arn, start_time)
+#	p6_aws_groundstation_contact_reserve(end_time, ground_station, mission_profile_arn, satellite_arn, start_time)
 #
-# Arg(s):
-#    end_time - 
-#    ground_station - 
-#    mission_profile_arn - 
-#    satellite_arn - 
-#    start_time - 
-#
+#  Args:
+#	end_time - 
+#	ground_station - 
+#	mission_profile_arn - 
+#	satellite_arn - 
+#	start_time - 
 #
 #>
 ######################################################################

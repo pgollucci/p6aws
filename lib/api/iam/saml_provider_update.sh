@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_saml_provider_update(saml_metadata_document, saml_provider_arn)
+#	p6_aws_iam_saml_provider_update(saml_metadata_document, saml_provider_arn)
 #
-# Arg(s):
-#    saml_metadata_document - 
-#    saml_provider_arn - 
-#
+#  Args:
+#	saml_metadata_document - 
+#	saml_provider_arn - 
 #
 #>
 ######################################################################

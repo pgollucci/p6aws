@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_datasync_agent_create(activation_key)
+#	p6_aws_datasync_agent_create(activation_key)
 #
-# Arg(s):
-#    activation_key - 
-#
+#  Args:
+#	activation_key - 
 #
 #>
 ######################################################################

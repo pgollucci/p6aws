@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codepipeline_pipeline_update(pipeline)
+#	p6_aws_codepipeline_pipeline_update(pipeline)
 #
-# Arg(s):
-#    pipeline - 
-#
+#  Args:
+#	pipeline - 
 #
 #>
 ######################################################################

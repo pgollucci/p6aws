@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_provisioned_product_plans_list()
-#
-#
+#	p6_aws_servicecatalog_provisioned_product_plans_list()
 #
 #>
 ######################################################################

@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_cloudformation_svc_list()
-#
-#
+#	p6_aws_cloudformation_svc_list()
 #
 #>
 ######################################################################

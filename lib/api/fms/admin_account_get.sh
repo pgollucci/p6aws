@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_fms_admin_account_get()
-#
-#
+#	p6_aws_fms_admin_account_get()
 #
 #>
 ######################################################################

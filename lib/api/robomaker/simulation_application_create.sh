@@ -2,15 +2,14 @@
 #<
 #
 # Function:
-#      = p6_aws_robomaker_simulation_application_create(name, sources, simulation_software_suite, robot_software_suite, rendering_engine)
+#	p6_aws_robomaker_simulation_application_create(name, sources, simulation_software_suite, robot_software_suite, rendering_engine)
 #
-# Arg(s):
-#    name - 
-#    sources - 
-#    simulation_software_suite - 
-#    robot_software_suite - 
-#    rendering_engine - 
-#
+#  Args:
+#	name - 
+#	sources - 
+#	simulation_software_suite - 
+#	robot_software_suite - 
+#	rendering_engine - 
 #
 #>
 ######################################################################

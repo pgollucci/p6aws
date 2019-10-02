@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_snapshot_copy_enable(cluster_identifier, destination_region)
+#	p6_aws_redshift_snapshot_copy_enable(cluster_identifier, destination_region)
 #
-# Arg(s):
-#    cluster_identifier - 
-#    destination_region - 
-#
+#  Args:
+#	cluster_identifier - 
+#	destination_region - 
 #
 #>
 ######################################################################

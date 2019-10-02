@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_evaluations_put(result_token)
+#	p6_aws_configservice_evaluations_put(result_token)
 #
-# Arg(s):
-#    result_token - 
-#
+#  Args:
+#	result_token - 
 #
 #>
 ######################################################################

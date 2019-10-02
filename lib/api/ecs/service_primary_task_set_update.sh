@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_service_primary_task_set_update(cluster, service, primary_task_set)
+#	p6_aws_ecs_service_primary_task_set_update(cluster, service, primary_task_set)
 #
-# Arg(s):
-#    cluster - 
-#    service - 
-#    primary_task_set - 
-#
+#  Args:
+#	cluster - 
+#	service - 
+#	primary_task_set - 
 #
 #>
 ######################################################################

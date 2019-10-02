@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_dms_replication_task_modify(replication_task_arn)
+#	p6_aws_dms_replication_task_modify(replication_task_arn)
 #
-# Arg(s):
-#    replication_task_arn - 
-#
+#  Args:
+#	replication_task_arn - 
 #
 #>
 ######################################################################

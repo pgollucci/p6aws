@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_parameters_get(names)
+#	p6_aws_ssm_parameters_get(names)
 #
-# Arg(s):
-#    names - 
-#
+#  Args:
+#	names - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_personalize_recipe_describe(recipe_arn)
+#	p6_aws_personalize_recipe_describe(recipe_arn)
 #
-# Arg(s):
-#    recipe_arn - 
-#
+#  Args:
+#	recipe_arn - 
 #
 #>
 ######################################################################

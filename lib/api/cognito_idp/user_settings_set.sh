@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_user_settings_set(access_token, mfa_options)
+#	p6_aws_cognito_idp_user_settings_set(access_token, mfa_options)
 #
-# Arg(s):
-#    access_token - 
-#    mfa_options - 
-#
+#  Args:
+#	access_token - 
+#	mfa_options - 
 #
 #>
 ######################################################################

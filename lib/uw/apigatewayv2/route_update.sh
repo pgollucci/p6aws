@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_apigatewayv2_key_required(api_id, route_id)
+#	p6_aws_apigatewayv2_key_required(api_id, route_id)
 #
-# Arg(s):
-#    api_id - 
-#    route_id - 
-#
+#  Args:
+#	api_id - 
+#	route_id - 
 #
 #>
 ######################################################################

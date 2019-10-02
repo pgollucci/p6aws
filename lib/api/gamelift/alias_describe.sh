@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_alias_describe(alias_id)
+#	p6_aws_gamelift_alias_describe(alias_id)
 #
-# Arg(s):
-#    alias_id - 
-#
+#  Args:
+#	alias_id - 
 #
 #>
 ######################################################################

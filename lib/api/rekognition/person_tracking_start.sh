@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_rekognition_person_tracking_start(video)
+#	p6_aws_rekognition_person_tracking_start(video)
 #
-# Arg(s):
-#    video - 
-#
+#  Args:
+#	video - 
 #
 #>
 ######################################################################

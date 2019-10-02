@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_robomaker_robot_delete(robot)
+#	p6_aws_robomaker_robot_delete(robot)
 #
-# Arg(s):
-#    robot - 
-#
+#  Args:
+#	robot - 
 #
 #>
 ######################################################################

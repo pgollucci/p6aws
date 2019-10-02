@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_shield_attacks_list()
-#
-#
+#	p6_aws_shield_attacks_list()
 #
 #>
 ######################################################################

@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_mq_access(broker_id, username)
+#	p6_aws_mq_access(broker_id, username)
 #
-# Arg(s):
-#    broker_id - 
-#    username - 
-#
+#  Args:
+#	broker_id - 
+#	username - 
 #
 #>
 ######################################################################

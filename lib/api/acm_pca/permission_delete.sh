@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_acm_pca_permission_delete(certificate_authority_arn, principal)
+#	p6_aws_acm_pca_permission_delete(certificate_authority_arn, principal)
 #
-# Arg(s):
-#    certificate_authority_arn - 
-#    principal - 
-#
+#  Args:
+#	certificate_authority_arn - 
+#	principal - 
 #
 #>
 ######################################################################

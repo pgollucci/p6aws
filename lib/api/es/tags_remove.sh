@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_es_tags_remove(arn, tag_keys)
+#	p6_aws_es_tags_remove(arn, tag_keys)
 #
-# Arg(s):
-#    arn - 
-#    tag_keys - 
-#
+#  Args:
+#	arn - 
+#	tag_keys - 
 #
 #>
 ######################################################################

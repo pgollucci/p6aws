@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_user_defined_function_update(database_name, function_name, function_input)
+#	p6_aws_glue_user_defined_function_update(database_name, function_name, function_input)
 #
-# Arg(s):
-#    database_name - 
-#    function_name - 
-#    function_input - 
-#
+#  Args:
+#	database_name - 
+#	function_name - 
+#	function_input - 
 #
 #>
 ######################################################################

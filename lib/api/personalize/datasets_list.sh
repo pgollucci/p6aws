@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_personalize_datasets_list()
-#
-#
+#	p6_aws_personalize_datasets_list()
 #
 #>
 ######################################################################

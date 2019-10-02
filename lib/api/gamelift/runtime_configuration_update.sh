@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_gamelift_runtime_configuration_update(fleet_id, runtime_configuration)
+#	p6_aws_gamelift_runtime_configuration_update(fleet_id, runtime_configuration)
 #
-# Arg(s):
-#    fleet_id - 
-#    runtime_configuration - 
-#
+#  Args:
+#	fleet_id - 
+#	runtime_configuration - 
 #
 #>
 ######################################################################

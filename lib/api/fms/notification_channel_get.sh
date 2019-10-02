@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_fms_notification_channel_get()
-#
-#
+#	p6_aws_fms_notification_channel_get()
 #
 #>
 ######################################################################

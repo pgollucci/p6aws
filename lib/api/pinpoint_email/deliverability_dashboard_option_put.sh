@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_email_deliverability_dashboard_option_put(dashboard_enabled)
+#	p6_aws_pinpoint_email_deliverability_dashboard_option_put(dashboard_enabled)
 #
-# Arg(s):
-#    dashboard_enabled - 
-#
+#  Args:
+#	dashboard_enabled - 
 #
 #>
 ######################################################################

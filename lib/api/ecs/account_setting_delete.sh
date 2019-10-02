@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_account_setting_delete(name)
+#	p6_aws_ecs_account_setting_delete(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

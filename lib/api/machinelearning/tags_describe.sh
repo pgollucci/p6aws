@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_machinelearning_tags_describe(resource_id, resource_type)
+#	p6_aws_machinelearning_tags_describe(resource_id, resource_type)
 #
-# Arg(s):
-#    resource_id - 
-#    resource_type - 
-#
+#  Args:
+#	resource_id - 
+#	resource_type - 
 #
 #>
 ######################################################################

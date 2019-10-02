@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ecs_new_deployment(service)
+#	p6_aws_ecs_new_deployment(service)
 #
-# Arg(s):
-#    service - 
-#
+#  Args:
+#	service - 
 #
 #>
 ######################################################################

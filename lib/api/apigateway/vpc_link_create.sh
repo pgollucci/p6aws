@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_vpc_link_create(name, target_arns)
+#	p6_aws_apigateway_vpc_link_create(name, target_arns)
 #
-# Arg(s):
-#    name - 
-#    target_arns - 
-#
+#  Args:
+#	name - 
+#	target_arns - 
 #
 #>
 ######################################################################

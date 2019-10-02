@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_personalize_runtime_recommendations_get(campaign_arn)
+#	p6_aws_personalize_runtime_recommendations_get(campaign_arn)
 #
-# Arg(s):
-#    campaign_arn - 
-#
+#  Args:
+#	campaign_arn - 
 #
 #>
 ######################################################################

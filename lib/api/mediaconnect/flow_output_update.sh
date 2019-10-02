@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_mediaconnect_flow_output_update(flow_arn, output_arn)
+#	p6_aws_mediaconnect_flow_output_update(flow_arn, output_arn)
 #
-# Arg(s):
-#    flow_arn - 
-#    output_arn - 
-#
+#  Args:
+#	flow_arn - 
+#	output_arn - 
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_workmail_mailbox_quota_update(organization_id, user_id, mailbox_quota)
+#	p6_aws_workmail_mailbox_quota_update(organization_id, user_id, mailbox_quota)
 #
-# Arg(s):
-#    organization_id - 
-#    user_id - 
-#    mailbox_quota - 
-#
+#  Args:
+#	organization_id - 
+#	user_id - 
+#	mailbox_quota - 
 #
 #>
 ######################################################################

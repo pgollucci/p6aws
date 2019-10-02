@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_backup_backup_vault_notifications_delete(backup_vault_name)
+#	p6_aws_backup_backup_vault_notifications_delete(backup_vault_name)
 #
-# Arg(s):
-#    backup_vault_name - 
-#
+#  Args:
+#	backup_vault_name - 
 #
 #>
 ######################################################################

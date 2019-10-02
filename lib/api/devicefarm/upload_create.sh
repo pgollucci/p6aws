@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_devicefarm_upload_create(project_arn, name, type)
+#	p6_aws_devicefarm_upload_create(project_arn, name, type)
 #
-# Arg(s):
-#    project_arn - 
-#    name - 
-#    type - 
-#
+#  Args:
+#	project_arn - 
+#	name - 
+#	type - 
 #
 #>
 ######################################################################

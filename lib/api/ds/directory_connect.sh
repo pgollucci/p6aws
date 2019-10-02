@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_ds_directory_connect(name, password, size, connect_settings)
+#	p6_aws_ds_directory_connect(name, password, size, connect_settings)
 #
-# Arg(s):
-#    name - 
-#    password - 
-#    size - 
-#    connect_settings - 
-#
+#  Args:
+#	name - 
+#	password - 
+#	size - 
+#	connect_settings - 
 #
 #>
 ######################################################################

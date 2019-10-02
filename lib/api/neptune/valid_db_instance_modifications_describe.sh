@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_neptune_valid_db_instance_modifications_describe(db_instance_identifier)
+#	p6_aws_neptune_valid_db_instance_modifications_describe(db_instance_identifier)
 #
-# Arg(s):
-#    db_instance_identifier - 
-#
+#  Args:
+#	db_instance_identifier - 
 #
 #>
 ######################################################################

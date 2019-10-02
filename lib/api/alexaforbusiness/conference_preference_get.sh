@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_alexaforbusiness_conference_preference_get()
-#
-#
+#	p6_aws_alexaforbusiness_conference_preference_get()
 #
 #>
 ######################################################################

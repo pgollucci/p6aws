@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_acm_certificate_options_update(certificate_arn, options)
+#	p6_aws_acm_certificate_options_update(certificate_arn, options)
 #
-# Arg(s):
-#    certificate_arn - 
-#    options - 
-#
+#  Args:
+#	certificate_arn - 
+#	options - 
 #
 #>
 ######################################################################

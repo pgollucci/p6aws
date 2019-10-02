@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_sns_topic_attributes_set(topic_arn, attribute_name)
+#	p6_aws_sns_topic_attributes_set(topic_arn, attribute_name)
 #
-# Arg(s):
-#    topic_arn - 
-#    attribute_name - 
-#
+#  Args:
+#	topic_arn - 
+#	attribute_name - 
 #
 #>
 ######################################################################

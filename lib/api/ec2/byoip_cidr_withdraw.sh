@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_byoip_cidr_withdraw(cidr)
+#	p6_aws_ec2_byoip_cidr_withdraw(cidr)
 #
-# Arg(s):
-#    cidr - 
-#
+#  Args:
+#	cidr - 
 #
 #>
 ######################################################################

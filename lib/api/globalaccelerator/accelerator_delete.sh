@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_globalaccelerator_accelerator_delete(accelerator_arn)
+#	p6_aws_globalaccelerator_accelerator_delete(accelerator_arn)
 #
-# Arg(s):
-#    accelerator_arn - 
-#
+#  Args:
+#	accelerator_arn - 
 #
 #>
 ######################################################################

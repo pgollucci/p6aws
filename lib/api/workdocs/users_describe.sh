@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_workdocs_users_describe()
-#
-#
+#	p6_aws_workdocs_users_describe()
 #
 #>
 ######################################################################

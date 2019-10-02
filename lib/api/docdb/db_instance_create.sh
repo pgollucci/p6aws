@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_docdb_db_instance_create(db_instance_identifier, db_instance_class, engine, db_cluster_identifier)
+#	p6_aws_docdb_db_instance_create(db_instance_identifier, db_instance_class, engine, db_cluster_identifier)
 #
-# Arg(s):
-#    db_instance_identifier - 
-#    db_instance_class - 
-#    engine - 
-#    db_cluster_identifier - 
-#
+#  Args:
+#	db_instance_identifier - 
+#	db_instance_class - 
+#	engine - 
+#	db_cluster_identifier - 
 #
 #>
 ######################################################################

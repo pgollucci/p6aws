@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_vpc_tenancy_modify(vpc_id, instance_tenancy)
+#	p6_aws_ec2_vpc_tenancy_modify(vpc_id, instance_tenancy)
 #
-# Arg(s):
-#    vpc_id - 
-#    instance_tenancy - 
-#
+#  Args:
+#	vpc_id - 
+#	instance_tenancy - 
 #
 #>
 ######################################################################

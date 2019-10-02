@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_codepipeline_action_executions_list(pipeline_name)
+#	p6_aws_codepipeline_action_executions_list(pipeline_name)
 #
-# Arg(s):
-#    pipeline_name - 
-#
+#  Args:
+#	pipeline_name - 
 #
 #>
 ######################################################################

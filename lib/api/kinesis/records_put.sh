@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesis_records_put(records, stream_name)
+#	p6_aws_kinesis_records_put(records, stream_name)
 #
-# Arg(s):
-#    records - 
-#    stream_name - 
-#
+#  Args:
+#	records - 
+#	stream_name - 
 #
 #>
 ######################################################################

@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_s3api_objects_list(bucket)
+#	p6_aws_s3api_objects_list(bucket)
 #
-# Arg(s):
-#    bucket - 
-#
+#  Args:
+#	bucket - 
 #
 #>
 ######################################################################

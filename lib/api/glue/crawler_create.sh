@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_crawler_create(name, role, targets)
+#	p6_aws_glue_crawler_create(name, role, targets)
 #
-# Arg(s):
-#    name - 
-#    role - 
-#    targets - 
-#
+#  Args:
+#	name - 
+#	role - 
+#	targets - 
 #
 #>
 ######################################################################

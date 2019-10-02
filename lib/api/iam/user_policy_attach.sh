@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_user_policy_attach(user_name, policy_arn)
+#	p6_aws_iam_user_policy_attach(user_name, policy_arn)
 #
-# Arg(s):
-#    user_name - 
-#    policy_arn - 
-#
+#  Args:
+#	user_name - 
+#	policy_arn - 
 #
 #>
 ######################################################################

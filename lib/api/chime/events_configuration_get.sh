@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_chime_events_configuration_get(account_id, bot_id)
+#	p6_aws_chime_events_configuration_get(account_id, bot_id)
 #
-# Arg(s):
-#    account_id - 
-#    bot_id - 
-#
+#  Args:
+#	account_id - 
+#	bot_id - 
 #
 #>
 ######################################################################

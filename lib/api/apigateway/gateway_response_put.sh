@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_apigateway_gateway_response_put(rest_api_id, response_type)
+#	p6_aws_apigateway_gateway_response_put(rest_api_id, response_type)
 #
-# Arg(s):
-#    rest_api_id - 
-#    response_type - 
-#
+#  Args:
+#	rest_api_id - 
+#	response_type - 
 #
 #>
 ######################################################################

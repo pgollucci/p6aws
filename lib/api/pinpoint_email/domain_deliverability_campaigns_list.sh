@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_email_domain_deliverability_campaigns_list(start_date, end_date, subscribed_domain)
+#	p6_aws_pinpoint_email_domain_deliverability_campaigns_list(start_date, end_date, subscribed_domain)
 #
-# Arg(s):
-#    start_date - 
-#    end_date - 
-#    subscribed_domain - 
-#
+#  Args:
+#	start_date - 
+#	end_date - 
+#	subscribed_domain - 
 #
 #>
 ######################################################################

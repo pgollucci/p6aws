@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_email_dedicated_ip_in_pool_put(ip, destination_pool_name)
+#	p6_aws_pinpoint_email_dedicated_ip_in_pool_put(ip, destination_pool_name)
 #
-# Arg(s):
-#    ip - 
-#    destination_pool_name - 
-#
+#  Args:
+#	ip - 
+#	destination_pool_name - 
 #
 #>
 ######################################################################

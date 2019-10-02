@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_devicefarm_run_schedule(project_arn, test)
+#	p6_aws_devicefarm_run_schedule(project_arn, test)
 #
-# Arg(s):
-#    project_arn - 
-#    test - 
-#
+#  Args:
+#	project_arn - 
+#	test - 
 #
 #>
 ######################################################################

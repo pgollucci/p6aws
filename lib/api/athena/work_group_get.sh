@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_athena_work_group_get(work_group)
+#	p6_aws_athena_work_group_get(work_group)
 #
-# Arg(s):
-#    work_group - 
-#
+#  Args:
+#	work_group - 
 #
 #>
 ######################################################################

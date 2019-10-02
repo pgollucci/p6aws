@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_connect_routing_profiles_list(instance_id)
+#	p6_aws_connect_routing_profiles_list(instance_id)
 #
-# Arg(s):
-#    instance_id - 
-#
+#  Args:
+#	instance_id - 
 #
 #>
 ######################################################################

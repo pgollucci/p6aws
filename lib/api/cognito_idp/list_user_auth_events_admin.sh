@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_cognito_idp_list_user_auth_events_admin(user_pool_id, username)
+#	p6_aws_cognito_idp_list_user_auth_events_admin(user_pool_id, username)
 #
-# Arg(s):
-#    user_pool_id - 
-#    username - 
-#
+#  Args:
+#	user_pool_id - 
+#	username - 
 #
 #>
 ######################################################################

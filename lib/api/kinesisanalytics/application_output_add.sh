@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_kinesisanalytics_application_output_add(application_name, current_application_version_id, application_output)
+#	p6_aws_kinesisanalytics_application_output_add(application_name, current_application_version_id, application_output)
 #
-# Arg(s):
-#    application_name - 
-#    current_application_version_id - 
-#    application_output - 
-#
+#  Args:
+#	application_name - 
+#	current_application_version_id - 
+#	application_output - 
 #
 #>
 ######################################################################

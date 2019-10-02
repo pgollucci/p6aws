@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_lightsail_default_key_pair_download()
-#
-#
+#	p6_aws_lightsail_default_key_pair_download()
 #
 #>
 ######################################################################

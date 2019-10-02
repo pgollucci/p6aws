@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_logs_log_events_get(log_group_name, log_stream_name)
+#	p6_aws_logs_log_events_get(log_group_name, log_stream_name)
 #
-# Arg(s):
-#    log_group_name - 
-#    log_stream_name - 
-#
+#  Args:
+#	log_group_name - 
+#	log_stream_name - 
 #
 #>
 ######################################################################

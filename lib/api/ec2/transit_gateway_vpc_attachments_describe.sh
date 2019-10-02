@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_transit_gateway_vpc_attachments_describe()
-#
-#
+#	p6_aws_ec2_transit_gateway_vpc_attachments_describe()
 #
 #>
 ######################################################################

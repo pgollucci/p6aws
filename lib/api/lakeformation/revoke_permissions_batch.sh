@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_lakeformation_revoke_permissions_batch(entries)
+#	p6_aws_lakeformation_revoke_permissions_batch(entries)
 #
-# Arg(s):
-#    entries - 
-#
+#  Args:
+#	entries - 
 #
 #>
 ######################################################################

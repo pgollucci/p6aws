@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_mturk_test_event_notification_send(notification, test_event_type)
+#	p6_aws_mturk_test_event_notification_send(notification, test_event_type)
 #
-# Arg(s):
-#    notification - 
-#    test_event_type - 
-#
+#  Args:
+#	notification - 
+#	test_event_type - 
 #
 #>
 ######################################################################

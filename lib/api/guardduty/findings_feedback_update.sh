@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_guardduty_findings_feedback_update(detector_id, finding_ids, feedback)
+#	p6_aws_guardduty_findings_feedback_update(detector_id, finding_ids, feedback)
 #
-# Arg(s):
-#    detector_id - 
-#    finding_ids - 
-#    feedback - 
-#
+#  Args:
+#	detector_id - 
+#	finding_ids - 
+#	feedback - 
 #
 #>
 ######################################################################

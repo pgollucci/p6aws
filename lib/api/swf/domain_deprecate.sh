@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_swf_domain_deprecate(name)
+#	p6_aws_swf_domain_deprecate(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

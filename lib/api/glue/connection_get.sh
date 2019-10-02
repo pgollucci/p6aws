@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_glue_connection_get(name)
+#	p6_aws_glue_connection_get(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

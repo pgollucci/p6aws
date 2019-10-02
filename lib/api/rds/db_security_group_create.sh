@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_rds_db_security_group_create(db_security_group_name, db_security_group_description)
+#	p6_aws_rds_db_security_group_create(db_security_group_name, db_security_group_description)
 #
-# Arg(s):
-#    db_security_group_name - 
-#    db_security_group_description - 
-#
+#  Args:
+#	db_security_group_name - 
+#	db_security_group_description - 
 #
 #>
 ######################################################################

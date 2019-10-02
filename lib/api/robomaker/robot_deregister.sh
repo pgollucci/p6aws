@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_robomaker_robot_deregister(fleet, robot)
+#	p6_aws_robomaker_robot_deregister(fleet, robot)
 #
-# Arg(s):
-#    fleet - 
-#    robot - 
-#
+#  Args:
+#	fleet - 
+#	robot - 
 #
 #>
 ######################################################################

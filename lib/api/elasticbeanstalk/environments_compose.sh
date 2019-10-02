@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_elasticbeanstalk_environments_compose()
-#
-#
+#	p6_aws_elasticbeanstalk_environments_compose()
 #
 #>
 ######################################################################

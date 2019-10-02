@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_configure_model_add(service_model)
+#	p6_aws_configure_model_add(service_model)
 #
-# Arg(s):
-#    service_model - 
-#
+#  Args:
+#	service_model - 
 #
 #>
 ######################################################################

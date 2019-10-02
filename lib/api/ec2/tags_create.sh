@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_ec2_tags_create(resources, tags)
+#	p6_aws_ec2_tags_create(resources, tags)
 #
-# Arg(s):
-#    resources - 
-#    tags - 
-#
+#  Args:
+#	resources - 
+#	tags - 
 #
 #>
 ######################################################################

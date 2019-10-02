@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_emr_security_configuration_describe(name)
+#	p6_aws_emr_security_configuration_describe(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

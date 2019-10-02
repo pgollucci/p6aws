@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_application_autoscaling_scaling_policy_delete(policy_name, service_namespace, resource_id, scalable_dimension)
+#	p6_aws_application_autoscaling_scaling_policy_delete(policy_name, service_namespace, resource_id, scalable_dimension)
 #
-# Arg(s):
-#    policy_name - 
-#    service_namespace - 
-#    resource_id - 
-#    scalable_dimension - 
-#
+#  Args:
+#	policy_name - 
+#	service_namespace - 
+#	resource_id - 
+#	scalable_dimension - 
 #
 #>
 ######################################################################

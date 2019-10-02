@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_worklink_fleet_create(fleet_name)
+#	p6_aws_worklink_fleet_create(fleet_name)
 #
-# Arg(s):
-#    fleet_name - 
-#
+#  Args:
+#	fleet_name - 
 #
 #>
 ######################################################################

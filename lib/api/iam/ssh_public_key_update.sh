@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_iam_ssh_public_key_update(user_name, ssh_public_key_id, status)
+#	p6_aws_iam_ssh_public_key_update(user_name, ssh_public_key_id, status)
 #
-# Arg(s):
-#    user_name - 
-#    ssh_public_key_id - 
-#    status - 
-#
+#  Args:
+#	user_name - 
+#	ssh_public_key_id - 
+#	status - 
 #
 #>
 ######################################################################

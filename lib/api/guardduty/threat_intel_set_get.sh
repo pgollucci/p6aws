@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_guardduty_threat_intel_set_get(detector_id, threat_intel_set_id)
+#	p6_aws_guardduty_threat_intel_set_get(detector_id, threat_intel_set_id)
 #
-# Arg(s):
-#    detector_id - 
-#    threat_intel_set_id - 
-#
+#  Args:
+#	detector_id - 
+#	threat_intel_set_id - 
 #
 #>
 ######################################################################

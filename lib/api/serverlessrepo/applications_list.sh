@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_serverlessrepo_applications_list()
-#
-#
+#	p6_aws_serverlessrepo_applications_list()
 #
 #>
 ######################################################################

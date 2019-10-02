@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_emr_instance_groups_add(cluster_id, instance_groups)
+#	p6_aws_emr_instance_groups_add(cluster_id, instance_groups)
 #
-# Arg(s):
-#    cluster_id - 
-#    instance_groups - 
-#
+#  Args:
+#	cluster_id - 
+#	instance_groups - 
 #
 #>
 ######################################################################

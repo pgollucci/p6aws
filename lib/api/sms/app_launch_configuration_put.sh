@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_sms_app_launch_configuration_put()
-#
-#
+#	p6_aws_sms_app_launch_configuration_put()
 #
 #>
 ######################################################################

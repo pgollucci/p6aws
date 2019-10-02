@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_polly_lexicon_delete(name)
+#	p6_aws_polly_lexicon_delete(name)
 #
-# Arg(s):
-#    name - 
-#
+#  Args:
+#	name - 
 #
 #>
 ######################################################################

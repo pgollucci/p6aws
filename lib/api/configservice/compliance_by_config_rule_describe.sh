@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_configservice_compliance_by_config_rule_describe()
-#
-#
+#	p6_aws_configservice_compliance_by_config_rule_describe()
 #
 #>
 ######################################################################

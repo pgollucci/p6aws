@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_pinpoint_apns_sandbox_channel_delete(application_id)
+#	p6_aws_pinpoint_apns_sandbox_channel_delete(application_id)
 #
-# Arg(s):
-#    application_id - 
-#
+#  Args:
+#	application_id - 
 #
 #>
 ######################################################################

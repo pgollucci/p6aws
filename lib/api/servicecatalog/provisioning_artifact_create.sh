@@ -2,12 +2,11 @@
 #<
 #
 # Function:
-#      = p6_aws_servicecatalog_provisioning_artifact_create(product_id, parameters)
+#	p6_aws_servicecatalog_provisioning_artifact_create(product_id, parameters)
 #
-# Arg(s):
-#    product_id - 
-#    parameters - 
-#
+#  Args:
+#	product_id - 
+#	parameters - 
 #
 #>
 ######################################################################

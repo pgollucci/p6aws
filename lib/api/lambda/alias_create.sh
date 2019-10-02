@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_lambda_alias_create(function_name, name, function_version)
+#	p6_aws_lambda_alias_create(function_name, name, function_version)
 #
-# Arg(s):
-#    function_name - 
-#    name - 
-#    function_version - 
-#
+#  Args:
+#	function_name - 
+#	name - 
+#	function_version - 
 #
 #>
 ######################################################################

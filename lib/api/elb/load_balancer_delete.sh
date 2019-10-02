@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_elb_load_balancer_delete(load_balancer_name)
+#	p6_aws_elb_load_balancer_delete(load_balancer_name)
 #
-# Arg(s):
-#    load_balancer_name - 
-#
+#  Args:
+#	load_balancer_name - 
 #
 #>
 ######################################################################

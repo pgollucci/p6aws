@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_textract_document_analysis_get(job_id)
+#	p6_aws_textract_document_analysis_get(job_id)
 #
-# Arg(s):
-#    job_id - 
-#
+#  Args:
+#	job_id - 
 #
 #>
 ######################################################################

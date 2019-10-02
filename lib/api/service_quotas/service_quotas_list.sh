@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_service_quotas_service_quotas_list(service_code)
+#	p6_aws_service_quotas_service_quotas_list(service_code)
 #
-# Arg(s):
-#    service_code - 
-#
+#  Args:
+#	service_code - 
 #
 #>
 ######################################################################

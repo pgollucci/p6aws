@@ -2,9 +2,7 @@
 #<
 #
 # Function:
-#      = p6_aws_redshift_reserved_nodes_describe()
-#
-#
+#	p6_aws_redshift_reserved_nodes_describe()
 #
 #>
 ######################################################################

@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_glacier_archive_delete(account_id, vault_name, archive_id)
+#	p6_aws_glacier_archive_delete(account_id, vault_name, archive_id)
 #
-# Arg(s):
-#    account_id - 
-#    vault_name - 
-#    archive_id - 
-#
+#  Args:
+#	account_id - 
+#	vault_name - 
+#	archive_id - 
 #
 #>
 ######################################################################

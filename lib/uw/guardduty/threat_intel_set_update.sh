@@ -2,14 +2,13 @@
 #<
 #
 # Function:
-#      = p6_aws_guardduty_activate(detector_id, ip_set_id, detector_id, threat_intel_set_id)
+#	p6_aws_guardduty_activate(detector_id, ip_set_id, detector_id, threat_intel_set_id)
 #
-# Arg(s):
-#    detector_id - 
-#    ip_set_id - 
-#    detector_id - 
-#    threat_intel_set_id - 
-#
+#  Args:
+#	detector_id - 
+#	ip_set_id - 
+#	detector_id - 
+#	threat_intel_set_id - 
 #
 #>
 ######################################################################

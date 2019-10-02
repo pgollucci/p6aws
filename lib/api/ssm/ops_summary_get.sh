@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ssm_ops_summary_get(aggregators)
+#	p6_aws_ssm_ops_summary_get(aggregators)
 #
-# Arg(s):
-#    aggregators - 
-#
+#  Args:
+#	aggregators - 
 #
 #>
 ######################################################################

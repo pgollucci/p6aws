@@ -2,11 +2,10 @@
 #<
 #
 # Function:
-#      = p6_aws_ses_receipt_filter_delete(filter_name)
+#	p6_aws_ses_receipt_filter_delete(filter_name)
 #
-# Arg(s):
-#    filter_name - 
-#
+#  Args:
+#	filter_name - 
 #
 #>
 ######################################################################

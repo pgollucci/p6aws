@@ -2,13 +2,12 @@
 #<
 #
 # Function:
-#      = p6_aws_storagegateway_volume_attach(gateway_arn, volume_arn, network_interface_id)
+#	p6_aws_storagegateway_volume_attach(gateway_arn, volume_arn, network_interface_id)
 #
-# Arg(s):
-#    gateway_arn - 
-#    volume_arn - 
-#    network_interface_id - 
-#
+#  Args:
+#	gateway_arn - 
+#	volume_arn - 
+#	network_interface_id - 
 #
 #>
 ######################################################################
