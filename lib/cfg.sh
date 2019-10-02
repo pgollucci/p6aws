@@ -5,11 +5,11 @@
 #	p6_aws_cfg_active(profile, region, env, vpc_id, type)
 #
 #  Args:
-#	profile - 
-#	region - 
-#	env - 
-#	vpc_id - 
-#	type - 
+#	profile -
+#	region -
+#	env -
+#	vpc_id -
+#	type -
 #
 #>
 ######################################################################
@@ -57,6 +57,11 @@ p6_aws_cfg_kinds() {
 #  Returns:
 #	unkown - env_vars
 #
+#/ Ceveats (secrets are intentionally excluded)
+#/ #AWS_ACCESS_KEY_ID
+#/ AWS_SECRET_ACCESS_KEY
+#/ AWS_SESSION_TOKEN
+#
 #>
 ######################################################################
 p6_aws_cfg_vars() {
@@ -68,10 +73,16 @@ p6_aws_cfg_vars() {
 	  AWS_ENV \
 	  AWS_PROFILE \
 	  AWS_DEFAULT_PROFILE \
-	  AWS_DEFAULT_REGION"
+	  AWS_DEFAULT_REGION \
+	  AWS_CONFIG_FILE \
+	  AWS_SHARED_CREDENTIALS_FILE \
+	  AWS_CA_BUNDLE \
+	  AWS_METADATA_SERVICE_TIMEOUT \
+	  AWS_METADATA_SERVICE_NUM_ATTEMPTS"
 
     p6_return "$env_vars"
 }
+
 
 ######################################################################
 #<
