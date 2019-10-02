@@ -28,6 +28,8 @@ p6_aws_cfg_active() {
 
 	p6_aws_cfg_${fname} "$val"
     done
+
+    p6_return_void
 }
 
 ######################################################################
@@ -45,7 +47,7 @@ p6_aws_cfg_kinds() {
 
     local kinds="'' _source _saved"
 
-    p6_return "$kinds"
+    p6_return_list "$kinds"
 }
 
 ######################################################################
@@ -80,7 +82,7 @@ p6_aws_cfg_vars() {
 	  AWS_METADATA_SERVICE_TIMEOUT \
 	  AWS_METADATA_SERVICE_NUM_ATTEMPTS"
 
-    p6_return "$env_vars"
+    p6_return_list "$env_vars"
 }
 
 
@@ -95,6 +97,8 @@ p6_aws_cfg_vars() {
 p6_aws_cfg_show() {
 
     p6_env_list "^AWS_"
+
+    p6_return_void
 }
 
 ######################################################################
@@ -112,6 +116,8 @@ p6_aws_cfg_reset() {
 	local k=$(echo $kv | cut -f 1 -d '=')
 	eval "p6_env_export_un $k"
     done
+
+    p6_return_void
 }
 
 ######################################################################
@@ -129,6 +135,8 @@ p6_aws_cfg_clear() {
 	local k=$(echo $kv | cut -f 1 -d '=')
 	eval "p6_env_export_un $k"
     done
+
+    p6_return_void
 }
 
 ######################################################################
@@ -148,6 +156,8 @@ p6_aws_cfg_save() {
 
 	p6_aws_cfg_${fname}_saved "${$var}"
     done
+
+    p6_return_void
 }
 
 ######################################################################
@@ -167,6 +177,8 @@ p6_aws_cfg_restore_saved() {
 
 	p6_aws_cfg_${fname} "${$var}"
     done
+
+    p6_return_void
 }
 
 ######################################################################
@@ -186,6 +198,8 @@ p6_aws_cfg_restore_source() {
 
 	p6_aws_cfg_${fname} "${$var}"
     done
+
+    p6_return_void
 }
 
 ######################################################################
@@ -213,4 +227,6 @@ p6_aws_cfg__generate() {
 	    eval "$func"
 	done
     done
+
+    p6_return_void
 }
