@@ -5,11 +5,11 @@
 #	p6_aws_cfg_active(profile, region, env, vpc_id, type)
 #
 #  Args:
-#	profile -
-#	region -
-#	env -
-#	vpc_id -
-#	type -
+#	profile - 
+#	region - 
+#	env - 
+#	vpc_id - 
+#	type - 
 #
 #>
 ######################################################################
@@ -36,10 +36,10 @@ p6_aws_cfg_active() {
 #<
 #
 # Function:
-#	unkown kinds = p6_aws_cfg_kinds()
+#	list kinds = p6_aws_cfg_kinds()
 #
 #  Returns:
-#	unkown - kinds
+#	list - kinds
 #
 #>
 ######################################################################
@@ -54,17 +54,16 @@ p6_aws_cfg_kinds() {
 #<
 #
 # Function:
-#	unkown env_vars = p6_aws_cfg_vars()
+#	list env_vars = p6_aws_cfg_vars()
 #
 #  Returns:
-#	unkown - env_vars
+#	list - env_vars
 #
+#>
 #/ Ceveats (secrets are intentionally excluded)
 #/ #AWS_ACCESS_KEY_ID
 #/ AWS_SECRET_ACCESS_KEY
 #/ AWS_SESSION_TOKEN
-#
-#>
 ######################################################################
 p6_aws_cfg_vars() {
 
