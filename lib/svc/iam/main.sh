@@ -219,7 +219,7 @@ p6_aws_iam_svc_role_create() {
 			       --query "'Role.Arn'"
 	  )
 
-    p6_return "$role_arn"
+    p6_return_str "$role_arn"
 }
 
 ######################################################################
@@ -277,5 +277,5 @@ p6_aws_iam_svc_policy_create() {
 	    --query "Policy.Arn"
 	  )
 
-    p6_return "$policy_arn"
+    p6_return_str "$policy_arn"
 }

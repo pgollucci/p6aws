@@ -44,7 +44,7 @@ p6_aws_kms_svc_key_make() {
     local key_id=$(p6_aws_kms_key_create "$key_description" "$key_policy")
     p6_aws_kms_key_alias "$key_alias" "$key_id"
 
-    p6_return "$key_id"
+    p6_return_str "$key_id"
 }
 
 ######################################################################

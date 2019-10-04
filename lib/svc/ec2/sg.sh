@@ -43,7 +43,7 @@ p6_aws_ec2_svc_sg_create() {
 
     p6_aws_ec2_tags_create "$sg_id" "'Key=Name,Value=$tag_name'"
 
-    p6_return "$sg_id"
+    p6_return_str "$sg_id"
 }
 
 ######################################################################

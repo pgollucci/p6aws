@@ -24,7 +24,7 @@ p6_aws_ec2_svc_user_from_ami_name() {
 	*)             user=$USER    ;;
     esac
 
-    p6_return $user
+    p6_return_str "$user"
 }
 
 ######################################################################

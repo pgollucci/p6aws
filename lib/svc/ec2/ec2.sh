@@ -60,7 +60,7 @@ p6_aws_ec2_svc_instance_id_from_name_tag() {
 			    awk '{ print $2 }' | \
 			    tail -1)
 
-    p6_return "$instance_id"
+    p6_return_str "$instance_id"
 }
 
 ######################################################################
@@ -85,7 +85,7 @@ p6_aws_ec2_svc_instance_private_ip() {
 			   --instance-ids $instance_id \
 			   --query "'Reservations[0].Instances[0].PrivateIpAddress'")
 
-    p6_return "$private_ip"
+    p6_return_str "$private_ip"
 }
 
 ######################################################################
@@ -110,7 +110,7 @@ p6_aws_ec2_svc_instance_public_ip() {
 			  --instance-ids $instance_id \
 			  --query "'Reservations[0].Instances[0].PublicIpAddress'")
 
-    p6_return "$public_ip"
+    p6_return_str "$public_ip"
 }
 
 ######################################################################
@@ -157,7 +157,7 @@ p6_aws_ec2_svc_instance_create() {
 
     p6_aws_ec2_tags_create  "$instance_id" "'Key=Name,Value=$name'"
 
-    p6_return "$instance_id"
+    p6_return_str "$instance_id"
 }
 
 ######################################################################
