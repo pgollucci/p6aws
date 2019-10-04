@@ -58,7 +58,7 @@ p6_aws_organizations_svc_account_make() {
 	"$saml_file" "$saml_provider" \
 	"$role_full_path" "$policy_arn" "$saml_provider"
 
-    p6_return "$saml_file"
+    p6_return_path "$saml_file"
 }
 
 ######################################################################
@@ -127,7 +127,7 @@ p6_aws_organizations_svc_account_create_or_fetch() {
 #	p6_aws_util_account_map "$account_id" "$account_alias" "$account_map"
 #    fi
 
-    p6_return $account_id
+    p6_return_str $account_id
 }
 
 ######################################################################

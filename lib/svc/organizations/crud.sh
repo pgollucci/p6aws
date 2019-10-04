@@ -26,7 +26,7 @@ p6_aws_organizations_svc_account_create() {
 
     local account_id=$(p6_aws_organizations_svc_account_id_from_name "$account_alias")
 
-    p6_return "$account_id"
+    p6_return_str "$account_id" 
 }
 
 ######################################################################
@@ -97,7 +97,7 @@ p6_aws_organizations_svc_account_id_from_name() {
 	    awk -v k=$account_name '$2 ~ k { print $1 }'
 	  )
 
-    p6_return "$account_id"
+    p6_return_str "$account_id"
 }
 
 ######################################################################
@@ -130,7 +130,7 @@ p6_aws_organizations_svc_account_create() {
 	    --query "CreateAccountStattus.Id"
 	  )
 
-    p6_return "$car_id"
+    p6_return_str "$car_id"
 }
 
 ######################################################################
@@ -157,7 +157,7 @@ p6_aws_organizations_svc_account_create_status() {
 	    --query "'CreateAccountStatus.State'"
 	  )
 
-    p6_return "$status"
+    p6_return_str "$status"
 }
 
 ######################################################################
