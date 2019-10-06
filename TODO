@@ -1,8 +1,0 @@
-launch templates
-autoscaling groups
-application load balancers
-
-move to object types
-nuke uw & api replace with p6_aws
-pull lib/svc to lib/
-move 
