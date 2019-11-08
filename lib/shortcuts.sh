@@ -36,8 +36,8 @@ p6_aws_shortcuts_set() {
 
     local profile
     for profile in $(awk '/^\[/ { print }' < $cred_file | grep -v default | sed -e 's,[][],,g'); do
-	local region=$(p6_aws_util_region_for_profile_from_cred_file "$profile" "$cred_file")
-	eval "p6_${org}_awsa_${profile}() { p6_aws_shortcut_set \"$profile\" \"$region\" \"env\" \"type\" }"
+	local cfg=$(p6_aws_cfg_from_cred_file "$profile" "$cred_file")
+	eval "p6_${org}_awsa_${profile}() { p6_aws_shortcut_set \"$cfg\" }"
     done
 }
 
@@ -48,20 +48,17 @@ p6_aws_shortcuts_set() {
 #	p6_aws_shortcut_set(profile, region, env, type)
 #
 #  Args:
-#	profile - 
-#	region - 
-#	env - 
-#	type - 
+#	profile -
+#	region -
+#	env -
+#	type -
 #
 #>
 ######################################################################
 p6_aws_shortcut_set() {
-    local profile="$1"
-    local region="$2"
-    local env="$3"
-    local type="$4"
+    local cfg="$1"
 
-    p6_aws_cfg_set "$profile" "$region" "$env" "vpc" "env_level" "$type"
+    p6_aws_cfg_activate_jit "$cfg"
 }
 
 ######################################################################
