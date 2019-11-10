@@ -1,3 +1,14 @@
+######################################################################
+#<
+#
+# Function: p6_aws_cmd(service, cmd)
+#
+#  Args:
+#	service - 
+#	cmd - 
+#
+#>
+######################################################################
 p6_aws_cmd() {
   local service="$1"
   local cmd="$2"
@@ -12,4 +23,3 @@ p6_aws_cmd() {
 
   p6_log "eval \"$log_type aws $service $cmd $str\""
 }
-

@@ -1,8 +1,7 @@
 ######################################################################
 #<
 #
-# Function:
-#	unkown account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
+# Function: str account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
 #
 #  Args:
 #	account_name - 
@@ -13,7 +12,7 @@
 #	account_alias - 
 #
 #  Returns:
-#	unkown - account_id#	unkown - car_id
+#	str - account_id#	str - car_id
 #
 #>
 ######################################################################
@@ -32,8 +31,7 @@ p6_aws_organizations_svc_account_create() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_organizations_svc_account_wait_for(cas_id, car)
+# Function: p6_aws_organizations_svc_account_wait_for(cas_id, car)
 #
 #  Args:
 #	cas_id - 
@@ -52,8 +50,7 @@ p6_aws_organizations_svc_account_wait_for() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_organizations_svc_account_create_stop(status, cas_id, status, car)
+# Function: p6_aws_organizations_svc_account_create_stop(status, cas_id, status, car)
 #
 #  Args:
 #	status - 
@@ -76,14 +73,13 @@ p6_aws_organizations_svc_account_create_stop() {
 ######################################################################
 #<
 #
-# Function:
-#	unkown account_id = p6_aws_organizations_svc_account_id_from_name(account_name)
+# Function: str account_id = p6_aws_organizations_svc_account_id_from_name(account_name)
 #
 #  Args:
 #	account_name - 
 #
 #  Returns:
-#	unkown - account_id
+#	str - account_id
 #
 #>
 ######################################################################
@@ -103,8 +99,7 @@ p6_aws_organizations_svc_account_id_from_name() {
 ######################################################################
 #<
 #
-# Function:
-#	unkown account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
+# Function: str account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
 #
 #  Args:
 #	account_name - 
@@ -115,7 +110,7 @@ p6_aws_organizations_svc_account_id_from_name() {
 #	account_alias - 
 #
 #  Returns:
-#	unkown - account_id#	unkown - car_id
+#	str - account_id#	str - car_id
 #
 #>
 ######################################################################
@@ -136,14 +131,13 @@ p6_aws_organizations_svc_account_create() {
 ######################################################################
 #<
 #
-# Function:
-#	unkown status = p6_aws_organizations_svc_account_create_status(car_id)
+# Function: str status = p6_aws_organizations_svc_account_create_status(car_id)
 #
 #  Args:
 #	car_id - 
 #
 #  Returns:
-#	unkown - status
+#	str - status
 #
 #>
 ######################################################################
@@ -163,8 +157,7 @@ p6_aws_organizations_svc_account_create_status() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_organizations_svc_accounts_list()
+# Function: p6_aws_organizations_svc_accounts_list()
 #
 #>
 ######################################################################

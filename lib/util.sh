@@ -3,8 +3,7 @@ P6_AWS_JQ_TAG_NAME="Tags[?Key==\`Name\`].Value | [0]"
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_util_cli_qload()
+# Function: p6_aws_util_cli_qload()
 #
 #>
 ######################################################################
@@ -22,8 +21,7 @@ p6_aws_util_cli_qload() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_util_include_service(service)
+# Function: p6_aws_util_include_service(service)
 #
 #  Args:
 #	service - 
@@ -44,8 +42,7 @@ p6_aws_util_include_service() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_util_account_alias_to_id(account_alias, map)
+# Function: p6_aws_util_account_alias_to_id(account_alias, map)
 #
 #  Args:
 #	account_alias - 
@@ -63,8 +60,7 @@ p6_aws_util_account_alias_to_id() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_util_nicks(org, map)
+# Function: p6_aws_util_nicks(org, map)
 #
 #  Args:
 #	org - 
@@ -84,8 +80,7 @@ p6_aws_util_nicks() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_util_account_map(account_id, account_alias, map)
+# Function: p6_aws_util_account_map(account_id, account_alias, map)
 #
 #  Args:
 #	account_id - 
@@ -108,8 +103,7 @@ p6_aws_util_account_map() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_util_region_for_profile_from_cred_file(profile, cred_file)
+# Function: p6_aws_util_region_for_profile_from_cred_file(profile, cred_file)
 #
 #  Args:
 #	profile - 
@@ -127,8 +121,7 @@ p6_aws_util_region_for_profile_from_cred_file() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_util_template_process(infile)
+# Function: p6_aws_util_template_process(infile)
 #
 #  Args:
 #	infile - 

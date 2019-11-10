@@ -1,8 +1,7 @@
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_shortcuts_unset(org)
+# Function: p6_aws_shortcuts_unset(org)
 #
 #  Args:
 #	org - 
@@ -21,8 +20,7 @@ p6_aws_shortcuts_unset() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_shortcuts_set(org, cred_file)
+# Function: p6_aws_shortcuts_set(org, cred_file)
 #
 #  Args:
 #	org - 
@@ -44,14 +42,10 @@ p6_aws_shortcuts_set() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_shortcut_set(profile, region, env, type)
+# Function: p6_aws_shortcut_set(cfg)
 #
 #  Args:
-#	profile -
-#	region -
-#	env -
-#	type -
+#	cfg - 
 #
 #>
 ######################################################################
@@ -64,8 +58,7 @@ p6_aws_shortcut_set() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_shortcuts(org, cred_file)
+# Function: p6_aws_shortcuts(org, cred_file)
 #
 #  Args:
 #	org - 

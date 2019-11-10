@@ -1,3 +1,13 @@
+######################################################################
+#<
+#
+# Function: p6_aws_cfg__debug(msg)
+#
+#  Args:
+#	msg - 
+#
+#>
+######################################################################
 p6_aws_cfg__debug() {
     local msg="$1"
 
@@ -6,6 +16,18 @@ p6_aws_cfg__debug() {
     p6_return_void
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_cfg_activate(profile, region, org)
+#
+#  Args:
+#	profile - 
+#	region - 
+#	org - 
+#
+#>
+######################################################################
 p6_aws_cfg_activate() {
     local profile="$1"
     local region="$2"
@@ -31,6 +53,16 @@ p6_aws_cfg_activate() {
     p6_return_void
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_cfg_activate_jit(cfg)
+#
+#  Args:
+#	cfg - 
+#
+#>
+######################################################################
 p6_aws_cfg_activate_jit() {
     local cfg="$1"
 
@@ -44,6 +76,17 @@ p6_aws_cfg_activate_jit() {
     p6_return_void
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_cfg_from_cred_file(profile, cred_file)
+#
+#  Args:
+#	profile - 
+#	cred_file - 
+#
+#>
+######################################################################
 p6_aws_cfg_from_cred_file() {
     local profile="$1"
     local cred_file="$2"
@@ -73,6 +116,16 @@ p6_aws_cfg_from_cred_file() {
     p6_return_aws_cfg "$cfg"
 }
 
+######################################################################
+#<
+#
+# Function: words kinds = p6_aws_cfg_kinds()
+#
+#  Returns:
+#	words - kinds
+#
+#>
+######################################################################
 p6_aws_cfg_kinds() {
 
     local kinds="_active _source _saved"
@@ -80,6 +133,16 @@ p6_aws_cfg_kinds() {
     p6_return_words "$kinds"
 }
 
+######################################################################
+#<
+#
+# Function: words env_vars = p6_aws_cfg_vars()
+#
+#  Returns:
+#	words - env_vars
+#
+#>
+######################################################################
 p6_aws_cfg_vars() {
 
     local env_vars=" \
@@ -100,6 +163,13 @@ p6_aws_cfg_vars() {
     p6_return_words "$env_vars"
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_cfg_show()
+#
+#>
+######################################################################
 p6_aws_cfg_show() {
 
     p6_env_list "^AWS_"
@@ -107,6 +177,13 @@ p6_aws_cfg_show() {
     p6_return_void
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_cfg_reset()
+#
+#>
+######################################################################
 p6_aws_cfg_reset() {
 
     local kv
@@ -118,6 +195,13 @@ p6_aws_cfg_reset() {
     p6_return_void
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_cfg_clear()
+#
+#>
+######################################################################
 p6_aws_cfg_clear() {
 
     local kv
@@ -129,16 +213,37 @@ p6_aws_cfg_clear() {
     p6_return_void
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_cfg_save()
+#
+#>
+######################################################################
 p6_aws_cfg_save() {
 
     p6_aws_cfg__copy "active" "saved"
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_cfg_save_source()
+#
+#>
+######################################################################
 p6_aws_cfg_save_source() {
 
     p6_aws_cfg__copy "active" "source"
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_cfg_restore_saved()
+#
+#>
+######################################################################
 p6_aws_cfg_restore_saved() {
 
     p6_aws_cfg_restore__from "saved"
@@ -146,6 +251,13 @@ p6_aws_cfg_restore_saved() {
     p6_return_void
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_cfg_restore_source()
+#
+#>
+######################################################################
 p6_aws_cfg_restore_source() {
 
     p6_aws_cfg_restore__from "source"
@@ -153,6 +265,16 @@ p6_aws_cfg_restore_source() {
     p6_return_void
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_cfg_restore__from(kind)
+#
+#  Args:
+#	kind - 
+#
+#>
+######################################################################
 p6_aws_cfg_restore__from() {
     local kind="$1"
 
@@ -176,6 +298,17 @@ p6_aws_cfg_restore__from() {
     p6_return_void
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_cfg__copy(kind_from, kind_to)
+#
+#  Args:
+#	kind_from - 
+#	kind_to - 
+#
+#>
+######################################################################
 p6_aws_cfg__copy() {
     local kind_from="$1"
     local kind_to="$2"
@@ -195,6 +328,13 @@ p6_aws_cfg__copy() {
     p6_return_void
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_cfg__generate()
+#
+#>
+######################################################################
 p6_aws_cfg__generate() {
 
     local var
@@ -208,6 +348,17 @@ p6_aws_cfg__generate() {
     p6_return_void
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_cfg__generate_kinds(fname, var)
+#
+#  Args:
+#	fname - 
+#	var - 
+#
+#>
+######################################################################
 p6_aws_cfg__generate_kinds() {
     local fname="$1"
     local var="$2"
@@ -221,6 +372,18 @@ p6_aws_cfg__generate_kinds() {
     p6_return_void
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_cfg__accessor(kind, fname, var)
+#
+#  Args:
+#	kind - 
+#	fname - 
+#	var - 
+#
+#>
+######################################################################
 p6_aws_cfg__accessor() {
     local kind="$1"
     local fname="$2"
@@ -233,6 +396,16 @@ p6_aws_cfg__accessor() {
     fi
 
     local code="
+######################################################################
+#<
+#
+# Function: str \$old\ = p6_aws_cfg_env_${func}()
+#
+#  Returns:
+#	str - \$old\#	str - code
+#
+#>
+######################################################################
 p6_aws_cfg_env_${func}() {
     local val=\"\$1\"
 

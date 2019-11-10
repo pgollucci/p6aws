@@ -1,14 +1,13 @@
 ######################################################################
 #<
 #
-# Function:
-#	unkown  = p6_aws_ec2_svc_user_from_ami_name(ami_name)
+# Function: str user = p6_aws_ec2_svc_user_from_ami_name(ami_name)
 #
 #  Args:
 #	ami_name - 
 #
 #  Returns:
-#	unkown - 
+#	str - user
 #
 #>
 ######################################################################
@@ -30,8 +29,7 @@ p6_aws_ec2_svc_user_from_ami_name() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_ec2_svc_ami_id_from_instance_id(instance_id)
+# Function: p6_aws_ec2_svc_ami_id_from_instance_id(instance_id)
 #
 #  Args:
 #	instance_id - 
@@ -50,8 +48,7 @@ p6_aws_ec2_svc_ami_id_from_instance_id() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_ec2_svc_ami_name_from_instance_id(instance_id)
+# Function: p6_aws_ec2_svc_ami_name_from_instance_id(instance_id)
 #
 #  Args:
 #	instance_id - 
@@ -72,8 +69,7 @@ p6_aws_ec2_svc_ami_name_from_instance_id() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_ec2_svc_amis_mine_list()
+# Function: p6_aws_ec2_svc_amis_mine_list()
 #
 #>
 ######################################################################
@@ -89,8 +85,7 @@ p6_aws_ec2_svc_amis_mine_list() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_ec2_svc_amis_list()
+# Function: p6_aws_ec2_svc_amis_list()
 #
 #>
 ######################################################################
@@ -105,8 +100,7 @@ p6_aws_ec2_svc_amis_list() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_ec2_svc_ami_find_id(glob)
+# Function: p6_aws_ec2_svc_ami_find_id(glob)
 #
 #  Args:
 #	glob - 
@@ -128,8 +122,7 @@ p6_aws_ec2_svc_ami_find_id() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_ec2_svc_amis_freebsd12_latest()
+# Function: p6_aws_ec2_svc_amis_freebsd12_latest()
 #
 #>
 ######################################################################
@@ -145,8 +138,7 @@ p6_aws_ec2_svc_amis_freebsd12_latest() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_ec2_svc_amis_amazon2_latest()
+# Function: p6_aws_ec2_svc_amis_amazon2_latest()
 #
 #>
 ######################################################################
@@ -164,8 +156,7 @@ p6_aws_ec2_svc_amis_amazon2_latest() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_ec2_svc_amis_rhel8_latest()
+# Function: p6_aws_ec2_svc_amis_rhel8_latest()
 #
 #>
 ######################################################################
@@ -183,8 +174,7 @@ p6_aws_ec2_svc_amis_rhel8_latest() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_ec2_svc_amis_ubuntu18_latest()
+# Function: p6_aws_ec2_svc_amis_ubuntu18_latest()
 #
 #>
 ######################################################################

@@ -1,8 +1,7 @@
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_alb_svc_list()
+# Function: p6_aws_alb_svc_list()
 #
 #>
 ######################################################################
@@ -18,8 +17,7 @@ p6_aws_alb_svc_list() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_alb_svc_listeners_list(load_balancer_name)
+# Function: p6_aws_alb_svc_listeners_list(load_balancer_name)
 #
 #  Args:
 #	load_balancer_name - 
@@ -35,8 +33,7 @@ p6_aws_alb_svc_listeners_list() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_alb_svc_create(alb_name, [subnet_type=Public], [vpc_id=$AWS_VPC])
+# Function: p6_aws_alb_svc_create(alb_name, [subnet_type=Public], [vpc_id=$AWS_VPC])
 #
 #  Args:
 #	alb_name - 
@@ -58,8 +55,7 @@ p6_aws_alb_svc_create() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_alb_svc_listener_create(alb_arn, target_group_arn)
+# Function: p6_aws_alb_svc_listener_create(alb_arn, target_group_arn)
 #
 #  Args:
 #	alb_arn - 
@@ -85,8 +81,7 @@ p6_aws_alb_svc_listener_create() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_alb_svc_target_group_create(tg_name, [vpc_id=AWS_VPC])
+# Function: p6_aws_alb_svc_target_group_create(tg_name, [vpc_id=AWS_VPC])
 #
 #  Args:
 #	tg_name - 

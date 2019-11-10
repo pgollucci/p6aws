@@ -1,8 +1,7 @@
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_stepfunctions_svc_list()
+# Function: p6_aws_stepfunctions_svc_list()
 #
 #>
 ######################################################################
@@ -16,8 +15,7 @@ p6_aws_stepfunctions_svc_list() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_stepfunctions_svc_state_machine_show(state_machine)
+# Function: p6_aws_stepfunctions_svc_state_machine_show(state_machine)
 #
 #  Args:
 #	state_machine - 

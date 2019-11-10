@@ -1,8 +1,7 @@
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_ssh_svc_do(tag, type)
+# Function: p6_aws_ssh_svc_do(tag, type)
 #
 #  Args:
 #	tag - 

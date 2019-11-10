@@ -1,8 +1,7 @@
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_kms_svc_list_aliases()
+# Function: p6_aws_kms_svc_list_aliases()
 #
 #>
 ######################################################################
@@ -18,8 +17,7 @@ p6_aws_kms_svc_list_aliases() {
 ######################################################################
 #<
 #
-# Function:
-#	unkown key_id = p6_aws_kms_svc_key_make(account_id, key_description, key_alias)
+# Function: str key_id = p6_aws_kms_svc_key_make(account_id, key_description, key_alias)
 #
 #  Args:
 #	account_id - 
@@ -27,7 +25,7 @@ p6_aws_kms_svc_list_aliases() {
 #	key_alias - 
 #
 #  Returns:
-#	unkown - key_id
+#	str - key_id
 #
 #>
 ######################################################################
@@ -50,8 +48,7 @@ p6_aws_kms_svc_key_make() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_kms_key_create(key_description, key_policy)
+# Function: p6_aws_kms_key_create(key_description, key_policy)
 #
 #  Args:
 #	key_description - 

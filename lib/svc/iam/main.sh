@@ -1,8 +1,7 @@
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_iam_svc_instance_profiles_list()
+# Function: p6_aws_iam_svc_instance_profiles_list()
 #
 #>
 ######################################################################
@@ -16,8 +15,7 @@ p6_aws_iam_svc_instance_profiles_list() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_iam_svc_role_policies(role_name)
+# Function: p6_aws_iam_svc_role_policies(role_name)
 #
 #  Args:
 #	role_name - 
@@ -36,8 +34,7 @@ p6_aws_iam_svc_role_policies() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_iam_svc_roles_list()
+# Function: p6_aws_iam_svc_roles_list()
 #
 #>
 ######################################################################
@@ -51,8 +48,7 @@ p6_aws_iam_svc_roles_list() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_iam_svc_users_list()
+# Function: p6_aws_iam_svc_users_list()
 #
 #>
 ######################################################################
@@ -66,8 +62,7 @@ p6_aws_iam_svc_users_list() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_iam_svc_password_policy_default()
+# Function: p6_aws_iam_svc_password_policy_default()
 #
 #>
 ######################################################################
@@ -88,8 +83,7 @@ p6_aws_iam_svc_password_policy_default() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_iam_svc_role_saml_create(role_full_path, policy_arn, account_id, provider)
+# Function: p6_aws_iam_svc_role_saml_create(role_full_path, policy_arn, account_id, provider)
 #
 #  Args:
 #	role_full_path - 
@@ -116,8 +110,7 @@ p6_aws_iam_svc_role_saml_create() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_iam_svc_policy_saml(account_id, provider)
+# Function: p6_aws_iam_svc_policy_saml(account_id, provider)
 #
 #  Args:
 #	account_id - 
@@ -137,8 +130,7 @@ p6_aws_iam_svc_policy_saml() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_iam_svc_policy_s3_cloudtrail_write(trail_bucket, account_id)
+# Function: p6_aws_iam_svc_policy_s3_cloudtrail_write(trail_bucket, account_id)
 #
 #  Args:
 #	trail_bucket - 
@@ -158,8 +150,7 @@ p6_aws_iam_svc_policy_s3_cloudtrail_write() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_iam_svc_policy_cloudtrail_write(resource)
+# Function: p6_aws_iam_svc_policy_cloudtrail_write(resource)
 #
 #  Args:
 #	resource - 
@@ -176,8 +167,7 @@ p6_aws_iam_svc_policy_cloudtrail_write() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_iam_svc_policy_service_write(service)
+# Function: p6_aws_iam_svc_policy_service_write(service)
 #
 #  Args:
 #	service - 
@@ -194,8 +184,7 @@ p6_aws_iam_svc_policy_service_write() {
 ######################################################################
 #<
 #
-# Function:
-#	unkown role_arn = p6_aws_iam_svc_role_create(role_path, role_name, assume_role_policy_document)
+# Function: str role_arn = p6_aws_iam_svc_role_create(role_path, role_name, assume_role_policy_document)
 #
 #  Args:
 #	role_path - 
@@ -203,7 +192,7 @@ p6_aws_iam_svc_policy_service_write() {
 #	assume_role_policy_document - 
 #
 #  Returns:
-#	unkown - role_arn
+#	str - role_arn
 #
 #>
 ######################################################################
@@ -225,8 +214,7 @@ p6_aws_iam_svc_role_create() {
 ######################################################################
 #<
 #
-# Function:
-#	p6_aws_iam_svc_policy_to_role(role_full_path, policy_arn)
+# Function: p6_aws_iam_svc_policy_to_role(role_full_path, policy_arn)
 #
 #  Args:
 #	role_full_path - 
@@ -246,8 +234,7 @@ p6_aws_iam_svc_policy_to_role() {
 ######################################################################
 #<
 #
-# Function:
-#	unkown policy_arn = p6_aws_iam_svc_policy_create(policy_full_path, policy_description, policy_document)
+# Function: str policy_arn = p6_aws_iam_svc_policy_create(policy_full_path, policy_description, policy_document)
 #
 #  Args:
 #	policy_full_path - 
@@ -255,7 +242,7 @@ p6_aws_iam_svc_policy_to_role() {
 #	policy_document - 
 #
 #  Returns:
-#	unkown - policy_arn
+#	str - policy_arn
 #
 #>
 ######################################################################
