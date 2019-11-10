@@ -79,11 +79,14 @@ p6_aws_cfg_activate_jit() {
 ######################################################################
 #<
 #
-# Function: p6_aws_cfg_from_cred_file(profile, cred_file)
+# Function: aws_cfg cfg = p6_aws_cfg_from_cred_file(profile, cred_file)
 #
 #  Args:
 #	profile - 
 #	cred_file - 
+#
+#  Returns:
+#	aws_cfg - cfg
 #
 #>
 ######################################################################
