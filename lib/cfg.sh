@@ -11,7 +11,7 @@ p6_aws_cfg_activate() {
     local region="$2"
     local org="$3"
 
-    local cfg=$(p6_obj_hash_create)
+    local cfg=$(p6_obj_create "hash")
 
     p6_aws_cfg_env_profile_active "$profile"
     p6_aws_cfg_env_default_profile_active "$profile"
@@ -50,7 +50,7 @@ p6_aws_cfg_from_cred_file() {
 
     p6_aws_cfg__debug "from_cred_file(): [profile=$profile] [cred_file=$cred_file]"
 
-    local cfg=$(p6_obj_hash_create)
+    local cfg=$(p6_obj_create "$hash")
     local o1=$(p6_obj_hash_set "$cfg" "aws_profile" "$profile")
     local o2=$(p6_obj_hash_set "$cfg" "aws_default_profile" "$profile")
 
