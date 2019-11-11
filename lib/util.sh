@@ -11,6 +11,7 @@ p6_aws_util_cli_qload() {
     local svc="$1"
 
     . $P6_DFZ_SRC_DIR/p6m7g8/p6common/lib/io.sh
+    . $P6_DFZ_SRC_DIR/p6m7g8/p6common/lib/return.sh
     . $P6_DFZ_SRC_DIR/p6m7g8/p6common/lib/debug.sh
     . $P6_DFZ_SRC_DIR/p6m7g8/p6common/lib/file.sh
     . $P6_DFZ_SRC_DIR/p6m7g8/p6common/lib/dir.sh

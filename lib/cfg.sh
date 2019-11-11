@@ -66,14 +66,7 @@ p6_aws_cfg_activate() {
 p6_aws_cfg_activate_jit() {
     local cfg="$1"
 
-    local key
-    for key in $(p6_obj_hash_keys "$cfg"); do
-	local val=$(p6_obj_hash_get "$cfg" "$key")
-
-	p6_aws_cfg__debug "activate_jit(): p6_aws_cfg_env_[key=$key]_active [val=$val"]
-    done
-
-    p6_return_void
+    p6_obj_iter_foreach "$cfg" "k"  "p6_aws_cfg_env_%%key%%_active"
 }
 
 ######################################################################
@@ -96,25 +89,28 @@ p6_aws_cfg_from_cred_file() {
 
     p6_aws_cfg__debug "from_cred_file(): [profile=$profile] [cred_file=$cred_file]"
 
-    local cfg=$(p6_obj_create "$hash")
-    local o1=$(p6_obj_hash_set "$cfg" "aws_profile" "$profile")
-    local o2=$(p6_obj_hash_set "$cfg" "aws_default_profile" "$profile")
+    local cfg=$(p6_obj_create "hash")
+    local o1=$(p6_obj_item_set "$cfg" "profile" "$profile")
+    local o2=$(p6_obj_item_set "$cfg" "default_profile" "$profile")
 
     local line
     sed -n '/\[/,/\[/p' $cred_file | while read line; do
 	case $line in
 	    *\[*) continue ;;
+	    *session_token*|*secret_access_key*|*access_key_id*) continue ;;
 	esac
 	p6_aws_cfg__debug "from_cred_file(): [line=$line]"
 
 	local key=$(echo "$line" | cut -d = -f 1 | sed -e 's, *,,g')
 	local val=$(echo "$line" | cut -d = -f 2 | sed -e 's, *,,g')
-	local o3=$(p6_obj_hash_set "$cfg" "$key" "$val")
+
+	local rkey=$(p6_string_replace "$key" "aws_" "")
+
+	local o3=$(p6_obj_item_set "$cfg" "$rkey" "$val")
     done
 
-    local region=$(p6_obj_hash_get "$cfg" "region")
-    local o5=$(p6_obj_hash_set "$cfg" "aws_default_region" "$region")
-    local o6=$(p6_obj_hash_set "$cfg" "aws_region" "$region")
+    local region=$(p6_obj_item_get "$cfg" "region")
+    local o5=$(p6_obj_item_set "$cfg" "default_region" "$region")
 
     p6_return_aws_cfg "$cfg"
 }
@@ -161,7 +157,8 @@ p6_aws_cfg_vars() {
 	  AWS_SHARED_CREDENTIALS_FILE \
 	  AWS_CA_BUNDLE \
 	  AWS_METADATA_SERVICE_TIMEOUT \
-	  AWS_METADATA_SERVICE_NUM_ATTEMPTS"
+	  AWS_METADATA_SERVICE_NUM_ATTEMPTS \
+	  AWS_OUTPUT"
 
     p6_return_words "$env_vars"
 }
