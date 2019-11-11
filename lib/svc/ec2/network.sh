@@ -7,7 +7,7 @@
 ######################################################################
 p6_aws_ec2_svc_vpcs_list() {
 
-    p6_aws_ec2_vpcs_describe \
+    p6_aws_cmd "ec2" "describe-vpcs" \
 	--output text \
 	--filters "Name=isDefault,Values=false" \
 	--query "'Vpcs[].[VpcId, CidrBlock, State, $P6_AWS_JQ_TAG_NAME]'"
@@ -60,9 +60,9 @@ p6_aws_ec2_svc_subnet_ids_get() {
 #>
 ######################################################################
 p6_aws_ec2_svc_subnets_list() {
-    local vpc_id="${1:-$AWS_VPC}"
+    local vpc_id="${1:-$AWS_VPC_ID}"
 
-    p6_aws_ec2_subnets_describe \
+    p6_aws_cmd "ec2" "describe-subnets" \
 	--output text \
 	--filters "Name=vpc-id,Values=$vpc_id" \
 	--query "'Subnets[].[SubnetId, AvailabilityZone, CidrBlock, AvailableIpAddressCount, DefaultForAz, MapPublicIpOnLaunch, $P6_AWS_JQ_TAG_NAME]'"

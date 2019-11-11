@@ -10,13 +10,14 @@ P6_AWS_JQ_TAG_NAME="Tags[?Key==\`Name\`].Value | [0]"
 p6_aws_util_cli_qload() {
     local svc="$1"
 
-    . $P6_DFZ_SRC_DIR/p6m7g8/p6common/lib/io.sh
-    . $P6_DFZ_SRC_DIR/p6m7g8/p6common/lib/return.sh
-    . $P6_DFZ_SRC_DIR/p6m7g8/p6common/lib/debug.sh
-    . $P6_DFZ_SRC_DIR/p6m7g8/p6common/lib/file.sh
-    . $P6_DFZ_SRC_DIR/p6m7g8/p6common/lib/dir.sh
+    . $P6_DFZ_SRC_DIR/p6m7g8/p6common/lib/_bootstrap.sh
+    p6_bootstrap "$P6_DFZ_SRC_DIR/p6m7g8/p6common"
+
+    p6_file_load "$P6_DFZ_SRC_DIR/p6m7g8/p6aws/lib/cli.sh"
 
     p6_aws_util_include_service "$svc"
+
+    p6_return_void
 }
 
 ######################################################################
@@ -25,19 +26,17 @@ p6_aws_util_cli_qload() {
 # Function: p6_aws_util_include_service(service)
 #
 #  Args:
-#	service - 
+#	service -
 #
 #>
 ######################################################################
 p6_aws_util_include_service() {
     local service="$1"
 
-    local dir
-    local base=$P6_DFZ_SRC_DIR/p6m7g8/p6aws/lib
-    for dir in  api uw svc; do
-	local pdir="$base/$dir/$service"
-	p6_dir_load "$pdir"
-    done
+    local dir=$P6_DFZ_SRC_DIR/p6m7g8/p6aws/lib/svc/$service
+    p6_dir_load "$dir"
+
+    p6_return_void
 }
 
 ######################################################################

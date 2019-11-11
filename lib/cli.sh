@@ -19,7 +19,8 @@ p6_aws_cmd() {
     describe|get|list) log_type=p6_run_read_cmd ;;
   esac
 
-  local arg_str="$@"
+  p6_run_code "aws $service $cmd $@"
+  local rc=$?
 
-  p6_log "eval \"$log_type aws $service $cmd $str\""
+  p6_return_code_as_code "$rc"
 }
