@@ -11,7 +11,7 @@
 p6_aws_s3api_svc_bucket_policy() {
     local bucket="$1"
 
-    p6_aws_s3api_bucket_policy_get "$bucket"
+    p6_aws_cmd s3api get-bucket-policy "$bucket"
 }
 
 ######################################################################
@@ -27,10 +27,10 @@ p6_aws_s3api_svc_bucket_policy() {
 p6_aws_s3api_svc_bucket_objects_versions_list() {
     local bucket="$1"
 
-    p6_aws_s3api_object_versions_list \
-	$bucket \
-	--output text \
-	--query "'Versions[].[Key, StorageClass, IsLatest, ETag, LastModified, Owner.ID]'"
+    p6_aws_cmd s3api list-object-versions \
+	       $bucket \
+	       --output text \
+	       --query "'Versions[].[Key, StorageClass, IsLatest, ETag, LastModified, Owner.ID]'"
 }
 
 ######################################################################
@@ -46,10 +46,10 @@ p6_aws_s3api_svc_bucket_objects_versions_list() {
 p6_aws_s3api_svc_bucket_objects_deleted() {
     local bucket="$1"
 
-    p6_aws_s3api_object_versions_list \
-	$bucket \
-	--output text \
-	--query "'DeleteMarkers[].[Key, VersionId, IsLatest, LastModified, Owner.ID]'"
+    p6_aws_cmd s3api list-object-versions \
+	       $bucket \
+	       --output text \
+	       --query "'DeleteMarkers[].[Key, VersionId, IsLatest, LastModified, Owner.ID]'"
 }
 
 ######################################################################
@@ -65,29 +65,34 @@ p6_aws_s3api_svc_bucket_objects_deleted() {
 p6_aws_s3api_svc_bucket_list_objects_all() {
     local bucket="$1"
 
-    echo "==========> Objects:"
+    p6_h1 "Objects:"
     p6_aws_s3api_svc_bucket_objects_versions_list "$bucket"
 
-    echo "==========> Deleted:"
+    p6_h1 "Deleted:"
     p6_aws_s3api_svc_bucket_objects_deleted "$bucket"
 }
 
 ######################################################################
 #<
 #
-# Function: p6_aws_s3api_svc_bucket_delete_with_versioned_objects(bucket)
+# Function: false  = p6_aws_s3api_svc_bucket_delete_with_versioned_objects(bucket)
 #
 #  Args:
 #	bucket - 
+#
+#  Returns:
+#	false - #	code - rc
 #
 #>
 ######################################################################
 p6_aws_s3api_svc_bucket_delete_with_versioned_objects() {
     local bucket="$1"
 
-    [ -z "$bucket" ] && echo "bucket=[$bucket] is required" && return 1
-
-    local cmd=$(cat <<EOF
+    if p6_string_blank "$bucket"; then
+	p6_error "bucket is a required argument"
+	p6_return_false
+    else
+	local cmd=$(cat <<EOF
 import boto3
 
 session = boto3.Session()
@@ -98,7 +103,9 @@ bucket.object_versions.delete()
 
 bucket.delete()
 EOF
-)
-    python -c $cmd
+	      )
+	local rc=$(p6_run_write_cmd "python -c $cmd")
 
+	p6_return_code_as_code "$rc"
+    fi
 }

@@ -7,9 +7,9 @@
 ######################################################################
 p6_aws_elb_svc_list() {
 
-    p6_aws_elb_load_balancers_describe \
-	--output text \
-	--query "'LoadBalancerDescriptions[].[Scheme, LoadBalancerName, join(\`,\`, Subnets[]), join(\`,\`, AvailabilityZones[]), join(\`,\`, SecurityGroups[]), join(\`,\`,Instances[].InstanceId), $P6_AWS_JQ_TAG_NAME]'"
+    p6_aws_cmd elb describe-load-balancers \
+	       --output text \
+	       --query "'LoadBalancerDescriptions[].[Scheme, LoadBalancerName, join(\`,\`, Subnets[]), join(\`,\`, AvailabilityZones[]), join(\`,\`, SecurityGroups[]), join(\`,\`,Instances[].InstanceId), $P6_AWS_JQ_TAG_NAME]'"
 }
 
 ######################################################################
@@ -77,7 +77,9 @@ p6_aws_elb_svc_create() {
     esac
     # done
 
-    p6_aws_elb_load_balancer_create "$elb_name" "'$listener'" --subnets $subnet_ids
+    p6_aws_cmd elb create-load-balancer "$elb_name" "'$listener'" --subnets $subnet_ids
 
-    # tags
+    # XXX: tags
+
+    # XXX :return
 }

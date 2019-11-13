@@ -1,7 +1,7 @@
 ######################################################################
 #<
 #
-# Function: str account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
+# Function: aws_account_id account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
 #
 #  Args:
 #	account_name - 
@@ -12,7 +12,7 @@
 #	account_alias - 
 #
 #  Returns:
-#	str - account_id#	str - car_id
+#	aws_account_id - account_id#	str - car_id#	aws_account_id - account_id
 #
 #>
 ######################################################################
@@ -25,26 +25,32 @@ p6_aws_organizations_svc_account_create() {
 
     local account_id=$(p6_aws_organizations_svc_account_id_from_name "$account_alias")
 
-    p6_return_str "$account_id" 
+    p6_return_aws_account_id "$account_id"
 }
 
 ######################################################################
 #<
 #
-# Function: p6_aws_organizations_svc_account_wait_for(cas_id, car)
+# Function: bool bool = p6_aws_organizations_svc_account_wait_for(cas_id, car)
 #
 #  Args:
 #	cas_id - 
 #	car - 
+#
+#  Returns:
+#	bool - bool#	bool - bool
 #
 #>
 ######################################################################
 p6_aws_organizations_svc_account_wait_for() {
     local cas_id="$1"
 
-    p6_run_retry \
-	p6_aws_organizations_svc_account_create_stop \
-	p6_aws_organizations_svc_account_create_status "$cas_id"
+    local bool=$(p6_run_retry \
+		   p6_aws_organizations_svc_account_create_stop \
+		   p6_aws_organizations_svc_account_create_status "$cas_id"
+	  )
+
+    p6_return_bool "$bool"
 }
 
 ######################################################################
@@ -73,13 +79,13 @@ p6_aws_organizations_svc_account_create_stop() {
 ######################################################################
 #<
 #
-# Function: str account_id = p6_aws_organizations_svc_account_id_from_name(account_name)
+# Function: aws_account_id account_id = p6_aws_organizations_svc_account_id_from_name(account_name)
 #
 #  Args:
 #	account_name - 
 #
 #  Returns:
-#	str - account_id
+#	aws_account_id - account_id
 #
 #>
 ######################################################################
@@ -87,19 +93,19 @@ p6_aws_organizations_svc_account_id_from_name() {
     local account_name="$1"
 
     local account_id=$(
-	p6_aws_organizations_accounts_list \
-	    --output text \
-	    --query "'Accounts[].[Id, Name]'" | \
+	p6_aws_cmd organizations list-accounts \
+		   --output text \
+		   --query "'Accounts[].[Id, Name]'" | \
 	    awk -v k=$account_name '$2 ~ k { print $1 }'
 	  )
 
-    p6_return_str "$account_id"
+    p6_return_aws_account_id "$account_id"
 }
 
 ######################################################################
 #<
 #
-# Function: str account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
+# Function: aws_account_id account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
 #
 #  Args:
 #	account_name - 
@@ -110,7 +116,7 @@ p6_aws_organizations_svc_account_id_from_name() {
 #	account_alias - 
 #
 #  Returns:
-#	str - account_id#	str - car_id
+#	aws_account_id - account_id#	str - car_id#	aws_account_id - account_id
 #
 #>
 ######################################################################
@@ -119,10 +125,10 @@ p6_aws_organizations_svc_account_create() {
     local account_email="$2"
 
     local car_id=$(
-	p6_aws_organizations_account_create \
-	    "$account_email" "$account_name" \
-	    --output text \
-	    --query "CreateAccountStattus.Id"
+	p6_aws_cmd organizations create-account \
+		   "$account_email" "$account_name" \
+		   --output text \
+		   --query "CreateAccountStattus.Id"
 	  )
 
     p6_return_str "$car_id"
@@ -145,10 +151,10 @@ p6_aws_organizations_svc_account_create_status() {
     local car_id="$1"
 
     local status=$(
-	p6_aws_organizations_create_account_status_describe \
-	    "$car_id" \
-	    --output text \
-	    --query "'CreateAccountStatus.State'"
+	p6_aws_cmd organiations describe-create-account-stattus \
+		   "$car_id" \
+		   --output text \
+		   --query "'CreateAccountStatus.State'"
 	  )
 
     p6_return_str "$status"
@@ -163,7 +169,7 @@ p6_aws_organizations_svc_account_create_status() {
 ######################################################################
 p6_aws_organizations_svc_accounts_list() {
 
-    p6_aws_organizations_accounts_list \
-	--output text \
-	--query "'Accounts[].[Id, Status, JoinedMethod, Arn, Name, Email]'"
+    p6_aws_cmd organiations list-accounts \
+	       --output text \
+	       --query "'Accounts[].[Id, Status, JoinedMethod, Arn, Name, Email]'"
 }

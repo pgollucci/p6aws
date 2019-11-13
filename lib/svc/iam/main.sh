@@ -7,9 +7,9 @@
 ######################################################################
 p6_aws_iam_svc_instance_profiles_list() {
 
-    p6_aws_iam_instance_profiles_list \
-	--output text \
-	--query "'InstanceProfiles[].[InstanceProfileId, InstanceProfileName]'"
+    p6_aws_cmd iam list-instance-profiles \
+	       --output text \
+	       --query "'InstanceProfiles[].[InstanceProfileId, InstanceProfileName]'"
 }
 
 ######################################################################
@@ -25,10 +25,10 @@ p6_aws_iam_svc_instance_profiles_list() {
 p6_aws_iam_svc_role_policies() {
    local role_name="$1"
 
-    p6_aws_iam_attached_role_policies_list \
-	--output text \
-	--role-name $role_name \
-	--query "'AttachedPolicies[].[PolicyName]'"
+   p6_aws_cmd iam list-attached-role-policies \
+	      --output text \
+	      --role-name $role_name \
+	      --query "'AttachedPolicies[].[PolicyName]'"
 }
 
 ######################################################################
@@ -40,9 +40,9 @@ p6_aws_iam_svc_role_policies() {
 ######################################################################
 p6_aws_iam_svc_roles_list() {
 
-    p6_aws_iam_roles_list \
-	--output text \
-	--query "'Roles[].[RoleId,RoleName,Arn]'"
+    p6_aws_cmd iam list-roles \
+	       --output text \
+	       --query "'Roles[].[RoleId,RoleName,Arn]'"
 }
 
 ######################################################################
@@ -54,9 +54,9 @@ p6_aws_iam_svc_roles_list() {
 ######################################################################
 p6_aws_iam_svc_users_list() {
 
-    p6_aws_iam_users_list \
-	--output text \
-	--query "'Users[].[UserId,UserName,Arn]'"
+    p6_aws_cmd iam list-users \
+	       --output text \
+	       --query "'Users[].[UserId,UserName,Arn]'"
 }
 
 ######################################################################
@@ -68,16 +68,18 @@ p6_aws_iam_svc_users_list() {
 ######################################################################
 p6_aws_iam_svc_password_policy_default() {
 
-    p6_aws_iam_account_password_policy_update \
-	--minimum-password-length 12 \
-	--require-symbols \
-	--require-numbers \
-	--require-uppercase-characters \
-	--require-lowercase-characters \
-	--allow-users-to-change-password \
-	--max-password-age 1095 \
-	--password-reuse-prevention 1 \
-	--hard-expiry
+    p6_aws_cmd iam update-account-password-policy \
+	       --minimum-password-length 12 \
+	       --require-symbols \
+	       --require-numbers \
+	       --require-uppercase-characters \
+	       --require-lowercase-characters \
+	       --allow-users-to-change-password \
+	       --max-password-age 1095 \
+	       --password-reuse-prevention 1 \
+	       --hard-expiry
+
+    p6_return_void
 }
 
 ######################################################################
@@ -104,7 +106,9 @@ p6_aws_iam_svc_role_saml_create() {
 
     local assume_role_policy_document=$(p6_aws_iam_svc_policy_saml "$account_id" "$provider")
     p6_aws_iam_svc_role_create "$role_path/" "$role_name" "$assume_role_policy_document"
-    p6_aws_iam_role_policy_attach "$role_name" "$policy_arn"
+    p6_aws_cmd iam attach-role-policy "$role_name" "$policy_arn"
+
+    # XXX: return
 }
 
 ######################################################################
@@ -184,7 +188,7 @@ p6_aws_iam_svc_policy_service_write() {
 ######################################################################
 #<
 #
-# Function: str role_arn = p6_aws_iam_svc_role_create(role_path, role_name, assume_role_policy_document)
+# Function: aws_arn role_arn = p6_aws_iam_svc_role_create(role_path, role_name, assume_role_policy_document)
 #
 #  Args:
 #	role_path - 
@@ -192,7 +196,7 @@ p6_aws_iam_svc_policy_service_write() {
 #	assume_role_policy_document - 
 #
 #  Returns:
-#	str - role_arn
+#	aws_arn - role_arn
 #
 #>
 ######################################################################
@@ -202,13 +206,14 @@ p6_aws_iam_svc_role_create() {
     local assume_role_policy_document="$3"
 
     local role_arn=$(
-	p6_aws_iam_role_create "$role_name" "$assume_role_policy_document" \
-			       --output text \
-			       --path \'$role_path\' \
-			       --query "'Role.Arn'"
+	p6_aws_cmd iam create-role \
+		   "$role_name" "$assume_role_policy_document" \
+		   --output text \
+		   --path \'$role_path\' \
+		   --query "'Role.Arn'"
 	  )
 
-    p6_return_str "$role_arn"
+    p6_return_aws_arn "$role_arn"
 }
 
 ######################################################################
@@ -228,21 +233,22 @@ p6_aws_iam_svc_policy_to_role() {
 
     local role_name=$(p6_uri_name "$role_full_path")
 
-    p6_aws_iam_policy_role_attach --role-name $role_name --policy-arn $policy_arn
+    p6_aws_cmd iam attach-policy-role \
+	       --role-name $role_name \
+	       --policy-arn $policy_arn
+
+    p6_return_void
 }
 
 ######################################################################
 #<
 #
-# Function: str policy_arn = p6_aws_iam_svc_policy_create(policy_full_path, policy_description, policy_document)
+# Function: p6_aws_iam_svc_policy_create(policy_full_path, policy_description, policy_document)
 #
 #  Args:
 #	policy_full_path - 
 #	policy_description - 
 #	policy_document - 
-#
-#  Returns:
-#	str - policy_arn
 #
 #>
 ######################################################################
@@ -255,14 +261,14 @@ p6_aws_iam_svc_policy_create() {
     local policy_name=$(p6_uri_name "$policy_full_path")
 
     local policy_arn=$(
-	p6_aws_iam_policy_create \
-	    --output text \
-	    --path $policy_path/ \
-	    --policy-name $policy_name \
-	    --description $policy_description \
-	    --policy-document $policy_document \
-	    --query "Policy.Arn"
+	p6_aws_cmd iam create-policy \
+		   --output text \
+		   --path $policy_path/ \
+		   --policy-name $policy_name \
+		   --description $policy_description \
+		   --policy-document $policy_document \
+		   --query "Policy.Arn"
 	  )
 
-    p6_return_str "$policy_arn"
+    p6_return_aws_str "$policy_arn"
 }

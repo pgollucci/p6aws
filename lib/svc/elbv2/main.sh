@@ -9,9 +9,9 @@ p6_aws_alb_svc_list() {
     #   local vpc_id="${1:-$AWS_VPC}"
     #   --filters "Name=vpc-id,Values=$vpc_id"
 
-    p6_aws_elbv2_load_balancers_describe \
-	--output text \
-	--query "'LoadBalancers[].[State.Code, Scheme, Type, join(\`,\`, AvailabilityZones[].SubnetId), join(\`,\`, SecurityGroups[]), DNSName, LoadBalancerArn]'"
+    p6_aws_cmd elbv2 describe-load-balancers \
+	       --output text \
+	       --query "'LoadBalancers[].[State.Code, Scheme, Type, join(\`,\`, AvailabilityZones[].SubnetId), join(\`,\`, SecurityGroups[]), DNSName, LoadBalancerArn]'"
 }
 
 ######################################################################
@@ -33,23 +33,27 @@ p6_aws_alb_svc_listeners_list() {
 ######################################################################
 #<
 #
-# Function: p6_aws_alb_svc_create(alb_name, [subnet_type=Public], [vpc_id=$AWS_VPC])
+# Function: p6_aws_alb_svc_create(alb_name, [subnet_type=Public], [vpc_id=$AWS_VPC_ID])
 #
 #  Args:
 #	alb_name - 
 #	OPTIONAL subnet_type -  [Public]
-#	OPTIONAL vpc_id -  [$AWS_VPC]
+#	OPTIONAL vpc_id -  [$AWS_VPC_ID]
 #
 #>
 ######################################################################
 p6_aws_alb_svc_create() {
     local alb_name="$1"
     local subnet_type="${2:-Public}"
-    local vpc_id="${3:-$AWS_VPC}"
+    local vpc_id="${3:-$AWS_VPC_ID}"
 
     local subnet_ids=$(p6_aws_ec2_svc_subnet_ids_get "$subnet_type" "$vpc_id" | xargs)
 
-    p6_aws_elbv2_load_balancer_create "$alb_name" "$subnet_ids"
+    p6_aws_cmd elbv2 create-load-balancer "$alb_name" "$subnet_ids"
+
+    # XXX: tags
+
+    # XXX :return
 }
 
 ######################################################################
@@ -71,27 +75,27 @@ p6_aws_alb_svc_listener_create() {
     local protocol=HTTP
     local port=80
 
-    p6_aws_elbv2_listener_create \
-	"$alb_arn" \
-	--protocol $protocol \
-	--port $port \
-	--default-actions Type=$default_action_type,TargetGroupArn=$target_group_arn
+    p6_aws_cmd elbv2 create-listener \
+	       "$alb_arn" \
+	       --protocol $protocol \
+	       --port $port \
+	       --default-actions Type=$default_action_type,TargetGroupArn=$target_group_arn
 }
 
 ######################################################################
 #<
 #
-# Function: p6_aws_alb_svc_target_group_create(tg_name, [vpc_id=AWS_VPC])
+# Function: p6_aws_alb_svc_target_group_create(tg_name, [vpc_id=AWS_VPC_ID])
 #
 #  Args:
 #	tg_name - 
-#	OPTIONAL vpc_id -  [AWS_VPC]
+#	OPTIONAL vpc_id -  [AWS_VPC_ID]
 #
 #>
 ######################################################################
 p6_aws_alb_svc_target_group_create() {
     local tg_name="$1"
-    local vpc_id="${2:-AWS_VPC}"
+    local vpc_id="${2:-AWS_VPC_ID}"
 
     if [ -n "$vpc_id" ]; then
 	vpc_id="--vpc-id $vpc_id"
@@ -103,9 +107,9 @@ p6_aws_alb_svc_target_group_create() {
     local protocol=HTTP
     local port=80
 
-    p6_aws_elbv2_target_group_create \
-	"$name" \
-	$vpc_id \
-	--protocol $protocol \
-	--port $port
+    p6_aws_cmd elbv2 create-target-group \
+	       "$name" \
+	       $vpc_id \
+	       --protocol $protocol \
+	       --port $port
 }

@@ -44,11 +44,8 @@ p6_aws_organizations_svc_account_make() {
     local cert_bits="${15}"
     local cert_exp="${16}"
 
-#    local account_id=$(p6_aws_organizations_svc_account_create_or_fetch "$account_alias" "$account_email" "$account_map")
-#    local saml_file=$(p6_jc_app_create "$org" "$account_id" "$cert_subject" "$cert_bits" "$cert_exp" "$saml_provider" "$saml_provider_email" "$role_full_path") # free me
-
-    local account_id=471418688340
-    local saml_file=/tmp/p6he-AWS-JumpCloud.xml
+    local account_id=$(p6_aws_organizations_svc_account_create_or_fetch "$account_alias" "$account_email" "$account_map")
+    local saml_file=$(p6_jc_app_create "$org" "$account_id" "$cert_subject" "$cert_bits" "$cert_exp" "$saml_provider" "$saml_provider_email" "$role_full_path") # free me
 
     p6_aws_organizations_svc_run_as \
 	"$account_alias" "$account_map" "$region" "$output" "OrganizationAccountAccessRole" "$saml_provider_email" "$cred_file" "$src_cred_file" "$assumed_cred_file" \
@@ -90,18 +87,18 @@ p6_aws_organizations_svc_account_init() {
     local provider="$9"
 
     p6_aws_iam_svc_password_policy_default
-    p6_aws_iam_account_alias_create "$account_alias"
+    p6_aws_cmd iam create-account-alias "$account_alias"
     # aws_sts_regions_disable $account_email
     # aws_sts_root_keys_delete $account_email
     # aws_sts_root_mfa_enable $account_email
-    p6_aws_iam_saml_provider_create "file://$saml_file" "$saml_provider"
+    p6_aws_cmd iam create-saml-provider "file://$saml_file" "$saml_provider"
     p6_aws_iam_svc_role_saml_create "$role_full_path" "$policy_arn" "$account_id" "$saml_provider"
 }
 
 ######################################################################
 #<
 #
-# Function: str  = p6_aws_organizations_svc_account_create_or_fetch(account_alias, account_email, account_map)
+# Function: aws_account_id account_id = p6_aws_organizations_svc_account_create_or_fetch(account_alias, account_email, account_map)
 #
 #  Args:
 #	account_alias - 
@@ -109,7 +106,7 @@ p6_aws_organizations_svc_account_init() {
 #	account_map - 
 #
 #  Returns:
-#	str - 
+#	aws_account_id - account_id
 #
 #>
 ######################################################################
@@ -124,13 +121,13 @@ p6_aws_organizations_svc_account_create_or_fetch() {
 #	p6_aws_util_account_map "$account_id" "$account_alias" "$account_map"
 #    fi
 
-    p6_return_str $account_id
+    p6_return_aws_account_id "$account_id"
 }
 
 ######################################################################
 #<
 #
-# Function: str account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
+# Function: aws_account_id account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
 #
 #  Args:
 #	account_name - 
@@ -141,7 +138,7 @@ p6_aws_organizations_svc_account_create_or_fetch() {
 #	account_alias - 
 #
 #  Returns:
-#	str - account_id#	str - car_id
+#	aws_account_id - account_id#	str - car_id#	aws_account_id - account_id
 #
 #>
 ######################################################################
@@ -149,29 +146,38 @@ p6_aws_organizations_svc_account_create() {
     local account_email="$1"
     local account_alias="$2"
 
-    local car=$(p6_aws_organizations_account_create "$account_email" "$account_alias")
+    local car=$(p6_aws_cmd organizations create-account "$account_email" "$account_alias")
     p6_aws_organizations_svc_account_wait_for "$car"
 
-    p6_aws_organizations_svc_account_id_from_alias "$account_alias"
+    local account_id=$(p6_aws_organizations_svc_account_id_from_alias "$account_alias")
+
+    p6_return_aws_account_id "$account_id"
 }
 
 ######################################################################
 #<
 #
-# Function: p6_aws_organizations_svc_account_wait_for(cas_id, car)
+# Function: bool bool = p6_aws_organizations_svc_account_wait_for(cas_id, car)
 #
 #  Args:
 #	cas_id - 
 #	car - 
+#
+#  Returns:
+#	bool - bool#	bool - bool
 #
 #>
 ######################################################################
 p6_aws_organizations_svc_account_wait_for() {
     local car="$1"
 
-    p6_run_retry \
-	p6_aws_organizations_svc_account_create_stop \
-	p6_aws_organizations_create_account_status_describe "$car"
+    local bool=$(
+	p6_run_retry \
+	    p6_aws_organizations_svc_account_create_stop \
+	    p6_aws_organizations_create_account_status_describe "$car"
+	  )
+
+    p6_return_bool "$bool"
 }
 
 ######################################################################
@@ -235,6 +241,8 @@ p6_aws_organizations_svc_su() {
     p6_aws_sts_svc_role_assume \
 	"$profile" "$region" "$output" "$role_arn" "$role_session_name" \
 	"$cred_file" "$src_cred_file" "$assumed_cred_file"
+
+    p6_return_void
 }
 
 ######################################################################
@@ -286,7 +294,7 @@ p6_aws_organizations_svc_run_as() {
 	"$account_alias" "$account_map" "$region" "$output" "$role_name" "$role_session_name" \
 	"$cred_file" "$src_cred_file" "$assumed_cred_file"
 
-    # Do it
+    # Do it XXX: read is a fallacy based on DRY_RUN
     p6_run_read_cmd "$cmd" "$@"
 
     # Drop Prvis
@@ -296,38 +304,50 @@ p6_aws_organizations_svc_run_as() {
 ######################################################################
 #<
 #
-# Function: p6_aws_organizations_svc_account_id_from_alias(alias)
+# Function: aws_account_id account_id = p6_aws_organizations_svc_account_id_from_alias(account_alias)
 #
 #  Args:
-#	alias - 
+#	account_alias - 
+#
+#  Returns:
+#	aws_account_id - account_id
 #
 #>
 ######################################################################
 p6_aws_organizations_svc_account_id_from_alias() {
-    local alias="$1"
+    local account_alias="$1"
 
-    p6_aws_organizations_accounts_list \
-	--output text \
-	--query "'Accounts[].[Id, Name]'" | \
-	awk -v k=$alias '$2 ~ k { print $1 }'
+    local account_id=$(
+	p6_aws_cmd organizations list-accounts \
+		   --output text \
+		   --query "'Accounts[].[Id, Name]'" | \
+	    awk -v k=$account_alias '$2 ~ k { print $1 }')
+
+    p6_return_aws_account_id "$account_id"
 }
 
 ######################################################################
 #<
 #
-# Function: p6_aws_organizations_svc_account_status_create(car_id)
+# Function: str state = p6_aws_organizations_svc_account_status_create(car_id)
 #
 #  Args:
 #	car_id - 
+#
+#  Returns:
+#	str - state
 #
 #>
 ######################################################################
 p6_aws_organizations_svc_account_status_create() {
     local car_id="$1"
 
-    p6_aws_organizations_create_account_status_describe "$car_id" \
-	--output text \
-	--query "'CreateAccountStatus.State'"
+    local state=$(p6_aws_cmd organizations describe-create-account-stattus \
+			     "$car_id" \
+			     --output text \
+			     --query "'CreateAccountStatus.State'")
+
+    p6_return_str "$state"
 }
 
 ######################################################################
@@ -339,5 +359,7 @@ p6_aws_organizations_svc_account_status_create() {
 ######################################################################
 p6_aws_organizations_svc_accounts_list() {
 
-    p6_aws_organizations_accounts_list --output text --query "'Accounts[].[Id, Status, JoinedMethod, Arn, Name, Email]'"
+    p6_aws_cmd organizations list-account \
+	       --output text \
+	       --query "'Accounts[].[Id, Status, JoinedMethod, Arn, Name, Email]'"
 }
