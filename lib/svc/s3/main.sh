@@ -7,19 +7,23 @@
 ######################################################################
 p6_aws_s3_svc_buckets_list() {
 
-    p6_aws_s3_ls
+    p6_aws_cmd s3 ls "$@"
 }
 
 ######################################################################
 #<
 #
-# Function: p6_aws_s3_svc_bucket_list()
+# Function: p6_aws_s3_svc_bucket_list(bucket)
+#
+#  Args:
+#	bucket - 
 #
 #>
 ######################################################################
 p6_aws_s3_svc_bucket_list() {
+    local bucket="$1"
 
-    p6_aws_s3_ls s3://${1} --recursive --human-readable --summarize
+    p6_aws_s3_svc_buckets_list s3://$bucket --recursive --human-readable --summarize
 }
 
 ######################################################################
@@ -31,5 +35,5 @@ p6_aws_s3_svc_bucket_list() {
 ######################################################################
 p6_aws_s3_svc_bucket_policy() {
 
-    p6_aws_s3api_bucket_policy_get "$@"
+    p6_aws_cmd s3api get-bucket-policy "$@"
 }

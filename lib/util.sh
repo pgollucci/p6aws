@@ -26,7 +26,7 @@ p6_aws_util_cli_qload() {
 # Function: p6_aws_util_include_service(service)
 #
 #  Args:
-#	service -
+#	service - 
 #
 #>
 ######################################################################
