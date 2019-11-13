@@ -14,7 +14,7 @@
 - words kinds = p6_aws_cfg_kinds()
 
 ### cli.sh:
-- p6_aws_cmd(service, cmd)
+- code rc = p6_aws_cmd(service, cmd)
 
 ### debug.sh:
 
@@ -45,20 +45,20 @@
 - p6_aws_cloudformation_svc_list()
 
 ### ami.sh:
-- p6_aws_ec2_svc_ami_find_id(glob)
-- p6_aws_ec2_svc_ami_id_from_instance_id(instance_id)
-- p6_aws_ec2_svc_ami_name_from_instance_id(instance_id)
-- p6_aws_ec2_svc_amis_amazon2_latest()
-- p6_aws_ec2_svc_amis_freebsd12_latest()
 - p6_aws_ec2_svc_amis_list()
 - p6_aws_ec2_svc_amis_mine_list()
-- p6_aws_ec2_svc_amis_rhel8_latest()
-- p6_aws_ec2_svc_amis_ubuntu18_latest()
+- str ami_id = p6_aws_ec2_svc_ami_id_from_instance_id(instance_id)
+- str ami_id = p6_aws_ec2_svc_amis_amazon2_latest()
+- str ami_id = p6_aws_ec2_svc_amis_freebsd12_latest()
+- str ami_id = p6_aws_ec2_svc_amis_rhel8_latest()
+- str ami_id = p6_aws_ec2_svc_amis_ubuntu18_latest()
+- str ami_name = p6_aws_ec2_svc_ami_name_from_instance_id(instance_id)
 - str user = p6_aws_ec2_svc_user_from_ami_name(ami_name)
+- words ami_ids = p6_aws_ec2_svc_ami_find_id(glob)
 
 ### ec2.sh:
 - p6_aws_ec2_svc_instance_show(instance_id)
-- p6_aws_ec2_svc_instances_list([vpc_id=$AWS_VPC])
+- p6_aws_ec2_svc_instances_list([vpc_id=$AWS_VPC_ID])
 - p6_aws_ec2_svc_launch_template_create(lt_name, ami_id, [instance_type=t3a.nano], sg_ids, key_name)
 - p6_aws_ec2_svc_launch_templates_list()
 - p6_aws_ec2_svc_volumes_list()
@@ -68,21 +68,21 @@
 - str public_ip = p6_aws_ec2_svc_instance_public_ip(instance_id)
 
 ### network.sh:
-- p6_aws_ec2_svc_eni_list([vpc_id=$AWS_VPC])
-- p6_aws_ec2_svc_nat_gateway_show([vpc_id=$AWS_VPC])
-- p6_aws_ec2_svc_rtb_show(rtb_id, [vpc_id=$AWS_VPC])
-- p6_aws_ec2_svc_rtbs_list([vpc_id=$AWS_VPC])
-- p6_aws_ec2_svc_subnet_get(subnet_type, [vpc_id=$AWS_VPC])
-- p6_aws_ec2_svc_subnet_ids_get(subnet_type, [vpc_id=$AWS_VPC])
-- p6_aws_ec2_svc_subnets_list([vpc_id=$AWS_VPC])
+- p6_aws_ec2_svc_eni_list([vpc_id=$AWS_VPC_ID])
+- p6_aws_ec2_svc_nat_gateway_show([vpc_id=$AWS_VPC_ID])
+- p6_aws_ec2_svc_rtb_show(rtb_id, [vpc_id=$AWS_VPC_ID])
+- p6_aws_ec2_svc_rtbs_list([vpc_id=$AWS_VPC_ID])
+- p6_aws_ec2_svc_subnet_get(subnet_type, [vpc_id=$AWS_VPC_ID])
+- p6_aws_ec2_svc_subnets_list([vpc_id=$AWS_VPC_ID])
 - p6_aws_ec2_svc_vpcs_list()
+- words subnet_ids = p6_aws_ec2_svc_subnet_ids_get(subnet_type, [vpc_id=$AWS_VPC_ID])
 
 ### sg.sh:
 - p6_aws_ec2_svc_sg_delete(group_name)
-- p6_aws_ec2_svc_sg_id_from_tag_name(tag_name, [vpc_id=$AWS_VPC])
-- p6_aws_ec2_svc_sg_show(security_group_id_or_name, [vpc_id=$AWS_VPC])
-- p6_aws_ec2_svc_sgs_list([vpc_id=$AWS_VPC])
-- p6_old_aws_ec2_svc_sg_id_from_group_name(group_name, [vpc_id=$AWS_VPC])
+- p6_aws_ec2_svc_sg_id_from_tag_name(tag_name, [vpc_id=$AWS_VPC_ID])
+- p6_aws_ec2_svc_sg_show(security_group_id_or_name, [vpc_id=$AWS_VPC_ID])
+- p6_aws_ec2_svc_sgs_list([vpc_id=$AWS_VPC_ID])
+- p6_old_aws_ec2_svc_sg_id_from_group_name(group_name, [vpc_id=$AWS_VPC_ID])
 - str sg_id = p6_aws_ec2_svc_sg_create(desc, tag_name, [vpc_id=$AWS_VPC])
 
 ### main.sh:
@@ -150,7 +150,7 @@
 - p6_aws_organizations_svc_su_un()
 
 ### main.sh:
-- p6_aws_s3_svc_bucket_list()
+- p6_aws_s3_svc_bucket_list(bucket)
 - p6_aws_s3_svc_bucket_policy()
 - p6_aws_s3_svc_buckets_list()
 
