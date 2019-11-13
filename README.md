@@ -91,16 +91,18 @@
 - p6_aws_elb_svc_list()
 
 ### main.sh:
-- p6_aws_alb_svc_create(alb_name, [subnet_type=Public], [vpc_id=$AWS_VPC])
+- p6_aws_alb_svc_create(alb_name, [subnet_type=Public], [vpc_id=$AWS_VPC_ID])
 - p6_aws_alb_svc_list()
 - p6_aws_alb_svc_listener_create(alb_arn, target_group_arn)
 - p6_aws_alb_svc_listeners_list(load_balancer_name)
-- p6_aws_alb_svc_target_group_create(tg_name, [vpc_id=AWS_VPC])
+- p6_aws_alb_svc_target_group_create(tg_name, [vpc_id=AWS_VPC_ID])
 
 ### main.sh:
+- aws_arn role_arn = p6_aws_iam_svc_role_create(role_path, role_name, assume_role_policy_document)
 - p6_aws_iam_svc_instance_profiles_list()
 - p6_aws_iam_svc_password_policy_default()
 - p6_aws_iam_svc_policy_cloudtrail_write(resource)
+- p6_aws_iam_svc_policy_create(policy_full_path, policy_description, policy_document)
 - p6_aws_iam_svc_policy_s3_cloudtrail_write(trail_bucket, account_id)
 - p6_aws_iam_svc_policy_saml(account_id, provider)
 - p6_aws_iam_svc_policy_service_write(service)
@@ -109,40 +111,37 @@
 - p6_aws_iam_svc_role_saml_create(role_full_path, policy_arn, account_id, provider)
 - p6_aws_iam_svc_roles_list()
 - p6_aws_iam_svc_users_list()
-- str policy_arn = p6_aws_iam_svc_policy_create(policy_full_path, policy_description, policy_document)
-- str role_arn = p6_aws_iam_svc_role_create(role_path, role_name, assume_role_policy_document)
 
 ### main.sh:
 - p6_aws_kms_key_create(key_description, key_policy)
 - p6_aws_kms_svc_list_aliases()
-- str key_id = p6_aws_kms_svc_key_make(account_id, key_description, key_alias)
 
 ### main.sh:
 - p6_aws_lambda_svc_invoke(function_name)
 - p6_aws_lambda_svc_list()
 
 ### crud.sh:
+- aws_account_id account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
+- aws_account_id account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
+- aws_account_id account_id = p6_aws_organizations_svc_account_id_from_name(account_name)
+- bool bool = p6_aws_organizations_svc_account_wait_for(cas_id, car)
 - p6_aws_organizations_svc_account_create_stop(status, cas_id, status, car)
-- p6_aws_organizations_svc_account_wait_for(cas_id, car)
 - p6_aws_organizations_svc_accounts_list()
-- str account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
-- str account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
-- str account_id = p6_aws_organizations_svc_account_id_from_name(account_name)
 - str status = p6_aws_organizations_svc_account_create_status(car_id)
 
 ### main.sh:
+- aws_account_id account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
+- aws_account_id account_id = p6_aws_organizations_svc_account_create_or_fetch(account_alias, account_email, account_map)
+- aws_account_id account_id = p6_aws_organizations_svc_account_id_from_alias(account_alias)
+- bool bool = p6_aws_organizations_svc_account_wait_for(cas_id, car)
 - p6_aws_organizations_svc_account_create_stop(status, cas_id, status, car)
-- p6_aws_organizations_svc_account_id_from_alias(alias)
 - p6_aws_organizations_svc_account_init(org, account_alias, account_email, account_id, saml_file, saml_provider, role_full_path, policy_arn, provider)
-- p6_aws_organizations_svc_account_status_create(car_id)
-- p6_aws_organizations_svc_account_wait_for(cas_id, car)
 - p6_aws_organizations_svc_accounts_list()
 - p6_aws_organizations_svc_run_as(account_alias, account_map, region, output, role_name, role_session_name, cred_file, src_cred_file, assumed_cred_file, cmd)
 - p6_aws_organizations_svc_su(account_alias, map_file, region, output, role_full_path, role_session_name, cred_file, src_cred_file, assumed_cred_file)
 - p6_aws_organizations_svc_su_un()
 - path saml_file = p6_aws_organizations_svc_account_make(cred_file, src_cred_file, assumed_cred_file, org, account_alias, account_email, account_map, saml_provider, saml_provider_email, region, output, role_full_path, policy_arn, cert_subject, cert_bits, cert_exp)
-- str  = p6_aws_organizations_svc_account_create_or_fetch(account_alias, account_email, account_map)
-- str account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
+- str state = p6_aws_organizations_svc_account_status_create(car_id)
 
 ### sts.sh:
 - p6_aws_organizations_svc_run_as(account_alias, account_map, region, output, role_name, role_session_name, cred_file, src_cred_file, assumed_cred_file, cmd)
@@ -155,7 +154,7 @@
 - p6_aws_s3_svc_buckets_list()
 
 ### main.sh:
-- p6_aws_s3api_svc_bucket_delete_with_versioned_objects(bucket)
+- false  = p6_aws_s3api_svc_bucket_delete_with_versioned_objects(bucket)
 - p6_aws_s3api_svc_bucket_list_objects_all(bucket)
 - p6_aws_s3api_svc_bucket_objects_deleted(bucket)
 - p6_aws_s3api_svc_bucket_objects_versions_list(bucket)
