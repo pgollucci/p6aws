@@ -190,7 +190,7 @@ p6_aws_ec2_svc_launch_template_create() {
 	  )
 
     p6_aws_cmd ec2 create-launch-template "$lt_name" "'$launch_template_data'" --version-description "initial"
-    #    p6_aws_ec2_tags_create  "$launch_template_id" "'Key=Name,Value=$name'"
+    #    p6_aws_cmd ec2 create-tags  "$launch_template_id" "'Key=Name,Value=$name'"
 
 }
 

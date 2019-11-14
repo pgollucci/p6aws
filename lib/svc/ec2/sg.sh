@@ -37,7 +37,7 @@ p6_aws_ec2_svc_sg_create() {
     local vpc_id=${3:-$AWS_VPC}
 
     local group_name=$tag_name
-    local sg_id=$(p6_aws_ec2_security_group_create "'$desc'" "'$group_name'" --vpc-id $vpc_id --output text)
+    local sg_id=$(p6_aws_cmd ec2 create-security-group "'$desc'" "'$group_name'" --vpc-id $vpc_id --output text)
 
     p6_aws_cmd ec2 create-tags "$sg_id" "'Key=Name,Value=$tag_name'"
 

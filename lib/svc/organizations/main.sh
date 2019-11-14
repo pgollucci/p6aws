@@ -174,7 +174,7 @@ p6_aws_organizations_svc_account_wait_for() {
     local bool=$(
 	p6_run_retry \
 	    p6_aws_organizations_svc_account_create_stop \
-	    p6_aws_organizations_create_account_status_describe "$car"
+	    p6_aws_cmd organizations describe-create-account-status "$car"
 	  )
 
     p6_return_bool "$bool"
