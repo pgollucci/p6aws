@@ -19,36 +19,17 @@ p6_aws_cfg__debug() {
 ######################################################################
 #<
 #
-# Function: p6_aws_cfg_activate(profile, region, org)
+# Function: p6_aws_cfg_realize(cfg)
 #
 #  Args:
-#	profile - 
-#	region - 
-#	org - 
+#	cfg - 
 #
 #>
 ######################################################################
-p6_aws_cfg_activate() {
-    local profile="$1"
-    local region="$2"
-    local org="$3"
+p6_aws_cfg_realize() {
+    local cfg="$1"
 
-    local cfg=$(p6_obj_create "hash")
-
-    p6_aws_cfg_env_profile_active "$profile"
-    p6_aws_cfg_env_default_profile_active "$profile"
-    p6_aws_cfg_env_region_active "$region"
-    p6_aws_cfg_env_default_region_active "$region"
-
-    p6_obj_hash_set "$cfg" "profile" "$profile"
-    p6_obj_hash_set "$cfg" "default_profile" "$profile"
-    p6_obj_hash_set "$cfg" "region" "$region"
-    p6_obj_hash_set "$cfg" "default_region" "$region"
-
-    if ! p6_string_blank "$org"; then
-	p6_aws_cfg_env_org "$org"
-	p6_obj_hash_set "$cfg" "org" "$org"
-    fi
+    p6_obj_iter_foreach "$cfg" "k"  "p6_aws_cfg_env_%%key%%_active" "p6_aws_cfg_filter_secret" > /dev/null
 
     p6_return_void
 }
@@ -56,71 +37,28 @@ p6_aws_cfg_activate() {
 ######################################################################
 #<
 #
-# Function: p6_aws_cfg_activate_jit(profile)
+# Function: code rc = p6_aws_cfg_filter_secret(val)
 #
 #  Args:
-#	profile -
-#
-#>
-######################################################################
-p6_aws_cfg_activate_jit() {
-    local profile="$1"
-
-    local cred_file=$(p6_aws_cfg_env_shared_credentials_file_active)
-    cred_file=${cred_file:-$AWS_SHARED_CREDENTIALS_FILE}
-    cred_file=${cred_file:-$AWS_DIR/credentials}
-
-    local cfg=$(p6_aws_cfg_from_cred_file "$profile" "$cred_file")
-
-    p6_obj_iter_foreach "$cfg" "k"  "p6_aws_cfg_env_%%key%%_active"
-}
-
-######################################################################
-#<
-#
-# Function: aws_cfg cfg = p6_aws_cfg_from_cred_file(profile, cred_file)
-#
-#  Args:
-#	profile - 
-#	cred_file - 
+#	val - 
 #
 #  Returns:
-#	aws_cfg - cfg
+#	code - rc
 #
 #>
 ######################################################################
-p6_aws_cfg_from_cred_file() {
-    local profile="$1"
-    local cred_file="$2"
+p6_aws_cfg_filter_secret() {
+    local val="$1"
 
-    p6_aws_cfg__debug "from_cred_file(): [profile=$profile] [cred_file=$cred_file]"
+    local rc=
+    case $val in
+	session_token|access_key_id|secret_access_key) rc=$P6_FALSE ;;
+	*) rc=$P6_TRUE ;;
+    esac
 
-    local cfg=$(p6_obj_create "hash")
+    p6_aws_cfg__debug "filter_secret(): [val=$val] -> [rc=$rc]"
 
-    local o1=$(p6_obj_item_set "$cfg" "profile" "$profile")
-
-    local o2=$(p6_obj_item_set "$cfg" "default_profile" "$profile")
-
-    local line
-    grep -A5 $profile $cred_file | sed -n '/\[/,/\[/p' | while read line; do
-	case $line in
-	    *\[*) continue ;;
-	    *session_token*|*secret_access_key*|*access_key_id*) continue ;;
-	esac
-	p6_aws_cfg__debug "from_cred_file(): [line=$line]"
-
-	local key=$(echo "$line" | cut -d = -f 1 | sed -e 's, *,,g')
-	local val=$(echo "$line" | cut -d = -f 2 | sed -e 's, *,,g')
-
-	local rkey=$(p6_string_replace "$key" "aws_" "")
-
-	local o3=$(p6_obj_item_set "$cfg" "$rkey" "$val")
-    done
-
-    local region=$(p6_obj_item_get "$cfg" "region")
-    local o5=$(p6_obj_item_set "$cfg" "default_region" "$region")
-
-    p6_return_aws_cfg "$cfg"
+    p6_return_code_as_code "$rc"
 }
 
 ######################################################################
@@ -143,7 +81,7 @@ p6_aws_cfg_kinds() {
 ######################################################################
 #<
 #
-# Function: words env_vars = p6_aws_cfg_vars()
+# Function: words env_vars = p6_aws_cfg_vars_min()
 #
 #  Returns:
 #	words - env_vars
@@ -161,6 +99,36 @@ p6_aws_cfg_vars_min() {
     p6_return_words "$env_vars"
 }
 
+######################################################################
+#<
+#
+# Function: words env_vars = p6_aws_cfg_vars_secret()
+#
+#  Returns:
+#	words - env_vars
+#
+#>
+######################################################################
+p6_aws_cfg_vars_secret() {
+
+    local env_vars=" \
+	  AWS_SESSION_TOKEN \
+	  AWS_ACCESS_KEY_ID \
+	  AWS_SECRET_ACCESS_KEY"
+
+    p6_return_words "$env_vars"
+}
+
+######################################################################
+#<
+#
+# Function: words env_vars = p6_aws_cfg_vars()
+#
+#  Returns:
+#	words - env_vars
+#
+#>
+######################################################################
 p6_aws_cfg_vars() {
 
     local env_vars=" \
@@ -175,7 +143,7 @@ p6_aws_cfg_vars() {
 	  AWS_METADATA_SERVICE_NUM_ATTEMPTS \
 	  AWS_OUTPUT"
 
-    env_vars="$env_vars $(p6_aws_cfg_vars_min)"
+    env_vars="$env_vars $(p6_aws_cfg_vars_secret) $(p6_aws_cfg_vars_min)"
 
     p6_return_words "$env_vars"
 }
@@ -355,7 +323,7 @@ p6_aws_cfg__copy() {
 p6_aws_cfg__generate() {
 
     local var
-    for var in $(p6_aws_cfg_vars); do
+    for var in $(p6_aws_cfg_vars | sort); do
 	local var_lc=$(p6_string_lc "$var")
 	local fname=$(p6_string_replace "$var_lc" "aws_" "")
 
