@@ -142,23 +142,32 @@ p6_aws_cfg_kinds() {
 #
 #>
 ######################################################################
-p6_aws_cfg_vars() {
+p6_aws_cfg_vars_min() {
 
     local env_vars=" \
 	  AWS_ORG \
 	  AWS_VPC_ID \
+	  AWS_DEFAULT_PROFILE \
+	  AWS_DEFAULT_REGION"
+
+    p6_return_words "$env_vars"
+}
+
+p6_aws_cfg_vars() {
+
+    local env_vars=" \
 	  AWS_ENV_TAG \
 	  AWS_ENV \
 	  AWS_PROFILE \
-	  AWS_DEFAULT_PROFILE \
 	  AWS_REGION
-	  AWS_DEFAULT_REGION \
 	  AWS_CONFIG_FILE \
 	  AWS_SHARED_CREDENTIALS_FILE \
 	  AWS_CA_BUNDLE \
 	  AWS_METADATA_SERVICE_TIMEOUT \
 	  AWS_METADATA_SERVICE_NUM_ATTEMPTS \
 	  AWS_OUTPUT"
+
+    env_vars="$env_vars $(p6_aws_cfg_vars_min)"
 
     p6_return_words "$env_vars"
 }
