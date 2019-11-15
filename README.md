@@ -1,8 +1,7 @@
 ### cfg.sh:
-- aws_cfg cfg = p6_aws_cfg_from_cred_file(profile, cred_file)
-- p6_aws_cfg_activate(profile, region, org)
-- p6_aws_cfg_activate_jit(profile)
+- code rc = p6_aws_cfg_filter_secret(val)
 - p6_aws_cfg_clear()
+- p6_aws_cfg_realize(cfg)
 - p6_aws_cfg_reset()
 - p6_aws_cfg_restore_saved()
 - p6_aws_cfg_restore_source()
@@ -11,6 +10,8 @@
 - p6_aws_cfg_show()
 - str \$old\ = p6_aws_cfg_env_${func}()
 - words env_vars = p6_aws_cfg_vars()
+- words env_vars = p6_aws_cfg_vars_min()
+- words env_vars = p6_aws_cfg_vars_secret()
 - words kinds = p6_aws_cfg_kinds()
 
 ### cli.sh:
@@ -19,10 +20,13 @@
 ### debug.sh:
 
 ### env.sh:
+- str old = p6_aws_cfg_env_access_key_id_active(val)
+- str old = p6_aws_cfg_env_access_key_id_saved(val)
+- str old = p6_aws_cfg_env_access_key_id_source(val)
 - str old = p6_aws_cfg_env_ca_bundle_active(val)
 - str old = p6_aws_cfg_env_ca_bundle_saved(val)
 - str old = p6_aws_cfg_env_ca_bundle_source(val)
-- str old = p6_aws_cfg_env_config_file_active(val)
+- str old = p6_aws_cfg_env_config_file_active()
 - str old = p6_aws_cfg_env_config_file_saved(val)
 - str old = p6_aws_cfg_env_config_file_source(val)
 - str old = p6_aws_cfg_env_default_profile_active(val)
@@ -55,6 +59,12 @@
 - str old = p6_aws_cfg_env_region_active(val)
 - str old = p6_aws_cfg_env_region_saved(val)
 - str old = p6_aws_cfg_env_region_source(val)
+- str old = p6_aws_cfg_env_secret_access_key_active(val)
+- str old = p6_aws_cfg_env_secret_access_key_saved(val)
+- str old = p6_aws_cfg_env_secret_access_key_source(val)
+- str old = p6_aws_cfg_env_session_token_active(val)
+- str old = p6_aws_cfg_env_session_token_saved(val)
+- str old = p6_aws_cfg_env_session_token_source(val)
 - str old = p6_aws_cfg_env_shared_credentials_file_active(val)
 - str old = p6_aws_cfg_env_shared_credentials_file_saved(val)
 - str old = p6_aws_cfg_env_shared_credentials_file_source(val)
@@ -70,9 +80,10 @@
 - str resource_id = p6_return_aws_resource_id(resource_id)
 
 ### shortcuts.sh:
-- p6_aws_shortcuts(org, cred_file)
-- p6_aws_shortcuts_delete(org)
 - p6_aws_shortcuts_gen(org, cred_file)
+- p6_aws_shortcuts_ungen(org)
+- str fn_profile = p6_aws_shortcuts_profile_to_fn(proifle)
+- str p6_aws_shortcuts_a_${org}_ = p6_aws_shortcuts_prefix(org)
 
 ### main.sh:
 - p6_aws_autoscaling_svc_asg_act_deltailed_list(asg_name)
