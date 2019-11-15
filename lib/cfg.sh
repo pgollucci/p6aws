@@ -56,15 +56,21 @@ p6_aws_cfg_activate() {
 ######################################################################
 #<
 #
-# Function: p6_aws_cfg_activate_jit(cfg)
+# Function: p6_aws_cfg_activate_jit(profile)
 #
 #  Args:
-#	cfg - 
+#	profile -
 #
 #>
 ######################################################################
 p6_aws_cfg_activate_jit() {
-    local cfg="$1"
+    local profile="$1"
+
+    local cred_file=$(p6_aws_cfg_env_shared_credentials_file_active)
+    cred_file=${cred_file:-$AWS_SHARED_CREDENTIALS_FILE}
+    cred_file=${cred_file:-$AWS_DIR/credentials}
+
+    local cfg=$(p6_aws_cfg_from_cred_file "$profile" "$cred_file")
 
     p6_obj_iter_foreach "$cfg" "k"  "p6_aws_cfg_env_%%key%%_active"
 }
@@ -90,11 +96,13 @@ p6_aws_cfg_from_cred_file() {
     p6_aws_cfg__debug "from_cred_file(): [profile=$profile] [cred_file=$cred_file]"
 
     local cfg=$(p6_obj_create "hash")
+
     local o1=$(p6_obj_item_set "$cfg" "profile" "$profile")
+
     local o2=$(p6_obj_item_set "$cfg" "default_profile" "$profile")
 
     local line
-    sed -n '/\[/,/\[/p' $cred_file | while read line; do
+    grep -A5 $profile $cred_file | sed -n '/\[/,/\[/p' | while read line; do
 	case $line in
 	    *\[*) continue ;;
 	    *session_token*|*secret_access_key*|*access_key_id*) continue ;;

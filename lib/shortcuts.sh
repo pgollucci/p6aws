@@ -28,31 +28,16 @@ p6_aws_shortcuts_unset() {
 #
 #>
 ######################################################################
-p6_aws_shortcuts_set() {
+p6_aws_shortcuts_gen() {
     local org="$1"
     local cred_file="$2"
 
+    local profiles=$(awk '/^\[/ { print }' < $cred_file | grep -v default | sed -e 's,[][],,g')
+
     local profile
-    for profile in $(awk '/^\[/ { print }' < $cred_file | grep -v default | sed -e 's,[][],,g'); do
-	local cfg=$(p6_aws_cfg_from_cred_file "$profile" "$cred_file")
-	eval "p6_${org}_awsa_${profile}() { p6_aws_shortcut_set \"$cfg\" }"
+    for profile in $(echo $profiles); do
+	p6_run_code "p6_${org}_awsa_${profile}() { p6_aws_cfg_activate_jit \"$profile\" }"
     done
-}
-
-######################################################################
-#<
-#
-# Function: p6_aws_shortcut_set(cfg)
-#
-#  Args:
-#	cfg - 
-#
-#>
-######################################################################
-p6_aws_shortcut_set() {
-    local cfg="$1"
-
-    p6_aws_cfg_activate_jit "$cfg"
 }
 
 ######################################################################
@@ -70,6 +55,6 @@ p6_aws_shortcuts() {
     local org="$1"
     local cred_file="$2"
 
-    p6_aws_shortcuts_unset "$org"
-    p6_aws_shortcuts_set "$org" "$cred_file"
+    p6_aws_shortcuts_delete "$org"
+    p6_aws_shortcuts_gen "$org" "$cred_file"
 }
