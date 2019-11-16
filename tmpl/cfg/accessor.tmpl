@@ -1,11 +1,24 @@
-p6_aws_cfg_FNAME() {
-  local val="$1"
+######################################################################
+#<
+#
+# Function: str old = p6_aws_cfg_env_FUNC(val)
+#
+#  Args:
+#	val - 
+#
+#  Returns:
+#	str - old
+#
+#>
+######################################################################
+p6_aws_cfg_env_FUNC() {
+    local val="$1"
 
-  local old=$VAR
+    local old="${VAR}"
 
-  if ! p6_string_blank "$val"; then
-    p6_env_export "$var" "$val"
-  fi
+    if ! p6_string_blank "$val"; then
+       p6_env_export "VAR" "$val"
+    fi
 
-  p6_return_str "$old"
+    p6_return_str "$old"
 }

@@ -393,19 +393,22 @@ p6_aws_cfg__generate_kinds() {
 ######################################################################
 #<
 #
-# Function: p6_aws_cfg__accessor(kind, fname, var)
+# Function: str code = p6_aws_cfg__accessor(kind, fname, ovar)
 #
 #  Args:
 #	kind - 
 #	fname - 
-#	var - 
+#	ovar - 
+#
+#  Returns:
+#	str - code
 #
 #>
 ######################################################################
 p6_aws_cfg__accessor() {
     local kind="$1"
     local fname="$2"
-    local var="$3"
+    local ovar="$3"
 
     local func="${fname}${kind}"
 
@@ -413,28 +416,12 @@ p6_aws_cfg__accessor() {
 	kind=
     fi
 
-    local code="
-######################################################################
-#<
-#
-# Function: str \$old\ = p6_aws_cfg_env_${func}()
-#
-#  Returns:
-#	str - \$old\#	str - code
-#
-#>
-######################################################################
-p6_aws_cfg_env_${func}() {
-    local val=\"\$1\"
+    local var="${ovar}${kind}"
 
-    local old=\"\${${var}${kind}}\"
+    local code=$(p6_aws_template_process \
+		     "cfg/accessor.tmpl" \
+		     FUNC=$func \
+		     VAR=$var )
 
-    if ! p6_string_blank \"\$val\"; then
-       p6_env_export \"${var}${kind}\" \"\$val\"
-    fi
-
-    p6_return_str \"\$old\"
-}
-"
     p6_return_str "$code"
 }
