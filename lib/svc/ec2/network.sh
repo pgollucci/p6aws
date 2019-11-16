@@ -23,7 +23,7 @@ p6_aws_ec2_svc_vpcs_list() {
 # Function: p6_aws_ec2_svc_subnet_get(subnet_type, [vpc_id=$AWS_VPC_ID])
 #
 #  Args:
-#	subnet_type -
+#	subnet_type - 
 #	OPTIONAL vpc_id -  [$AWS_VPC_ID]
 #
 #>
@@ -43,7 +43,7 @@ p6_aws_ec2_svc_subnet_get() {
 # Function: words subnet_ids = p6_aws_ec2_svc_subnet_ids_get(subnet_type, [vpc_id=$AWS_VPC_ID])
 #
 #  Args:
-#	subnet_type -
+#	subnet_type - 
 #	OPTIONAL vpc_id -  [$AWS_VPC_ID]
 #
 #  Returns:
@@ -118,7 +118,7 @@ p6_aws_ec2_svc_rtbs_list() {
 # Function: p6_aws_ec2_svc_rtb_show(rtb_id, [vpc_id=$AWS_VPC_ID])
 #
 #  Args:
-#	rtb_id -
+#	rtb_id - 
 #	OPTIONAL vpc_id -  [$AWS_VPC_ID]
 #
 #>

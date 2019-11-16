@@ -4,8 +4,8 @@
 # Function: code rc = p6_aws_cmd(service, cmd)
 #
 #  Args:
-#	service -
-#	cmd -
+#	service - 
+#	cmd - 
 #
 #  Returns:
 #	code - rc
@@ -31,7 +31,10 @@ p6_aws_cmd() {
 ######################################################################
 #<
 #
-# Function: p6_aws_util_cli_qload()
+# Function: p6_aws_cli_qload(svc)
+#
+#  Args:
+#	svc - 
 #
 #>
 ######################################################################

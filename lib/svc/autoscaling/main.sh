@@ -4,14 +4,14 @@
 # Function: p6_aws_autoscaling_svc_asg_create(asg_name, min_size, max_size, desired_capacity, lt_id, lt_name, lt_version, subnet_type, [vpc_id=$AWS_VPC])
 #
 #  Args:
-#	asg_name -
-#	min_size -
-#	max_size -
-#	desired_capacity -
-#	lt_id -
-#	lt_name -
-#	lt_version -
-#	subnet_type -
+#	asg_name - 
+#	min_size - 
+#	max_size - 
+#	desired_capacity - 
+#	lt_id - 
+#	lt_name - 
+#	lt_version - 
+#	subnet_type - 
 #	OPTIONAL vpc_id -  [$AWS_VPC]
 #
 #>
@@ -45,8 +45,8 @@ p6_aws_autoscaling_svc_asg_create() {
 # Function: p6_aws_autoscaling_svc_asg_target_group_arn(asg_name, target_group_arn)
 #
 #  Args:
-#	asg_name -
-#	target_group_arn -
+#	asg_name - 
+#	target_group_arn - 
 #
 #>
 ######################################################################
@@ -83,7 +83,7 @@ p6_aws_autoscaling_svc_asgs_list() {
 # Function: p6_aws_autoscaling_svc_asg_act_list(asg_name)
 #
 #  Args:
-#	asg_name -
+#	asg_name - 
 #
 #>
 ######################################################################
@@ -102,7 +102,7 @@ p6_aws_autoscaling_svc_asg_act_list() {
 # Function: p6_aws_autoscaling_svc_asg_act_deltailed_list(asg_name)
 #
 #  Args:
-#	asg_name -
+#	asg_name - 
 #
 #>
 ######################################################################
@@ -122,8 +122,8 @@ p6_aws_autoscaling_svc_asg_act_deltailed_list() {
 # Function: p6_old_aws_autoscaling_svc_asg_load_balancer_names(asg_name, load_balancer_names)
 #
 #  Args:
-#	asg_name -
-#	load_balancer_names -
+#	asg_name - 
+#	load_balancer_names - 
 #
 #>
 ######################################################################
@@ -156,7 +156,7 @@ p6_old_aws_autoscaling_svc_lcs_list() {
 # Function: p6_old_aws_autoscaling_svc_lc_user_data_show(lc_name)
 #
 #  Args:
-#	lc_name -
+#	lc_name - 
 #
 #>
 ######################################################################

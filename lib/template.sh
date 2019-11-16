@@ -4,7 +4,7 @@
 # Function: p6_aws_template_process(infile)
 #
 #  Args:
-#	infile -
+#	infile - 
 #
 #>
 ######################################################################
