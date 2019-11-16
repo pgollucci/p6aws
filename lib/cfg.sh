@@ -4,7 +4,7 @@
 # Function: p6_aws_cfg__debug(msg)
 #
 #  Args:
-#	msg - 
+#	msg -
 #
 #>
 ######################################################################
@@ -19,10 +19,37 @@ p6_aws_cfg__debug() {
 ######################################################################
 #<
 #
+# Function: p6_aws_cfg_prompt_info(kind)
+#
+#  Args:
+#	kind -
+#
+#>
+######################################################################
+p6_aws_cfg_prompt_info() {
+    local kind="$1"
+
+    local profile=$(p6_aws_cfg_env_profile${kind})
+    local region=$(p6_aws_cfg_env_region${kind})
+    local vpc_id=$(p6_aws_cfg_env_vpc_id${kind})
+
+    if p6_string_eq "$kind" "_active"; then
+	kind=
+    fi
+    if ! p6_string_blank "$profile"; then
+	p6_msg "aws:\t${kind}:$profile [$region] ($vpc_id)"
+    fi
+
+    p6_return_void
+}
+
+######################################################################
+#<
+#
 # Function: p6_aws_cfg_realize(cfg)
 #
 #  Args:
-#	cfg - 
+#	cfg -
 #
 #>
 ######################################################################
@@ -40,7 +67,7 @@ p6_aws_cfg_realize() {
 # Function: code rc = p6_aws_cfg_filter_secret(val)
 #
 #  Args:
-#	val - 
+#	val -
 #
 #  Returns:
 #	code - rc
@@ -92,7 +119,6 @@ p6_aws_cfg_vars_min() {
 
     local env_vars=" \
 	  AWS_ORG \
-	  AWS_VPC_ID \
 	  AWS_DEFAULT_PROFILE \
 	  AWS_DEFAULT_REGION"
 
@@ -132,6 +158,7 @@ p6_aws_cfg_vars_secret() {
 p6_aws_cfg_vars() {
 
     local env_vars=" \
+	  AWS_VPC_ID \
 	  AWS_ENV_TAG \
 	  AWS_ENV \
 	  AWS_PROFILE \
@@ -208,6 +235,8 @@ p6_aws_cfg_clear() {
 p6_aws_cfg_save() {
 
     p6_aws_cfg__copy "active" "saved"
+
+    p6_return_void
 }
 
 ######################################################################
@@ -220,6 +249,8 @@ p6_aws_cfg_save() {
 p6_aws_cfg_save_source() {
 
     p6_aws_cfg__copy "active" "source"
+
+    p6_return_void
 }
 
 ######################################################################
@@ -256,7 +287,7 @@ p6_aws_cfg_restore_source() {
 # Function: p6_aws_cfg_restore__from(kind)
 #
 #  Args:
-#	kind - 
+#	kind -
 #
 #>
 ######################################################################
@@ -289,8 +320,8 @@ p6_aws_cfg_restore__from() {
 # Function: p6_aws_cfg__copy(kind_from, kind_to)
 #
 #  Args:
-#	kind_from - 
-#	kind_to - 
+#	kind_from -
+#	kind_to -
 #
 #>
 ######################################################################
@@ -299,7 +330,7 @@ p6_aws_cfg__copy() {
     local kind_to="$2"
 
     local var
-    for var in $(p6_aws_cfg_vars | grep "$kind_from"); do
+    for var in $(p6_aws_cfg_vars); do
 	local var_lc=$(p6_string_lc "$var")
 	local fname=$(p6_string_replace "$var_lc" "aws_" "")
 
@@ -307,6 +338,8 @@ p6_aws_cfg__copy() {
 	local val=$(p6_run_code "$func_from")
 
 	local func_to="p6_aws_cfg_env_${fname}_${kind_to}"
+	p6_aws_cfg__debug "__copy(): [from=$func_from] -> [to=$func_to]"
+
 	p6_run_code "$func_to \"$val\""
     done
 
@@ -339,8 +372,8 @@ p6_aws_cfg__generate() {
 # Function: p6_aws_cfg__generate_kinds(fname, var)
 #
 #  Args:
-#	fname - 
-#	var - 
+#	fname -
+#	var -
 #
 #>
 ######################################################################
@@ -349,7 +382,7 @@ p6_aws_cfg__generate_kinds() {
     local var="$2"
 
     local kind
-    for kind in $(p6_aws_cfg_kinds); do
+    for kind in $(p6_aws_cfg_kinds | sort); do
 	local func=$(p6_aws_cfg__accessor "$kind" "$fname" "$var")
 	p6_msg "$func"
     done
@@ -363,9 +396,9 @@ p6_aws_cfg__generate_kinds() {
 # Function: p6_aws_cfg__accessor(kind, fname, var)
 #
 #  Args:
-#	kind - 
-#	fname - 
-#	var - 
+#	kind -
+#	fname -
+#	var -
 #
 #>
 ######################################################################
@@ -376,7 +409,7 @@ p6_aws_cfg__accessor() {
 
     local func="${fname}${kind}"
 
-    if [ x"$kind" = x"_active" ]; then
+    if p6_string_eq "$kind" "_active"; then
 	kind=
     fi
 

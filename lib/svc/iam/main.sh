@@ -126,7 +126,7 @@ p6_aws_iam_svc_policy_saml() {
     local account_id="$1"
     local provider="$2"
 
-    p6_aws_util_template_process "iam/saml.json" \
+    p6_aws_template_process "iam/saml.json" \
 				 "ACCOUNT_ID=$account_id" \
 				 "PROVIDER=$provider"
 }
@@ -146,7 +146,7 @@ p6_aws_iam_svc_policy_s3_cloudtrail_write() {
     local trail_bucket="$1"
     local account_id="$2"
 
-    p6_aws_util_template_process "iam/s3_cloudtrail" \
+    p6_aws_template_process "iam/s3_cloudtrail" \
 				 "TRAIL_BUCKET=$trail_bucket" \
 				 "ACCOUNT_ID=$account_id"
 }
@@ -164,7 +164,7 @@ p6_aws_iam_svc_policy_s3_cloudtrail_write() {
 p6_aws_iam_svc_policy_cloudtrail_write() {
     local resource="$1"
 
-    p6_aws_util_template_process "iam/cloudtrail" \
+    p6_aws_template_process "iam/cloudtrail" \
 				 "RESOURCE=$resource"
 }
 
@@ -181,7 +181,7 @@ p6_aws_iam_svc_policy_cloudtrail_write() {
 p6_aws_iam_svc_policy_service_write() {
     local service="$1"
 
-    p6_aws_util_template_process "iam/service" \
+    p6_aws_template_process "iam/service" \
 				 "SERVICE=$service"
 }
 

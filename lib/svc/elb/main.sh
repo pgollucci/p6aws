@@ -7,9 +7,11 @@
 ######################################################################
 p6_aws_elb_svc_list() {
 
+    local tag_name=$(p6_aws_cli_jq_tag_name_get)
+
     p6_aws_cmd elb describe-load-balancers \
 	       --output text \
-	       --query "'LoadBalancerDescriptions[].[Scheme, LoadBalancerName, join(\`,\`, Subnets[]), join(\`,\`, AvailabilityZones[]), join(\`,\`, SecurityGroups[]), join(\`,\`,Instances[].InstanceId), $P6_AWS_JQ_TAG_NAME]'"
+	       --query "'LoadBalancerDescriptions[].[Scheme, LoadBalancerName, join(\`,\`, Subnets[]), join(\`,\`, AvailabilityZones[]), join(\`,\`, SecurityGroups[]), join(\`,\`,Instances[].InstanceId), $tag_name]'"
 }
 
 ######################################################################
@@ -18,7 +20,7 @@ p6_aws_elb_svc_list() {
 # Function: p6_aws_ec2_svc_elb_listeners_list(load_balancer_name)
 #
 #  Args:
-#	load_balancer_name - 
+#	load_balancer_name -
 #
 #>
 ######################################################################
@@ -34,7 +36,7 @@ p6_aws_ec2_svc_elb_listeners_list() {
 # Function: p6_aws_elb_svc_create(elb_name, [listeners=http], [subnet_type=Public], [vpc_id=$AWS_VPC])
 #
 #  Args:
-#	elb_name - 
+#	elb_name -
 #	OPTIONAL listeners -  [http]
 #	OPTIONAL subnet_type -  [Public]
 #	OPTIONAL vpc_id -  [$AWS_VPC]

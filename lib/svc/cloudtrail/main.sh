@@ -151,6 +151,6 @@ aws_cloudtrail_kms_encrypt() {
 aws_cloudtrail_event_selector_write() {
     local s3_arns="$1"
 
-    aws_iam_template_process "iam/cloudtrail_events" \
+    p6_aws_template_process "iam/cloudtrail_events" \
 			     "S3_ARNS=$s3_arns"
 }

@@ -106,7 +106,11 @@ p6_aws_shortcuts_gen() {
 		p6_aws_shortcuts__debug "gen(): clear"
 
 		local fn_profile=$(p6_aws_shortcuts_profile_to_fn "$profile")
-		p6_run_code "$func_prefix$fn_profile() { p6_aws_cfg_realize \"$cfg\" }"
+		local func="$func_prefix$fn_profile"
+
+		p6_msg "$func"
+
+		p6_run_code "$func() { p6_aws_cfg_realize \"$cfg\" }"
 
 		cfg=
 		;;

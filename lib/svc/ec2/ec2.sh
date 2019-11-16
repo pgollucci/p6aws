@@ -4,7 +4,7 @@
 # Function: p6_aws_ec2_svc_instance_show(instance_id)
 #
 #  Args:
-#	instance_id - 
+#	instance_id -
 #
 #>
 ######################################################################
@@ -27,10 +27,12 @@ p6_aws_ec2_svc_instance_show() {
 p6_aws_ec2_svc_instances_list() {
     local vpc_id="${1:-$AWS_VPC_ID}"
 
+    local tag_name=$(p6_aws_cli_jq_tag_name_get)
+
     p6_aws_cmd ec2 describe-instances \
 	       --output text \
 	       --filters "Name=vpc-id,Values=$vpc_id" \
-	       --query "'Reservations[].Instances[].[InstanceId, ImageId, InstanceType, SecurityGroups[].GroupId | join(\`,\` @), SubnetId, Placement.AvailabilityZone, BlockDeviceMappings[0].Ebs.VolumeId, NetworkInterfaces[0].PrivateIpAddress, KeyName, $P6_AWS_JQ_TAG_NAME, KmsKeyId, NetworkInterfaces[0].Association.PublicIp, IamInstanceProfile.Arn]'"
+	       --query "'Reservations[].Instances[].[InstanceId, ImageId, InstanceType, SecurityGroups[].GroupId | join(\`,\` @), SubnetId, Placement.AvailabilityZone, BlockDeviceMappings[0].Ebs.VolumeId, NetworkInterfaces[0].PrivateIpAddress, KeyName, $tag_name, KmsKeyId, NetworkInterfaces[0].Association.PublicIp, IamInstanceProfile.Arn]'"
 
 }
 
@@ -40,7 +42,7 @@ p6_aws_ec2_svc_instances_list() {
 # Function: str instance_id = p6_aws_ec2_svc_instance_id_from_name_tag(name)
 #
 #  Args:
-#	name - 
+#	name -
 #
 #  Returns:
 #	str - instance_id
@@ -67,7 +69,7 @@ p6_aws_ec2_svc_instance_id_from_name_tag() {
 # Function: str private_ip = p6_aws_ec2_svc_instance_private_ip(instance_id)
 #
 #  Args:
-#	instance_id - 
+#	instance_id -
 #
 #  Returns:
 #	str - private_ip
@@ -91,7 +93,7 @@ p6_aws_ec2_svc_instance_private_ip() {
 # Function: str public_ip = p6_aws_ec2_svc_instance_public_ip(instance_id)
 #
 #  Args:
-#	instance_id - 
+#	instance_id -
 #
 #  Returns:
 #	str - public_ip
@@ -115,12 +117,12 @@ p6_aws_ec2_svc_instance_public_ip() {
 # Function: str instance_id = p6_aws_ec2_svc_instance_create(name, ami_id, [instance_type=t3a.nano], sg_ids, subnet_id, key_name, [user_data=])
 #
 #  Args:
-#	name - 
-#	ami_id - 
+#	name -
+#	ami_id -
 #	OPTIONAL instance_type -  [t3a.nano]
-#	sg_ids - 
-#	subnet_id - 
-#	key_name - 
+#	sg_ids -
+#	subnet_id -
+#	key_name -
 #	OPTIONAL user_data -  []
 #
 #  Returns:
@@ -161,11 +163,11 @@ p6_aws_ec2_svc_instance_create() {
 # Function: p6_aws_ec2_svc_launch_template_create(lt_name, ami_id, [instance_type=t3a.nano], sg_ids, key_name)
 #
 #  Args:
-#	lt_name - 
-#	ami_id - 
+#	lt_name -
+#	ami_id -
 #	OPTIONAL instance_type -  [t3a.nano]
-#	sg_ids - 
-#	key_name - 
+#	sg_ids -
+#	key_name -
 #
 #>
 ######################################################################
@@ -179,7 +181,7 @@ p6_aws_ec2_svc_launch_template_create() {
 
     [ -n "$user_data" ] && user_data="--user-data=$user_data"
 
-    local launch_template_data=$(p6_aws_util_template_process "ec2/launch_configuration.json" \
+    local launch_template_data=$(p6_aws_template_process "ec2/launch_configuration.json" \
 								     "ASSOCIATE_PUBLIC_IP_ADDRESS=true" \
 								     "SECURITY_GROUPS=$sg_ids" \
 								     "DELETE_ON_TERMINATE=true" \
@@ -217,7 +219,9 @@ p6_aws_ec2_svc_launch_templates_list() {
 ######################################################################
 p6_aws_ec2_svc_volumes_list() {
 
+    local tag_name=$(p6_aws_cli_jq_tag_name_get)
+
     p6_aws_cmd ec2 describe-volumes \
 	--output text \
-	--query "'Volumes[].[VolumeId, State, Size, AvailabilityZone, KmsKeyId, $P6_AWS_JQ_TAG_NAME, Attachments[0].InstanceId]'"
+	--query "'Volumes[].[VolumeId, State, Size, AvailabilityZone, KmsKeyId, $tag_name, Attachments[0].InstanceId]'"
 }

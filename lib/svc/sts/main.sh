@@ -17,6 +17,39 @@ p6_aws_sts__debug() {
 ######################################################################
 #<
 #
+# Function: p6_aws_sts_prompt_info(creds)
+#
+#  Args:
+#	creds - 
+#
+#>
+######################################################################
+p6_aws_sts_prompt_info() {
+  local creds="$1"
+
+  p6_file_exists $creds || return
+
+  local mtime=$(p6_dt_mtime "$creds")
+  local now=$(p6_dt_now_epoch_seconds)
+  local diff=$(($now-$mtime))
+
+  local str
+  if [ $diff -gt 7200 ]; then
+    str=""
+  elif [ $diff -gt 3600 ]; then
+    str="sts:\t$diff"
+  elif [ $diff -gt 3500 ]; then
+    str="sts:\t$diff"
+  else
+    str="sts:\t$diff"
+  fi
+
+  p6_msg "$str"
+}
+
+######################################################################
+#<
+#
 # Function: p6_aws_sts_svc_whoami()
 #
 #>
@@ -31,248 +64,84 @@ p6_aws_sts_svc_whoami() {
 ######################################################################
 #<
 #
-# Function: p6_aws_sts_svc_refresh(cred_file, map_file, org, daas_login)
+# Function: str region = p6_aws_sts_svc_region()
 #
-#  Args:
-#	cred_file - 
-#	map_file - 
-#	org - 
-#	daas_login - 
+#  Returns:
+#	str - region
 #
 #>
 ######################################################################
-p6_aws_sts_svc_refresh() {
-    local cred_file="$1"
-    local map_file="$2"
-    local org="$3"
-    local daas_login="$4"
+p6_aws_sts_svc_region() {
 
-    p6_aws_cfg_save
+    local region=$(p6_aws_cfg_env_region_active)
+    if p6_string_blank "$region"; then
+	region=us-east-1
+    fi
 
-    p6_aws_cfg_clear
-    p6_file_rmf "$cred_file"
-
-    local nicks=$(p6_aws_util_nicks "$org" "$map_file")
-    p6_aws_sts_svc_jc_refresh "$nicks" "$daas_login"
-    p6_aws_sts_svc_map "$org"
-
-    p6_aws_shortcuts "$org" "$cred_file"
-
-    p6_aws_sts_svc_profiles_list "$cred_file"
-
-    p6_aws_cfg_restore_saved
+    p6_return_str "$region"
 }
 
 ######################################################################
 #<
 #
-# Function: p6_aws_sts_svc_role_assume(profile, region, output, role_arn, role_session_name, cred_file, src_cred_file, assumed_cred_file)
+# Function: p6_aws_sts_svc_login(login, [account_alias=$AWS_ORG], [org=$AWS_ORG])
 #
 #  Args:
-#	profile - 
-#	region - 
-#	output - 
+#	login - 
+#	OPTIONAL account_alias -  [$AWS_ORG]
+#	OPTIONAL org -  [$AWS_ORG]
+#
+#>
+######################################################################
+p6_aws_sts_svc_login() {
+    local login="$1"
+    local account_alias="${2:-$AWS_ORG}"
+    local org="${3:-$AWS_ORG}"
+
+    local type="aws"
+    local region=$(p6_aws_sts_svc_region)
+
+    p6_file_rmf "$HOME/.aws/credentials"
+    p6_aws_cfg_reset
+
+    # XXX: shell me
+    sts.py --provider jc --nicks "${type}-${account_alias}" --login $login --region $region --outputformat json
+    perl -pi -e "s,\[.*-,\[$account_alias-," $HOME/.aws/credentials
+    # XXX: end shell me
+
+    p6_aws_shortcuts_gen "$org" "$HOME/.aws/credentials"
+
+    p6_return_void
+}
+
+######################################################################
+#<
+#
+# Function: p6_aws_sts_svc_role_assume(role_arn, role_session_name)
+#
+#  Args:
 #	role_arn - 
 #	role_session_name - 
-#	cred_file - 
-#	src_cred_file - 
-#	assumed_cred_file - 
 #
 #>
 ######################################################################
 p6_aws_sts_svc_role_assume() {
-    local profile="$1"
-    local region="$2"
-    local output="$3"
-    local role_arn="$4"
-    local role_session_name="$5"
-    local cred_file="$6"
-    local src_cred_file="$7"
-    local assumed_cred_file="$8"
+    local role_arn="$1"
+    local role_session_name="$2"
 
-    local dir=$(p6_transient_create "aws.sts")
-    local json_file=$dir/assume.json
+    p6_aws_cfg_save_source
 
-    p6_aws_sts_role_assume "$role_arn" "$role_session_name" > $json_file
-    if [ $? -ne 0 ]; then
-	p6_transient_delete "$json_file"
-	return
-    fi
-
-    local aws_access_key_id=$(p6_json_key_2_value "AccessKeyId" "$json_file")
-    local aws_secret_access_key=$(p6_json_key_2_value "SecretAccessKey" "$json_file")
-    local aws_session_token=$(p6_json_key_2_value "SessionToken" "$json_file")
-    local expiration=$(p6_json_key_2_value "Expiration" "$json_file")
-
-    p6_transient_delete "$json_file"
-
-    p6_file_move "$cred_file" "$src_cred_file"
-    p6_aws_sts_svc_cred_write "$profile" "$region" "$output" "$aws_access_key_id" "$aws_secret_access_key" "$aws_session_token" "$expiration" > $assumed_cred_file
-    p6_file_symlink "$assumed_cred_file" "$cred_file"
-
-    p6_aws_cfg_clear
-
-    p6_aws_shortcut_set "$profile" "$region" "env" "type"
+    p6_return_void
 }
 
 ######################################################################
 #<
 #
-# Function: p6_aws_sts_svc_role_unassume(cred_file, src_file, assumed_file)
-#
-#  Args:
-#	cred_file - 
-#	src_file - 
-#	assumed_file - 
+# Function: p6_aws_sts_svc_role_unassume()
 #
 #>
 ######################################################################
 p6_aws_sts_svc_role_unassume() {
-    local cred_file="$1"
-    local src_file="$2"
-    local assumed_file="$3"
 
-    p6_file_unlink       "$cred_file"
-    p6_file_copy         "$src_file"  "$cred_file"
-    p6_file_ma_sync      "$src_file"  "$cred_file"
-    p6_file_rmf          "$src_file"
-    p6_file_rmf          "$assumed_file"
-
-    p6_aws_cfg_restore_source
-
-    p6_aws_cfg_source_clear
-}
-
-######################################################################
-#<
-#
-# Function: p6_aws_sts_svc_cred_write(profile, region, output, aws_access_key_id, aws_secret_access_key, aws_session_token, expiration)
-#
-#  Args:
-#	profile - 
-#	region - 
-#	output - 
-#	aws_access_key_id - 
-#	aws_secret_access_key - 
-#	aws_session_token - 
-#	expiration - 
-#
-#>
-######################################################################
-p6_aws_sts_svc_cred_write() {
-    local profile="$1"
-    local region="$2"
-    local output="$3"
-    local aws_access_key_id="$4"
-    local aws_secret_access_key="$5"
-    local aws_session_token="$6"
-    local expiration="$7"
-
-    p6_aws_iam_svc_template_process "sts/profile" \
-			     "PROFILE=$profile" \
-			     "REGION=$region" \
-			     "OUTPUT=$output" \
-			     "AWS_ACCESS_KEY=$aws_access_key_id" \
-			     "AWS_SECRET_ACCESS_KEY=$aws_secret_access_key" \
-			     "AWS_SESSION_TOKEN=$aws_session_token" \
-			     "EXPIRATION=$expiration"
-}
-
-######################################################################
-#<
-#
-# Function: p6_aws_sts_svc_profiles_list(cred_file)
-#
-#  Args:
-#	cred_file - 
-#
-#>
-######################################################################
-p6_aws_sts_svc_profiles_list() {
-    local cred_file="$1"
-
-    p6_file_contains "^\[" "$cred_file"
-}
-
-######################################################################
-#<
-#
-# Function: p6_aws_sts_svc_map(org)
-#
-#  Args:
-#	org - 
-#
-#>
-######################################################################
-p6_aws_sts_svc_map() {
-    local org="$1"
-
-    sts_map.py $org
-}
-
-######################################################################
-#<
-#
-# Function: p6_aws_sts_svc_jc_refresh(nicks, saml_provider_email)
-#
-#  Args:
-#	nicks - 
-#	saml_provider_email - 
-#
-#>
-######################################################################
-p6_aws_sts_svc_jc_refresh() {
-    local nicks="$1"
-    local saml_provider_email="$2"
-
-    sts.py --provider jc --nicks "$nicks" --login $saml_provider_email --region us-east-1 --outputformat json
-}
-
-######################################################################
-#<
-#
-# Function: p6_aws_sts_svc_regions_disable(account_email)
-#
-#  Args:
-#	account_email - 
-#
-#>
-######################################################################
-p6_aws_sts_svc_regions_disable() {
-    local account_email="$1"
-
-    # XXX: AWS API planned
-    sts_regions_disable.py --login $account_email
-}
-
-######################################################################
-#<
-#
-# Function: p6_aws_sts_svc_root_keys_delete(account_email)
-#
-#  Args:
-#	account_email - 
-#
-#>
-######################################################################
-p6_aws_sts_svc_root_keys_delete() {
-    local account_email="$1"
-
-    sts_root_keys_delete.py --login $account_email
-}
-
-######################################################################
-#<
-#
-# Function: p6_aws_sts_svc_root_mfa_enable(account_email)
-#
-#  Args:
-#	account_email - 
-#
-#>
-######################################################################
-p6_aws_sts_svc_root_mfa_enable() {
-    local account_email="$1"
-
-    sts_root_mfa_enable.py --login $account_email
+    p6_return_void
 }

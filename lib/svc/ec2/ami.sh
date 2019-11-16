@@ -4,7 +4,7 @@
 # Function: str user = p6_aws_ec2_svc_user_from_ami_name(ami_name)
 #
 #  Args:
-#	ami_name - 
+#	ami_name -
 #
 #  Returns:
 #	str - user
@@ -32,7 +32,7 @@ p6_aws_ec2_svc_user_from_ami_name() {
 # Function: str ami_id = p6_aws_ec2_svc_ami_id_from_instance_id(instance_id)
 #
 #  Args:
-#	instance_id - 
+#	instance_id -
 #
 #  Returns:
 #	str - ami_id
@@ -56,7 +56,7 @@ p6_aws_ec2_svc_ami_id_from_instance_id() {
 # Function: str ami_name = p6_aws_ec2_svc_ami_name_from_instance_id(instance_id)
 #
 #  Args:
-#	instance_id - 
+#	instance_id -
 #
 #  Returns:
 #	str - ami_name
@@ -85,10 +85,12 @@ p6_aws_ec2_svc_ami_name_from_instance_id() {
 ######################################################################
 p6_aws_ec2_svc_amis_mine_list() {
 
+    local tag_name=$(p6_aws_cli_jq_tag_name_get)
+
     p6_aws_cmd ec2 describ-images \
 	--output text \
 	--owners self \
-	--query "'Images[].[CreationDate, ImageId, Public, RootDeviceName, RootDeviceType, VirtualizationType, ImageLocation, $P6_AWS_JQ_TAG_NAME]'" | \
+	--query "'Images[].[CreationDate, ImageId, Public, RootDeviceName, RootDeviceType, VirtualizationType, ImageLocation, $tag_name]'" | \
 	sort -k 2
 }
 
@@ -101,9 +103,11 @@ p6_aws_ec2_svc_amis_mine_list() {
 ######################################################################
 p6_aws_ec2_svc_amis_list() {
 
+    local tag_name=$(p6_aws_cli_jq_tag_name_get)
+
     p6_aws_cmd ec2 describe-images \
 	--output text \
-	--query "'Images[].[CreationDate, ImageId, Public, RootDeviceName, RootDeviceType, VirtualizationType, ImageLocation, $P6_AWS_JQ_TAG_NAME]'" | \
+	--query "'Images[].[CreationDate, ImageId, Public, RootDeviceName, RootDeviceType, VirtualizationType, ImageLocation, $tag_name]'" | \
 	sort -k 2
 }
 
@@ -113,7 +117,7 @@ p6_aws_ec2_svc_amis_list() {
 # Function: words ami_ids = p6_aws_ec2_svc_ami_find_id(glob)
 #
 #  Args:
-#	glob - 
+#	glob -
 #
 #  Returns:
 #	words - ami_ids

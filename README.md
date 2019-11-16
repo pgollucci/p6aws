@@ -1,6 +1,7 @@
 ### cfg.sh:
 - code rc = p6_aws_cfg_filter_secret(val)
 - p6_aws_cfg_clear()
+- p6_aws_cfg_prompt_info(kind)
 - p6_aws_cfg_realize(cfg)
 - p6_aws_cfg_reset()
 - p6_aws_cfg_restore_saved()
@@ -16,6 +17,8 @@
 
 ### cli.sh:
 - code rc = p6_aws_cmd(service, cmd)
+- p6_aws_cli_qload(svc)
+- str str = p6_aws_cli_jq_tag_name_get()
 
 ### debug.sh:
 
@@ -222,23 +225,13 @@
 - p6_aws_stepfunctions_svc_state_machine_show(state_machine)
 
 ### main.sh:
-- p6_aws_sts_svc_cred_write(profile, region, output, aws_access_key_id, aws_secret_access_key, aws_session_token, expiration)
-- p6_aws_sts_svc_jc_refresh(nicks, saml_provider_email)
-- p6_aws_sts_svc_map(org)
-- p6_aws_sts_svc_profiles_list(cred_file)
-- p6_aws_sts_svc_refresh(cred_file, map_file, org, daas_login)
-- p6_aws_sts_svc_regions_disable(account_email)
-- p6_aws_sts_svc_role_assume(profile, region, output, role_arn, role_session_name, cred_file, src_cred_file, assumed_cred_file)
-- p6_aws_sts_svc_role_unassume(cred_file, src_file, assumed_file)
-- p6_aws_sts_svc_root_keys_delete(account_email)
-- p6_aws_sts_svc_root_mfa_enable(account_email)
+- p6_aws_sts_prompt_info(creds)
+- p6_aws_sts_svc_login(login, [account_alias=$AWS_ORG], [org=$AWS_ORG])
+- p6_aws_sts_svc_role_assume(role_arn, role_session_name)
+- p6_aws_sts_svc_role_unassume()
+- p6_aws_sts_svc_whoami()
+- str region = p6_aws_sts_svc_region()
 
-### util.sh:
-- p6_aws_util_account_alias_to_id(account_alias, map)
-- p6_aws_util_account_map(account_id, account_alias, map)
-- p6_aws_util_cli_qload()
-- p6_aws_util_include_service(service)
-- p6_aws_util_nicks(org, map)
-- p6_aws_util_region_for_profile_from_cred_file(profile, cred_file)
-- p6_aws_util_template_process(infile)
+### template.sh:
+- p6_aws_template_process(infile)
 
