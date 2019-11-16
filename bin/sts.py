@@ -145,7 +145,7 @@ def aws_roles_process(awsroles, config, assertion, filename, region, outputforma
             config.set(profile_name, 'aws_secret_access_key', token["Credentials"]["SecretAccessKey"])
             config.set(profile_name, 'aws_session_token', token["Credentials"]["SessionToken"])
 
-    with open(filename, 'w+') as configfile:
+    with open(filename, 'w') as configfile:
         config.write(configfile)
 
 def main(args):
