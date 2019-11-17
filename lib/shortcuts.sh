@@ -19,20 +19,16 @@ p6_aws_shortcuts__debug() {
 ######################################################################
 #<
 #
-# Function: str p6_aws_shortcuts_a_${org}_ = p6_aws_shortcuts_prefix(org)
-#
-#  Args:
-#	org - 
+# Function: str p6_awsa_ = p6_aws_shortcuts_prefix()
 #
 #  Returns:
-#	str - p6_aws_shortcuts_a_${org}_
+#	str - p6_awsa_
 #
 #>
 ######################################################################
 p6_aws_shortcuts_prefix() {
-    local org="$1"
 
-    p6_return_str "p6_aws_shortcuts_a_${org}_"
+    p6_return_str "p6_awsa_"
 }
 
 ######################################################################
@@ -71,17 +67,15 @@ p6_aws_shortcuts_gen() {
     local org="$1"
     local cred_file="$2"
 
-    local func_prefix=$(p6_aws_shortcuts_prefix "$org")
-
     local line
     local profile
-    local stub
     cat $cred_file | while read line; do
 	p6_aws_shortcuts__debug "gen(): {line=$line}"
 	case $line in
+	    \#*)
+		p6_aws_shortcuts__debug "gen():\tcomment"
+		;;
 	    *\[*\]*)
-		p6_aws_shortcuts__debug "gen(): making hash line={$line}"
-
 		profile=$line
 		profile=$(p6_string_replace "$profile" "\[" "")
 		profile=$(p6_string_replace "$profile" "\]" "")
@@ -98,24 +92,20 @@ p6_aws_shortcuts_gen() {
 
 		key=$(p6_string_replace "$key" "aws_" "")
 
-		p6_aws_shortcuts__debug "gen(): [key=$key] -> [val=$val]"
+		p6_aws_shortcuts__debug "gen():\t[key=$key] -> [val=$val]"
 
 		local old=$(p6_obj_item_set "$cfg" "$key" "$val")
 		;;
-	    *)
-		p6_aws_shortcuts__debug "gen(): clear"
-
-		local fn_profile=$(p6_aws_shortcuts_profile_to_fn "$profile")
-		local func="$func_prefix$fn_profile"
-
-		p6_msg "$func"
-
-		p6_run_code "$func() { p6_aws_cfg_realize \"$cfg\" }"
-
-		cfg=
-		;;
 	esac
     done
+
+    local func_prefix=$(p6_aws_shortcuts_prefix "$org")
+    local fn_profile=$(p6_aws_shortcuts_profile_to_fn "$profile")
+    local func="$func_prefix$fn_profile"
+
+    p6_msg "$func"
+
+    p6_run_code "$func() { p6_aws_cfg_realize \"$cfg\" }"
 
     p6_return_void
 }

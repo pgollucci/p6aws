@@ -9,7 +9,6 @@
 - p6_aws_cfg_save()
 - p6_aws_cfg_save_source()
 - p6_aws_cfg_show()
-- str \$old\ = p6_aws_cfg_env_${func}()
 - words env_vars = p6_aws_cfg_vars()
 - words env_vars = p6_aws_cfg_vars_min()
 - words env_vars = p6_aws_cfg_vars_secret()
@@ -86,7 +85,7 @@
 - p6_aws_shortcuts_gen(org, cred_file)
 - p6_aws_shortcuts_ungen(org)
 - str fn_profile = p6_aws_shortcuts_profile_to_fn(proifle)
-- str p6_aws_shortcuts_a_${org}_ = p6_aws_shortcuts_prefix(org)
+- str p6_awsa_ = p6_aws_shortcuts_prefix()
 
 ### main.sh:
 - p6_aws_autoscaling_svc_asg_act_deltailed_list(asg_name)
@@ -226,10 +225,17 @@
 
 ### main.sh:
 - p6_aws_sts_prompt_info(creds)
+- p6_aws_sts_svc_assertion_to_cred_file(auth, assertion64)
 - p6_aws_sts_svc_login(login, [account_alias=$AWS_ORG], [org=$AWS_ORG])
 - p6_aws_sts_svc_role_assume(role_arn, role_session_name)
 - p6_aws_sts_svc_role_unassume()
 - p6_aws_sts_svc_whoami()
+- path dir = p6_aws_sts_svc_dir()
+- path file = p6_aws_sts_svc_cred_file()
+- str assertion64 = p6_aws_sts_svc_saml_login(auth)
+- str fn_profile = p6_aws_sts_svc_profile_build(org, account_alias, role_arn)
+- str org = p6_aws_sts_svc_org()
+- str output = p6_aws_sts_svc_output()
 - str region = p6_aws_sts_svc_region()
 
 ### template.sh:
