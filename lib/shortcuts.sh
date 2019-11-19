@@ -55,11 +55,14 @@ p6_aws_shortcuts_profile_to_fn() {
 ######################################################################
 #<
 #
-# Function: p6_aws_shortcuts_gen(org, cred_file)
+# Function: str func = p6_aws_shortcuts_gen(org, cred_file)
 #
 #  Args:
 #	org - 
 #	cred_file - 
+#
+#  Returns:
+#	str - func
 #
 #>
 ######################################################################
@@ -99,15 +102,13 @@ p6_aws_shortcuts_gen() {
 	esac
     done
 
-    local func_prefix=$(p6_aws_shortcuts_prefix "$org")
+    local func_prefix=$(p6_aws_shortcuts_prefix)
     local fn_profile=$(p6_aws_shortcuts_profile_to_fn "$profile")
-    local func="$func_prefix$fn_profile"
-
-    p6_msg "$func"
+    local func="${func_prefix}${fn_profile}"
 
     p6_run_code "$func() { p6_aws_cfg_realize \"$cfg\" }"
 
-    p6_return_void
+    p6_return_str "$func"
 }
 
 ######################################################################

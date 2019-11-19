@@ -33,9 +33,6 @@ p6_aws_cfg_prompt_info() {
     local region=$(p6_aws_cfg_env_region${kind})
     local vpc_id=$(p6_aws_cfg_env_vpc_id${kind})
 
-    if p6_string_eq "$kind" "_active"; then
-	kind=
-    fi
     if ! p6_string_blank "$profile"; then
 	p6_msg "aws:\t${kind}:$profile [$region] ($vpc_id)"
     fi

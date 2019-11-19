@@ -30,7 +30,7 @@ p6_aws_sts_prompt_info() {
   if p6_file_exists "$creds"; then
       local mtime=$(p6_dt_mtime "$creds")
       local now=$(p6_dt_now_epoch_seconds)
-      local diff=$(p6_math_sub "$now" "$time")
+      local diff=$(p6_math_sub "$now" "$mtime")
 
       local str
       if p6_math_gt "$diff" "7200"; then
@@ -189,6 +189,7 @@ p6_aws_sts_svc_login() {
     local password=$(p6_int_password_read)
 
     local auth=$(p6_obj_create "hash")
+    p6_obj_persist "$auth"
     local o1=$(p6_obj_item_set "$auth" "login" "$login")
     local o2=$(p6_obj_item_set "$auth" "password" "$password")
     local o3=$(p6_obj_item_set "$auth" "account_alias" "$account_alias")
@@ -202,7 +203,9 @@ p6_aws_sts_svc_login() {
     local assertion64=$(p6_aws_sts_svc_saml_login "$auth")
     p6_aws_sts_svc_assertion_to_cred_file "$auth" "$assertion64"
 
-    p6_aws_shortcuts_gen "$org" "$cred_file"
+    p6_aws_shortcuts_gen "$org" "$cred_file" > ${cred_file}.me
+    p6_run_code "$(p6_file_display ${cred_file}.me)"
+    p6_file_rmf ${cred_file}.me
 
     p6_return_void
 }
