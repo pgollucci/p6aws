@@ -55,14 +55,14 @@ p6_aws_shortcuts_profile_to_fn() {
 ######################################################################
 #<
 #
-# Function: str func = p6_aws_shortcuts_gen(org, cred_file)
+# Function: str  = p6_aws_shortcuts_gen(org, cred_file)
 #
 #  Args:
 #	org - 
 #	cred_file - 
 #
 #  Returns:
-#	str - func
+#	str - #	str - func
 #
 #>
 ######################################################################
@@ -70,6 +70,9 @@ p6_aws_shortcuts_gen() {
     local org="$1"
     local cred_file="$2"
 
+    if ! p6_file_exists "$cred_file"; then
+	p6_return_str ""
+    else
     local line
     local profile
     cat $cred_file | while read line; do
@@ -109,6 +112,7 @@ p6_aws_shortcuts_gen() {
     p6_run_code "$func() { p6_aws_cfg_realize \"$cfg\" }"
 
     p6_return_str "$func"
+    fi
 }
 
 ######################################################################
