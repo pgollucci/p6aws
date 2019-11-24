@@ -41,7 +41,5 @@ p6_aws_lambda_svc_invoke() {
 	p6_file_display $dir/response | awk '/LogResult/ { print $2 }'       | sed -e 's,",,g' | python -m base64 -d
     fi
 
-    p6_transient_delete "$outfile"
-
     p6_return_void
 }

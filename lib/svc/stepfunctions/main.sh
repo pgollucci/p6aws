@@ -39,7 +39,5 @@ p6_aws_stepfunctions_svc_state_machine_show() {
 	sed -e 's,\\,,g' -e 's,"{,{,g' -e 's,}",},g' -e 's/,$//' | \
 	python -mjson.tool
 
-    p6_transient_delete "$outfile"
-
     p6_return_void
 }

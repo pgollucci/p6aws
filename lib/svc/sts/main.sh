@@ -270,8 +270,6 @@ p6_aws_sts_svc_assertion_to_cred_file() {
     local aws_session_token=$(p6_json_key_2_value "SessionToken" "$json_file")
     local expiration=$(p6_json_key_2_value "Expiration" "$json_file")
 
-    p6_transient_delete "$dir"
-
     local account_alias=$(p6_obj_item_get "$auth" "account_alias")
     local org=$(p6_obj_item_get "$auth" "org")
     local region=$(p6_obj_item_get "$auth" "region")
