@@ -150,7 +150,7 @@ p6_aws_sts_svc_role_assume() {
     local aws_session_token=$(p6_obj_item_get "$creds" "aws_session_token")
     local expiration=$(p6_obj_item_get "$creds" "expiration")
 
-    local fn_profile=$(p6_aws_sts_svc_profile_build "" "assumed" "$role_arn")
+    local fn_profile=$(p6_aws_sts_svc_profile_build "unk" "assumed" "$role_arn")
 
     local cred_file=$(p6_aws_sts_svc_cred_file)
     p6_aws_template_process "sts/profile" \
