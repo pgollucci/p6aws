@@ -417,8 +417,9 @@ p6_aws_cfg__accessor() {
 
     local code=$(p6_aws_template_process \
 		     "cfg/accessor.tmpl" \
-		     FUNC=$func \
-		     VAR=$var )
+		     "FUNC=$func" \
+		     "VAR=$var"
+	  )
 
     p6_return_str "$code"
 }

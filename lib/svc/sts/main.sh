@@ -17,162 +17,13 @@ p6_aws_sts__debug() {
 ######################################################################
 #<
 #
-# Function: p6_aws_sts_prompt_info(creds)
-#
-#  Args:
-#	creds - 
-#
-#>
-######################################################################
-p6_aws_sts_prompt_info() {
-  local creds="$1"
-
-  if p6_file_exists "$creds"; then
-      local mtime=$(p6_dt_mtime "$creds")
-      local now=$(p6_dt_now_epoch_seconds)
-      local diff=$(p6_math_sub "$now" "$mtime")
-
-      local str
-      if p6_math_gt "$diff" "7200"; then
-	  str=""
-      elif p6_math_gt "$diff" "3600"; then
-	  str=$(p6_color_ize "red" "black" "sts:\t$diff")
-      elif p6_math_gt "$diff" "3500"; then
-	  str=$(p6_color_ize "yellow" "black" "sts:\t$diff")
-      else
-	  str="sts:\t$diff"
-      fi
-
-      p6_msg "$str"
-  fi
-
-  p6_return_void
-}
-
-######################################################################
-#<
-#
-# Function: p6_aws_sts_svc_whoami()
-#
-#>
-######################################################################
-p6_aws_sts_svc_whoami() {
-
-    p6_aws_cmd sts get-caller-identity
-
-    p6_return_void
-}
-
-######################################################################
-#<
-#
-# Function: str region = p6_aws_sts_svc_region()
-#
-#  Returns:
-#	str - region
-#
-#>
-######################################################################
-p6_aws_sts_svc_region() {
-
-    local region=$(p6_aws_cfg_env_region_active)
-    if p6_string_blank "$region"; then
-	region=us-east-1
-    fi
-
-    p6_return_str "$region"
-}
-
-######################################################################
-#<
-#
-# Function: str output = p6_aws_sts_svc_output()
-#
-#  Returns:
-#	str - output
-#
-#>
-######################################################################
-p6_aws_sts_svc_output() {
-
-    local output=$(p6_aws_cfg_env_output_active)
-    if p6_string_blank "$output"; then
-	output=json
-    fi
-
-    p6_return_str "$output"
-}
-
-######################################################################
-#<
-#
-# Function: path file = p6_aws_sts_svc_cred_file()
-#
-#  Returns:
-#	path - file
-#
-#>
-######################################################################
-p6_aws_sts_svc_cred_file() {
-
-    local file=$(p6_aws_cfg_env_shared_credentials_file_active)
-    if p6_string_blank "$file"; then
-	local dir=$(p6_aws_sts_svc_dir)
-	file=$dir/credentials
-    fi
-
-    p6_return_path "$file"
-}
-
-######################################################################
-#<
-#
-# Function: str org = p6_aws_sts_svc_org()
-#
-#  Returns:
-#	str - org
-#
-#>
-######################################################################
-p6_aws_sts_svc_org() {
-
-    local org=$(p6_aws_cfg_env_org_active)
-    if p6_string_blank "$org"; then
-	org=$P6_AWS_ORG
-    fi
-
-    p6_return_str "$org"
-}
-
-######################################################################
-#<
-#
-# Function: path dir = p6_aws_sts_svc_dir()
-#
-#  Returns:
-#	path - dir
-#
-#>
-######################################################################
-p6_aws_sts_svc_dir() {
-
-    local dir=$AWS_DIR
-    if p6_string_blank "$dir"; then
-	dir=$HOME/.aws
-    fi
-
-    p6_return_path "$dir"
-}
-
-######################################################################
-#<
-#
-# Function: p6_aws_sts_svc_login(login, [account_alias=$AWS_ORG], [org=$AWS_ORG])
+# Function: p6_aws_sts_svc_login(login, [account_alias=$AWS_ORG], [org=$AWS_ORG], [auth_type=saml])
 #
 #  Args:
 #	login - 
 #	OPTIONAL account_alias -  [$AWS_ORG]
 #	OPTIONAL org -  [$AWS_ORG]
+#	OPTIONAL auth_type -  [saml]
 #
 #>
 ######################################################################
@@ -180,6 +31,7 @@ p6_aws_sts_svc_login() {
     local login="$1"
     local account_alias="${2:-$AWS_ORG}"
     local org="${3:-$AWS_ORG}"
+    local auth_type="${4:-saml}"
 
     local region=$(p6_aws_sts_svc_region)
     local output=$(p6_aws_sts_svc_output)
@@ -200,8 +52,12 @@ p6_aws_sts_svc_login() {
     p6_file_rmf "$cred_file"
     p6_aws_cfg_reset
 
-    local assertion64=$(p6_aws_sts_svc_saml_login "$auth")
-    p6_aws_sts_svc_assertion_to_cred_file "$auth" "$assertion64"
+    case $auth_type in
+	saml)
+	    local assertion64=$(p6_aws_sts_svc_login_saml "$auth")
+	    p6_aws_sts_svc_role_assume_saml "$auth" "$assertion64"
+	    ;;
+    esac
 
     p6_aws_shortcuts_gen "$org" "$cred_file" > ${cred_file}.me
     p6_run_code "$(p6_file_display ${cred_file}.me)"
@@ -213,62 +69,34 @@ p6_aws_sts_svc_login() {
 ######################################################################
 #<
 #
-# Function: str assertion64 = p6_aws_sts_svc_saml_login(auth)
-#
-#  Args:
-#	auth - 
-#
-#  Returns:
-#	str - assertion64
-#
-#>
-######################################################################
-p6_aws_sts_svc_saml_login() {
-    local auth="$1"
-
-    local idp="jc"
-
-    local assertion64
-    case $idp in
-	jc) assertion64=$(p6_jc_saml_login "$auth") ;;
-	*) p6_error "not implemented" ;;
-    esac
-
-    p6_return_str "$assertion64"
-}
-
-######################################################################
-#<
-#
-# Function: p6_aws_sts_svc_assertion_to_cred_file(auth, assertion64)
+# Function: str role_arn = p6_aws_sts_svc_role_assume_saml(auth, assertion64)
 #
 #  Args:
 #	auth - 
 #	assertion64 - 
 #
+#  Returns:
+#	str - role_arn
+#
 #>
 ######################################################################
-p6_aws_sts_svc_assertion_to_cred_file() {
+p6_aws_sts_svc_role_assume_saml() {
     local auth="$1"
     local assertion64="$2"
 
-    local role_provider=$(p6_echo "$assertion64" | base64 -D | sed -e 's,.*>arn,arn,' -e 's,\<.*,,')
-    p6_aws_sts__debug "assertion_to_cred_file(): [role_provider=$role_provider]"
+    local role=$(p6_aws_sts_svc_assertion_decode "$assertion64")
+    local role_arn=$(p6_obj_item_get "$role" "role_arn")
+    local principal_arn=$(p6_obj_item_get "$role" "principal_arn")
 
-    local role_arn=$(p6_echo "$role_provider" | cut -d , -f 1)
-    local principal_arn=$(p6_echo "$role_provider" | cut -d , -f 2)
-    p6_aws_sts__debug "assertion_to_cred_file(): [role_arn=$role_arn]"
-    p6_aws_sts__debug "assertion_to_cred_file(): [principal_arn=$principal_arn]"
+    local json_role_file=$(p6_transient_create_file "assume.json")
+    p6_aws_cmd sts assume-role-with-saml --role-arn "$role_arn" --principal-arn "$principal_arn" --saml-assertion "$assertion64" > $json_role_file
 
-    local dir=$(p6_transient_create "aws-sts.jc")
-    local json_file=$dir/assume.json
+    local creds=$(p6_aws_sts_svc_json_role_load "$json_role_file")
 
-    p6_aws_cmd sts assume-role-with-saml --role-arn "$role_arn" --principal-arn "$principal_arn" --saml-assertion "$assertion64" > $json_file
-
-    local aws_access_key_id=$(p6_json_key_2_value "AccessKeyId" "$json_file")
-    local aws_secret_access_key=$(p6_json_key_2_value "SecretAccessKey" "$json_file")
-    local aws_session_token=$(p6_json_key_2_value "SessionToken" "$json_file")
-    local expiration=$(p6_json_key_2_value "Expiration" "$json_file")
+    local aws_access_key_id=$(p6_obj_item_get "$creds" "aws_access_key_id")
+    local aws_secret_access_key=$(p6_obj_item_get "$creds" "aws_secret_access_key")
+    local aws_session_token=$(p6_obj_item_get "$creds" "aws_session_token")
+    local expiration=$(p6_obj_item_get "$creds" "expiration")
 
     local account_alias=$(p6_obj_item_get "$auth" "account_alias")
     local org=$(p6_obj_item_get "$auth" "org")
@@ -287,37 +115,7 @@ p6_aws_sts_svc_assertion_to_cred_file() {
 			    "AWS_SESSION_TOKEN=$aws_session_token" \
 			    "EXPIRATION=$expiration" > $cred_file
 
-    p6_return_void
-}
-
-######################################################################
-#<
-#
-# Function: str fn_profile = p6_aws_sts_svc_profile_build(org, account_alias, role_arn)
-#
-#  Args:
-#	org - 
-#	account_alias - 
-#	role_arn - 
-#
-#  Returns:
-#	str - fn_profile
-#
-#>
-######################################################################
-p6_aws_sts_svc_profile_build() {
-    local org="$1"
-    local account_alias="$2"
-    local role_arn="$3"
-
-    local role_name=$(p6_echo "$role_arn" | sed -e 's,.*:,,')
-
-    local profile="${org}+${account_alias}-${role_name}"
-    local fn_profile=$(p6_aws_shortcuts_profile_to_fn "$profile")
-
-    p6_aws_sts__debug "profile_build(): [profile=$fn_profile]"
-
-    p6_return_str "$fn_profile"
+    p6_return_str "$role_arn"
 }
 
 ######################################################################
@@ -339,13 +137,34 @@ p6_aws_sts_svc_role_assume() {
     p6_aws_cfg_save_source
 
     # assume it or fail
+    local json_role_file=$(p6_transient_create_file "assume.json")
+    p6_aws_cmd sts assume-role --role-arn "$role_arn" --role-session-name $role_session_name > $json_role_file
 
-    # clear
-    p6_aws_cfg_clear
+    local creds=$(p6_aws_sts_svc_json_role_load "$json_role_file")
 
-    # set env to assume
+    local region=$(p6_aws_sts_svc_region)
+    local output=$(p6_aws_sts_svc_output)
 
-    # OPTIONAL: generate a shortcut func
+    local aws_access_key_id=$(p6_obj_item_get "$creds" "aws_access_key_id")
+    local aws_secret_access_key=$(p6_obj_item_get "$creds" "aws_secret_access_key")
+    local aws_session_token=$(p6_obj_item_get "$creds" "aws_session_token")
+    local expiration=$(p6_obj_item_get "$creds" "expiration")
+
+    local fn_profile=$(p6_aws_sts_svc_profile_build "" "assumed" "$role_arn")
+
+    local cred_file=$(p6_aws_sts_svc_cred_file)
+    p6_aws_template_process "sts/profile" \
+			    "PROFILE=$fn_profile" \
+			    "REGION=$region" \
+			    "OUTPUT=$output" \
+			    "AWS_ACCESS_KEY=$aws_access_key_id" \
+			    "AWS_SECRET_ACCESS_KEY=$aws_secret_access_key" \
+			    "AWS_SESSION_TOKEN=$aws_session_token" \
+			    "EXPIRATION=$expiration" > $cred_file
+
+    p6_aws_shortcuts_gen "$org" "$cred_file" > ${cred_file}.me
+    p6_run_code "$(p6_file_display ${cred_file}.me)"
+    p6_file_rmf ${cred_file}.me
 
     p6_return_void
 }

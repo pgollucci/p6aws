@@ -1,11 +1,12 @@
 ######################################################################
 #<
 #
-# Function: code rc = p6_aws_cmd(service, cmd)
+# Function: code rc = p6_aws_cmd(service, cmd, ...)
 #
 #  Args:
 #	service - 
 #	cmd - 
+#	... - 
 #
 #  Returns:
 #	code - rc
