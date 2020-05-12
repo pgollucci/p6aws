@@ -70,6 +70,8 @@ p6_aws_shortcuts_gen() {
     local org="$1"
     local cred_file="$2"
 
+    local all_funcs=""
+
     if ! p6_file_exists "$cred_file"; then
 	p6_return_str ""
     else
@@ -103,15 +105,16 @@ p6_aws_shortcuts_gen() {
 		    local old=$(p6_obj_item_set "$cfg" "$key" "$val")
 		    ;;
 	    esac
+
+		local func_prefix=$(p6_aws_shortcuts_prefix)
+		local fn_profile=$(p6_aws_shortcuts_profile_to_fn "$profile")
+		local func="${func_prefix}${fn_profile}"
+		p6_run_code "$func() { p6_aws_cfg_realize \"$cfg\" }"
+		all_funcs="$fall_funcs
+$func"
 	done
 
-	local func_prefix=$(p6_aws_shortcuts_prefix)
-	local fn_profile=$(p6_aws_shortcuts_profile_to_fn "$profile")
-	local func="${func_prefix}${fn_profile}"
-
-	p6_run_code "$func() { p6_aws_cfg_realize \"$cfg\" }"
-
-	p6_return_str "$func"
+	p6_return_str "$all_funcs"
     fi
 }
 
