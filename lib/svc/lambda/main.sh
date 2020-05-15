@@ -7,7 +7,7 @@
 ######################################################################
 p6_aws_lambda_svc_list() {
 
-    p6_aws_cmd lamnda list-functions \
+    p6_aws_cmd lamda list-functions \
 	       --output text \
 	       --query "'Functions[*].[LastModified, Timeout, MemorySize, Runtime, FunctionName, Role, Description]'"
 }
@@ -37,9 +37,9 @@ p6_aws_lambda_svc_invoke() {
 	       > $dir/response
 
     if p6_file_exists "$outfile"; then
-	p6_file_display "$outfile" | python -mjson.tool
-	p6_file_display $dir/response | awk '/ExecutedVersion/ { print $2 }' | sed -e 's,",,g'
-	p6_file_display $dir/response | awk '/LogResult/ { print $2 }'       | sed -e 's,",,g' | python -m base64 -d
+	    p6_file_display "$outfile" | python -mjson.tool
+	    p6_file_display $dir/response | awk '/ExecutedVersion/ { print $2 }' | sed -e 's,",,g'
+	    p6_file_display $dir/response | awk '/LogResult/ { print $2 }'       | sed -e 's,",,g' | python -m base64 -d
     fi
 
     p6_return_void
