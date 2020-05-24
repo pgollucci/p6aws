@@ -163,6 +163,29 @@ p6_aws_ec2_svc_eni_list() {
     p6_return_void
 }
 
+p6_aws_ec2_svc_regions_iterator() {
+    
+    local save_region=$(p6_aws_cfg_env_region_active)
+    local region
+    for region in $(p6_aws_ec2_svc_regions_list); do
+        p6_msg "====> $region"
+        p6_aws_cfg_env_region_active "$region"
+        p6_run_code "$@"
+        p6_msg
+    done
+
+    p6_aws_cfg_env_region_active "$save_region"
+}
+
+p6_aws_ec2_svc_regions_list() {
+
+    p6_aws_cmd ec2 describe-regions \
+    --output text \
+    --filters Name="'region-name,Values=us-*'" \
+    --query "'Regions[].[RegionName]'" | \
+    sort
+}
+
 ######################################################################
 #<
 #
