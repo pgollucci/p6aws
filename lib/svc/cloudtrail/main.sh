@@ -44,7 +44,6 @@ local trail_kms_key_id="6e0af6d5-fa1d-44b3-a80c-0e1abcfadfd7"
 }
 
 aws_cloudtrail_subscription_make() {
-set -x
     local account_id="$1"
     local trail_full_path="$2"
     local trail_description="$3"
