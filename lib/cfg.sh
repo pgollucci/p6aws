@@ -19,10 +19,13 @@ p6_aws_cfg__debug() {
 ######################################################################
 #<
 #
-# Function: p6_aws_cfg_prompt_info(kind)
+# Function: str str = p6_aws_cfg_prompt_info(kind)
 #
 #  Args:
 #	kind - 
+#
+#  Returns:
+#	str - str
 #
 #>
 ######################################################################

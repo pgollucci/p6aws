@@ -1,10 +1,13 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_sts_prompt_info(creds)
+# Function: str str = p6_aws_sts_prompt_info(creds)
 #
 #  Args:
 #	creds - 
+#
+#  Returns:
+#	str - str
 #
 #>
 ######################################################################
