@@ -18,8 +18,8 @@ p6_aws_lambda_svc_list() {
 # Function: p6_aws_lambda_svc_invoke(function_name, ...)
 #
 #  Args:
-#	function_name -
-#	... -
+#	function_name - 
+#	... - 
 #
 #>
 ######################################################################
