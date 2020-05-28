@@ -1,7 +1,6 @@
 ### cfg.sh:
 - code rc = p6_aws_cfg_filter_secret(val)
 - p6_aws_cfg_clear()
-- p6_aws_cfg_prompt_info(kind)
 - p6_aws_cfg_realize(cfg)
 - p6_aws_cfg_reset()
 - p6_aws_cfg_restore_saved()
@@ -9,13 +8,14 @@
 - p6_aws_cfg_save()
 - p6_aws_cfg_save_source()
 - p6_aws_cfg_show()
+- str str = p6_aws_cfg_prompt_info(kind)
 - words env_vars = p6_aws_cfg_vars()
 - words env_vars = p6_aws_cfg_vars_min()
 - words env_vars = p6_aws_cfg_vars_secret()
 - words kinds = p6_aws_cfg_kinds()
 
 ### cli.sh:
-- code rc = p6_aws_cmd(service, cmd)
+- code rc = p6_aws_cmd(service, cmd, ...)
 - p6_aws_cli_qload(svc)
 - str str = p6_aws_cli_jq_tag_name_get()
 
@@ -82,8 +82,8 @@
 - str resource_id = p6_return_aws_resource_id(resource_id)
 
 ### shortcuts.sh:
-- p6_aws_shortcuts_gen(org, cred_file)
 - p6_aws_shortcuts_ungen(org)
+- str  = p6_aws_shortcuts_gen(org, cred_file)
 - str fn_profile = p6_aws_shortcuts_profile_to_fn(proifle)
 - str p6_awsa_ = p6_aws_shortcuts_prefix()
 
@@ -98,13 +98,16 @@
 - p6_old_aws_autoscaling_svc_lcs_list()
 
 ### main.sh:
+- p6_aws_cdk_prompt_info()
+
+### main.sh:
 - p6_aws_cloudformation_svc_list()
 
 ### ami.sh:
 - p6_aws_ec2_svc_amis_list()
 - p6_aws_ec2_svc_amis_mine_list()
 - str ami_id = p6_aws_ec2_svc_ami_id_from_instance_id(instance_id)
-- str ami_id = p6_aws_ec2_svc_amis_amazon2_latest()
+- str ami_id = p6_aws_ec2_svc_amis_amazon2_latest(ami_id)
 - str ami_id = p6_aws_ec2_svc_amis_freebsd12_latest()
 - str ami_id = p6_aws_ec2_svc_amis_rhel8_latest()
 - str ami_id = p6_aws_ec2_svc_amis_ubuntu18_latest()
@@ -126,6 +129,8 @@
 ### network.sh:
 - p6_aws_ec2_svc_eni_list([vpc_id=$AWS_VPC_ID])
 - p6_aws_ec2_svc_nat_gateway_show([vpc_id=$AWS_VPC_ID])
+- p6_aws_ec2_svc_regions_iterator()
+- p6_aws_ec2_svc_regions_list()
 - p6_aws_ec2_svc_rtb_show(rtb_id, [vpc_id=$AWS_VPC_ID])
 - p6_aws_ec2_svc_rtbs_list([vpc_id=$AWS_VPC_ID])
 - p6_aws_ec2_svc_subnet_get(subnet_type, [vpc_id=$AWS_VPC_ID])
@@ -169,11 +174,20 @@
 - p6_aws_iam_svc_users_list()
 
 ### main.sh:
-- p6_aws_kms_svc_key_create(key_description, key_policy)
-- p6_aws_kms_svc_list_aliases()
+- p6_aws_imagebuilder_svc_dc_list()
+- p6_aws_imagebuilder_svc_ic_list()
+- p6_aws_imagebuilder_svc_images_list()
+- p6_aws_imagebuilder_svc_ir_list()
+- p6_aws_imagebuilder_svc_pipelines_list()
 
 ### main.sh:
-- p6_aws_lambda_svc_invoke(function_name)
+- p6_aws_kms_svc_key_create(key_description, key_policy)
+- p6_aws_kms_svc_list_aliases()
+- p6_aws_kms_svc_list_aliases_aws()
+- p6_aws_kms_svc_list_aliases_mine()
+
+### main.sh:
+- p6_aws_lambda_svc_invoke(function_name, ...)
 - p6_aws_lambda_svc_list()
 
 ### crud.sh:
@@ -193,14 +207,14 @@
 - p6_aws_organizations_svc_account_create_stop(status, cas_id, status, car)
 - p6_aws_organizations_svc_account_init(org, account_alias, account_email, account_id, saml_file, saml_provider, role_full_path, policy_arn, provider)
 - p6_aws_organizations_svc_accounts_list()
-- p6_aws_organizations_svc_run_as(account_alias, account_map, region, output, role_name, role_session_name, cred_file, src_cred_file, assumed_cred_file, cmd)
+- p6_aws_organizations_svc_run_as(account_alias, account_map, region, output, role_name, role_session_name, cred_file, src_cred_file, assumed_cred_file, cmd, ...)
 - p6_aws_organizations_svc_su(account_alias, map_file, region, output, role_full_path, role_session_name, cred_file, src_cred_file, assumed_cred_file)
 - p6_aws_organizations_svc_su_un()
 - path saml_file = p6_aws_organizations_svc_account_make(cred_file, src_cred_file, assumed_cred_file, org, account_alias, account_email, account_map, saml_provider, saml_provider_email, region, output, role_full_path, policy_arn, cert_subject, cert_bits, cert_exp)
 - str state = p6_aws_organizations_svc_account_status_create(car_id)
 
 ### sts.sh:
-- p6_aws_organizations_svc_run_as(account_alias, account_map, region, output, role_name, role_session_name, cred_file, src_cred_file, assumed_cred_file, cmd)
+- p6_aws_organizations_svc_run_as(account_alias, account_map, region, output, role_name, role_session_name, cred_file, src_cred_file, assumed_cred_file, cmd, ...)
 - p6_aws_organizations_svc_su(account_alias, map_file, region, output, role_full_path, role_session_name, cred_file, src_cred_file, assumed_cred_file)
 - p6_aws_organizations_svc_su_un()
 
@@ -221,23 +235,29 @@
 
 ### main.sh:
 - p6_aws_stepfunctions_svc_list()
-- p6_aws_stepfunctions_svc_state_machine_show(state_machine)
+- p6_aws_stepfunctions_svc_state_machine_show(state_machine, ...)
 
 ### main.sh:
-- p6_aws_sts_prompt_info(creds)
-- p6_aws_sts_svc_assertion_to_cred_file(auth, assertion64)
-- p6_aws_sts_svc_login(login, [account_alias=$AWS_ORG], [org=$AWS_ORG])
+- p6_aws_sts_svc_login(login, [account_alias=$AWS_ORG], [org=$AWS_ORG], [auth_type=saml])
 - p6_aws_sts_svc_role_assume(role_arn, role_session_name)
 - p6_aws_sts_svc_role_unassume()
+- str role_arn = p6_aws_sts_svc_role_assume_saml(auth, assertion64)
+
+### prompt.sh:
+- str str = p6_aws_sts_prompt_info(creds)
+
+### util.sh:
+- obj creds = p6_aws_sts_svc_json_role_load(json_role_file)
+- obj role = p6_aws_sts_svc_assertion_decode(assertion64)
 - p6_aws_sts_svc_whoami()
 - path dir = p6_aws_sts_svc_dir()
 - path file = p6_aws_sts_svc_cred_file()
-- str assertion64 = p6_aws_sts_svc_saml_login(auth)
+- str assertion64 = p6_aws_sts_svc_login_saml(auth)
 - str fn_profile = p6_aws_sts_svc_profile_build(org, account_alias, role_arn)
 - str org = p6_aws_sts_svc_org()
 - str output = p6_aws_sts_svc_output()
 - str region = p6_aws_sts_svc_region()
 
 ### template.sh:
-- p6_aws_template_process(infile)
+- p6_aws_template_process(infile, ...)
 
