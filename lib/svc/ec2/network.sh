@@ -17,6 +17,20 @@ p6_aws_ec2_svc_vpcs_list() {
     p6_return_void
 }
 
+p6_aws_ec2_svc_vpcs_iterator() {
+    
+    local save_vpc_id=$(p6_aws_cfg_env_vpc_id_active)
+    local vpc_id
+    for vpc_id in $(p6_aws_ec2_svc_vpcs_list | awk '{print $1}'); do
+        p6_msg "====> $vpc_id"
+        p6_aws_cfg_env_vpc_id_active "$vpc_id" >/dev/null
+        p6_run_code "$@"
+        p6_msg
+    done
+
+    p6_aws_cfg_env_vpc_id_active "$save_vpc_id" >/dev/null
+}
+
 ######################################################################
 #<
 #
@@ -169,12 +183,12 @@ p6_aws_ec2_svc_regions_iterator() {
     local region
     for region in $(p6_aws_ec2_svc_regions_list); do
         p6_msg "====> $region"
-        p6_aws_cfg_env_region_active "$region"
+        p6_aws_cfg_env_region_active "$region" >/dev/null
         p6_run_code "$@"
         p6_msg
     done
 
-    p6_aws_cfg_env_region_active "$save_region"
+    p6_aws_cfg_env_region_active "$save_region" >/dev/null
 }
 
 p6_aws_ec2_svc_regions_list() {
