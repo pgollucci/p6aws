@@ -1,7 +1,7 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_kms_svc_list_aliases()
+# Function: p6_aws_kms_svc_list_aliases_mine()
 #
 #>
 ######################################################################
@@ -13,6 +13,13 @@ p6_aws_kms_svc_list_aliases_mine() {
 		   sort
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_kms_svc_list_aliases_aws()
+#
+#>
+######################################################################
 p6_aws_kms_svc_list_aliases_aws() {
 
     p6_aws_cmd kms list-aliases \
@@ -21,6 +28,13 @@ p6_aws_kms_svc_list_aliases_aws() {
 		   sort
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_kms_svc_list_aliases()
+#
+#>
+######################################################################
 p6_aws_kms_svc_list_aliases() {
 
     p6_aws_cmd kms list-aliases \

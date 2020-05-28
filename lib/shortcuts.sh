@@ -62,7 +62,7 @@ p6_aws_shortcuts_profile_to_fn() {
 #	cred_file - 
 #
 #  Returns:
-#	str - #	str - func
+#	str - #	str - all_funcs
 #
 #>
 ######################################################################
