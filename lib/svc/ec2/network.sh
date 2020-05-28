@@ -163,6 +163,13 @@ p6_aws_ec2_svc_eni_list() {
     p6_return_void
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_ec2_svc_regions_iterator()
+#
+#>
+######################################################################
 p6_aws_ec2_svc_regions_iterator() {
     
     local save_region=$(p6_aws_cfg_env_region_active)
@@ -177,6 +184,13 @@ p6_aws_ec2_svc_regions_iterator() {
     p6_aws_cfg_env_region_active "$save_region"
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_ec2_svc_regions_list()
+#
+#>
+######################################################################
 p6_aws_ec2_svc_regions_list() {
 
     p6_aws_cmd ec2 describe-regions \

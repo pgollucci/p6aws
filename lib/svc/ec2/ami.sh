@@ -162,7 +162,10 @@ p6_aws_ec2_svc_amis_freebsd12_latest() {
 ######################################################################
 #<
 #
-# Function: str ami_id = p6_aws_ec2_svc_amis_amazon2_latest()
+# Function: str ami_id = p6_aws_ec2_svc_amis_amazon2_latest(ami_id)
+#
+#  Args:
+#	ami_id - 
 #
 #  Returns:
 #	str - ami_id
