@@ -226,3 +226,23 @@ p6_aws_ec2_svc_amis_ubuntu18_latest() {
 
     p6_return_str "$ami_id"
 }
+
+######################################################################
+#<
+#
+# Function: p6_aws_ec2_svc_ami_show(ami_id)
+#
+#  Args:
+#	ami_id - 
+#
+#>
+######################################################################
+p6_aws_ec2_svc_ami_show() {
+    local ami_id="$1"
+
+    p6_aws_cmd ec2 describe-images \
+	       --output text \
+	       --image-ids $ami_id \
+	       --query "'Images[0]'"
+
+}

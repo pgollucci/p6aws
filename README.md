@@ -1,4 +1,4 @@
-### cfg.sh:
+### ./lib/cfg.sh:
 - code rc = p6_aws_cfg_filter_secret(val)
 - p6_aws_cfg_clear()
 - p6_aws_cfg_realize(cfg)
@@ -14,14 +14,14 @@
 - words env_vars = p6_aws_cfg_vars_secret()
 - words kinds = p6_aws_cfg_kinds()
 
-### cli.sh:
+### ./lib/cli.sh:
 - code rc = p6_aws_cmd(service, cmd, ...)
 - p6_aws_cli_qload(svc)
 - str str = p6_aws_cli_jq_tag_name_get()
 
-### debug.sh:
+### ./lib/debug.sh:
 
-### env.sh:
+### ./lib/env.sh:
 - str old = p6_aws_cfg_env_access_key_id_active(val)
 - str old = p6_aws_cfg_env_access_key_id_saved(val)
 - str old = p6_aws_cfg_env_access_key_id_source(val)
@@ -74,20 +74,20 @@
 - str old = p6_aws_cfg_env_vpc_id_saved(val)
 - str old = p6_aws_cfg_env_vpc_id_source(val)
 
-### p6_return.sh:
+### ./lib/p6_return.sh:
 - obj cfg = p6_return_aws_cfg(cfg)
 - str account_id = p6_return_aws_account_id(account_id)
 - str arn = p6_return_aws_arn()
 - str logical_id = p6_return_aws_logical_id(logical_id)
 - str resource_id = p6_return_aws_resource_id(resource_id)
 
-### shortcuts.sh:
+### ./lib/shortcuts.sh:
 - p6_aws_shortcuts_ungen(org)
 - str  = p6_aws_shortcuts_gen(org, cred_file)
 - str fn_profile = p6_aws_shortcuts_profile_to_fn(proifle)
 - str p6_awsa_ = p6_aws_shortcuts_prefix()
 
-### main.sh:
+### ./lib/svc/autoscaling/main.sh:
 - p6_aws_autoscaling_svc_asg_act_deltailed_list(asg_name)
 - p6_aws_autoscaling_svc_asg_act_list(asg_name)
 - p6_aws_autoscaling_svc_asg_create(asg_name, min_size, max_size, desired_capacity, lt_id, lt_name, lt_version, subnet_type, [vpc_id=$AWS_VPC])
@@ -97,13 +97,23 @@
 - p6_old_aws_autoscaling_svc_lc_user_data_show(lc_name)
 - p6_old_aws_autoscaling_svc_lcs_list()
 
-### main.sh:
+### ./lib/svc/cdk/main.sh:
 - p6_aws_cdk_prompt_info()
 
-### main.sh:
+### ./lib/svc/cloudformation/main.sh:
 - p6_aws_cloudformation_svc_list()
 
-### ami.sh:
+### ./lib/svc/codebuild/main.sh:
+- p6_aws_codebuild_build_get(build_id)
+- p6_aws_codebuild_svc_builds_list()
+- p6_aws_codebuild_svc_project_build_list([project_name=$AWS_CODEBUILD_PROJECT_NAME])
+- p6_aws_codebuild_svc_projects_list()
+
+### ./lib/svc/codepipeline/main.sh:
+- p6_aws_codepipeline_svc_list()
+
+### ./lib/svc/ec2/ami.sh:
+- p6_aws_ec2_svc_ami_show(ami_id)
 - p6_aws_ec2_svc_amis_list()
 - p6_aws_ec2_svc_amis_mine_list()
 - str ami_id = p6_aws_ec2_svc_ami_id_from_instance_id(instance_id)
@@ -115,7 +125,7 @@
 - str user = p6_aws_ec2_svc_user_from_ami_name(ami_name)
 - words ami_ids = p6_aws_ec2_svc_ami_find_id(glob)
 
-### ec2.sh:
+### ./lib/svc/ec2/ec2.sh:
 - p6_aws_ec2_svc_instance_show(instance_id)
 - p6_aws_ec2_svc_instances_list([vpc_id=$AWS_VPC_ID])
 - p6_aws_ec2_svc_launch_template_create(lt_name, ami_id, [instance_type=t3a.nano], sg_ids, key_name)
@@ -126,7 +136,7 @@
 - str private_ip = p6_aws_ec2_svc_instance_private_ip(instance_id)
 - str public_ip = p6_aws_ec2_svc_instance_public_ip(instance_id)
 
-### network.sh:
+### ./lib/svc/ec2/network.sh:
 - p6_aws_ec2_svc_eni_list([vpc_id=$AWS_VPC_ID])
 - p6_aws_ec2_svc_nat_gateway_show([vpc_id=$AWS_VPC_ID])
 - p6_aws_ec2_svc_regions_iterator()
@@ -138,7 +148,7 @@
 - p6_aws_ec2_svc_vpcs_list()
 - words subnet_ids = p6_aws_ec2_svc_subnet_ids_get(subnet_type, [vpc_id=$AWS_VPC_ID])
 
-### sg.sh:
+### ./lib/svc/ec2/sg.sh:
 - p6_aws_ec2_svc_sg_delete(group_name)
 - p6_aws_ec2_svc_sg_id_from_tag_name(tag_name, [vpc_id=$AWS_VPC_ID])
 - p6_aws_ec2_svc_sg_show(security_group_id_or_name, [vpc_id=$AWS_VPC_ID])
@@ -146,19 +156,19 @@
 - p6_old_aws_ec2_svc_sg_id_from_group_name(group_name, [vpc_id=$AWS_VPC_ID])
 - str sg_id = p6_aws_ec2_svc_sg_create(desc, tag_name, [vpc_id=$AWS_VPC])
 
-### main.sh:
+### ./lib/svc/elb/main.sh:
 - p6_aws_ec2_svc_elb_listeners_list(load_balancer_name)
 - p6_aws_elb_svc_create(elb_name, [listeners=http], [subnet_type=Public], [vpc_id=$AWS_VPC])
 - p6_aws_elb_svc_list()
 
-### main.sh:
+### ./lib/svc/elbv2/main.sh:
 - p6_aws_alb_svc_create(alb_name, [subnet_type=Public], [vpc_id=$AWS_VPC_ID])
 - p6_aws_alb_svc_list()
 - p6_aws_alb_svc_listener_create(alb_arn, target_group_arn)
 - p6_aws_alb_svc_listeners_list(load_balancer_name)
 - p6_aws_alb_svc_target_group_create(tg_name, [vpc_id=AWS_VPC_ID])
 
-### main.sh:
+### ./lib/svc/iam/main.sh:
 - aws_arn role_arn = p6_aws_iam_svc_role_create(role_path, role_name, assume_role_policy_document)
 - p6_aws_iam_svc_instance_profiles_list()
 - p6_aws_iam_svc_password_policy_default()
@@ -173,24 +183,27 @@
 - p6_aws_iam_svc_roles_list()
 - p6_aws_iam_svc_users_list()
 
-### main.sh:
+### ./lib/svc/imagebuilder/main.sh:
 - p6_aws_imagebuilder_svc_dc_list()
 - p6_aws_imagebuilder_svc_ic_list()
 - p6_aws_imagebuilder_svc_images_list()
 - p6_aws_imagebuilder_svc_ir_list()
 - p6_aws_imagebuilder_svc_pipelines_list()
 
-### main.sh:
+### ./lib/svc/kms/main.sh:
 - p6_aws_kms_svc_key_create(key_description, key_policy)
 - p6_aws_kms_svc_list_aliases()
 - p6_aws_kms_svc_list_aliases_aws()
 - p6_aws_kms_svc_list_aliases_mine()
 
-### main.sh:
+### ./lib/svc/lambda/main.sh:
 - p6_aws_lambda_svc_invoke(function_name, ...)
 - p6_aws_lambda_svc_list()
 
-### crud.sh:
+### ./lib/svc/logs/main.sh:
+- p6_aws_logs_svc_watch(log_group_name)
+
+### ./lib/svc/organizations/crud.sh:
 - aws_account_id account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
 - aws_account_id account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
 - aws_account_id account_id = p6_aws_organizations_svc_account_id_from_name(account_name)
@@ -199,7 +212,7 @@
 - p6_aws_organizations_svc_accounts_list()
 - str status = p6_aws_organizations_svc_account_create_status(car_id)
 
-### main.sh:
+### ./lib/svc/organizations/main.sh:
 - aws_account_id account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
 - aws_account_id account_id = p6_aws_organizations_svc_account_create_or_fetch(account_alias, account_email, account_map)
 - aws_account_id account_id = p6_aws_organizations_svc_account_id_from_alias(account_alias)
@@ -213,40 +226,43 @@
 - path saml_file = p6_aws_organizations_svc_account_make(cred_file, src_cred_file, assumed_cred_file, org, account_alias, account_email, account_map, saml_provider, saml_provider_email, region, output, role_full_path, policy_arn, cert_subject, cert_bits, cert_exp)
 - str state = p6_aws_organizations_svc_account_status_create(car_id)
 
-### sts.sh:
+### ./lib/svc/organizations/sts.sh:
 - p6_aws_organizations_svc_run_as(account_alias, account_map, region, output, role_name, role_session_name, cred_file, src_cred_file, assumed_cred_file, cmd, ...)
 - p6_aws_organizations_svc_su(account_alias, map_file, region, output, role_full_path, role_session_name, cred_file, src_cred_file, assumed_cred_file)
 - p6_aws_organizations_svc_su_un()
 
-### main.sh:
+### ./lib/svc/s3/main.sh:
 - p6_aws_s3_svc_bucket_list(bucket)
 - p6_aws_s3_svc_bucket_policy()
 - p6_aws_s3_svc_buckets_list()
 
-### main.sh:
+### ./lib/svc/s3api/main.sh:
 - false  = p6_aws_s3api_svc_bucket_delete_with_versioned_objects(bucket)
 - p6_aws_s3api_svc_bucket_list_objects_all(bucket)
 - p6_aws_s3api_svc_bucket_objects_deleted(bucket)
 - p6_aws_s3api_svc_bucket_objects_versions_list(bucket)
 - p6_aws_s3api_svc_bucket_policy(bucket)
 
-### main.sh:
+### ./lib/svc/secretsmanager/main.sh:
+- p6_aws_secretsmanager_svc_list()
+
+### ./lib/svc/ssh/main.sh:
 - p6_aws_ssh_svc_do(tag, type)
 
-### main.sh:
+### ./lib/svc/stepfunctions/main.sh:
 - p6_aws_stepfunctions_svc_list()
 - p6_aws_stepfunctions_svc_state_machine_show(state_machine, ...)
 
-### main.sh:
+### ./lib/svc/sts/main.sh:
 - p6_aws_sts_svc_login(login, [account_alias=$AWS_ORG], [org=$AWS_ORG], [auth_type=saml])
 - p6_aws_sts_svc_role_assume(role_arn, role_session_name)
 - p6_aws_sts_svc_role_unassume()
 - str role_arn = p6_aws_sts_svc_role_assume_saml(auth, assertion64)
 
-### prompt.sh:
+### ./lib/svc/sts/prompt.sh:
 - str str = p6_aws_sts_prompt_info(creds)
 
-### util.sh:
+### ./lib/svc/sts/util.sh:
 - obj creds = p6_aws_sts_svc_json_role_load(json_role_file)
 - obj role = p6_aws_sts_svc_assertion_decode(assertion64)
 - p6_aws_sts_svc_whoami()
@@ -258,6 +274,6 @@
 - str output = p6_aws_sts_svc_output()
 - str region = p6_aws_sts_svc_region()
 
-### template.sh:
+### ./lib/template.sh:
 - p6_aws_template_process(infile, ...)
 
