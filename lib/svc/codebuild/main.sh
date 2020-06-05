@@ -1,3 +1,10 @@
+######################################################################
+#<
+#
+# Function: p6_aws_codebuild_svc_builds_list()
+#
+#>
+######################################################################
 p6_aws_codebuild_svc_builds_list() {
 
     p6_aws_cmd codebuild \
@@ -7,6 +14,13 @@ p6_aws_codebuild_svc_builds_list() {
 }
 
 
+######################################################################
+#<
+#
+# Function: p6_aws_codebuild_svc_projects_list()
+#
+#>
+######################################################################
 p6_aws_codebuild_svc_projects_list() {
 
     p6_aws_cmd codebuild \
@@ -15,6 +29,16 @@ p6_aws_codebuild_svc_projects_list() {
 	       --query "'projects[]'"
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_codebuild_svc_project_build_list([project_name=$AWS_CODEBUILD_PROJECT_NAME])
+#
+#  Args:
+#	OPTIONAL project_name -  [$AWS_CODEBUILD_PROJECT_NAME]
+#
+#>
+######################################################################
 p6_aws_codebuild_svc_project_build_list() {
     local project_name="${1:-$AWS_CODEBUILD_PROJECT_NAME}"
 
@@ -25,6 +49,16 @@ p6_aws_codebuild_svc_project_build_list() {
 	       --query "'ids[]'"
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_codebuild_build_get(build_id)
+#
+#  Args:
+#	build_id - 
+#
+#>
+######################################################################
 p6_aws_codebuild_build_get() {
     local build_id="$1"
 
