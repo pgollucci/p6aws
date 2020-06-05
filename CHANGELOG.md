@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/p6m7g8/p6aws/compare/v1.0.1...v1.0.2) (2020-06-05)
+
+
+### Features
+
+* **codebuild:** adds list, get, describe apis ([#9](https://github.com/p6m7g8/p6aws/issues/9)) ([d59c906](https://github.com/p6m7g8/p6aws/commit/d59c90688ba3105e0ed46bf53c6f56de2f5644f5))
+* **codepipeline:** adds list, get, describe apis ([#11](https://github.com/p6m7g8/p6aws/issues/11)) ([cecb978](https://github.com/p6m7g8/p6aws/commit/cecb978702c9d1bf67784c45374cd44d91765891))
+* **logs:** adds _watch() api ([#12](https://github.com/p6m7g8/p6aws/issues/12)) ([459245e](https://github.com/p6m7g8/p6aws/commit/459245ebd31e695d446f09308faef525cfcaa00a))
+* **prompt:** stdizes prompt ([#13](https://github.com/p6m7g8/p6aws/issues/13)) ([7215232](https://github.com/p6m7g8/p6aws/commit/7215232d57692ffd72166641feb5d578803ea3fd))
+* **secretsmanager:** adds list, get, describe apis ([#10](https://github.com/p6m7g8/p6aws/issues/10)) ([0f99b08](https://github.com/p6m7g8/p6aws/commit/0f99b0857854761ce39879753409ad20c5e72543))
+
 ### 1.0.1 (2020-05-29)
 
 
