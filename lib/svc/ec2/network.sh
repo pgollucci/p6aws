@@ -1,3 +1,4 @@
+# shellcheck shell=sh
 ######################################################################
 #<
 #
@@ -7,7 +8,8 @@
 ######################################################################
 p6_aws_ec2_svc_vpcs_list() {
 
-    local tag_name=$(p6_aws_cli_jq_tag_name_get)
+    local tag_name
+    tag_name=$(p6_aws_cli_jq_tag_name_get)
 
     p6_aws_cmd ec2 describe-vpcs \
         --output text \
@@ -32,7 +34,8 @@ p6_aws_ec2_svc_subnet_get() {
     local subnet_type="$1"
     local vpc_id="${2:-$AWS_VPC_ID}"
 
-    local subnet_id=$(p6_aws_ec2_svc_subnet_ids_get "$subnet_type" "$vpc_id" | head -1)
+    local subnet_id
+    subnet_id=$(p6_aws_ec2_svc_subnet_ids_get "$subnet_type" "$vpc_id" | head -1)
 
     p6_return_aws_subnet_id "$subnet_id"
 }
@@ -55,7 +58,8 @@ p6_aws_ec2_svc_subnet_ids_get() {
     local subnet_type="$1"
     local vpc_id="${2:-$AWS_VPC_ID}"
 
-    local subnet_ids=$(p6_aws_ec2_svc_subnets_list "$vpc_id" | awk "/$subnet_type/ { print \$1 }")
+    local subnet_ids
+    subnet_ids=$(p6_aws_ec2_svc_subnets_list "$vpc_id" | awk "/$subnet_type/ { print \$1 }")
 
     p6_return_words "$subnet_ids"
 }
@@ -73,7 +77,8 @@ p6_aws_ec2_svc_subnet_ids_get() {
 p6_aws_ec2_svc_subnets_list() {
     local vpc_id="${1:-$AWS_VPC_ID}"
 
-    local tag_name=$(p6_aws_cli_jq_tag_name_get)
+    local tag_name
+    tag_name=$(p6_aws_cli_jq_tag_name_get)
 
     p6_aws_cmd ec2 describe-subnets \
         --output text \
@@ -96,7 +101,8 @@ p6_aws_ec2_svc_subnets_list() {
 p6_aws_ec2_svc_rtbs_list() {
     local vpc_id="${1:-$AWS_VPC_ID}"
 
-    local tag_name=$(p6_aws_cli_jq_tag_name_get)
+    local tag_name
+    tag_name=$(p6_aws_cli_jq_tag_name_get)
 
     p6_aws_cmd "ec2" "describe-route-tables" \
         --output text \
@@ -127,7 +133,8 @@ p6_aws_ec2_svc_rtb_show() {
     local rtb_id="$1"
     local vpc_id="${2:-$AWS_VPC_ID}"
 
-    local tag_name=$(p6_aws_cli_jq_tag_name_get)
+    local tag_name
+    tag_name=$(p6_aws_cli_jq_tag_name_get)
 
     p6_aws_cmd ec2 describe-route-tables \
         --output text \
@@ -172,7 +179,8 @@ p6_aws_ec2_svc_eni_list() {
 ######################################################################
 p6_aws_ec2_svc_regions_iterator() {
 
-    local save_region=$(p6_aws_cfg_env_region_active)
+    local save_region
+    save_region=$(p6_aws_cfg_env_region_active)
     local region
     for region in $(p6_aws_ec2_svc_regions_list); do
         p6_msg "====> $region"
@@ -213,7 +221,8 @@ p6_aws_ec2_svc_regions_list() {
 p6_aws_ec2_svc_nat_gateway_show() {
     local vpc_id="${1:-$AWS_VPC_ID}"
 
-    local tag_name=$(p6_aws_cli_jq_tag_name_get)
+    local tag_name
+    tag_name=$(p6_aws_cli_jq_tag_name_get)
 
     p6_aws_cmd ec2 describe-network-interfaces \
         --output text \

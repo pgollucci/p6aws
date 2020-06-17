@@ -11,7 +11,7 @@
 p6_aws_ec2_svc_instance_show() {
     local instance_id="$1"
 
-    p6_aws_cmd ec2 describe-instances --instance-ids $instance_id
+    p6_aws_cmd ec2 describe-instances --instance-ids "$instance_id"
 }
 
 ######################################################################
@@ -27,7 +27,8 @@ p6_aws_ec2_svc_instance_show() {
 p6_aws_ec2_svc_instances_list() {
     local vpc_id="${1:-$AWS_VPC_ID}"
 
-    local tag_name=$(p6_aws_cli_jq_tag_name_get)
+    local tag_name
+    tag_name=$(p6_aws_cli_jq_tag_name_get)
 
     p6_aws_cmd ec2 describe-instances \
         --output text \
@@ -52,7 +53,8 @@ p6_aws_ec2_svc_instances_list() {
 p6_aws_ec2_svc_instance_id_from_name_tag() {
     local name="$1"
 
-    local instance_id=$(p6_aws_cmd ec2 describe-instances \
+    local instance_id
+    instance_id=$(p6_aws_cmd ec2 describe-instances \
         --output text \
         --filters "\"Name=tag:Name,Values=*$name*\"" \
         --query "'Reservations[].Instances[].[LaunchTime,InstanceId]'" |
@@ -79,9 +81,10 @@ p6_aws_ec2_svc_instance_id_from_name_tag() {
 p6_aws_ec2_svc_instance_private_ip() {
     local instance_id="$1"
 
-    local private_ip=$(p6_aws_cmd ec2 describe-instances \
+    local private_ip
+    private_ip=$(p6_aws_cmd ec2 describe-instances \
         --output text \
-        --instance-ids $instance_id \
+        --instance-ids "$instance_id" \
         --query "'Reservations[0].Instances[0].PrivateIpAddress'")
 
     p6_return_str "$private_ip"
@@ -103,9 +106,10 @@ p6_aws_ec2_svc_instance_private_ip() {
 p6_aws_ec2_svc_instance_public_ip() {
     local instance_id="$1"
 
-    local public_ip=$(p6_aws_cmd ec2 describe-instances \
+    local public_ip
+    public_ip=$(p6_aws_cmd ec2 describe-instances \
         --output text \
-        --instance-ids $instance_id \
+        --instance-ids "$instance_id" \
         --query "'Reservations[0].Instances[0].PublicIpAddress'")
 
     p6_return_str "$public_ip"
@@ -141,15 +145,16 @@ p6_aws_ec2_svc_instance_create() {
 
     [ -n "$user_data" ] && user_data="--user-data=$user_data"
 
-    local instance_id=$(
+    local instance_id
+    instance_id=$(
         p6_aws_cmd ec2 run-instances \
             --output json \
-            --key-name $key_name \
-            --image-id $ami_id \
-            --instance-type $instance_type \
-            --security-group-ids $sg_ids \
-            --subnet-id $subnet_id \
-            $user_data
+            --key-name "$key_name" \
+            --image-id "$ami_id" \
+            --instance-type "$instance_type" \
+            --security-group-ids "$sg_ids" \
+            --subnet-id "$subnet_id" \
+            "$user_data"
     )
 
     p6_aws_cmd ec2 create-tags "$instance_id" "'Key=Name,Value=$name'"
@@ -181,7 +186,8 @@ p6_aws_ec2_svc_launch_template_create() {
 
     [ -n "$user_data" ] && user_data="--user-data=$user_data"
 
-    local launch_template_data=$(
+    local launch_template_data
+    launch_template_data=$(
         p6_aws_template_process "ec2/launch_configuration.json" \
             "ASSOCIATE_PUBLIC_IP_ADDRESS=true" \
             "SECURITY_GROUPS=$sg_ids" \
@@ -220,7 +226,8 @@ p6_aws_ec2_svc_launch_templates_list() {
 ######################################################################
 p6_aws_ec2_svc_volumes_list() {
 
-    local tag_name=$(p6_aws_cli_jq_tag_name_get)
+    local tag_name
+    tag_name=$(p6_aws_cli_jq_tag_name_get)
 
     p6_aws_cmd ec2 describe-volumes \
         --output text \

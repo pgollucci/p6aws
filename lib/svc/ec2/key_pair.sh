@@ -1,4 +1,5 @@
-#
+# shellcheck shell=sh
+
 # Creates or re-uses an AWS EC2 key pair.
 #
 # AWS MUST be considered authoritative b/c if a key pair exists it may be in use
