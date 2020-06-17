@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/p6m7g8/p6aws/compare/v1.0.2...v1.0.3) (2020-06-17)
+
+
+### Features
+
+* **api:** +p6_aws_logs_svc_watch_jq() ([#20](https://github.com/p6m7g8/p6aws/issues/20)) ([e92a0bb](https://github.com/p6m7g8/p6aws/commit/e92a0bb47ad029afd1a0b89dbcc7c7c85ed70370))
+* **ssm:** adds initial functions ([#18](https://github.com/p6m7g8/p6aws/issues/18)) ([5876aa8](https://github.com/p6m7g8/p6aws/commit/5876aa89a852557114380edcd3a55f63d99dbd40))
+
+
+### Bug Fixes
+
+* **ec2/ami:** fixes typo describ -> describe ([#16](https://github.com/p6m7g8/p6aws/issues/16)) ([0505644](https://github.com/p6m7g8/p6aws/commit/050564489bab24bfb3abbf92a307db01d55b0831))
+* **shellcheck:** enable, fix ([#19](https://github.com/p6m7g8/p6aws/issues/19)) ([10ca2a5](https://github.com/p6m7g8/p6aws/commit/10ca2a53a8f04533e147b000102df3cfc54bc4a7))
+
+
+* **doc:** regens ([e5e64b7](https://github.com/p6m7g8/p6aws/commit/e5e64b7f7c031ed865f76a968ebb8342ee7ac6bb))
+* **shellcheck:** enables,  fixes -- execpt local ([#17](https://github.com/p6m7g8/p6aws/issues/17)) ([27963e8](https://github.com/p6m7g8/p6aws/commit/27963e80e342d7a59313ade203e0118bbe0ec1de))
+* **whitespace:** indents ([#15](https://github.com/p6m7g8/p6aws/issues/15)) ([f5c216f](https://github.com/p6m7g8/p6aws/commit/f5c216f381e1472d39c9abc98d2e05eeef4f5185))
+
 ### [1.0.2](https://github.com/p6m7g8/p6aws/compare/v1.0.1...v1.0.2) (2020-06-05)
 
 
