@@ -87,7 +87,7 @@ p6_aws_ec2_svc_amis_mine_list() {
 
 	local tag_name=$(p6_aws_cli_jq_tag_name_get)
 
-	p6_aws_cmd ec2 describ-images \
+	p6_aws_cmd ec2 describe-images \
 		--output text \
 		--owners self \
 		--query "'Images[].[CreationDate, ImageId, Public, RootDeviceName, RootDeviceType, VirtualizationType, ImageLocation, $tag_name]'" |
