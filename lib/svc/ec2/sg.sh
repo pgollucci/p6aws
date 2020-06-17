@@ -1,11 +1,11 @@
 # shellcheck shell=sh
-#######################################################################
+######################################################################
 #<
 #
 # Function: p6_aws_ec2_svc_sg_delete(group_name)
 #
 #  Args:
-#	group_name -
+#	group_name - 
 #
 #>
 ######################################################################
@@ -24,8 +24,8 @@ p6_aws_ec2_svc_sg_delete() {
 # Function: str sg_id = p6_aws_ec2_svc_sg_create(desc, tag_name, [vpc_id=$AWS_VPC])
 #
 #  Args:
-#	desc -
-#	tag_name -
+#	desc - 
+#	tag_name - 
 #	OPTIONAL vpc_id -  [$AWS_VPC]
 #
 #  Returns:
@@ -75,7 +75,7 @@ p6_aws_ec2_svc_sgs_list() {
 # Function: p6_aws_ec2_svc_sg_show(security_group_id_or_name, [vpc_id=$AWS_VPC_ID])
 #
 #  Args:
-#	security_group_id_or_name -
+#	security_group_id_or_name - 
 #	OPTIONAL vpc_id -  [$AWS_VPC_ID]
 #
 #>
@@ -105,7 +105,7 @@ p6_aws_ec2_svc_sg_show() {
 # Function: p6_aws_ec2_svc_sg_id_from_tag_name(tag_name, [vpc_id=$AWS_VPC_ID])
 #
 #  Args:
-#	tag_name -
+#	tag_name - 
 #	OPTIONAL vpc_id -  [$AWS_VPC_ID]
 #
 #>
@@ -128,7 +128,7 @@ p6_aws_ec2_svc_sg_id_from_tag_name() {
 # Function: p6_old_aws_ec2_svc_sg_id_from_group_name(group_name, [vpc_id=$AWS_VPC_ID])
 #
 #  Args:
-#	group_name -
+#	group_name - 
 #	OPTIONAL vpc_id -  [$AWS_VPC_ID]
 #
 #>
