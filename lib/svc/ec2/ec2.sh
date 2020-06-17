@@ -4,7 +4,7 @@
 # Function: p6_aws_ec2_svc_instance_show(instance_id)
 #
 #  Args:
-#	instance_id -
+#	instance_id - 
 #
 #>
 ######################################################################
@@ -43,7 +43,7 @@ p6_aws_ec2_svc_instances_list() {
 # Function: str instance_id = p6_aws_ec2_svc_instance_id_from_name_tag(name)
 #
 #  Args:
-#	name -
+#	name - 
 #
 #  Returns:
 #	str - instance_id
@@ -71,7 +71,7 @@ p6_aws_ec2_svc_instance_id_from_name_tag() {
 # Function: str private_ip = p6_aws_ec2_svc_instance_private_ip(instance_id)
 #
 #  Args:
-#	instance_id -
+#	instance_id - 
 #
 #  Returns:
 #	str - private_ip
@@ -96,7 +96,7 @@ p6_aws_ec2_svc_instance_private_ip() {
 # Function: str public_ip = p6_aws_ec2_svc_instance_public_ip(instance_id)
 #
 #  Args:
-#	instance_id -
+#	instance_id - 
 #
 #  Returns:
 #	str - public_ip
@@ -121,12 +121,12 @@ p6_aws_ec2_svc_instance_public_ip() {
 # Function: str instance_id = p6_aws_ec2_svc_instance_create(name, ami_id, [instance_type=t3a.nano], sg_ids, subnet_id, key_name, [user_data=])
 #
 #  Args:
-#	name -
-#	ami_id -
+#	name - 
+#	ami_id - 
 #	OPTIONAL instance_type -  [t3a.nano]
-#	sg_ids -
-#	subnet_id -
-#	key_name -
+#	sg_ids - 
+#	subnet_id - 
+#	key_name - 
 #	OPTIONAL user_data -  []
 #
 #  Returns:
@@ -168,11 +168,11 @@ p6_aws_ec2_svc_instance_create() {
 # Function: p6_aws_ec2_svc_launch_template_create(lt_name, ami_id, [instance_type=t3a.nano], sg_ids, key_name)
 #
 #  Args:
-#	lt_name -
-#	ami_id -
+#	lt_name - 
+#	ami_id - 
 #	OPTIONAL instance_type -  [t3a.nano]
-#	sg_ids -
-#	key_name -
+#	sg_ids - 
+#	key_name - 
 #
 #>
 ######################################################################
