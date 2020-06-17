@@ -4,7 +4,7 @@
 # Function: str user = p6_aws_ec2_svc_user_from_ami_name(ami_name)
 #
 #  Args:
-#	ami_name - 
+#	ami_name -
 #
 #  Returns:
 #	str - user
@@ -12,18 +12,18 @@
 #>
 ######################################################################
 p6_aws_ec2_svc_user_from_ami_name() {
-    local ami_name="$1"
+	local ami_name="$1"
 
-    local user
-    case $ami_name in
-	*WIN*)         user=lanadmin ;;
-	*RHEL*|*AmaonLinux*|*amzn*-ami*|*FreeBSD*) user=ec2-user ;;
-	*Ubuntu*)      user=ubuntu   ;;
-	*core*)        user=core     ;;
-	*)             user=$USER    ;;
-    esac
+	local user
+	case $ami_name in
+	*WIN*) user=lanadmin ;;
+	*RHEL* | *AmaonLinux* | *amzn*-ami* | *FreeBSD*) user=ec2-user ;;
+	*Ubuntu*) user=ubuntu ;;
+	*core*) user=core ;;
+	*) user=$USER ;;
+	esac
 
-    p6_return_str "$user"
+	p6_return_str "$user"
 }
 
 ######################################################################
@@ -32,7 +32,7 @@ p6_aws_ec2_svc_user_from_ami_name() {
 # Function: str ami_id = p6_aws_ec2_svc_ami_id_from_instance_id(instance_id)
 #
 #  Args:
-#	instance_id - 
+#	instance_id -
 #
 #  Returns:
 #	str - ami_id
@@ -40,14 +40,14 @@ p6_aws_ec2_svc_user_from_ami_name() {
 #>
 ######################################################################
 p6_aws_ec2_svc_ami_id_from_instance_id() {
-    local instance_id="$1"
+	local instance_id="$1"
 
-    local ami_id=$(p6_aws_cmd ec2 describe-instances \
-			      --output text \
-			      --instance-ids $instance_id \
-			      --query "'Reservations[0].Instances[0].ImageId'")
+	local ami_id=$(p6_aws_cmd ec2 describe-instances \
+		--output text \
+		--instance-ids $instance_id \
+		--query "'Reservations[0].Instances[0].ImageId'")
 
-    p6_return_str "$ami_id"
+	p6_return_str "$ami_id"
 }
 
 ######################################################################
@@ -56,7 +56,7 @@ p6_aws_ec2_svc_ami_id_from_instance_id() {
 # Function: str ami_name = p6_aws_ec2_svc_ami_name_from_instance_id(instance_id)
 #
 #  Args:
-#	instance_id - 
+#	instance_id -
 #
 #  Returns:
 #	str - ami_name
@@ -64,16 +64,16 @@ p6_aws_ec2_svc_ami_id_from_instance_id() {
 #>
 ######################################################################
 p6_aws_ec2_svc_ami_name_from_instance_id() {
-    local instance_id="$1"
+	local instance_id="$1"
 
-    local ami_id=$(p6_aws_ec2_svc_ami_id_from_instance_id "$instance_id")
+	local ami_id=$(p6_aws_ec2_svc_ami_id_from_instance_id "$instance_id")
 
-    local ami_name=$(p6_aws_cmd ec2 describe-images \
-				--output text \
-				--image-ids $ami_id \
-				--query "'Images[0].Name'")
+	local ami_name=$(p6_aws_cmd ec2 describe-images \
+		--output text \
+		--image-ids $ami_id \
+		--query "'Images[0].Name'")
 
-    p6_return_str "$ami_name"
+	p6_return_str "$ami_name"
 }
 
 ######################################################################
@@ -85,13 +85,13 @@ p6_aws_ec2_svc_ami_name_from_instance_id() {
 ######################################################################
 p6_aws_ec2_svc_amis_mine_list() {
 
-    local tag_name=$(p6_aws_cli_jq_tag_name_get)
+	local tag_name=$(p6_aws_cli_jq_tag_name_get)
 
-    p6_aws_cmd ec2 describ-images \
-	--output text \
-	--owners self \
-	--query "'Images[].[CreationDate, ImageId, Public, RootDeviceName, RootDeviceType, VirtualizationType, ImageLocation, $tag_name]'" | \
-	sort -k 2
+	p6_aws_cmd ec2 describ-images \
+		--output text \
+		--owners self \
+		--query "'Images[].[CreationDate, ImageId, Public, RootDeviceName, RootDeviceType, VirtualizationType, ImageLocation, $tag_name]'" |
+		sort -k 2
 }
 
 ######################################################################
@@ -103,12 +103,12 @@ p6_aws_ec2_svc_amis_mine_list() {
 ######################################################################
 p6_aws_ec2_svc_amis_list() {
 
-    local tag_name=$(p6_aws_cli_jq_tag_name_get)
+	local tag_name=$(p6_aws_cli_jq_tag_name_get)
 
-    p6_aws_cmd ec2 describe-images \
-	--output text \
-	--query "'Images[].[CreationDate, ImageId, Public, RootDeviceName, RootDeviceType, VirtualizationType, ImageLocation, $tag_name]'" | \
-	sort -k 2
+	p6_aws_cmd ec2 describe-images \
+		--output text \
+		--query "'Images[].[CreationDate, ImageId, Public, RootDeviceName, RootDeviceType, VirtualizationType, ImageLocation, $tag_name]'" |
+		sort -k 2
 }
 
 ######################################################################
@@ -117,7 +117,7 @@ p6_aws_ec2_svc_amis_list() {
 # Function: words ami_ids = p6_aws_ec2_svc_ami_find_id(glob)
 #
 #  Args:
-#	glob - 
+#	glob -
 #
 #  Returns:
 #	words - ami_ids
@@ -125,17 +125,17 @@ p6_aws_ec2_svc_amis_list() {
 #>
 ######################################################################
 p6_aws_ec2_svc_ami_find_id() {
-    local glob="$1"
+	local glob="$1"
 
-    local ami_ids=$(p6_aws_cmd ec2 describe-images \
-			       --output text \
-			       --filters "'Name=name,Values=$glob'" \
-			       --query "'Images[*].[Name,ImageId]'" | \
-			sort -k 1,1 | \
-			tail -1 | \
-			awk '{ print $2 }')
+	local ami_ids=$(p6_aws_cmd ec2 describe-images \
+		--output text \
+		--filters "'Name=name,Values=$glob'" \
+		--query "'Images[*].[Name,ImageId]'" |
+		sort -k 1,1 |
+		tail -1 |
+		awk '{ print $2 }')
 
-    p6_return_words "$ami_ids"
+	p6_return_words "$ami_ids"
 }
 
 ######################################################################
@@ -150,13 +150,13 @@ p6_aws_ec2_svc_ami_find_id() {
 ######################################################################
 p6_aws_ec2_svc_amis_freebsd12_latest() {
 
-    local ami_id=$(p6_aws_cmd ec2 describe-images \
-			      --output text \
-			      --query "'Images[].[ImageId]'" \
-			      --filters "'Name=name,Values=*FreeBSD 12*-RELEASE*ZFS'" \
-		       | tail -1)
+	local ami_id=$(p6_aws_cmd ec2 describe-images \
+		--output text \
+		--query "'Images[].[ImageId]'" \
+		--filters "'Name=name,Values=*FreeBSD 12*-RELEASE*ZFS'" |
+		tail -1)
 
-    p6_return_str "$ami_id"
+	p6_return_str "$ami_id"
 }
 
 ######################################################################
@@ -165,7 +165,7 @@ p6_aws_ec2_svc_amis_freebsd12_latest() {
 # Function: str ami_id = p6_aws_ec2_svc_amis_amazon2_latest(ami_id)
 #
 #  Args:
-#	ami_id - 
+#	ami_id -
 #
 #  Returns:
 #	str - ami_id
@@ -173,14 +173,14 @@ p6_aws_ec2_svc_amis_freebsd12_latest() {
 #>
 ######################################################################
 p6_aws_ec2_svc_amis_amazon2_latest() {
-    local ami_id=$(p6_aws_cmd ec2 describe-images \
-			      --output text \
-			      --query "'Images[].[ImageId]'" \
-			      --filters "'Name=name,Values=amzn2-ami-hvm-2.0.2020*x86_64*gp2'" | \
-		       sort -r -k 1,1 | \
-		       tail -1)
+	local ami_id=$(p6_aws_cmd ec2 describe-images \
+		--output text \
+		--query "'Images[].[ImageId]'" \
+		--filters "'Name=name,Values=amzn2-ami-hvm-2.0.2020*x86_64*gp2'" |
+		sort -r -k 1,1 |
+		tail -1)
 
-    p6_return_str "$ami_id"
+	p6_return_str "$ami_id"
 }
 
 ######################################################################
@@ -195,14 +195,14 @@ p6_aws_ec2_svc_amis_amazon2_latest() {
 ######################################################################
 p6_aws_ec2_svc_amis_rhel8_latest() {
 
-    local ami_id=$(p6_aws_cmd ec2 describe-images \
-			      --output text \
-			      --query "'Images[].[ImageId]" \
-			      --filters "Name=name,Values=RHEL-8*HVM-2019*x86_64*" | \
-		       sort -r -k 1,1 | \
-		       tail -1)
+	local ami_id=$(p6_aws_cmd ec2 describe-images \
+		--output text \
+		--query "'Images[].[ImageId]" \
+		--filters "Name=name,Values=RHEL-8*HVM-2019*x86_64*" |
+		sort -r -k 1,1 |
+		tail -1)
 
-    p6_return_str "$ami_id"
+	p6_return_str "$ami_id"
 }
 
 ######################################################################
@@ -217,14 +217,14 @@ p6_aws_ec2_svc_amis_rhel8_latest() {
 ######################################################################
 p6_aws_ec2_svc_amis_ubuntu18_latest() {
 
-    local ami_id=$(p6_aws_cmd ec2 describe-images \
-			      --output text \
-			      --query "'Images[].[ImageId]" \
-			      --filters "Name=name,Values=ubuntu-*-18.1*amd64*" \
-			      sort -r -k 1,1 | \
-		       tail -1)
+	local ami_id=$(p6_aws_cmd ec2 describe-images \
+		--output text \
+		--query "'Images[].[ImageId]" \
+		--filters "Name=name,Values=ubuntu-*-18.1*amd64*" \
+		sort -r -k 1,1 |
+		tail -1)
 
-    p6_return_str "$ami_id"
+	p6_return_str "$ami_id"
 }
 
 ######################################################################
@@ -233,16 +233,16 @@ p6_aws_ec2_svc_amis_ubuntu18_latest() {
 # Function: p6_aws_ec2_svc_ami_show(ami_id)
 #
 #  Args:
-#	ami_id - 
+#	ami_id -
 #
 #>
 ######################################################################
 p6_aws_ec2_svc_ami_show() {
-    local ami_id="$1"
+	local ami_id="$1"
 
-    p6_aws_cmd ec2 describe-images \
-	       --output text \
-	       --image-ids $ami_id \
-	       --query "'Images[0]'"
+	p6_aws_cmd ec2 describe-images \
+		--output text \
+		--image-ids $ami_id \
+		--query "'Images[0]'"
 
 }
