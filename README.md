@@ -108,6 +108,10 @@
 ### main.sh:
 - p6_aws_cloudformation_svc_list()
 
+### logs.sh:
+- p6_aws_logs_svc_watch(log_group_name)
+- p6_aws_logs_svc_watch_jq()
+
 ### main.sh:
 - p6_aws_codebuild_build_get(build_id)
 - p6_aws_codebuild_svc_builds_list()
@@ -204,10 +208,6 @@
 ### main.sh:
 - p6_aws_lambda_svc_invoke(function_name, ...)
 - p6_aws_lambda_svc_list()
-
-### main.sh:
-- p6_aws_logs_svc_watch(log_group_name)
-- p6_aws_logs_svc_watch_jq()
 
 ### crud.sh:
 - aws_account_id account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
