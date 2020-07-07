@@ -18,7 +18,10 @@ p6_aws_logs_svc_watch() {
 ######################################################################
 #<
 #
-# Function: p6_aws_logs_svc_watch_jq()
+# Function: p6_aws_logs_svc_watch_jq(log_group_name)
+#
+#  Args:
+#	log_group_name - 
 #
 #>
 ######################################################################
@@ -34,6 +37,13 @@ p6_aws_logs_svc_watch_jq() {
         done
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_logs_svc_trail_watch_jq()
+#
+#>
+######################################################################
 p6_aws_logs_svc_trail_watch_jq() {
 
     local group
@@ -46,6 +56,13 @@ p6_aws_logs_svc_trail_watch_jq() {
     done
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_logs_svc_groups_list()
+#
+#>
+######################################################################
 p6_aws_logs_svc_groups_list() {
 
     awslogs groups
