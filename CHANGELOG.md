@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/p6m7g8/p6aws/compare/v1.0.2...v1.0.3) (2020-07-07)
+
+
+### Features
+
+* **api:** +p6_aws_logs_svc_watch_jq() ([#20](https://github.com/p6m7g8/p6aws/issues/20)) ([e92a0bb](https://github.com/p6m7g8/p6aws/commit/e92a0bb47ad029afd1a0b89dbcc7c7c85ed70370))
+* **cloudwatch:** +p6_aws_logs_svc_trail_watch_jq(), +p6_aws_logs_svc_groups_list() ([#25](https://github.com/p6m7g8/p6aws/issues/25)) ([98f476d](https://github.com/p6m7g8/p6aws/commit/98f476d9959f4f8f0d5f277b6a098795d3941533))
+* **sns:** inits sns and +p6_aws_sns_svc_topics_list() ([#26](https://github.com/p6m7g8/p6aws/issues/26)) ([bb3e54e](https://github.com/p6m7g8/p6aws/commit/bb3e54e0f67ab12d21d80eaa14b88e5d2eb1f13b))
+* **ssm:** adds initial functions ([#18](https://github.com/p6m7g8/p6aws/issues/18)) ([5876aa8](https://github.com/p6m7g8/p6aws/commit/5876aa89a852557114380edcd3a55f63d99dbd40))
+
+
+### Bug Fixes
+
+* **ec2/ami:** fixes typo describ -> describe ([#16](https://github.com/p6m7g8/p6aws/issues/16)) ([0505644](https://github.com/p6m7g8/p6aws/commit/050564489bab24bfb3abbf92a307db01d55b0831))
+* **shellcheck:** enable, fix ([#19](https://github.com/p6m7g8/p6aws/issues/19)) ([10ca2a5](https://github.com/p6m7g8/p6aws/commit/10ca2a53a8f04533e147b000102df3cfc54bc4a7))
+* **svc/logs:** fixes typo in watch() ([#24](https://github.com/p6m7g8/p6aws/issues/24)) ([716d690](https://github.com/p6m7g8/p6aws/commit/716d690ac9209c6418d5458c16a8f5e198683ce7))
+
+
+* **doc:** regens ([#21](https://github.com/p6m7g8/p6aws/issues/21)) ([dace382](https://github.com/p6m7g8/p6aws/commit/dace3825bdb5847d091f0b5e926d0c9572612282))
+* **layout:** rename ([#23](https://github.com/p6m7g8/p6aws/issues/23)) ([46f18bc](https://github.com/p6m7g8/p6aws/commit/46f18bcfda839d895694cee28365a7bd3911ef8c))
+* **shellcheck:** enables,  fixes -- execpt local ([#17](https://github.com/p6m7g8/p6aws/issues/17)) ([27963e8](https://github.com/p6m7g8/p6aws/commit/27963e80e342d7a59313ade203e0118bbe0ec1de))
+* **whitespace:** indents ([#15](https://github.com/p6m7g8/p6aws/issues/15)) ([f5c216f](https://github.com/p6m7g8/p6aws/commit/f5c216f381e1472d39c9abc98d2e05eeef4f5185))
+
 ### [1.0.3](https://github.com/p6m7g8/p6aws/compare/v1.0.2...v1.0.3) (2020-06-17)
 
 
