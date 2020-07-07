@@ -109,8 +109,10 @@
 - p6_aws_cloudformation_svc_list()
 
 ### logs.sh:
+- p6_aws_logs_svc_groups_list()
+- p6_aws_logs_svc_trail_watch_jq()
 - p6_aws_logs_svc_watch(log_group_name)
-- p6_aws_logs_svc_watch_jq()
+- p6_aws_logs_svc_watch_jq(log_group_name)
 
 ### main.sh:
 - p6_aws_codebuild_build_get(build_id)
@@ -251,6 +253,9 @@
 
 ### main.sh:
 - p6_aws_secretsmanager_svc_list()
+
+### main.sh:
+- p6_aws_sns_svc_topics_list()
 
 ### main.sh:
 - p6_aws_ssh_svc_do(tag, type)
