@@ -1,10 +1,7 @@
 ######################################################################
 #<
 #
-# Function: str str = p6_aws_sts_prompt_info(creds)
-#
-#  Args:
-#	creds - 
+# Function: p6_aws_eks_prompt_info()
 #
 #  Returns:
 #	str - str
