@@ -168,6 +168,13 @@
 - str sg_id = p6_aws_ec2_svc_sg_create(desc, tag_name, [vpc_id=$AWS_VPC])
 
 ### main.sh:
+- p6_aws_eks_svc_cluster_logging_enable([cluster_name=$AWS_EKS_CLUSTER_NAME])
+- p6_aws_eks_svc_kubeconfig_update(stack_name)
+
+### prompt.sh:
+- p6_aws_eks_prompt_info()
+
+### main.sh:
 - p6_aws_ec2_svc_elb_listeners_list(load_balancer_name)
 - p6_aws_elb_svc_create(elb_name, [listeners=http], [subnet_type=Public], [vpc_id=$AWS_VPC])
 - p6_aws_elb_svc_list()
