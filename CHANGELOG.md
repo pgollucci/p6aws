@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/p6m7g8/p6aws/compare/v1.0.3...v1.0.4) (2020-09-20)
+
+
+### Features
+
+* **api:** adds eks ([#28](https://github.com/p6m7g8/p6aws/issues/28)) ([73a1c6e](https://github.com/p6m7g8/p6aws/commit/73a1c6e3466cc11190a57e44e42e4b266b746de1))
+* **prompt:** adds eks prompt ([#29](https://github.com/p6m7g8/p6aws/issues/29)) ([4fe9b4d](https://github.com/p6m7g8/p6aws/commit/4fe9b4d63e719001fa10a760afe794a16b027dfd))
+
+
+* **doc:** regens docs ([#30](https://github.com/p6m7g8/p6aws/issues/30)) ([1e4fdba](https://github.com/p6m7g8/p6aws/commit/1e4fdbaac4cdcf4c62c9a95293d3a38c6e0c71b5))
+
 ### [1.0.3](https://github.com/p6m7g8/p6aws/compare/v1.0.2...v1.0.3) (2020-07-07)
 
 
