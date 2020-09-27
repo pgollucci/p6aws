@@ -29,10 +29,15 @@ p6_aws_eks_svc_cluster_logging_enable() {
 p6_aws_eks_svc_kubeconfig_update() {
   local stack_name="$1"
 
-  eval `p6_aws_cmd cloudformation describe-stacks --output text --stack-name SmileKubernetesStack --query "'Stacks[0].Outputs[0].OutputValue'"`
+  local code
+  code=$(aws cloudformation describe-stacks --stack-name "$stack_name"  --query 'Stacks[0].Outputs' | grep -A1 SmileEksConfigCommand |awk -F\" '/OutputValue/ { print $4 }')
 
-  p6df::modules::kubernetes::ctx $(kubectx -c)
+  p6_run_code "$code"
 
-  local aws_eks_cluster_name=$(p6_echo $P6_KUBE_CFG | awk -F/ '{ print $2}')
+  p6df::modules::kubernetes::ctx "$(kubectx -c)"
+
+  local aws_eks_cluster_name
+  aws_eks_cluster_name=$(p6_echo "$P6_KUBE_CFG" | awk -F/ '{ print $2}')
+
   p6_env_export "AWS_EKS_CLUSTER_NAME" "$aws_eks_cluster_name"
 }
