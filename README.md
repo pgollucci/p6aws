@@ -170,6 +170,7 @@
 ### main.sh:
 - p6_aws_eks_svc_cluster_logging_enable([cluster_name=$AWS_EKS_CLUSTER_NAME])
 - p6_aws_eks_svc_kubeconfig_update(stack_name)
+- str status = p6_aws_eks_svc_cluster_status([cluster_name=$AWS_EKS_CLUSTER_NAME])
 
 ### prompt.sh:
 - p6_aws_eks_prompt_info()
