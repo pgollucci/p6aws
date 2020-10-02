@@ -70,14 +70,15 @@ p6_aws_shortcuts_gen() {
     local org="$1"
     local cred_file="$2"
 
-    local all_funcs=""
 
     if ! p6_file_exists "$cred_file"; then
 		p6_return_str ""
     else
+	    local all_funcs=""
+
 		local line
 		local profile
-		cat $cred_file | while read line; do
+		while read -r line; do
 	    	p6_aws_shortcuts__debug "gen(): {line=$line}"
 	    	case $line in
 			\#*)
@@ -85,7 +86,7 @@ p6_aws_shortcuts_gen() {
 		    	;;
 			*\[*\]*)
 		    	profile=$line
-		    	profile=$(p6_string_replace "$profile" "\[" "")
+		   		profile=$(p6_string_replace "$profile" "\[" "")
 		    	profile=$(p6_string_replace "$profile" "\]" "")
 
 		    	cfg=$(p6_obj_create "hash")
@@ -97,22 +98,27 @@ p6_aws_shortcuts_gen() {
 			*=*)
 		    	local key=$(echo "$line" | cut -d = -f 1 | sed -e 's, *,,g')
 		    	local val=$(echo "$line" | cut -d = -f 2 | sed -e 's, *,,g')
+		    	p6_aws_shortcuts__debug "gen():\t[key=$key] -> [val=$val]"
 
 		    	key=$(p6_string_replace "$key" "aws_" "")
 
-		    	p6_aws_shortcuts__debug "gen():\t[key=$key] -> [val=$val]"
+				case $key in
+					region) local old1=$(p6_obj_item_set "$cfg" "default_region" "$val")
+				esac
 
 		    	local old=$(p6_obj_item_set "$cfg" "$key" "$val")
-		    ;;
+		    	;;
+			"")
+				local func_prefix=$(p6_aws_shortcuts_prefix)
+				local fn_profile=$(p6_aws_shortcuts_profile_to_fn "$profile")
+				local func="${func_prefix}${fn_profile}"
+				p6_run_code "$func() { p6_aws_cfg_realize \"$cfg\" }"
+				all_funcs="$all_funcs 
+$func"
+				;;
 	    	esac
 
-			local func_prefix=$(p6_aws_shortcuts_prefix)
-			local fn_profile=$(p6_aws_shortcuts_profile_to_fn "$profile")
-			local func="${func_prefix}${fn_profile}"
-			p6_run_code "$func() { p6_aws_cfg_realize \"$cfg\" }"
-			all_funcs="$fall_funcs
-	$func"
-		done
+		done < "$cred_file"
 
 		p6_return_str "$all_funcs"
     fi
