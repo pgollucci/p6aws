@@ -123,6 +123,11 @@
 ### main.sh:
 - p6_aws_codepipeline_svc_list()
 
+### main.sh:
+- p6_aws_dynamodb_svc_table_all(table_name)
+- p6_aws_dynamodb_svc_table_describe(table_name)
+- p6_aws_dynamodb_svc_tables_list()
+
 ### ami.sh:
 - p6_aws_ec2_svc_ami_show(ami_id)
 - p6_aws_ec2_svc_amis_list()
@@ -170,7 +175,7 @@
 ### main.sh:
 - p6_aws_eks_svc_cluster_logging_enable([cluster_name=$AWS_EKS_CLUSTER_NAME])
 - p6_aws_eks_svc_kubeconfig_update(stack_name)
-- str status = p6_aws_eks_svc_cluster_status([cluster_name=$AWS_EKS_CLUSTER_NAME])
+- str cluster_status = p6_aws_eks_svc_cluster_status([cluster_name=$AWS_EKS_CLUSTER_NAME])
 
 ### prompt.sh:
 - p6_aws_eks_prompt_info()
