@@ -1,3 +1,10 @@
+######################################################################
+#<
+#
+# Function: p6_aws_dynamodb_svc_tables_list()
+#
+#>
+######################################################################
 p6_aws_dynamodb_svc_tables_list() {
 
   p6_aws_cmd dynamodb list-tables \
@@ -6,6 +13,16 @@ p6_aws_dynamodb_svc_tables_list() {
 }
 
 
+######################################################################
+#<
+#
+# Function: p6_aws_dynamodb_svc_table_describe(table_name)
+#
+#  Args:
+#	table_name - 
+#
+#>
+######################################################################
 p6_aws_dynamodb_svc_table_describe() {
   local table_name="$1"
 
@@ -15,6 +32,16 @@ p6_aws_dynamodb_svc_table_describe() {
     --output text
 }
 
+######################################################################
+#<
+#
+# Function: p6_aws_dynamodb_svc_table_all(table_name)
+#
+#  Args:
+#	table_name - 
+#
+#>
+######################################################################
 p6_aws_dynamodb_svc_table_all() {
   local table_name="$1"
 

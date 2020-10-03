@@ -49,13 +49,13 @@ p6_aws_eks_svc_kubeconfig_update() {
 ######################################################################
 #<
 #
-# Function: str status = p6_aws_eks_svc_cluster_status([cluster_name=$AWS_EKS_CLUSTER_NAME])
+# Function: str cluster_status = p6_aws_eks_svc_cluster_status([cluster_name=$AWS_EKS_CLUSTER_NAME])
 #
 #  Args:
 #	OPTIONAL cluster_name -  [$AWS_EKS_CLUSTER_NAME]
 #
 #  Returns:
-#	str - status
+#	str - cluster_status
 #
 #>
 ######################################################################
