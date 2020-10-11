@@ -103,9 +103,6 @@
 - p6_old_aws_autoscaling_svc_lcs_list()
 
 ### main.sh:
-- p6_aws_cdk_prompt_info()
-
-### main.sh:
 - p6_aws_cloudformation_svc_list()
 
 ### logs.sh:
