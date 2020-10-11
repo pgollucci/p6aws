@@ -1,7 +1,6 @@
 ### init.zsh:
 - p6df::modules::p6aws::deps()
 - p6df::modules::p6aws::init()
-- p6df::modules::p6aws::version()
 
 ### cfg.sh:
 - code rc = p6_aws_cfg_filter_secret(val)
