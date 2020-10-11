@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/p6m7g8/p6aws/compare/v1.0.4...v2.0.0) (2020-10-11)
+
+
+### Features
+
+* **api:** +p6_aws_eks_svc_cluster_status() ([#32](https://github.com/p6m7g8/p6aws/issues/32)) ([987bbcb](https://github.com/p6m7g8/p6aws/commit/987bbcb6baf9489b5d0870c11eb77ec45b77a524))
+* **svc:** adds dynamodb ([#33](https://github.com/p6m7g8/p6aws/issues/33)) ([94658dc](https://github.com/p6m7g8/p6aws/commit/94658dc6b97ff5e2137d89c71069cd7a29ba942d))
+
+
+### Bug Fixes
+
+* **api:** move `p6_aws_cdk_prompt_info` -> `p6m7g8/p6df-awscdk`, depends on `p6m7g8/p6types` ([#37](https://github.com/p6m7g8/p6aws/issues/37)) ([3456768](https://github.com/p6m7g8/p6aws/commit/345676839a19d6b534b49c7542dd5c6e9b78d1d1))
+* **p6_aws_eks_svc_cluster_logging_enable:** positional to name; stack_name is now a param ([#31](https://github.com/p6m7g8/p6aws/issues/31)) ([3afc538](https://github.com/p6m7g8/p6aws/commit/3afc538df09c21930f212eeb4182a71f835421e8))
+* **p6_aws_shortcuts_gen:** remove subshell variable, set default_region, only create funcs once, return the list of all ([#35](https://github.com/p6m7g8/p6aws/issues/35)) ([98e343f](https://github.com/p6m7g8/p6aws/commit/98e343fcc711664ff8c53e735c2f52e365e99986))
+
+
+* **doc:** regen ([#36](https://github.com/p6m7g8/p6aws/issues/36)) ([bc3799a](https://github.com/p6m7g8/p6aws/commit/bc3799a69dd7cb81f2bc27144ad21963de95434a))
+* **indent:** fixes indent ([#34](https://github.com/p6m7g8/p6aws/issues/34)) ([c3a06ca](https://github.com/p6m7g8/p6aws/commit/c3a06ca1afc87627991b8eac8eb8c2c000390fd9))
+
 ### [1.0.4](https://github.com/p6m7g8/p6aws/compare/v1.0.3...v1.0.4) (2020-09-20)
 
 
