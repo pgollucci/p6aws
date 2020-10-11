@@ -13,7 +13,11 @@ p6df::modules::p6aws::version() { echo "0.0.1"; }
 #
 #>
 ######################################################################
-p6df::modules::p6aws::deps() { ModuleDeps=(p6m7g8/p6types) }
+p6df::modules::p6aws::deps() { 
+  ModuleDeps=(
+    p6m7g8/p6types
+  ) 
+}
 ######################################################################
 #<
 #
