@@ -22,7 +22,7 @@ p6_return_aws_arn() {
 # Function: str account_id = p6_return_aws_account_id(account_id)
 #
 #  Args:
-#	account_id - 
+#	account_id -
 #
 #  Returns:
 #	str - account_id
@@ -41,7 +41,7 @@ p6_return_aws_account_id() {
 # Function: str resource_id = p6_return_aws_resource_id(resource_id)
 #
 #  Args:
-#	resource_id - 
+#	resource_id -
 #
 #  Returns:
 #	str - resource_id
@@ -60,7 +60,7 @@ p6_return_aws_resource_id() {
 # Function: str logical_id = p6_return_aws_logical_id(logical_id)
 #
 #  Args:
-#	logical_id - 
+#	logical_id -
 #
 #  Returns:
 #	str - logical_id
@@ -79,7 +79,7 @@ p6_return_aws_logical_id() {
 # Function: obj cfg = p6_return_aws_cfg(cfg)
 #
 #  Args:
-#	cfg - 
+#	cfg -
 #
 #  Returns:
 #	obj - cfg

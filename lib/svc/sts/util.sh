@@ -119,7 +119,7 @@ p6_aws_sts_svc_dir() {
 # Function: obj creds = p6_aws_sts_svc_json_role_load(json_role_file)
 #
 #  Args:
-#	json_role_file - 
+#	json_role_file -
 #
 #  Returns:
 #	obj - creds
@@ -149,9 +149,9 @@ p6_aws_sts_svc_json_role_load() {
 # Function: str fn_profile = p6_aws_sts_svc_profile_build(org, account_alias, role_arn)
 #
 #  Args:
-#	org - 
-#	account_alias - 
-#	role_arn - 
+#	org -
+#	account_alias -
+#	role_arn -
 #
 #  Returns:
 #	str - fn_profile
@@ -179,7 +179,7 @@ p6_aws_sts_svc_profile_build() {
 # Function: obj role = p6_aws_sts_svc_assertion_decode(assertion64)
 #
 #  Args:
-#	assertion64 - 
+#	assertion64 -
 #
 #  Returns:
 #	obj - role
@@ -210,7 +210,7 @@ p6_aws_sts_svc_assertion_decode() {
 # Function: str assertion64 = p6_aws_sts_svc_login_saml(auth)
 #
 #  Args:
-#	auth - 
+#	auth -
 #
 #  Returns:
 #	str - assertion64

@@ -35,7 +35,7 @@ p6_aws_codebuild_svc_projects_list() {
 # Function: p6_aws_codebuild_svc_project_build_list([project_name=$AWS_CODEBUILD_PROJECT_NAME])
 #
 #  Args:
-#	OPTIONAL project_name -  [$AWS_CODEBUILD_PROJECT_NAME]
+#	OPTIONAL project_name - [$AWS_CODEBUILD_PROJECT_NAME]
 #
 #>
 ######################################################################
@@ -55,7 +55,7 @@ p6_aws_codebuild_svc_project_build_list() {
 # Function: p6_aws_codebuild_build_get(build_id)
 #
 #  Args:
-#	build_id - 
+#	build_id -
 #
 #>
 ######################################################################

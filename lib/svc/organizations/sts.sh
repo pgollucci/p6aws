@@ -16,15 +16,15 @@ p6_aws_organizations_svc_su_un() {
 # Function: p6_aws_organizations_svc_su(account_alias, map_file, region, output, role_full_path, role_session_name, cred_file, src_cred_file, assumed_cred_file)
 #
 #  Args:
-#	account_alias - 
-#	map_file - 
-#	region - 
-#	output - 
-#	role_full_path - 
-#	role_session_name - 
-#	cred_file - 
-#	src_cred_file - 
-#	assumed_cred_file - 
+#	account_alias -
+#	map_file -
+#	region -
+#	output -
+#	role_full_path -
+#	role_session_name -
+#	cred_file -
+#	src_cred_file -
+#	assumed_cred_file -
 #
 #>
 ######################################################################
@@ -39,16 +39,16 @@ p6_aws_organizations_svc_su() {
 # Function: p6_aws_organizations_svc_run_as(account_alias, account_map, region, output, role_name, role_session_name, cred_file, src_cred_file, assumed_cred_file, cmd, ...)
 #
 #  Args:
-#	account_alias - 
-#	account_map - 
-#	region - 
-#	output - 
-#	role_name - 
-#	role_session_name - 
-#	cred_file - 
-#	src_cred_file - 
-#	assumed_cred_file - 
-#	cmd - 
+#	account_alias -
+#	account_map -
+#	region -
+#	output -
+#	role_name -
+#	role_session_name -
+#	cred_file -
+#	src_cred_file -
+#	assumed_cred_file -
+#	cmd -
 #	... - 
 #
 #>

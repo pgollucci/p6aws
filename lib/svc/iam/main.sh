@@ -18,7 +18,7 @@ p6_aws_iam_svc_instance_profiles_list() {
 # Function: p6_aws_iam_svc_role_policies(role_name)
 #
 #  Args:
-#	role_name - 
+#	role_name -
 #
 #>
 ######################################################################
@@ -88,10 +88,10 @@ p6_aws_iam_svc_password_policy_default() {
 # Function: p6_aws_iam_svc_role_saml_create(role_full_path, policy_arn, account_id, provider)
 #
 #  Args:
-#	role_full_path - 
-#	policy_arn - 
-#	account_id - 
-#	provider - 
+#	role_full_path -
+#	policy_arn -
+#	account_id -
+#	provider -
 #
 #>
 ######################################################################
@@ -117,8 +117,8 @@ p6_aws_iam_svc_role_saml_create() {
 # Function: p6_aws_iam_svc_policy_saml(account_id, provider)
 #
 #  Args:
-#	account_id - 
-#	provider - 
+#	account_id -
+#	provider -
 #
 #>
 ######################################################################
@@ -137,8 +137,8 @@ p6_aws_iam_svc_policy_saml() {
 # Function: p6_aws_iam_svc_policy_s3_cloudtrail_write(trail_bucket, account_id)
 #
 #  Args:
-#	trail_bucket - 
-#	account_id - 
+#	trail_bucket -
+#	account_id -
 #
 #>
 ######################################################################
@@ -157,7 +157,7 @@ p6_aws_iam_svc_policy_s3_cloudtrail_write() {
 # Function: p6_aws_iam_svc_policy_cloudtrail_write(resource)
 #
 #  Args:
-#	resource - 
+#	resource -
 #
 #>
 ######################################################################
@@ -174,7 +174,7 @@ p6_aws_iam_svc_policy_cloudtrail_write() {
 # Function: p6_aws_iam_svc_policy_service_write(service)
 #
 #  Args:
-#	service - 
+#	service -
 #
 #>
 ######################################################################
@@ -191,9 +191,9 @@ p6_aws_iam_svc_policy_service_write() {
 # Function: aws_arn role_arn = p6_aws_iam_svc_role_create(role_path, role_name, assume_role_policy_document)
 #
 #  Args:
-#	role_path - 
-#	role_name - 
-#	assume_role_policy_document - 
+#	role_path -
+#	role_name -
+#	assume_role_policy_document -
 #
 #  Returns:
 #	aws_arn - role_arn
@@ -222,8 +222,8 @@ p6_aws_iam_svc_role_create() {
 # Function: p6_aws_iam_svc_policy_to_role(role_full_path, policy_arn)
 #
 #  Args:
-#	role_full_path - 
-#	policy_arn - 
+#	role_full_path -
+#	policy_arn -
 #
 #>
 ######################################################################
@@ -246,9 +246,9 @@ p6_aws_iam_svc_policy_to_role() {
 # Function: p6_aws_iam_svc_policy_create(policy_full_path, policy_description, policy_document)
 #
 #  Args:
-#	policy_full_path - 
-#	policy_description - 
-#	policy_document - 
+#	policy_full_path -
+#	policy_description -
+#	policy_document -
 #
 #>
 ######################################################################

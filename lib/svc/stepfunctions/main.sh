@@ -18,7 +18,7 @@ p6_aws_stepfunctions_svc_list() {
 # Function: p6_aws_stepfunctions_svc_state_machine_show(state_machine, ...)
 #
 #  Args:
-#	state_machine - 
+#	state_machine -
 #	... - 
 #
 #>

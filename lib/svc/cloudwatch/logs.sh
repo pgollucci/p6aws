@@ -5,7 +5,7 @@
 # Function: p6_aws_logs_svc_watch(log_group_name)
 #
 #  Args:
-#	log_group_name - 
+#	log_group_name -
 #
 #>
 ######################################################################
@@ -21,7 +21,7 @@ p6_aws_logs_svc_watch() {
 # Function: p6_aws_logs_svc_watch_jq(log_group_name)
 #
 #  Args:
-#	log_group_name - 
+#	log_group_name -
 #
 #>
 ######################################################################

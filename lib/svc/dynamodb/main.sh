@@ -19,7 +19,7 @@ p6_aws_dynamodb_svc_tables_list() {
 # Function: p6_aws_dynamodb_svc_table_describe(table_name)
 #
 #  Args:
-#	table_name - 
+#	table_name -
 #
 #>
 ######################################################################
@@ -38,7 +38,7 @@ p6_aws_dynamodb_svc_table_describe() {
 # Function: p6_aws_dynamodb_svc_table_all(table_name)
 #
 #  Args:
-#	table_name - 
+#	table_name -
 #
 #>
 ######################################################################

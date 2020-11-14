@@ -4,7 +4,7 @@
 # Function: p6_aws_shortcuts__debug(msg)
 #
 #  Args:
-#	msg - 
+#	msg -
 #
 #>
 ######################################################################
@@ -37,7 +37,7 @@ p6_aws_shortcuts_prefix() {
 # Function: str fn_profile = p6_aws_shortcuts_profile_to_fn(proifle)
 #
 #  Args:
-#	proifle - 
+#	proifle -
 #
 #  Returns:
 #	str - fn_profile
@@ -58,8 +58,8 @@ p6_aws_shortcuts_profile_to_fn() {
 # Function: str  = p6_aws_shortcuts_gen(org, cred_file)
 #
 #  Args:
-#	org - 
-#	cred_file - 
+#	org -
+#	cred_file -
 #
 #  Returns:
 #	str - #	str - all_funcs
@@ -130,7 +130,7 @@ $func"
 # Function: p6_aws_shortcuts_ungen(org)
 #
 #  Args:
-#	org - 
+#	org -
 #
 #>
 ######################################################################
