@@ -20,7 +20,7 @@ p6_aws_alb_svc_list() {
 # Function: p6_aws_alb_svc_listeners_list(load_balancer_name)
 #
 #  Args:
-#	load_balancer_name - 
+#	load_balancer_name -
 #
 #>
 ######################################################################
@@ -36,9 +36,9 @@ p6_aws_alb_svc_listeners_list() {
 # Function: p6_aws_alb_svc_create(alb_name, [subnet_type=Public], [vpc_id=$AWS_VPC_ID])
 #
 #  Args:
-#	alb_name - 
-#	OPTIONAL subnet_type -  [Public]
-#	OPTIONAL vpc_id -  [$AWS_VPC_ID]
+#	alb_name -
+#	OPTIONAL subnet_type - [Public]
+#	OPTIONAL vpc_id - [$AWS_VPC_ID]
 #
 #>
 ######################################################################
@@ -62,8 +62,8 @@ p6_aws_alb_svc_create() {
 # Function: p6_aws_alb_svc_listener_create(alb_arn, target_group_arn)
 #
 #  Args:
-#	alb_arn - 
-#	target_group_arn - 
+#	alb_arn -
+#	target_group_arn -
 #
 #>
 ######################################################################
@@ -88,8 +88,8 @@ p6_aws_alb_svc_listener_create() {
 # Function: p6_aws_alb_svc_target_group_create(tg_name, [vpc_id=AWS_VPC_ID])
 #
 #  Args:
-#	tg_name - 
-#	OPTIONAL vpc_id -  [AWS_VPC_ID]
+#	tg_name -
+#	OPTIONAL vpc_id - [AWS_VPC_ID]
 #
 #>
 ######################################################################

@@ -49,8 +49,8 @@ p6_aws_kms_svc_list_aliases() {
 # Function: p6_aws_kms_svc_key_create(key_description, key_policy)
 #
 #  Args:
-#	key_description - 
-#	key_policy - 
+#	key_description -
+#	key_policy -
 #
 #>
 ######################################################################

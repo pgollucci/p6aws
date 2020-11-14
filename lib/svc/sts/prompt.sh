@@ -4,7 +4,7 @@
 # Function: str str = p6_aws_sts_prompt_info(creds)
 #
 #  Args:
-#	creds - 
+#	creds -
 #
 #  Returns:
 #	str - str

@@ -16,7 +16,7 @@ p6_aws_s3_svc_buckets_list() {
 # Function: p6_aws_s3_svc_bucket_list(bucket)
 #
 #  Args:
-#	bucket - 
+#	bucket -
 #
 #>
 ######################################################################

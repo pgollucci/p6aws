@@ -4,7 +4,7 @@
 # Function: p6_aws_sts__debug(msg)
 #
 #  Args:
-#	msg - 
+#	msg -
 #
 #>
 ######################################################################
@@ -20,10 +20,10 @@ p6_aws_sts__debug() {
 # Function: p6_aws_sts_svc_login(login, [account_alias=$AWS_ORG], [org=$AWS_ORG], [auth_type=saml])
 #
 #  Args:
-#	login - 
-#	OPTIONAL account_alias -  [$AWS_ORG]
-#	OPTIONAL org -  [$AWS_ORG]
-#	OPTIONAL auth_type -  [saml]
+#	login -
+#	OPTIONAL account_alias - [$AWS_ORG]
+#	OPTIONAL org - [$AWS_ORG]
+#	OPTIONAL auth_type - [saml]
 #
 #>
 ######################################################################
@@ -72,8 +72,8 @@ p6_aws_sts_svc_login() {
 # Function: str role_arn = p6_aws_sts_svc_role_assume_saml(auth, assertion64)
 #
 #  Args:
-#	auth - 
-#	assertion64 - 
+#	auth -
+#	assertion64 -
 #
 #  Returns:
 #	str - role_arn
@@ -124,8 +124,8 @@ p6_aws_sts_svc_role_assume_saml() {
 # Function: p6_aws_sts_svc_role_assume(role_arn, role_session_name)
 #
 #  Args:
-#	role_arn - 
-#	role_session_name - 
+#	role_arn -
+#	role_session_name -
 #
 #>
 ######################################################################

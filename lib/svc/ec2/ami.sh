@@ -5,7 +5,7 @@
 # Function: str user = p6_aws_ec2_svc_user_from_ami_name(ami_name)
 #
 #  Args:
-#	ami_name - 
+#	ami_name -
 #
 #  Returns:
 #	str - user
@@ -33,7 +33,7 @@ p6_aws_ec2_svc_user_from_ami_name() {
 # Function: str ami_id = p6_aws_ec2_svc_ami_id_from_instance_id(instance_id)
 #
 #  Args:
-#	instance_id - 
+#	instance_id -
 #
 #  Returns:
 #	str - ami_id
@@ -60,7 +60,7 @@ p6_aws_ec2_svc_ami_id_from_instance_id() {
 # Function: str ami_name = p6_aws_ec2_svc_ami_name_from_instance_id(instance_id)
 #
 #  Args:
-#	instance_id - 
+#	instance_id -
 #
 #  Returns:
 #	str - ami_name
@@ -127,7 +127,7 @@ p6_aws_ec2_svc_amis_list() {
 # Function: words ami_ids = p6_aws_ec2_svc_ami_find_id(glob)
 #
 #  Args:
-#	glob - 
+#	glob -
 #
 #  Returns:
 #	words - ami_ids
@@ -246,7 +246,7 @@ p6_aws_ec2_svc_amis_ubuntu18_latest() {
 # Function: p6_aws_ec2_svc_ami_show(ami_id)
 #
 #  Args:
-#	ami_id - 
+#	ami_id -
 #
 #>
 ######################################################################

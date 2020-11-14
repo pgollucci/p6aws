@@ -4,12 +4,12 @@
 # Function: aws_account_id account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
 #
 #  Args:
-#	account_name - 
-#	account_email - 
-#	account_name - 
-#	account_email - 
-#	account_email - 
-#	account_alias - 
+#	account_name -
+#	account_email -
+#	account_name -
+#	account_email -
+#	account_email -
+#	account_alias -
 #
 #  Returns:
 #	aws_account_id - account_id#	str - car_id#	aws_account_id - account_id
@@ -34,8 +34,8 @@ p6_aws_organizations_svc_account_create() {
 # Function: bool bool = p6_aws_organizations_svc_account_wait_for(cas_id, car)
 #
 #  Args:
-#	cas_id - 
-#	car - 
+#	cas_id -
+#	car -
 #
 #  Returns:
 #	bool - bool#	bool - bool
@@ -59,10 +59,10 @@ p6_aws_organizations_svc_account_wait_for() {
 # Function: p6_aws_organizations_svc_account_create_stop(status, cas_id, status, car)
 #
 #  Args:
-#	status - 
-#	cas_id - 
-#	status - 
-#	car - 
+#	status -
+#	cas_id -
+#	status -
+#	car -
 #
 #>
 ######################################################################
@@ -82,7 +82,7 @@ p6_aws_organizations_svc_account_create_stop() {
 # Function: aws_account_id account_id = p6_aws_organizations_svc_account_id_from_name(account_name)
 #
 #  Args:
-#	account_name - 
+#	account_name -
 #
 #  Returns:
 #	aws_account_id - account_id
@@ -108,12 +108,12 @@ p6_aws_organizations_svc_account_id_from_name() {
 # Function: aws_account_id account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
 #
 #  Args:
-#	account_name - 
-#	account_email - 
-#	account_name - 
-#	account_email - 
-#	account_email - 
-#	account_alias - 
+#	account_name -
+#	account_email -
+#	account_name -
+#	account_email -
+#	account_email -
+#	account_alias -
 #
 #  Returns:
 #	aws_account_id - account_id#	str - car_id#	aws_account_id - account_id
@@ -140,7 +140,7 @@ p6_aws_organizations_svc_account_create() {
 # Function: str status = p6_aws_organizations_svc_account_create_status(car_id)
 #
 #  Args:
-#	car_id - 
+#	car_id -
 #
 #  Returns:
 #	str - status

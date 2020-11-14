@@ -4,7 +4,7 @@
 # Function: p6_aws_cfg__debug(msg)
 #
 #  Args:
-#	msg - 
+#	msg -
 #
 #>
 ######################################################################
@@ -22,7 +22,7 @@ p6_aws_cfg__debug() {
 # Function: str str = p6_aws_cfg_prompt_info(kind)
 #
 #  Args:
-#	kind - 
+#	kind -
 #
 #  Returns:
 #	str - str
@@ -50,7 +50,7 @@ p6_aws_cfg_prompt_info() {
 # Function: p6_aws_cfg_realize(cfg)
 #
 #  Args:
-#	cfg - 
+#	cfg -
 #
 #>
 ######################################################################
@@ -68,7 +68,7 @@ p6_aws_cfg_realize() {
 # Function: code rc = p6_aws_cfg_filter_secret(val)
 #
 #  Args:
-#	val - 
+#	val -
 #
 #  Returns:
 #	code - rc
@@ -288,7 +288,7 @@ p6_aws_cfg_restore_source() {
 # Function: p6_aws_cfg_restore__from(kind)
 #
 #  Args:
-#	kind - 
+#	kind -
 #
 #>
 ######################################################################
@@ -321,8 +321,8 @@ p6_aws_cfg_restore__from() {
 # Function: p6_aws_cfg__copy(kind_from, kind_to)
 #
 #  Args:
-#	kind_from - 
-#	kind_to - 
+#	kind_from -
+#	kind_to -
 #
 #>
 ######################################################################
@@ -373,8 +373,8 @@ p6_aws_cfg__generate() {
 # Function: p6_aws_cfg__generate_kinds(fname, var)
 #
 #  Args:
-#	fname - 
-#	var - 
+#	fname -
+#	var -
 #
 #>
 ######################################################################
@@ -397,9 +397,9 @@ p6_aws_cfg__generate_kinds() {
 # Function: str code = p6_aws_cfg__accessor(kind, fname, ovar)
 #
 #  Args:
-#	kind - 
-#	fname - 
-#	ovar - 
+#	kind -
+#	fname -
+#	ovar -
 #
 #  Returns:
 #	str - code

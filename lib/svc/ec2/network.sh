@@ -25,8 +25,8 @@ p6_aws_ec2_svc_vpcs_list() {
 # Function: p6_aws_ec2_svc_subnet_get(subnet_type, [vpc_id=$AWS_VPC_ID])
 #
 #  Args:
-#	subnet_type - 
-#	OPTIONAL vpc_id -  [$AWS_VPC_ID]
+#	subnet_type -
+#	OPTIONAL vpc_id - [$AWS_VPC_ID]
 #
 #>
 ######################################################################
@@ -46,8 +46,8 @@ p6_aws_ec2_svc_subnet_get() {
 # Function: words subnet_ids = p6_aws_ec2_svc_subnet_ids_get(subnet_type, [vpc_id=$AWS_VPC_ID])
 #
 #  Args:
-#	subnet_type - 
-#	OPTIONAL vpc_id -  [$AWS_VPC_ID]
+#	subnet_type -
+#	OPTIONAL vpc_id - [$AWS_VPC_ID]
 #
 #  Returns:
 #	words - subnet_ids
@@ -70,7 +70,7 @@ p6_aws_ec2_svc_subnet_ids_get() {
 # Function: p6_aws_ec2_svc_subnets_list([vpc_id=$AWS_VPC_ID])
 #
 #  Args:
-#	OPTIONAL vpc_id -  [$AWS_VPC_ID]
+#	OPTIONAL vpc_id - [$AWS_VPC_ID]
 #
 #>
 ######################################################################
@@ -94,7 +94,7 @@ p6_aws_ec2_svc_subnets_list() {
 # Function: p6_aws_ec2_svc_rtbs_list([vpc_id=$AWS_VPC_ID])
 #
 #  Args:
-#	OPTIONAL vpc_id -  [$AWS_VPC_ID]
+#	OPTIONAL vpc_id - [$AWS_VPC_ID]
 #
 #>
 ######################################################################
@@ -124,8 +124,8 @@ p6_aws_ec2_svc_rtbs_list() {
 # Function: p6_aws_ec2_svc_rtb_show(rtb_id, [vpc_id=$AWS_VPC_ID])
 #
 #  Args:
-#	rtb_id - 
-#	OPTIONAL vpc_id -  [$AWS_VPC_ID]
+#	rtb_id -
+#	OPTIONAL vpc_id - [$AWS_VPC_ID]
 #
 #>
 ######################################################################
@@ -155,7 +155,7 @@ p6_aws_ec2_svc_rtb_show() {
 # Function: p6_aws_ec2_svc_eni_list([vpc_id=$AWS_VPC_ID])
 #
 #  Args:
-#	OPTIONAL vpc_id -  [$AWS_VPC_ID]
+#	OPTIONAL vpc_id - [$AWS_VPC_ID]
 #
 #>
 ######################################################################
@@ -214,7 +214,7 @@ p6_aws_ec2_svc_regions_list() {
 # Function: p6_aws_ec2_svc_nat_gateway_show([vpc_id=$AWS_VPC_ID])
 #
 #  Args:
-#	OPTIONAL vpc_id -  [$AWS_VPC_ID]
+#	OPTIONAL vpc_id - [$AWS_VPC_ID]
 #
 #>
 ######################################################################

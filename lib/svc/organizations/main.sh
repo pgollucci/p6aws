@@ -4,22 +4,22 @@
 # Function: path saml_file = p6_aws_organizations_svc_account_make(cred_file, src_cred_file, assumed_cred_file, org, account_alias, account_email, account_map, saml_provider, saml_provider_email, region, output, role_full_path, policy_arn, cert_subject, cert_bits, cert_exp)
 #
 #  Args:
-#	cred_file - 
-#	src_cred_file - 
-#	assumed_cred_file - 
-#	org - 
-#	account_alias - 
-#	account_email - 
-#	account_map - 
-#	saml_provider - 
-#	saml_provider_email - 
-#	region - 
-#	output - 
-#	role_full_path - 
-#	policy_arn - 
-#	cert_subject - 
-#	cert_bits - 
-#	cert_exp - 
+#	cred_file -
+#	src_cred_file -
+#	assumed_cred_file -
+#	org -
+#	account_alias -
+#	account_email -
+#	account_map -
+#	saml_provider -
+#	saml_provider_email -
+#	region -
+#	output -
+#	role_full_path -
+#	policy_arn -
+#	cert_subject -
+#	cert_bits -
+#	cert_exp -
 #
 #  Returns:
 #	path - saml_file
@@ -63,15 +63,15 @@ p6_aws_organizations_svc_account_make() {
 # Function: p6_aws_organizations_svc_account_init(org, account_alias, account_email, account_id, saml_file, saml_provider, role_full_path, policy_arn, provider)
 #
 #  Args:
-#	org - 
-#	account_alias - 
-#	account_email - 
-#	account_id - 
-#	saml_file - 
-#	saml_provider - 
-#	role_full_path - 
-#	policy_arn - 
-#	provider - 
+#	org -
+#	account_alias -
+#	account_email -
+#	account_id -
+#	saml_file -
+#	saml_provider -
+#	role_full_path -
+#	policy_arn -
+#	provider -
 #
 #>
 ######################################################################
@@ -101,9 +101,9 @@ p6_aws_organizations_svc_account_init() {
 # Function: aws_account_id account_id = p6_aws_organizations_svc_account_create_or_fetch(account_alias, account_email, account_map)
 #
 #  Args:
-#	account_alias - 
-#	account_email - 
-#	account_map - 
+#	account_alias -
+#	account_email -
+#	account_map -
 #
 #  Returns:
 #	aws_account_id - account_id
@@ -130,12 +130,12 @@ p6_aws_organizations_svc_account_create_or_fetch() {
 # Function: aws_account_id account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
 #
 #  Args:
-#	account_name - 
-#	account_email - 
-#	account_name - 
-#	account_email - 
-#	account_email - 
-#	account_alias - 
+#	account_name -
+#	account_email -
+#	account_name -
+#	account_email -
+#	account_email -
+#	account_alias -
 #
 #  Returns:
 #	aws_account_id - account_id#	str - car_id#	aws_account_id - account_id
@@ -160,8 +160,8 @@ p6_aws_organizations_svc_account_create() {
 # Function: bool bool = p6_aws_organizations_svc_account_wait_for(cas_id, car)
 #
 #  Args:
-#	cas_id - 
-#	car - 
+#	cas_id -
+#	car -
 #
 #  Returns:
 #	bool - bool#	bool - bool
@@ -186,10 +186,10 @@ p6_aws_organizations_svc_account_wait_for() {
 # Function: p6_aws_organizations_svc_account_create_stop(status, cas_id, status, car)
 #
 #  Args:
-#	status - 
-#	cas_id - 
-#	status - 
-#	car - 
+#	status -
+#	cas_id -
+#	status -
+#	car -
 #
 #>
 ######################################################################
@@ -209,15 +209,15 @@ p6_aws_organizations_svc_account_create_stop() {
 # Function: p6_aws_organizations_svc_su(account_alias, map_file, region, output, role_full_path, role_session_name, cred_file, src_cred_file, assumed_cred_file)
 #
 #  Args:
-#	account_alias - 
-#	map_file - 
-#	region - 
-#	output - 
-#	role_full_path - 
-#	role_session_name - 
-#	cred_file - 
-#	src_cred_file - 
-#	assumed_cred_file - 
+#	account_alias -
+#	map_file -
+#	region -
+#	output -
+#	role_full_path -
+#	role_session_name -
+#	cred_file -
+#	src_cred_file -
+#	assumed_cred_file -
 #
 #>
 ######################################################################
@@ -263,16 +263,16 @@ p6_aws_organizations_svc_su_un() {
 # Function: p6_aws_organizations_svc_run_as(account_alias, account_map, region, output, role_name, role_session_name, cred_file, src_cred_file, assumed_cred_file, cmd, ...)
 #
 #  Args:
-#	account_alias - 
-#	account_map - 
-#	region - 
-#	output - 
-#	role_name - 
-#	role_session_name - 
-#	cred_file - 
-#	src_cred_file - 
-#	assumed_cred_file - 
-#	cmd - 
+#	account_alias -
+#	account_map -
+#	region -
+#	output -
+#	role_name -
+#	role_session_name -
+#	cred_file -
+#	src_cred_file -
+#	assumed_cred_file -
+#	cmd -
 #	... - 
 #
 #>
@@ -308,7 +308,7 @@ p6_aws_organizations_svc_run_as() {
 # Function: aws_account_id account_id = p6_aws_organizations_svc_account_id_from_alias(account_alias)
 #
 #  Args:
-#	account_alias - 
+#	account_alias -
 #
 #  Returns:
 #	aws_account_id - account_id
@@ -333,7 +333,7 @@ p6_aws_organizations_svc_account_id_from_alias() {
 # Function: str state = p6_aws_organizations_svc_account_status_create(car_id)
 #
 #  Args:
-#	car_id - 
+#	car_id -
 #
 #  Returns:
 #	str - state

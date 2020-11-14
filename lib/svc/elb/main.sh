@@ -20,7 +20,7 @@ p6_aws_elb_svc_list() {
 # Function: p6_aws_ec2_svc_elb_listeners_list(load_balancer_name)
 #
 #  Args:
-#	load_balancer_name - 
+#	load_balancer_name -
 #
 #>
 ######################################################################
@@ -36,10 +36,10 @@ p6_aws_ec2_svc_elb_listeners_list() {
 # Function: p6_aws_elb_svc_create(elb_name, [listeners=http], [subnet_type=Public], [vpc_id=$AWS_VPC])
 #
 #  Args:
-#	elb_name - 
-#	OPTIONAL listeners -  [http]
-#	OPTIONAL subnet_type -  [Public]
-#	OPTIONAL vpc_id -  [$AWS_VPC]
+#	elb_name -
+#	OPTIONAL listeners - [http]
+#	OPTIONAL subnet_type - [Public]
+#	OPTIONAL vpc_id - [$AWS_VPC]
 #
 #>
 ######################################################################

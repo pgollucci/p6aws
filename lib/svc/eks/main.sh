@@ -4,7 +4,7 @@
 # Function: p6_aws_eks_svc_cluster_logging_enable([cluster_name=$AWS_EKS_CLUSTER_NAME])
 #
 #  Args:
-#	OPTIONAL cluster_name -  [$AWS_EKS_CLUSTER_NAME]
+#	OPTIONAL cluster_name - [$AWS_EKS_CLUSTER_NAME]
 #
 #>
 ######################################################################
@@ -24,7 +24,7 @@ p6_aws_eks_svc_cluster_logging_enable() {
 # Function: p6_aws_eks_svc_kubeconfig_update(stack_name)
 #
 #  Args:
-#	stack_name - 
+#	stack_name -
 #
 #>
 ######################################################################
@@ -52,7 +52,7 @@ p6_aws_eks_svc_kubeconfig_update() {
 # Function: str cluster_status = p6_aws_eks_svc_cluster_status([cluster_name=$AWS_EKS_CLUSTER_NAME])
 #
 #  Args:
-#	OPTIONAL cluster_name -  [$AWS_EKS_CLUSTER_NAME]
+#	OPTIONAL cluster_name - [$AWS_EKS_CLUSTER_NAME]
 #
 #  Returns:
 #	str - cluster_status

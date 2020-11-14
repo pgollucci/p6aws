@@ -4,7 +4,7 @@
 # Function: p6_aws_s3api_svc_bucket_policy(bucket)
 #
 #  Args:
-#	bucket - 
+#	bucket -
 #
 #>
 ######################################################################
@@ -20,7 +20,7 @@ p6_aws_s3api_svc_bucket_policy() {
 # Function: p6_aws_s3api_svc_bucket_objects_versions_list(bucket)
 #
 #  Args:
-#	bucket - 
+#	bucket -
 #
 #>
 ######################################################################
@@ -39,7 +39,7 @@ p6_aws_s3api_svc_bucket_objects_versions_list() {
 # Function: p6_aws_s3api_svc_bucket_objects_deleted(bucket)
 #
 #  Args:
-#	bucket - 
+#	bucket -
 #
 #>
 ######################################################################
@@ -58,7 +58,7 @@ p6_aws_s3api_svc_bucket_objects_deleted() {
 # Function: p6_aws_s3api_svc_bucket_list_objects_all(bucket)
 #
 #  Args:
-#	bucket - 
+#	bucket -
 #
 #>
 ######################################################################
@@ -78,7 +78,7 @@ p6_aws_s3api_svc_bucket_list_objects_all() {
 # Function: false  = p6_aws_s3api_svc_bucket_delete_with_versioned_objects(bucket)
 #
 #  Args:
-#	bucket - 
+#	bucket -
 #
 #  Returns:
 #	false - #	code - rc
