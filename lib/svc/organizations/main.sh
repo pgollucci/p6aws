@@ -206,7 +206,7 @@ p6_aws_organizations_svc_account_create_stop() {
 ######################################################################
 #<
 #
-# Function: p6_aws_organizations_svc_su(account_alias, map_file, region, output, role_full_path, role_session_name, cred_file, src_cred_file, assumed_cred_file)
+# Function: p6_aws_organizations_svc_su(account_alias, map_file, region, output, role_full_path, role_session_name, cred_file, src_cred_file, assumed_cred_file, account_name)
 #
 #  Args:
 #	account_alias -
@@ -218,6 +218,7 @@ p6_aws_organizations_svc_account_create_stop() {
 #	cred_file -
 #	src_cred_file -
 #	assumed_cred_file -
+#	account_name -
 #
 #>
 ######################################################################
