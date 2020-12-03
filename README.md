@@ -4,8 +4,8 @@ TAG LINE
 ## Table of Contents
 
 
-### .
-- [.](#.)
+### p6aws
+- [p6aws](#p6aws)
   - [Badges](#badges)
   - [Distributions](#distributions)
   - [Summary](#summary)
@@ -18,8 +18,10 @@ TAG LINE
 ### Badges
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/p6m7g8/.)
-[![Mergify](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/p6m7g8/./&style=flat)](https://mergify.io)
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/p6m7g8/p6aws)
+[![Mergify](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/p6m7g8/p6aws/&style=flat)](https://mergify.io)
+[![codecov](https://codecov.io/gh/p6m7g8/p6aws/branch/master/graph/badge.svg?token=14Yj1fZbew)](https://codecov.io/gh/p6m7g8/p6aws)
+[![Known Vulnerabilities](https://snyk.io/test/github/p6m7g8/p6aws/badge.svg?targetFile=package.json)](https://snyk.io/test/github/p6m7g8/p6aws?targetFile=package.json)
 
 ## Summary
 
