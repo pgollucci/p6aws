@@ -304,7 +304,7 @@ TAG LINE
 - p6_aws_organizations_svc_account_init(org, account_alias, account_email, account_id, saml_file, saml_provider, role_full_path, policy_arn, provider)
 - p6_aws_organizations_svc_accounts_list()
 - p6_aws_organizations_svc_run_as(account_alias, account_map, region, output, role_name, role_session_name, cred_file, src_cred_file, assumed_cred_file, cmd, ...)
-- p6_aws_organizations_svc_su(account_alias, map_file, region, output, role_full_path, role_session_name, cred_file, src_cred_file, assumed_cred_file)
+- p6_aws_organizations_svc_su(account_alias, map_file, region, output, role_full_path, role_session_name, cred_file, src_cred_file, assumed_cred_file, account_name)
 - p6_aws_organizations_svc_su_un()
 - path saml_file = p6_aws_organizations_svc_account_make(cred_file, src_cred_file, assumed_cred_file, org, account_alias, account_email, account_map, saml_provider, saml_provider_email, region, output, role_full_path, policy_arn, cert_subject, cert_bits, cert_exp)
 - str state = p6_aws_organizations_svc_account_status_create(car_id)
@@ -312,7 +312,7 @@ TAG LINE
 #### sts.sh:
 
 - p6_aws_organizations_svc_run_as(account_alias, account_map, region, output, role_name, role_session_name, cred_file, src_cred_file, assumed_cred_file, cmd, ...)
-- p6_aws_organizations_svc_su(account_alias, map_file, region, output, role_full_path, role_session_name, cred_file, src_cred_file, assumed_cred_file)
+- p6_aws_organizations_svc_su(account_alias, map_file, region, output, role_full_path, role_session_name, cred_file, src_cred_file, assumed_cred_file, account_name)
 - p6_aws_organizations_svc_su_un()
 
 #### main.sh:
