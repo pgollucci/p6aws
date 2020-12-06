@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/p6m7g8/p6aws/compare/v2.0.0...v2.1.0) (2020-12-06)
+
+
+### Features
+
+* **api:** centralize ::version() ([0c7618c](https://github.com/p6m7g8/p6aws/commit/0c7618cc4ed3fa3ff3198fc58f6d8384d11ee095))
+* **community:** adds CODE_OF_CONDUCT ([c18c018](https://github.com/p6m7g8/p6aws/commit/c18c018e958b7b4172aa8b0064f1190a043d4b50))
+* **github:** adds ISSUE_TEMPLATEs ([7a7fca5](https://github.com/p6m7g8/p6aws/commit/7a7fca530880b2bf459082c9e25e6a0d5782c998))
+* **org:** stubs out some su stuff ([#45](https://github.com/p6m7g8/p6aws/issues/45)) ([7ab0ace](https://github.com/p6m7g8/p6aws/commit/7ab0ace8367abc2468b4cdf3c730fdba836d0d98))
+
+
+* **community:** rely on the .github/ in the org ([#47](https://github.com/p6m7g8/p6aws/issues/47)) ([c533b8c](https://github.com/p6m7g8/p6aws/commit/c533b8c5ca7f5b38316b95a985420f8ab8db5b20)), closes [#45](https://github.com/p6m7g8/p6aws/issues/45) [#46](https://github.com/p6m7g8/p6aws/issues/46) [#45](https://github.com/p6m7g8/p6aws/issues/45)
+* **docs:** fixes whitespace ([642a1b2](https://github.com/p6m7g8/p6aws/commit/642a1b2f7d825341963e3a730b35e11c12757a31))
+* **README:** fixes module expansion, adds CodeCov and Synk badges ([#48](https://github.com/p6m7g8/p6aws/issues/48)) ([74593bb](https://github.com/p6m7g8/p6aws/commit/74593bb3d9c696e525106bf5e587536b1aa1bdad))
+* **README:** fleshes out README.md ([#44](https://github.com/p6m7g8/p6aws/issues/44)) ([c524ee2](https://github.com/p6m7g8/p6aws/commit/c524ee236848f9fbdcabbaa15563ad57a1cc46b1))
+* **README:** updates to template v2.0 ([#46](https://github.com/p6m7g8/p6aws/issues/46)) ([a504362](https://github.com/p6m7g8/p6aws/commit/a504362850f917e4631b79510ede79a5f1fb2f01)), closes [#45](https://github.com/p6m7g8/p6aws/issues/45)
+* **semantic:** no longer needed, defaults are fine ([8fb1950](https://github.com/p6m7g8/p6aws/commit/8fb195053208c9971be4aef4bb7f5e3649ddd85e))
+
 ## [2.0.0](https://github.com/p6m7g8/p6aws/compare/v1.0.4...v2.0.0) (2020-10-11)
 
 
