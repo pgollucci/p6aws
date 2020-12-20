@@ -1,5 +1,4 @@
-TAG LINE
-# .
+# p6aws
 
 ## Table of Contents
 
@@ -22,6 +21,8 @@ TAG LINE
 [![Mergify](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/p6m7g8/p6aws/&style=flat)](https://mergify.io)
 [![codecov](https://codecov.io/gh/p6m7g8/p6aws/branch/master/graph/badge.svg?token=14Yj1fZbew)](https://codecov.io/gh/p6m7g8/p6aws)
 [![Known Vulnerabilities](https://snyk.io/test/github/p6m7g8/p6aws/badge.svg?targetFile=package.json)](https://snyk.io/test/github/p6m7g8/p6aws?targetFile=package.json)
+[![Gihub repo dependents](https://badgen.net/github/dependents-repo/p6m7g8/p6aws)](https://github.com/p6m7g8/p6aws/network/dependents?dependent_type=REPOSITORY)
+[![Gihub package dependents](https://badgen.net/github/dependents-pkg/p6m7g8/p6aws)](https://github.com/p6m7g8/p6aws/network/dependents?dependent_type=PACKAGE)
 
 ## Summary
 
@@ -316,6 +317,10 @@ TAG LINE
 - p6_aws_organizations_svc_run_as(account_alias, account_map, region, output, role_name, role_session_name, cred_file, src_cred_file, assumed_cred_file, cmd, ...)
 - p6_aws_organizations_svc_su(account_alias, map_file, region, output, role_full_path, role_session_name, cred_file, src_cred_file, assumed_cred_file, account_name)
 - p6_aws_organizations_svc_su_un()
+
+#### util.sh:
+
+- p6_aws_organizations_svc_account_id_from_account_name(account_name)
 
 #### main.sh:
 
