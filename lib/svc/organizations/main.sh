@@ -138,7 +138,9 @@ p6_aws_organizations_svc_account_create_or_fetch() {
 #	account_alias -
 #
 #  Returns:
-#	aws_account_id - account_id#	str - car_id#	aws_account_id - account_id
+#	aws_account_id - account_id
+#	str - car_id
+#	aws_account_id - account_id
 #
 #>
 ######################################################################
@@ -164,7 +166,8 @@ p6_aws_organizations_svc_account_create() {
 #	car -
 #
 #  Returns:
-#	bool - bool#	bool - bool
+#	bool - bool
+#	bool - bool
 #
 #>
 ######################################################################

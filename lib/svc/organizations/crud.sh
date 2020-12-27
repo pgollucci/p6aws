@@ -12,7 +12,9 @@
 #	account_alias -
 #
 #  Returns:
-#	aws_account_id - account_id#	str - car_id#	aws_account_id - account_id
+#	aws_account_id - account_id
+#	str - car_id
+#	aws_account_id - account_id
 #
 #>
 ######################################################################
@@ -38,7 +40,8 @@ p6_aws_organizations_svc_account_create() {
 #	car -
 #
 #  Returns:
-#	bool - bool#	bool - bool
+#	bool - bool
+#	bool - bool
 #
 #>
 ######################################################################
@@ -116,7 +119,9 @@ p6_aws_organizations_svc_account_id_from_name() {
 #	account_alias -
 #
 #  Returns:
-#	aws_account_id - account_id#	str - car_id#	aws_account_id - account_id
+#	aws_account_id - account_id
+#	str - car_id
+#	aws_account_id - account_id
 #
 #>
 ######################################################################
