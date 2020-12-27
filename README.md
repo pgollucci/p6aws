@@ -32,7 +32,7 @@
 
 ## Code of Conduct
 
-- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Code of Conduct](https://github.com/p6m7g8/.github/blob/master/CODE_OF_CONDUCT.md)
 
 ## Changes
 
