@@ -174,7 +174,7 @@ p6_aws_organizations_svc_account_create_status() {
 ######################################################################
 p6_aws_organizations_svc_accounts_list() {
 
-    p6_aws_cmd organiations list-accounts \
+    p6_aws_cmd organizations list-accounts \
 	       --output text \
 	       --query "'Accounts[].[Id, Status, JoinedMethod, Arn, Name, Email]'"
 }
