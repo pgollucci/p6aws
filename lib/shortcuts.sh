@@ -45,84 +45,65 @@ p6_aws_shortcuts_prefix() {
 #>
 ######################################################################
 p6_aws_shortcuts_profile_to_fn() {
-    local proifle="$1"
+	local profile="$1"
 
-    local fn_profile=$(p6_string_replace "$profile" "/" "_")
+	local fn_profile
+	fn_profile=$(p6_string_replace "$profile" "/" "_")
 
-    p6_return_str "$fn_profile"
+	p6_return_str "$fn_profile"
 }
 
 ######################################################################
 #<
 #
-# Function: str  = p6_aws_shortcuts_gen(org, cred_file)
-#
-#  Args:
-#	org -
-#	cred_file -
+# Function: str all_funcs = p6_aws_shorcuts_gen()
 #
 #  Returns:
-#	str - 
 #	str - all_funcs
 #
 #>
 ######################################################################
-p6_aws_shortcuts_gen() {
-    local org="$1"
-    local cred_file="$2"
+p6_aws_shorcuts_gen() {
 
+	local profile
+	local aws_access_key_id
+	local aws_secret_access_key
+	local all_funcs=""
+	local line
+	while read -r line; do
+		p6_aws_shortcuts__debug "gen(): {line=$line}"
+		case $line in
+		\#*)
+			p6_aws_shortcuts__debug "gen():\tcomment"
+			;;
+		*\[*\]*)
+			profile=$line
+			profile=$(p6_string_replace "$profile" "\[" "")
+			profile=$(p6_string_replace "$profile" "\]" "")
+			;;
+		aws_access_key_id*)
+			aws_access_key_id=$(echo "$line" | cut -d = -f 2 | sed -e 's, *,,g')
+			;;
+		aws_secret_access_key*)
+			aws_secret_access_key=$(echo "$line" | cut -d = -f 2 | sed -e 's, *,,g')
+			;;
+		"")
+			AWS_ACCESS_KEY_ID="$aws_access_key_id" AWS_SECRET_ACCESS_KEY="$aws_secret_access_key" aws-vault add "$profile" --add-config --env
 
-    if ! p6_file_exists "$cred_file"; then
-		p6_return_str ""
-    else
-	    local all_funcs=""
+			local func_prefix=
+			func_prefix=$(p6_aws_shortcuts_prefix)
+			local fn_profile
+			fn_profile=$(p6_aws_shortcuts_profile_to_fn "$profile")
+			local func
+			func="${func_prefix}${fn_profile}"
+			p6_run_code "${func}() { p6_aws_cfg_realize \"$profile\" }"
+			all_funcs="$all_funcs
+${func}"
+			;;
+		esac
+	done <~/.aws/cred-"$AWS_ORG" >/dev/null
 
-		local line
-		local profile
-		while read -r line; do
-	    	p6_aws_shortcuts__debug "gen(): {line=$line}"
-	    	case $line in
-			\#*)
-		    	p6_aws_shortcuts__debug "gen():\tcomment"
-		    	;;
-			*\[*\]*)
-		    	profile=$line
-		   		profile=$(p6_string_replace "$profile" "\[" "")
-		    	profile=$(p6_string_replace "$profile" "\]" "")
-
-		    	cfg=$(p6_obj_create "hash")
-
-		    	local o1=$(p6_obj_item_set "$cfg" "profile" "$profile")
-		    	local o2=$(p6_obj_item_set "$cfg" "default_profile" "$profile")
-		    	local o3=$(p6_obj_item_set "$cfg" "org" "$org")
-		    	;;
-			*=*)
-		    	local key=$(echo "$line" | cut -d = -f 1 | sed -e 's, *,,g')
-		    	local val=$(echo "$line" | cut -d = -f 2 | sed -e 's, *,,g')
-		    	p6_aws_shortcuts__debug "gen():\t[key=$key] -> [val=$val]"
-
-		    	key=$(p6_string_replace "$key" "aws_" "")
-
-				case $key in
-					region) local old1=$(p6_obj_item_set "$cfg" "default_region" "$val")
-				esac
-
-		    	local old=$(p6_obj_item_set "$cfg" "$key" "$val")
-		    	;;
-			"")
-				local func_prefix=$(p6_aws_shortcuts_prefix)
-				local fn_profile=$(p6_aws_shortcuts_profile_to_fn "$profile")
-				local func="${func_prefix}${fn_profile}"
-				p6_run_code "$func() { p6_aws_cfg_realize \"$cfg\" }"
-				all_funcs="$all_funcs 
-$func"
-				;;
-	    	esac
-
-		done < "$cred_file"
-
-		p6_return_str "$all_funcs"
-    fi
+	p6_return_str "$all_funcs"
 }
 
 ######################################################################

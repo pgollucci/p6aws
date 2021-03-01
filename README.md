@@ -49,7 +49,7 @@
 
 - code rc = p6_aws_cfg_filter_secret(val)
 - p6_aws_cfg_clear()
-- p6_aws_cfg_realize(cfg)
+- p6_aws_cfg_realize(profile)
 - p6_aws_cfg_reset()
 - p6_aws_cfg_restore_saved()
 - p6_aws_cfg_restore_source()
@@ -136,9 +136,9 @@
 #### shortcuts.sh:
 
 - p6_aws_shortcuts_ungen(org)
-- str  = p6_aws_shortcuts_gen(org, cred_file)
-- str fn_profile = p6_aws_shortcuts_profile_to_fn(proifle)
-- str p6_awsa_ = p6_aws_shortcuts_prefix()
+- str all_funcs = p6_aws_shorcuts_gen()
+- str fn_profile = p6_aws_shortcuts_profile_to_fn(profile)
+- str prefix = p6_aws_shortcuts_prefix()
 
 #### main.sh:
 

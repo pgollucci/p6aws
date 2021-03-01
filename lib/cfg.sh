@@ -47,19 +47,26 @@ p6_aws_cfg_prompt_info() {
 ######################################################################
 #<
 #
-# Function: p6_aws_cfg_realize(cfg)
+# Function: p6_aws_cfg_realize(profile)
 #
 #  Args:
-#	cfg -
+#	profile -
 #
 #>
 ######################################################################
 p6_aws_cfg_realize() {
-    local cfg="$1"
+    local profile="$1"
 
-    p6_obj_iter_foreach "$cfg" "k"  "p6_aws_cfg_env_%%key%%_active" "p6_aws_cfg_filter_secret" > /dev/null
+    local region=us-east-1
 
-    p6_return_void
+    p6_run_code "$(aws-vault exec $profile -- env | grep ^AWS | sed -e 's,^,export ,')"
+
+    p6_aws_cfg_env_profile_active "$profile"
+    p6_aws_cfg_env_default_profile_active "$profile"
+    p6_aws_cfg_env_default_region_active "$region"
+    p6_aws_cfg_env_region_active "$region"
+
+    p6_env_export "AWS_PAGER" ""
 }
 
 ######################################################################
