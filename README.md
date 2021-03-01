@@ -227,6 +227,13 @@
 - p6_old_aws_ec2_svc_sg_id_from_group_name(group_name, [vpc_id=$AWS_VPC_ID])
 - str sg_id = p6_aws_ec2_svc_sg_create(desc, tag_name, [vpc_id=$AWS_VPC])
 
+#### tgw.sh:
+
+- p6_aws_ec2_svc_tgw_attachments_list(tgw_id)
+- p6_aws_ec2_svc_tgw_routes_list(tgw_id)
+- p6_aws_ec2_svc_tgw_show(tgw_id)
+- p6_aws_ec2_svc_tgws_list()
+
 #### main.sh:
 
 - p6_aws_eks_svc_cluster_logging_enable([cluster_name=$AWS_EKS_CLUSTER_NAME])
