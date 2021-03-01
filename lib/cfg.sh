@@ -38,7 +38,7 @@ p6_aws_cfg_prompt_info() {
 
     local str
     if ! p6_string_blank "$profile"; then
-	local str="aws:\t  ${kind}:$profile [$region] ($vpc_id)"
+        local str="aws:\t  ${kind}:$profile [$region] ($vpc_id)"
     fi
 
     p6_return_str "$str"
@@ -87,8 +87,8 @@ p6_aws_cfg_filter_secret() {
 
     local rc=
     case $val in
-	session_token|access_key_id|secret_access_key) rc=$P6_FALSE ;;
-	*) rc=$P6_TRUE ;;
+    session_token | access_key_id | secret_access_key) rc=$P6_FALSE ;;
+    *) rc=$P6_TRUE ;;
     esac
 
     p6_aws_cfg__debug "filter_secret(): [val=$val] -> [rc=$rc]"
@@ -208,8 +208,8 @@ p6_aws_cfg_reset() {
 
     local kv
     for kv in $(p6_aws_cfg_show); do
-	local k=$(p6_echo $kv | cut -f 1 -d '=')
-	p6_env_export_un "$k"
+        local k=$(p6_echo $kv | cut -f 1 -d '=')
+        p6_env_export_un "$k"
     done
 
     p6_return_void
@@ -226,8 +226,8 @@ p6_aws_cfg_clear() {
 
     local kv
     for kv in $(p6_aws_cfg_show | grep -v _saved); do
-	local k=$(p6_echo $kv | cut -f 1 -d '=')
-	p6_env_export_un "$k"
+        local k=$(p6_echo $kv | cut -f 1 -d '=')
+        p6_env_export_un "$k"
     done
 
     p6_return_void
@@ -304,19 +304,19 @@ p6_aws_cfg_restore__from() {
 
     local kv
     for kv in $(p6_aws_cfg_show | grep "_${kind}"); do
-	local var=$(echo "$kv" | cut -d = -f 1)
+        local var=$(echo "$kv" | cut -d = -f 1)
 
-	local var_lc=$(p6_string_lc "$var")
-	local fname_all=$(p6_string_replace "$var_lc" "aws_" "")
-	local fname=$(p6_string_replace "$fname_all" "_${kind}" "")
+        local var_lc=$(p6_string_lc "$var")
+        local fname_all=$(p6_string_replace "$var_lc" "aws_" "")
+        local fname=$(p6_string_replace "$fname_all" "_${kind}" "")
 
-	local func="p6_aws_cfg_env_${fname}_${kind}"
-	local val=$(p6_run_code "$func")
+        local func="p6_aws_cfg_env_${fname}_${kind}"
+        local val=$(p6_run_code "$func")
 
-	local func_active="p6_aws_cfg_env_${fname}_active"
-	p6_run_code "$func_active \"$val\""
+        local func_active="p6_aws_cfg_env_${fname}_active"
+        p6_run_code "$func_active \"$val\""
 
-	p6_env_export_un "$kv"
+        p6_env_export_un "$kv"
     done
 
     p6_return_void
@@ -339,16 +339,16 @@ p6_aws_cfg__copy() {
 
     local var
     for var in $(p6_aws_cfg_vars); do
-	local var_lc=$(p6_string_lc "$var")
-	local fname=$(p6_string_replace "$var_lc" "aws_" "")
+        local var_lc=$(p6_string_lc "$var")
+        local fname=$(p6_string_replace "$var_lc" "aws_" "")
 
-	local func_from="p6_aws_cfg_env_${fname}_${kind_from}"
-	local val=$(p6_run_code "$func_from")
+        local func_from="p6_aws_cfg_env_${fname}_${kind_from}"
+        local val=$(p6_run_code "$func_from")
 
-	local func_to="p6_aws_cfg_env_${fname}_${kind_to}"
-	p6_aws_cfg__debug "__copy(): [from=$func_from] -> [to=$func_to]"
+        local func_to="p6_aws_cfg_env_${fname}_${kind_to}"
+        p6_aws_cfg__debug "__copy(): [from=$func_from] -> [to=$func_to]"
 
-	p6_run_code "$func_to \"$val\""
+        p6_run_code "$func_to \"$val\""
     done
 
     p6_return_void
@@ -365,10 +365,10 @@ p6_aws_cfg__generate() {
 
     local var
     for var in $(p6_aws_cfg_vars | sort); do
-	local var_lc=$(p6_string_lc "$var")
-	local fname=$(p6_string_replace "$var_lc" "aws_" "")
+        local var_lc=$(p6_string_lc "$var")
+        local fname=$(p6_string_replace "$var_lc" "aws_" "")
 
-	p6_aws_cfg__generate_kinds "$fname" "$var"
+        p6_aws_cfg__generate_kinds "$fname" "$var"
     done
 
     p6_return_void
@@ -391,8 +391,8 @@ p6_aws_cfg__generate_kinds() {
 
     local kind
     for kind in $(p6_aws_cfg_kinds | sort); do
-	local func=$(p6_aws_cfg__accessor "$kind" "$fname" "$var")
-	p6_msg "$func"
+        local func=$(p6_aws_cfg__accessor "$kind" "$fname" "$var")
+        p6_msg "$func"
     done
 
     p6_return_void
@@ -421,16 +421,17 @@ p6_aws_cfg__accessor() {
     local func="${fname}${kind}"
 
     if p6_string_eq "$kind" "_active"; then
-	kind=
+        kind=
     fi
 
     local var="${ovar}${kind}"
 
-    local code=$(p6_aws_template_process \
-		     "cfg/accessor.tmpl" \
-		     "FUNC=$func" \
-		     "VAR=$var"
-	  )
+    local code=$(
+        p6_aws_template_process \
+            "cfg/accessor.tmpl" \
+            "FUNC=$func" \
+            "VAR=$var"
+    )
 
     p6_return_str "$code"
 }

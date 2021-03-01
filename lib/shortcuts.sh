@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 ######################################################################
 #<
 #
@@ -9,35 +10,38 @@
 #>
 ######################################################################
 p6_aws_shortcuts__debug() {
-    local msg="$1"
+	local msg="$1"
 
-    p6_aws__debug "shortcuts: $msg"
+	p6_aws__debug "shortcuts: $msg"
 
-    p6_return_void
+	p6_return_void
 }
 
 ######################################################################
 #<
 #
-# Function: str p6_awsa_ = p6_aws_shortcuts_prefix()
+# Function: str prefix = p6_aws_shortcuts_prefix()
 #
 #  Returns:
-#	str - p6_awsa_
+#	str - prefix
 #
 #>
 ######################################################################
 p6_aws_shortcuts_prefix() {
 
-    p6_return_str "p6_awsa_"
+	local prefix
+	prefix="p6_awsa_"
+
+	p6_return_str "$prefix"
 }
 
 ######################################################################
 #<
 #
-# Function: str fn_profile = p6_aws_shortcuts_profile_to_fn(proifle)
+# Function: str fn_profile = p6_aws_shortcuts_profile_to_fn(profile)
 #
 #  Args:
-#	proifle -
+#	profile -
 #
 #  Returns:
 #	str - fn_profile
@@ -117,10 +121,10 @@ ${func}"
 #>
 ######################################################################
 p6_aws_shortcuts_ungen() {
-    local org="$1"
+	local org="$1"
 
-    local func
-    for func in $(typeset -f | awk '/^[a-z_0-9]+ \(\)/ { print $1 }' | grep $(p6_aws_shortcuts_prefix "$org")); do
-	p6_env_export_un "$func"
-    done
+	local func
+	for func in $(typeset -f | awk '/^[a-z_0-9]+ \(\)/ { print $1 }' | grep "$(p6_aws_shortcuts_prefix \"$org\")"); do
+		p6_env_export_un "$func"
+	done
 }
