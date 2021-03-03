@@ -57,16 +57,62 @@ p6_aws_cfg_prompt_info() {
 p6_aws_cfg_realize() {
     local profile="$1"
 
-    local region=us-east-1
+    ## XXX: v2 aws cli
+    # step 1 ~/.aws/credentials has [name] id, key, token
+    p6_aws_cfg_env_default_profile_active "$profile" >/dev/null
+    p6_aws_cfg_env_profile_active "$profile" >/dev/null
 
-    p6_run_code "$(aws-vault exec $profile -- env | grep ^AWS | sed -e 's,^,export ,')"
+    # step 2 ~/.aws/config has [profile name] and other vars like region
+    # a) does section exist; if so process
+    local conf_file
+    conf_file=$(p6_aws_cfg_env_config_file_active)
+    if grep -q "$profile" "$conf_file" >/dev/null; then
+        local line
+        local section=none
+        while read -r line; do
+            p6_aws_shortcuts__debug "gen(): {line=$line}"
+            case $line in
+            *\[*$profile*\]*) section=profile ;;
+            *=*)
+                if p6_string_eq "$section" "profile"; then
+                    local key
+                    key=$(echo "$line" | cut -d = -f 1 | sed -e 's, *,,g')
+                    local val
+                    val=$(echo "$line" | cut -d = -f 2 | sed -e 's, *,,g')
+                    case $key in
+                    region)
+                        p6_aws_cfg_env_region_active "$val" >/dev/null
+                        p6_aws_cfg_env_default_region_active "$val" >/dev/null
+                        ;;
+                    output)
+                        p6_aws_cfg_env_output_active "$val" >/dev/null
+                        p6_aws_cfg_env_output_active "$val" >/dev/null
+                        ;;
+                    esac
+                fi
+                ;;
+            "") section=none ;;
+            esac
+        done <"$conf_file"
+    else # b) if not add it
+        local region=us-east-1
+        local output=json
+        p6_aws_cfg_env_region_active "$region" >/dev/null
+        p6_aws_cfg_env_default_region_active "$region" >/dev/null
+        p6_aws_cfg_env_output_active "$output" >/dev/null
+        p6_aws_cfg_env_output_active "$output" >/dev/null
+        cat >>"$conf_file" <<EOF
+[$profile]
+region = $region
+output = $output
 
-    p6_aws_cfg_env_profile_active "$profile"
-    p6_aws_cfg_env_default_profile_active "$profile"
-    p6_aws_cfg_env_default_region_active "$region"
-    p6_aws_cfg_env_region_active "$region"
+EOF
+    fi
 
-    p6_env_export "AWS_PAGER" ""
+    p6_aws_cfg_show
+    p6_aws_sts_svc_whoami | jq "."
+
+    p6_return_void
 }
 
 ######################################################################
@@ -156,6 +202,28 @@ p6_aws_cfg_vars_secret() {
 ######################################################################
 #<
 #
+# Function: words env_vars = p6_aws_cfg_vars_config()
+#
+#  Returns:
+#	words - env_vars
+#
+#>
+######################################################################
+p6_aws_cfg_vars_config() {
+
+    local env_vars=" \
+	  AWS_REGION
+	  AWS_CA_BUNDLE \
+	  AWS_METADATA_SERVICE_TIMEOUT \
+	  AWS_METADATA_SERVICE_NUM_ATTEMPTS \
+	  AWS_OUTPUT"
+
+    p6_return_words "$env_vars"
+}
+
+######################################################################
+#<
+#
 # Function: words env_vars = p6_aws_cfg_vars()
 #
 #  Returns:
@@ -170,15 +238,10 @@ p6_aws_cfg_vars() {
 	  AWS_ENV_TAG \
 	  AWS_ENV \
 	  AWS_PROFILE \
-	  AWS_REGION
 	  AWS_CONFIG_FILE \
-	  AWS_SHARED_CREDENTIALS_FILE \
-	  AWS_CA_BUNDLE \
-	  AWS_METADATA_SERVICE_TIMEOUT \
-	  AWS_METADATA_SERVICE_NUM_ATTEMPTS \
-	  AWS_OUTPUT"
+	  AWS_SHARED_CREDENTIALS_FILE"
 
-    env_vars="$env_vars $(p6_aws_cfg_vars_secret) $(p6_aws_cfg_vars_min)"
+    env_vars="$env_vars $(p6_aws_cfg_vars_secret) $(p6_aws_cfg_vars_config) $(p6_aws_cfg_vars_min)"
 
     p6_return_words "$env_vars"
 }
@@ -212,6 +275,8 @@ p6_aws_cfg_reset() {
         p6_env_export_un "$k"
     done
 
+    p6_env_export "AWS_PAGER" ""
+
     p6_return_void
 }
 
@@ -229,6 +294,8 @@ p6_aws_cfg_clear() {
         local k=$(p6_echo $kv | cut -f 1 -d '=')
         p6_env_export_un "$k"
     done
+
+    p6_env_export "AWS_PAGER" ""
 
     p6_return_void
 }
