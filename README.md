@@ -58,6 +58,7 @@
 - p6_aws_cfg_show()
 - str str = p6_aws_cfg_prompt_info(kind)
 - words env_vars = p6_aws_cfg_vars()
+- words env_vars = p6_aws_cfg_vars_config()
 - words env_vars = p6_aws_cfg_vars_min()
 - words env_vars = p6_aws_cfg_vars_secret()
 - words kinds = p6_aws_cfg_kinds()
@@ -79,7 +80,7 @@
 - str old = p6_aws_cfg_env_ca_bundle_active(val)
 - str old = p6_aws_cfg_env_ca_bundle_saved(val)
 - str old = p6_aws_cfg_env_ca_bundle_source(val)
-- str old = p6_aws_cfg_env_config_file_active()
+- str old = p6_aws_cfg_env_config_file_active(val)
 - str old = p6_aws_cfg_env_config_file_saved(val)
 - str old = p6_aws_cfg_env_config_file_source(val)
 - str old = p6_aws_cfg_env_default_profile_active(val)
@@ -135,8 +136,8 @@
 
 #### shortcuts.sh:
 
+- p6_aws_shortcuts_gen(cred_file)
 - p6_aws_shortcuts_ungen(org)
-- str all_funcs = p6_aws_shorcuts_gen()
 - str fn_profile = p6_aws_shortcuts_profile_to_fn(profile)
 - str prefix = p6_aws_shortcuts_prefix()
 
