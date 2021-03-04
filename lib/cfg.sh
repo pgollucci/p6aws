@@ -86,20 +86,18 @@ p6_aws_cfg_realize() {
                         ;;
                     output)
                         p6_aws_cfg_env_output_active "$val" >/dev/null
-                        p6_aws_cfg_env_output_active "$val" >/dev/null
                         ;;
                     esac
                 fi
                 ;;
             "") section=none ;;
             esac
-        done <"$conf_file"
+        done <"$conf_file" >/dev/null
     else # b) if not add it
         local region=us-east-1
         local output=json
         p6_aws_cfg_env_region_active "$region" >/dev/null
         p6_aws_cfg_env_default_region_active "$region" >/dev/null
-        p6_aws_cfg_env_output_active "$output" >/dev/null
         p6_aws_cfg_env_output_active "$output" >/dev/null
         cat >>"$conf_file" <<EOF
 [$profile]
@@ -108,9 +106,6 @@ output = $output
 
 EOF
     fi
-
-    p6_aws_cfg_show
-    p6_aws_sts_svc_whoami | jq "."
 
     p6_return_void
 }
