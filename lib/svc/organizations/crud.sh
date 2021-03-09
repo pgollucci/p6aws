@@ -1,20 +1,17 @@
 ######################################################################
 #<
 #
-# Function: aws_account_id account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
+# Function: aws_account_id account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email)
 #
 #  Args:
 #	account_name -
 #	account_email -
 #	account_name -
 #	account_email -
-#	account_email -
-#	account_alias -
 #
 #  Returns:
 #	aws_account_id - account_id
 #	str - car_id
-#	aws_account_id - account_id
 #
 #>
 ######################################################################
@@ -33,14 +30,12 @@ p6_aws_organizations_svc_account_create() {
 ######################################################################
 #<
 #
-# Function: bool bool = p6_aws_organizations_svc_account_wait_for(cas_id, car)
+# Function: bool bool = p6_aws_organizations_svc_account_wait_for(cas_id)
 #
 #  Args:
 #	cas_id -
-#	car -
 #
 #  Returns:
-#	bool - bool
 #	bool - bool
 #
 #>
@@ -59,13 +54,11 @@ p6_aws_organizations_svc_account_wait_for() {
 ######################################################################
 #<
 #
-# Function: p6_aws_organizations_svc_account_create_stop(status, cas_id, status, car)
+# Function: p6_aws_organizations_svc_account_create_stop(status, cas_id)
 #
 #  Args:
 #	status -
 #	cas_id -
-#	status -
-#	car -
 #
 #>
 ######################################################################
@@ -108,20 +101,17 @@ p6_aws_organizations_svc_account_id_from_name() {
 ######################################################################
 #<
 #
-# Function: aws_account_id account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email, account_email, account_alias)
+# Function: aws_account_id account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email)
 #
 #  Args:
 #	account_name -
 #	account_email -
 #	account_name -
 #	account_email -
-#	account_email -
-#	account_alias -
 #
 #  Returns:
 #	aws_account_id - account_id
 #	str - car_id
-#	aws_account_id - account_id
 #
 #>
 ######################################################################
