@@ -173,7 +173,7 @@
 
 #### ssh/do.sh:
 
-- p6_aws_svc_ssh_do(tag, type)
+- p6_aws_ssh_do(tag, type)
 
 
 ### svc/autoscaling:
