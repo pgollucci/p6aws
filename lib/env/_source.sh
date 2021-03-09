@@ -1,10 +1,10 @@
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_ca_bundle_source(val)
+# Function: str old = p6_aws_cfg_env_ca_bundle_source([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -12,7 +12,7 @@
 #>
 ######################################################################
 p6_aws_cfg_env_ca_bundle_source() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_CA_BUNDLE_source}"
 
@@ -25,10 +25,10 @@ p6_aws_cfg_env_ca_bundle_source() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_metadata_service_timeout_source(val)
+# Function: str old = p6_aws_cfg_env_metadata_service_timeout_source([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -36,7 +36,7 @@ p6_aws_cfg_env_ca_bundle_source() {
 #>
 ######################################################################
 p6_aws_cfg_env_metadata_service_timeout_source() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_METADATA_SERVICE_TIMEOUT_source}"
 
@@ -49,10 +49,10 @@ p6_aws_cfg_env_metadata_service_timeout_source() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_metadata_service_num_attempts_source(val)
+# Function: str old = p6_aws_cfg_env_metadata_service_num_attempts_source([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -60,7 +60,7 @@ p6_aws_cfg_env_metadata_service_timeout_source() {
 #>
 ######################################################################
 p6_aws_cfg_env_metadata_service_num_attempts_source() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_METADATA_SERVICE_NUM_ATTEMPTS_source}"
 
@@ -73,10 +73,10 @@ p6_aws_cfg_env_metadata_service_num_attempts_source() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_output_source(val)
+# Function: str old = p6_aws_cfg_env_output_source([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -84,7 +84,7 @@ p6_aws_cfg_env_metadata_service_num_attempts_source() {
 #>
 ######################################################################
 p6_aws_cfg_env_output_source() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_OUTPUT_source}"
 
@@ -97,10 +97,10 @@ p6_aws_cfg_env_output_source() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_org_source(val)
+# Function: str old = p6_aws_cfg_env_org_source([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -108,7 +108,7 @@ p6_aws_cfg_env_output_source() {
 #>
 ######################################################################
 p6_aws_cfg_env_org_source() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_ORG_source}"
 
@@ -121,10 +121,10 @@ p6_aws_cfg_env_org_source() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_default_profile_source(val)
+# Function: str old = p6_aws_cfg_env_default_profile_source([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -132,7 +132,7 @@ p6_aws_cfg_env_org_source() {
 #>
 ######################################################################
 p6_aws_cfg_env_default_profile_source() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_DEFAULT_PROFILE_source}"
 
@@ -145,10 +145,10 @@ p6_aws_cfg_env_default_profile_source() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_default_region_source(val)
+# Function: str old = p6_aws_cfg_env_default_region_source([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -156,7 +156,7 @@ p6_aws_cfg_env_default_profile_source() {
 #>
 ######################################################################
 p6_aws_cfg_env_default_region_source() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_DEFAULT_REGION_source}"
 
@@ -169,10 +169,10 @@ p6_aws_cfg_env_default_region_source() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_vpc_id_source(val)
+# Function: str old = p6_aws_cfg_env_vpc_id_source([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -180,7 +180,7 @@ p6_aws_cfg_env_default_region_source() {
 #>
 ######################################################################
 p6_aws_cfg_env_vpc_id_source() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_VPC_ID_source}"
 
@@ -193,10 +193,10 @@ p6_aws_cfg_env_vpc_id_source() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_env_tag_source(val)
+# Function: str old = p6_aws_cfg_env_env_tag_source([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -204,7 +204,7 @@ p6_aws_cfg_env_vpc_id_source() {
 #>
 ######################################################################
 p6_aws_cfg_env_env_tag_source() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_ENV_TAG_source}"
 
@@ -217,10 +217,10 @@ p6_aws_cfg_env_env_tag_source() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_env_source(val)
+# Function: str old = p6_aws_cfg_env_env_source([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -228,7 +228,7 @@ p6_aws_cfg_env_env_tag_source() {
 #>
 ######################################################################
 p6_aws_cfg_env_env_source() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_ENV_source}"
 
@@ -241,10 +241,10 @@ p6_aws_cfg_env_env_source() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_profile_source(val)
+# Function: str old = p6_aws_cfg_env_profile_source([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -252,7 +252,7 @@ p6_aws_cfg_env_env_source() {
 #>
 ######################################################################
 p6_aws_cfg_env_profile_source() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_PROFILE_source}"
 
@@ -265,10 +265,10 @@ p6_aws_cfg_env_profile_source() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_config_file_source(val)
+# Function: str old = p6_aws_cfg_env_config_file_source([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -276,7 +276,7 @@ p6_aws_cfg_env_profile_source() {
 #>
 ######################################################################
 p6_aws_cfg_env_config_file_source() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_CONFIG_FILE_source}"
 
@@ -289,10 +289,10 @@ p6_aws_cfg_env_config_file_source() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_shared_credentials_file_source(val)
+# Function: str old = p6_aws_cfg_env_shared_credentials_file_source([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -300,7 +300,7 @@ p6_aws_cfg_env_config_file_source() {
 #>
 ######################################################################
 p6_aws_cfg_env_shared_credentials_file_source() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_SHARED_CREDENTIALS_FILE_source}"
 
@@ -313,10 +313,10 @@ p6_aws_cfg_env_shared_credentials_file_source() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_session_token_source(val)
+# Function: str old = p6_aws_cfg_env_session_token_source([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -324,7 +324,7 @@ p6_aws_cfg_env_shared_credentials_file_source() {
 #>
 ######################################################################
 p6_aws_cfg_env_session_token_source() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_SESSION_TOKEN_source}"
 
@@ -337,10 +337,10 @@ p6_aws_cfg_env_session_token_source() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_access_key_id_source(val)
+# Function: str old = p6_aws_cfg_env_access_key_id_source([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -348,7 +348,7 @@ p6_aws_cfg_env_session_token_source() {
 #>
 ######################################################################
 p6_aws_cfg_env_access_key_id_source() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_ACCESS_KEY_ID_source}"
 
@@ -361,10 +361,10 @@ p6_aws_cfg_env_access_key_id_source() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_secret_access_key_source(val)
+# Function: str old = p6_aws_cfg_env_secret_access_key_source([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -372,7 +372,7 @@ p6_aws_cfg_env_access_key_id_source() {
 #>
 ######################################################################
 p6_aws_cfg_env_secret_access_key_source() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_SECRET_ACCESS_KEY_source}"
 
@@ -385,10 +385,10 @@ p6_aws_cfg_env_secret_access_key_source() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_region_source(val)
+# Function: str old = p6_aws_cfg_env_region_source([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -396,7 +396,7 @@ p6_aws_cfg_env_secret_access_key_source() {
 #>
 ######################################################################
 p6_aws_cfg_env_region_source() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_REGION_source}"
 

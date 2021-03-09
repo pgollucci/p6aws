@@ -1,10 +1,10 @@
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_ca_bundle_active(val)
+# Function: str old = p6_aws_cfg_env_ca_bundle_active([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -12,7 +12,7 @@
 #>
 ######################################################################
 p6_aws_cfg_env_ca_bundle_active() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_CA_BUNDLE}"
 
@@ -25,10 +25,10 @@ p6_aws_cfg_env_ca_bundle_active() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_metadata_service_timeout_active(val)
+# Function: str old = p6_aws_cfg_env_metadata_service_timeout_active([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -36,7 +36,7 @@ p6_aws_cfg_env_ca_bundle_active() {
 #>
 ######################################################################
 p6_aws_cfg_env_metadata_service_timeout_active() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_METADATA_SERVICE_TIMEOUT}"
 
@@ -49,10 +49,10 @@ p6_aws_cfg_env_metadata_service_timeout_active() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_metadata_service_num_attempts_active(val)
+# Function: str old = p6_aws_cfg_env_metadata_service_num_attempts_active([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -60,7 +60,7 @@ p6_aws_cfg_env_metadata_service_timeout_active() {
 #>
 ######################################################################
 p6_aws_cfg_env_metadata_service_num_attempts_active() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_METADATA_SERVICE_NUM_ATTEMPTS}"
 
@@ -73,10 +73,10 @@ p6_aws_cfg_env_metadata_service_num_attempts_active() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_output_active(val)
+# Function: str old = p6_aws_cfg_env_output_active([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -84,7 +84,7 @@ p6_aws_cfg_env_metadata_service_num_attempts_active() {
 #>
 ######################################################################
 p6_aws_cfg_env_output_active() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_OUTPUT}"
 
@@ -97,10 +97,10 @@ p6_aws_cfg_env_output_active() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_org_active(val)
+# Function: str old = p6_aws_cfg_env_org_active([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -108,7 +108,7 @@ p6_aws_cfg_env_output_active() {
 #>
 ######################################################################
 p6_aws_cfg_env_org_active() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_ORG}"
 
@@ -121,10 +121,10 @@ p6_aws_cfg_env_org_active() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_default_profile_active(val)
+# Function: str old = p6_aws_cfg_env_default_profile_active([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -132,7 +132,7 @@ p6_aws_cfg_env_org_active() {
 #>
 ######################################################################
 p6_aws_cfg_env_default_profile_active() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_DEFAULT_PROFILE}"
 
@@ -145,10 +145,10 @@ p6_aws_cfg_env_default_profile_active() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_default_region_active(val)
+# Function: str old = p6_aws_cfg_env_default_region_active([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -156,7 +156,7 @@ p6_aws_cfg_env_default_profile_active() {
 #>
 ######################################################################
 p6_aws_cfg_env_default_region_active() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_DEFAULT_REGION}"
 
@@ -169,10 +169,10 @@ p6_aws_cfg_env_default_region_active() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_vpc_id_active(val)
+# Function: str old = p6_aws_cfg_env_vpc_id_active([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -180,7 +180,7 @@ p6_aws_cfg_env_default_region_active() {
 #>
 ######################################################################
 p6_aws_cfg_env_vpc_id_active() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_VPC_ID}"
 
@@ -193,10 +193,10 @@ p6_aws_cfg_env_vpc_id_active() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_env_tag_active(val)
+# Function: str old = p6_aws_cfg_env_env_tag_active([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -204,7 +204,7 @@ p6_aws_cfg_env_vpc_id_active() {
 #>
 ######################################################################
 p6_aws_cfg_env_env_tag_active() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_ENV_TAG}"
 
@@ -217,10 +217,10 @@ p6_aws_cfg_env_env_tag_active() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_env_active(val)
+# Function: str old = p6_aws_cfg_env_env_active([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -228,7 +228,7 @@ p6_aws_cfg_env_env_tag_active() {
 #>
 ######################################################################
 p6_aws_cfg_env_env_active() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_ENV}"
 
@@ -241,10 +241,10 @@ p6_aws_cfg_env_env_active() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_profile_active(val)
+# Function: str old = p6_aws_cfg_env_profile_active([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -252,7 +252,7 @@ p6_aws_cfg_env_env_active() {
 #>
 ######################################################################
 p6_aws_cfg_env_profile_active() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_PROFILE}"
 
@@ -265,10 +265,10 @@ p6_aws_cfg_env_profile_active() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_config_file_active(val)
+# Function: str old = p6_aws_cfg_env_config_file_active([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -276,7 +276,7 @@ p6_aws_cfg_env_profile_active() {
 #>
 ######################################################################
 p6_aws_cfg_env_config_file_active() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_CONFIG_FILE}"
 
@@ -289,10 +289,10 @@ p6_aws_cfg_env_config_file_active() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_shared_credentials_file_active(val)
+# Function: str old = p6_aws_cfg_env_shared_credentials_file_active([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -300,7 +300,7 @@ p6_aws_cfg_env_config_file_active() {
 #>
 ######################################################################
 p6_aws_cfg_env_shared_credentials_file_active() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_SHARED_CREDENTIALS_FILE}"
 
@@ -313,10 +313,10 @@ p6_aws_cfg_env_shared_credentials_file_active() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_session_token_active(val)
+# Function: str old = p6_aws_cfg_env_session_token_active([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -324,7 +324,7 @@ p6_aws_cfg_env_shared_credentials_file_active() {
 #>
 ######################################################################
 p6_aws_cfg_env_session_token_active() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_SESSION_TOKEN}"
 
@@ -337,10 +337,10 @@ p6_aws_cfg_env_session_token_active() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_access_key_id_active(val)
+# Function: str old = p6_aws_cfg_env_access_key_id_active([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -348,7 +348,7 @@ p6_aws_cfg_env_session_token_active() {
 #>
 ######################################################################
 p6_aws_cfg_env_access_key_id_active() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_ACCESS_KEY_ID}"
 
@@ -361,10 +361,10 @@ p6_aws_cfg_env_access_key_id_active() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_secret_access_key_active(val)
+# Function: str old = p6_aws_cfg_env_secret_access_key_active([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -372,7 +372,7 @@ p6_aws_cfg_env_access_key_id_active() {
 #>
 ######################################################################
 p6_aws_cfg_env_secret_access_key_active() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_SECRET_ACCESS_KEY}"
 
@@ -385,10 +385,10 @@ p6_aws_cfg_env_secret_access_key_active() {
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_region_active(val)
+# Function: str old = p6_aws_cfg_env_region_active([val=])
 #
 #  Args:
-#	val -
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
@@ -396,7 +396,7 @@ p6_aws_cfg_env_secret_access_key_active() {
 #>
 ######################################################################
 p6_aws_cfg_env_region_active() {
-    local val="$1"
+    local val="${1:-}"
 
     local old="${AWS_REGION}"
 
