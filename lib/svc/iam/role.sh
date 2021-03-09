@@ -1,14 +1,14 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_iam_svc_role_policies(role_name)
+# Function: p6_aws_svc_iam_role_policies(role_name)
 #
 #  Args:
 #	role_name -
 #
 #>
 ######################################################################
-p6_aws_iam_svc_role_policies() {
+p6_aws_svc_iam_role_policies() {
    local role_name="$1"
 
    p6_aws_cmd iam list-attached-role-policies \
@@ -20,11 +20,11 @@ p6_aws_iam_svc_role_policies() {
 ######################################################################
 #<
 #
-# Function: p6_aws_iam_svc_roles_list()
+# Function: p6_aws_svc_iam_roles_list()
 #
 #>
 ######################################################################
-p6_aws_iam_svc_roles_list() {
+p6_aws_svc_iam_roles_list() {
 
     p6_aws_cmd iam list-roles \
 	       --output text \

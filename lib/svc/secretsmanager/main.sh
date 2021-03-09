@@ -1,11 +1,11 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_secretsmanager_svc_list()
+# Function: p6_aws_svc_secretsmanager_list()
 #
 #>
 ######################################################################
-p6_aws_secretsmanager_svc_list() {
+p6_aws_svc_secretsmanager_list() {
 
     p6_aws_cmd secretsmanager \
 	       list-secrets \

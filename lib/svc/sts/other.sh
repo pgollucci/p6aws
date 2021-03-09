@@ -1,11 +1,11 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_sts_svc_whoami()
+# Function: p6_aws_svc_sts_whoami()
 #
 #>
 ######################################################################
-p6_aws_sts_svc_whoami() {
+p6_aws_svc_sts_whoami() {
 
     p6_aws_cmd sts get-caller-identity
 
@@ -15,7 +15,7 @@ p6_aws_sts_svc_whoami() {
 ######################################################################
 #<
 #
-# Function: obj creds = p6_aws_sts_svc_json_role_load(json_role_file)
+# Function: obj creds = p6_aws_svc_sts_json_role_load(json_role_file)
 #
 #  Args:
 #	json_role_file -
@@ -25,7 +25,7 @@ p6_aws_sts_svc_whoami() {
 #
 #>
 ######################################################################
-p6_aws_sts_svc_json_role_load() {
+p6_aws_svc_sts_json_role_load() {
     local json_role_file="$1"
 
     local aws_access_key_id=$(p6_json_key_2_value "AccessKeyId" "$json_role_file")
@@ -45,7 +45,7 @@ p6_aws_sts_svc_json_role_load() {
 ######################################################################
 #<
 #
-# Function: str fn_profile = p6_aws_sts_svc_profile_build(org, account_alias, role_arn)
+# Function: str fn_profile = p6_aws_svc_sts_profile_build(org, account_alias, role_arn)
 #
 #  Args:
 #	org -
@@ -57,7 +57,7 @@ p6_aws_sts_svc_json_role_load() {
 #
 #>
 ######################################################################
-p6_aws_sts_svc_profile_build() {
+p6_aws_svc_sts_profile_build() {
     local org="$1"
     local account_alias="$2"
     local role_arn="$3"
@@ -75,7 +75,7 @@ p6_aws_sts_svc_profile_build() {
 ######################################################################
 #<
 #
-# Function: obj role = p6_aws_sts_svc_assertion_decode(assertion64)
+# Function: obj role = p6_aws_svc_sts_assertion_decode(assertion64)
 #
 #  Args:
 #	assertion64 -
@@ -85,7 +85,7 @@ p6_aws_sts_svc_profile_build() {
 #
 #>
 ######################################################################
-p6_aws_sts_svc_assertion_decode() {
+p6_aws_svc_sts_assertion_decode() {
     local assertion64="$1"
 
     local role_provider=$(p6_echo "$assertion64" | base64 -D | sed -e 's,.*>arn,arn,' -e 's,\<.*,,')
@@ -106,7 +106,7 @@ p6_aws_sts_svc_assertion_decode() {
 ######################################################################
 #<
 #
-# Function: str assertion64 = p6_aws_sts_svc_login_saml(auth)
+# Function: str assertion64 = p6_aws_svc_sts_login_saml(auth)
 #
 #  Args:
 #	auth -
@@ -116,7 +116,7 @@ p6_aws_sts_svc_assertion_decode() {
 #
 #>
 ######################################################################
-p6_aws_sts_svc_login_saml() {
+p6_aws_svc_sts_login_saml() {
     local auth="$1"
 
     local idp="jc"

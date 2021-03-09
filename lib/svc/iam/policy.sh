@@ -1,7 +1,7 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_iam_svc_policy_saml(account_id, provider)
+# Function: p6_aws_svc_iam_policy_saml(account_id, provider)
 #
 #  Args:
 #	account_id -
@@ -9,7 +9,7 @@
 #
 #>
 ######################################################################
-p6_aws_iam_svc_policy_saml() {
+p6_aws_svc_iam_policy_saml() {
     local account_id="$1"
     local provider="$2"
 
@@ -21,7 +21,7 @@ p6_aws_iam_svc_policy_saml() {
 ######################################################################
 #<
 #
-# Function: p6_aws_iam_svc_policy_s3_cloudtrail_write(trail_bucket, account_id)
+# Function: p6_aws_svc_iam_policy_s3_cloudtrail_write(trail_bucket, account_id)
 #
 #  Args:
 #	trail_bucket -
@@ -29,7 +29,7 @@ p6_aws_iam_svc_policy_saml() {
 #
 #>
 ######################################################################
-p6_aws_iam_svc_policy_s3_cloudtrail_write() {
+p6_aws_svc_iam_policy_s3_cloudtrail_write() {
     local trail_bucket="$1"
     local account_id="$2"
 
@@ -41,14 +41,14 @@ p6_aws_iam_svc_policy_s3_cloudtrail_write() {
 ######################################################################
 #<
 #
-# Function: p6_aws_iam_svc_policy_cloudtrail_write(resource)
+# Function: p6_aws_svc_iam_policy_cloudtrail_write(resource)
 #
 #  Args:
 #	resource -
 #
 #>
 ######################################################################
-p6_aws_iam_svc_policy_cloudtrail_write() {
+p6_aws_svc_iam_policy_cloudtrail_write() {
     local resource="$1"
 
     p6_aws_template_process "iam/cloudtrail" \
@@ -58,14 +58,14 @@ p6_aws_iam_svc_policy_cloudtrail_write() {
 ######################################################################
 #<
 #
-# Function: p6_aws_iam_svc_policy_service_write(service)
+# Function: p6_aws_svc_iam_policy_service_write(service)
 #
 #  Args:
 #	service -
 #
 #>
 ######################################################################
-p6_aws_iam_svc_policy_service_write() {
+p6_aws_svc_iam_policy_service_write() {
     local service="$1"
 
     p6_aws_template_process "iam/service" \
@@ -75,7 +75,7 @@ p6_aws_iam_svc_policy_service_write() {
 ######################################################################
 #<
 #
-# Function: p6_aws_iam_svc_policy_to_role(role_full_path, policy_arn)
+# Function: p6_aws_svc_iam_policy_to_role(role_full_path, policy_arn)
 #
 #  Args:
 #	role_full_path -
@@ -83,7 +83,7 @@ p6_aws_iam_svc_policy_service_write() {
 #
 #>
 ######################################################################
-p6_aws_iam_svc_policy_to_role() {
+p6_aws_svc_iam_policy_to_role() {
     local role_full_path="$1"
     local policy_arn="$2"
 
@@ -99,7 +99,7 @@ p6_aws_iam_svc_policy_to_role() {
 ######################################################################
 #<
 #
-# Function: p6_aws_iam_svc_policy_create(policy_full_path, policy_description, policy_document)
+# Function: p6_aws_svc_iam_policy_create(policy_full_path, policy_description, policy_document)
 #
 #  Args:
 #	policy_full_path -
@@ -108,7 +108,7 @@ p6_aws_iam_svc_policy_to_role() {
 #
 #>
 ######################################################################
-p6_aws_iam_svc_policy_create() {
+p6_aws_svc_iam_policy_create() {
     local policy_full_path="$1"
     local policy_description="$2"
     local policy_document="$3"

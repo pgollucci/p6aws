@@ -1,7 +1,7 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_ec2_svc_launch_template_create(lt_name, ami_id, [instance_type=t3a.nano], sg_ids, key_name)
+# Function: p6_aws_svc_ec2_launch_template_create(lt_name, ami_id, [instance_type=t3a.nano], sg_ids, key_name)
 #
 #  Args:
 #	lt_name -
@@ -12,7 +12,7 @@
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_launch_template_create () {
+p6_aws_svc_ec2_launch_template_create () {
 	local lt_name="$1" 
 	local ami_id="$2" 
 	local instance_type="${3:-t3a.nano}" 
@@ -39,7 +39,7 @@ p6_aws_ec2_svc_launch_template_create () {
 ######################################################################
 #<
 #
-# Function: str instance_id = p6_aws_ec2_svc_instance_create(name, ami_id, [instance_type=t3a.nano], sg_ids, subnet_id, key_name, [user_data=])
+# Function: str instance_id = p6_aws_svc_ec2_instance_create(name, ami_id, [instance_type=t3a.nano], sg_ids, subnet_id, key_name, [user_data=])
 #
 #  Args:
 #	name -
@@ -55,7 +55,7 @@ p6_aws_ec2_svc_launch_template_create () {
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_instance_create () {
+p6_aws_svc_ec2_instance_create () {
 	local name="$1" 
 	local ami_id="$2" 
 	local instance_type="${3:-t3a.nano}" 

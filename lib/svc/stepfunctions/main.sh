@@ -1,11 +1,11 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_stepfunctions_svc_list()
+# Function: p6_aws_svc_stepfunctions_list()
 #
 #>
 ######################################################################
-p6_aws_stepfunctions_svc_list() {
+p6_aws_svc_stepfunctions_list() {
 
     p6_aws_cmd stepfunctions list-state-machines \
 	       --output text \
@@ -15,7 +15,7 @@ p6_aws_stepfunctions_svc_list() {
 ######################################################################
 #<
 #
-# Function: p6_aws_stepfunctions_svc_state_machine_show(state_machine, ...)
+# Function: p6_aws_svc_stepfunctions_state_machine_show(state_machine, ...)
 #
 #  Args:
 #	state_machine -
@@ -23,7 +23,7 @@ p6_aws_stepfunctions_svc_list() {
 #
 #>
 ######################################################################
-p6_aws_stepfunctions_svc_state_machine_show() {
+p6_aws_svc_stepfunctions_state_machine_show() {
     local state_machine="$1"
     shift 1
 

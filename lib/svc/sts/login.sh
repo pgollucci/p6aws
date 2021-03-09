@@ -1,7 +1,7 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_sts_svc_login(login, [account_alias=$AWS_ORG], [org=$AWS_ORG], [auth_type=saml])
+# Function: p6_aws_svc_sts_login(login, [account_alias=$AWS_ORG], [org=$AWS_ORG], [auth_type=saml])
 #
 #  Args:
 #	login -
@@ -11,15 +11,15 @@
 #
 #>
 ######################################################################
-p6_aws_sts_svc_login() {
+p6_aws_svc_sts_login() {
     local login="$1"
     local account_alias="${2:-$AWS_ORG}"
     local org="${3:-$AWS_ORG}"
     local auth_type="${4:-saml}"
 
-    local region=$(p6_aws_sts_svc_region)
-    local output=$(p6_aws_sts_svc_output)
-    local cred_file=$(p6_aws_sts_svc_cred_file)
+    local region=$(p6_aws_svc_sts_region)
+    local output=$(p6_aws_svc_sts_output)
+    local cred_file=$(p6_aws_svc_sts_cred_file)
 
     p6_msg "Password($login): \c"
     local password=$(p6_int_password_read)
@@ -38,8 +38,8 @@ p6_aws_sts_svc_login() {
 
     case $auth_type in
 	saml)
-	    local assertion64=$(p6_aws_sts_svc_login_saml "$auth")
-	    p6_aws_sts_svc_role_assume_saml "$auth" "$assertion64"
+	    local assertion64=$(p6_aws_svc_sts_login_saml "$auth")
+	    p6_aws_svc_sts_role_assume_saml "$auth" "$assertion64"
 	    ;;
     esac
 
@@ -53,7 +53,7 @@ p6_aws_sts_svc_login() {
 ######################################################################
 #<
 #
-# Function: str role_arn = p6_aws_sts_svc_role_assume_saml(auth, assertion64)
+# Function: str role_arn = p6_aws_svc_sts_role_assume_saml(auth, assertion64)
 #
 #  Args:
 #	auth -
@@ -64,18 +64,18 @@ p6_aws_sts_svc_login() {
 #
 #>
 ######################################################################
-p6_aws_sts_svc_role_assume_saml() {
+p6_aws_svc_sts_role_assume_saml() {
     local auth="$1"
     local assertion64="$2"
 
-    local role=$(p6_aws_sts_svc_assertion_decode "$assertion64")
+    local role=$(p6_aws_svc_sts_assertion_decode "$assertion64")
     local role_arn=$(p6_obj_item_get "$role" "role_arn")
     local principal_arn=$(p6_obj_item_get "$role" "principal_arn")
 
     local json_role_file=$(p6_transient_create_file "assume.json")
     p6_aws_cmd sts assume-role-with-saml --role-arn "$role_arn" --principal-arn "$principal_arn" --saml-assertion "$assertion64" > $json_role_file
 
-    local creds=$(p6_aws_sts_svc_json_role_load "$json_role_file")
+    local creds=$(p6_aws_svc_sts_json_role_load "$json_role_file")
 
     local aws_access_key_id=$(p6_obj_item_get "$creds" "aws_access_key_id")
     local aws_secret_access_key=$(p6_obj_item_get "$creds" "aws_secret_access_key")
@@ -87,9 +87,9 @@ p6_aws_sts_svc_role_assume_saml() {
     local region=$(p6_obj_item_get "$auth" "region")
     local output=$(p6_obj_item_get "$auth" "output")
 
-    local fn_profile=$(p6_aws_sts_svc_profile_build "$org" "$account_alias" "$role_arn")
+    local fn_profile=$(p6_aws_svc_sts_profile_build "$org" "$account_alias" "$role_arn")
 
-    local cred_file=$(p6_aws_sts_svc_cred_file)
+    local cred_file=$(p6_aws_svc_sts_cred_file)
     p6_aws_template_process "sts/profile" \
 			    "PROFILE=$fn_profile" \
 			    "REGION=$region" \

@@ -3,11 +3,11 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_ssm_svc_documents_list()
+# Function: p6_aws_svc_ssm_documents_list()
 #
 #>
 ######################################################################
-p6_aws_ssm_svc_documents_list() {
+p6_aws_svc_ssm_documents_list() {
 
     p6_aws_cmd ssm list-documents \
         --output text \
@@ -18,23 +18,23 @@ p6_aws_ssm_svc_documents_list() {
 ######################################################################
 #<
 #
-# Function: p6_aws_ssm_svc_documents_list_aws()
+# Function: p6_aws_svc_ssm_documents_list_aws()
 #
 #>
 ######################################################################
-p6_aws_ssm_svc_documents_list_aws() {
+p6_aws_svc_ssm_documents_list_aws() {
 
-    p6_aws_ssm_svc_documents_list | grep "Amazon"
+    p6_aws_svc_ssm_documents_list | grep "Amazon"
 }
 
 ######################################################################
 #<
 #
-# Function: p6_aws_ssm_svc_documents_list_of()
+# Function: p6_aws_svc_ssm_documents_list_of()
 #
 #>
 ######################################################################
-p6_aws_ssm_svc_documents_list_of() {
+p6_aws_svc_ssm_documents_list_of() {
 
-    p6_aws_ssm_svc_documents_list | grep "$1"
+    p6_aws_svc_ssm_documents_list | grep "$1"
 }

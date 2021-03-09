@@ -1,11 +1,11 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_codebuild_svc_builds_list()
+# Function: p6_aws_svc_codebuild_builds_list()
 #
 #>
 ######################################################################
-p6_aws_codebuild_svc_builds_list() {
+p6_aws_svc_codebuild_builds_list() {
 
     p6_aws_cmd codebuild \
 	       list-builds \
@@ -17,11 +17,11 @@ p6_aws_codebuild_svc_builds_list() {
 ######################################################################
 #<
 #
-# Function: p6_aws_codebuild_svc_projects_list()
+# Function: p6_aws_svc_codebuild_projects_list()
 #
 #>
 ######################################################################
-p6_aws_codebuild_svc_projects_list() {
+p6_aws_svc_codebuild_projects_list() {
 
     p6_aws_cmd codebuild \
 	       list-projects \
@@ -32,14 +32,14 @@ p6_aws_codebuild_svc_projects_list() {
 ######################################################################
 #<
 #
-# Function: p6_aws_codebuild_svc_project_build_list([project_name=$AWS_CODEBUILD_PROJECT_NAME])
+# Function: p6_aws_svc_codebuild_project_build_list([project_name=$AWS_CODEBUILD_PROJECT_NAME])
 #
 #  Args:
 #	OPTIONAL project_name - [$AWS_CODEBUILD_PROJECT_NAME]
 #
 #>
 ######################################################################
-p6_aws_codebuild_svc_project_build_list() {
+p6_aws_svc_codebuild_project_build_list() {
     local project_name="${1:-$AWS_CODEBUILD_PROJECT_NAME}"
 
     p6_aws_cmd codebuild \

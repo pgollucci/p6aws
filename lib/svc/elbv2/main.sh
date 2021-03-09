@@ -1,11 +1,11 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_alb_svc_list()
+# Function: p6_aws_svc_alb_list()
 #
 #>
 ######################################################################
-p6_aws_alb_svc_list() {
+p6_aws_svc_alb_list() {
     #   local vpc_id="${1:-$AWS_VPC}"
     #   --filters "Name=vpc-id,Values=$vpc_id"
 
@@ -17,14 +17,14 @@ p6_aws_alb_svc_list() {
 ######################################################################
 #<
 #
-# Function: p6_aws_alb_svc_listeners_list(load_balancer_name)
+# Function: p6_aws_svc_alb_listeners_list(load_balancer_name)
 #
 #  Args:
 #	load_balancer_name -
 #
 #>
 ######################################################################
-p6_aws_alb_svc_listeners_list() {
+p6_aws_svc_alb_listeners_list() {
     local load_balancer_name="$1"
 
     alb_listener_show.pl --load-balancer-name $load_balancer_name
@@ -33,7 +33,7 @@ p6_aws_alb_svc_listeners_list() {
 ######################################################################
 #<
 #
-# Function: p6_aws_alb_svc_create(alb_name, [subnet_type=Public], [vpc_id=$AWS_VPC_ID])
+# Function: p6_aws_svc_alb_create(alb_name, [subnet_type=Public], [vpc_id=$AWS_VPC_ID])
 #
 #  Args:
 #	alb_name -
@@ -42,12 +42,12 @@ p6_aws_alb_svc_listeners_list() {
 #
 #>
 ######################################################################
-p6_aws_alb_svc_create() {
+p6_aws_svc_alb_create() {
     local alb_name="$1"
     local subnet_type="${2:-Public}"
     local vpc_id="${3:-$AWS_VPC_ID}"
 
-    local subnet_ids=$(p6_aws_ec2_svc_subnet_ids_get "$subnet_type" "$vpc_id" | xargs)
+    local subnet_ids=$(p6_aws_svc_ec2_subnet_ids_get "$subnet_type" "$vpc_id" | xargs)
 
     p6_aws_cmd elbv2 create-load-balancer "$alb_name" "$subnet_ids"
 
@@ -59,7 +59,7 @@ p6_aws_alb_svc_create() {
 ######################################################################
 #<
 #
-# Function: p6_aws_alb_svc_listener_create(alb_arn, target_group_arn)
+# Function: p6_aws_svc_alb_listener_create(alb_arn, target_group_arn)
 #
 #  Args:
 #	alb_arn -
@@ -67,7 +67,7 @@ p6_aws_alb_svc_create() {
 #
 #>
 ######################################################################
-p6_aws_alb_svc_listener_create() {
+p6_aws_svc_alb_listener_create() {
     local alb_arn="$1"
     local target_group_arn="$2"
 
@@ -85,7 +85,7 @@ p6_aws_alb_svc_listener_create() {
 ######################################################################
 #<
 #
-# Function: p6_aws_alb_svc_target_group_create(tg_name, [vpc_id=AWS_VPC_ID])
+# Function: p6_aws_svc_alb_target_group_create(tg_name, [vpc_id=AWS_VPC_ID])
 #
 #  Args:
 #	tg_name -
@@ -93,7 +93,7 @@ p6_aws_alb_svc_listener_create() {
 #
 #>
 ######################################################################
-p6_aws_alb_svc_target_group_create() {
+p6_aws_svc_alb_target_group_create() {
     local tg_name="$1"
     local vpc_id="${2:-AWS_VPC_ID}"
 

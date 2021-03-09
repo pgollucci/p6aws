@@ -1,14 +1,14 @@
 ######################################################################
 #<
 #
-# Function: str region = p6_aws_sts_svc_region()
+# Function: str region = p6_aws_svc_sts_region()
 #
 #  Returns:
 #	str - region
 #
 #>
 ######################################################################
-p6_aws_sts_svc_region() {
+p6_aws_svc_sts_region() {
 
     local region=$(p6_aws_cfg_env_region_active)
     if p6_string_blank "$region"; then
@@ -21,14 +21,14 @@ p6_aws_sts_svc_region() {
 ######################################################################
 #<
 #
-# Function: str output = p6_aws_sts_svc_output()
+# Function: str output = p6_aws_svc_sts_output()
 #
 #  Returns:
 #	str - output
 #
 #>
 ######################################################################
-p6_aws_sts_svc_output() {
+p6_aws_svc_sts_output() {
 
     local output=$(p6_aws_cfg_env_output_active)
     if p6_string_blank "$output"; then
@@ -41,18 +41,18 @@ p6_aws_sts_svc_output() {
 ######################################################################
 #<
 #
-# Function: path file = p6_aws_sts_svc_cred_file()
+# Function: path file = p6_aws_svc_sts_cred_file()
 #
 #  Returns:
 #	path - file
 #
 #>
 ######################################################################
-p6_aws_sts_svc_cred_file() {
+p6_aws_svc_sts_cred_file() {
 
     local file=$(p6_aws_cfg_env_shared_credentials_file_active)
     if p6_string_blank "$file"; then
-        local dir=$(p6_aws_sts_svc_dir)
+        local dir=$(p6_aws_svc_sts_dir)
         file=$dir/credentials
     fi
 
@@ -62,14 +62,14 @@ p6_aws_sts_svc_cred_file() {
 ######################################################################
 #<
 #
-# Function: str org = p6_aws_sts_svc_org()
+# Function: str org = p6_aws_svc_sts_org()
 #
 #  Returns:
 #	str - org
 #
 #>
 ######################################################################
-p6_aws_sts_svc_org() {
+p6_aws_svc_sts_org() {
 
     local org=$(p6_aws_cfg_env_org_active)
     if p6_string_blank "$org"; then
@@ -82,14 +82,14 @@ p6_aws_sts_svc_org() {
 ######################################################################
 #<
 #
-# Function: path dir = p6_aws_sts_svc_dir()
+# Function: path dir = p6_aws_svc_sts_dir()
 #
 #  Returns:
 #	path - dir
 #
 #>
 ######################################################################
-p6_aws_sts_svc_dir() {
+p6_aws_svc_sts_dir() {
 
     local dir=$AWS_DIR
     if p6_string_blank "$dir"; then

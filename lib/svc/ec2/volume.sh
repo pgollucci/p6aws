@@ -1,11 +1,11 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_ec2_svc_volumes_list()
+# Function: p6_aws_svc_ec2_volumes_list()
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_volumes_list() {
+p6_aws_svc_ec2_volumes_list() {
 
     local tag_name
     tag_name=$(p6_aws_cli_jq_tag_name_get)
