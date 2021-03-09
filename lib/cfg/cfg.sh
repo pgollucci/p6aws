@@ -454,7 +454,7 @@ p6_aws_cfg__generate_kinds() {
     local kind
     for kind in $(p6_aws_cfg_kinds | sort); do
         local func=$(p6_aws_cfg__accessor "$kind" "$fname" "$var")
-        p6_msg "$func"
+        p6_msg "$func" >> lib/env/${kind}.sh
     done
 
     p6_return_void
