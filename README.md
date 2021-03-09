@@ -49,23 +49,32 @@
 
 ### cfg:
 
-#### cfg/cfg.sh:
+#### cfg/_gen.sh:
+
+#### cfg/_kinds.sh:
+
+#### cfg/api.sh:
 
 - code rc = p6_aws_cfg_filter_secret(val)
 - p6_aws_cfg_clear()
 - p6_aws_cfg_realize(profile)
 - p6_aws_cfg_reset()
+- p6_aws_cfg_show()
+#### cfg/debug.sh:
+
+#### cfg/kinds.sh:
+
 - p6_aws_cfg_restore_saved()
 - p6_aws_cfg_restore_source()
 - p6_aws_cfg_save()
 - p6_aws_cfg_save_source()
-- p6_aws_cfg_show()
-- str str = p6_aws_cfg_prompt_info(kind)
+- words kinds = p6_aws_cfg_kinds()
+#### cfg/vars.sh:
+
 - words env_vars = p6_aws_cfg_vars()
 - words env_vars = p6_aws_cfg_vars_config()
 - words env_vars = p6_aws_cfg_vars_min()
 - words env_vars = p6_aws_cfg_vars_secret()
-- words kinds = p6_aws_cfg_kinds()
 
 ### cli:
 
@@ -74,6 +83,9 @@
 - code rc = p6_aws_cmd(service, cmd, ...)
 - p6_aws_cli_qload(svc)
 - str str = p6_aws_cli_jq_tag_name_get()
+#### cli/prompt.sh:
+
+- str str = p6_aws_cfg_prompt_info(kind)
 #### cli/shortcuts.sh:
 
 - p6_aws_shortcuts_gen(cred_file)
