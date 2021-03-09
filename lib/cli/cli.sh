@@ -32,19 +32,19 @@ p6_aws_cmd() {
 ######################################################################
 #<
 #
-# Function: p6_aws_cli_qload(svc)
+# Function: p6_aws_cli_qload(dir)
 #
 #  Args:
-#	svc -
+#	dir -
 #
 #>
 ######################################################################
 p6_aws_cli_qload() {
-    local svc="$1"
+    local dir="$1"
 
-    . $P6_DFZ_SRC_DIR/p6m7g8/p6common/lib/_bootstrap.sh
-    p6_bootstrap "$P6_DFZ_SRC_DIR/p6m7g8/p6common"
-    p6_bootstrap "$P6_DFZ_SRC_DIR/p6m7g8/p6aws"
+    . $dir/p6common/lib/_bootstrap.sh
+    p6_bootstrap "$dir/p6common"
+    p6_bootstrap "$dir/p6aws"
 
     p6_return_void
 }

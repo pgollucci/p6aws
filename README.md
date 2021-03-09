@@ -55,7 +55,6 @@
 
 #### cfg/api.sh:
 
-- code rc = p6_aws_cfg_filter_secret(val)
 - p6_aws_cfg_clear()
 - p6_aws_cfg_realize(profile)
 - p6_aws_cfg_reset()
@@ -71,6 +70,7 @@
 - words kinds = p6_aws_cfg_kinds()
 #### cfg/vars.sh:
 
+- code rc = p6_aws_cfg_filter_secret(val)
 - words env_vars = p6_aws_cfg_vars()
 - words env_vars = p6_aws_cfg_vars_config()
 - words env_vars = p6_aws_cfg_vars_min()
@@ -81,8 +81,10 @@
 #### cli/cli.sh:
 
 - code rc = p6_aws_cmd(service, cmd, ...)
-- p6_aws_cli_qload(svc)
+- p6_aws_cli_qload(dir)
 - str str = p6_aws_cli_jq_tag_name_get()
+#### cli/debug.sh:
+
 #### cli/prompt.sh:
 
 - str str = p6_aws_cfg_prompt_info(kind)
