@@ -47,9 +47,9 @@
 - p6df::modules::p6aws::deps()
 - p6df::modules::p6aws::init()
 
-### ../p6aws/lib:
+### cfg:
 
-#### ../p6aws/lib/cfg.sh:
+#### cfg/cfg.sh:
 
 - code rc = p6_aws_cfg_filter_secret(val)
 - p6_aws_cfg_clear()
@@ -66,82 +66,86 @@
 - words env_vars = p6_aws_cfg_vars_min()
 - words env_vars = p6_aws_cfg_vars_secret()
 - words kinds = p6_aws_cfg_kinds()
-#### ../p6aws/lib/cli.sh:
+
+### cli:
+
+#### cli/cli.sh:
 
 - code rc = p6_aws_cmd(service, cmd, ...)
 - p6_aws_cli_qload(svc)
 - str str = p6_aws_cli_jq_tag_name_get()
-#### ../p6aws/lib/debug.sh:
-
-#### ../p6aws/lib/env.sh:
-
-- str old = p6_aws_cfg_env_access_key_id_active(val)
-- str old = p6_aws_cfg_env_access_key_id_saved(val)
-- str old = p6_aws_cfg_env_access_key_id_source(val)
-- str old = p6_aws_cfg_env_ca_bundle_active(val)
-- str old = p6_aws_cfg_env_ca_bundle_saved(val)
-- str old = p6_aws_cfg_env_ca_bundle_source(val)
-- str old = p6_aws_cfg_env_config_file_active(val)
-- str old = p6_aws_cfg_env_config_file_saved(val)
-- str old = p6_aws_cfg_env_config_file_source(val)
-- str old = p6_aws_cfg_env_default_profile_active(val)
-- str old = p6_aws_cfg_env_default_profile_saved(val)
-- str old = p6_aws_cfg_env_default_profile_source(val)
-- str old = p6_aws_cfg_env_default_region_active(val)
-- str old = p6_aws_cfg_env_default_region_saved(val)
-- str old = p6_aws_cfg_env_default_region_source(val)
-- str old = p6_aws_cfg_env_env_active(val)
-- str old = p6_aws_cfg_env_env_saved(val)
-- str old = p6_aws_cfg_env_env_source(val)
-- str old = p6_aws_cfg_env_env_tag_active(val)
-- str old = p6_aws_cfg_env_env_tag_saved(val)
-- str old = p6_aws_cfg_env_env_tag_source(val)
-- str old = p6_aws_cfg_env_metadata_service_num_attempts_active(val)
-- str old = p6_aws_cfg_env_metadata_service_num_attempts_saved(val)
-- str old = p6_aws_cfg_env_metadata_service_num_attempts_source(val)
-- str old = p6_aws_cfg_env_metadata_service_timeout_active(val)
-- str old = p6_aws_cfg_env_metadata_service_timeout_saved(val)
-- str old = p6_aws_cfg_env_metadata_service_timeout_source(val)
-- str old = p6_aws_cfg_env_org_active(val)
-- str old = p6_aws_cfg_env_org_saved(val)
-- str old = p6_aws_cfg_env_org_source(val)
-- str old = p6_aws_cfg_env_output_active(val)
-- str old = p6_aws_cfg_env_output_saved(val)
-- str old = p6_aws_cfg_env_output_source(val)
-- str old = p6_aws_cfg_env_profile_active(val)
-- str old = p6_aws_cfg_env_profile_saved(val)
-- str old = p6_aws_cfg_env_profile_source(val)
-- str old = p6_aws_cfg_env_region_active(val)
-- str old = p6_aws_cfg_env_region_saved(val)
-- str old = p6_aws_cfg_env_region_source(val)
-- str old = p6_aws_cfg_env_secret_access_key_active(val)
-- str old = p6_aws_cfg_env_secret_access_key_saved(val)
-- str old = p6_aws_cfg_env_secret_access_key_source(val)
-- str old = p6_aws_cfg_env_session_token_active(val)
-- str old = p6_aws_cfg_env_session_token_saved(val)
-- str old = p6_aws_cfg_env_session_token_source(val)
-- str old = p6_aws_cfg_env_shared_credentials_file_active(val)
-- str old = p6_aws_cfg_env_shared_credentials_file_saved(val)
-- str old = p6_aws_cfg_env_shared_credentials_file_source(val)
-- str old = p6_aws_cfg_env_vpc_id_active(val)
-- str old = p6_aws_cfg_env_vpc_id_saved(val)
-- str old = p6_aws_cfg_env_vpc_id_source(val)
-#### ../p6aws/lib/p6_return.sh:
-
-- obj cfg = p6_return_aws_cfg(cfg)
-- str account_id = p6_return_aws_account_id(account_id)
-- str arn = p6_return_aws_arn()
-- str logical_id = p6_return_aws_logical_id(logical_id)
-- str resource_id = p6_return_aws_resource_id(resource_id)
-#### ../p6aws/lib/shortcuts.sh:
+#### cli/shortcuts.sh:
 
 - p6_aws_shortcuts_gen(cred_file)
 - p6_aws_shortcuts_ungen(org)
 - str fn_profile = p6_aws_shortcuts_profile_to_fn(profile)
 - str prefix = p6_aws_shortcuts_prefix()
-#### ../p6aws/lib/template.sh:
 
-- p6_aws_template_process(infile, ...)
+### env:
+
+#### env/_active.sh:
+
+- str old = p6_aws_cfg_env_access_key_id_active(val)
+- str old = p6_aws_cfg_env_ca_bundle_active(val)
+- str old = p6_aws_cfg_env_config_file_active(val)
+- str old = p6_aws_cfg_env_default_profile_active(val)
+- str old = p6_aws_cfg_env_default_region_active(val)
+- str old = p6_aws_cfg_env_env_active(val)
+- str old = p6_aws_cfg_env_env_tag_active(val)
+- str old = p6_aws_cfg_env_metadata_service_num_attempts_active(val)
+- str old = p6_aws_cfg_env_metadata_service_timeout_active(val)
+- str old = p6_aws_cfg_env_org_active(val)
+- str old = p6_aws_cfg_env_output_active(val)
+- str old = p6_aws_cfg_env_profile_active(val)
+- str old = p6_aws_cfg_env_region_active(val)
+- str old = p6_aws_cfg_env_secret_access_key_active(val)
+- str old = p6_aws_cfg_env_session_token_active(val)
+- str old = p6_aws_cfg_env_shared_credentials_file_active(val)
+- str old = p6_aws_cfg_env_vpc_id_active(val)
+#### env/_saved.sh:
+
+- str old = p6_aws_cfg_env_access_key_id_saved(val)
+- str old = p6_aws_cfg_env_ca_bundle_saved(val)
+- str old = p6_aws_cfg_env_config_file_saved(val)
+- str old = p6_aws_cfg_env_default_profile_saved(val)
+- str old = p6_aws_cfg_env_default_region_saved(val)
+- str old = p6_aws_cfg_env_env_saved(val)
+- str old = p6_aws_cfg_env_env_tag_saved(val)
+- str old = p6_aws_cfg_env_metadata_service_num_attempts_saved(val)
+- str old = p6_aws_cfg_env_metadata_service_timeout_saved(val)
+- str old = p6_aws_cfg_env_org_saved(val)
+- str old = p6_aws_cfg_env_output_saved(val)
+- str old = p6_aws_cfg_env_profile_saved(val)
+- str old = p6_aws_cfg_env_region_saved(val)
+- str old = p6_aws_cfg_env_secret_access_key_saved(val)
+- str old = p6_aws_cfg_env_session_token_saved(val)
+- str old = p6_aws_cfg_env_shared_credentials_file_saved(val)
+- str old = p6_aws_cfg_env_vpc_id_saved(val)
+#### env/_source.sh:
+
+- str old = p6_aws_cfg_env_access_key_id_source(val)
+- str old = p6_aws_cfg_env_ca_bundle_source(val)
+- str old = p6_aws_cfg_env_config_file_source(val)
+- str old = p6_aws_cfg_env_default_profile_source(val)
+- str old = p6_aws_cfg_env_default_region_source(val)
+- str old = p6_aws_cfg_env_env_source(val)
+- str old = p6_aws_cfg_env_env_tag_source(val)
+- str old = p6_aws_cfg_env_metadata_service_num_attempts_source(val)
+- str old = p6_aws_cfg_env_metadata_service_timeout_source(val)
+- str old = p6_aws_cfg_env_org_source(val)
+- str old = p6_aws_cfg_env_output_source(val)
+- str old = p6_aws_cfg_env_profile_source(val)
+- str old = p6_aws_cfg_env_region_source(val)
+- str old = p6_aws_cfg_env_secret_access_key_source(val)
+- str old = p6_aws_cfg_env_session_token_source(val)
+- str old = p6_aws_cfg_env_shared_credentials_file_source(val)
+- str old = p6_aws_cfg_env_vpc_id_source(val)
+
+### ssh:
+
+#### ssh/main.sh:
+
+- p6_aws_ssh_svc_do(tag, type)
 
 ### svc/autoscaling:
 
@@ -384,12 +388,6 @@
 
 - p6_aws_sns_svc_topics_list()
 
-### svc/ssh:
-
-#### svc/ssh/main.sh:
-
-- p6_aws_ssh_svc_do(tag, type)
-
 ### svc/ssm:
 
 #### svc/ssm/main.sh:
@@ -428,6 +426,21 @@
 - str org = p6_aws_sts_svc_org()
 - str output = p6_aws_sts_svc_output()
 - str region = p6_aws_sts_svc_region()
+
+### util:
+
+#### util/debug.sh:
+
+#### util/p6_return.sh:
+
+- obj cfg = p6_return_aws_cfg(cfg)
+- str account_id = p6_return_aws_account_id(account_id)
+- str arn = p6_return_aws_arn()
+- str logical_id = p6_return_aws_logical_id(logical_id)
+- str resource_id = p6_return_aws_resource_id(resource_id)
+#### util/template.sh:
+
+- p6_aws_template_process(infile, ...)
 
 
 ## Author
