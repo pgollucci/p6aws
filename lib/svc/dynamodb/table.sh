@@ -1,11 +1,11 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_dynamodb_svc_tables_list()
+# Function: p6_aws_svc_dynamodb_tables_list()
 #
 #>
 ######################################################################
-p6_aws_dynamodb_svc_tables_list() {
+p6_aws_svc_dynamodb_tables_list() {
 
   p6_aws_cmd dynamodb list-tables \
     --query "TableNames[]" \
@@ -16,14 +16,14 @@ p6_aws_dynamodb_svc_tables_list() {
 ######################################################################
 #<
 #
-# Function: p6_aws_dynamodb_svc_table_describe(table_name)
+# Function: p6_aws_svc_dynamodb_table_describe(table_name)
 #
 #  Args:
 #	table_name -
 #
 #>
 ######################################################################
-p6_aws_dynamodb_svc_table_describe() {
+p6_aws_svc_dynamodb_table_describe() {
   local table_name="$1"
 
   p6_aws_cmd dynamodb describe-table \
@@ -35,14 +35,14 @@ p6_aws_dynamodb_svc_table_describe() {
 ######################################################################
 #<
 #
-# Function: p6_aws_dynamodb_svc_table_all(table_name)
+# Function: p6_aws_svc_dynamodb_table_all(table_name)
 #
 #  Args:
 #	table_name -
 #
 #>
 ######################################################################
-p6_aws_dynamodb_svc_table_all() {
+p6_aws_svc_dynamodb_table_all() {
   local table_name="$1"
 
   p6_aws_cmd dynamodb scan \

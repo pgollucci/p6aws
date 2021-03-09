@@ -2,18 +2,18 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_ec2_svc_sg_delete(group_name)
+# Function: p6_aws_svc_ec2_sg_delete(group_name)
 #
 #  Args:
 #	group_name -
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_sg_delete() {
+p6_aws_svc_ec2_sg_delete() {
     local group_name="$1"
 
     local sg_id
-    sg_id=$(p6_aws_ec2_svc_sg_id_from_group_name "$group_name")
+    sg_id=$(p6_aws_svc_ec2_sg_id_from_group_name "$group_name")
 
     p6_aws_cmd ec2 delete-security-group --group-id "$sg_id"
 }
@@ -21,7 +21,7 @@ p6_aws_ec2_svc_sg_delete() {
 ######################################################################
 #<
 #
-# Function: str sg_id = p6_aws_ec2_svc_sg_create(desc, tag_name, [vpc_id=$AWS_VPC])
+# Function: str sg_id = p6_aws_svc_ec2_sg_create(desc, tag_name, [vpc_id=$AWS_VPC])
 #
 #  Args:
 #	desc -
@@ -33,7 +33,7 @@ p6_aws_ec2_svc_sg_delete() {
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_sg_create() {
+p6_aws_svc_ec2_sg_create() {
     local desc="$1"
     local tag_name="$2"
     local vpc_id=${3:-$AWS_VPC}
@@ -50,14 +50,14 @@ p6_aws_ec2_svc_sg_create() {
 ######################################################################
 #<
 #
-# Function: p6_aws_ec2_svc_sgs_list([vpc_id=$AWS_VPC_ID])
+# Function: p6_aws_svc_ec2_sgs_list([vpc_id=$AWS_VPC_ID])
 #
 #  Args:
 #	OPTIONAL vpc_id - [$AWS_VPC_ID]
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_sgs_list() {
+p6_aws_svc_ec2_sgs_list() {
     local vpc_id="${1:-$AWS_VPC_ID}"
 
     local tag_name
@@ -72,7 +72,7 @@ p6_aws_ec2_svc_sgs_list() {
 ######################################################################
 #<
 #
-# Function: p6_aws_ec2_svc_sg_show(security_group_id_or_name, [vpc_id=$AWS_VPC_ID])
+# Function: p6_aws_svc_ec2_sg_show(security_group_id_or_name, [vpc_id=$AWS_VPC_ID])
 #
 #  Args:
 #	security_group_id_or_name -
@@ -80,7 +80,7 @@ p6_aws_ec2_svc_sgs_list() {
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_sg_show() {
+p6_aws_svc_ec2_sg_show() {
     local security_group_id_or_name="$1"
     local vpc_id="${2:-$AWS_VPC_ID}"
 
@@ -93,7 +93,7 @@ p6_aws_ec2_svc_sg_show() {
     esac
 
     if [ -n "$group_name" ]; then
-        security_group_id=$(p6_aws_ec2_svc_sg_id_from_tag_name "$group_name")
+        security_group_id=$(p6_aws_svc_ec2_sg_id_from_tag_name "$group_name")
     fi
 
     sg_show.pl --security-group-id "$security_group_id"
@@ -102,7 +102,7 @@ p6_aws_ec2_svc_sg_show() {
 ######################################################################
 #<
 #
-# Function: p6_aws_ec2_svc_sg_id_from_tag_name(tag_name, [vpc_id=$AWS_VPC_ID])
+# Function: p6_aws_svc_ec2_sg_id_from_tag_name(tag_name, [vpc_id=$AWS_VPC_ID])
 #
 #  Args:
 #	tag_name -
@@ -110,7 +110,7 @@ p6_aws_ec2_svc_sg_show() {
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_sg_id_from_tag_name() {
+p6_aws_svc_ec2_sg_id_from_tag_name() {
     local tag_name="$1"
     local vpc_id="${2:-$AWS_VPC_ID}"
 
@@ -125,7 +125,7 @@ p6_aws_ec2_svc_sg_id_from_tag_name() {
 ######################################################################
 #<
 #
-# Function: p6_old_aws_ec2_svc_sg_id_from_group_name(group_name, [vpc_id=$AWS_VPC_ID])
+# Function: p6_old_aws_svc_ec2_sg_id_from_group_name(group_name, [vpc_id=$AWS_VPC_ID])
 #
 #  Args:
 #	group_name -
@@ -133,7 +133,7 @@ p6_aws_ec2_svc_sg_id_from_tag_name() {
 #
 #>
 ######################################################################
-p6_old_aws_ec2_svc_sg_id_from_group_name() {
+p6_old_aws_svc_ec2_sg_id_from_group_name() {
     local group_name="$1"
     local vpc_id="${2:-$AWS_VPC_ID}"
 

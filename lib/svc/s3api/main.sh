@@ -1,14 +1,14 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_s3api_svc_bucket_policy(bucket)
+# Function: p6_aws_svc_s3api_bucket_policy(bucket)
 #
 #  Args:
 #	bucket -
 #
 #>
 ######################################################################
-p6_aws_s3api_svc_bucket_policy() {
+p6_aws_svc_s3api_bucket_policy() {
     local bucket="$1"
 
     p6_aws_cmd s3api get-bucket-policy "$bucket"
@@ -17,14 +17,14 @@ p6_aws_s3api_svc_bucket_policy() {
 ######################################################################
 #<
 #
-# Function: p6_aws_s3api_svc_bucket_objects_versions_list(bucket)
+# Function: p6_aws_svc_s3api_bucket_objects_versions_list(bucket)
 #
 #  Args:
 #	bucket -
 #
 #>
 ######################################################################
-p6_aws_s3api_svc_bucket_objects_versions_list() {
+p6_aws_svc_s3api_bucket_objects_versions_list() {
     local bucket="$1"
 
     p6_aws_cmd s3api list-object-versions \
@@ -36,14 +36,14 @@ p6_aws_s3api_svc_bucket_objects_versions_list() {
 ######################################################################
 #<
 #
-# Function: p6_aws_s3api_svc_bucket_objects_deleted(bucket)
+# Function: p6_aws_svc_s3api_bucket_objects_deleted(bucket)
 #
 #  Args:
 #	bucket -
 #
 #>
 ######################################################################
-p6_aws_s3api_svc_bucket_objects_deleted() {
+p6_aws_svc_s3api_bucket_objects_deleted() {
     local bucket="$1"
 
     p6_aws_cmd s3api list-object-versions \
@@ -55,27 +55,27 @@ p6_aws_s3api_svc_bucket_objects_deleted() {
 ######################################################################
 #<
 #
-# Function: p6_aws_s3api_svc_bucket_list_objects_all(bucket)
+# Function: p6_aws_svc_s3api_bucket_list_objects_all(bucket)
 #
 #  Args:
 #	bucket -
 #
 #>
 ######################################################################
-p6_aws_s3api_svc_bucket_list_objects_all() {
+p6_aws_svc_s3api_bucket_list_objects_all() {
     local bucket="$1"
 
     p6_h1 "Objects:"
-    p6_aws_s3api_svc_bucket_objects_versions_list "$bucket"
+    p6_aws_svc_s3api_bucket_objects_versions_list "$bucket"
 
     p6_h1 "Deleted:"
-    p6_aws_s3api_svc_bucket_objects_deleted "$bucket"
+    p6_aws_svc_s3api_bucket_objects_deleted "$bucket"
 }
 
 ######################################################################
 #<
 #
-# Function: false  = p6_aws_s3api_svc_bucket_delete_with_versioned_objects(bucket)
+# Function: false  = p6_aws_svc_s3api_bucket_delete_with_versioned_objects(bucket)
 #
 #  Args:
 #	bucket -
@@ -86,7 +86,7 @@ p6_aws_s3api_svc_bucket_list_objects_all() {
 #
 #>
 ######################################################################
-p6_aws_s3api_svc_bucket_delete_with_versioned_objects() {
+p6_aws_svc_s3api_bucket_delete_with_versioned_objects() {
     local bucket="$1"
 
     if p6_string_blank "$bucket"; then

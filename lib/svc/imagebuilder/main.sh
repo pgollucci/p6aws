@@ -1,11 +1,11 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_imagebuilder_svc_ic_list()
+# Function: p6_aws_svc_imagebuilder_ic_list()
 #
 #>
 ######################################################################
-p6_aws_imagebuilder_svc_ic_list() {
+p6_aws_svc_imagebuilder_ic_list() {
 
     p6_aws_cmd imagebuilder \
 	       list-infrastructure-configurations \
@@ -16,11 +16,11 @@ p6_aws_imagebuilder_svc_ic_list() {
 ######################################################################
 #<
 #
-# Function: p6_aws_imagebuilder_svc_ir_list()
+# Function: p6_aws_svc_imagebuilder_ir_list()
 #
 #>
 ######################################################################
-p6_aws_imagebuilder_svc_ir_list() {
+p6_aws_svc_imagebuilder_ir_list() {
 
     p6_aws_cmd imagebuilder \
 	       list-image-recipes \
@@ -31,11 +31,11 @@ p6_aws_imagebuilder_svc_ir_list() {
 ######################################################################
 #<
 #
-# Function: p6_aws_imagebuilder_svc_dc_list()
+# Function: p6_aws_svc_imagebuilder_dc_list()
 #
 #>
 ######################################################################
-p6_aws_imagebuilder_svc_dc_list() {
+p6_aws_svc_imagebuilder_dc_list() {
 
     p6_aws_cmd imagebuilder \
 	       list-distribution-configurations \
@@ -46,11 +46,11 @@ p6_aws_imagebuilder_svc_dc_list() {
 ######################################################################
 #<
 #
-# Function: p6_aws_imagebuilder_svc_pipelines_list()
+# Function: p6_aws_svc_imagebuilder_pipelines_list()
 #
 #>
 ######################################################################
-p6_aws_imagebuilder_svc_pipelines_list() {
+p6_aws_svc_imagebuilder_pipelines_list() {
 
     p6_aws_cmd imagebuilder \
 	       list-image-pipelines \
@@ -61,11 +61,11 @@ p6_aws_imagebuilder_svc_pipelines_list() {
 ######################################################################
 #<
 #
-# Function: p6_aws_imagebuilder_svc_images_list()
+# Function: p6_aws_svc_imagebuilder_images_list()
 #
 #>
 ######################################################################
-p6_aws_imagebuilder_svc_images_list() {
+p6_aws_svc_imagebuilder_images_list() {
 
     p6_aws_cmd imagebuilder \
 	       list-images \

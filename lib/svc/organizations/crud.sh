@@ -1,7 +1,7 @@
 ######################################################################
 #<
 #
-# Function: aws_account_id account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email)
+# Function: aws_account_id account_id = p6_aws_svc_organizations_account_create(account_name, account_email, account_name, account_email)
 #
 #  Args:
 #	account_name -
@@ -15,14 +15,14 @@
 #
 #>
 ######################################################################
-p6_aws_organizations_svc_account_create() {
+p6_aws_svc_organizations_account_create() {
     local account_name="$1"
     local account_email="$2"
 
-    local cas_id=$(p6_aws_organizations_svc_account_create "$account_email" "$account_alias")
-    p6_aws_organizations_svc_account_wait_for "$cas_id"
+    local cas_id=$(p6_aws_svc_organizations_account_create "$account_email" "$account_alias")
+    p6_aws_svc_organizations_account_wait_for "$cas_id"
 
-    local account_id=$(p6_aws_organizations_svc_account_id_from_name "$account_alias")
+    local account_id=$(p6_aws_svc_organizations_account_id_from_name "$account_alias")
 
     p6_return_aws_account_id "$account_id"
 }
@@ -30,7 +30,7 @@ p6_aws_organizations_svc_account_create() {
 ######################################################################
 #<
 #
-# Function: bool bool = p6_aws_organizations_svc_account_wait_for(cas_id)
+# Function: bool bool = p6_aws_svc_organizations_account_wait_for(cas_id)
 #
 #  Args:
 #	cas_id -
@@ -40,12 +40,12 @@ p6_aws_organizations_svc_account_create() {
 #
 #>
 ######################################################################
-p6_aws_organizations_svc_account_wait_for() {
+p6_aws_svc_organizations_account_wait_for() {
     local cas_id="$1"
 
     local bool=$(p6_run_retry \
-		   p6_aws_organizations_svc_account_create_stop \
-		   p6_aws_organizations_svc_account_create_status "$cas_id"
+		   p6_aws_svc_organizations_account_create_stop \
+		   p6_aws_svc_organizations_account_create_status "$cas_id"
 	  )
 
     p6_return_bool "$bool"
@@ -54,7 +54,7 @@ p6_aws_organizations_svc_account_wait_for() {
 ######################################################################
 #<
 #
-# Function: p6_aws_organizations_svc_account_create_stop(status, cas_id)
+# Function: p6_aws_svc_organizations_account_create_stop(status, cas_id)
 #
 #  Args:
 #	status -
@@ -62,7 +62,7 @@ p6_aws_organizations_svc_account_wait_for() {
 #
 #>
 ######################################################################
-p6_aws_organizations_svc_account_create_stop() {
+p6_aws_svc_organizations_account_create_stop() {
     local status="$1"
     local cas_id="$2"
 
@@ -75,7 +75,7 @@ p6_aws_organizations_svc_account_create_stop() {
 ######################################################################
 #<
 #
-# Function: aws_account_id account_id = p6_aws_organizations_svc_account_id_from_name(account_name)
+# Function: aws_account_id account_id = p6_aws_svc_organizations_account_id_from_name(account_name)
 #
 #  Args:
 #	account_name -
@@ -85,7 +85,7 @@ p6_aws_organizations_svc_account_create_stop() {
 #
 #>
 ######################################################################
-p6_aws_organizations_svc_account_id_from_name() {
+p6_aws_svc_organizations_account_id_from_name() {
     local account_name="$1"
 
     local account_id=$(
@@ -101,7 +101,7 @@ p6_aws_organizations_svc_account_id_from_name() {
 ######################################################################
 #<
 #
-# Function: aws_account_id account_id = p6_aws_organizations_svc_account_create(account_name, account_email, account_name, account_email)
+# Function: aws_account_id account_id = p6_aws_svc_organizations_account_create(account_name, account_email, account_name, account_email)
 #
 #  Args:
 #	account_name -
@@ -115,7 +115,7 @@ p6_aws_organizations_svc_account_id_from_name() {
 #
 #>
 ######################################################################
-p6_aws_organizations_svc_account_create() {
+p6_aws_svc_organizations_account_create() {
     local account_name="$1"
     local account_email="$2"
 
@@ -132,7 +132,7 @@ p6_aws_organizations_svc_account_create() {
 ######################################################################
 #<
 #
-# Function: str status = p6_aws_organizations_svc_account_create_status(car_id)
+# Function: str status = p6_aws_svc_organizations_account_create_status(car_id)
 #
 #  Args:
 #	car_id -
@@ -142,7 +142,7 @@ p6_aws_organizations_svc_account_create() {
 #
 #>
 ######################################################################
-p6_aws_organizations_svc_account_create_status() {
+p6_aws_svc_organizations_account_create_status() {
     local car_id="$1"
 
     local status=$(
@@ -158,11 +158,11 @@ p6_aws_organizations_svc_account_create_status() {
 ######################################################################
 #<
 #
-# Function: p6_aws_organizations_svc_accounts_list()
+# Function: p6_aws_svc_organizations_accounts_list()
 #
 #>
 ######################################################################
-p6_aws_organizations_svc_accounts_list() {
+p6_aws_svc_organizations_accounts_list() {
 
     p6_aws_cmd organizations list-accounts \
 	       --output text \

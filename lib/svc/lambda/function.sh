@@ -1,11 +1,11 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_lambda_svc_list()
+# Function: p6_aws_svc_lambda_list()
 #
 #>
 ######################################################################
-p6_aws_lambda_svc_list() {
+p6_aws_svc_lambda_list() {
 
     p6_aws_cmd lambda list-functions \
 	       --output text \
@@ -15,7 +15,7 @@ p6_aws_lambda_svc_list() {
 ######################################################################
 #<
 #
-# Function: p6_aws_lambda_svc_invoke(function_name, ...)
+# Function: p6_aws_svc_lambda_invoke(function_name, ...)
 #
 #  Args:
 #	function_name -
@@ -23,7 +23,7 @@ p6_aws_lambda_svc_list() {
 #
 #>
 ######################################################################
-p6_aws_lambda_svc_invoke() {
+p6_aws_svc_lambda_invoke() {
     local function_name="$1"
     shift 1
 

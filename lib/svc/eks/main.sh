@@ -1,14 +1,14 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_eks_svc_cluster_logging_enable([cluster_name=$AWS_EKS_CLUSTER_NAME])
+# Function: p6_aws_svc_eks_cluster_logging_enable([cluster_name=$AWS_EKS_CLUSTER_NAME])
 #
 #  Args:
 #	OPTIONAL cluster_name - [$AWS_EKS_CLUSTER_NAME]
 #
 #>
 ######################################################################
-p6_aws_eks_svc_cluster_logging_enable() {
+p6_aws_svc_eks_cluster_logging_enable() {
     local cluster_name="${1:-$AWS_EKS_CLUSTER_NAME}"
 
     p6_aws_cmd eks update-cluster-config \
@@ -21,14 +21,14 @@ p6_aws_eks_svc_cluster_logging_enable() {
 ######################################################################
 #<
 #
-# Function: p6_aws_eks_svc_kubeconfig_update(stack_name)
+# Function: p6_aws_svc_eks_kubeconfig_update(stack_name)
 #
 #  Args:
 #	stack_name -
 #
 #>
 ######################################################################
-p6_aws_eks_svc_kubeconfig_update() {
+p6_aws_svc_eks_kubeconfig_update() {
   local stack_name="$1"
 
   local code
@@ -49,7 +49,7 @@ p6_aws_eks_svc_kubeconfig_update() {
 ######################################################################
 #<
 #
-# Function: str cluster_status = p6_aws_eks_svc_cluster_status([cluster_name=$AWS_EKS_CLUSTER_NAME])
+# Function: str cluster_status = p6_aws_svc_eks_cluster_status([cluster_name=$AWS_EKS_CLUSTER_NAME])
 #
 #  Args:
 #	OPTIONAL cluster_name - [$AWS_EKS_CLUSTER_NAME]
@@ -59,7 +59,7 @@ p6_aws_eks_svc_kubeconfig_update() {
 #
 #>
 ######################################################################
-p6_aws_eks_svc_cluster_status() {
+p6_aws_svc_eks_cluster_status() {
   local cluster_name="${1:-$AWS_EKS_CLUSTER_NAME}"
 
   local cluster_status

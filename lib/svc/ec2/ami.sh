@@ -2,7 +2,7 @@
 ######################################################################
 #<
 #
-# Function: str user = p6_aws_ec2_svc_user_from_ami_name(ami_name)
+# Function: str user = p6_aws_svc_ec2_user_from_ami_name(ami_name)
 #
 #  Args:
 #	ami_name -
@@ -12,7 +12,7 @@
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_user_from_ami_name() {
+p6_aws_svc_ec2_user_from_ami_name() {
 	local ami_name="$1"
 
 	local user
@@ -30,7 +30,7 @@ p6_aws_ec2_svc_user_from_ami_name() {
 ######################################################################
 #<
 #
-# Function: str ami_id = p6_aws_ec2_svc_ami_id_from_instance_id(instance_id)
+# Function: str ami_id = p6_aws_svc_ec2_ami_id_from_instance_id(instance_id)
 #
 #  Args:
 #	instance_id -
@@ -40,7 +40,7 @@ p6_aws_ec2_svc_user_from_ami_name() {
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_ami_id_from_instance_id() {
+p6_aws_svc_ec2_ami_id_from_instance_id() {
 	local instance_id="$1"
 
 	local ami_id
@@ -57,7 +57,7 @@ p6_aws_ec2_svc_ami_id_from_instance_id() {
 ######################################################################
 #<
 #
-# Function: str ami_name = p6_aws_ec2_svc_ami_name_from_instance_id(instance_id)
+# Function: str ami_name = p6_aws_svc_ec2_ami_name_from_instance_id(instance_id)
 #
 #  Args:
 #	instance_id -
@@ -67,11 +67,11 @@ p6_aws_ec2_svc_ami_id_from_instance_id() {
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_ami_name_from_instance_id() {
+p6_aws_svc_ec2_ami_name_from_instance_id() {
 	local instance_id="$1"
 
 	local ami_id
-	ami_id=$(p6_aws_ec2_svc_ami_id_from_instance_id "$instance_id")
+	ami_id=$(p6_aws_svc_ec2_ami_id_from_instance_id "$instance_id")
 
 	local ami_name
 	ami_name=$(
@@ -87,11 +87,11 @@ p6_aws_ec2_svc_ami_name_from_instance_id() {
 ######################################################################
 #<
 #
-# Function: p6_aws_ec2_svc_amis_mine_list()
+# Function: p6_aws_svc_ec2_amis_mine_list()
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_amis_mine_list() {
+p6_aws_svc_ec2_amis_mine_list() {
 
 	local tag_name
 	tag_name=$(p6_aws_cli_jq_tag_name_get)
@@ -106,11 +106,11 @@ p6_aws_ec2_svc_amis_mine_list() {
 ######################################################################
 #<
 #
-# Function: p6_aws_ec2_svc_amis_list()
+# Function: p6_aws_svc_ec2_amis_list()
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_amis_list() {
+p6_aws_svc_ec2_amis_list() {
 
 	local tag_name
 	tag_name=$(p6_aws_cli_jq_tag_name_get)
@@ -124,7 +124,7 @@ p6_aws_ec2_svc_amis_list() {
 ######################################################################
 #<
 #
-# Function: words ami_ids = p6_aws_ec2_svc_ami_find_id(glob)
+# Function: words ami_ids = p6_aws_svc_ec2_ami_find_id(glob)
 #
 #  Args:
 #	glob -
@@ -134,7 +134,7 @@ p6_aws_ec2_svc_amis_list() {
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_ami_find_id() {
+p6_aws_svc_ec2_ami_find_id() {
 	local glob="$1"
 
 	local ami_ids
@@ -152,14 +152,14 @@ p6_aws_ec2_svc_ami_find_id() {
 ######################################################################
 #<
 #
-# Function: str ami_id = p6_aws_ec2_svc_amis_freebsd12_latest()
+# Function: str ami_id = p6_aws_svc_ec2_amis_freebsd12_latest()
 #
 #  Returns:
 #	str - ami_id
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_amis_freebsd12_latest() {
+p6_aws_svc_ec2_amis_freebsd12_latest() {
 
 	local ami_id
 	ami_id=$(p6_aws_cmd ec2 describe-images \
@@ -174,14 +174,14 @@ p6_aws_ec2_svc_amis_freebsd12_latest() {
 ######################################################################
 #<
 #
-# Function: str ami_id = p6_aws_ec2_svc_amis_amazon2_latest()
+# Function: str ami_id = p6_aws_svc_ec2_amis_amazon2_latest()
 #
 #  Returns:
 #	str - ami_id
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_amis_amazon2_latest() {
+p6_aws_svc_ec2_amis_amazon2_latest() {
 
 	local ami_id
 	ami_id=$(p6_aws_cmd ec2 describe-images \
@@ -197,14 +197,14 @@ p6_aws_ec2_svc_amis_amazon2_latest() {
 ######################################################################
 #<
 #
-# Function: str ami_id = p6_aws_ec2_svc_amis_rhel8_latest()
+# Function: str ami_id = p6_aws_svc_ec2_amis_rhel8_latest()
 #
 #  Returns:
 #	str - ami_id
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_amis_rhel8_latest() {
+p6_aws_svc_ec2_amis_rhel8_latest() {
 
 	local ami_id
 	ami_id=$(p6_aws_cmd ec2 describe-images \
@@ -220,14 +220,14 @@ p6_aws_ec2_svc_amis_rhel8_latest() {
 ######################################################################
 #<
 #
-# Function: str ami_id = p6_aws_ec2_svc_amis_ubuntu18_latest()
+# Function: str ami_id = p6_aws_svc_ec2_amis_ubuntu18_latest()
 #
 #  Returns:
 #	str - ami_id
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_amis_ubuntu18_latest() {
+p6_aws_svc_ec2_amis_ubuntu18_latest() {
 
 	local ami_id
 	ami_id=$(p6_aws_cmd ec2 describe-images \
@@ -243,14 +243,14 @@ p6_aws_ec2_svc_amis_ubuntu18_latest() {
 ######################################################################
 #<
 #
-# Function: p6_aws_ec2_svc_ami_show(ami_id)
+# Function: p6_aws_svc_ec2_ami_show(ami_id)
 #
 #  Args:
 #	ami_id -
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_ami_show() {
+p6_aws_svc_ec2_ami_show() {
 	local ami_id="$1"
 
 	p6_aws_cmd ec2 describe-images \

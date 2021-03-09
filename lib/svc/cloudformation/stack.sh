@@ -1,11 +1,11 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_cloudformation_svc_list()
+# Function: p6_aws_svc_cloudformation_list()
 #
 #>
 ######################################################################
-p6_aws_cloudformation_svc_list() {
+p6_aws_svc_cloudformation_list() {
 
     p6_aws_cmd cloudformation describe-stacks \
 	       --output text \

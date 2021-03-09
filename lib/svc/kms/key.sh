@@ -1,11 +1,11 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_kms_svc_list_aliases_mine()
+# Function: p6_aws_svc_kms_list_aliases_mine()
 #
 #>
 ######################################################################
-p6_aws_kms_svc_list_aliases_mine() {
+p6_aws_svc_kms_list_aliases_mine() {
 
     p6_aws_cmd kms list-aliases \
 	       --output text \
@@ -16,11 +16,11 @@ p6_aws_kms_svc_list_aliases_mine() {
 ######################################################################
 #<
 #
-# Function: p6_aws_kms_svc_list_aliases_aws()
+# Function: p6_aws_svc_kms_list_aliases_aws()
 #
 #>
 ######################################################################
-p6_aws_kms_svc_list_aliases_aws() {
+p6_aws_svc_kms_list_aliases_aws() {
 
     p6_aws_cmd kms list-aliases \
 	       --output text \
@@ -31,11 +31,11 @@ p6_aws_kms_svc_list_aliases_aws() {
 ######################################################################
 #<
 #
-# Function: p6_aws_kms_svc_list_aliases()
+# Function: p6_aws_svc_kms_list_aliases()
 #
 #>
 ######################################################################
-p6_aws_kms_svc_list_aliases() {
+p6_aws_svc_kms_list_aliases() {
 
     p6_aws_cmd kms list-aliases \
 	       --output text \

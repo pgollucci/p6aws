@@ -1,11 +1,11 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_elb_svc_list()
+# Function: p6_aws_svc_elb_list()
 #
 #>
 ######################################################################
-p6_aws_elb_svc_list() {
+p6_aws_svc_elb_list() {
 
     local tag_name=$(p6_aws_cli_jq_tag_name_get)
 
@@ -17,14 +17,14 @@ p6_aws_elb_svc_list() {
 ######################################################################
 #<
 #
-# Function: p6_aws_ec2_svc_elb_listeners_list(load_balancer_name)
+# Function: p6_aws_svc_ec2_elb_listeners_list(load_balancer_name)
 #
 #  Args:
 #	load_balancer_name -
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_elb_listeners_list() {
+p6_aws_svc_ec2_elb_listeners_list() {
     local load_balancer_name="$1"
 
     elb_listener_show.pl --load-balancer-name $load_balancer_name
@@ -33,7 +33,7 @@ p6_aws_ec2_svc_elb_listeners_list() {
 ######################################################################
 #<
 #
-# Function: p6_aws_elb_svc_create(elb_name, [listeners=http], [subnet_type=Public], [vpc_id=$AWS_VPC])
+# Function: p6_aws_svc_elb_create(elb_name, [listeners=http], [subnet_type=Public], [vpc_id=$AWS_VPC])
 #
 #  Args:
 #	elb_name -
@@ -43,13 +43,13 @@ p6_aws_ec2_svc_elb_listeners_list() {
 #
 #>
 ######################################################################
-p6_aws_elb_svc_create() {
+p6_aws_svc_elb_create() {
     local elb_name="$1"
     local listeners="${2:-http}"
     local subnet_type="${3:-Public}"
     local vpc_id="${4:-$AWS_VPC}"
 
-    local subnet_ids=$(p6_aws_ec2_svc_subnet_ids_get "$subnet_type" "$vpc_id" | xargs)
+    local subnet_ids=$(p6_aws_svc_ec2_subnet_ids_get "$subnet_type" "$vpc_id" | xargs)
 
     local my_listeners
     # for my $listener in $listeners; do

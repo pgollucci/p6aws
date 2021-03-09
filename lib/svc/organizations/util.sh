@@ -1,14 +1,14 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_organizations_svc_account_id_from_account_name(account_name)
+# Function: p6_aws_svc_organizations_account_id_from_account_name(account_name)
 #
 #  Args:
 #	account_name -
 #
 #>
 ######################################################################
-p6_aws_organizations_svc_account_id_from_account_name() {
+p6_aws_svc_organizations_account_id_from_account_name() {
     local account_name="$1"
 
     # strip quotes without shelling out

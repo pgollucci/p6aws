@@ -1,14 +1,14 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_ec2_svc_instance_show(instance_id)
+# Function: p6_aws_svc_ec2_instance_show(instance_id)
 #
 #  Args:
 #	instance_id -
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_instance_show() {
+p6_aws_svc_ec2_instance_show() {
     local instance_id="$1"
 
     p6_aws_cmd ec2 describe-instances --instance-ids "$instance_id"
@@ -17,14 +17,14 @@ p6_aws_ec2_svc_instance_show() {
 ######################################################################
 #<
 #
-# Function: p6_aws_ec2_svc_instances_list([vpc_id=$AWS_VPC_ID])
+# Function: p6_aws_svc_ec2_instances_list([vpc_id=$AWS_VPC_ID])
 #
 #  Args:
 #	OPTIONAL vpc_id - [$AWS_VPC_ID]
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_instances_list() {
+p6_aws_svc_ec2_instances_list() {
     local vpc_id="${1:-$AWS_VPC_ID}"
 
     local tag_name
@@ -40,7 +40,7 @@ p6_aws_ec2_svc_instances_list() {
 ######################################################################
 #<
 #
-# Function: str instance_id = p6_aws_ec2_svc_instance_id_from_name_tag(name)
+# Function: str instance_id = p6_aws_svc_ec2_instance_id_from_name_tag(name)
 #
 #  Args:
 #	name -
@@ -50,7 +50,7 @@ p6_aws_ec2_svc_instances_list() {
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_instance_id_from_name_tag() {
+p6_aws_svc_ec2_instance_id_from_name_tag() {
     local name="$1"
 
     local instance_id
@@ -68,7 +68,7 @@ p6_aws_ec2_svc_instance_id_from_name_tag() {
 ######################################################################
 #<
 #
-# Function: str private_ip = p6_aws_ec2_svc_instance_private_ip(instance_id)
+# Function: str private_ip = p6_aws_svc_ec2_instance_private_ip(instance_id)
 #
 #  Args:
 #	instance_id -
@@ -78,7 +78,7 @@ p6_aws_ec2_svc_instance_id_from_name_tag() {
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_instance_private_ip() {
+p6_aws_svc_ec2_instance_private_ip() {
     local instance_id="$1"
 
     local private_ip
@@ -93,7 +93,7 @@ p6_aws_ec2_svc_instance_private_ip() {
 ######################################################################
 #<
 #
-# Function: str public_ip = p6_aws_ec2_svc_instance_public_ip(instance_id)
+# Function: str public_ip = p6_aws_svc_ec2_instance_public_ip(instance_id)
 #
 #  Args:
 #	instance_id -
@@ -103,7 +103,7 @@ p6_aws_ec2_svc_instance_private_ip() {
 #
 #>
 ######################################################################
-p6_aws_ec2_svc_instance_public_ip() {
+p6_aws_svc_ec2_instance_public_ip() {
     local instance_id="$1"
 
     local public_ip

@@ -1,7 +1,7 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_autoscaling_svc_asg_create(asg_name, min_size, max_size, desired_capacity, lt_id, lt_name, lt_version, subnet_type, [vpc_id=$AWS_VPC])
+# Function: p6_aws_svc_autoscaling_asg_create(asg_name, min_size, max_size, desired_capacity, lt_id, lt_name, lt_version, subnet_type, [vpc_id=$AWS_VPC])
 #
 #  Args:
 #	asg_name -
@@ -16,7 +16,7 @@
 #
 #>
 ######################################################################
-p6_aws_autoscaling_svc_asg_create() {
+p6_aws_svc_autoscaling_asg_create() {
     local asg_name="$1"
     local min_size="$2"
     local max_size="$3"
@@ -27,7 +27,7 @@ p6_aws_autoscaling_svc_asg_create() {
     local subnet_type="$8"
     local vpc_id="${9:-$AWS_VPC}"
 
-    local subnet_ids=$(p6_aws_ec2_svc_subnet_ids_get "$subnet_type" "$vpc_id" | xargs | sed -e 's/ /,/g')
+    local subnet_ids=$(p6_aws_svc_ec2_subnet_ids_get "$subnet_type" "$vpc_id" | xargs | sed -e 's/ /,/g')
 
     p6_aws_cmd autoscaling create-auto-scaling-group \
 	       "$asg_name" "$min_size" "$max_size" \
@@ -42,7 +42,7 @@ p6_aws_autoscaling_svc_asg_create() {
 ######################################################################
 #<
 #
-# Function: p6_aws_autoscaling_svc_asg_target_group_arn(asg_name, target_group_arn)
+# Function: p6_aws_svc_autoscaling_asg_target_group_arn(asg_name, target_group_arn)
 #
 #  Args:
 #	asg_name -
@@ -50,7 +50,7 @@ p6_aws_autoscaling_svc_asg_create() {
 #
 #>
 ######################################################################
-p6_aws_autoscaling_svc_asg_target_group_arn() {
+p6_aws_svc_autoscaling_asg_target_group_arn() {
     local asg_name="$1"
     local target_group_arn="$2"
 
@@ -62,11 +62,11 @@ p6_aws_autoscaling_svc_asg_target_group_arn() {
 ######################################################################
 #<
 #
-# Function: p6_aws_autoscaling_svc_asgs_list()
+# Function: p6_aws_svc_autoscaling_asgs_list()
 #
 #>
 ######################################################################
-p6_aws_autoscaling_svc_asgs_list() {
+p6_aws_svc_autoscaling_asgs_list() {
 
     local tag_name=$(p6_aws_cli_jq_tag_name_get)
 
@@ -80,14 +80,14 @@ p6_aws_autoscaling_svc_asgs_list() {
 ######################################################################
 #<
 #
-# Function: p6_aws_autoscaling_svc_asg_act_list(asg_name)
+# Function: p6_aws_svc_autoscaling_asg_act_list(asg_name)
 #
 #  Args:
 #	asg_name -
 #
 #>
 ######################################################################
-p6_aws_autoscaling_svc_asg_act_list() {
+p6_aws_svc_autoscaling_asg_act_list() {
     local asg_name="$1"
 
     p6_aws_cmd autoscaling describe-scaling-activities \
@@ -99,14 +99,14 @@ p6_aws_autoscaling_svc_asg_act_list() {
 ######################################################################
 #<
 #
-# Function: p6_aws_autoscaling_svc_asg_act_deltailed_list(asg_name)
+# Function: p6_aws_svc_autoscaling_asg_act_deltailed_list(asg_name)
 #
 #  Args:
 #	asg_name -
 #
 #>
 ######################################################################
-p6_aws_autoscaling_svc_asg_act_deltailed_list() {
+p6_aws_svc_autoscaling_asg_act_deltailed_list() {
     local asg_name="$1"
 
     p6_aws_cmd autoscaling describe-scaling-activities \

@@ -1,7 +1,7 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_iam_svc_role_saml_create(role_full_path, policy_arn, account_id, provider)
+# Function: p6_aws_svc_iam_role_saml_create(role_full_path, policy_arn, account_id, provider)
 #
 #  Args:
 #	role_full_path -
@@ -11,7 +11,7 @@
 #
 #>
 ######################################################################
-p6_aws_iam_svc_role_saml_create() {
+p6_aws_svc_iam_role_saml_create() {
     local role_full_path="$1"
     local policy_arn="$2"
     local account_id="$3"
@@ -20,8 +20,8 @@ p6_aws_iam_svc_role_saml_create() {
     local role_path=$(p6_uri_path "$role_full_path")
     local role_name=$(p6_uri_name "$role_full_path")
 
-    local assume_role_policy_document=$(p6_aws_iam_svc_policy_saml "$account_id" "$provider")
-    p6_aws_iam_svc_role_create "$role_path/" "$role_name" "$assume_role_policy_document"
+    local assume_role_policy_document=$(p6_aws_svc_iam_policy_saml "$account_id" "$provider")
+    p6_aws_svc_iam_role_create "$role_path/" "$role_name" "$assume_role_policy_document"
     p6_aws_cmd iam attach-role-policy "$role_name" "$policy_arn"
 
     # XXX: return
@@ -30,11 +30,11 @@ p6_aws_iam_svc_role_saml_create() {
 ######################################################################
 #<
 #
-# Function: p6_aws_iam_svc_password_policy_default()
+# Function: p6_aws_svc_iam_password_policy_default()
 #
 #>
 ######################################################################
-p6_aws_iam_svc_password_policy_default() {
+p6_aws_svc_iam_password_policy_default() {
 
     p6_aws_cmd iam update-account-password-policy \
                --minimum-password-length 12 \

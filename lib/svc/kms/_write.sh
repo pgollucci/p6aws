@@ -1,7 +1,7 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_kms_svc_key_create(key_description, key_policy)
+# Function: p6_aws_svc_kms_key_create(key_description, key_policy)
 #
 #  Args:
 #	key_description -
@@ -9,7 +9,7 @@
 #
 #>
 ######################################################################
-p6_aws_kms_svc_key_create() {
+p6_aws_svc_kms_key_create() {
     local key_description="$1"
     local key_policy="$2"
 
