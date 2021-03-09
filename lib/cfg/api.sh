@@ -67,33 +67,6 @@ EOF
 ######################################################################
 #<
 #
-# Function: code rc = p6_aws_cfg_filter_secret(val)
-#
-#  Args:
-#	val -
-#
-#  Returns:
-#	code - rc
-#
-#>
-######################################################################
-p6_aws_cfg_filter_secret() {
-    local val="$1"
-
-    local rc=
-    case $val in
-    session_token | access_key_id | secret_access_key) rc=$P6_FALSE ;;
-    *) rc=$P6_TRUE ;;
-    esac
-
-    p6_aws_cfg__debug "filter_secret(): [val=$val] -> [rc=$rc]"
-
-    p6_return_code_as_code "$rc"
-}
-
-######################################################################
-#<
-#
 # Function: p6_aws_cfg_show()
 #
 #>
