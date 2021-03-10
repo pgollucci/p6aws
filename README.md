@@ -50,21 +50,12 @@
 
 ### cfg:
 
-#### cfg/_gen.sh:
-
-
-#### cfg/_kinds.sh:
-
-
 #### cfg/api.sh:
 
 - p6_aws_cfg_clear()
 - p6_aws_cfg_realize(profile)
 - p6_aws_cfg_reset()
 - p6_aws_cfg_show()
-
-#### cfg/debug.sh:
-
 
 #### cfg/kinds.sh:
 
@@ -91,9 +82,6 @@
 - p6_aws_cli_qload(dir)
 - str str = p6_aws_cli_jq_tag_name_get()
 
-#### cli/debug.sh:
-
-
 #### cli/prompt.sh:
 
 - str str = p6_aws_cfg_prompt_info(kind)
@@ -108,7 +96,7 @@
 
 ### env:
 
-#### env/_active.sh:
+#### env/active.sh:
 
 - str old = p6_aws_cfg_env_access_key_id_active([val=])
 - str old = p6_aws_cfg_env_ca_bundle_active([val=])
@@ -128,7 +116,7 @@
 - str old = p6_aws_cfg_env_shared_credentials_file_active([val=])
 - str old = p6_aws_cfg_env_vpc_id_active([val=])
 
-#### env/_saved.sh:
+#### env/saved.sh:
 
 - str old = p6_aws_cfg_env_access_key_id_saved([val=])
 - str old = p6_aws_cfg_env_ca_bundle_saved([val=])
@@ -148,7 +136,7 @@
 - str old = p6_aws_cfg_env_shared_credentials_file_saved([val=])
 - str old = p6_aws_cfg_env_vpc_id_saved([val=])
 
-#### env/_source.sh:
+#### env/source.sh:
 
 - str old = p6_aws_cfg_env_access_key_id_source([val=])
 - str old = p6_aws_cfg_env_ca_bundle_source([val=])
@@ -177,12 +165,6 @@
 
 
 ### svc/autoscaling:
-
-#### svc/autoscaling/_lc.sh:
-
-- p6_old_aws_svc_autoscaling_asg_load_balancer_names(asg_name, load_balancer_names)
-- p6_old_aws_svc_autoscaling_lc_user_data_show(lc_name)
-- p6_old_aws_svc_autoscaling_lcs_list()
 
 #### svc/autoscaling/asg.sh:
 
@@ -240,11 +222,6 @@
 
 
 ### svc/ec2:
-
-#### svc/ec2/_write.sh:
-
-- p6_aws_svc_ec2_launch_template_create(lt_name, ami_id, [instance_type=t3a.nano], sg_ids, key_name)
-- str instance_id = p6_aws_svc_ec2_instance_create(name, ami_id, [instance_type=t3a.nano], sg_ids, subnet_id, key_name, [user_data=])
 
 #### svc/ec2/ami.sh:
 
@@ -341,11 +318,6 @@
 
 ### svc/iam:
 
-#### svc/iam/_write.sh:
-
-- p6_aws_svc_iam_password_policy_default()
-- p6_aws_svc_iam_role_saml_create(role_full_path, policy_arn, account_id, provider)
-
 #### svc/iam/instance.sh:
 
 - p6_aws_svc_iam_instance_profiles_list()
@@ -381,10 +353,6 @@
 
 
 ### svc/kms:
-
-#### svc/kms/_write.sh:
-
-- p6_aws_svc_kms_key_create(key_description, key_policy)
 
 #### svc/kms/key.sh:
 
@@ -477,9 +445,6 @@
 
 ### svc/sts:
 
-#### svc/sts/debug.sh:
-
-
 #### svc/sts/login.sh:
 
 - p6_aws_svc_sts_login(login, [account_alias=$AWS_ORG], [org=$AWS_ORG], [auth_type=saml])
@@ -513,14 +478,11 @@
 
 ### util:
 
-#### util/debug.sh:
-
-
 #### util/p6_return.sh:
 
 - obj cfg = p6_return_aws_cfg(cfg)
 - str account_id = p6_return_aws_account_id(account_id)
-- str arn = p6_return_aws_arn()
+- str arn = p6_return_aws_arn(arn)
 - str logical_id = p6_return_aws_logical_id(logical_id)
 - str resource_id = p6_return_aws_resource_id(resource_id)
 
@@ -547,9 +509,9 @@
 │   ├── prompt.sh
 │   └── shortcuts.sh
 ├── env
-│   ├── _active.sh
-│   ├── _saved.sh
-│   └── _source.sh
+│   ├── active.sh
+│   ├── saved.sh
+│   └── source.sh
 ├── ssh
 │   └── do.sh
 ├── svc
