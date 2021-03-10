@@ -1,9 +1,10 @@
-# This works like MixIns in Ruby
-
 ######################################################################
 #<
 #
-# Function: str arn = p6_return_aws_arn()
+# Function: str arn = p6_return_aws_arn(arn)
+#
+#  Args:
+#	arn -
 #
 #  Returns:
 #	str - arn
