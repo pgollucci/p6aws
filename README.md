@@ -480,14 +480,6 @@
 - p6_aws_svc_sts_role_assume(role_arn, role_session_name)
 - p6_aws_svc_sts_role_unassume()
 
-#### svc/sts/util.sh:
-
-- path dir = p6_aws_svc_sts_dir()
-- path file = p6_aws_svc_sts_cred_file()
-- str org = p6_aws_svc_sts_org()
-- str output = p6_aws_svc_sts_output()
-- str region = p6_aws_svc_sts_region()
-
 
 ### util:
 
@@ -608,15 +600,14 @@
 │       ├── login.sh
 │       ├── other.sh
 │       ├── prompt.sh
-│       ├── role.sh
-│       └── util.sh
+│       └── role.sh
 └── util
     ├── debug.sh
     ├── env.sh
     ├── p6_return.sh
     └── template.sh
 
-31 directories, 67 files
+31 directories, 66 files
 ```
 ## Author
 
