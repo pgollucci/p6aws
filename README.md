@@ -48,6 +48,14 @@
 - p6df::modules::p6aws::init()
 
 
+### alfred:
+
+#### alfred/util.sh:
+
+- p6_aws_alfred_connect_public_bastion(pfunc)
+- str json = p6_aws_alfred_list()
+
+
 ### cfg:
 
 #### cfg/api.sh:
@@ -168,6 +176,7 @@
 #### profile/config.sh:
 
 - p6_aws_profile_config_add()
+- words profiles = p6_aws_profile_config_list()
 
 #### profile/cred.sh:
 
@@ -513,6 +522,7 @@
 ```text
 .
 ├── alfred
+│   └── util.sh
 ├── cfg
 │   ├── _gen.sh
 │   ├── _kinds.sh
@@ -611,7 +621,7 @@
     ├── p6_return.sh
     └── template.sh
 
-31 directories, 67 files
+31 directories, 68 files
 ```
 ## Author
 

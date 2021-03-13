@@ -104,10 +104,8 @@ p6_aws_cli_shortcuts_gen_un() {
 p6_aws_cli_shortcuts_prefix() {
 
 	local prefix
-	local org
 
-	org=$(p6_aws_env_org_active)
-	prefix="p6_${org}_awsa"
+	prefix="p6_awsa"
 
 	p6_return_str "$prefix"
 }
