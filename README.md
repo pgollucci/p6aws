@@ -52,7 +52,8 @@
 
 #### alfred/util.sh:
 
-- p6_aws_alfred_connect_public_bastion(pfunc)
+- p6_aws_alfred_private_bastion(pfunc)
+- p6_aws_alfred_public_bastion(pfunc)
 - str json = p6_aws_alfred_list()
 
 
@@ -269,6 +270,7 @@
 
 - p6_aws_svc_ec2_instance_show(instance_id)
 - p6_aws_svc_ec2_instances_list([vpc_id=$AWS_VPC_ID])
+- str az = p6_aws_svc_ec2_availability_zone(instance_id)
 - str instance_id = p6_aws_svc_ec2_instance_id_from_name_tag(name)
 - str private_ip = p6_aws_svc_ec2_instance_private_ip(instance_id)
 - str public_ip = p6_aws_svc_ec2_instance_public_ip(instance_id)
@@ -292,12 +294,10 @@
 
 #### svc/ec2/sg.sh:
 
-- p6_aws_svc_ec2_sg_delete(group_name)
 - p6_aws_svc_ec2_sg_id_from_tag_name(tag_name, [vpc_id=$AWS_VPC_ID])
 - p6_aws_svc_ec2_sg_show(security_group_id_or_name, [vpc_id=$AWS_VPC_ID])
 - p6_aws_svc_ec2_sgs_list([vpc_id=$AWS_VPC_ID])
 - p6_old_aws_svc_ec2_sg_id_from_group_name(group_name, [vpc_id=$AWS_VPC_ID])
-- str sg_id = p6_aws_svc_ec2_sg_create(desc, tag_name, [vpc_id=$AWS_VPC])
 
 #### svc/ec2/tgw.sh:
 
@@ -309,6 +309,13 @@
 #### svc/ec2/volume.sh:
 
 - p6_aws_svc_ec2_volumes_list()
+
+
+### svc/ec2instanceconnect:
+
+#### svc/ec2instanceconnect/util.sh:
+
+- p6_aws_svc_ec2_instance_connect_ssh_public_key_send(instance_id)
 
 
 ### svc/eks:
@@ -573,6 +580,8 @@
 │   │   ├── sg.sh
 │   │   ├── tgw.sh
 │   │   └── volume.sh
+│   ├── ec2instanceconnect
+│   │   └── util.sh
 │   ├── eks
 │   │   ├── main.sh
 │   │   └── prompt.sh
@@ -621,7 +630,7 @@
     ├── p6_return.sh
     └── template.sh
 
-31 directories, 68 files
+32 directories, 69 files
 ```
 ## Author
 

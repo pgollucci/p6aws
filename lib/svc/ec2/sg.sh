@@ -2,54 +2,6 @@
 ######################################################################
 #<
 #
-# Function: p6_aws_svc_ec2_sg_delete(group_name)
-#
-#  Args:
-#	group_name -
-#
-#>
-######################################################################
-p6_aws_svc_ec2_sg_delete() {
-    local group_name="$1"
-
-    local sg_id
-    sg_id=$(p6_aws_svc_ec2_sg_id_from_group_name "$group_name")
-
-    p6_aws_cli_cmd ec2 delete-security-group --group-id "$sg_id"
-}
-
-######################################################################
-#<
-#
-# Function: str sg_id = p6_aws_svc_ec2_sg_create(desc, tag_name, [vpc_id=$AWS_VPC])
-#
-#  Args:
-#	desc -
-#	tag_name -
-#	OPTIONAL vpc_id - [$AWS_VPC]
-#
-#  Returns:
-#	str - sg_id
-#
-#>
-######################################################################
-p6_aws_svc_ec2_sg_create() {
-    local desc="$1"
-    local tag_name="$2"
-    local vpc_id=${3:-$AWS_VPC}
-
-    local group_name=$tag_name
-    local sg_id
-    sg_id=$(p6_aws_cli_cmd ec2 create-security-group "'$desc'" "'$group_name'" --vpc-id "$vpc_id" --output text)
-
-    p6_aws_cli_cmd ec2 create-tags "$sg_id" "'Key=Name,Value=$tag_name'"
-
-    p6_return_str "$sg_id"
-}
-
-######################################################################
-#<
-#
 # Function: p6_aws_svc_ec2_sgs_list([vpc_id=$AWS_VPC_ID])
 #
 #  Args:

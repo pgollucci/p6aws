@@ -43,6 +43,8 @@ p6_aws_ssh_connect_jump() {
   bastion_ami_name=$(p6_aws_svc_ec2_ami_name_from_instance_id "$bastion_instance_id")
   bastion_user=$(p6_aws_svc_ec2_user_from_ami_name "$bastion_ami_name")
 
+  p6_aws_svc_ec2_instance_connect_ssh_public_key_send "$bastion_instance_id"
+
   local instance_id
   local host
   instance_id=$(p6_aws_svc_ec2_instance_id_from_name_tag "$tag")
