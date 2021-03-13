@@ -83,9 +83,14 @@ p6_aws_svc_sts_role_credentials_activate() {
     conf_file=$(p6_aws_env_config_file_active)
     cred_file=$(p6_aws_env_shared_credentials_file_active)
 
+    p6_file_rmf "$conf_file"
+    p6_file_rmf "$cred_file"
+
     p6_aws_util_env_profile "$role_arn" >/dev/null
     p6_aws_profile_config_add "$conf_file" "$role_arn"
     p6_aws_profile_cred_add "$cred_file" "$role_arn" "$access_key_id" "$secret_access_key" "$session_token" "$expiration"
+
+    p6_return_void
 }
 
 ######################################################################
