@@ -15,66 +15,6 @@ p6_aws_svc_sts_whoami() {
 ######################################################################
 #<
 #
-# Function: obj creds = p6_aws_svc_sts_json_role_load(json_role_file)
-#
-#  Args:
-#	json_role_file -
-#
-#  Returns:
-#	obj - creds
-#
-#>
-######################################################################
-p6_aws_svc_sts_json_role_load() {
-    local json_role_file="$1"
-
-    local aws_access_key_id=$(p6_json_key_2_value "AccessKeyId" "$json_role_file")
-    local aws_secret_access_key=$(p6_json_key_2_value "SecretAccessKey" "$json_role_file")
-    local aws_session_token=$(p6_json_key_2_value "SessionToken" "$json_role_file")
-    local expiration=$(p6_json_key_2_value "Expiration" "$json_role_file")
-
-    local creds=$(p6_obj_create "hash")
-    local o1=$(p6_obj_item_set "$creds" "aws_access_key_id" "$aws_access_key_id")
-    local o2=$(p6_obj_item_set "$creds" "aws_secret_access_key" "$aws_secret_access_key")
-    local o3=$(p6_obj_item_set "$creds" "aws_session_token" "$aws_session_token")
-    local o4=$(p6_obj_item_set "$creds" "expiration" "$expiration")
-
-    p6_return_obj "$creds"
-}
-
-######################################################################
-#<
-#
-# Function: str fn_profile = p6_aws_svc_sts_profile_build(org, account_alias, role_arn)
-#
-#  Args:
-#	org -
-#	account_alias -
-#	role_arn -
-#
-#  Returns:
-#	str - fn_profile
-#
-#>
-######################################################################
-p6_aws_svc_sts_profile_build() {
-    local org="$1"
-    local account_alias="$2"
-    local role_arn="$3"
-
-    local role_name=$(p6_echo "$role_arn" | sed -e 's,.*:,,')
-
-    local profile="${org}+${account_alias}-${role_name}"
-    local fn_profile=$(p6_aws_shortcuts_profile_to_fn "$profile")
-
-    p6_aws_sts__debug "profile_build(): [profile=$fn_profile]"
-
-    p6_return_str "$fn_profile"
-}
-
-######################################################################
-#<
-#
 # Function: obj role = p6_aws_svc_sts_assertion_decode(assertion64)
 #
 #  Args:

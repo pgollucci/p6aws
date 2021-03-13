@@ -169,6 +169,10 @@
 
 - p6_aws_profile_config_add()
 
+#### profile/cred.sh:
+
+- p6_aws_profile_cred_add()
+
 
 ### ssh:
 
@@ -465,11 +469,9 @@
 
 #### svc/sts/other.sh:
 
-- obj creds = p6_aws_svc_sts_json_role_load(json_role_file)
 - obj role = p6_aws_svc_sts_assertion_decode(assertion64)
 - p6_aws_svc_sts_whoami()
 - str assertion64 = p6_aws_svc_sts_login_saml(auth)
-- str fn_profile = p6_aws_svc_sts_profile_build(org, account_alias, role_arn)
 
 #### svc/sts/prompt.sh:
 
@@ -529,6 +531,7 @@
 │   └── source.sh
 ├── profile
 │   ├── config.sh
+│   ├── cred.sh
 │   └── debug.sh
 ├── ssh
 │   └── do.sh
@@ -607,7 +610,7 @@
     ├── p6_return.sh
     └── template.sh
 
-31 directories, 66 files
+31 directories, 67 files
 ```
 ## Author
 

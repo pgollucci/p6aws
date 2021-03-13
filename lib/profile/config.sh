@@ -15,7 +15,7 @@ p6_aws_profile_config_add() {
     local output=json
 
     if ! p6_file_contains "$profile" "$conf_file"; then
-        p6_aws_profile__debug "uilt_config_add(): adding [$profile] -> [$conf_file]"
+        p6_aws_profile__debug "config_add(): adding [$profile] -> [$conf_file]"
         p6_aws_template_process "sts/conf" "PROFILE=$profile" "REGION=$region" "OUTPUT=$output" >>"$conf_file"
     fi
 
