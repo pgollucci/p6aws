@@ -88,7 +88,7 @@ p6_aws_cfg_vars() {
 ######################################################################
 #<
 #
-# Function: code rc = p6_aws_cfg_filter_secret(val)
+# Function: code rc = p6_aws_cfg_vars_filter_secret(val)
 #
 #  Args:
 #	val -
@@ -98,7 +98,7 @@ p6_aws_cfg_vars() {
 #
 #>
 ######################################################################
-p6_aws_cfg_filter_secret() {
+p6_aws_cfg_vars_filter_secret() {
 	local val="$1"
 
 	local rc=

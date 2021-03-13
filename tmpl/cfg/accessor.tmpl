@@ -1,17 +1,17 @@
 ######################################################################
 #<
 #
-# Function: str old = p6_aws_cfg_env_FUNC(val)
+# Function: str old = p6_aws_env_FUNC([val=])
 #
 #  Args:
-#	val - 
+#	OPTIONAL val - []
 #
 #  Returns:
 #	str - old
 #
 #>
 ######################################################################
-p6_aws_cfg_env_FUNC() {
+p6_aws_env_FUNC() {
     local val="${1:-}"
 
     local old="${VAR}"

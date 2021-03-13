@@ -77,18 +77,18 @@ p6_return_aws_logical_id() {
 ######################################################################
 #<
 #
-# Function: obj cfg = p6_return_aws_cfg(cfg)
+# Function: str profile = p6_return_aws_profile(profile)
 #
 #  Args:
-#	cfg -
+#	profile -
 #
 #  Returns:
-#	obj - cfg
+#	str - profile
 #
 #>
 ######################################################################
-p6_return_aws_cfg() {
-    local cfg="$1"
+p6_return_aws_profile() {
+    local profile="$1"
 
-    p6_return_obj "$cfg"
+    p6_return_str "$profile"
 }
