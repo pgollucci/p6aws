@@ -52,7 +52,7 @@
 
 #### alfred/util.sh:
 
-- p6_aws_alfred_browser_console()
+- p6_aws_alfred_browser_console(pfunc)
 - p6_aws_alfred_private_bastion(pfunc)
 - p6_aws_alfred_public_bastion(pfunc)
 - str json = p6_aws_alfred_list()
@@ -280,18 +280,23 @@
 
 - p6_aws_svc_ec2_launch_templates_list()
 
+#### svc/ec2/nat.sh:
+
+- p6_aws_svc_ec2_nat_gateway_show([vpc_id=$AWS_VPC_ID])
+
 #### svc/ec2/network.sh:
 
-- p6_aws_svc_ec2_eni_list([vpc_id=$AWS_VPC_ID])
-- p6_aws_svc_ec2_nat_gateway_show([vpc_id=$AWS_VPC_ID])
+- p6_aws_svc_ec2_network_int_list([vpc_id=$AWS_VPC_ID])
+
+#### svc/ec2/region.sh:
+
 - p6_aws_svc_ec2_regions_iterator()
 - p6_aws_svc_ec2_regions_list()
+
+#### svc/ec2/rtb.sh:
+
 - p6_aws_svc_ec2_rtb_show(rtb_id, [vpc_id=$AWS_VPC_ID])
 - p6_aws_svc_ec2_rtbs_list([vpc_id=$AWS_VPC_ID])
-- p6_aws_svc_ec2_subnet_get(subnet_type, [vpc_id=$AWS_VPC_ID])
-- p6_aws_svc_ec2_subnets_list([vpc_id=$AWS_VPC_ID])
-- p6_aws_svc_ec2_vpcs_list()
-- words subnet_ids = p6_aws_svc_ec2_subnet_ids_get(subnet_type, [vpc_id=$AWS_VPC_ID])
 
 #### svc/ec2/sg.sh:
 
@@ -299,6 +304,12 @@
 - p6_aws_svc_ec2_sg_show(security_group_id_or_name, [vpc_id=$AWS_VPC_ID])
 - p6_aws_svc_ec2_sgs_list([vpc_id=$AWS_VPC_ID])
 - p6_old_aws_svc_ec2_sg_id_from_group_name(group_name, [vpc_id=$AWS_VPC_ID])
+
+#### svc/ec2/subnet.sh:
+
+- p6_aws_svc_ec2_subnet_get(subnet_type, [vpc_id=$AWS_VPC_ID])
+- p6_aws_svc_ec2_subnets_list([vpc_id=$AWS_VPC_ID])
+- words subnet_ids = p6_aws_svc_ec2_subnet_ids_get(subnet_type, [vpc_id=$AWS_VPC_ID])
 
 #### svc/ec2/tgw.sh:
 
@@ -310,6 +321,10 @@
 #### svc/ec2/volume.sh:
 
 - p6_aws_svc_ec2_volumes_list()
+
+#### svc/ec2/vpc.sh:
+
+- p6_aws_svc_ec2_vpcs_list()
 
 
 ### svc/ec2instanceconnect:
@@ -482,6 +497,7 @@
 #### svc/sts/identity.sh:
 
 - p6_aws_svc_sts_whoami()
+- str login_url = p6_aws_svc_sts_identity_broker_custom_login_url(cred_file)
 
 #### svc/sts/prompt.sh:
 
@@ -571,10 +587,15 @@
 │   │   ├── instance.sh
 │   │   ├── key_pair.sh
 │   │   ├── lt.sh
+│   │   ├── nat.sh
 │   │   ├── network.sh
+│   │   ├── region.sh
+│   │   ├── rtb.sh
 │   │   ├── sg.sh
+│   │   ├── subnet.sh
 │   │   ├── tgw.sh
-│   │   └── volume.sh
+│   │   ├── volume.sh
+│   │   └── vpc.sh
 │   ├── ec2instanceconnect
 │   │   └── util.sh
 │   ├── eks
@@ -624,7 +645,7 @@
     ├── p6_return.sh
     └── template.sh
 
-32 directories, 68 files
+32 directories, 73 files
 ```
 ## Author
 
