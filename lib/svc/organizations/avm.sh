@@ -1,28 +1,27 @@
 ######################################################################
 #<
 #
-# Function: aws_account_id account_id = p6_aws_svc_organizations_avm_account_create(account_name, account_email, account_name, account_email)
+# Function: aws_account_id account_id = p6_aws_svc_organizations_avm_account_create(account_alias, account_email)
 #
 #  Args:
-#	account_name -
-#	account_email -
-#	account_name -
+#	account_alias -
 #	account_email -
 #
 #  Returns:
 #	aws_account_id - account_id
-#	str - car_id
 #
 #>
 ######################################################################
 p6_aws_svc_organizations_avm_account_create() {
-    local account_name="$1"
+    local account_alias="$1"
     local account_email="$2"
 
-    local cas_id=$(p6_aws_svc_organizations_account_create "$account_email" "$account_alias")
+    local cas_id
+    cas_id=$(p6_aws_svc_organizations_account_create "$account_email" "$account_alias")
     p6_aws_svc_organizations_account_wait_for "$cas_id"
 
-    local account_id=$(p6_aws_svc_organizations_account_id_from_name "$account_alias")
+    local account_id
+    account_id=$(p6_aws_svc_organizations_account_id_from_alias "$account_alias")
 
     p6_return_aws_account_id "$account_id"
 }
@@ -71,37 +70,6 @@ p6_aws_svc_organizations_avm_account_create_stop() {
     [ x"$status" = x"ACTIVE" ] && break
 
     # continue
-}
-
-######################################################################
-#<
-#
-# Function: aws_account_id account_id = p6_aws_svc_organizations_avm_account_create(account_name, account_email, account_name, account_email)
-#
-#  Args:
-#	account_name -
-#	account_email -
-#	account_name -
-#	account_email -
-#
-#  Returns:
-#	aws_account_id - account_id
-#	str - car_id
-#
-#>
-######################################################################
-p6_aws_svc_organizations_avm_account_create() {
-    local account_name="$1"
-    local account_email="$2"
-
-    local car_id=$(
-        p6_aws_cli_cmd organizations create-account \
-            "$account_email" "$account_name" \
-            --output text \
-            --query "CreateAccountStattus.Id"
-    )
-
-    p6_return_str "$car_id"
 }
 
 ######################################################################
