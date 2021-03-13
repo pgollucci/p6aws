@@ -14,7 +14,7 @@ p6_aws_cli_organization_activate() {
 
 	p6_aws_cfg_reset
 	p6_aws_env_org_active "$org"
-	p6_aws_cli_shortcuts_activate "$org"
+	p6_aws_cli_shortcuts_activate "$org" >/dev/null
 
 	p6_return_void
 }

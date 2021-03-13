@@ -21,3 +21,23 @@ p6_aws_profile_config_add() {
 
     p6_return_void
 }
+
+######################################################################
+#<
+#
+# Function: words profiles = p6_aws_profile_config_list()
+#
+#  Returns:
+#	words - profiles
+#
+#>
+######################################################################
+p6_aws_profile_config_list() {
+
+    local conf_file
+    conf_file=$(p6_aws_env_config_file_active)
+
+    profiles=$(grep '^\[' "$conf_file" | sed -e 's,\[profile ,,' -e 's,\],,' | grep -v default | sort)
+
+    p6_return_words "$profiles"
+}
