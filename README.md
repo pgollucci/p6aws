@@ -479,16 +479,9 @@
 
 ### svc/sts:
 
-#### svc/sts/login.sh:
+#### svc/sts/identity.sh:
 
-- p6_aws_svc_sts_login(login, [account_alias=$AWS_ORG], [org=$AWS_ORG], [auth_type=saml])
-- str role_arn = p6_aws_svc_sts_role_assume_saml(auth, assertion64)
-
-#### svc/sts/other.sh:
-
-- obj role = p6_aws_svc_sts_assertion_decode(assertion64)
 - p6_aws_svc_sts_whoami()
-- str assertion64 = p6_aws_svc_sts_login_saml(auth)
 
 #### svc/sts/prompt.sh:
 
@@ -620,8 +613,7 @@
 │   │   └── main.sh
 │   └── sts
 │       ├── debug.sh
-│       ├── login.sh
-│       ├── other.sh
+│       ├── identity.sh
 │       ├── prompt.sh
 │       └── role.sh
 └── util
@@ -630,7 +622,7 @@
     ├── p6_return.sh
     └── template.sh
 
-32 directories, 69 files
+32 directories, 68 files
 ```
 ## Author
 
