@@ -2,6 +2,47 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.1](https://github.com/p6m7g8/p6aws/compare/v2.1.0...v2.1.1) (2021-03-13)
+
+
+### Features
+
+* **api:** adds transit gateway initial readers ([b8fc34a](https://github.com/p6m7g8/p6aws/commit/b8fc34a9cb116fc69d7cda09b440984707327038))
+* **api:** convets to aws-vault from p6 obj ([3aac8fb](https://github.com/p6m7g8/p6aws/commit/3aac8fbcd6589abb3dff06d43f748da1e7046ee7))
+* **api:** returns built in aws func generation ([#50](https://github.com/p6m7g8/p6aws/issues/50)) ([fdf6b5a](https://github.com/p6m7g8/p6aws/commit/fdf6b5ae63ac9f7540daf91f22a13bad03a592e0))
+
+
+### Bug Fixes
+
+* **api:** fixes typo in p6_aws_organizations_svc_accounts_list() aws api cli call ([#49](https://github.com/p6m7g8/p6aws/issues/49)) ([5fe0e15](https://github.com/p6m7g8/p6aws/commit/5fe0e150af176034a6d48feedfb6776e231ff2c0))
+* **ssh:** minimizes output; modernizes alfred integration for ssh w/ mssh ([#51](https://github.com/p6m7g8/p6aws/issues/51)) ([944c03e](https://github.com/p6m7g8/p6aws/commit/944c03e97a5f91c4b4e05fe3462b5e3012945882))
+
+
+* **alfred:** returns `talb` ([#69](https://github.com/p6m7g8/p6aws/issues/69)) ([26be689](https://github.com/p6m7g8/p6aws/commit/26be689158e14c8931eb952087137bf1e17d1dad))
+* **alfred:** returns private_bastion ([#70](https://github.com/p6m7g8/p6aws/issues/70)) ([57630de](https://github.com/p6m7g8/p6aws/commit/57630ded44584a9b7474b71adbca428d1d7800d6))
+* **api:** big rename ([#62](https://github.com/p6m7g8/p6aws/issues/62)) ([ba12d73](https://github.com/p6m7g8/p6aws/commit/ba12d7360e242f211f824fec273707f58336fef6))
+* **api:** more renames ([#61](https://github.com/p6m7g8/p6aws/issues/61)) ([4cd1446](https://github.com/p6m7g8/p6aws/commit/4cd1446b6ef8bd3eed5891b337ec535820cbc2dc))
+* **api:** p6_aws_cmd -> p6_aws_cli_cmd ([#64](https://github.com/p6m7g8/p6aws/issues/64)) ([552d6da](https://github.com/p6m7g8/p6aws/commit/552d6dac8e119befceccadd8791efde3bacea2e7))
+* **api:** rename foo_svc to svc_foo ([#59](https://github.com/p6m7g8/p6aws/issues/59)) ([3dbecfb](https://github.com/p6m7g8/p6aws/commit/3dbecfbc66c0e95e41c483e745dba5dc1a67f554))
+* **api:** ssh is not an aws svc ([#60](https://github.com/p6m7g8/p6aws/issues/60)) ([9bfd505](https://github.com/p6m7g8/p6aws/commit/9bfd505537e6535b4856aa487094e5b35c4e81c5))
+* **api:** whoami works again ([#63](https://github.com/p6m7g8/p6aws/issues/63)) ([8910c7d](https://github.com/p6m7g8/p6aws/commit/8910c7d9058f7f22e381598c54fcc9d5e4817d0f))
+* **cfg:** split cfg up ([#56](https://github.com/p6m7g8/p6aws/issues/56)) ([b9dce9d](https://github.com/p6m7g8/p6aws/commit/b9dce9d8d364cfea70e3f88e1cbf81144be03a9f))
+* **doc:** fix env_* signatures to be optional ([#55](https://github.com/p6m7g8/p6aws/issues/55)) ([09f2eeb](https://github.com/p6m7g8/p6aws/commit/09f2eeb7980339e8f0da21acfc75a67317a276c9))
+* **docs:** updates template source ([#52](https://github.com/p6m7g8/p6aws/issues/52)) ([d02f84a](https://github.com/p6m7g8/p6aws/commit/d02f84a762372b2641ef28e103dd2af88112a47e))
+* **env:** split up by kind ([#54](https://github.com/p6m7g8/p6aws/issues/54)) ([34e2338](https://github.com/p6m7g8/p6aws/commit/34e23380afd66cfc4fbb6275f8b90cc98ac32a80))
+* **heir:** deblobalize, move p6_aws_cfg_filter_secret ([#57](https://github.com/p6m7g8/p6aws/issues/57)) ([8ede5eb](https://github.com/p6m7g8/p6aws/commit/8ede5eb7d34dc9d391a86dcd5abaece136b56232))
+* **heir:** more splits, renames ([#58](https://github.com/p6m7g8/p6aws/issues/58)) ([2e594b2](https://github.com/p6m7g8/p6aws/commit/2e594b28e9ee794efb717d6bef678f3ceb6fa6b9))
+* **hier:** shuffles files ([#53](https://github.com/p6m7g8/p6aws/issues/53)) ([f24e5f3](https://github.com/p6m7g8/p6aws/commit/f24e5f3af3c0695abedbe0741699c5937ec4b6ec))
+* **organizations:** api renames, add federation ([#73](https://github.com/p6m7g8/p6aws/issues/73)) ([cdab9bd](https://github.com/p6m7g8/p6aws/commit/cdab9bdf22b8cf9c9766b06e52501b80017ad93b))
+* **organizations:** returns sts/su ([#66](https://github.com/p6m7g8/p6aws/issues/66)) ([da7b8ac](https://github.com/p6m7g8/p6aws/commit/da7b8ac429dbddb0074a2533ac0db6604511f4f7))
+* **organizations:** sorts out avm/account from crud/util ([#67](https://github.com/p6m7g8/p6aws/issues/67)) ([b594de1](https://github.com/p6m7g8/p6aws/commit/b594de18e284fed62eb107a0dd16aa43fab48a64))
+* **organizations:** standardizes on `account_alias` ([#71](https://github.com/p6m7g8/p6aws/issues/71)) ([c9a5cdf](https://github.com/p6m7g8/p6aws/commit/c9a5cdfca8fd6b93f1a090817f3fb24fbfe6bd1e))
+* **ssh:** returns and splits ssh ([#68](https://github.com/p6m7g8/p6aws/issues/68)) ([9b0fdfd](https://github.com/p6m7g8/p6aws/commit/9b0fdfdbe1c41525ca1a37fd4e52029f4538a5d4))
+* **sso:** droping jump cloud ([#72](https://github.com/p6m7g8/p6aws/issues/72)) ([023f3e6](https://github.com/p6m7g8/p6aws/commit/023f3e60de454406a8c0ce2656daa0466ad3c1b3))
+* **sts:** returns assume/unassume role ([#65](https://github.com/p6m7g8/p6aws/issues/65)) ([2f5cf44](https://github.com/p6m7g8/p6aws/commit/2f5cf44fe422fe6c693da78ec10104cda66f3202))
+* **ws:** indents ([198fb4b](https://github.com/p6m7g8/p6aws/commit/198fb4bf4a2ffc82fdebd8fe18fbbc6ab33466ee))
+* Coc -> .github ([6c7ccd2](https://github.com/p6m7g8/p6aws/commit/6c7ccd2f80b7ec1c32b8fbced9b4d24638109dd8))
+
 ## [2.1.0](https://github.com/p6m7g8/p6aws/compare/v2.0.0...v2.1.0) (2020-12-06)
 
 
