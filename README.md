@@ -490,7 +490,9 @@
 #### svc/sts/role.sh:
 
 - p6_aws_svc_sts_role_assume(role_arn, role_session_name)
-- p6_aws_svc_sts_role_unassume()
+- p6_aws_svc_sts_role_assume_un()
+- p6_aws_svc_sts_role_credentials_activate(json, role_arn, role_session_name, type)
+- p6_aws_svc_sts_role_federation_assume(profile)
 
 
 ### util:
