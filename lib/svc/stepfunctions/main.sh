@@ -7,7 +7,7 @@
 ######################################################################
 p6_aws_svc_stepfunctions_list() {
 
-    p6_aws_cmd stepfunctions list-state-machines \
+    p6_aws_cli_cmd stepfunctions list-state-machines \
 	       --output text \
 	       "$@"
 }
@@ -30,7 +30,7 @@ p6_aws_svc_stepfunctions_state_machine_show() {
     local dir=$(p6_transient_create "aws.stepfunctions")
     local outfile="$dir/outfile"
 
-    p6_aws_cmd stepfunctions describe-state-machine \
+    p6_aws_cli_cmd stepfunctions describe-state-machine \
 	       --output json \
 	       $state_machine \
 	       "$@" > $dir/response

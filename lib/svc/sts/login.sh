@@ -73,7 +73,7 @@ p6_aws_svc_sts_role_assume_saml() {
     local principal_arn=$(p6_obj_item_get "$role" "principal_arn")
 
     local json_role_file=$(p6_transient_create_file "assume.json")
-    p6_aws_cmd sts assume-role-with-saml --role-arn "$role_arn" --principal-arn "$principal_arn" --saml-assertion "$assertion64" > $json_role_file
+    p6_aws_cli_cmd sts assume-role-with-saml --role-arn "$role_arn" --principal-arn "$principal_arn" --saml-assertion "$assertion64" > $json_role_file
 
     local creds=$(p6_aws_svc_sts_json_role_load "$json_role_file")
 

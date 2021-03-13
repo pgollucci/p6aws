@@ -22,7 +22,7 @@ p6_aws_svc_iam_role_saml_create() {
 
     local assume_role_policy_document=$(p6_aws_svc_iam_policy_saml "$account_id" "$provider")
     p6_aws_svc_iam_role_create "$role_path/" "$role_name" "$assume_role_policy_document"
-    p6_aws_cmd iam attach-role-policy "$role_name" "$policy_arn"
+    p6_aws_cli_cmd iam attach-role-policy "$role_name" "$policy_arn"
 
     # XXX: return
 }
@@ -36,7 +36,7 @@ p6_aws_svc_iam_role_saml_create() {
 ######################################################################
 p6_aws_svc_iam_password_policy_default() {
 
-    p6_aws_cmd iam update-account-password-policy \
+    p6_aws_cli_cmd iam update-account-password-policy \
                --minimum-password-length 12 \
                --require-symbols \
                --require-numbers \

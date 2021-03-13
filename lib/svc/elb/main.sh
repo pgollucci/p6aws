@@ -9,7 +9,7 @@ p6_aws_svc_elb_list() {
 
     local tag_name=$(p6_aws_cli_jq_tag_name_get)
 
-    p6_aws_cmd elb describe-load-balancers \
+    p6_aws_cli_cmd elb describe-load-balancers \
 	       --output text \
 	       --query "'LoadBalancerDescriptions[].[Scheme, LoadBalancerName, join(\`,\`, Subnets[]), join(\`,\`, AvailabilityZones[]), join(\`,\`, SecurityGroups[]), join(\`,\`,Instances[].InstanceId), $tag_name]'"
 }
@@ -79,7 +79,7 @@ p6_aws_svc_elb_create() {
     esac
     # done
 
-    p6_aws_cmd elb create-load-balancer "$elb_name" "'$listener'" --subnets $subnet_ids
+    p6_aws_cli_cmd elb create-load-balancer "$elb_name" "'$listener'" --subnets $subnet_ids
 
     # XXX: tags
 

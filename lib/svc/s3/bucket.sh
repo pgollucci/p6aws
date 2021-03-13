@@ -7,7 +7,7 @@
 ######################################################################
 p6_aws_svc_s3_buckets_list() {
 
-    p6_aws_cmd s3 ls "$@"
+    p6_aws_cli_cmd s3 ls "$@"
 }
 
 ######################################################################
@@ -35,5 +35,5 @@ p6_aws_svc_s3_bucket_list() {
 ######################################################################
 p6_aws_svc_s3_bucket_policy() {
 
-    p6_aws_cmd s3api get-bucket-policy "$@"
+    p6_aws_cli_cmd s3api get-bucket-policy "$@"
 }
