@@ -67,7 +67,7 @@
 
 #### cfg/vars.sh:
 
-- code rc = p6_aws_cfg_filter_secret(val)
+- code rc = p6_aws_cfg_vars_filter_secret(val)
 - words env_vars = p6_aws_cfg_vars()
 - words env_vars = p6_aws_cfg_vars_config()
 - words env_vars = p6_aws_cfg_vars_min()
@@ -78,9 +78,14 @@
 
 #### cli/cli.sh:
 
-- code rc = p6_aws_cmd(service, cmd, ...)
+- code rc = p6_aws_cli_cmd(service, cmd, ...)
 - p6_aws_cli_qload(dir)
 - str str = p6_aws_cli_jq_tag_name_get()
+
+#### cli/organizations.sh:
+
+- p6_aws_cli_organization_activate(org)
+- p6_aws_cli_organization_deactivate(org)
 
 #### cli/prompt.sh:
 
@@ -88,73 +93,81 @@
 
 #### cli/shortcuts.sh:
 
-- p6_aws_shortcuts_gen(cred_file)
-- p6_aws_shortcuts_ungen(org)
-- str fn_profile = p6_aws_shortcuts_profile_to_fn(profile)
-- str prefix = p6_aws_shortcuts_prefix()
+- p6_aws_cli_shortcuts_activate(org)
+- p6_aws_cli_shortcuts_gen_un(org)
+- str func = p6_aws_cli_shortcuts_generate_one(profile)
+- str prefix = p6_aws_cli_shortcuts_prefix()
+- str shell_function_name = p6_aws_shortcuts_profile_to_shell_function_name(profile)
 
 
 ### env:
 
 #### env/active.sh:
 
-- str old = p6_aws_cfg_env_access_key_id_active([val=])
-- str old = p6_aws_cfg_env_ca_bundle_active([val=])
-- str old = p6_aws_cfg_env_config_file_active([val=])
-- str old = p6_aws_cfg_env_default_profile_active([val=])
-- str old = p6_aws_cfg_env_default_region_active([val=])
-- str old = p6_aws_cfg_env_env_active([val=])
-- str old = p6_aws_cfg_env_env_tag_active([val=])
-- str old = p6_aws_cfg_env_metadata_service_num_attempts_active([val=])
-- str old = p6_aws_cfg_env_metadata_service_timeout_active([val=])
-- str old = p6_aws_cfg_env_org_active([val=])
-- str old = p6_aws_cfg_env_output_active([val=])
-- str old = p6_aws_cfg_env_profile_active([val=])
-- str old = p6_aws_cfg_env_region_active([val=])
-- str old = p6_aws_cfg_env_secret_access_key_active([val=])
-- str old = p6_aws_cfg_env_session_token_active([val=])
-- str old = p6_aws_cfg_env_shared_credentials_file_active([val=])
-- str old = p6_aws_cfg_env_vpc_id_active([val=])
+- str old = p6_aws_env_access_key_id_active([val=])
+- str old = p6_aws_env_ca_bundle_active([val=])
+- str old = p6_aws_env_config_file_active([val=])
+- str old = p6_aws_env_default_profile_active([val=])
+- str old = p6_aws_env_default_region_active([val=])
+- str old = p6_aws_env_env_active([val=])
+- str old = p6_aws_env_env_tag_active([val=])
+- str old = p6_aws_env_metadata_service_num_attempts_active([val=])
+- str old = p6_aws_env_metadata_service_timeout_active([val=])
+- str old = p6_aws_env_org_active([val=])
+- str old = p6_aws_env_output_active([val=])
+- str old = p6_aws_env_profile_active([val=])
+- str old = p6_aws_env_region_active([val=])
+- str old = p6_aws_env_secret_access_key_active([val=])
+- str old = p6_aws_env_session_token_active([val=])
+- str old = p6_aws_env_shared_credentials_file_active([val=])
+- str old = p6_aws_env_vpc_id_active([val=])
 
 #### env/saved.sh:
 
-- str old = p6_aws_cfg_env_access_key_id_saved([val=])
-- str old = p6_aws_cfg_env_ca_bundle_saved([val=])
-- str old = p6_aws_cfg_env_config_file_saved([val=])
-- str old = p6_aws_cfg_env_default_profile_saved([val=])
-- str old = p6_aws_cfg_env_default_region_saved([val=])
-- str old = p6_aws_cfg_env_env_saved([val=])
-- str old = p6_aws_cfg_env_env_tag_saved([val=])
-- str old = p6_aws_cfg_env_metadata_service_num_attempts_saved([val=])
-- str old = p6_aws_cfg_env_metadata_service_timeout_saved([val=])
-- str old = p6_aws_cfg_env_org_saved([val=])
-- str old = p6_aws_cfg_env_output_saved([val=])
-- str old = p6_aws_cfg_env_profile_saved([val=])
-- str old = p6_aws_cfg_env_region_saved([val=])
-- str old = p6_aws_cfg_env_secret_access_key_saved([val=])
-- str old = p6_aws_cfg_env_session_token_saved([val=])
-- str old = p6_aws_cfg_env_shared_credentials_file_saved([val=])
-- str old = p6_aws_cfg_env_vpc_id_saved([val=])
+- str old = p6_aws_env_access_key_id_saved([val=])
+- str old = p6_aws_env_ca_bundle_saved([val=])
+- str old = p6_aws_env_config_file_saved([val=])
+- str old = p6_aws_env_default_profile_saved([val=])
+- str old = p6_aws_env_default_region_saved([val=])
+- str old = p6_aws_env_env_saved([val=])
+- str old = p6_aws_env_env_tag_saved([val=])
+- str old = p6_aws_env_metadata_service_num_attempts_saved([val=])
+- str old = p6_aws_env_metadata_service_timeout_saved([val=])
+- str old = p6_aws_env_org_saved([val=])
+- str old = p6_aws_env_output_saved([val=])
+- str old = p6_aws_env_profile_saved([val=])
+- str old = p6_aws_env_region_saved([val=])
+- str old = p6_aws_env_secret_access_key_saved([val=])
+- str old = p6_aws_env_session_token_saved([val=])
+- str old = p6_aws_env_shared_credentials_file_saved([val=])
+- str old = p6_aws_env_vpc_id_saved([val=])
 
 #### env/source.sh:
 
-- str old = p6_aws_cfg_env_access_key_id_source([val=])
-- str old = p6_aws_cfg_env_ca_bundle_source([val=])
-- str old = p6_aws_cfg_env_config_file_source([val=])
-- str old = p6_aws_cfg_env_default_profile_source([val=])
-- str old = p6_aws_cfg_env_default_region_source([val=])
-- str old = p6_aws_cfg_env_env_source([val=])
-- str old = p6_aws_cfg_env_env_tag_source([val=])
-- str old = p6_aws_cfg_env_metadata_service_num_attempts_source([val=])
-- str old = p6_aws_cfg_env_metadata_service_timeout_source([val=])
-- str old = p6_aws_cfg_env_org_source([val=])
-- str old = p6_aws_cfg_env_output_source([val=])
-- str old = p6_aws_cfg_env_profile_source([val=])
-- str old = p6_aws_cfg_env_region_source([val=])
-- str old = p6_aws_cfg_env_secret_access_key_source([val=])
-- str old = p6_aws_cfg_env_session_token_source([val=])
-- str old = p6_aws_cfg_env_shared_credentials_file_source([val=])
-- str old = p6_aws_cfg_env_vpc_id_source([val=])
+- str old = p6_aws_env_access_key_id_source([val=])
+- str old = p6_aws_env_ca_bundle_source([val=])
+- str old = p6_aws_env_config_file_source([val=])
+- str old = p6_aws_env_default_profile_source([val=])
+- str old = p6_aws_env_default_region_source([val=])
+- str old = p6_aws_env_env_source([val=])
+- str old = p6_aws_env_env_tag_source([val=])
+- str old = p6_aws_env_metadata_service_num_attempts_source([val=])
+- str old = p6_aws_env_metadata_service_timeout_source([val=])
+- str old = p6_aws_env_org_source([val=])
+- str old = p6_aws_env_output_source([val=])
+- str old = p6_aws_env_profile_source([val=])
+- str old = p6_aws_env_region_source([val=])
+- str old = p6_aws_env_secret_access_key_source([val=])
+- str old = p6_aws_env_session_token_source([val=])
+- str old = p6_aws_env_shared_credentials_file_source([val=])
+- str old = p6_aws_env_vpc_id_source([val=])
+
+
+### profile:
+
+#### profile/config.sh:
+
+- p6_aws_profile_config_add()
 
 
 ### ssh:
@@ -478,12 +491,21 @@
 
 ### util:
 
+#### util/env.sh:
+
+- p6_aws_util_env_org([val=$P6_AWS_ORG])
+- p6_aws_util_env_output([val=json])
+- p6_aws_util_env_profile([val=])
+- p6_aws_util_env_region([val=us-east-1])
+- str config_file = p6_aws_util_env_config_file([org=])
+- str cred_file = p6_aws_util_env_shared_credentials_file([org=])
+
 #### util/p6_return.sh:
 
-- obj cfg = p6_return_aws_cfg(cfg)
 - str account_id = p6_return_aws_account_id(account_id)
 - str arn = p6_return_aws_arn(arn)
 - str logical_id = p6_return_aws_logical_id(logical_id)
+- str profile = p6_return_aws_profile(profile)
 - str resource_id = p6_return_aws_resource_id(resource_id)
 
 #### util/template.sh:
@@ -506,12 +528,16 @@
 ├── cli
 │   ├── cli.sh
 │   ├── debug.sh
+│   ├── organizations.sh
 │   ├── prompt.sh
 │   └── shortcuts.sh
 ├── env
 │   ├── active.sh
 │   ├── saved.sh
 │   └── source.sh
+├── profile
+│   ├── config.sh
+│   └── debug.sh
 ├── ssh
 │   └── do.sh
 ├── svc
@@ -586,10 +612,11 @@
 │       └── util.sh
 └── util
     ├── debug.sh
+    ├── env.sh
     ├── p6_return.sh
     └── template.sh
 
-30 directories, 63 files
+31 directories, 67 files
 ```
 ## Author
 
