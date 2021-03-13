@@ -13,19 +13,28 @@ p6_aws_cfg_restore__from() {
 
     local kv
     for kv in $(p6_aws_cfg_show | grep "_${kind}"); do
-        local var=$(echo "$kv" | cut -d = -f 1)
+        local var
+        local var_lc
+        local fname_all
+        local fname
+        local func
+        local val
+        local func_active
 
-        local var_lc=$(p6_string_lc "$var")
-        local fname_all=$(p6_string_replace "$var_lc" "aws_" "")
-        local fname=$(p6_string_replace "$fname_all" "_${kind}" "")
+        var=$(p6_echo "$kv" | cut -d = -f 1)
 
-        local func="p6_aws_cfg_env_${fname}_${kind}"
-        local val=$(p6_run_code "$func")
+        var_lc=$(p6_string_lc "$var")
+        fname_all=$(p6_string_replace "$var_lc" "aws_" "")
+        fname=$(p6_string_replace "$fname_all" "_${kind}" "")
+        func="p6_aws_env_${fname}_${kind}"
 
-        local func_active="p6_aws_cfg_env_${fname}_active"
+        val=$(p6_run_code "$func")
+
+        func_active="p6_aws_env_${fname}_active"
+
         p6_run_code "$func_active \"$val\""
 
-        p6_env_export_un "$kv"
+        p6_env_export_un "$var"
     done
 
     p6_return_void
@@ -51,10 +60,10 @@ p6_aws_cfg__copy() {
         local var_lc=$(p6_string_lc "$var")
         local fname=$(p6_string_replace "$var_lc" "aws_" "")
 
-        local func_from="p6_aws_cfg_env_${fname}_${kind_from}"
+        local func_from="p6_aws_env_${fname}_${kind_from}"
         local val=$(p6_run_code "$func_from")
 
-        local func_to="p6_aws_cfg_env_${fname}_${kind_to}"
+        local func_to="p6_aws_env_${fname}_${kind_to}"
         p6_aws_cfg__debug "__copy(): [from=$func_from] -> [to=$func_to]"
 
         p6_run_code "$func_to \"$val\""
