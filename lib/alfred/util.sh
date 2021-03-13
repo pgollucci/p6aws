@@ -34,15 +34,31 @@ p6_aws_alfred_list() {
 ######################################################################
 #<
 #
-# Function: p6_aws_alfred_connect_public_bastion(pfunc)
+# Function: p6_aws_alfred_public_bastion(pfunc)
 #
 #  Args:
 #	pfunc -
 #
 #>
 ######################################################################
-p6_aws_alfred_connect_public_bastion() {
+p6_aws_alfred_public_bastion() {
     local pfunc="$1"
 
     p6_macosx_ssh_do "Bastion" "public" "$pfunc"
+}
+
+######################################################################
+#<
+#
+# Function: p6_aws_alfred_private_bastion(pfunc)
+#
+#  Args:
+#	pfunc -
+#
+#>
+######################################################################
+p6_aws_alfred_private_bastion() {
+    local pfunc="$1"
+
+    p6_macosx_ssh_do "PrivateHost" "jump" "$pfunc"
 }

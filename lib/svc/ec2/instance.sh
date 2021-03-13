@@ -114,3 +114,28 @@ p6_aws_svc_ec2_instance_public_ip() {
 
     p6_return_str "$public_ip"
 }
+
+######################################################################
+#<
+#
+# Function: str az = p6_aws_svc_ec2_availability_zone(instance_id)
+#
+#  Args:
+#	instance_id -
+#
+#  Returns:
+#	str - az
+#
+#>
+######################################################################
+p6_aws_svc_ec2_availability_zone() {
+    local instance_id="$1"
+
+    local az
+    az=$(p6_aws_cli_cmd ec2 describe-instances \
+        --output text \
+        --instance-ids "$instance_id" \
+        --query "'Reservations[0].Instances[0].Placement.AvailabilityZone'")
+
+    p6_return_str "$az"
+}
