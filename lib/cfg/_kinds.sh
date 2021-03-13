@@ -35,7 +35,7 @@ p6_aws_cfg_restore__from() {
         p6_run_code "$func_active \"$val\""
 
         p6_env_export_un "$var"
-    done
+    done >/dev/null
 
     p6_return_void
 }

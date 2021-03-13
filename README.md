@@ -400,9 +400,9 @@
 
 #### svc/organizations/sts.sh:
 
-- p6_aws_svc_organizations_run_as()
-- p6_aws_svc_organizations_su(account_name)
-- p6_aws_svc_organizations_su_un()
+- p6_aws_svc_organizations_sts_run_as(account_name, ...)
+- p6_aws_svc_organizations_sts_su(account_name)
+- p6_aws_svc_organizations_sts_su_un()
 
 #### svc/organizations/util.sh:
 
