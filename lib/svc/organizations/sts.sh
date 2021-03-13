@@ -24,7 +24,7 @@ p6_aws_svc_organizations_sts_su() {
   local account_name="$1"
 
   local account_id
-  account_id=$(p6_aws_svc_organizations_account_id_from_name "$account_name")
+  account_id=$(p6_aws_svc_organizations_account_id_from_account_name "$account_name")
 
   local new_arn
   new_arn="arn:aws:iam::${account_id}:role/OrganizationAccountAccessRole"
@@ -40,7 +40,7 @@ p6_aws_svc_organizations_sts_su() {
 #
 #  Args:
 #	account_name -
-#	... -
+#	... - 
 #
 #>
 ######################################################################
