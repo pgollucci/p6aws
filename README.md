@@ -176,9 +176,11 @@
 
 ### ssh:
 
-#### ssh/do.sh:
+#### ssh/connect.sh:
 
-- p6_aws_ssh_do(tag, type)
+- p6_aws_ssh_connect_jump(tag)
+- p6_aws_ssh_connect_private(tag)
+- p6_aws_ssh_connect_public()
 
 
 ### svc/autoscaling:
@@ -533,7 +535,7 @@
 │   ├── cred.sh
 │   └── debug.sh
 ├── ssh
-│   └── do.sh
+│   └── connect.sh
 ├── svc
 │   ├── autoscaling
 │   │   ├── _lc.sh
