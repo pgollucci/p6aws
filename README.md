@@ -388,25 +388,24 @@
 
 ### svc/organizations:
 
-#### svc/organizations/crud.sh:
+#### svc/organizations/account.sh:
 
-- aws_account_id account_id = p6_aws_svc_organizations_account_create(account_name, account_email, account_name, account_email)
-- aws_account_id account_id = p6_aws_svc_organizations_account_create(account_name, account_email, account_name, account_email)
-- aws_account_id account_id = p6_aws_svc_organizations_account_id_from_name(account_name)
-- bool bool = p6_aws_svc_organizations_account_wait_for(cas_id)
-- p6_aws_svc_organizations_account_create_stop(status, cas_id)
+- aws_account_id new_account_id = p6_aws_svc_organizations_account_id_from_account_name(account_name)
 - p6_aws_svc_organizations_accounts_list()
-- str status = p6_aws_svc_organizations_account_create_status(car_id)
+
+#### svc/organizations/avm.sh:
+
+- aws_account_id account_id = p6_aws_svc_organizations_avm_account_create(account_name, account_email, account_name, account_email)
+- aws_account_id account_id = p6_aws_svc_organizations_avm_account_create(account_name, account_email, account_name, account_email)
+- bool bool = p6_aws_svc_organizations_avm_account_wait_for(cas_id)
+- p6_aws_svc_organizations_avm_account_create_stop(status, cas_id)
+- str status = p6_aws_svc_organizations_avm_account_create_status(car_id)
 
 #### svc/organizations/sts.sh:
 
 - p6_aws_svc_organizations_sts_run_as(account_name, ...)
 - p6_aws_svc_organizations_sts_su(account_name)
 - p6_aws_svc_organizations_sts_su_un()
-
-#### svc/organizations/util.sh:
-
-- p6_aws_svc_organizations_account_id_from_account_name(account_name)
 
 
 ### svc/s3:
@@ -583,9 +582,9 @@
 │   ├── lambda
 │   │   └── function.sh
 │   ├── organizations
-│   │   ├── crud.sh
-│   │   ├── sts.sh
-│   │   └── util.sh
+│   │   ├── account.sh
+│   │   ├── avm.sh
+│   │   └── sts.sh
 │   ├── s3
 │   │   └── bucket.sh
 │   ├── s3api
