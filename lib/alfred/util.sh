@@ -62,3 +62,14 @@ p6_aws_alfred_private_bastion() {
 
     p6_macosx_ssh_do "PrivateHost" "jump" "$pfunc"
 }
+
+######################################################################
+#<
+#
+# Function: p6_aws_alfred_browser_console()
+#
+#>
+######################################################################
+p6_aws_alfred_browser_console() {
+    true
+}
