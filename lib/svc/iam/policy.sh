@@ -89,7 +89,7 @@ p6_aws_svc_iam_policy_to_role() {
 
     local role_name=$(p6_uri_name "$role_full_path")
 
-    p6_aws_cmd iam attach-policy-role \
+    p6_aws_cli_cmd iam attach-policy-role \
 	       --role-name $role_name \
 	       --policy-arn $policy_arn
 
@@ -117,7 +117,7 @@ p6_aws_svc_iam_policy_create() {
     local policy_name=$(p6_uri_name "$policy_full_path")
 
     local policy_arn=$(
-	p6_aws_cmd iam create-policy \
+	p6_aws_cli_cmd iam create-policy \
 		   --output text \
 		   --path $policy_path/ \
 		   --policy-name $policy_name \

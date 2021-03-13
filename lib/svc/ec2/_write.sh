@@ -33,7 +33,7 @@ p6_aws_svc_ec2_launch_template_create () {
             "KEY_NAME=$key_name"
 	)
  
-	p6_aws_cmd ec2 create-launch-template "$lt_name" "'$launch_template_data'" --version-description "initial"
+	p6_aws_cli_cmd ec2 create-launch-template "$lt_name" "'$launch_template_data'" --version-description "initial"
 }
 
 ######################################################################
@@ -68,7 +68,7 @@ p6_aws_svc_ec2_instance_create () {
 
 	local instance_id
 	instance_id=$(
-        p6_aws_cmd ec2 run-instances \
+        p6_aws_cli_cmd ec2 run-instances \
             --output json \
             --key-name "$key_name" \
             --image-id "$ami_id" \
@@ -78,7 +78,7 @@ p6_aws_svc_ec2_instance_create () {
             "$user_data"
     	) 
 
-	p6_aws_cmd ec2 create-tags "$instance_id" "'Key=Name,Value=$name'"
+	p6_aws_cli_cmd ec2 create-tags "$instance_id" "'Key=Name,Value=$name'"
 
 	p6_return_str "$instance_id"
 }

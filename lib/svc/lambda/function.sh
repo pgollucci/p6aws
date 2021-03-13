@@ -7,7 +7,7 @@
 ######################################################################
 p6_aws_svc_lambda_list() {
 
-    p6_aws_cmd lambda list-functions \
+    p6_aws_cli_cmd lambda list-functions \
 	       --output text \
 	       --query "'Functions[*].[LastModified, Timeout, MemorySize, Runtime, FunctionName, Role, Description]'"
 }
@@ -30,7 +30,7 @@ p6_aws_svc_lambda_invoke() {
     local dir=$(p6_transient_create "aws.lambda")
     local outfile="$dir/outfile"
 
-    p6_aws_cmd lambda invoke \
+    p6_aws_cli_cmd lambda invoke \
 	       --function-name $function_name \
 	       --log-type Tail $outfile \
 	       "$@" \

@@ -15,7 +15,7 @@ p6_aws_svc_ec2_sg_delete() {
     local sg_id
     sg_id=$(p6_aws_svc_ec2_sg_id_from_group_name "$group_name")
 
-    p6_aws_cmd ec2 delete-security-group --group-id "$sg_id"
+    p6_aws_cli_cmd ec2 delete-security-group --group-id "$sg_id"
 }
 
 ######################################################################
@@ -40,9 +40,9 @@ p6_aws_svc_ec2_sg_create() {
 
     local group_name=$tag_name
     local sg_id
-    sg_id=$(p6_aws_cmd ec2 create-security-group "'$desc'" "'$group_name'" --vpc-id "$vpc_id" --output text)
+    sg_id=$(p6_aws_cli_cmd ec2 create-security-group "'$desc'" "'$group_name'" --vpc-id "$vpc_id" --output text)
 
-    p6_aws_cmd ec2 create-tags "$sg_id" "'Key=Name,Value=$tag_name'"
+    p6_aws_cli_cmd ec2 create-tags "$sg_id" "'Key=Name,Value=$tag_name'"
 
     p6_return_str "$sg_id"
 }
@@ -63,7 +63,7 @@ p6_aws_svc_ec2_sgs_list() {
     local tag_name
     tag_name=$(p6_aws_cli_jq_tag_name_get)
 
-    p6_aws_cmd ec2 describe-security-groups \
+    p6_aws_cli_cmd ec2 describe-security-groups \
         --output text \
         --filters "Name=vpc-id,Values=$vpc_id" \
         --query "'SecurityGroups[].[GroupId, GroupName, $tag_name]'"
@@ -114,7 +114,7 @@ p6_aws_svc_ec2_sg_id_from_tag_name() {
     local tag_name="$1"
     local vpc_id="${2:-$AWS_VPC_ID}"
 
-    p6_aws_cmd ec2 describe-security-group \
+    p6_aws_cli_cmd ec2 describe-security-group \
         --output text \
         --filters "'Name=tag:Name,Values=$tag_name,Name=vpc-id,Values=$vpc_id'" \
         --query "'SecurityGroups[].[GroupId]'" |
@@ -137,7 +137,7 @@ p6_old_aws_svc_ec2_sg_id_from_group_name() {
     local group_name="$1"
     local vpc_id="${2:-$AWS_VPC_ID}"
 
-    p6_aws_cmd ec2 describe-security-groups \
+    p6_aws_cli_cmd ec2 describe-security-groups \
         --output text \
         --filters "Name=group-name,Values=$group_name,Name=vpc-id,Values=$vpc_id" \
         --query "'SecurityGroups[].[GroupId]'"

@@ -11,7 +11,7 @@ p6_aws_svc_ec2_vpcs_list() {
     local tag_name
     tag_name=$(p6_aws_cli_jq_tag_name_get)
 
-    p6_aws_cmd ec2 describe-vpcs \
+    p6_aws_cli_cmd ec2 describe-vpcs \
         --output text \
         --filters "Name=isDefault,Values=false" \
         --query "'Vpcs[].[VpcId, CidrBlock, State, $tag_name]'"
@@ -80,7 +80,7 @@ p6_aws_svc_ec2_subnets_list() {
     local tag_name
     tag_name=$(p6_aws_cli_jq_tag_name_get)
 
-    p6_aws_cmd ec2 describe-subnets \
+    p6_aws_cli_cmd ec2 describe-subnets \
         --output text \
         --filters "Name=vpc-id,Values=$vpc_id" \
         --query "'Subnets[].[SubnetId, AvailabilityZone, CidrBlock, AvailableIpAddressCount, DefaultForAz, MapPublicIpOnLaunch, $tag_name]'"
@@ -104,13 +104,13 @@ p6_aws_svc_ec2_rtbs_list() {
     local tag_name
     tag_name=$(p6_aws_cli_jq_tag_name_get)
 
-    p6_aws_cmd "ec2" "describe-route-tables" \
+    p6_aws_cli_cmd "ec2" "describe-route-tables" \
         --output text \
         --filters "Name=vpc-id,Values=$vpc_id" \
         --query "'RouteTables[].[RouteTableId, Associations[0].SubnetId,Associations[0].RouteTableAssociationId, $tag_name]'"
 
     local rtb
-    for rtb in $(p6_aws_cmd ec2 describe-route-tables --output text --filters "Name=vpc-id,Values=$vpc_id" --query "'RouteTables[].[RouteTableId]'"); do
+    for rtb in $(p6_aws_cli_cmd ec2 describe-route-tables --output text --filters "Name=vpc-id,Values=$vpc_id" --query "'RouteTables[].[RouteTableId]'"); do
         p6_msg "=====> $rtb:"
         p6_aws_svc_ec2_rtb_show "$rtb"
     done
@@ -136,12 +136,12 @@ p6_aws_svc_ec2_rtb_show() {
     local tag_name
     tag_name=$(p6_aws_cli_jq_tag_name_get)
 
-    p6_aws_cmd ec2 describe-route-tables \
+    p6_aws_cli_cmd ec2 describe-route-tables \
         --output text \
         --filters "Name=vpc-id,Values=$vpc_id,Name=route-table-id,Values=$rtb_id" \
         --query "'RouteTables[].[RouteTableId, Associations[0].SubnetId,Associations[0].RouteTableAssociationId, $tag_name]'"
 
-    p6_aws_cmd ec2 describe-route-tables \
+    p6_aws_cli_cmd ec2 describe-route-tables \
         --output text \
         --filters "Name=route-table-id,Values=$rtb_id" \
         --query "'RouteTables[].[Routes[]]'"
@@ -162,7 +162,7 @@ p6_aws_svc_ec2_rtb_show() {
 p6_aws_svc_ec2_eni_list() {
     local vpc_id="${1:-$AWS_VPC_ID}"
 
-    p6_aws_cmd ec2 describe-network-interfaces \
+    p6_aws_cli_cmd ec2 describe-network-interfaces \
         --output text \
         --filters "Name=vpc-id,Values=$vpc_id" \
         --query "'NetworkInterfaces[].[NetworkInterfaceId, VpcId, SubnetId, AvailabilityZone, PrivateIpAddress, Status, Association.PublicIp, TagSet[0].Value]'"
@@ -201,7 +201,7 @@ p6_aws_svc_ec2_regions_iterator() {
 ######################################################################
 p6_aws_svc_ec2_regions_list() {
 
-    p6_aws_cmd ec2 describe-regions \
+    p6_aws_cli_cmd ec2 describe-regions \
         --output text \
         --filters Name="'region-name,Values=us-*'" \
         --query "'Regions[].[RegionName]'" |
@@ -224,7 +224,7 @@ p6_aws_svc_ec2_nat_gateway_show() {
     local tag_name
     tag_name=$(p6_aws_cli_jq_tag_name_get)
 
-    p6_aws_cmd ec2 describe-network-interfaces \
+    p6_aws_cli_cmd ec2 describe-network-interfaces \
         --output text \
         --filter "Name=vpc-id,Values=$vpc_id" \
         --query "'NatGateways[].[NatGatewayId, SubnetId, NatGatewayAddresses[0].PrivateIp, NatGatewayAddresses[0].PublicIp, NatGatewayAddresses[0].NetworkInterfaceId, State, $tag_name]'"

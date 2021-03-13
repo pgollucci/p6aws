@@ -11,7 +11,7 @@
 p6_aws_svc_s3api_bucket_policy() {
     local bucket="$1"
 
-    p6_aws_cmd s3api get-bucket-policy "$bucket"
+    p6_aws_cli_cmd s3api get-bucket-policy "$bucket"
 }
 
 ######################################################################
@@ -27,7 +27,7 @@ p6_aws_svc_s3api_bucket_policy() {
 p6_aws_svc_s3api_bucket_objects_versions_list() {
     local bucket="$1"
 
-    p6_aws_cmd s3api list-object-versions \
+    p6_aws_cli_cmd s3api list-object-versions \
 	       $bucket \
 	       --output text \
 	       --query "'Versions[].[Key, StorageClass, IsLatest, ETag, LastModified, Owner.ID]'"
@@ -46,7 +46,7 @@ p6_aws_svc_s3api_bucket_objects_versions_list() {
 p6_aws_svc_s3api_bucket_objects_deleted() {
     local bucket="$1"
 
-    p6_aws_cmd s3api list-object-versions \
+    p6_aws_cli_cmd s3api list-object-versions \
 	       $bucket \
 	       --output text \
 	       --query "'DeleteMarkers[].[Key, VersionId, IsLatest, LastModified, Owner.ID]'"

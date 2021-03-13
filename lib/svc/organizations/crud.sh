@@ -89,7 +89,7 @@ p6_aws_svc_organizations_account_id_from_name() {
     local account_name="$1"
 
     local account_id=$(
-	p6_aws_cmd organizations list-accounts \
+	p6_aws_cli_cmd organizations list-accounts \
 		   --output text \
 		   --query "'Accounts[].[Id, Name]'" | \
 	    awk -v k=$account_name '$2 ~ k { print $1 }'
@@ -120,7 +120,7 @@ p6_aws_svc_organizations_account_create() {
     local account_email="$2"
 
     local car_id=$(
-	p6_aws_cmd organizations create-account \
+	p6_aws_cli_cmd organizations create-account \
 		   "$account_email" "$account_name" \
 		   --output text \
 		   --query "CreateAccountStattus.Id"
@@ -146,7 +146,7 @@ p6_aws_svc_organizations_account_create_status() {
     local car_id="$1"
 
     local status=$(
-	p6_aws_cmd organiations describe-create-account-stattus \
+	p6_aws_cli_cmd organiations describe-create-account-stattus \
 		   "$car_id" \
 		   --output text \
 		   --query "'CreateAccountStatus.State'"
@@ -164,7 +164,7 @@ p6_aws_svc_organizations_account_create_status() {
 ######################################################################
 p6_aws_svc_organizations_accounts_list() {
 
-    p6_aws_cmd organizations list-accounts \
+    p6_aws_cli_cmd organizations list-accounts \
 	       --output text \
 	       --query "'Accounts[].[Id, Status, JoinedMethod, Arn, Name, Email]'"
 }

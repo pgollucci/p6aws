@@ -9,7 +9,7 @@ p6_aws_svc_alb_list() {
     #   local vpc_id="${1:-$AWS_VPC}"
     #   --filters "Name=vpc-id,Values=$vpc_id"
 
-    p6_aws_cmd elbv2 describe-load-balancers \
+    p6_aws_cli_cmd elbv2 describe-load-balancers \
 	       --output text \
 	       --query "'LoadBalancers[].[State.Code, Scheme, Type, join(\`,\`, AvailabilityZones[].SubnetId), join(\`,\`, SecurityGroups[]), DNSName, LoadBalancerArn]'"
 }
@@ -49,7 +49,7 @@ p6_aws_svc_alb_create() {
 
     local subnet_ids=$(p6_aws_svc_ec2_subnet_ids_get "$subnet_type" "$vpc_id" | xargs)
 
-    p6_aws_cmd elbv2 create-load-balancer "$alb_name" "$subnet_ids"
+    p6_aws_cli_cmd elbv2 create-load-balancer "$alb_name" "$subnet_ids"
 
     # XXX: tags
 
@@ -75,7 +75,7 @@ p6_aws_svc_alb_listener_create() {
     local protocol=HTTP
     local port=80
 
-    p6_aws_cmd elbv2 create-listener \
+    p6_aws_cli_cmd elbv2 create-listener \
 	       "$alb_arn" \
 	       --protocol $protocol \
 	       --port $port \
@@ -107,7 +107,7 @@ p6_aws_svc_alb_target_group_create() {
     local protocol=HTTP
     local port=80
 
-    p6_aws_cmd elbv2 create-target-group \
+    p6_aws_cli_cmd elbv2 create-target-group \
 	       "$name" \
 	       $vpc_id \
 	       --protocol $protocol \
