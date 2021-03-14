@@ -67,7 +67,7 @@ p6_aws_cfg__copy() {
         p6_aws_cfg__debug "__copy(): [from=$func_from] -> [to=$func_to]"
 
         p6_run_code "$func_to \"$val\""
-    done
+    done >/dev/null
 
     p6_return_void
 }

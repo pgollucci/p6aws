@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 ######################################################################
 #<
 #
@@ -15,18 +16,19 @@ p6_aws_svc_sts_whoami() {
 ######################################################################
 #<
 #
-# Function: str login_url = p6_aws_svc_sts_identity_broker_custom_login_url(cred_file)
+# Function: p6_aws_svc_sts_identity_broker_custom_login_url(cred_file)
 #
 #  Args:
 #	cred_file -
-#
-#  Returns:
-#	str - login_url
 #
 #>
 ######################################################################
 p6_aws_svc_sts_identity_broker_custom_login_url() {
     local cred_file="$1"
+
+    # endpoints
+    local federation_endpoint="https://signin.aws.amazon.com/federation"
+    local console_endpoint="https://console.aws.amazon.com/"
 
     # id, key, token in cred file
     local access_key_id
@@ -44,24 +46,24 @@ p6_aws_svc_sts_identity_broker_custom_login_url() {
 
     # url encode str
     local session
-    session=$(p6_echo "$str" | jq -sRr @uri)
+    session=$(echo "$str" | jq -sRr @uri)
 
     # getSigninToken request
     local response
-    response=$(curl -s "https://signin.aws.amazon.com/federation?Action=getSigninToken&SessionDuration=1800&Session=$session")
+    response=$(curl -s "$federation_endpoint?Action=getSigninToken&SessionDuration=1800&Session=$session")
 
     # grab SigninToken
     local signin_token
-    signin_token=$(p6_echo "$response" | jq -r ".SigninToken")
+    signin_token=$(echo "$response" | jq -r ".SigninToken")
 
     # login request
     local destination
     local issuer
-    destination=$(p6_echo "https://console.aws.amazon.com/" | jq -Rr @uri)
-    issuer=$(p6_echo "p6cli" | jq -rR @uri)
+    destination=$(echo "$console_endpoint" | jq -Rr @uri)
+    issuer=$(echo "p6cli" | jq -rR @uri)
 
     local login_url
-    login_url="https://signin.aws.amazon.com/federation?Action=login&Issuer=$issuer&Destination=$destination&SigninToken=$signin_token"
+    login_url="$federation_endpoint?Action=login&Issuer=$issuer&Destination=$destination&SigninToken=$signin_token"
 
-    p6_return_str "$login_url"
+    echo "$login_url"
 }
