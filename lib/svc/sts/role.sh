@@ -1,3 +1,4 @@
+# shellcheck shell=bash
 ######################################################################
 #<
 #
@@ -13,10 +14,6 @@ p6_aws_svc_sts_role_assume() {
     local role_arn="$1"
     local role_session_name="$2"
 
-    local access_key_id
-    local secret_access_key
-    local session_token
-    local expiration
     local json
 
     json=$(p6_aws_cli_cmd sts assume-role --role-arn "$role_arn" --role-session-name "$role_session_name")
@@ -66,29 +63,44 @@ p6_aws_svc_sts_role_credentials_activate() {
     local role_session_name="$3"
     local type="$4"
 
-    # Parse
-    access_key_id=$(p6_echo "$json" | jq -r ".Credentials.AccessKeyId")
-    secret_access_key=$(p6_echo "$json" | jq -r ".Credentials.SecretAccessKey")
-    session_token=$(p6_echo "$json" | jq -r ".Credentials.SessionToken")
-    expiration=$(p6_echo "$json" | jq -r ".Credentials.Expiration")
-
-    # New Env
-    p6_aws_cfg_save_source >/dev/null
-    p6_aws_util_env_shared_credentials_file "trexcoe-$type"
-    p6_aws_util_env_config_file "trexcoe-$type"
-
-    # Setup
+    local access_key_id
+    local secret_access_key
+    local session_token
+    local expiration
     local conf_file
     local cred_file
+    local org
+    local name
+
+    # The "destination"
+    org=$(p6_aws_env_org_active)
+    name="$org-$type"
+
+    # Parse
+    access_key_id=$(p6_json_eval "$json" "-r" ".Credentials.AccessKeyId")
+    secret_access_key=$(p6_json_eval "$json" "-r" ".Credentials.SecretAccessKey")
+    session_token=$(p6_json_eval "$json" "-r" ".Credentials.SessionToken")
+    expiration=$(p6_json_eval "$json" "-r" ".Credentials.Expiration")
+
+    # Mock the New Env
+    p6_aws_cfg_save_source
+    p6_aws_util_env_shared_credentials_file "$name"
+    p6_aws_util_env_config_file "$name"
+
+    # Get a handle to the files
     conf_file=$(p6_aws_env_config_file_active)
     cred_file=$(p6_aws_env_shared_credentials_file_active)
 
+    # Clean Slate
     p6_file_rmf "$conf_file"
     p6_file_rmf "$cred_file"
 
-    p6_aws_util_env_profile "$role_arn" >/dev/null
+    # Write it out
     p6_aws_profile_config_add "$conf_file" "$role_arn"
     p6_aws_profile_cred_add "$cred_file" "$role_arn" "$access_key_id" "$secret_access_key" "$session_token" "$expiration"
+
+    # Tell the World
+    p6_aws_util_env_profile "$role_arn" >/dev/null
 
     p6_return_void
 }

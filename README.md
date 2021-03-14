@@ -496,8 +496,8 @@
 
 #### svc/sts/identity.sh:
 
+- p6_aws_svc_sts_identity_broker_custom_login_url(cred_file)
 - p6_aws_svc_sts_whoami()
-- str login_url = p6_aws_svc_sts_identity_broker_custom_login_url(cred_file)
 
 #### svc/sts/prompt.sh:
 
