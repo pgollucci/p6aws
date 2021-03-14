@@ -6,7 +6,7 @@
 #  Args:
 #	service -
 #	cmd -
-#	... -
+#	... - 
 #
 #  Returns:
 #	code - rc

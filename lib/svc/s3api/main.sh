@@ -81,7 +81,7 @@ p6_aws_svc_s3api_bucket_list_objects_all() {
 #	bucket -
 #
 #  Returns:
-#	false -
+#	false - 
 #	code - rc
 #
 #>
