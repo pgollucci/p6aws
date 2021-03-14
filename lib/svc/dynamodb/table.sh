@@ -12,7 +12,6 @@ p6_aws_svc_dynamodb_tables_list() {
     --output text
 }
 
-
 ######################################################################
 #<
 #
@@ -47,6 +46,6 @@ p6_aws_svc_dynamodb_table_all() {
 
   p6_aws_cli_cmd dynamodb scan \
     --table-name "$table_name" \
-    --query "Items[]" | \
+    --query "Items[]" |
     jq -c '.[]'
 }

@@ -9,13 +9,13 @@
 #>
 ######################################################################
 p6_aws_svc_eks_cluster_logging_enable() {
-    local cluster_name="${1:-$AWS_EKS_CLUSTER_NAME}"
+  local cluster_name="${1:-$AWS_EKS_CLUSTER_NAME}"
 
-    p6_aws_cli_cmd eks update-cluster-config \
-        --name "$cluster_name" \
-        --logging '{"clusterLogging":[{"types":["api","audit","authenticator","controllerManager","scheduler"],"enabled":true}]}'
+  p6_aws_cli_cmd eks update-cluster-config \
+    --name "$cluster_name" \
+    --logging '{"clusterLogging":[{"types":["api","audit","authenticator","controllerManager","scheduler"],"enabled":true}]}'
 
-   p6_return_void
+  p6_return_void
 }
 
 ######################################################################
@@ -32,7 +32,7 @@ p6_aws_svc_eks_kubeconfig_update() {
   local stack_name="$1"
 
   local code
-  code=$(p6_aws_cli_cmd cloudformation describe-stacks --stack-name "$stack_name"  --query 'Stacks[0].Outputs' | grep -A1 SmileEksConfigCommand |awk -F\" '/OutputValue/ { print $4 }')
+  code=$(p6_aws_cli_cmd cloudformation describe-stacks --stack-name "$stack_name" --query 'Stacks[0].Outputs' | grep -A1 SmileEksConfigCommand | awk -F\" '/OutputValue/ { print $4 }')
 
   p6_run_code "$code"
 

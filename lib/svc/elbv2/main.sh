@@ -10,8 +10,8 @@ p6_aws_svc_alb_list() {
     #   --filters "Name=vpc-id,Values=$vpc_id"
 
     p6_aws_cli_cmd elbv2 describe-load-balancers \
-	       --output text \
-	       --query "'LoadBalancers[].[State.Code, Scheme, Type, join(\`,\`, AvailabilityZones[].SubnetId), join(\`,\`, SecurityGroups[]), DNSName, LoadBalancerArn]'"
+        --output text \
+        --query "'LoadBalancers[].[State.Code, Scheme, Type, join(\`,\`, AvailabilityZones[].SubnetId), join(\`,\`, SecurityGroups[]), DNSName, LoadBalancerArn]'"
 }
 
 ######################################################################
@@ -76,10 +76,10 @@ p6_aws_svc_alb_listener_create() {
     local port=80
 
     p6_aws_cli_cmd elbv2 create-listener \
-	       "$alb_arn" \
-	       --protocol $protocol \
-	       --port $port \
-	       --default-actions Type=$default_action_type,TargetGroupArn=$target_group_arn
+        "$alb_arn" \
+        --protocol $protocol \
+        --port $port \
+        --default-actions Type=$default_action_type,TargetGroupArn=$target_group_arn
 }
 
 ######################################################################
@@ -98,18 +98,18 @@ p6_aws_svc_alb_target_group_create() {
     local vpc_id="${2:-AWS_VPC_ID}"
 
     if [ -n "$vpc_id" ]; then
-	vpc_id="--vpc-id $vpc_id"
+        vpc_id="--vpc-id $vpc_id"
     else
-	# lambda
-	true
+        # lambda
+        true
     fi
 
     local protocol=HTTP
     local port=80
 
     p6_aws_cli_cmd elbv2 create-target-group \
-	       "$name" \
-	       $vpc_id \
-	       --protocol $protocol \
-	       --port $port
+        "$name" \
+        $vpc_id \
+        --protocol $protocol \
+        --port $port
 }
