@@ -8,8 +8,8 @@
 p6_aws_svc_stepfunctions_list() {
 
     p6_aws_cli_cmd stepfunctions list-state-machines \
-	       --output text \
-	       "$@"
+        --output text \
+        "$@"
 }
 
 ######################################################################
@@ -19,7 +19,7 @@ p6_aws_svc_stepfunctions_list() {
 #
 #  Args:
 #	state_machine -
-#	... - 
+#	... -
 #
 #>
 ######################################################################
@@ -31,14 +31,14 @@ p6_aws_svc_stepfunctions_state_machine_show() {
     local outfile="$dir/outfile"
 
     p6_aws_cli_cmd stepfunctions describe-state-machine \
-	       --output json \
-	       $state_machine \
-	       "$@" > $dir/response
+        --output json \
+        $state_machine \
+        "$@" >$dir/response
 
-    grep definition $dir/response | \
-	sed -e 's, "definition": ,,' | \
-	sed -e 's,\\,,g' -e 's,"{,{,g' -e 's,}",},g' -e 's/,$//' | \
-	python -mjson.tool
+    grep definition $dir/response |
+        sed -e 's, "definition": ,,' |
+        sed -e 's,\\,,g' -e 's,"{,{,g' -e 's,}",},g' -e 's/,$//' |
+        python -mjson.tool
 
     p6_return_void
 }

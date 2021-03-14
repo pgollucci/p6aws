@@ -14,8 +14,8 @@ p6_aws_svc_iam_policy_saml() {
     local provider="$2"
 
     p6_aws_template_process "iam/saml.json" \
-				 "ACCOUNT_ID=$account_id" \
-				 "PROVIDER=$provider"
+        "ACCOUNT_ID=$account_id" \
+        "PROVIDER=$provider"
 }
 
 ######################################################################
@@ -34,8 +34,8 @@ p6_aws_svc_iam_policy_s3_cloudtrail_write() {
     local account_id="$2"
 
     p6_aws_template_process "iam/s3_cloudtrail" \
-				 "TRAIL_BUCKET=$trail_bucket" \
-				 "ACCOUNT_ID=$account_id"
+        "TRAIL_BUCKET=$trail_bucket" \
+        "ACCOUNT_ID=$account_id"
 }
 
 ######################################################################
@@ -52,7 +52,7 @@ p6_aws_svc_iam_policy_cloudtrail_write() {
     local resource="$1"
 
     p6_aws_template_process "iam/cloudtrail" \
-				 "RESOURCE=$resource"
+        "RESOURCE=$resource"
 }
 
 ######################################################################
@@ -69,7 +69,7 @@ p6_aws_svc_iam_policy_service_write() {
     local service="$1"
 
     p6_aws_template_process "iam/service" \
-				 "SERVICE=$service"
+        "SERVICE=$service"
 }
 
 ######################################################################
@@ -90,8 +90,8 @@ p6_aws_svc_iam_policy_to_role() {
     local role_name=$(p6_uri_name "$role_full_path")
 
     p6_aws_cli_cmd iam attach-policy-role \
-	       --role-name $role_name \
-	       --policy-arn $policy_arn
+        --role-name $role_name \
+        --policy-arn $policy_arn
 
     p6_return_void
 }
@@ -117,14 +117,14 @@ p6_aws_svc_iam_policy_create() {
     local policy_name=$(p6_uri_name "$policy_full_path")
 
     local policy_arn=$(
-	p6_aws_cli_cmd iam create-policy \
-		   --output text \
-		   --path $policy_path/ \
-		   --policy-name $policy_name \
-		   --description $policy_description \
-		   --policy-document $policy_document \
-		   --query "Policy.Arn"
-	  )
+        p6_aws_cli_cmd iam create-policy \
+            --output text \
+            --path $policy_path/ \
+            --policy-name $policy_name \
+            --description $policy_description \
+            --policy-document $policy_document \
+            --query "Policy.Arn"
+    )
 
     p6_return_aws_str "$policy_arn"
 }

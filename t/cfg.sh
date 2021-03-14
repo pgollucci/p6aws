@@ -14,8 +14,8 @@ main() {
 
     p6_test_start "cfg"
     (
-	p6_test_run "echo"
-	p6_test_assert_run_ok "echo is blank"
+        p6_test_run "echo"
+        p6_test_assert_run_ok "echo is blank"
     )
     p6_test_finish
 

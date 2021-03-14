@@ -28,7 +28,7 @@ p6_aws_svc_logs_watch() {
 p6_aws_svc_logs_watch_jq() {
     local log_group_name="$1"
 
-    p6_aws_svc_logs_watch "$log_group_name" | \
+    p6_aws_svc_logs_watch "$log_group_name" |
         while read -r line; do
             json=$(echo "$line" | sed -e 's,^.*_CloudTrail_us-east-1 ,,')
             echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"

@@ -16,8 +16,8 @@ aws_cloudtrail_trail_make() {
 
     aws_sns_topic_create "$trail_topic_name"
 
-#    local trail_kms_key_id=$(aws_kms_key_make "$account_id" "$trail_kms_desc" "$trail_kms_alias")
-local trail_kms_key_id="6e0af6d5-fa1d-44b3-a80c-0e1abcfadfd7"
+    #    local trail_kms_key_id=$(aws_kms_key_make "$account_id" "$trail_kms_desc" "$trail_kms_alias")
+    local trail_kms_key_id="6e0af6d5-fa1d-44b3-a80c-0e1abcfadfd7"
 
     local cloudwatch_logs_group_arn=$(aws_cloudwatch_logs_group_make "$trail_logs_group_name")
 
@@ -34,11 +34,11 @@ local trail_kms_key_id="6e0af6d5-fa1d-44b3-a80c-0e1abcfadfd7"
 
     aws_cloudtrail_data_events "$trail_full_path" "$trail_data_events_s3_arns"
 
-#    aws_cloudtrail_kms_encrypt "$trail_full_path" "$trail_kms_key_id"
+    #    aws_cloudtrail_kms_encrypt "$trail_full_path" "$trail_kms_key_id"
 
-#    aws_cloudtrail_2_sns "$trail_full_path" "$trail_topic_name"
+    #    aws_cloudtrail_2_sns "$trail_full_path" "$trail_topic_name"
 
-#    aws_cloudtrail_2_cloudwatch "$trail_full_path" "$cloudwatch_logs_group_arn" "$cloudwatch_logs_role_arn"
+    #    aws_cloudtrail_2_cloudwatch "$trail_full_path" "$cloudwatch_logs_group_arn" "$cloudwatch_logs_role_arn"
 
     aws_cloudtrail_logging_start "$trail_full_path"
 }
@@ -54,8 +54,8 @@ aws_cloudtrail_subscription_make() {
     local trail_logs_group_name="$8"
     local trail_data_events_s3_arns="$9"
 
-#    local trail_kms_key_id=$(aws_kms_key_make "$account_id" "$trail_kms_desc" "$trail_kms_alias")
-local trail_kms_key_id="6e0af6d5-fa1d-44b3-a80c-0e1abcfadfd7"
+    #    local trail_kms_key_id=$(aws_kms_key_make "$account_id" "$trail_kms_desc" "$trail_kms_alias")
+    local trail_kms_key_id="6e0af6d5-fa1d-44b3-a80c-0e1abcfadfd7"
 
     local cloudwatch_logs_group_arn=$(aws_cloudwatch_logs_group_make "$trail_logs_group_name")
 
@@ -70,7 +70,7 @@ local trail_kms_key_id="6e0af6d5-fa1d-44b3-a80c-0e1abcfadfd7"
 
     aws_cloudtrail_data_events "$trail_full_path" "$trail_data_events_s3_arns"
 
-#    aws_cloudtrail_kms_encrypt "$trail_full_path" "$trail_kms_key_id"
+    #    aws_cloudtrail_kms_encrypt "$trail_full_path" "$trail_kms_key_id"
 
     aws_cloudtrail_2_cloudwatch "$trail_full_path" "$cloudwatch_logs_group_arn" "$cloudwatch_logs_role_arn"
 }
@@ -151,5 +151,5 @@ aws_cloudtrail_event_selector_write() {
     local s3_arns="$1"
 
     p6_aws_template_process "iam/cloudtrail_events" \
-			     "S3_ARNS=$s3_arns"
+        "S3_ARNS=$s3_arns"
 }
