@@ -84,8 +84,8 @@ p6_aws_svc_sts_role_credentials_activate() {
 
     # Mock the New Env
     p6_aws_cfg_save_source
-    p6_aws_util_env_shared_credentials_file "$name"
-    p6_aws_util_env_config_file "$name"
+    p6_aws_util_env_shared_credentials_file "$name" >/dev/null
+    p6_aws_util_env_config_file "$name" >/dev/null
 
     # Get a handle to the files
     conf_file=$(p6_aws_env_config_file_active)

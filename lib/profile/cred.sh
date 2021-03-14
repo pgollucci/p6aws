@@ -15,7 +15,7 @@ p6_aws_profile_cred_add() {
     local session_token="$5"
     local expiration="$6"
 
-    if ! p6_file_contains "$profile" "$cred_file"; then
+    if ! p6_file_exists "$cred_file" || ! p6_file_contains "$profile" "$cred_file"; then
         p6_aws_profile__debug "cred_add(): adding [$profile] -> [$cred_file]"
 
         p6_aws_template_process "sts/cred" \
