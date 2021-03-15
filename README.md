@@ -50,12 +50,18 @@
 
 ### alfred:
 
-#### alfred/util.sh:
+#### alfred/bastion.sh:
+
+- p6_aws_alfred_bastion_private(pfunc)
+- p6_aws_alfred_bastion_public(pfunc)
+
+#### alfred/browser.sh:
 
 - p6_aws_alfred_browser_console(pfunc)
-- p6_aws_alfred_private_bastion(pfunc)
-- p6_aws_alfred_public_bastion(pfunc)
-- str json = p6_aws_alfred_list()
+
+#### alfred/profile.sh:
+
+- str json = p6_aws_alfred_profiles_list()
 
 
 ### cfg:
@@ -540,7 +546,9 @@
 ```text
 .
 ├── alfred
-│   └── util.sh
+│   ├── bastion.sh
+│   ├── browser.sh
+│   └── profile.sh
 ├── cfg
 │   ├── _gen.sh
 │   ├── _kinds.sh
@@ -645,7 +653,7 @@
     ├── p6_return.sh
     └── template.sh
 
-32 directories, 73 files
+32 directories, 75 files
 ```
 ## Author
 
