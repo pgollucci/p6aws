@@ -85,6 +85,20 @@ p6_aws_cfg__accessor() {
     p6_return_str "$code"
 }
 
+######################################################################
+#<
+#
+# Function: str code = p6_aws_cfg__taccessor(kind, fname)
+#
+#  Args:
+#	kind -
+#	fname -
+#
+#  Returns:
+#	str - code
+#
+#>
+######################################################################
 p6_aws_cfg__taccessor() {
     local kind="$1"
     local fname="$2"
