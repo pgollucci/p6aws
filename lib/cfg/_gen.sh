@@ -35,9 +35,13 @@ p6_aws_cfg__generate_kinds() {
 
     local kind
     for kind in $(p6_aws_cfg_kinds | sort); do
-        local func=$(p6_aws_cfg__accessor "$kind" "$fname" "$var")
         local fkind=$(p6_echo "$kind" | sed -e 's,^_,,')
+
+        local func=$(p6_aws_cfg__accessor "$kind" "$fname" "$var")
         p6_msg "$func" >>"lib/env/${fkind}.sh"
+
+        local tfunc=$(p6_aws_cfg__taccessor "$kind" "$fname" "$var")
+        p6_msg "$tfunc" >>"t/cfg-$fname-${fkind}.t"
     done
 
     p6_return_void
@@ -76,6 +80,25 @@ p6_aws_cfg__accessor() {
             "cfg/accessor.tmpl" \
             "FUNC=$func" \
             "VAR=$var"
+    )
+
+    p6_return_str "$code"
+}
+
+p6_aws_cfg__taccessor() {
+    local kind="$1"
+    local fname="$2"
+
+    local func="${fname}${kind}"
+
+    if p6_string_eq "$kind" "_active"; then
+        kind=
+    fi
+
+    local code=$(
+        p6_aws_template_process \
+            "cfg/taccessor.tmpl" \
+            "FUNC=$func"
     )
 
     p6_return_str "$code"
