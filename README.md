@@ -59,6 +59,11 @@
 
 - p6_aws_alfred_browser_console(pfunc)
 
+#### alfred/nodeps.sh:
+
+- p6_aws_alfred_profiles_list_q(org)
+- p6_aws_alfred_profiles_to_alred_items(org, ...)
+
 #### alfred/profile.sh:
 
 - str json = p6_aws_alfred_profiles_list()
@@ -548,6 +553,7 @@
 ├── alfred
 │   ├── bastion.sh
 │   ├── browser.sh
+│   ├── nodeps.sh
 │   └── profile.sh
 ├── cfg
 │   ├── _gen.sh
@@ -653,7 +659,7 @@
     ├── p6_return.sh
     └── template.sh
 
-32 directories, 75 files
+32 directories, 76 files
 ```
 ## Author
 
