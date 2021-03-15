@@ -17,7 +17,7 @@ p6_aws_env_FUNC() {
     local old="${VAR}"
 
     if ! p6_string_blank "$val"; then
-       p6_env_export "VAR" "$val"
+        p6_env_export "VAR" "$val"
     fi
 
     p6_return_str "$old"
