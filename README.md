@@ -380,6 +380,10 @@
 
 ### svc/iam:
 
+#### svc/iam/alias.sh:
+
+- p6_aws_svc_iam_account_alias()
+
 #### svc/iam/instance.sh:
 
 - p6_aws_svc_iam_instance_profiles_list()
@@ -625,6 +629,7 @@
 │   │   └── main.sh
 │   ├── iam
 │   │   ├── _write.sh
+│   │   ├── alias.sh
 │   │   ├── instance.sh
 │   │   ├── policy.sh
 │   │   ├── role.sh
@@ -664,7 +669,7 @@
     ├── p6_return.sh
     └── template.sh
 
-32 directories, 77 files
+32 directories, 78 files
 ```
 ## Author
 
