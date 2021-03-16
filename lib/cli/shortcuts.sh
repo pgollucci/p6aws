@@ -75,14 +75,14 @@ p6_aws_cli_shortcuts_generate_one() {
 ######################################################################
 #<
 #
-# Function: p6_aws_cli_shortcuts_gen_un(org)
+# Function: p6_aws_cli_shortcuts_generate_un(org)
 #
 #  Args:
 #	org -
 #
 #>
 ######################################################################
-p6_aws_cli_shortcuts_gen_un() {
+p6_aws_cli_shortcuts_generate_un() {
 	local org="$1"
 
 	local func

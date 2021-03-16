@@ -21,34 +21,6 @@ p6_aws_svc_eks_cluster_logging_enable() {
 ######################################################################
 #<
 #
-# Function: p6_aws_svc_eks_kubeconfig_update(stack_name)
-#
-#  Args:
-#	stack_name -
-#
-#>
-######################################################################
-p6_aws_svc_eks_kubeconfig_update() {
-  local stack_name="$1"
-
-  local code
-  code=$(p6_aws_cli_cmd cloudformation describe-stacks --stack-name "$stack_name" --query 'Stacks[0].Outputs' | grep -A1 SmileEksConfigCommand | awk -F\" '/OutputValue/ { print $4 }')
-
-  p6_run_code "$code"
-
-  p6df::modules::kubernetes::ctx "$(kubectx -c)"
-
-  local aws_eks_cluster_name
-  aws_eks_cluster_name=$(p6_echo "$P6_KUBE_CFG" | awk -F/ '{ print $2}')
-
-  p6_env_export "AWS_EKS_CLUSTER_NAME" "$aws_eks_cluster_name"
-
-  p6_return_void
-}
-
-######################################################################
-#<
-#
 # Function: str cluster_status = p6_aws_svc_eks_cluster_status([cluster_name=$AWS_EKS_CLUSTER_NAME])
 #
 #  Args:
