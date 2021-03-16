@@ -211,7 +211,6 @@
 
 - p6_aws_svc_autoscaling_asg_act_deltailed_list(asg_name)
 - p6_aws_svc_autoscaling_asg_act_list(asg_name)
-- p6_aws_svc_autoscaling_asg_create(asg_name, min_size, max_size, desired_capacity, lt_id, lt_name, lt_version, subnet_type, [vpc_id=$AWS_VPC])
 - p6_aws_svc_autoscaling_asg_target_group_arn(asg_name, target_group_arn)
 - p6_aws_svc_autoscaling_asgs_list()
 
@@ -349,7 +348,6 @@
 
 #### svc/eks/cluster.sh:
 
-- p6_aws_svc_eks_cluster_logging_enable([cluster_name=$AWS_EKS_CLUSTER_NAME])
 - str cluster_status = p6_aws_svc_eks_cluster_status([cluster_name=$AWS_EKS_CLUSTER_NAME])
 
 #### svc/eks/prompt.sh:
@@ -386,11 +384,9 @@
 #### svc/iam/policy.sh:
 
 - p6_aws_svc_iam_policy_cloudtrail_write(resource)
-- p6_aws_svc_iam_policy_create(policy_full_path, policy_description, policy_document)
 - p6_aws_svc_iam_policy_s3_cloudtrail_write(trail_bucket, account_id)
 - p6_aws_svc_iam_policy_saml(account_id, provider)
 - p6_aws_svc_iam_policy_service_write(service)
-- p6_aws_svc_iam_policy_to_role(role_full_path, policy_arn)
 
 #### svc/iam/role.sh:
 
@@ -426,7 +422,6 @@
 
 #### svc/lambda/function.sh:
 
-- p6_aws_svc_lambda_invoke(function_name, ...)
 - p6_aws_svc_lambda_list()
 
 
@@ -436,13 +431,6 @@
 
 - aws_account_id new_account_id = p6_aws_svc_organizations_account_id_from_account_name(account_name)
 - p6_aws_svc_organizations_accounts_list()
-
-#### svc/organizations/avm.sh:
-
-- aws_account_id account_id = p6_aws_svc_organizations_avm_account_create(account_name, account_email)
-- bool bool = p6_aws_svc_organizations_avm_account_wait_for(cas_id)
-- p6_aws_svc_organizations_avm_account_create_stop(status, cas_id)
-- str status = p6_aws_svc_organizations_avm_account_create_status(car_id)
 
 #### svc/organizations/lz.sh:
 
@@ -583,6 +571,7 @@
 ├── svc
 │   ├── autoscaling
 │   │   ├── _lc.sh
+│   │   ├── _write.sh
 │   │   └── asg.sh
 │   ├── cloudformation
 │   │   └── stack.sh
@@ -613,6 +602,7 @@
 │   ├── ec2instanceconnect
 │   │   └── util.sh
 │   ├── eks
+│   │   ├── _write.sh
 │   │   ├── cluster.sh
 │   │   └── prompt.sh
 │   ├── elb
@@ -634,10 +624,11 @@
 │   │   ├── _write.sh
 │   │   └── key.sh
 │   ├── lambda
+│   │   ├── _write.sh
 │   │   └── function.sh
 │   ├── organizations
+│   │   ├── _write.sh
 │   │   ├── account.sh
-│   │   ├── avm.sh
 │   │   ├── lz.sh
 │   │   └── sts.sh
 │   ├── s3
@@ -664,7 +655,7 @@
     ├── p6_return.sh
     └── template.sh
 
-31 directories, 80 files
+31 directories, 83 files
 ```
 ## Author
 
