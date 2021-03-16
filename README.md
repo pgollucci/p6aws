@@ -115,7 +115,7 @@
 #### cli/shortcuts.sh:
 
 - p6_aws_cli_shortcuts_activate(org)
-- p6_aws_cli_shortcuts_gen_un(org)
+- p6_aws_cli_shortcuts_generate_un(org)
 - str func = p6_aws_cli_shortcuts_generate_one(profile)
 - str prefix = p6_aws_cli_shortcuts_prefix()
 - str shell_function_name = p6_aws_shortcuts_profile_to_shell_function_name(profile)
@@ -347,10 +347,9 @@
 
 ### svc/eks:
 
-#### svc/eks/main.sh:
+#### svc/eks/cluster.sh:
 
 - p6_aws_svc_eks_cluster_logging_enable([cluster_name=$AWS_EKS_CLUSTER_NAME])
-- p6_aws_svc_eks_kubeconfig_update(stack_name)
 - str cluster_status = p6_aws_svc_eks_cluster_status([cluster_name=$AWS_EKS_CLUSTER_NAME])
 
 #### svc/eks/prompt.sh:
@@ -363,7 +362,6 @@
 #### svc/elb/main.sh:
 
 - p6_aws_svc_ec2_elb_listeners_list(load_balancer_name)
-- p6_aws_svc_elb_create(elb_name, [listeners=http], [subnet_type=Public], [vpc_id=$AWS_VPC])
 - p6_aws_svc_elb_list()
 
 
@@ -371,11 +369,8 @@
 
 #### svc/elbv2/main.sh:
 
-- p6_aws_svc_alb_create(alb_name, [subnet_type=Public], [vpc_id=$AWS_VPC_ID])
 - p6_aws_svc_alb_list()
-- p6_aws_svc_alb_listener_create(alb_arn, target_group_arn)
 - p6_aws_svc_alb_listeners_list(load_balancer_name)
-- p6_aws_svc_alb_target_group_create(tg_name, [vpc_id=AWS_VPC_ID])
 
 
 ### svc/iam:
@@ -471,9 +466,8 @@
 
 ### svc/s3api:
 
-#### svc/s3api/main.sh:
+#### svc/s3api/bucket.sh:
 
-- false  = p6_aws_svc_s3api_bucket_delete_with_versioned_objects(bucket)
 - p6_aws_svc_s3api_bucket_list_objects_all(bucket)
 - p6_aws_svc_s3api_bucket_objects_deleted(bucket)
 - p6_aws_svc_s3api_bucket_objects_versions_list(bucket)
@@ -482,21 +476,21 @@
 
 ### svc/secretsmanager:
 
-#### svc/secretsmanager/main.sh:
+#### svc/secretsmanager/secret.sh:
 
 - p6_aws_svc_secretsmanager_list()
 
 
 ### svc/sns:
 
-#### svc/sns/main.sh:
+#### svc/sns/topic.sh:
 
 - p6_aws_svc_sns_topics_list()
 
 
 ### svc/ssm:
 
-#### svc/ssm/main.sh:
+#### svc/ssm/document.sh:
 
 - p6_aws_svc_ssm_documents_list()
 - p6_aws_svc_ssm_documents_list_aws()
@@ -505,7 +499,7 @@
 
 ### svc/stepfunctions:
 
-#### svc/stepfunctions/main.sh:
+#### svc/stepfunctions/machine.sh:
 
 - p6_aws_svc_stepfunctions_list()
 - p6_aws_svc_stepfunctions_state_machine_show(state_machine, ...)
@@ -592,8 +586,6 @@
 │   │   └── asg.sh
 │   ├── cloudformation
 │   │   └── stack.sh
-│   ├── cloudtrail
-│   │   └── main.sh
 │   ├── cloudwatch
 │   │   ├── logs.sh
 │   │   └── trail.sh
@@ -621,11 +613,13 @@
 │   ├── ec2instanceconnect
 │   │   └── util.sh
 │   ├── eks
-│   │   ├── main.sh
+│   │   ├── cluster.sh
 │   │   └── prompt.sh
 │   ├── elb
+│   │   ├── _write.sh
 │   │   └── main.sh
 │   ├── elbv2
+│   │   ├── _write.sh
 │   │   └── main.sh
 │   ├── iam
 │   │   ├── _write.sh
@@ -649,15 +643,16 @@
 │   ├── s3
 │   │   └── bucket.sh
 │   ├── s3api
-│   │   └── main.sh
+│   │   ├── _write.sh
+│   │   └── bucket.sh
 │   ├── secretsmanager
-│   │   └── main.sh
+│   │   └── secret.sh
 │   ├── sns
-│   │   └── main.sh
+│   │   └── topic.sh
 │   ├── ssm
-│   │   └── main.sh
+│   │   └── document.sh
 │   ├── stepfunctions
-│   │   └── main.sh
+│   │   └── machine.sh
 │   └── sts
 │       ├── debug.sh
 │       ├── identity.sh
@@ -669,7 +664,7 @@
     ├── p6_return.sh
     └── template.sh
 
-32 directories, 78 files
+31 directories, 80 files
 ```
 ## Author
 
