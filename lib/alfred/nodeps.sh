@@ -21,7 +21,7 @@ p6_aws_alfred_profiles_list_q() {
 ######################################################################
 #<
 #
-# Function: p6_aws_alfred_profiles_to_alred_items(org, ...)
+# Function: p6_aws_alfred_profiles_to_alred_items_q(org, ...)
 #
 #  Args:
 #	org -
@@ -29,7 +29,7 @@ p6_aws_alfred_profiles_list_q() {
 #
 #>
 ######################################################################
-p6_aws_alfred_profiles_to_alred_items() {
+p6_aws_alfred_profiles_to_alred_items_q() {
     local org="$1"
     shift 1 # profiles
 
@@ -37,12 +37,13 @@ p6_aws_alfred_profiles_to_alred_items() {
     local profile
     for profile in "$@"; do
         local title=${profile}
+        local arg="${org}+${profile}"
         local json_frag
         json_frag="\
 { \
   \"uid\": \"${profile}\", \
   \"title\": \"${title}\", \
-  \"arg\": \"${profile}\", \
+  \"arg\": \"${arg}\", \
   \"icon\": {\"path\": \"icon.png\"}, \
   \"autocomplete\": \"${profile}\" \
 },"

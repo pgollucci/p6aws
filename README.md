@@ -62,11 +62,12 @@
 #### alfred/nodeps.sh:
 
 - p6_aws_alfred_profiles_list_q(org)
-- p6_aws_alfred_profiles_to_alred_items(org, ...)
+- p6_aws_alfred_profiles_to_alred_items_q(org, ...)
 
 #### alfred/profile.sh:
 
-- str json = p6_aws_alfred_profiles_list()
+- str json = p6_aws_alfred_profiles_to_alred_items(org, ...)
+- words profiles = p6_aws_alfred_profiles_list(org)
 
 
 ### cfg:
