@@ -29,7 +29,7 @@ p6_aws_svc_organizations_avm_account_create() {
 ######################################################################
 #<
 #
-# Function: bool bool = p6_aws_svc_organizations_avm_account_wait_for(cas_id)
+# Function: bool bool = p6_aws_svc_organizations_avm_account_create_wait_for(cas_id)
 #
 #  Args:
 #	cas_id -
@@ -39,7 +39,7 @@ p6_aws_svc_organizations_avm_account_create() {
 #
 #>
 ######################################################################
-p6_aws_svc_organizations_avm_account_wait_for() {
+p6_aws_svc_organizations_avm_account_create_wait_for() {
     local cas_id="$1"
 
     local bool=$(
