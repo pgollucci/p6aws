@@ -8,16 +8,14 @@
 p6_aws_svc_ec2_regions_iterator() {
 
     local save_region
-    save_region=$(p6_aws_cfg_env_region_active)
+    save_region=$(p6_aws_env_region_active)
     local region
     for region in $(p6_aws_svc_ec2_regions_list); do
-        p6_msg "====> $region"
-        p6_aws_cfg_env_region_active "$region"
-        p6_run_code "$@"
-        p6_msg
+        p6_aws_env_region_active "$region" >/dev/null
+        p6_run_code "$@" | sed -e "s,^,$region\t,"
     done
 
-    p6_aws_cfg_env_region_active "$save_region"
+    p6_aws_env_region_active "$save_region" >/dev/null
 }
 
 ######################################################################
