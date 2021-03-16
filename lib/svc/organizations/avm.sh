@@ -1,10 +1,10 @@
 ######################################################################
 #<
 #
-# Function: aws_account_id account_id = p6_aws_svc_organizations_avm_account_create(account_alias, account_email)
+# Function: aws_account_id account_id = p6_aws_svc_organizations_avm_account_create(account_name, account_email)
 #
 #  Args:
-#	account_alias -
+#	account_name -
 #	account_email -
 #
 #  Returns:
@@ -13,15 +13,15 @@
 #>
 ######################################################################
 p6_aws_svc_organizations_avm_account_create() {
-    local account_alias="$1"
+    local account_name="$1"
     local account_email="$2"
 
     local cas_id
-    cas_id=$(p6_aws_svc_organizations_account_create "$account_email" "$account_alias")
+    cas_id=$(p6_aws_svc_organizations_account_create "$account_email" "$account_name")
     p6_aws_svc_organizations_account_wait_for "$cas_id"
 
     local account_id
-    account_id=$(p6_aws_svc_organizations_account_id_from_alias "$account_alias")
+    account_id=$(p6_aws_svc_organizations_account_id_from_account_name "$account_name")
 
     p6_return_aws_account_id "$account_id"
 }

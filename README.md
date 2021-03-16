@@ -435,20 +435,24 @@
 
 #### svc/organizations/account.sh:
 
-- aws_account_id new_account_id = p6_aws_svc_organizations_account_id_from_account_alias(account_alias)
+- aws_account_id new_account_id = p6_aws_svc_organizations_account_id_from_account_name(account_name)
 - p6_aws_svc_organizations_accounts_list()
 
 #### svc/organizations/avm.sh:
 
-- aws_account_id account_id = p6_aws_svc_organizations_avm_account_create(account_alias, account_email)
+- aws_account_id account_id = p6_aws_svc_organizations_avm_account_create(account_name, account_email)
 - bool bool = p6_aws_svc_organizations_avm_account_wait_for(cas_id)
 - p6_aws_svc_organizations_avm_account_create_stop(status, cas_id)
 - str status = p6_aws_svc_organizations_avm_account_create_status(car_id)
 
+#### svc/organizations/lz.sh:
+
+- p6_aws_svc_organizations_lz_do(...)
+
 #### svc/organizations/sts.sh:
 
-- p6_aws_svc_organizations_sts_run_as(account_alias, ...)
-- p6_aws_svc_organizations_sts_su(account_alias)
+- p6_aws_svc_organizations_sts_run_as(account_name_or_account_id, ...)
+- p6_aws_svc_organizations_sts_su(account_name_or_account_id)
 - p6_aws_svc_organizations_sts_su_un()
 
 
@@ -635,6 +639,7 @@
 │   ├── organizations
 │   │   ├── account.sh
 │   │   ├── avm.sh
+│   │   ├── lz.sh
 │   │   └── sts.sh
 │   ├── s3
 │   │   └── bucket.sh
@@ -659,7 +664,7 @@
     ├── p6_return.sh
     └── template.sh
 
-32 directories, 76 files
+32 directories, 77 files
 ```
 ## Author
 
