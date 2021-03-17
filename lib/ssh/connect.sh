@@ -53,7 +53,7 @@ p6_aws_ssh_connect_jump() {
   local rcli
   local cli
   rcli="ssh -t -i .ssh/private-bastion.pem $host"
-  cli="ssh -t $bastion_user@$bastion_host \"$rcli\""
+  cli="ssh -A -t $bastion_user@$bastion_host \"$rcli\""
 
   p6_msg "$cli"
   p6_remote_ssh_do "$cli"
