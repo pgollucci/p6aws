@@ -572,7 +572,6 @@
 ├── svc
 │   ├── autoscaling
 │   │   ├── _lc.sh
-│   │   ├── _write.sh
 │   │   └── asg.sh
 │   ├── cloudformation
 │   │   └── stack.sh
@@ -586,7 +585,6 @@
 │   ├── dynamodb
 │   │   └── table.sh
 │   ├── ec2
-│   │   ├── _write.sh
 │   │   ├── ami.sh
 │   │   ├── instance.sh
 │   │   ├── key_pair.sh
@@ -603,17 +601,13 @@
 │   ├── ec2instanceconnect
 │   │   └── util.sh
 │   ├── eks
-│   │   ├── _write.sh
 │   │   ├── cluster.sh
 │   │   └── prompt.sh
 │   ├── elb
-│   │   ├── _write.sh
 │   │   └── main.sh
 │   ├── elbv2
-│   │   ├── _write.sh
 │   │   └── main.sh
 │   ├── iam
-│   │   ├── _write.sh
 │   │   ├── alias.sh
 │   │   ├── instance.sh
 │   │   ├── policy.sh
@@ -622,20 +616,16 @@
 │   ├── imagebuilder
 │   │   └── main.sh
 │   ├── kms
-│   │   ├── _write.sh
 │   │   └── key.sh
 │   ├── lambda
-│   │   ├── _write.sh
 │   │   └── function.sh
 │   ├── organizations
-│   │   ├── _write.sh
 │   │   ├── account.sh
 │   │   ├── lz.sh
 │   │   └── sts.sh
 │   ├── s3
 │   │   └── bucket.sh
 │   ├── s3api
-│   │   ├── _write.sh
 │   │   └── bucket.sh
 │   ├── secretsmanager
 │   │   └── secret.sh
@@ -656,7 +646,7 @@
     ├── p6_return.sh
     └── template.sh
 
-31 directories, 83 files
+31 directories, 73 files
 ```
 ## Author
 
