@@ -40,7 +40,10 @@ p6_aws_cfg_realize() {
                     key=$(echo "$line" | cut -d = -f 1 | sed -e 's, *,,g')
                     val=$(echo "$line" | cut -d = -f 2 | sed -e 's, *,,g')
 
-                    p6_aws_env_"${key}"_active "$val"
+		    case $key in
+                    *region*) p6_aws_util_env_region "$val" ;;
+                    *) p6_aws_env_"${key}"_active "$val" ;;
+                    esac
                 fi
                 ;;
             "")

@@ -6,7 +6,7 @@
 #>
 ######################################################################
 p6_aws_svc_alb_list() {
-    #   local vpc_id="${1:-$AWS_VPC}"
+    #   local vpc_id="${1:-$AWS_VPC_ID}"
     #   --filters "Name=vpc-id,Values=$vpc_id"
 
     p6_aws_cli_cmd elbv2 describe-load-balancers \
