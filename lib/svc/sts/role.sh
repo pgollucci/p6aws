@@ -101,6 +101,7 @@ p6_aws_svc_sts_role_credentials_activate() {
 
     # Tell the World
     p6_aws_util_env_profile "$role_arn" >/dev/null
+    p6_aws_util_env_region "$(p6_aws_env_region_source)" >/dev/null
 
     p6_return_void
 }
