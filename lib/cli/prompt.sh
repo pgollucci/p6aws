@@ -21,7 +21,17 @@ p6_aws_cfg_prompt_info() {
 
     local str
     if ! p6_string_blank "$org"; then
-        local str="aws:\t  [$org] - ${kind}:$profile [$region] ($vpc_id)"
+        str="aws:\t  org:[$org]"
+    fi
+    if ! p6_string_blank "$profile"; then
+        kind=${kind/_/}
+        str="$str - ${kind}:[$profile]"
+    fi
+    if ! p6_string_blank "$region"; then
+        str="$str region:[$region]"
+    fi
+    if ! p6_string_blank "$vpc_id"; then
+        str="$str ($vpc_id)"
     fi
 
     p6_return_str "$str"
