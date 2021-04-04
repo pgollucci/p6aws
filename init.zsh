@@ -15,6 +15,8 @@ p6df::modules::p6aws::deps() {
 #
 # Function: p6df::modules::p6aws::init()
 #
+#  Depends:	 p6_bootstrap
+#  Environment:	 P6_DFZ_SRC_DIR
 #>
 ######################################################################
 p6df::modules::p6aws::init() {

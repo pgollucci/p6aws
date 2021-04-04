@@ -423,7 +423,10 @@
 
 #### svc/lambda/function.sh:
 
-- p6_aws_svc_lambda_list()
+- p6_aws_svc_lambda_functions_by_runtime()
+- p6_aws_svc_lambda_functions_envs()
+- p6_aws_svc_lambda_functions_list()
+- p6_aws_svc_lambda_functions_runtimes()
 
 
 ### svc/organizations:
