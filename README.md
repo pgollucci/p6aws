@@ -48,28 +48,6 @@
 - p6df::modules::p6aws::init()
 
 
-### alfred:
-
-#### alfred/bastion.sh:
-
-- p6_aws_alfred_bastion_private(pfunc)
-- p6_aws_alfred_bastion_public(pfunc)
-
-#### alfred/browser.sh:
-
-- p6_aws_alfred_browser_console(pfunc)
-
-#### alfred/nodeps.sh:
-
-- p6_aws_alfred_profiles_list_q(org)
-- p6_aws_alfred_profiles_to_alred_items_q(org, ...)
-
-#### alfred/profile.sh:
-
-- str json = p6_aws_alfred_profiles_to_alred_items(org, ...)
-- words profiles = p6_aws_alfred_profiles_list(org)
-
-
 ### cfg:
 
 #### cfg/api.sh:
@@ -195,15 +173,6 @@
 #### profile/cred.sh:
 
 - p6_aws_profile_cred_add()
-
-
-### ssh:
-
-#### ssh/connect.sh:
-
-- p6_aws_ssh_connect_jump(tag)
-- p6_aws_ssh_connect_private(tag)
-- p6_aws_ssh_connect_public()
 
 
 ### svc/autoscaling:
@@ -544,11 +513,6 @@
 ## Hier
 ```text
 .
-├── alfred
-│   ├── bastion.sh
-│   ├── browser.sh
-│   ├── nodeps.sh
-│   └── profile.sh
 ├── cfg
 │   ├── _gen.sh
 │   ├── _kinds.sh
@@ -570,8 +534,6 @@
 │   ├── config.sh
 │   ├── cred.sh
 │   └── debug.sh
-├── ssh
-│   └── connect.sh
 ├── svc
 │   ├── autoscaling
 │   │   ├── _lc.sh
@@ -649,7 +611,7 @@
     ├── p6_return.sh
     └── template.sh
 
-31 directories, 73 files
+29 directories, 68 files
 ```
 ## Author
 

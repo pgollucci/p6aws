@@ -3,6 +3,7 @@
 #
 # Function: p6df::modules::p6aws::deps()
 #
+#  Depends:	 p6_bootstrap
 #>
 ######################################################################
 p6df::modules::p6aws::deps() { 
