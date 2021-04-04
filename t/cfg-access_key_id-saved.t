@@ -5,9 +5,6 @@ main() {
     . ../p6common/lib/_bootstrap.sh
     p6_bootstrap "../p6common"
 
-    . ../p6test/lib/_bootstrap.sh
-    p6_p6test_bootstrap "../p6test"
-
     . lib/env/active.sh
     . lib/env/source.sh
     . lib/env/saved.sh
@@ -24,15 +21,15 @@ main() {
 
         p6_test_run "p6_aws_env_access_key_id_saved"
         p6_test_assert_blank "$(p6_test_run_stderr)" "no stderr"
-        p6_test_assert_contains "$(p6_test_run_stdout)" "val" "old val returned"
+        p6_test_assert_eq "$(p6_test_run_stdout)" "val" "old val returned"
 
         p6_test_run "p6_aws_env_access_key_id_saved new"
         p6_test_assert_blank "$(p6_test_run_stderr)" "no stderr"
-        p6_test_assert_contains "$(p6_test_run_stdout)" "val" "old val returned"
+        p6_test_assert_eq "$(p6_test_run_stdout)" "val" "old val returned"
 
         p6_test_run "p6_aws_env_access_key_id_saved"
         p6_test_assert_blank "$(p6_test_run_stderr)" "no stderr"
-        p6_test_assert_contains "$(p6_test_run_stdout)" "new" "old val returned"
+        p6_test_assert_eq "$(p6_test_run_stdout)" "new" "old val returned"
     )
     p6_test_finish
 
