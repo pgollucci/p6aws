@@ -2,6 +2,39 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.2](https://github.com/p6m7g8/p6aws/compare/v2.1.1...v2.1.2) (2021-04-04)
+
+
+### Features
+
+* **api:** moves _write to p6-cirrus ([#91](https://github.com/p6m7g8/p6aws/issues/91)) ([afe1b82](https://github.com/p6m7g8/p6aws/commit/afe1b8284818fcbf21594ed89da7429f1406b3f4))
+* **iam:** adds `p6_aws_svc_iam_account_alias()` ([#84](https://github.com/p6m7g8/p6aws/issues/84)) ([18046c4](https://github.com/p6m7g8/p6aws/commit/18046c4de2ec726e07a82bd6b2e39932e36b812a))
+* **lambda:** adds some views ([#95](https://github.com/p6m7g8/p6aws/issues/95)) ([fa229dc](https://github.com/p6m7g8/p6aws/commit/fa229dc76e1a70e438b61730cb358c3f58d2d770))
+* **organizations:** adds `p6_aws_svc_organizations_lz_do()` ([#82](https://github.com/p6m7g8/p6aws/issues/82)) ([529b338](https://github.com/p6m7g8/p6aws/commit/529b338c8bacbdd22e73a8d6ddc11d207c7d1f21))
+* **prompt:** adds org display ([#88](https://github.com/p6m7g8/p6aws/issues/88)) ([36648fd](https://github.com/p6m7g8/p6aws/commit/36648fd97e32e152326da2faa6bbcb6826974846))
+
+
+### Bug Fixes
+
+* **cfg:** p6_aws_cfg_realize() wasn't setting AWS_DEFAULT_REGION ([#92](https://github.com/p6m7g8/p6aws/issues/92)) ([01fcca0](https://github.com/p6m7g8/p6aws/commit/01fcca0e0616da967f40f1fc89b7922fe782c0ea))
+* **prompt:** standardizes prompt ([#93](https://github.com/p6m7g8/p6aws/issues/93)) ([f34bb7c](https://github.com/p6m7g8/p6aws/commit/f34bb7c73cca925852bceaf1e15e7fbdc77612e3))
+* **ssh:** adds -A to forward the ssh-agent ([#90](https://github.com/p6m7g8/p6aws/issues/90)) ([995208a](https://github.com/p6m7g8/p6aws/commit/995208a206c98813a2485401461982fbe494f95e))
+
+
+* **alfred:** no deps alfred setup for speed ([#81](https://github.com/p6m7g8/p6aws/issues/81)) ([5c9b80d](https://github.com/p6m7g8/p6aws/commit/5c9b80dc11cdea90252477b2282d717d4e895b9f))
+* **alfred:** rerturns browser w/ federation; splits ec2/network ([#74](https://github.com/p6m7g8/p6aws/issues/74)) ([f1195cd](https://github.com/p6m7g8/p6aws/commit/f1195cd90d70493ffe5936379d27f901875e987b))
+* **alfred:** split into _q and regular ([#89](https://github.com/p6m7g8/p6aws/issues/89)) ([966c31b](https://github.com/p6m7g8/p6aws/commit/966c31bdb29be2e89ee4e639f159ac2756426336))
+* **alfred:** split up, rename ([#80](https://github.com/p6m7g8/p6aws/issues/80)) ([0dd6720](https://github.com/p6m7g8/p6aws/commit/0dd6720da08eaf007e7ea580817dfdd07034f12f))
+* **api:** moves write actions to _write.sh in prep for extraction ([#86](https://github.com/p6m7g8/p6aws/issues/86)) ([79d7a5f](https://github.com/p6m7g8/p6aws/commit/79d7a5f3d4d56c7f5b29547c54daf51b1ba58029))
+* **cfg:** adds tests for accessors ([#79](https://github.com/p6m7g8/p6aws/issues/79)) ([07713fa](https://github.com/p6m7g8/p6aws/commit/07713faf51f2898a217edcb7d30f6836a981faea))
+* **doc:** regens ([#78](https://github.com/p6m7g8/p6aws/issues/78)) ([85ce1f1](https://github.com/p6m7g8/p6aws/commit/85ce1f1667a9b466b15674443d30dcc4db505cba))
+* **heir:** more renames ([#85](https://github.com/p6m7g8/p6aws/issues/85)) ([f619409](https://github.com/p6m7g8/p6aws/commit/f6194099340d2bf81aaff5db24a92db878abe4bf))
+* **organizations:** renames function ([#87](https://github.com/p6m7g8/p6aws/issues/87)) ([d780cae](https://github.com/p6m7g8/p6aws/commit/d780cae92f2437fa1a312847274429ad25985e5d))
+* **prompt:** remove [] ([#94](https://github.com/p6m7g8/p6aws/issues/94)) ([856ee17](https://github.com/p6m7g8/p6aws/commit/856ee17d36df4cf94a63a5851357b5bb9f019365))
+* clean up ([#75](https://github.com/p6m7g8/p6aws/issues/75)) ([048f822](https://github.com/p6m7g8/p6aws/commit/048f822f82ee433325706d3a11985c21e170978e))
+* silences output ([#77](https://github.com/p6m7g8/p6aws/issues/77)) ([c3052db](https://github.com/p6m7g8/p6aws/commit/c3052db3054a9e2c5748c05792440354bc18759b))
+* the great vscode indent of 2021 ([#76](https://github.com/p6m7g8/p6aws/issues/76)) ([aff834f](https://github.com/p6m7g8/p6aws/commit/aff834fb737ca629d76dc8b0cab044c1c194601c))
+
 ### [2.1.1](https://github.com/p6m7g8/p6aws/compare/v2.1.0...v2.1.1) (2021-03-13)
 
 
