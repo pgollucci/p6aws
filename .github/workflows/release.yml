@@ -20,7 +20,7 @@ jobs:
           git config user.name "Auto-bump"
           git config user.email "github-actions@github.com"
       - name: Bump and Release
-        run: /bin/sh scripts/release.sh
+        run:  bin/p6ctl release
       - name: Upload artifact
         uses: actions/upload-artifact@v2.1.1
         with:

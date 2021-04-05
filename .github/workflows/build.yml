@@ -12,5 +12,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Test
-        run:  scripts/build.sh
+      - name: Build
+        run:  bin/p6ctl build
+    container:
+      image: docker
